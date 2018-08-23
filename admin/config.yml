@@ -1,0 +1,7 @@
+backend:
+  name: git-gateway
+  branch: master # branch to update (optional; defaults to master)
+
+publish_mode: editorial_workflow # docs: https://www.netlifycms.org/docs/configuration-options/#publish-mode
+
+media_foler: "images/uploads"

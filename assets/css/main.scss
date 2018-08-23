@@ -1,5 +1,12 @@
 ---
 ---
+/*****************************************
+Modules: Meant for code that output css - mixins, functions, variables
+Partials: Meat of the CSS - components, buttons, images
+Vendor: Don't edit this directory, this is for libraries like bootstrap
+
+*****************************************/
+
 @charset "utf-8";
 
 @import 'vendor/normalize';
