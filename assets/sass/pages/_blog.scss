@@ -1,0 +1,210 @@
+.lgx-blog {
+  background: url('http://via.placeholder.com/1920x900') top center no-repeat fixed;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  color: $white-color;
+  .lgx-inner {
+    @include bg-rgba($black-color, 0.8);
+  }
+  .lgx-btn-area {
+    text-align: center;
+  }
+  .blog-area {
+    overflow: hidden;
+    display: block;
+  }
+}
+
+.lgx-owlnews {
+  .item {
+    padding-left: 10px;
+    padding-right: 10px;
+    position: relative;
+    z-index: 999;
+  }
+  &:hover {
+    .owl-controls {
+      .owl-prev,
+      .owl-next {
+        opacity: 1;
+      }
+      .owl-prev {
+        left: 0;
+      }
+      .owl-next {
+        right: 0;
+      }
+    }
+  }
+}
+
+.lgx-blog-normal {
+  *, *:before, *:after {
+    box-sizing:  border-box !important;
+  }
+
+  .row {
+    -moz-column-width: 22em;
+    -webkit-column-width: 22em;
+    -moz-column-gap: 1em;
+    -webkit-column-gap:1em;
+
+  }
+
+  .lgx-news-single {
+    display: inline-block;
+    width:  100%;
+  }
+}
+
+
+
+.lgx-news-single {
+  background: $white-color;
+  border-radius: 6px;
+  border: 1px solid $border-color;
+  padding: 1.5rem;
+  margin-bottom: 2.4rem;
+  figure {
+    position: relative;
+    @include scale($ratio:1);
+    @include transition-duration($duration: 0.3s);
+    figcaption {
+      .figcaption {
+        background: -webkit-linear-gradient(left,rgba(255,0,0,0),rgba(20,24,35,1)); /*Safari 5.1-6*/
+        background: -o-linear-gradient(bottom,rgba(255,0,0,0),rgba(20,24,35,1)); /*Opera 11.1-12*/
+        background: -moz-linear-gradient(bottom,rgba(255,0,0,0),rgba(20,24,35,1)); /*Fx 3.6-15*/
+        background: linear-gradient(to bottom, rgba(255,0,0,0), rgba(20,24,35,1)); /*Standard*/
+        -webkit-transition: all 0.2 ease;
+        transition: all 0.3s linear;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        -webkit-transition: all 0.2 ease;
+        transition: all 0.3s linear;
+        opacity: .9;
+        .lgx-hover-link {
+          display: table;
+          height: 50%;
+          width: 100%;
+          @include transition-duration($duration: 0.8s);
+          .lgx-vertical {
+            display: table-cell;
+            text-align: center;
+            vertical-align: middle;
+            opacity: 0;
+            a {
+              background: $white-color;
+              color: $brand-color;
+              width: 50px;
+              height: 50px;
+              display: inline-block;
+              border-radius: 50%;
+              -webkit-box-shadow: 0 4px 10px rgba(0,0,0,.25);
+              -moz-box-shadow: 0 4px 10px rgba(0,0,0,.25);
+              box-shadow: 0 4px 10px rgba(0,0,0,.25);
+            }
+            i {
+              @include font-size(24);
+              line-height: 5.2rem;
+            }
+          }
+        }
+      }
+      .author {
+        position: absolute;
+        bottom: 15px;
+        left: 10px;
+        @include transition-duration($duration: 0.8s);
+        img {
+          max-width: 60px;
+          float: left;
+          border-radius: 50%;
+          border: 3px solid $white-color;
+          margin-right: 1rem;
+        }
+        .author-info {
+          overflow: hidden;
+          margin-left: 5px;
+          color: $white-color;
+          .title {
+            font-family: $lgx-heading-font;
+            margin-bottom: 0;
+            color: $brand-color;
+            font-weight: 700;
+          }
+          .subtitle {
+            @include font-size(13);
+            margin: 0;
+            color: $white-color;
+          }
+        }
+      }
+    }
+  }
+  .text-area {
+    padding: 2rem 1.5rem;
+    .title {
+      @include font-size(20);
+      color: $black-color;
+      margin: 0;
+      margin-bottom: 1rem;
+    }
+    .text {
+      margin-bottom: 1rem;
+    }
+    .text-bottom {
+      .date {
+        font-family: $lgx-heading-font;
+        @include font-size(15);
+      }
+      .link {
+        float: right;
+        @include font-size(24);
+      }
+    }
+  }
+
+  &:hover {
+    figure {
+      @include scale($ratio:1.02);
+      -webkit-box-shadow: 0 20px 35px rgba(0, 0, 0, 0.12);
+      -moz-box-shadow: 0 20px 35px rgba(0, 0, 0, 0.12);
+      box-shadow: 0 20px 35px rgba(0, 0, 0, 0.12);
+      figcaption {
+        height: 100%;
+        opacity: 1;
+        .figcaption {
+          @include bg-rgba($brand-color, .95);
+          height: 100%;
+          .lgx-hover-link {
+            height: 100%;
+            .lgx-vertical {
+              opacity: 1;
+            }
+          }
+        }
+        .author {
+          bottom: 0;
+          opacity: 0;
+        }
+      }
+    }
+  }
+}
+
+.lgx-blog-list {
+  blockquote {
+    min-height: 260px;
+    margin: 0;
+  }
+}
+
+
+.lgx-blog-white {
+  background: $white-color;
+}

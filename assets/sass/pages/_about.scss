@@ -1,0 +1,45 @@
+
+.lgx-about {
+  background: $white-color;
+  background: url('../img/about-bg.jpg') bottom center no-repeat;
+  -webkit-background-size: contain;
+  -o-background-size: contain;
+  -moz-background-size: contain;
+  background-size: contain;
+  .lgx-heading {
+    margin-bottom: 2.4rem;
+    text-align: center;
+  }
+  .lgx-inner {
+    padding: 10.2rem 0;
+  }
+}
+
+.lgx-about-man {
+  .lgx-inner {
+    padding: 6.3rem 0 0;
+  }
+  .lgx-about-area {
+    padding: 10.2rem 0 0;
+  }
+}
+
+.lgx-about-bottom {
+  .lgx-inner {
+    padding-bottom: 0;
+  }
+}
+
+
+.lgx-about-content {
+  text-align: center;
+  margin-bottom: 3.9rem;
+  .subtitle {
+    @include font-size(15);
+    font-weight: 400;
+    color: $black-color;
+  }
+  .lgx-btn {
+    margin-top: 2.4rem;
+  }
+}

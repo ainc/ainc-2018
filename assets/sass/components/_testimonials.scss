@@ -1,0 +1,41 @@
+.lgx-testimonials {
+  background: url('http://via.placeholder.com/1920x915') top center no-repeat fixed;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  .lgx-inner {
+    @include bg-rgba($body-bg-deep, .9);
+  }
+}
+
+
+.lgx-testi-single {
+  overflow: hidden;
+  margin: 0 1rem;
+  background: $white-color;
+  padding: 2rem;
+  border-radius: 6px;
+  .lgx-client-image {
+    float: left;
+    max-width: 120px;
+    img {
+      border-radius: 50%;
+    }
+  }
+  .testi-info-area {
+    overflow: hidden;
+    padding: 0 0 0 1.5rem;
+    .lgx-client-name {
+      font-family: $lgx-heading-font;
+      margin-bottom: 0;
+    }
+    .lgx-client-title {
+      @include font-size(13);
+      text-transform: uppercase;
+      margin-top: 0;
+      opacity: .7;
+      font-weight: 400;
+    }
+  }
+}

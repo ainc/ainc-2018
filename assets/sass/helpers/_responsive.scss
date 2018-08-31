@@ -1,0 +1,570 @@
+/* ---------------------------------------------------------------------------
+    Customized by http://vaskar.me/
+ ---------------------------------------------------------------------------
+    Min-Width: Refers to everything greater than or equal to the amount given.
+    Max-Width: Refers to everything less than or equal to the amount given.
+ ---------------------------------------------------------------------------/*
+
+/* -----------------------------------------------------------------------
+    Large devices (large desktops, 1200px and up)
+ ------------------------------------------------------------------------*/
+@media (min-width: 1200px) and (max-width: 1400px) {
+    .lgx-banner .lgx-inner {
+        padding: 25rem 0 20rem;
+    }
+
+}
+
+@media (min-width: $screen-lg-min) {
+    /************** 1200 GLOBAl USE***********/
+    .lg-text-center {
+        text-align: center;
+    }
+
+    /************** 1200 GLOBAl USE END***********/
+}
+
+
+/* -----------------------------------------------------------------------
+     Medium devices (desktops, UP TO 1199px~992px)
+ ------------------------------------------------------------------------*/
+@media (max-width : $screen-md-max) {
+    /************** 1199 GLOBAl USE***********/
+    html {
+        font-size: 55%;
+    }
+
+    .md-text-center {
+        text-align: center;
+    }
+
+  .lgx-header .header-top .header-top-inner .right-menu .login-register a {
+    padding: 12px 2rem;
+  }
+
+  .lgx-sessions .sessions-details .session-info {
+    width: 88.7%;
+  }
+
+
+
+
+
+
+
+    /************** 1199 GLOBAl USE END***********/
+
+}
+
+/* ----------------------------------------------------------------------
+     Small devices (tablets, UP TO 991px~768px)
+ -----------------------------------------------------------------------*/
+@media (max-width : $screen-sm-max) {
+    /************** 991 GLOBAl USE***********/
+    html {
+        font-size: 53%;
+    }
+    .sm-text-center {
+        text-align: center;
+    }
+  .lgx-header .lgx-navbar .lgx-logo a img {
+    max-width: 140px;
+    margin-top: 4px;
+  }
+  .lgx-header .lgx-navbar .lgx-nav li a {
+    letter-spacing: 0;
+    padding-left: 7px;
+    padding-right: 7px;
+  }
+  .menu-onscroll .lgx-navbar .lgx-nav li .lgx-btn {
+    margin-top: 1.8rem;
+  }
+
+  .lgx-header .header-top .header-top-inner .contact {
+    text-align: center;
+  }
+  .lgx-header .header-top .header-top-inner .right-menu {
+    text-align: center;
+  }
+
+  .lgx-banner .lgx-inner-fixed {
+    padding: 16rem 0;
+  }
+  .lgx-video-area figure figcaption .video-icon .icon::before {
+    top: -61px;
+  }
+
+  .lgx-heading .heading-title {
+    line-height: 4.5rem;
+  }
+
+  .lgx-gallery-single {
+    width: 50%;
+  }
+
+  .lgx-contact .lgx-contactform {
+    margin-bottom: 3.9rem;
+  }
+
+  .course-hits-area .course-hit .course-author img {
+    max-width: 40px;
+  }
+  .lgx-sessions .sessions-details .session-info {
+    width: 84.7%;
+  }
+
+
+  /************** 991 GLOBAl USE END ***********/
+
+}
+
+
+@media (max-width : $screen-xs-max) {
+  .lgx-banner-typed .lgx-banner-style {
+    background-size: 170% !important;
+    background-position: center bottom !important;;
+  }
+}
+
+@media (max-width : $screen-xs-max) {
+  .lgx-banner.lgx-banner-typed {
+    background-size: 100% !important;
+    background-position: center bottom !important;
+  }
+  .lgx-banner-typed .lgx-banner-style {
+    background: transparent !important;
+  }
+}
+
+/* ---------------------------------------------------------------------
+    Extra small devices (phones, less UP TO 767px)
+ ----------------------------------------------------------------------*/
+@media (max-width : $screen-xs-max) {
+    /************** 767 GLOBAl USE***********/
+    html {
+        font-size: 52%;
+    }
+
+    .xs-text-center{
+        text-align: center;
+    }
+    .xs-text-right {
+        text-align: right;
+    }
+
+    .xs-text-left {
+        text-align: left;
+    }
+    .xs-float-none {
+        float: none;
+    }
+
+    .sm-text-center {
+        text-align: center;
+    }
+
+    /*Typography*/
+    h1, .h1 {
+        @include font-size(42);
+        line-height: 4.8rem;
+    }
+
+    h2, .h2 {
+        @include font-size(42);
+        line-height: 4.8rem;
+    }
+
+    h3, .h3 {
+        font-size: 16px;
+        line-height: 2.4rem;
+        font-weight: 400;
+    }
+    .lgx-btn {
+        padding: 1rem 2.6rem;
+    }
+
+  .lgx-header {
+    @include bg-rgba($black-color, 0.90);
+  }
+  .lgx-header .lgx-navbar .lgx-nav {
+    float: left;
+  }
+  .navbar-default .navbar-toggle {
+    border-color: $brand-color;
+    span {
+    }
+  }
+  .navbar-default .navbar-toggle .icon-bar {
+    background-color: $brand-color;
+  }
+
+
+
+  .menu-onscroll .lgx-navbar {
+    background: transparent;
+  }
+  .lgx-header .lgx-navbar .lgx-nav li .lgx-btn {
+    margin-bottom: 16px;
+  }
+  .menu-onscroll .lgx-navbar .lgx-nav li a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+
+  .lgx-header {
+    top: 1px;
+  }
+  .menu-onscroll {
+    top: 0;
+  }
+
+  .lgx-footer-single {
+    text-align: center;
+  }
+  .lgx-footer-bottom .lgx-copyright {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 1.7rem;
+  }
+  .lgx-footer-bottom .lgx-social-footer {
+    width: 100%;
+    text-align: center;
+  }
+
+  .lgx-header .lgx-header-bottom {
+    .lgx-search-mobile {
+      color: $brand-color;
+    }
+  }
+
+  .lgx-header .lgx-header-bottom-fixed-black {
+    @include bg-rgba($black-color, 0.7);
+  }
+  .lgx-header .lgx-header-bottom-fixed {
+    @include bg-rgba($white-color, 0.7);
+    .lgx-search-mobile {
+      color: $brand-color;
+    }
+  }
+
+  .lgx-heading .heading-title {
+    font-size: 3rem;
+    line-height: 3rem;
+  }
+  .lgx-inner,
+  .lgx-about-bottom .lgx-inner,
+  .lgx-register .lgx-inner {
+    padding: 6.3rem 0;
+  }
+  .lgx-about-bottom .lgx-inner {
+    padding-bottom: 0;
+  }
+  .lgx-about-content {
+    margin-bottom: 2.4rem;
+  }
+  .lgx-filter {
+    margin-bottom: 2rem;
+  }
+  .lgx-filter li {
+    margin-bottom: 2.4rem;
+  }
+  .lgx-heading {
+    margin-bottom: 3.9rem;
+  }
+  .lgx-heading-registration .subtitle {
+    font-size: 2.4rem;
+  }
+  .lgx-heading-registration .title {
+    font-size: 3.9rem;
+    line-height: 4.5rem;
+  }
+  .lgx-video-area {
+    padding-top: 6.3rem;
+  }
+
+  .lgx-gallery-single {
+    padding: 4px;
+  }
+  .lgx-video-area figure figcaption .video-icon .icon::before {
+    width: 90px;
+    height: 90px;
+    top: -44px;
+    left: 20px;
+  }
+  .lgx-video-area figure figcaption .video-icon .icon i {
+    height: 70px;
+    width: 70px;
+    line-height: 74px;
+    font-size: 24px;
+    padding-left: 10px;
+  }
+
+  .lgx-modal .modal-dialog .modal-content .modal-body {
+    width: 80%;
+  }
+  .lgx-modal .modal-dialog .modal-content .modal-body iframe {
+    height: 300px;
+  }
+  .lgx-single-event .event-info {
+    overflow: visible;
+  }
+  .lgx-single-event .thumb {
+    float: none;
+    max-width: 100%;
+    margin-bottom: 1rem;
+    margin-right: 0;
+  }
+
+  .lgx-featured-event figure figcaption .event-info .date {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+  }
+  .lgx-featured-event figure figcaption .event-info .info-right {
+    overflow: visible;
+  }
+  .lgx-featured-event .event-info .date h4 span {
+    display: inline-block;
+    color: $white-color;
+    margin-left: 5px;
+  }
+  .lgx-featured-event .event-info .date h4 {
+    font-size: 1.5rem;
+    text-align: left;
+  }
+  .lgx-featured-event figure figcaption .event-info .date h4 {
+    line-height: 2.5rem;
+  }
+  .lgx-footer-single {
+    margin-bottom: 1rem;
+  }
+  .lgx-footer-single .title {
+    margin-bottom: 1rem;
+  }
+  .lgx-footer-middle {
+    padding: 6.3rem 0;
+  }
+  .lgx-footer-single .logo {
+    margin-bottom: 2rem;
+  }
+  .lgx-getintouch-area .lgx-getintouch {
+    margin-top: 0;
+  }
+  .lgx-header .lgx-navbar .lgx-nav li a {
+    padding: 10px;
+  }
+
+  .lgx-navbar-search .lgx-menu-search.open {
+    display: block;
+    .input-group .form-control {
+      background: $white-color;
+    }
+  }
+
+  .lgx-single-service,
+  .lgx-single-course,
+  .lgx-featured-event,
+  .lgx-single-event {
+    max-width: 480px;
+    margin: 0 auto;
+    margin-bottom: 2.4rem;
+  }
+
+  .lgx-slider {
+    .owl-carousel .owl-item img {
+      height: 340px;
+    }
+    .lgx-banner-info .text {
+      display: none;
+    }
+  }
+
+
+  .lgx-slider .owl-next, .lgx-slider .owl-prev {
+    top: 52%;
+  }
+  .lgx-slider .owl-controls .owl-nav [class*="owl-"] {
+    height: 45px;
+    width: 45px;
+  }
+
+  .lgx-slider .owl-controls .owl-nav [class*="owl-"] i {
+    font-size: 24px;
+    line-height: 37px;
+  }
+  .lgx-slider .lgx-banner-info {
+    margin-top: 5rem;
+  }
+  .lgx-about-man .lgx-inner {
+    padding: 0;
+  }
+  .lgx-milestone-about .lgx-inner {
+    padding: 10rem 0 6.3rem;
+  }
+
+  .lgx-banner.lgx-banner-typed {
+    background-attachment: fixed;
+    background-position: center bottom;
+    background-size: auto !important;
+  }
+
+  .lgx-banner-typed .lgx-inner-fixed {
+    padding: 4rem 0 8rem;
+  }
+
+  .lgx-header-container .lgx-header-bottom .input-group-btn > .btn {
+    left: 13px;
+  }
+  .lgx-banner-info {
+    margin-top: 5rem;
+    .btn-area {
+      margin-bottom: 2rem;
+    }
+  }
+
+  .lgx-video-area-bg figure figcaption .video-icon .icon i {
+    height: 70px;
+    width: 70px;
+    line-height: 71px;
+  }
+
+  .lgx-banner-six .lgx-inner-fixed {
+    padding: 10rem 0;
+  }
+
+  .lgx-social li a i {
+    line-height: 46px;
+  }
+
+  .lgx-teacher-single article header .text-area, .lgx-teacher-single article header figure {
+    width: 100%;
+    float: none;
+  }
+  .lgx-teacher-single article header figure {
+    margin-bottom: 1.5rem;
+  }
+  .lgx-teacher-single article header .text-area {
+    padding-left: 0;
+  }
+  .lgx-social li a {
+    margin-bottom: 1rem;
+  }
+
+  .lgx-featured-event:hover,
+  .lgx-single-event:hover {
+    .thumb {
+      @include scale($ratio:1.02);
+    }
+  }
+
+  .course-hits-area .course-hitcourse-payment {
+    margin-top: 2rem;
+    width: 100%;
+  }
+  .course-hits-area .course-hit {
+    width: 100%;
+  }
+
+  .lgx-sessions .sessions-details .session-info {
+    width: 80.7%;
+  }
+  .lgx-sessions .sessions-details .date {
+    width: auto;
+    padding: 1.5rem;
+  }
+  .lgx-speakers .lgxevent_speaker_items .lgxevent_speaker_item,
+  .lgx-sponsors .lgxevent_sponsor_items-area .lgxevent_sponsor_items .lgxevent_sponsor_item .lgxcpanelbox {
+    width: 48%;
+  }
+
+  .lgxpage-header .header-action {
+    margin: 1rem;
+    margin-top: 0;
+    width: 100%;
+  }
+  .lgxpage-header .header-text {
+    border-left: 0 none;
+    padding: 1.5rem;
+    width: 100%;
+  }
+
+
+    /************** 767 GLOBAl USE END***********/
+
+
+}/*767 END*/
+
+
+/* ----------------------------------------------------------------
+      Custom, iPhone Retina  UP TO 480px
+-------------------------------------------------------------------*/
+@media (max-width : 480px) {
+    /************** 480 GLOBAl USE***********/
+
+    html {
+        font-size: 50%;
+    }
+
+  .lgx-getintouch-area .lgx-getintouch .lgx-btn-contact {
+    float: none;
+    display: block;
+    margin-top: 1.7rem;
+    text-align: center;
+  }
+  .lgx-getintouch-area .lgx-getintouch {
+    text-align: center;
+  }
+  .lgx-banner-info .title {
+    font-size: 2.8rem;
+    line-height: 3.5rem;
+  }
+  .lgx-banner-info .subtitle {
+    font-size: 3rem;
+    line-height: 3.85rem;
+  }
+
+  .lgx-course-feature-area {
+    float: none;
+    margin-left: 0;
+  }
+  .lgx-sessions .sessions-details .date {
+    width: 100%;
+    height: auto;
+  }
+  .lgx-sessions .sessions-details .session-info {
+    width: 100%;
+  }
+
+  .lgx-speakers .lgxevent_speaker_items .lgxevent_speaker_item {
+    width: 100%;
+  }
+
+
+    /************** 480 GLOBAl USE***********/
+
+}
+
+
+/* ----------------------------------------------------------------
+      Custom, iPhone Retina  UP TO 480px
+-------------------------------------------------------------------*/
+@media (max-width : 360px) {
+  /************** 360 GLOBAl USE***********/
+
+
+
+
+  /************** 360 GLOBAl USE***********/
+
+}
+
+
+
+/*-----------------------------------------------------------------------------
+   EXAMPLE: We occasionally expand on these media queries to a narrower set of devices.
+*-------------------------------------------------------------------------------*/
+//@media (min-width: $screen-sm-min) and (max-width: $screen-sm-max) {  }
+
+//@media (min-width: $screen-md-min) and (max-width: $screen-md-max) {  }
+

@@ -1,0 +1,65 @@
+
+
+
+.lgx-subscription {
+  background: url('http://via.placeholder.com/1920x500') bottom center no-repeat;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  .lgx-inner {
+    @include bg-rgba($body-bg, 0.8);
+  }
+}
+.lgx-subscriber-area {
+  max-width: 570px;
+  margin: 0 auto;
+  text-align: center;
+  .title {
+    @include font-size(15);
+    font-weight: 400;
+    line-height: 2.8rem;
+    margin: 0 13% 3.9rem;
+  }
+}
+.lgx-subscriber {
+  position: relative;
+  .subscribe-form {
+    @include bg-rgba($white-color, 0.5);
+    //padding: .8rem;
+    border-radius: 4px;
+    display: block;
+    overflow: hidden;
+    .form-group {
+      margin-bottom: 0;
+    }
+    .lgx-input-form,
+    .the-submit-btn {
+      float: left;
+      height: 52px;
+      border-radius: 4px;
+      border: none;
+
+    }
+    .lgx-input-form {
+      width: 100%;
+      padding-left: 2rem;
+    }
+    .the-submit-btn {
+      margin-left: 1%;
+      font-family: $lgx-heading-font;
+      background: transparent;
+      color: $brand-color;
+      position: absolute;
+      z-index: 1;
+      right: 1.5rem;
+      i {
+        @include font-size(39);
+        line-height: 5.2rem;
+      }
+      &:hover {
+      }
+    }
+  }
+}
+

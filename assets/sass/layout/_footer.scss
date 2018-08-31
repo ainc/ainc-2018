@@ -1,0 +1,267 @@
+
+.lgx-footer {
+  background: $black-color;
+  color: $white-color;
+  text-align: center;
+}
+
+.lgx-getintouch-area {
+  background: url('http://via.placeholder.com/1920x400') top center no-repeat fixed;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  .lgx-getintouch-inner {
+    @include bg-rgba($black-color, .9);
+    padding: 6.3rem 0 6.3rem;
+  }
+  .lgx-getintouch {
+    font-family: $lgx-heading-font;
+    @include font-size(24);
+    text-align: left;
+    color: $white-color;
+    span {
+      font-family: $lgx-base-font;
+      color: $brand-color;
+    }
+    .lgx-btn-contact {
+      float: right;
+    }
+  }
+}
+
+#instafeed {
+  //max-width: 350px;
+  a {
+    //width: 100%;
+    //position: relative;
+    overflow: hidden;
+    width: 33.33%;
+    float: left;
+    img {
+      padding-right: 4px;
+      padding-bottom: 4px;
+      border-radius: 6px;
+      opacity: .8;
+      height: 90px;
+      @include transition-duration($duration: 0.3s);
+      -ms-transform: scale(2);
+      -moz-transform: scale(2);
+      -webkit-transform: scale(2);
+      -o-transform: scale(2);
+      transform: scale(2);
+    }
+    &:hover {
+      img {
+        opacity: 1;
+        -ms-transform: scale(3);
+        -moz-transform: scale(3);
+        -webkit-transform: scale(3);
+        -o-transform: scale(3);
+        transform: scale(3);
+      }
+    }
+  }
+}
+
+.lgx-footer {
+  .lgx-subscriber-area-footer {
+    text-align: left;
+    p {
+      margin-bottom: 1.5rem;
+    }
+    .lgx-subscriber-footer .subscribe-form {
+      background: transparent;
+    }
+    .lgx-subscriber-footer .subscribe-form .lgx-input-form {
+      @include bg-rgba($white-color, .8);
+      box-shadow: none;
+      border: none;
+      border-radius: 0;
+      height: 48px;
+      color: $brand-color;
+    }
+  }
+}
+
+.lgx-footer-middle {
+  @include bg-rgba($black-color, 1);
+  padding: 10.2rem 0;
+}
+
+.lgx-footer-middle-white {
+  @include bg-rgba($border-color, 1);
+  .lgx-footer-single .title {
+    color: $brand-color;
+  }
+  .lgx-footer-bottom {
+    border-top: 1px solid $body-bg;
+  }
+  .lgx-footer-bottom .lgx-copyright ul li a {
+    color: $black-color;
+  }
+  .lgx-footer-single ul li:hover a {
+    color: $brand-color;
+  }
+
+}
+
+.lgx-footer-single {
+  text-align: left;
+  margin-bottom: 6.3rem;
+  color: $footer-text;
+  p {
+    color: inherit;
+  }
+  .logo {
+    margin-bottom: 3.9rem;
+    display: block;
+    img {
+      max-width: 170px;
+    }
+  }
+  address {
+    margin-bottom: 1.5rem;
+    line-height: 2.4rem;
+  }
+  .lgx-address-info {
+    li {
+      line-height: 2.5rem;
+    }
+    i {
+      color: $brand-color;
+      margin-right: 1rem;
+      opacity: .4;
+    }
+    li {
+      &:hover {
+        color: inherit;
+      }
+    }
+  }
+  .title {
+    font-family: $lgx-heading-font;
+    @include font-size(15);
+    text-transform: uppercase;
+    margin-bottom: 2.4rem;
+    color: $white-color;
+    font-weight: 700;
+    letter-spacing: .08rem;
+  }
+  ul {
+    li {
+      font-family: $lgx-base-font;
+      @include font-size(15);
+      color: $footer-text;
+      line-height: 3rem;
+      a {
+        font: inherit;
+        color: inherit;
+        @include transition-duration($duration: 0.3s);
+      }
+      &:hover {
+        color: $white-color;
+        a {
+          color: inherit;
+        }
+      }
+    }
+  }
+}
+
+/*.lgx-instafeed {
+  ul {
+    li {
+      width: 32%;
+      display: inline-block;
+      padding-left: 0;
+      padding-right: 0;
+      margin-bottom: 3px;
+      img {
+        max-height: 100px;
+      }
+    }
+  }
+}*/
+
+.lgx-footer-bottom {
+  border-top: 1px solid #444;
+  padding-top: 2.4rem;
+  .lgx-copyright,
+  .lgx-social-footer {
+    float: left;
+  }
+  .lgx-copyright {
+    width: 60%;
+    text-align: left;
+  }
+  .lgx-social-footer {
+    width: 40%;
+    text-align: right;
+    li {
+      padding-right: 5px;
+      padding-left: 10px;
+      @include transition-duration($duration: 0.3s);
+      a {
+        color: $footer-text;
+        @include transition-duration($duration: 0.3s);
+        i {
+          font-size: 2.4rem;
+          opacity: .7;
+        }
+      }
+      &:hover {
+        a {
+          color: $white-color;
+          i {
+            opacity: 1;
+          }
+          .fa-twitter {
+            color: #1da1f2;
+          }
+          .facebook-f,
+          .fa-facebook-f {
+            color: #3b5998;
+          }
+          .fa-linkedin {
+            color: #00a0dc;
+          }
+          .fa-youtube-play {
+            color: #cd201f;
+          }
+          .fa-instagram {
+            color: #c13584;
+          }
+          .fa-google-plus {
+            color: #dd4b39;
+          }
+          .fa-pinterest-p {
+            color: #bd081c;
+          }
+        }
+      }
+    }
+  }
+
+
+
+  .lgx-copyright {
+    font-family: $lgx-heading-font;
+    color: $footer-text;
+    @include font-size(13);
+    ul {
+      margin-bottom: .5rem;
+      li {
+        a {
+          color: $white-color;
+          &:hover {
+            color: $brand-color;
+          }
+        }
+      }
+    }
+    p {
+      color: $footer-text;
+    }
+  }
+}

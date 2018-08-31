@@ -1,0 +1,28 @@
+.lgx-heading {
+  text-align: center;
+  margin-bottom: 6.3rem;
+  .heading-title {
+    font-family: $lgx-heading-font;
+    @include font-size(39);
+    font-weight: 900;
+    margin-top: 0;
+    color: $black-color;
+  }
+  .heading-subtitle {
+    font-family: $lgx-base-font;
+    @include font-size(17);
+    color: $black-color;
+    font-weight: 400;
+    opacity: .5;
+  }
+}
+
+
+.lgx-heading-white {
+  .heading-title {
+    color: $white-color;
+  }
+  .heading-subtitle {
+    color: $white-color;
+  }
+}

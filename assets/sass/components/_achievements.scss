@@ -1,0 +1,309 @@
+/*.lgx-achivements {
+  background: $body-bg-deep;
+  overflow: hidden;
+  display: block;
+  position: relative;
+  &::before {
+    background: $brand-color;
+    content: "";
+    height: 100%;
+    position: absolute;
+    top: 0;
+    width: 50%;
+    z-index: 1;
+  }
+  &::after {
+    background-image: url(../img/banner-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: 0 100%;
+    background-size: auto;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 50%;
+    height: 100%;
+    content: "";
+    z-index: 2;
+  }
+  .lgx-feedback-bg {
+    background-image: url(../img/milestone-bg.jpg);
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    overflow: hidden;
+    position: relative;
+    z-index: 3;
+  }
+}
+
+.lgx-testi-feedback,
+.lgx-twitter-feedback {
+  overflow: hidden;
+  display: block;
+  width: 50%;
+  float: left;
+  .owl-theme .owl-controls {
+    margin-top: 0;
+  }
+
+  .owl-carousel .owl-item {
+    padding-top: 1rem;
+    padding-left: 1rem;
+  }
+  .lgx-client-image,
+  .testi-info-area,
+  .lgx-thumb,
+  .lgx-tweet-content {
+    float: left;
+    .lgx-date {
+      margin-bottom: 0;
+    }
+  }
+  .lgx-client-image,
+  .lgx-thumb {
+    width: 25%;
+    position: relative;
+    &:before {
+      font-family: FontAwesome;
+      font-size: 20px;
+      position: absolute;
+      top: 0;
+      right: 15px;
+      z-index: 99;
+      width: 45px;
+      height: 45px;
+      text-align: center;
+      border-radius: 50%;
+      line-height: 45px;
+    }
+  }
+  .lgx-client-image {
+    &:before {
+      content: "\f10d";
+      background: $brand-color;
+    }
+  }
+  .lgx-thumb {
+    &:before {
+      content: "\f099";
+      background: $body-bg-deep;
+      color: #1da1f2;
+    }
+  }
+
+  .testi-info-area,
+  .lgx-tweet-content {
+    width: 75%;
+    overflow: hidden;
+  }
+
+
+  .feedback-inner {
+    padding: 11rem 15px 9rem;
+    max-width: 100%;
+    .lgx-heading {
+      text-align: left;
+      margin-bottom: 4.2rem;
+      h2 {
+        font-family: $lgx-heading-font;
+        @include font-size(42);
+        margin: 0;
+        line-height: 4rem;
+      }
+    }
+  }
+}
+
+.lgx-testi-feedback {
+  background: $brand-color;
+  padding-right: 3rem;
+  .feedback-inner {
+    float: right;
+    text-align: left;
+    .lgx-heading {
+      h2 {
+        color: $white-color;
+      }
+    }
+  }
+}
+
+.lgx-owltestimonial {
+  position: relative;
+  .item {
+    color: $white-color;
+    .testi-info-area {
+      display: block;
+      border-radius: 4px;
+    }
+    .lgx-review {
+      font-weight: 400;
+      color: $white-color;
+      span {
+        @include font-noline(2.2);
+        line-height: inherit;
+        font-weight: inherit;
+      }
+    }
+    .lgx-client-image,
+    .testi-info-area {
+      float: left;
+      padding-right: 10px;
+    }
+    .lgx-client-image {
+      img {
+        width: auto;
+        display: inline-block;
+        @include border-radius(50%);
+        -webkit-box-shadow: 1px 2px 10px rgba(52,61,71,.45);
+        -moz-box-shadow: 1px 2px 10px rgba(52,61,71,.45);
+        box-shadow: 1px 2px 10px rgba(52,61,71,.45);
+      }
+      &:hover {
+        img {
+          border-color: $white-color;
+        }
+        figcaption {
+          background-color: $white-color;
+          i {
+            color: $brand-dark;
+          }
+        }
+      }
+    }
+    .lgx-client-name {
+      text-align: left;
+      font-family: $lgx-heading-font;
+      color: $white-color;
+      @include font-size(26);
+      font-weight: 400;
+      letter-spacing: .05rem;
+      &::before {
+        content: '\2014 \00A0';
+        color: $white-color;
+      }
+    }
+  }
+
+  .owl-controls {
+    margin: 0;
+    .owl-nav {
+      [class*=owl-] {
+        @include border-radius(0);
+        i {
+          font-size: 40px;
+          color: $brand-color;
+          font-weight: 400;
+        }
+
+        &:hover {
+          background-color: $brand-color;
+          i {
+            color: $white-color;
+          }
+        }
+      }
+      .owl-prev,
+      .owl-next {
+        color: $brand-color;
+        -moz-transition: all .3s ease-in 0s;
+        -o-transition: all .3s ease-in 0s;
+        -webkit-transition: all .3s ease-in 0s;
+        transition: all .3s ease-in 0s;
+        i {
+          color: inherit;
+          line-height: 52px;
+        }
+        &:hover {
+          background: $brand-color;
+          color: $white-color;
+          -webkit-box-shadow: 1px 2px 10px rgba(52,61,71,.3);
+          -moz-box-shadow: 1px 2px 10px rgba(52,61,71,.3);
+          box-shadow: 1px 2px 10px rgba(52,61,71,.3);
+          i {
+            color: inherit;
+          }
+        }
+      }
+      .owl-prev {
+        position: absolute;
+        left: 0;
+        bottom: 26%;
+        height: 60px;
+        width: 60px;
+        border-radius: 50%;
+      }
+      .owl-next{
+        position: absolute;
+        right: 0;
+        bottom: 26%;
+        height: 60px;
+        width: 60px;
+        border-radius: 50%;
+      }
+    }
+  }
+}
+
+
+
+
+.lgx-twitter-feedback {
+  padding-left: 3rem;
+  .owl-carousel.owl-loaded {
+    margin-left: -4rem;
+  }
+  .lgx-thumb {
+    display: inline-block;
+    padding-right: 10px;
+    img {
+      @include font-size(68);
+      display: inline-block;
+      border: 10px solid $white-color;
+      @include border-radius(50%);
+      -webkit-box-shadow: 1px 2px 10px rgba(52,61,71,.2);
+      -moz-box-shadow: 1px 2px 10px rgba(52,61,71,.2);
+      box-shadow: 1px 2px 10px rgba(52,61,71,.2);
+    }
+  }
+  .lgx-tweet-content {
+    .lgx-date {
+      font-family: $lgx-heading-font;
+      @include font-size(26);
+      font-weight: 400;
+      color: #1da1f2;
+    }
+    .lgx-author {
+      font-family: $lgx-heading-font;
+      @include font-size(26);
+      font-weight: 400;
+      &::before {
+        content: '\2014 \00A0';
+        color: #1da1f2;
+      }
+
+    }
+  }
+
+  .feedback-inner {
+    float: left;
+    .lgx-heading {
+      h2 {
+        color: $brand-color;
+      }
+    }
+  }
+  .owl-item {
+    li {
+      list-style: none;
+      .lgx-date {
+        display: block;
+      }
+    }
+  }
+
+}*/
+
+
+

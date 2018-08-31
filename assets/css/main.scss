@@ -9,9 +9,47 @@ Vendor: Don't edit this directory, this is for libraries like bootstrap
 
 @charset "utf-8";
 
-@import 'vendor/normalize';
+// Helpers
+@import 'helpers/bootvar';
+@import 'helpers/variables';
+@import 'helpers/color';
+@import 'helpers/elements';
+@import 'helpers/font-rem';
+@import 'helpers/animations';
+@import 'helpers/responsive';
 
+// Base
 @import 'base/root';
+@import 'base/typography';
+
+// Components
+@import 'components/achievements';
+@import 'components/banner';
+@import 'components/button';
+@import 'components/milestone';
+@import 'components/photo-gallery';
+@import 'components/slider';
+@import 'components/subscribe';
+@import 'components/testimonials';
+@import 'components/title';
+
+// Layout
+@import 'layout/footer';
+@import 'layout/header';
+@import 'layout/single';
+
+// Pages
+@import 'pages/about';
+@import 'pages/blog';
+@import 'pages/contact';
+@import 'pages/courses';
+@import 'pages/events';
+@import 'pages/registration';
+@import 'pages/service';
+@import 'pages/teachers';
+
+// Vendor
+@import 'vendor/bootstrap';
 
 h1 {
 	color: black;

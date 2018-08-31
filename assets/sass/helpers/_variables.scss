@@ -1,0 +1,61 @@
+
+//== DEFAULT BRAND  COLORS
+$brand-color:#e39a31;
+//$brand-color:#174873;
+
+//== BRAND BLUE COLORS
+$brand-blue:#1976d2;
+
+//== BRAND Olive COLORS
+$brand-olive:#77c043;
+
+//== BRAND Violet COLORS
+$brand-violet:#7e24e6;
+
+//== BRAND ORANGE COLORS
+$brand-orange:#FFBB33;
+
+//== BRAND pink COLORS
+$brand-pink:#ca396a;
+
+//== BRAND Teal COLORS
+$brand-teal: #00695c;
+
+//== BRAND RED COLORS
+$brand-red:#b71c1c;
+
+
+
+//== OTHERS COLORS
+$brand-light: lighten($brand-color, 10%);
+$brand-dark:  darken($brand-color, 7%);
+
+$brand-color2: #42bd41;
+$brand-color3: #3f51b5;
+
+
+//$black-color: #25222c;
+$black-color: #323333;
+//$black-color: #2d3e50;
+//$black-color: #212739;
+$body-bg: #f9f9f9;
+$body-bg-deep: #f1f1f1;
+$white-color: #fff;
+$text-ash: #999;
+$border-color: #ddd;
+$footer-text: #888;
+
+
+
+
+//== Typography Variable
+/*$lgx-heading-font: 'Merriweather', serif;
+$lgx-base-font: 'Lato', sans-serif;*/
+
+$lgx-heading-font: 'Playfair Display', serif;
+$lgx-base-font: 'Ubuntu', sans-serif;
+
+$font-size-base: 15;
+
+
+

@@ -1,0 +1,372 @@
+.lgx-courses {
+  .lgx-inner {
+    background: $body-bg-deep;
+  }
+}
+
+
+.lgx-filter {
+  margin-bottom: 6.3rem;
+  li {
+    padding-right: 3px;
+    padding-left: 3px;
+    a {
+      padding: 1rem 2rem;
+      font-family: $lgx-heading-font;
+      @include font-size(15);
+      font-weight: 700;
+      color: $black-color;
+      text-transform: uppercase;
+      border: 1px solid $border-color;
+      border-radius: 4px;
+    }
+  }
+  .active {
+    a {
+      color: $brand-color;
+      background: $white-color;
+      border: 1px solid $brand-color;
+    }
+  }
+}
+
+
+
+.lgx-single-course {
+  background: $white-color;
+  border-radius: 6px;
+  border: 1px solid $border-color;
+  padding: 1.5rem;
+  margin-bottom: 2.4rem;
+  text-align: center;
+  @include transition-duration($duration: 0.3s);
+  figure {
+    position: relative;
+    @include scale($ratio:1);
+    @include transition-duration($duration: 0.3s);
+    figcaption {
+      @include bg-rgba($brand-color, .8);
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      opacity: 0;
+      @include transition-duration($duration: 0.3s);
+      .lgx-hover-link {
+        display: table;
+        height: 50%;
+        width: 100%;
+        @include transition-duration($duration: 0.8s);
+        .lgx-vertical {
+          display: table-cell;
+          text-align: center;
+          vertical-align: middle;
+          a {
+            background: $white-color;
+            color: $brand-color;
+            width: 50px;
+            height: 50px;
+            display: inline-block;
+            border-radius: 50%;
+            -webkit-box-shadow: 0 4px 10px rgba(0,0,0,.25);
+            -moz-box-shadow: 0 4px 10px rgba(0,0,0,.25);
+            box-shadow: 0 4px 10px rgba(0,0,0,.25);
+          }
+          i {
+            @include font-size(24);
+            line-height: 5.2rem;
+          }
+        }
+      }
+    }
+  }
+  .course-info {
+    padding: 0 1.5rem;
+    .course-author {
+      margin-top: -3.5rem;
+      position: relative;
+      z-index: 1;
+      img {
+        max-width: 66px;
+        border-radius: 50%;
+        border: 4px solid $white-color;
+        @include transition-duration($duration: 0.3s);
+      }
+      .title {
+        font-family: $lgx-heading-font;
+        @include font-size(15);
+        margin: 0;
+      }
+      .subtitle {
+        @include font-size(13);
+        opacity: .7;
+        margin: 0;
+      }
+    }
+    .title {
+      @include font-size(20);
+      font-weight: 700;
+      margin-top: 1rem;
+      margin-bottom: 2.4rem;
+      position: relative;
+      display: block;
+      a {
+        display: block;
+      }
+    }
+    .course-bottom {
+      border-top: 1px solid $body-bg-deep;
+      text-align: left;
+      padding-top: 1rem;
+      display: block;
+      ul {
+        li {
+          a {
+            font-weight: 700;
+            color: $black-color;
+            opacity: .5;
+            i {
+              color: $brand-color;
+              margin-right: .5rem;
+            }
+          }
+          &:last-child {
+            float: right;
+            margin-top: -.7rem;
+            a {
+              font-family: $lgx-base-font;
+              @include font-size(24);
+              opacity: 1;
+              font-style: italic;
+              font-weight: 900;
+              span {
+                font-family: $lgx-base-font;
+                @include font-size(15);
+                color: $brand-color;
+                opacity: .7;
+                font-style: normal;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  &:hover {
+    border: 1px solid $brand-color;
+    -webkit-box-shadow: 0 20px 35px rgba(0, 0, 0, 0.12);
+    -moz-box-shadow: 0 20px 35px rgba(0, 0, 0, 0.12);
+    box-shadow: 0 20px 35px rgba(0, 0, 0, 0.12);
+    figure {
+      @include scale($ratio:1.02);
+      -webkit-box-shadow: 0 20px 35px rgba(0, 0, 0, 0.12);
+      -moz-box-shadow: 0 20px 35px rgba(0, 0, 0, 0.12);
+      box-shadow: 0 20px 35px rgba(0, 0, 0, 0.12);
+      figcaption {
+        opacity: 1;
+        .lgx-hover-link {
+          height: 100%;
+        }
+      }
+    }
+  }
+}
+
+
+.lgx-list-wrapper {
+  .lgx-grid-item {
+    width: 50%;
+  }
+  .lgx-single-course {
+    overflow: hidden;
+    text-align: left;
+    padding-right: 0;
+    figure, .course-info {
+      float: left;
+    }
+    figure {
+      width: 50%;
+
+      figcaption {
+
+        .lgx-hover-link {
+
+        }
+      }
+    }
+    .course-info {
+      background: $white-color;
+      width: 50%;
+      margin-left: -20px;
+      position: relative;
+      z-index: 1;
+      padding-right: 0;
+      min-height: 185px;
+      .course-author {
+        margin-top: 0;
+        overflow: hidden;
+        img {
+          float: left;
+          margin-right: 1rem;
+        }
+        .author-info {
+          text-align: left;
+          overflow: hidden;
+          .title {
+            margin-bottom: 0;
+          }
+        }
+      }
+      .title {
+        margin-top: .5rem;
+        margin-bottom: 0;
+      }
+      .course-bottom {
+        border-top: 0 solid $body-bg-deep;
+        text-align: left;
+      }
+    }
+    &:hover {
+      figure {
+        @include scale($ratio:1);
+        -webkit-box-shadow: none;
+        -moz-box-shadow: none;
+        box-shadow: none;
+        figcaption {
+          opacity: 1;
+          .lgx-hover-link {
+            height: 100%;
+          }
+        }
+      }
+    }
+  }
+}
+
+
+
+//Single Course
+.course-hits-area {
+  background: $body-bg-deep;
+  border: 1px solid $border-color;
+  border-radius: 6px;
+  padding: 1rem;
+  margin-top: 2.4rem;
+  overflow: hidden;
+  display: block;
+  .course-hit {
+    margin-bottom: 0;
+    .course-hit-info {
+      .title {
+        font-family: $lgx-heading-font;
+        @include font-size(17);
+        margin: 0;
+      }
+      .subtitle {
+        @include font-size(13);
+        opacity: .7;
+        margin: 0;
+      }
+    }
+    .course-author {
+      img,
+      .author-info {
+        width: 50%;
+        float: left;
+      }
+      img {
+        max-width: 52px;
+        margin-right: 1rem;
+        border-radius: 50%;
+      }
+      .author-info {
+        .title {
+          font-family: $lgx-heading-font;
+          @include font-size(17);
+          margin: 0;
+        }
+        .subtitle {
+          @include font-size(13);
+          opacity: .7;
+          margin: 0;
+        }
+      }
+    }
+    .course-author {
+      //margin-top: 1.5rem;
+    }
+  }
+
+  .course-hit,
+  .course-hitcourse-payment {
+    float: left;
+  }
+  .course-hit {
+    width: 70%;
+    li {
+      vertical-align: text-top;
+      border-right: 1px solid $border-color;
+      margin-right: 1.5rem;
+      padding-right: 1.5rem;
+      &:last-child {
+        border-right: 0;
+      }
+    }
+  }
+  .course-hitcourse-payment {
+    width: 30%;
+    float: right;
+    display: flex;
+    .course-price {
+      margin-right: 2rem;
+      font-weight: 700;
+      @include font-size(24);
+      margin-top: .5rem;
+    }
+  }
+}
+
+
+.lgx-course-feature-area {
+  float: right;
+  background: $body-bg-deep;
+  padding: 1.5rem;
+  border-radius: 6px;
+  margin-left: 1.5rem;
+  margin-bottom: 1rem;
+  min-width: 300px;
+  border: 1px solid $border-color;
+  h3,
+  .title {
+    margin-top: 0;
+    color: $brand-color;
+    text-align: center;
+  }
+  ul li {
+    @include font-size(15);
+    border-bottom: 1px solid $border-color;
+    line-height: 25px;
+    padding: 15px 0;
+    color: $black-color;
+    &:last-child {
+      border-bottom: 0;
+    }
+    span {
+      color: inherit;
+      @include font-size(15);
+    }
+    i {
+      color: $brand-color;
+    }
+  }
+  ul li .value {
+    font-weight: 700;
+    min-width: 60px;
+    float: right;
+    text-align: left;
+  }
+}
+.lgx-course-feature {
+
+}
