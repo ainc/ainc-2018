@@ -1,43 +1,23 @@
 
 //== DEFAULT BRAND  COLORS
-$brand-color:#e39a31;
+$brand-color:#C12029; // Red
 //$brand-color:#174873;
-
-//== BRAND BLUE COLORS
-$brand-blue:#1976d2;
-
-//== BRAND Olive COLORS
-$brand-olive:#77c043;
-
-//== BRAND Violet COLORS
-$brand-violet:#7e24e6;
-
-//== BRAND ORANGE COLORS
-$brand-orange:#FFBB33;
-
-//== BRAND pink COLORS
-$brand-pink:#ca396a;
-
-//== BRAND Teal COLORS
-$brand-teal: #00695c;
-
-//== BRAND RED COLORS
-$brand-red:#b71c1c;
-
-
 
 //== OTHERS COLORS
 $brand-light: lighten($brand-color, 10%);
 $brand-dark:  darken($brand-color, 7%);
 
-$brand-color2: #42bd41;
-$brand-color3: #3f51b5;
+$brand-color2: #323232; // Charcoal
+$brand-color3: #FFFFFF; // White
 
+//== SECONDARY COLORS
+$brand-grey-dark: #939597;
+$brand-grey: #D1D2D4;
+$brand-grey-light: #E6E7E8;
+$brand-grey4-lightest: #F1F1F2;
+$brand-red-bright: #ED3742;
 
-//$black-color: #25222c;
 $black-color: #323333;
-//$black-color: #2d3e50;
-//$black-color: #212739;
 $body-bg: #f9f9f9;
 $body-bg-deep: #f1f1f1;
 $white-color: #fff;
@@ -45,17 +25,17 @@ $text-ash: #999;
 $border-color: #ddd;
 $footer-text: #888;
 
-
-
-
 //== Typography Variable
 /*$lgx-heading-font: 'Merriweather', serif;
 $lgx-base-font: 'Lato', sans-serif;*/
 
-$lgx-heading-font: 'Playfair Display', serif;
-$lgx-base-font: 'Ubuntu', sans-serif;
+$lgx-heading-font: 'Open Sans', sans-serif;
+$lgx-subheading-font: 'Open Sans', sans-serif;
+$lgx-base-font: 'Open Sans', sans-serif;
 
 $font-size-base: 15;
+
+$hero-img-url: '../../images/start-something-awesome.jpg';
 
 
 

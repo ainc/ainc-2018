@@ -17,7 +17,7 @@ p {
   @include font-size($font-size-base);
   padding: 0;
   margin: 0;
-  color: rgba(50, 51, 51, 0.8);
+  color: rgb(50, 51, 51);
   line-height: 2.6rem;
   font-weight: 400;
 }
@@ -271,7 +271,9 @@ textarea.form-control {
   height: 170px;
 }
 
-
+.uppercase {
+  text-transform: uppercase;
+}
 
 
 

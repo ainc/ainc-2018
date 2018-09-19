@@ -23,7 +23,7 @@ exclude:
   - package.json
   - README.md
   - CNAME
-  - assets/sass
+  # - assets/sass
 
 # Plugin settings
 plugins:

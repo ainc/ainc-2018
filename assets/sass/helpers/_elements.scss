@@ -150,3 +150,33 @@
     -webkit-background-clip: $argument;
     background-clip: $argument;
 }
+
+/* ----------------------------------------------------------------
+      Flexbox implementation: https://codepen.io/devwax/pen/WQOXzp
+-------------------------------------------------------------------*/
+
+.row-eq-height {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+/* ----------------------------------------------------------------
+      Image responsive for centering images horizontally
+-------------------------------------------------------------------*/
+
+.img-responsive {
+    display: inline-block;
+}
+
+
+
+
+
+
+
+
+
+
+

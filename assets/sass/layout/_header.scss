@@ -13,10 +13,6 @@
       font-size: 26px;
     }
   }
-
-
-
-
   .header-top {
     background: $black-color;
     .header-top-inner {
@@ -175,9 +171,9 @@
       //margin-top: .8rem;
       li {
         a {
-          font-family: $lgx-heading-font;
-          @include font-size(15);
-          font-weight: 700;
+          font-family: $lgx-subheading-font;
+          @include font-size(14);
+          font-weight: 200;
           text-transform: uppercase;
           opacity: .7;
           padding: 16px 11px;

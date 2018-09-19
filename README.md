@@ -4,31 +4,38 @@
 
 ### TOC
 
- - Stack
+ - [Stack]("#stack")
  - File Structure
  - Underscores vs Hyphens
  - Styling / Sass
  - Frameworks
  - How to Edit
  - Github Process
+ 
+ - Quick Start
+ - Linter
+ - Code Style Guide
+ - Where to report bugs
+ - How to contribute
+
 
 #### Stack
 
-The website is built with the [SSG Jekyll](https://jekyllrb.com/). 
+The website is built with the [SSG Jekyll](https://jekyllrb.com/).
 
 #### File Structure
 
-We follow a simple Jekyll file structure with layouts, includes, data, etc. All CSS, Javascript and font files are in the /assets folder. Images can be found in the /images folder. 
+We follow a simple Jekyll file structure with layouts, includes, data, etc. All CSS, Javascript and font files are in the /assets folder. Images can be found in the /images folder.
 
 #### Styling / Sass
 
-Any style changes should be made with [Sass](https://sass-lang.com/).  There is no need to edit any libraries such as Bootstrap because they will be updated as we update the framework. 
+Any style changes should be made with [Sass](https://sass-lang.com/).  There is no need to edit any libraries such as Bootstrap because they will be updated as we update the framework.
 
 The Sass file structure follows the 7-1 Pattern. More info can be found here: [architecture-sass-project](https://www.sitepoint.com/architecture-sass-project/). Most changes will take place in /components, /helpers, /layout and /pages. 
 
 #### Github Process
 
-Our Github process follows the [Git Centralized Workflow](https://www.atlassian.com/git/tutorials/comparing-workflows#centralized-workflow).  
+Our Github process follows the [Git Centralized Workflow](https://www.atlassian.com/git/tutorials/comparing-workflows#centralized-workflow).
 
 1. Create a local feature branch
 2. Add and commit changes to local feature branch
@@ -38,6 +45,21 @@ Our Github process follows the [Git Centralized Workflow](https://www.atlassian.
 6. Push changes live with git push
 
 Be descriptive with your commits. 
+
+#### Underscores vs Hyphens
+
+SEO is important and it cares about how you name your images. Currently, Google wants us to name our images with hyphens.
+source: https://shuttermuse.com/image-seo-how-to-name-files/
+
+#### How to Edit
+
+Only invent new things if you can't use what is already there
+
+1. Use a component from the theme
+2. Use current css classes from theme
+3. Assemble a new component from bootstrap classes
+4. Create new classes, but still use bootstrap components as base
+
 
 
 

@@ -1,0 +1,42 @@
+.lgx-panel {
+	.ico {
+		height: 80px;
+		width: 80px;
+	}
+	.panel {
+		height: 100%;
+		color: white;
+		.panel-body {
+			height: inherit;
+			background: -webkit-linear-gradient(rgba(193,32,41, 0.8), rgba(193,32,41, 0.8));
+			background: -o-linear-gradient(rgba(193,32,41, 0.8), rgba(193,32,41, 0.8));
+			background: linear-gradient(rgba(193,32,41, 0.8), rgba(193,32,41, 0.8));
+			h4 {
+				color: white;
+				@include font-size(15);
+				text-transform: uppercase;
+				font-weight: 600;
+				letter-spacing: 1px;
+				text-align: center;
+			}
+			p {
+				letter-spacing: 0.5px;
+				color: white;
+				font-weight: 200;
+				text-align: center;
+				line-height: 2.1rem;
+			}
+		}
+		#code {
+		}
+		#startup {
+			background: url($hero-img-url) center no-repeat;	
+		}
+		#workspace {
+			background: url($hero-img-url) bottom center no-repeat;	
+		}
+		#software {
+			background: url($hero-img-url) center no-repeat;
+		}
+	}
+}

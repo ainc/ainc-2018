@@ -1,17 +1,18 @@
 .lgx-banner {
-  background: url('http://via.placeholder.com/1920x915') bottom center no-repeat;
+  background: url($hero-img-url) bottom center no-repeat;
   -webkit-background-size: cover;
   -o-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
   color: $white-color;
+  height: 100vh;
   .lgx-inner {
     position: static;
     height: auto;
-    padding: 30rem 0;
+    padding: 28rem 0;
   }
   .lgx-inner-fixed {
-    padding: 32rem 0 ;
+    padding: 28rem 0;
   }
 }
 .lgx-banner2 {
@@ -52,13 +53,13 @@
   .subtitle {
     color: $brand-color;
     @include font-size(39);
-    font-weight: 300;
+    font-weight: 100;
     margin: 0;
   }
   .title {
     @include font-size(39);
     line-height: 5rem;
-    font-weight: 900;
+    font-weight: 800;
     text-transform: uppercase;
     margin: 0;
     margin-bottom: 8px;
@@ -76,10 +77,12 @@
 
 .lgx-banner-info-white {
   .subtitle {
-    color: $brand-color;
-    @include font-size(39);
+    color: $white-color;
+    @include font-size(24);
+    letter-spacing: 2px;
     font-weight: 300;
     margin: 0;
+    text-transform: uppercase;
   }
   .title {
     color: $white-color;

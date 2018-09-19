@@ -25,14 +25,14 @@
   }
 }
 
-.lgx-register {
-  background: url('http://via.placeholder.com/1920x900') top center no-repeat;
+.lgx-core-values {
+  background: url('../../images/awesome-inc-space.jpg') top center no-repeat;
   -webkit-background-size: cover;
   -o-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
   .lgx-inner {
-    @include bg-rgba($black-color, 0.90);
+    @include bg-rgba($brand-grey-dark, 0.65);
     padding: 16.6rem 0;
   }
 }
@@ -89,7 +89,7 @@
 
 //VIDEO
 .lgx-video-area {
-  padding: 100px 0;
+  padding: 65px 0;
   figure {
     position: relative;
     border-radius: 6px;
@@ -128,12 +128,12 @@
             width: 115px;
             height: 115px;
             border-radius: 50%;
-            top: -59px;
+            top: -57px;
             left: 17px;
             display: block;
             z-index: -1;
             opacity: 1;
-            border: 5px solid rgba(255,255,255,.5);
+            border: 1px solid $brand-color2;
             @include transition-duration($duration: 0.3s);
           }
           &:after {
@@ -152,7 +152,7 @@
           }
           i {
             display: inline-block;
-            background: $brand-color;
+            background: $brand-color2;
             color: $white-color;
             margin: 0 30px;
             border-radius: 50%;
@@ -230,7 +230,7 @@
 
 
 //Registration
-.lgx-heading-registration {
+.lgx-heading-video-banner {
   .subtitle {
     font-family: $lgx-heading-font;
     @include font-size(39);
@@ -240,7 +240,7 @@
   }
   .title {
     font-family: $lgx-heading-font;
-    @include font-size(63);
+    @include font-size(43);
     font-weight: 900;
     text-transform: uppercase;
     margin-top: 0;
@@ -248,7 +248,7 @@
   }
 }
 
-.lgx-registration-info {
+.lgx-video-banner-info {
   .text {
     color: $white-color;
     margin-bottom: 2.4rem;

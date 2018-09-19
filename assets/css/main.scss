@@ -9,6 +9,9 @@ Vendor: Don't edit this directory, this is for libraries like bootstrap
 
 @charset "utf-8";
 
+// Vendor
+@import 'vendor/bootstrap';
+
 // Helpers
 @import 'helpers/bootvar';
 @import 'helpers/variables';
@@ -32,6 +35,7 @@ Vendor: Don't edit this directory, this is for libraries like bootstrap
 @import 'components/subscribe';
 @import 'components/testimonials';
 @import 'components/title';
+@import 'components/panel';
 
 // Layout
 @import 'layout/footer';
@@ -39,6 +43,7 @@ Vendor: Don't edit this directory, this is for libraries like bootstrap
 @import 'layout/single';
 
 // Pages
+@import 'pages/home';
 @import 'pages/about';
 @import 'pages/blog';
 @import 'pages/contact';
@@ -47,9 +52,6 @@ Vendor: Don't edit this directory, this is for libraries like bootstrap
 @import 'pages/registration';
 @import 'pages/service';
 @import 'pages/teachers';
-
-// Vendor
-@import 'vendor/bootstrap';
 
 h1 {
 	color: black;

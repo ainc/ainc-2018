@@ -1,6 +1,6 @@
 .lgx-courses {
   .lgx-inner {
-    background: $body-bg-deep;
+    background: $brand-color2;
   }
 }
 
@@ -34,11 +34,16 @@
 
 .lgx-single-course {
   background: $white-color;
-  border-radius: 6px;
   border: 1px solid $border-color;
   padding: 1.5rem;
   margin-bottom: 2.4rem;
   text-align: center;
+  p {
+    margin: 10px 0;
+    margin: 1rem 0;
+    text-align: justify;
+    @include font-size(14)
+  }
   @include transition-duration($duration: 0.3s);
   figure {
     position: relative;
@@ -91,6 +96,7 @@
         max-width: 66px;
         border-radius: 50%;
         border: 4px solid $white-color;
+        background: white;
         @include transition-duration($duration: 0.3s);
       }
       .title {
@@ -121,11 +127,12 @@
       padding-top: 1rem;
       display: block;
       ul {
+        margin-bottom: 0;
         li {
           a {
-            font-weight: 700;
-            color: $black-color;
-            opacity: .5;
+            font-weight: 600;
+            color: $brand-red-bright;
+            text-transform: uppercase;
             i {
               color: $brand-color;
               margin-right: .5rem;
@@ -133,13 +140,7 @@
           }
           &:last-child {
             float: right;
-            margin-top: -.7rem;
             a {
-              font-family: $lgx-base-font;
-              @include font-size(24);
-              opacity: 1;
-              font-style: italic;
-              font-weight: 900;
               span {
                 font-family: $lgx-base-font;
                 @include font-size(15);
