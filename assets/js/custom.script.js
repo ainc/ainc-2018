@@ -229,9 +229,9 @@
         if($('#instafeed').length){
             var userFeed = new Instafeed({
                 get: 'user',
-                userId: '623597756',
-                clientId: '02b47e1b98ce4f04adc271ffbd26611d',
-                accessToken: '623597756.02b47e1.3dbf3cb6dc3f4dccbc5b1b5ae8c74a72',
+                userId: '899354552',
+                clientId: 'dec2564e767040c5b44161009e80938e',
+                accessToken: '899354552.dec2564.2449f199a747499da6b2a4dde25602c2',
                 resolution: 'standard_resolution',
                 template: '<a href="{{link}}" target="_blank" id="{{id}}"><img src="{{image}}" /></a>',
                 sortBy: 'most-recent',

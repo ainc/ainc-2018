@@ -86,7 +86,7 @@
 
 .lgx-footer-middle {
   @include bg-rgba($black-color, 1);
-  padding: 10.2rem 0;
+  padding: 10.2rem 0 5.2rem 0;
 }
 
 .lgx-footer-middle-white {
@@ -110,6 +110,7 @@
   text-align: left;
   margin-bottom: 6.3rem;
   color: $footer-text;
+  @include font-size(17);
   p {
     color: inherit;
   }
@@ -117,7 +118,10 @@
     margin-bottom: 3.9rem;
     display: block;
     img {
-      max-width: 170px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 55%;
     }
   }
   address {
@@ -145,8 +149,22 @@
     text-transform: uppercase;
     margin-bottom: 2.4rem;
     color: $white-color;
-    font-weight: 700;
+    font-weight: 500;
     letter-spacing: .08rem;
+  }
+  .contact-info {
+    max-width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+    a {
+      color: $brand-grey;
+      // @include font-size(17);
+      i {
+        min-width: 20px;
+        color: $brand-color;
+        margin-right: 10px;
+      }
+    }
   }
   ul {
     li {
