@@ -223,7 +223,7 @@
         img {
           max-width: 190px;
           float: left;
-          //margin-top: -5px;
+          margin-top: 4px;
           -webkit-transition: all .4s ease-in-out 0s;
           -moz-transition: all .4s ease-in-out 0s;
           -o-transition: all .4s ease-in-out 0s;
@@ -241,7 +241,7 @@
     .lgx-nav {
       float: right;
       .dropdown-menu {
-        @include bg-rgba($brand-color, .95);
+        @include bg-rgba(white, .95);
         border: 0;
         border-radius: 0;
         padding-top: .9rem;
@@ -586,8 +586,10 @@
         }
       }
       .lgx-nav .dropdown-menu li a {
+        color: $brand-color2;
+        font-weight: 200;
         &:hover {
-          color: $white-color;
+          color: $brand-color;
           opacity: 1;
         }
       }
@@ -895,19 +897,19 @@
         }
       }
     }
-    .lgx-logo {
-      display: block;
-      a {
-        img {
-          max-width: 170px;
-          margin-top: 0;
-          -webkit-transition: all .2s ease-in-out 0s;
-          -moz-transition: all .2s ease-in-out 0s;
-          -o-transition: all .2s ease-in-out 0s;
-          transition: all .2s ease-in-out 0s;
-        }
-      }
-    }
+    // .lgx-logo {
+    //   display: block;
+    //   a {
+    //     img {
+    //       max-width: 170px;
+    //       margin-top: 0;
+    //       -webkit-transition: all .2s ease-in-out 0s;
+    //       -moz-transition: all .2s ease-in-out 0s;
+    //       -o-transition: all .2s ease-in-out 0s;
+    //       transition: all .2s ease-in-out 0s;
+    //     }
+    //   }
+    // }
   }
 }
 
@@ -925,7 +927,7 @@
     }
     .lgx-nav .dropdown-menu li a {
       &:hover {
-        color: $white-color;
+        color: $brand-color;
         opacity: 1;
       }
     }
@@ -956,7 +958,7 @@
 }
 
 .lgx-header .menu-onscroll .lgx-navbar .lgx-nav .dropdown-menu li a {
-  color: $white-color;
+  color: $brand-color2;
 }
 
 
