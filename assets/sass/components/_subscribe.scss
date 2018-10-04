@@ -16,10 +16,11 @@
   margin: 0 auto;
   text-align: center;
   .title {
-    @include font-size(15);
+    @include font-size(16);
     font-weight: 400;
     line-height: 2.8rem;
     margin: 0 13% 3.9rem;
+    color: white
   }
 }
 .lgx-subscriber {
