@@ -253,9 +253,9 @@
                 autoplay:true,
                 dots: false,
                 navText: ['<i class="fa fa-angle-left"></i>', '<i class="fa fa-angle-right"></i>'],
-                autoplayTimeout: 5000,
+                autoplayTimeout: 7000,
                 autoplaySpeed: 500,
-                nav: true,
+                nav: false,
                 addClassActive : true
             });
         }

@@ -153,11 +153,12 @@
 
 
 .lgx-slider-content {
-  background: url('http://via.placeholder.com/1920x915') bottom center no-repeat;
+  background: url($hero-img-url) bottom center no-repeat;
   -webkit-background-size: cover;
   -o-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
+  height: 100vh;
   .slider-text-single {
     figure {
       position: relative;
