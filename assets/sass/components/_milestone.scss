@@ -27,10 +27,12 @@
 
 .lgx-core-values {
   background: url('../../images/awesome-inc-space.jpg') top center no-repeat;
-  -webkit-background-size: cover;
-  -o-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
+  -webkit-background-size: 110%;
+  -o-background-size: 110%;
+  -moz-background-size: 110%;
+  background-size: 110%;
+  background-position: 0 50%;
+  background-attachment: fixed;
   .lgx-inner {
     @include bg-rgba($brand-grey-dark, 0.65);
     padding: 16.6rem 0;

@@ -4,6 +4,12 @@
   .lgx-inner {
     padding-bottom: 0;
     padding-top: 0;
+    @include screen-xs {
+      padding-top: 20vh;
+    }
+    @include screen-md {
+      padding-top: 20vh;
+    }
   }
   .lgx-item-center {
     text-align: center;

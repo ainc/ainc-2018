@@ -1,18 +1,84 @@
 .lgx-panel {
-	.ico {
-		height: 80px;
-		width: 80px;
-	}
 	.panel {
 		min-height: 300px;
 		height: 100%;
 		color: white;
 		position: relative;
 		border-radius: 5%;
+
+		box-shadow: inset 0 0 0 2px $brand-color2;
+		vertical-align: middle;
+
+		&::before, &::after {
+			box-sizing: inherit;
+			content: '';
+			position: absolute;
+			width: 100%;
+			height: 100%;
+
+			border: 2px solid transparent;
+			width: 0;
+			height: 0;
+		}
+
+		&::before {
+			top: 0;
+			left: 0;
+		}
+		&::after {
+			bottom: 0;
+			right: 0;
+		}
+		transition: all 0.25s ease-out;
+		&:hover {
+			color: $brand-color2;
+			box-shadow: 
+				0 4px 8px 0 rgba(0, 0, 0, 0.2), 
+				0 6px 20px 0 rgba(0, 0, 0, 0.19);
+			transform: 
+				translateY(-2.5px)
+				scale(1.025, 1.025);
+			transition: all 0.25s ease-out;
+			.panel-body .icon {
+				// padding-bottom: 20px;
+			}
+			.panel-body .icon .ico {
+				transform: scale(1.15,1.15);
+				transition: all 0.25s ease-out;
+			}
+		}
+		// &:hover::before,
+		// &:hover::after {
+		// 	width: 100%;
+		// 	height: 100%;
+		// }
+		// &:hover::before {
+		// 	border-top-color: $brand-color2;
+		// 	border-right-color: $brand-color2;
+		// 	transition: 
+		// 		width 0.25s ease-out,
+		// 		height 0.25s ease-out;
+		// }
+		// &:hover::after {
+		// 	border-bottom-color: $brand-color2;
+		// 	border-left-color: $brand-color2;
+		// 	transition: 
+		// 		border-color 0s ease-out 0.5s,
+		// 		width 0.25s ease-out 0.5s,
+		// 		height 0.25 ease-out 0.75s;
+		// }
+
+		// transition: color 0.25s;
+
 		.panel-body {
 			height: inherit;
 			.icon {
-				padding: 25px;
+				min-height: 130px;
+				padding-top: 30px;
+				.ico {
+					height: 80px;
+					width: 80px;
+				}
 			}
 			h4 {
 				color: white;
