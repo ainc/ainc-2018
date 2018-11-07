@@ -1,7 +1,18 @@
 backend:
   name: git-gateway
   branch: master # branch to update (optional; defaults to master)
+  repo: https://github.com/ainc/ainc-2018
 
 publish_mode: editorial_workflow # docs: https://www.netlifycms.org/docs/configuration-options/#publish-mode
 
-media_foler: "images/uploads"
+media_folder: "../images/uploads"
+
+collections:
+  - name: "blog"
+    label: "Blog"
+    folder: "_blog"
+    filter:
+      field: language
+      value: en
+    fields:
+      - {label: "Language", name: "language"}
