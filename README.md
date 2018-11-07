@@ -11,7 +11,7 @@
  - Frameworks
  - How to Edit
  - Github Process
- 
+ - Editing Javascript
  - Quick Start
  - Linter
  - Code Style Guide
@@ -45,6 +45,12 @@ Our Github process follows the [Git Centralized Workflow](https://www.atlassian.
 6. Push changes live with git push
 
 Be descriptive with your commits. 
+
+#### Editing Javascript
+
+TBD
+
+Currently working out of custom.js to add additional scripts.
 
 #### Underscores vs Hyphens
 
