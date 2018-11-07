@@ -51,6 +51,10 @@
       font-weight: 700;
       line-height: 2.8rem;
       margin: 0;
+      @include screen-xs {
+        @include font-size(16);
+        line-height: 2.2rem;
+      }
       a {
 
       }
@@ -168,6 +172,11 @@
         position: absolute;
         bottom: 0;
         margin: 2rem;
+        @include screen-xs {
+          top: 0;
+          margin: 1rem;
+          max-height: 100%;
+        }
         .date {
           width: 100px;
           height: 100px;
@@ -186,6 +195,9 @@
           overflow: hidden;
           p {
             color: $white-color;
+            @include screen-xs {
+              @include font-size(12.5);
+            }
           }
         }
         img {

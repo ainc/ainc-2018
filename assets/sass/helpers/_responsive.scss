@@ -252,6 +252,7 @@
     font-size: 3rem;
     line-height: 3rem;
   }
+  div.lgx-inner,
   .lgx-inner,
   .lgx-about-bottom .lgx-inner,
   .lgx-register .lgx-inner, .lgx-core-values {
@@ -489,6 +490,10 @@
     width: 100%;
   }
 
+  .mob-no-padding { // Custom class to remove padding on mobile
+    padding-right: 10px;
+    padding-left: 10px;
+  }
 
     /************** 767 GLOBAl USE END***********/
 

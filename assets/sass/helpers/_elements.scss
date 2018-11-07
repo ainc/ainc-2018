@@ -199,18 +199,22 @@
 }
 
 @mixin screen-max { /* > 1201 */
-    @media (min-width: #{screen-lg}) {
+    @media (min-width: #{$screen-lg}) {
         @content;
     }
 }
 
+@mixin screen-tablet-max { /* < 992 ie anything less than a tablet */
+    @media (max-width: #{$screen-md - 1px}) {
+        @content;
+    }
+}
 
-
-
-
-
-
-
+@mixin screen-laptop-min { /* > 992 ie anything larger than a tablet */
+    @media (min-width: #{$screen-md}) {
+        @content;
+    }
+}
 
 
 

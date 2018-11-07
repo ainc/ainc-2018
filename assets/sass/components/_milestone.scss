@@ -33,9 +33,24 @@
   background-size: 110%;
   background-position: 0 50%;
   background-attachment: fixed;
+  @include screen-tablet-max {
+    padding-top: 0;
+    padding-bottom: 0;
+    background-size: 200%;
+    background-attachment: inherit;
+  }
   .lgx-inner {
     @include bg-rgba($brand-grey-dark, 0.65);
     padding: 16.6rem 0;
+    @include screen-tablet-max {
+      padding: 5rem 0;
+      h2 {
+        text-align: center;
+      }
+      p {
+        font-weight: 500;
+      }
+    }
   }
 }
 
