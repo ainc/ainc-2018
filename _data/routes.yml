@@ -1,0 +1,53 @@
+# General Links
+home: "/"
+about: "/about/"
+faq: "/faq/"
+careers: "/careers/"
+privacy: "/privacy/"
+terms: "/termsofservice/"
+press: "/press/"
+testimonials: "/testimonials/"
+thanks: "/thanks/"
+calendar: "/calendar/"
+contact: "/contact/"
+culture-book: "/culture-book/"
+core-value-training: "/core-value-training/"
+core-values: "/core-values/"
+apax: "https://www.apaxsoftware.com/"
+
+# Ainc links
+team-alpha: "/team-alpha/"
+team-alpha-alumni: "/team-alpha-alumni/"
+team-alpha-services: "/team-alpha-services/"
+internships: "/internships/"
+idea-form: "/idea/"
+workspace: "/workspace/"
+
+# AincU links
+coding: "/coding/"
+courses:
+  bootcamp: "/coding/bootcamp/"
+  academy: "/coding/academy/"
+  club: "/coding/club/"
+  league: "/coding/league/"
+applications: 
+  bootcamp: "/coding/applications/bootcamp/"
+  academy: "/coding/applications/academy/"
+instructors: "/instructors/"
+notes: "/notes/"
+
+# Fellowship links
+fellowship: "/fellowship/"
+fellowship-media: "/fellowship/media/"
+fellowship-apply: "/fellowship/apply/"
+fellowship-mentors: "/fellowship/mentors/"
+fellowship-perks: "/fellowship/perks/"
+fellowship-portfolio: "/fellowship/portfolio/"
+
+# Social Media
+twitter: "https://twitter.com/awesome_inc"
+facebook: "https://www.facebook.com/awesomeinclex"
+gplus: "https://plus.google.com/+AwesomeincOrgLex"
+linkedin: "https://www.linkedin.com/school/awesome-inc/"
+instagram: "https://www.instagram.com/awesomeinclex/"
+youtube: "https://www.youtube.com/user/AincTelevision/featured"

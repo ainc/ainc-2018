@@ -165,6 +165,13 @@
   -moz-background-size: cover;
   background-size: cover;
   height: 100vh;
+  @include screen-md {
+    background-position: 60% 0;
+  }
+  @include screen-xs {
+    background-position: 45% 0;
+    background-image: url($hero-img-url-mobile);
+  }
   .slider-text-single {
     figure {
       position: relative;
