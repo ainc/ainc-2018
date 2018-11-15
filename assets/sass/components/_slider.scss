@@ -4,12 +4,6 @@
   .lgx-inner {
     padding-bottom: 0;
     padding-top: 0;
-    @include screen-xs {
-      padding-top: 20vh;
-    }
-    @include screen-md {
-      padding-top: 20vh;
-    }
   }
   .lgx-item-center {
     text-align: center;
@@ -159,7 +153,7 @@
 
 
 .lgx-slider-content {
-  background: url($hero-img-url) bottom center no-repeat;
+  // background: url($hero-img-url) bottom center no-repeat;
   -webkit-background-size: cover;
   -o-background-size: cover;
   -moz-background-size: cover;
@@ -168,15 +162,12 @@
   @include screen-md {
     background-position: 60% 0;
   }
-  @include screen-xs {
-    background-position: 45% 0;
-    background-image: url($hero-img-url-mobile);
-  }
   .slider-text-single {
     figure {
       position: relative;
       img {
-        opacity: 0;
+        object-fit: cover;
+        height: 100vh;
       }
     }
   }
