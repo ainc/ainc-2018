@@ -1,0 +1,59 @@
+# General Links
+home: "/"
+about: "/about/"
+faq: "/faq/"
+careers: "/careers/"
+privacy: "/privacy/"
+terms: "/termsofservice/"
+press: "/press/"
+testimonials: "/testimonials/"
+thanks: "/thanks/"
+calendar: "/calendar/"
+events: "/events/"
+contact: "/contact/"
+culture-book: "/culture-book/"
+core-value-training: "/core-value-training/"
+core-values: "/core-values/"
+apax: "https://www.apaxsoftware.com/"
+parking: "/parking/"
+map: "https://www.google.com/maps/place/348+E+Main+St,+Lexington,+KY+40507/@38.0419107,-84.4933001,17z/data=!4m2!3m1!1s0x884244e844532c33:0xb6919957af36b713"
+
+# Ainc links
+team-alpha: "/team-alpha/"
+team-alpha-alumni: "/team-alpha-alumni/"
+team-alpha-services: "/team-alpha-services/"
+internships: "/internships/"
+idea-form: "/idea/"
+workspace: "/workspace/"
+tour: "/workspace/#tour"
+rent: "/workspace/#rent"
+
+
+# AincU links
+coding: "/coding/"
+courses:
+  bootcamp: "/coding/bootcamp/"
+  academy: "/coding/academy/"
+  club: "/coding/club/"
+  league: "/coding/league/"
+applications: 
+  bootcamp: "/coding/applications/bootcamp/"
+  academy: "/coding/applications/academy/"
+instructors: "/instructors/"
+notes: "/notes/"
+
+# Fellowship links
+fellowship: "/fellowship/"
+fellowship-media: "/fellowship/media/"
+fellowship-apply: "/fellowship/apply/"
+fellowship-mentors: "/fellowship/mentors/"
+fellowship-perks: "/fellowship/perks/"
+fellowship-portfolio: "/fellowship/portfolio/"
+
+# Social Media
+twitter: "https://twitter.com/awesome_inc"
+facebook: "https://www.facebook.com/awesomeinclex"
+gplus: "https://plus.google.com/+AwesomeincOrgLex"
+linkedin: "https://www.linkedin.com/school/awesome-inc/"
+instagram: "https://www.instagram.com/awesomeinclex/"
+youtube: "https://www.youtube.com/user/AincTelevision/featured"

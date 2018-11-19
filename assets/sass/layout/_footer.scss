@@ -111,6 +111,9 @@
   margin-bottom: 6.3rem;
   color: $footer-text;
   @include font-size(17);
+  @include screen-tablet-max {
+    text-align: center;
+  }
   p {
     color: inherit;
   }
@@ -122,6 +125,9 @@
       margin-left: auto;
       margin-right: auto;
       width: 55%;
+      @include screen-tablet-max {
+        width: 25%;
+      }
     }
   }
   address {

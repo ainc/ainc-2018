@@ -254,7 +254,7 @@
                 dots: false,
                 navText: ['<i class="fa fa-angle-left"></i>', '<i class="fa fa-angle-right"></i>'],
                 autoplayTimeout: 7000,
-                autoplaySpeed: 500,
+                // autoplaySpeed: 500,
                 nav: false,
                 addClassActive : true
             });

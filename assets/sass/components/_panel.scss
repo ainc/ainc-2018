@@ -110,17 +110,13 @@
 			}
 		}
 		&#code {
-			@include screen-laptop-min {
-				background-image: url("../../images/student-learning-to-code-panel.jpg");
-				background-position: 28% top;
-			}
+			background-image: url("../../images/student-learning-to-code-panel.jpg");
+			background-position: 28% top;
 			background-size: cover;
 		}
 		&#startup {
-			@include screen-laptop-min {
-				background-image: url("../../images/startup-panel.jpg");
-				background-position: center center;
-			}
+			background-image: url("../../images/startup-panel.jpg");
+			background-position: center center;
 			background-size: cover;
 		}
 		&#workspace {

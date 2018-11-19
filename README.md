@@ -17,6 +17,7 @@
  - Code Style Guide
  - Where to report bugs
  - How to contribute
+ - Links / Routes
 
 
 #### Stack
@@ -65,6 +66,17 @@ Only invent new things if you can't use what is already there
 2. Use current css classes from theme
 3. Assemble a new component from bootstrap classes
 4. Create new classes, but still use bootstrap components as base
+
+#### Links / Routes
+
+Routes file - _data/routes.yml
+
+How it works:
+linkname: "/path-to-page/"
+
+The point of this is to create a central place to hold links so that if we were to change a path to a page, we don't have to change it in all of the places it is used. This works just like any other data file. 
+
+Documentation: https://www.sitepoint.com/hacking-routing-component-jekyll/
 
 
 
