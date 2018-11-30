@@ -1,0 +1,12 @@
+#lgx-startups {
+	background-color: $brand-color2;
+	.lgx-heading {
+		margin-bottom: 3.3rem;
+	}
+	h4 {
+		font-weight: 600;
+		@include font-size(22);
+		text-transform: none;
+	}
+}
+

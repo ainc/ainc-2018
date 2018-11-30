@@ -1,14 +1,30 @@
 // Two sections with white bg had too much space between them.
 #lgx-about {
-	.lgx-inner {
-		padding-top: 0;
-	}
+  .lgx-inner {
+    padding-top: 0;
+  }
 }
 
-#lgx-startups {
-	background-image: url("../../images/grey-white-vector.png");
+#software-development {
+  background-color: $brand-grey;
 }
+
+#lgx-software {
+  h3 {
+    text-transform: uppercase;
+    margin-top: 0;
+  }
+  h4 {
+    font-weight: 600;
+    @include font-size(22);
+    text-transform: none;
+  }
+  .thin-column {
+    border-right-color: $black-color;
+  }
+}
+
 
 #lgx-workspace {
-	background-image: url("../../images/red-black-vector-bg.png");
+  background-image: url("../../images/red-black-vector-bg.png");
 }

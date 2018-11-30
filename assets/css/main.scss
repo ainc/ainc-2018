@@ -16,8 +16,8 @@ Vendor: Don't edit this directory, this is for libraries like bootstrap
 @import 'helpers/bootvar';
 @import 'helpers/variables';
 @import 'helpers/color';
-@import 'helpers/elements';
 @import 'helpers/font-rem';
+@import 'helpers/elements';
 @import 'helpers/animations';
 @import 'helpers/responsive';
 
@@ -52,6 +52,8 @@ Vendor: Don't edit this directory, this is for libraries like bootstrap
 @import 'pages/registration';
 @import 'pages/service';
 @import 'pages/teachers';
+@import 'pages/startups';
+@import 'pages/workspace';
 
 h1 {
 	color: black;
