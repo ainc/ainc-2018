@@ -67,16 +67,26 @@
 }
 
 #lgx-workspace {
-  background-image: url("../../images/red-black-vector-bg.png");
+  background-image: url("../../images/workspace-home-bg.jpg");
   position: relative;
+  background-size: 100%;
+  background-position: 50%;
 
   h4 {
     @include font-size(27);
   }
+  #desk-bg {
+    background-image: url("../../images/icons/workspace-desk-bg.png");
+    background-position: 50% 55%;
+    background-size: 40%;
+    background-repeat: no-repeat;
+    padding-bottom: 7%;
+
+  }
   .card {
     margin: auto;
     &.push-down {
-      margin-top: 30%;
+      margin-top: 20%;
     }
   }
 }
