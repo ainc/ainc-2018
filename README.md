@@ -18,6 +18,7 @@
  - Where to report bugs
  - How to contribute
  - Links / Routes
+ - Animate on Scroll (aos)
 
 
 #### Stack
@@ -78,6 +79,9 @@ The point of this is to create a central place to hold links so that if we were 
 
 Documentation: https://www.sitepoint.com/hacking-routing-component-jekyll/
 
+#### Animate on Scroll (aos)
 
+Library to animate elements based on scrolling. It is very lightweight and more documentation can be found here:
+https://github.com/michalsnik/aos
 
 

@@ -24,7 +24,59 @@
   }
 }
 
+#lgx-startups {
+  position: relative;
+  svg {
+    position: absolute;
+    top: 10%;
+    right: 17%;
+
+  }
+  #rocket-path {
+    fill: none;
+    // stroke-dasharray: 1000;
+    // stroke-dashoffset: 1000;
+    // animation: dash 5s linear forwards;
+  }
+}
+
+[data-aos="rocket-animation"] {
+  opacity: 0;
+  transition-property: transform, opactiy;
+  &.aos-animate {
+    opacity: 1;
+  }
+
+  @media screen and (min-width: 768px) {
+    transform: translateX(100px);
+
+    &.aos-animate {
+      transform: translateX(0);
+    }
+    
+  }
+}
+
+@keyframes dash {
+  from {
+    stroke-dashoffset: 1000;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+}
 
 #lgx-workspace {
   background-image: url("../../images/red-black-vector-bg.png");
+  position: relative;
+
+  h4 {
+    @include font-size(27);
+  }
+  .card {
+    margin: auto;
+    &.push-down {
+      margin-top: 30%;
+    }
+  }
 }

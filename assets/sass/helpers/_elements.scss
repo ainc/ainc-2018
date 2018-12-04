@@ -185,13 +185,26 @@ table.no-border {
 
 .card {
   background-color: $brand-color2;
-  color: white;
+  width: 350px;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  h4 {
+    @include font-size(24);
+    font-weight: 600;
+    color: white;
+  }
+  p {
+    @include font-size(22);
+    color: white;
+  }
+  
 }
 
 .pinned-button {
   position: absolute;
-  top: 0px;
-  right: 0px;
+  top: 5.2rem;
+  right: 5.2rem;
   img {
     width: 100px;
   }
