@@ -6,6 +6,10 @@ html {
   overflow-x: hidden;
 }
 
+main { // push content below the header
+  padding-top: 78px;
+}
+
 /**
  * Make all elements from the DOM inherit from the parent box-sizing
  * Since `*` has a specificity of 0, it does not override the `html` value

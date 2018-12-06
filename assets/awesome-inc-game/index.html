@@ -1,0 +1,162 @@
+---
+title: Awesome Inc Game - Unity Web Player
+layout: default
+permalink: "/core-value-training/webplayer/"
+---
+
+<section>
+  <div class="">
+      <div class="lgx-inner">
+          <div class="container">
+              <div class="row">
+                  <div class="col-xs-12">
+                      <div class="lgx-heading-area">
+                          <div class="lgx-heading lgx-heading">
+                              <h2 class="heading-title">Core Value Training</h2>
+                              <h3> Unity Web Player </h3>
+                          </div>
+                      </div>
+                  </div>
+              </div><!--//.ROW-->
+          </div><!-- //.CONTAINER -->
+      </div><!-- //.INNER -->
+  </div>
+</section>
+
+<div class="container">
+  <p class="text">
+    The Unity Web Player has to be installed before you can use it. If you don't want to install anything, try the WebGL version instead! Some browsers may not support the Unity Web Player.
+  </p>
+  <h3>
+    <a type="button" class="lgx-btn" href="/core-value-training/">Back to Core Value Training</a>
+  </h3>
+</div>
+
+<br>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Unity Web Player | Awesome Inc Game</title>
+		<script type='text/javascript' src='https://ssl-webplayer.unity3d.com/download_webplayer-3.x/3.0/uo/jquery.min.js'></script>
+		<script type="text/javascript">
+		
+		var unityObjectUrl = "http://webplayer.unity3d.com/download_webplayer-3.x/3.0/uo/UnityObject2.js";
+		if (document.location.protocol == 'https:')
+			unityObjectUrl = unityObjectUrl.replace("http://", "https://ssl-");
+		document.write('<script type="text\/javascript" src="' + unityObjectUrl + '"><\/script>');
+		
+		</script>
+		<script type="text/javascript">
+		
+			var config = {
+				width: 960, 
+				height: 540,
+				params: { enableDebugging:"0" }
+				
+			};
+			config.params["disableContextMenu"] = true;
+			var u = new UnityObject2(config);
+			
+			jQuery(function() {
+
+				var $missingScreen = jQuery("#unityPlayer").find(".missing");
+				var $brokenScreen = jQuery("#unityPlayer").find(".broken");
+				$missingScreen.hide();
+				$brokenScreen.hide();
+
+				u.observeProgress(function (progress) {
+					switch(progress.pluginStatus) {
+						case "broken":
+							$brokenScreen.find("a").click(function (e) {
+								e.stopPropagation();
+								e.preventDefault();
+								u.installPlugin();
+								return false;
+							});
+							$brokenScreen.show();
+						break;
+						case "missing":
+							$missingScreen.find("a").click(function (e) {
+								e.stopPropagation();
+								e.preventDefault();
+								u.installPlugin();
+								return false;
+							});
+							$missingScreen.show();
+						break;
+						case "installed":
+							$missingScreen.remove();
+						break;
+						case "first":
+						break;
+					}
+				});
+				u.initPlugin(jQuery("#unityPlayer")[0], "/assets/awesome-inc-game/awesome-inc-game.unity3d");
+			});
+		
+		</script>
+		<style type="text/css">
+		
+		body {
+			background-color: white;
+			color: black;
+		}
+		p.header {
+			font-size: small;
+			text-align: center;
+		}
+		p.header span {
+			font-weight: bold;
+		}
+		p.footer {
+			font-size: x-small;
+			text-align: center;
+		}
+		div.content {
+			margin: auto;
+			width: 960px;
+		}
+		div.broken,
+		div.missing {
+			margin: auto;
+			position: relative;
+			top: 50%;
+			width: 193px;
+		}
+		div.broken a,
+		div.missing a {
+			height: 63px;
+			position: relative;
+			top: -31px;
+		}
+		div.broken img,
+		div.missing img {
+			border-width: 0px;
+		}
+		div.broken {
+			display: none;
+		}
+		div#unityPlayer {
+			cursor: default;
+			height: 540px;
+			width: 960px;
+		}
+		
+		</style>
+	</head>
+	<body>
+		<p class="header"><span>Unity Web Player | </span>Awesome Inc Game</p>
+		<div class="content">
+			<div id="unityPlayer">
+				<div class="missing">
+					<a href="http://unity3d.com/webplayer/" title="Unity Web Player. Install now!">
+						<img alt="Unity Web Player. Install now!" src="http://webplayer.unity3d.com/installation/getunity.png" width="193" height="63" />
+					</a>
+				</div>
+			</div>
+		</div>
+		<p class="footer">&laquo; created with <a href="http://unity3d.com/unity/" title="Go to unity3d.com">Unity</a> &raquo;</p>
+	</body>
+</html>

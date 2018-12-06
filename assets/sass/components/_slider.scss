@@ -1,6 +1,7 @@
 .lgx-slider {
   color: $white-color;
   position: relative;
+  margin-top: -78px; // Offset because header normally pushes content down
   .lgx-inner {
     padding-bottom: 0;
     padding-top: 0;
