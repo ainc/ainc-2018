@@ -72,7 +72,7 @@
     z-index: 999;
   }
 }
-.lgx-single-teacher {
+.lgx-single-teacher, .lgx-single-member {
   border-radius: 6px;
   margin-bottom: 2.4rem;
   border: 1px solid $border-color;
@@ -100,16 +100,16 @@
       @include transition-duration($duration: 0.5s);
       opacity: 0;
       &:before {
-        content:"";
-        width: 0;
-        height: 0;
-        border-left: 20px solid transparent;
-        border-right: 20px solid transparent;
-        border-bottom: 25px solid $white-color;
-        position: relative;
-        top: -41px;
+        // content:"";
+        // width: 0;
+        // height: 0;
+        // border-left: 20px solid transparent;
+        // border-right: 20px solid transparent;
+        // border-bottom: 25px solid $white-color;
+        // position: relative;
+        // top: -41px;
       }
-      .teacher-name {
+      .teacher-name, .member-name {
         margin: 0;
         @include font-size(20);
         margin-bottom: 1rem;
@@ -128,7 +128,7 @@
       .text {
         margin-bottom: 1rem;
       }
-      .teacher-bottom {
+      .teacher-bottom, .member-bottom {
         ul,
         .link {
           float: left;
@@ -201,7 +201,7 @@
   }
 }
 
-.lgx-teacher-circle {
+.lgx-teacher-circle, .lgx-member-circle {
   background: $white-color;
   border-radius: 6px;
   margin-bottom: 2.4rem;
@@ -248,7 +248,7 @@
       &:before {
         display: none;
       }
-      .teacher-name {
+      .teacher-name, .member-name {
         margin: 0;
         @include font-size(15);
         text-transform: uppercase;
@@ -265,7 +265,7 @@
           }
         }
       }
-      .teacher-bottom {
+      .teacher-bottom, .member-bottom {
         border-top: 1px solid rgba(0, 0, 0, .05);
         -webkit-background-clip: padding-box; /* for Safari */
         background-clip: padding-box; /* for IE9+, Firefox 4+, Opera, Chrome */
@@ -320,13 +320,13 @@
       figcaption {
         opacity: 1;
         bottom: 0;
-        .teacher-name {
+        .teacher-name, .member-name {
           color: $white-color;
           span {
             color: $black-color;
           }
         }
-        .teacher-bottom {
+        .teacher-bottom, .member-bottom {
           .link {
             color: $white-color;
           }

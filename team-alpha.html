@@ -1,0 +1,48 @@
+---
+title: Team Alpha
+layout: default
+permalink: "/team-alpha/"
+---
+
+<!--TEACHERS-->
+<section>
+  <div id="lgx-team-alpha" class="lgx-team-alpha">
+  <div class="lgx-inner">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+          <div class="lgx-heading-area">
+            <div class="lgx-heading lgx-heading">
+              <h2 class="heading-title">Team Alpha</h2>
+            </div>
+          </div>
+        </div>
+      </div><!--//.ROW-->
+      {% for member in site.data.team-alpha %}
+      {% assign check = forloop.index | modulo:4 %}
+      {% if check == 1 or forloop.index == 1 %}
+      <div class="row">
+      {% endif %}
+      <div class="col-xs-6 col-sm-3">
+      <div class="lgx-single-member"> <!--team-alpha member-->
+        <figure>
+        <img src="/images/teamalpha/{{member.name | downcase | remove: " "}}_wall.png" alt="{{ member.name }}" onerror="this.onerror=null;this.src='/images/teamalpha/placeholder_wall.png';"/>
+        <figcaption>
+          <h3 class="member-name">{{ member.name }}<span>{{ member.team }}</span></h3>
+          <p class="text"><b>Favorite Rule:</b> {{ member.rule }}</p>
+          <p class="text"><b>Favorite Song:</b> {{ member.song }}</p>
+          <p class="text"><b>Favorite Person:</b> {{ member.person }}</p>
+          <p class="text"><b>Random Fact:</b> {{ member.fact }}</p>
+        </figcaption>
+        </figure>
+      </div>
+      </div>
+      {% if check == 0 and forloop.index != 1 %}
+      </div>
+      {% endif %}
+      {% endfor %}
+    <!-- </div> /row -->
+    </div> <!-- /container -->
+  </div> <!-- /lgx-inner -->
+  </div> <!-- /lgx-team-alpha -->
+</section>

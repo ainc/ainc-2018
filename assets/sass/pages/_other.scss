@@ -1,0 +1,49 @@
+.lgx-team-alpha {
+
+  .lgx-single-member {
+    figure {
+      width: 100%;
+    }
+    img {
+      min-width: 250px;
+      width: 100%;
+    }
+    figcaption {
+      max-height: 225px;
+      overflow-y: scroll;
+      top: 0;
+      bottom: 0;
+      h3 {
+        margin-top: 10px; 
+      }
+    }
+    @include screen-lg {
+      img {
+        min-width: 200px;
+      }
+    }
+    @include screen-md {
+      img {
+        min-width: 170px;
+      }
+      figcaption {
+        max-height: 200px;
+      }
+    }
+    @include screen-sm {
+      img {
+        min-width: 150px;
+      }
+    }
+    @include screen-xs {
+      img {
+        min-width: 130px;
+      }
+      
+    }
+    p {
+      @include font-size(12);
+    }
+  }
+
+}

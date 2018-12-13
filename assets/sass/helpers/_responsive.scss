@@ -438,14 +438,14 @@
     line-height: 46px;
   }
 
-  .lgx-teacher-single article header .text-area, .lgx-teacher-single article header figure {
+  .lgx-teacher-single article header .text-area, .lgx-teacher-single article header figure, .lgx-team-alpha-single article header figure {
     width: 100%;
     float: none;
   }
-  .lgx-teacher-single article header figure {
+  .lgx-teacher-single article header figure, .lgx-team-alpha-single article header figure {
     margin-bottom: 1.5rem;
   }
-  .lgx-teacher-single article header .text-area {
+  .lgx-teacher-single article header .text-area, .lgx-team-alpha-single article header .text-area {
     padding-left: 0;
   }
   .lgx-social li a {

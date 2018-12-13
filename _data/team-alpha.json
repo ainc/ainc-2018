@@ -1,0 +1,270 @@
+[
+    {
+        "name": "Brian Raney",
+        "rule": "Rule #4: Always do something awesome over something not awesome",
+        "song": "The Thing",
+        "person": "Truett Cathy",
+        "fact": "I started a water gun selling business when I was in middle school",
+        "team": "Co-Founder",
+        "wallPhoto":true,
+        "location": "",
+        "work":[
+            {
+                "position":"",
+                "company":"",
+                "logo":"",
+            }
+        ],
+        "memory":"",
+        "experience":""
+    },
+
+    {
+        "time": "2015-10-21T18:52:45.810Z",
+        "name": "Emily Wehrle",
+        "rule": "Rule #38: whatever you're saying - stop...you're about to embarass yourself",
+        "song": "Farther Along - Josh Garrels",
+        "person": "C.S. Lewis",
+        "fact": "I have a twin sister that was born exactly 2 years and 4 days before me.",
+        "team": "Director of Operations",
+        "wallPhoto":true,
+        "location": "",
+        "work":[
+            {
+                "position":"",
+                "company":"",
+                "logo":"",
+            }
+        ],
+        "memory":"",
+        "experience":""
+    },
+
+    {
+        "time": "2015-01-22T00:15:09.000Z",
+        "name": "Nick Such",
+        "rule": "Rule #10: 2-3 minutes late is okay, it shows that you are punctual but important enough to have other stuff going on.  5-6 minutes late is rude and shows that you don't respect people's time.",
+        "song": "Billy Joel - We Didn't Start the Fire",
+        "person": "Elon Musk",
+        "fact": "In college, I was an international race car driver",
+        "team": "Co-Founder",
+        "wallPhoto":true,
+        "location": "",
+        "work":[
+            {
+                "position":"",
+                "company":"",
+                "logo":"",
+            }
+        ],
+        "memory":"",
+        "experience":""
+    },
+
+    {
+        "time": "2014-11-12T02:34:16.000Z",
+        "name": "Peter Briggs",
+        "rule": "Rule #26: don't let stupid things keep you from doing awesome things",
+        "song": "Who We Are by Imagine Dragons",
+        "person": "Neil Armstrong",
+        "fact": "I own and regularly drive a purple moped. ",
+        "team": "Video Team",
+        "wallPhoto":true,
+        "location": "",
+        "work":[
+            {
+                "position":"",
+                "company":"",
+                "logo":"",
+            }
+        ],
+        "memory":"",
+        "experience":""
+    },
+
+    {
+        "name": "Keith McMunn",
+        "rule": "Rule #17: Bring the fun!",
+        "song": "Menswear - The 1975",
+        "person": "Jerry Seinfeld",
+        "fact": "I drive a Toyota Highlander...like a lot of other 45 year old women in Lexington.",
+        "team": "Fellowship Director",
+        "wallPhoto":true,
+        "location": "",
+        "work":[
+            {
+                "position":"",
+                "company":"",
+                "logo":"",
+            }
+        ],
+        "memory":"",
+        "experience":""
+    },
+
+    {
+        "name": "Amanda Murray",
+        "rule": "Rule #76: No excuses, play like a champion",
+        "song": "ILYSB",
+        "person": "Sheryl Sandberg",
+        "fact": "I made a birthday cake for Britney Spears.",
+        "team": "Director of Marketing",
+        "wallPhoto":true,
+        "location": "",
+        "work":[
+            {
+                "position":"",
+                "company":"",
+                "logo":"",
+            }
+        ],
+        "memory":"",
+        "experience":""
+    },
+
+    {
+        "name": "Ross Ladenburger",
+        "year":2017,
+        "rule": "Rule #26: don't let stupid things keep you from doing awesome things",
+        "song": "I Forget Where We Were -Ben Howard",
+        "person": "Alex Honnold",
+        "fact": "I went to clown camp when I was a kid",
+        "team": "AInc U",
+        "wallPhoto":true,
+        "location": "",
+        "work":[
+            {
+                "position":"",
+                "company":"",
+                "logo":"",
+            }
+        ],
+        "memory":"",
+        "experience":""
+    },
+
+    {
+      "time": "2014-01-15T23:25:29.000Z",
+      "name": "Kyle Raney",
+      "rule": "Rule #76: \"No excuses, play like a champion\"",
+      "song": "Safe and Sound - Capital Cities",
+      "person": "John Wall",
+      "fact": "I sell beef jerky and healthy snacks for a living.",
+      "team": "Development Team",
+      "wallPhoto":true,
+      "location": "",
+      "work":[
+          {
+              "position":"",
+              "company":"",
+              "logo":"",
+          }
+      ],
+      "memory":"",
+      "experience":""
+    },
+
+    {
+        "name": "Jacqueline Benson",
+        "year":2017,
+        "rule": "Rule #17: bring the fun!",
+        "song": "Stand By Me -Ben E. King",
+        "person": "Martha Stewart",
+        "fact": "I can wiggle my ears.",
+        "team": "Design Team",
+        "wallPhoto":true,
+        "location": "",
+        "work":[
+            {
+                "position":"",
+                "company":"",
+                "logo":"",
+            }
+        ],
+        "memory":"",
+        "experience":""
+    },
+
+    {
+        "name": "Garrett Fahrbach",
+        "year":2018,
+        "rule": "Rule #17: Bring the fun!",
+        "song": "Built to Last by Melee",
+        "person": "Nigel Hendroff is one of my musical role models. His hair is iconic and he is an incredible musician",
+        "fact": "I'm addicted to gum, but in a healthy manner",
+        "team": "Fellowship/HoF",
+        "wallPhoto":true,
+        "location": "",
+        "work":[
+            {
+                "position":"",
+                "company":"",
+                "logo":"",
+            }
+        ],
+        "memory":"",
+        "experience":""
+    },
+
+    {
+        "name": "Aayat Ali",
+        "year":2017,
+        "rule": "Rule #26: don't let stupid things keep you from doing awesome things",
+        "song": "Built to Last by Melee",
+        "person": "Beyonce",
+        "fact": "I've played guitar for 8 years",
+        "team": "Blog/Marketing Team",
+        "wallPhoto":true,
+        "location": "",
+        "work":[
+            {
+                "position":"",
+                "company":"",
+                "logo":"",
+            }
+        ],
+        "memory":"",
+        "experience":""
+    },
+
+    {
+        "name": "Lee Morrow",
+        "rule": "Rule #76: No excuses, play like a champion",
+        "song": "I don't really have one",
+        "person": "Andrew Skurka",
+        "fact": "I love mountains",
+        "team": "Development Team",
+        "wallPhoto":true,
+        "location": "",
+        "work":[
+            {
+                "position":"",
+                "company":"",
+                "logo":"",
+            }
+        ],
+        "memory":"",
+        "experience":""
+    },
+
+    {
+        "name": "Hannah Lane",
+        "rule": "Rule #4: Always do something awesome over something not awesome",
+        "song": "1950 - King Princess ",
+        "person": "Theodore Roosevelt Jr",
+        "fact": "My name is a palindrome.",
+        "team": "Events/Marketing Team",
+        "wallPhoto":true,
+        "location": "",
+        "work":[
+            {
+                "position":"",
+                "company":"",
+                "logo":"",
+            }
+        ],
+        "memory":"",
+        "experience":""
+    }
+
+]

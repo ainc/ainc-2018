@@ -186,6 +186,9 @@
             color: $brand-color;
             opacity: 1;
           }
+          @include screen-lg {
+            padding: 16px 8px;
+          }
         }
         .lgx-btn {
           //background: $brand-color2;
