@@ -35,3 +35,18 @@ plugins:
 
 assets:
   digest: false
+
+collections:
+  applications:
+    title: Applications
+    output: true
+    permalink: /:name/apply
+  courses:
+    title: Courses
+    output: true
+  notes:
+    title: Notes
+    output: true
+  tutorials:
+    title: Tutorials
+    output: true

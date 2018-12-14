@@ -1,9 +1,9 @@
 ---
 title: Privacy Policy
-permalink: "/privacy/"
+permalink: "/privacy"
 layout: legal
 redirect_from:
-- "/privacy-policy/"
+- "/privacy-policy"
 ---
 
 This privacy policy discloses the privacy practices for Awesome Ventures, LLC and its affiliated organizations and individuals (which may be collectively referred to herein as, among other things, “we”, “us” and “our”). The following policy explains our information collection practices, privacy policies and the choices available to you with regard to how your information is collected and utilized. This privacy policy applies solely to the information collected by this website (our “Site”).
