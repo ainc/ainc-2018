@@ -370,7 +370,7 @@ id: home
                 <div class="lgx-single-course">
                   <div class="lgx-single-course-inner">
                     <figure>
-                      <img src="/images/girl-student-learning-to-code.jpg" alt="course">
+                      <img src="/images/instructor-teaching-coding.jpg" alt="course">
                       <figcaption>
                         <div class="lgx-hover-link">
                           <div class="lgx-vertical">
@@ -385,15 +385,15 @@ id: home
                       <div class="course-author">
                         <img src="/images/icons/coding-club.png" alt="course">
                         <div class="author-info">
-                          <h4 class="title uppercase"><a href="#">Coding Club</a></h4>
+                          <h4 class="title uppercase"><a href="{{ site.data.routes.courses.club }}">Coding Club</a></h4>
                           <h5 class="subtitle uppercase">Beginner</h5>
                         </div>
                       </div>
                       <p>Coding Club is our program for students who want to learn a basic understanding of computer programming under the instruction of our fun and energetic team.</p>
                       <div class="course-bottom">
                         <ul class="list-inline">
-                          <li><a href="#"><i class="fa fa-user-circle"></i>Ages 9-12</a></li>
-                          <li><a href="#"><i class="fa fa-commenting"></i>Learn More</a></li>
+                          <li><a href="{{ site.data.routes.courses.club }}"><i class="fa fa-user-circle"></i>Ages 9-12</a></li>
+                          <li><a href="{{ site.data.routes.courses.club }}"><i class="fa fa-commenting"></i>Learn More</a></li>
                         </ul>
 
                       </div>
@@ -408,11 +408,11 @@ id: home
                 <div class="lgx-single-course">
                   <div class="lgx-single-course-inner">
                     <figure>
-                      <img src="/images/instructor-teaching-coding.jpg" alt="course">
+                      <img src="/images/girl-student-learning-to-code.jpg" alt="course">
                       <figcaption>
                         <div class="lgx-hover-link">
                           <div class="lgx-vertical">
-                            <a href="course-single.html">
+                            <a href="{{ site.data.routes.courses.league }}">
                               <i class="fa fa-book"></i>
                             </a>
                           </div>
@@ -423,15 +423,15 @@ id: home
                       <div class="course-author">
                         <img src="/images/icons/coding-league.png" alt="course">
                         <div class="author-info">
-                          <h4 class="title uppercase"><a href="#">Coding League</a></h4>
+                          <h4 class="title uppercase"><a href="{{ site.data.routes.courses.league }}">Coding League</a></h4>
                           <h5 class="subtitle uppercase">Intermediate</h5>
                         </div>
                       </div>
                       <p>What happens when you've pushed the limits of block-based programming languages like Scratch? It's time to start using more powerful, professional-grade tools.</p>
                       <div class="course-bottom">
                         <ul class="list-inline">
-                          <li><a href="#"><i class="fa fa-user-circle"></i>Ages 11-14</a></li>
-                          <li><a href="#"><i class="fa fa-commenting"></i>Learn More</a></li>
+                          <li><a href="{{ site.data.routes.courses.league }}"><i class="fa fa-user-circle"></i>Ages 11-14</a></li>
+                          <li><a href="{{ site.data.routes.courses.league }}"><i class="fa fa-commenting"></i>Learn More</a></li>
                         </ul>
 
                       </div>
@@ -461,15 +461,15 @@ id: home
                       <div class="course-author">
                         <img src="/images/icons/the-academy.png" alt="course">
                         <div class="author-info">
-                          <h4 class="title uppercase"><a href="#">The Academy</a></h4>
+                          <h4 class="title uppercase"><a href="{{ site.data.routes.courses.academy }}">The Academy</a></h4>
                           <h5 class="subtitle uppercase">Advanced</h5>
                         </div>
                       </div>
                       <p>The Academy is our premier training program for high school students who aspire to be software developers. Make your own Apps, Games, and Websites.</p>
                       <div class="course-bottom">
                         <ul class="list-inline">
-                          <li><a href="#"><i class="fa fa-user-circle"></i>Ages 13-18</a></li>
-                          <li><a href="#"><i class="fa fa-commenting"></i>Learn More</a></li>
+                          <li><a href="{{ site.data.routes.courses.academy }}"><i class="fa fa-user-circle"></i>Ages 13-18</a></li>
+                          <li><a href="{{ site.data.routes.courses.academy }}"><i class="fa fa-commenting"></i>Learn More</a></li>
                         </ul>
 
                       </div>
@@ -501,20 +501,24 @@ id: home
           </div>
         </div>
         <div class="pinned-button">
-          <a href="/workspace/#tour"><img src="/images/icons/schedule-a-tour-button.png" alt="schedule a tour button"></a>
+          <a href="{{ site.data.routes.tour }}"><img src="/images/icons/schedule-a-tour-button.png" alt="schedule a tour button"></a>
         </div>
         <div id="desk-bg" class="row">
           <div class="col-sm-6" style="position: relative">
-            <div class="card" data-aos="fade-down">
-              <h4>Functional Workspace</h4>
-              <p>An awesome space to work or host your next meeting.</p>
-            </div>
+            <a href="{{ site.data.routes.workspace }}">
+              <div class="card" data-aos="fade-down">
+                <h4>Functional Workspace</h4>
+                <p>An awesome space to work or host your next meeting.</p>
+              </div>
+            </a>
           </div>
           <div class="col-sm-6" style="position: relative">
-            <div class="card push-down" data-aos="fade-up">
-              <h4>Membership Benefits</h4>
-              <p>Flexible membership options and features to support your business operations.</p>
-            </div>
+            <a href="{{ site.data.routes.workspace }}">
+              <div class="card push-down" data-aos="fade-up">
+                <h4>Membership Benefits</h4>
+                <p>Flexible membership options and features to support your business operations.</p>
+              </div>
+            </a>
           </div>
         </div>
       </div>
@@ -537,14 +541,14 @@ id: home
         </div>
         <table class="no-border mobile-hide">
           <tr>
-            <td class="col-md-4 border-right"><div class="text-center icon"><img class="circular red-bg" src="/images/icons/startups-pitch.png" alt="Pitch your idea"></div></td>
-            <td class="col-md-4 border-right"><div class="text-center icon"><img class="circular red-bg" src="/images/icons/accelerate-your-startup.png" alt="accelerate your startup"></div></td>
-            <td class="col-md-4"><div class="text-center icon"><img class="circular red-bg" src="/images/icons/startups-showcase.png" alt="Showcase entrepreneurship"></div></td>
+            <td class="col-md-4 border-right"><div class="text-center icon"><a href="{{ site.data.routes.idea-form }}"><img class="circular red-bg" src="/images/icons/startups-pitch.png" alt="Pitch your idea"></a></div></td>
+            <td class="col-md-4 border-right"><div class="text-center icon"><a href="{{ site.data.routes.fellowship }}"><img class="circular red-bg" src="/images/icons/accelerate-your-startup.png" alt="accelerate your startup"></a></div></td>
+            <td class="col-md-4"><div class="text-center icon"><a href="https://www.entrepreneurhof.com/"><img class="circular red-bg" src="/images/icons/startups-showcase.png" alt="Showcase entrepreneurship"></a></div></td>
           </tr>
           <tr>
-            <td class="border-right"><h4 class="subtitle text-center">Pitch Your Idea</h4></td>
-            <td class="border-right"><h4 class="subtitle text-center">Accelerate Your Startup</h4></td>
-            <td><h4 class="subtitle text-center">Showcasing Kentucky Entrepreneurs</h4></td>
+            <td class="border-right"><a href="{{ site.data.routes.idea-form }}"><h4 class="subtitle text-center">Pitch Your Idea</h4></a></td>
+            <td class="border-right"><a href="{{ site.data.routes.fellowship }}"><h4 class="subtitle text-center">Accelerate Your Startup</h4></a></td>
+            <td><a href="https://www.entrepreneurhof.com/"><h4 class="subtitle text-center">Showcasing Kentucky Entrepreneurs</h4></a></td>
           </tr>
           <tr>
             <td class="border-right"><p class="text text-center">We offer outlets for your idea to be heard. Share your idea with us or learn more about events that promote entrepreneurship.</p></td>
@@ -554,25 +558,25 @@ id: home
         </table>
         <div class="row mobile-only">
           <div class="col-xs-12 thin-column">
-            <div class="text-center icon"><img class="circular red-bg" src="/images/icons/startups-pitch.png" alt="Pitch your idea"></div>
+            <div class="text-center icon"><a href="{{ site.data.routes.idea-form }}"><img class="circular red-bg" src="/images/icons/startups-pitch.png" alt="Pitch your idea"></a></div>
             <h4 class="subtitle text-center">Pitch Your Idea</h4>
             <p class="text text-center">We offer outlets for your idea to be heard. Share your idea with us or learn more about events that promote entrepreneurship.</p>
           </div>
           <div class="col-xs-12 thin-column">
-            <div class="text-center icon"><img class="circular red-bg" src="/images/icons/accelerate-your-startup.png" alt="accelerate your startup"></div>
-            <h4 class="subtitle text-center">Accelerate Your Startup</h4>
+            <div class="text-center icon"><a href="{{ site.data.routes.fellowship }}"><img class="circular red-bg" src="/images/icons/accelerate-your-startup.png" alt="accelerate your startup"></a></div>
+            <a href="{{ site.data.routes.fellowship }}"><h4 class="subtitle text-center">Accelerate Your Startup</h4></a>
             <p class="text text-center">Our <b>Fellowship Program</b> is mentor-driven, designed to accelerate your high-tech startup. Learn about the Fellowship Program as well as our other programs designed to foster your startup's growth.</p>
           </div>
           <div class="col-xs-12 thin-column">
-            <div class="text-center icon"><img class="circular red-bg" src="/images/icons/startups-showcase.png" alt="Showcase entrepreneurship"></div>
-            <h4 class="subtitle text-center">Showcasing Kentucky Entrepreneurs</h4>
+            <div class="text-center icon"><a href="https://www.entrepreneurhof.com/"><img class="circular red-bg" src="/images/icons/startups-showcase.png" alt="Showcase entrepreneurship"></a></div>
+            <a href="https://www.entrepreneurhof.com/"><h4 class="subtitle text-center">Showcasing Kentucky Entrepreneurs</h4></a>
             <p class="text text-center">Discover the impact that Entrepreneurship has made in the Commonwealth.</p>
           </div>
         </div> <!-- /mobile-only -->
-        <svg xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="100%" preserveAspectRatio="xMidYMid meet" viewBox="0 0  1024 576" width="100%">
+        <!-- <svg xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="100%" preserveAspectRatio="xMidYMid meet" viewBox="0 0  1024 576" width="100%">
           <rect height="576" id="svgEditorBackground" style="fill: none; stroke: none;" width="1024" x="0" y="0"/>
           <path data-aos="rocket-animation" id="rocket-path" stroke="#fff" stroke-width="2" d="M141.79876709,337.084198q14.904443504743284,-79.02662640049289,147.8439349840658,-89.8891303628748q96.46692700831625,11.928690029732962,150.2094573607186,49.67556797400394q64.08763139464054,-1.7268893419096685,41.39630685275148,-46.12729515529762q-33.59866277542085,-12.54022812363445,-33.11703936217651,17.741258601950705q6.778402538932255,27.93734139156055,72.14784024427092,36.66529063361395q71.4645093285626,11.506706004270825,101.71663238924032,-24.83776448162223q32.16473881193008,-36.46416062197116,40.21354966164267,-66.23409139634484" />
-        </svg>
+        </svg> -->
       </div> <!-- /container -->
     </div> <!-- /lgx-inner -->
   </div> <!-- lgx-startups -->
