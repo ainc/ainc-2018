@@ -50,3 +50,7 @@ collections:
   tutorials:
     title: Tutorials
     output: true
+  blog:
+    title: Blog
+    output: true
+    permalink: /blog/:name
