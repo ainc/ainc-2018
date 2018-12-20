@@ -1,0 +1,13 @@
+---
+title: Blog
+layout: sub
+permalink: "/blog"
+redirect_from:
+- "/posts"
+- "/blogs"
+---
+
+{% for post in site.blog %}
+  <h2>{{ post.title }}</h2>
+  <p>{{ page.date | date: "%b %d, %Y" }}</p>
+{% endfor %}
