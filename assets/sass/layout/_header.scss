@@ -624,7 +624,7 @@
   }
   .lgx-header-bottom-fixed-black {
     position: fixed;
-    @include bg-rgba($black-color, .5);
+    @include bg-rgba($black-color, .95);
     border-bottom: 1px solid transparent;
     .lgx-navbar {
       .lgx-nav li a {

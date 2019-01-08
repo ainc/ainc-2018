@@ -1,6 +1,13 @@
 ---
 layout: default
 ---
+{% if page.banner %}
+<section>
+  <div class="lgx-banner lgx-banner-small">
+  </div>
+</section>
+
+{% else %}
 
 <section>
   <div class="lgx-inner">
@@ -17,6 +24,7 @@ layout: default
     </div><!-- //.CONTAINER -->
   </div><!-- //.INNER -->
 </section>
+{% endif %}
 
 {{ content }}
 

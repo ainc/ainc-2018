@@ -74,37 +74,23 @@
     padding: 28rem 0;
   }
 }
-.lgx-banner2 {
-  background: url('http://via.placeholder.com/1920x915') top center no-repeat;
-}
-.lgx-banner3 {
-  background: url('http://via.placeholder.com/1920x915') top center no-repeat;
-}
-.lgx-banner4 {
-  background: url('http://via.placeholder.com/1920x915') top center no-repeat;
+
+.lgx-banner-small {
+  height: 300px;
+  background-size: cover;
+  background-position: center center;
+  margin-bottom: 30px;
 }
 
-.lgx-banner-six {
-  background: url('http://via.placeholder.com/1920x915') top center no-repeat fixed;
+#Workspace .lgx-banner-small {
+  background-image: url('../../images/banners/workspace.jpg');
 }
-
-.lgx-banner-seven {
-  background: url('http://via.placeholder.com/1920x915') top center no-repeat;
+#LearnToCode .lgx-banner-small {
+  background-image: url('../../images/banners/learn-to-code.jpg');
 }
-
-/*.lgx-banner6 {
-  background: url('../img/banner3.jpg') top center no-repeat fixed;
-}*/
-.lgx-banner-eight {
-  background: url('http://via.placeholder.com/1920x915') top center no-repeat fixed;
+#Fellowship .lgx-banner-small {
+  background-image: url('../../images/banners/fellowship.jpg');
 }
-.lgx-banner-typed {
-  background: url('http://via.placeholder.com/1920x915') top center no-repeat;
-}
-
-
-
-
 
 .lgx-banner-info {
   font-family: $lgx-heading-font;
