@@ -5,7 +5,7 @@
 		{% include head.html %}
 	</head>
 
-	<body>
+	<body {% if page.theme == 'dark' %}class="dark-theme"{% endif %}>
 		<div class="lgx-container "></div>
 		<header>
 			{% include nav.html %}

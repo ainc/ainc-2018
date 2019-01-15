@@ -1,12 +1,12 @@
 .lgx-milestone-about {
-  background: url('http://via.placeholder.com/1920x900') top center no-repeat;
+  background: url('../../images/banners/awesome-inc-space-banner.jpg') center no-repeat;
   -webkit-background-size: cover;
   -o-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
   .lgx-inner {
     @include bg-rgba($black-color, 0.90);
-    padding: 16.6rem 0;
+    padding: 10rem 0;
   }
 }
 
