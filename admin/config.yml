@@ -12,9 +12,6 @@ collections:
     label: "Blog"
     folder: "_blog"
     create: true
-    filter:
-      field: language
-      value: en
     fields:
       - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
       - {label: "Title", name: "title", widget: "string"}
