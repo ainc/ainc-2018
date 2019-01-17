@@ -5,7 +5,7 @@ backend:
 
 publish_mode: editorial_workflow # docs: https://www.netlifycms.org/docs/configuration-options/#publish-mode
 
-media_folder: "../images/uploads"
+media_folder: "images/uploads"
 
 collections:
   - name: "blog"
