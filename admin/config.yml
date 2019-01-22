@@ -18,3 +18,16 @@ collections:
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Featured Image", name: "thumbnail", widget: "image"}
       - {label: "Body", name: "body", widget: "markdown"}
+
+  - name: "Fellowship Portfolio"
+    label: "Fellowship Portfolio"
+    folder: "_fellowship_portfolio"
+    create: true
+    fields:
+      - {label: "Company", name: "company", widget: "string"}
+      - {label: "Start Date", name: "date", widget: "datetime"}
+      - {label: "Logo", name: "logo", widget: "image"}
+      - {label: "Description", name: "description", widget: "markdown"}
+      - {label: "Website", name: "website", widget: "string"}
+      - {label: "Facebook", name: "facebook", widget: "string"}
+      - {label: "LinkedIn", name: "linkedin", widget: "string"}
