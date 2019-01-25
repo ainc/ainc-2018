@@ -57,3 +57,6 @@ collections:
   fellowship_portfolio:
     title: Fellowship Portfolio
     output: true
+  mentors:
+    title: Mentors
+    output: true
