@@ -141,6 +141,9 @@ input[type="button"]:focus, input[type="button"]:active {
 
 .lgx-inner {
   padding: 5.2rem 0;
+  &.subpage {
+    padding-bottom: 0;
+  }
 }
 
 
