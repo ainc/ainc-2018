@@ -25,8 +25,11 @@
   }
 }
 
-.lgx-core-values {
+.lgx-video-background {
   background: url('../../images/awesome-inc-space.jpg') top center no-repeat;
+  &.week-of-code{
+    background: url('../../images/awesome-inc-space.jpg') top center no-repeat;
+  }
   -webkit-background-size: 110%;
   -o-background-size: 110%;
   -moz-background-size: 110%;
