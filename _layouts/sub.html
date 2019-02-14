@@ -3,7 +3,25 @@ layout: default
 ---
 {% if page.banner %}
 <section>
-  <div class="lgx-banner lgx-banner-small">
+  <div class="lgx-banner lgx-banner-inner">
+    <div class="lgx-inner">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="lgx-heading-area">
+                        <div class="lgx-heading lgx-heading-white">
+                            <h2 class="heading-title">{{ page.title }}</h2>
+                        </div>
+                        <ul class="breadcrumb">
+                            <li><a href="index.html"><i class="icon-home6"></i>Home</a></li>
+                            <li><a href="{{ site.data.routes.learn }}"><i class="icon-home6"></i>Learn</a></li>
+                            <li class="active">Youth Courses</li>
+                        </ul>
+                    </div>
+                </div>
+            </div><!--//.ROW-->
+        </div><!-- //.CONTAINER -->
+    </div><!-- //.INNER -->
   </div>
 </section>
 
