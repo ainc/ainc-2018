@@ -1,0 +1,28 @@
+#learn {
+
+  #laptop-learn {
+    background-image: url('../../images/macbook-code-learn.png');
+    height: 300px;
+    background-size: 60rem;
+    background-position: 10% center;
+    margin: 30px;
+    background-repeat: no-repeat;
+  }
+  .lgx-heading {
+    text-align: left;
+    .heading-title {
+      font-size: 4.4rem; 
+  
+    }
+    .heading-subtitle {
+      margin-top: 0;
+    }
+    img {
+      width: 4rem;
+      height: 4rem;
+      filter: brightness(0) invert(1);
+    }
+  }
+  
+
+}
