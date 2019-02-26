@@ -230,6 +230,14 @@ table.no-border {
 }
 
 /* ----------------------------------------------------------------
+    Class to set images on the same line
+-------------------------------------------------------------------*/
+
+.inline-block {
+  display: inline-block;
+}
+
+/* ----------------------------------------------------------------
   Mixins for Screen sizes
 -------------------------------------------------------------------*/
 
@@ -308,6 +316,65 @@ img {
 }
 
 /* ----------------------------------------------------------------
+  Image with an outline creating a "3d" look
+-------------------------------------------------------------------*/
+
+.img-outline-offset-left {
+  display: inline-block;
+  position: relative;
+  &::before {
+    position: absolute;
+    top: -2%;
+    left: -1%;
+    width: 100%;
+    height: 100%;
+    border: 1px solid $brand-grey-dark;
+    content: '';
+  }
+}
+.img-outline-offset-right {
+  display: inline-block;
+  position: relative;
+  &::before {
+    position: absolute;
+    top: -2%;
+    right: -1%;
+    width: 100%;
+    height: 100%;
+    border: 1px solid $brand-grey-dark;
+    content: '';
+  }
+}
+
+/* ----------------------------------------------------------------
+  Offset Border Classes
+-------------------------------------------------------------------*/
+
+.bottom-border-right {
+  position: relative;
+  &::before {
+    content:"";
+    position: absolute;
+    left: 80%;
+    right: -15%;
+    bottom: -1%;
+    border: 1px solid $brand-red-bright;
+    z-index: 999;
+  }
+}
+
+/* ----------------------------------------------------------------
+  Text with a shadow creating a "3d" look
+-------------------------------------------------------------------*/
+
+.text-shadow {
+  text-shadow: 3px 3px 0 $brand-red-bright;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: $brand-grey-dark;
+}
+
+/* ----------------------------------------------------------------
   Other Elements
 -------------------------------------------------------------------*/
 
@@ -315,3 +382,4 @@ img {
   background-color: $brand-color2;
   color: white;
 }
+

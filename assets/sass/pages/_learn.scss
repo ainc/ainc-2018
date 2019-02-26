@@ -7,22 +7,47 @@
     background-position: 10% center;
     margin: 30px;
     background-repeat: no-repeat;
+    a.lgx-btn {
+      margin-right: 1rem;
+      padding: 0.2rem 1rem;
+    }
+    .lgx-heading {
+      text-align: left;
+      
+      .heading-title {
+        @include font-size(44);
+        color: $brand-color;
+        margin-bottom: 0;
+      }
+      .heading-subtitle {
+        margin-top: 0;
+        font-style: italic;
+        margin-bottom: 2rem;
+      }
+      img {
+        width: 4rem;
+        height: 4rem;
+        filter: brightness(0) invert(1);
+      }
+    }
   }
-  .lgx-heading {
-    text-align: left;
+  #courses-learn {
+    .row {
+      margin-bottom: 5rem;
+    }
     .heading-title {
-      font-size: 4.4rem; 
-  
+      @include font-size(36);
+      text-align: center;
     }
     .heading-subtitle {
-      margin-top: 0;
+      @include font-size(24);
+      text-transform: uppercase;
+      text-align: center;
     }
-    img {
-      width: 4rem;
-      height: 4rem;
-      filter: brightness(0) invert(1);
+    p {
+      @include font-size(14);
+      text-align: center;
     }
   }
-  
 
 }
