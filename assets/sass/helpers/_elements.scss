@@ -221,6 +221,12 @@ table.no-border {
   display: flex;
 }
 
+.flex-img-center {
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+
 /* ----------------------------------------------------------------
     Image responsive for centering images horizontally
 -------------------------------------------------------------------*/
@@ -350,18 +356,45 @@ img {
   Offset Border Classes
 -------------------------------------------------------------------*/
 
-.bottom-border-right {
+.offset-border {
   position: relative;
   &::before {
-    content:"";
+    content: "";
     position: absolute;
+    z-index: 99;
+  }
+}
+.offset-border-bottom-right {
+  &::before {
     left: 80%;
     right: -15%;
     bottom: -1%;
     border: 1px solid $brand-red-bright;
-    z-index: 999;
   }
 }
+
+.offset-border-bottom-left {
+  position: relative;
+  &::before {
+    content:"";
+    position: absolute;
+    left: -15%;
+    right: 80%;
+    bottom: -1%;
+    border: 1px solid $brand-red-bright;
+    z-index: 99;
+  }
+}
+
+.offset-border-bottom-connect {
+  &::before {
+    left: 50%;
+    top: 100%;
+    bottom: -60%;
+    border: 1px dashed $brand-red-bright;
+  }
+}
+
 
 /* ----------------------------------------------------------------
   Text with a shadow creating a "3d" look
@@ -375,6 +408,72 @@ img {
 }
 
 /* ----------------------------------------------------------------
+  5 Equal Columns 
+  ref: https://stackoverflow.com/questions/10387740/five-equal-columns-in-twitter-bootstrap/22799354#22799354
+-------------------------------------------------------------------*/
+
+.col-xs-5ths,
+.col-sm-5ths,
+.col-md-5ths,
+.col-lg-5ths {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.col-xs-5ths {
+    width: 20%;
+    float: left;
+}
+
+@media (min-width: 768px) {
+    .col-sm-5ths {
+        width: 20%;
+        float: left;
+    }
+}
+
+@media (min-width: 992px) {
+    .col-md-5ths {
+        width: 20%;
+        float: left;
+    }
+}
+
+@media (min-width: 1200px) {
+    .col-lg-5ths {
+        width: 20%;
+        float: left;
+    }
+}
+
+/* ----------------------------------------------------------------
+  Header with line on the side
+  ref: https://stackoverflow.com/questions/15557627/heading-with-horizontal-line-on-either-side
+-------------------------------------------------------------------*/
+
+.horiz-line {
+  border-collapse: separate;
+  border-spacing: 16px 0;
+  border-spacing: 1rem 0;
+  display: table;
+  table-layout: auto;
+  white-space: nowrap;
+  line-height: 0 !important;
+  margin: 1em 0 0.5em;
+  width: 100%;
+  &:before, &:after {
+    content: '';
+    display: table-cell;
+    width: 50%;
+    background-image: linear-gradient(to right, black 33%, rgba(255,255,255,0) 0%);
+    background-size: 7px 3px;
+    background-repeat: repeat-x;
+  }
+}
+
+/* ----------------------------------------------------------------
   Other Elements
 -------------------------------------------------------------------*/
 
@@ -382,4 +481,3 @@ img {
   background-color: $brand-color2;
   color: white;
 }
-
