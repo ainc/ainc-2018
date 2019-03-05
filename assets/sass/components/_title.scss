@@ -1,6 +1,14 @@
 .lgx-heading {
   text-align: center;
   margin-bottom: 6.3rem;
+  .heading-page {
+    font-family: $lgx-heading-font;
+    @include font-size(48);
+    font-weight: 900;
+    margin-top: 0;
+    color: $black-color;
+    text-transform: uppercase;
+  }
   .heading-title {
     font-family: $lgx-heading-font;
     @include font-size(39);
@@ -20,6 +28,9 @@
 
 .lgx-heading-white {
   color: $white-color;
+  .heading-page{
+    color: $white-color;
+  }
   .heading-title {
     color: $white-color;
   }

@@ -42,7 +42,12 @@
     margin: 10px 0;
     margin: 1rem 0;
     text-align: justify;
-    @include font-size(14)
+    @include font-size(14);
+  }
+  .course-wide{
+    p{
+      text-align: center;;
+    }
   }
   @include transition-duration($duration: 0.3s);
   figure {

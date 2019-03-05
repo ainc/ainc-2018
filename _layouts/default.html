@@ -5,13 +5,13 @@
 		{% include head.html %}
 	</head>
 
-	<body>
+	<body class="page page-template">
 		<div class="lgx-container "></div>
 		<header>
 			{% include nav.html %}
 		</header>
 
-		<main class="main" id='{% if page.id %}{{ page.id }}{% else %}{{ page.title | remove:" " }}{% endif %}' aria-label="Content">
+		<main class="main" id='{% if page.page_id %}{{ page.page_id }}{% else %}{{ page.title | remove:" " }}{% endif %}' aria-label="Content">
 			{{ content }}
 		</main>
 

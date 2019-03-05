@@ -480,4 +480,10 @@ img {
 .dark-bg {
   background-color: $brand-color2;
   color: white;
+  p {
+    @include font-size(15);
+    line-height: 2.6rem;
+    font-weight: 400;
+    color: white;
+  }
 }
