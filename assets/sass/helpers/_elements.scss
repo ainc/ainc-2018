@@ -304,17 +304,9 @@ img {
   background-color: $brand-color2;
   color: white;
   p {
-    @include font-size(14);
-    color: white;
-  }
-}
-
-.dark-bg-content {
-  text-align: center;
-  margin-bottom: 3.9rem;
-  .subtitle {
     @include font-size(15);
+    line-height: 2.6rem;
     font-weight: 400;
-    color: $black-color;
+    color: white;
   }
 }
