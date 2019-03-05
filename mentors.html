@@ -1,7 +1,7 @@
 ---
 title: Mentors
 layout: sub
-permalink: "fellowship/mentors/"
+permalink: "mentors/"
 ---
 
 <ul class="breadcrumb">
@@ -10,6 +10,39 @@ permalink: "fellowship/mentors/"
   <li class="active">Mentors</li>
 </ul>
 
-<h2>Mentors List</h2>
-
-<p><a class="lgx-btn" href="{{ site.data.routes.fellowship-apply }}">Apply Now</a></p>
+<!--MENTORS-->
+<section>
+  <div id="lgx-mentors" class="lgx-mentors">
+    <div class="lgx-inner">
+      <div class="container">
+        <div class="row">
+          {% for mentor in site.mentors %}
+          <div class="col-xs-6 col-sm-4 col-md-3">
+            <div class="lgx-single-item"> <!--lgx-team-circle-->
+              <figure>
+                <img src="{% if mentor.picture %}{{ mentor.picture }}{% else %}http://via.placeholder.com/600x708{% endif %}" alt="{{ mentor.name }}"/>
+                <figcaption>
+                  <h3 class="item-name">
+                    {% if mentor.linkedin %}
+                      <a href="{{ mentor.linkedin }}">{{ mentor.name }}</a>
+                    {% else %}
+                      {{ mentor.name }}
+                    {% endif %}
+                  </h3>
+                  <p class="text">{{ mentor.company }}</p>
+                  <div class="item-bottom pull-right">
+                    <ul class="list-inline social-group">
+                      {% if mentor.linkedin %}<li><a href="{{ mentor.linkedin }}"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>{% endif %}
+                    </ul>
+                  </div>
+                </figcaption>
+              </figure>
+            </div>
+          </div>
+          {% endfor %}
+        </div><!-- //.ROW -->
+      </div><!-- //.CONTAINER -->
+    </div><!-- //.INNER -->
+  </div>
+</section>
+<!--MENTORS END-->

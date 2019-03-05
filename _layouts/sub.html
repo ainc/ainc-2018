@@ -37,13 +37,13 @@ layout: default
 {% else %}
 
 <section>
-  <div class="lgx-inner">
+  <div class="lgx-inner subpage">
     <div class="container">
       <div class="row">
         <div class="col-xs-12">
           <div class="lgx-heading-area">
             <div class="lgx-heading lgx-heading">
-              <h2 class="heading-title">{{ page.title }}</h2>
+              <h2 class="heading-title">{% if page.alt_title %}{{ page.alt_title }}{% else %}{{ page.title }}{% endif %}</h2>
               <p>{{ page.subtitle }}</p>
             </div>
           </div>

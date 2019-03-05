@@ -1,0 +1,123 @@
+.faq-section {
+  background: #fdfdfd;
+  min-height: 100vh;
+  padding: 10vh 0 0;
+}
+
+.faq-title {
+  h2 {
+    position: relative;
+    margin-bottom: 45px;
+    display: inline-block;
+    font-weight: 600;
+    line-height: 1;
+    &::before {
+      content: "";
+      position: absolute;
+      left: 50%;
+      width: 60px;
+      height: 2px;
+      background: #E91E63;
+      bottom: -25px;
+      margin-left: -30px;
+    }
+  }
+  p {
+    padding: 0 190px;
+    margin-bottom: 10px;
+  }
+}
+
+.faq {
+  background: #FFFFFF;
+  box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.06);
+  border-radius: 4px;
+  margin-bottom: 5rem;
+  .card {
+    width: inherit;
+    border: none;
+    background: none;
+    border-bottom: 1px dashed $brand-color2;
+    border-radius: 0;
+    &:first-child {
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+    }
+    &:last-child {
+      border-bottom-left-radius: 10px;
+      border-bottom-right-radius: 10px;
+      border-bottom: none;
+    }
+    .card-header {
+      padding: 0px;
+      border: none;
+      background: none;
+      -webkit-transition: all 0.3s ease 0s;
+      -moz-transition: all 0.3s ease 0s;
+      -o-transition: all 0.3s ease 0s;
+      transition: all 0.3s ease 0s;
+      &:hover {
+        background: rgba(233, 30, 99, 0.1);
+        padding-left: 10px;
+      }
+      .faq-title {
+        width: 100%;
+        text-align: left;
+        padding: 0px;
+        padding-left: 30px;
+        padding-right: 30px;
+        font-weight: 400;
+        font-size: 15px;
+        letter-spacing: 1px;
+        color: $brand-color2;
+        text-decoration: none !important;
+        -webkit-transition: all 0.3s ease 0s;
+        -moz-transition: all 0.3s ease 0s;
+        -o-transition: all 0.3s ease 0s;
+        transition: all 0.3s ease 0s;
+        cursor: pointer;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        .badge {
+          display: inline-block;
+          width: 20px;
+          height: 20px;
+          line-height: 14px;
+          float: left;
+          -webkit-border-radius: 100px;
+          -moz-border-radius: 100px;
+          border-radius: 100px;
+          text-align: center;
+          background: #E91E63;
+          color: #fff;
+          font-size: 12px;
+          margin-right: 20px;
+        }
+      }
+    }
+    .card-body {
+      padding: 30px;
+      padding-left: 35px;
+      padding-bottom: 16px;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 28px;
+      letter-spacing: 1px;
+      p {
+        color: $brand-color2;
+        text-align: left;
+        margin-bottom: 14px;
+      }
+    }
+  }
+}
+
+@media (max-width: 991px) {
+  .faq {
+    margin-bottom: 30px;
+    .card .card-header .faq-title {
+      line-height: 26px;
+      margin-top: 10px;
+    }
+  }
+}

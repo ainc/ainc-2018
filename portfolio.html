@@ -10,7 +10,43 @@ permalink: "/fellowship/portfolio"
   <li class="active">Portfolio</li>
 </ul>
 
-<h2>Portfolio List</h2>
+
+
+<!--PORTFOLIO-->
+<section>
+  <div id="lgx-portfolio" class="lgx-portfolio">
+    <div class="lgx-inner">
+      <div class="container">
+        <div class="row">
+          {% for team in site.fellowship_portfolio %}
+          <div class="col-xs-12 col-sm-6 col-md-4">
+            <div class="lgx-single-team"> <!--lgx-team-circle-->
+              <figure>
+                <a href="{% if team.website %}{{ team.website }}{% else %}#{% endif %}"><img src="{% if team.logo %}{{ team.logo }}{% else %}http://via.placeholder.com/600x708{% endif %}" alt="{{ team.name }} logo"/></a>
+                <figcaption>
+                  <h3 class="team-name">
+                    <a href="{% if team.website %}{{ team.website }}{% else %}#{% endif %}">{{ team.company }}</a>
+                    <span class="pull-right">{{ team.date | date: "%Y" }}</span>
+                  </h3>
+                  <p class="text">{{ team.content }}</p>
+                  <div class="team-bottom">
+                    <ul class="list-inline social-group">
+                      {% if team.facebook %}<li><a href="{{ team.facebook }}"><i class="fa fa-facebook-f" aria-hidden="true"></i></a></li>{% endif %}
+                      {% if team.linkedin %}<li><a href="{{ team.linkedin }}"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>{% endif %}
+                    </ul>
+                    <a class="link" href="{% if team.website %}{{ team.website }}{% else %}#{% endif %}"><i class="fa  fa-long-arrow-right" aria-hidden="true"></i></a>
+                  </div>
+                </figcaption>
+              </figure>
+            </div>
+          </div>
+          {% endfor %}
+        </div><!-- //.ROW -->
+      </div><!-- //.CONTAINER -->
+    </div><!-- //.INNER -->
+  </div>
+</section>
+<!--PORTFOLIO END-->
 
 <p><a class="lgx-btn" href="{{ site.data.routes.fellowship-apply }}">Apply Now</a></p>
 <p><a class="lgx-btn" href="{{ site.data.routes.mentors }}">Mentors</a></p>

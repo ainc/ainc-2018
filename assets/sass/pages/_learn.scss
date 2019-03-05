@@ -1,3 +1,173 @@
-.lgx-heading {
-  margin-bottom: 0;
+#learn {
+
+  #laptop-learn {
+    background-image: url('../../images/macbook-code-learn.png');
+    height: 300px;
+    background-size: 60rem;
+    background-position: 10% center;
+    margin: 30px;
+    background-repeat: no-repeat;
+    a.lgx-btn {
+      margin-right: 1rem;
+      padding: 0.2rem 1rem;
+    }
+    .lgx-heading {
+      text-align: left;
+      
+      .heading-title {
+        @include font-size(44);
+        color: $brand-color;
+        margin-bottom: 0;
+      }
+      .heading-subtitle {
+        margin-top: 0;
+        font-style: italic;
+        margin-bottom: 2rem;
+      }
+      img {
+        width: 4rem;
+        height: 4rem;
+        filter: brightness(0) invert(1);
+      }
+    }
+  }
+  #courses-learn {
+    .row {
+      margin-bottom: 5rem;
+    }
+    .learn-img-right {
+      .heading-title, .heading-subtitle, p, a {
+        text-align: center;
+      }
+      &:last-child {
+        .heading-title, .heading-subtitle, p, a {
+          text-align: right;
+        }
+      }
+    }
+    .learn-img-left {
+      .heading-title, .heading-subtitle, p, a {
+        text-align: left;
+      }
+    }
+    .heading-title {
+      @include font-size(36);
+    }
+    .heading-subtitle {
+      @include font-size(24);
+      text-transform: uppercase;
+    }
+    h5.heading-subtitle {
+      @include font-size(16);
+      font-weight: 600;
+      text-transform: none;
+    }
+    @include screen-lg {
+      .heading-title {
+        @include font-size(26);
+      }
+      .heading-subtitle {
+        @include font-size(18);
+      }
+      p {
+        @include font-size(13);
+      }
+    }
+    p {
+      @include font-size(14);
+      margin-bottom: 1rem;
+    }
+  }
+
+  #testimonials-learn {
+    background-image: url('../../images/phone-booth-abstract.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    .lgx-inner {
+      padding: 1.2rem 0 3.5rem 0;
+    }
+    .lgx-heading-area {
+      .heading-title {
+        text-align: center;
+        @include font-size(40);
+        font-weight: 800;
+        text-transform: capitalize;
+        margin-bottom: 0;
+      }
+      p {
+        text-align: center;
+      }
+    }
+    img {
+      max-width: 75%;
+      display: block;
+      margin: auto;
+    }
+    #hire-100 {
+      background: url("../../images/100-percent-hired.jpg") center center no-repeat;
+    }
+    .testimonial {
+      background-color: white;
+      padding: 2rem;
+      p {
+        text-align: justify;
+      }
+    }
+  }
+  #press {
+    img {
+      max-height: 8rem;
+      display: block;
+      margin: auto;
+    }
+    
+  }
+
+  svg#straight-line {
+    position: absolute;
+    fill: none;
+    top: 105%;
+    left: 50%;
+    z-index: 99;
+    width: 0.5rem;
+    height: 15rem;
+    line {
+      stroke: $brand-red-bright;
+      stroke-width: 0.2rem;
+      stroke-linecap: round;
+      stroke-dasharray: 0, 6;
+      stroke-dashoffset: 3;
+    }
+    @include screen-lg {
+      height: 10rem;
+      line {
+        stroke-dasharray: 0, 8;
+        stroke-width: 0.3rem;
+      }
+    }
+  }
+  svg#zig-zag {
+    position: absolute;
+    fill: none;
+    top: 220%;
+    left: 50%;
+    z-index: 99;
+    width: 50rem;
+    height: 15rem;
+    polyline {
+      stroke: $brand-red-bright;
+      stroke-width: 0.03rem;
+      stroke-linecap: round;
+      stroke-dasharray: 0, 0.9;
+      stroke-dashoffset: 3; 
+    }
+    @include screen-lg {
+      top: 178%;
+      width: 40rem;
+      polyline {
+        stroke-width: 0.04rem;
+        stroke-dasharray: 0, 1;
+      }
+    }
+  }
 }

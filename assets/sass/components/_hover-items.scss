@@ -1,0 +1,363 @@
+//common
+.lgx-owlitems .owl-controls,
+.lgx-owlnews .owl-controls,
+.lgx-owltestimonial .owl-controls {
+  .owl-prev,
+  .owl-next {
+    background: $brand-color;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    opacity: 0;
+    top: 38%;
+    @include transition-duration($duration: 0.5s);
+    i {
+      font-size: 26px;
+      line-height: 40px;
+      color: $brand-color;
+    }
+    &:hover {
+      background: $brand-color;
+      -webkit-box-shadow: 0 4px 10px rgba(0,0,0,.25);
+      -moz-box-shadow: 0 4px 10px rgba(0,0,0,.25);
+      box-shadow: 0 4px 10px rgba(0,0,0,.25);
+      i {
+        color: $white-color;
+
+      }
+    }
+  }
+  .owl-prev {
+    position: absolute;
+    left: 2.6rem;
+    right: auto;
+  }
+  .owl-next {
+    position: absolute;
+    left: auto;
+    right: 2.6rem;
+  }
+}
+
+.lgx-owlitems,
+.lgx-owlnews,
+.lgx-owltestimonial {
+  &:hover {
+    .owl-controls {
+      .owl-prev,
+      .owl-next {
+        opacity: 1;
+      }
+      .owl-prev {
+        left: 0;
+      }
+      .owl-next {
+        right: 0;
+      }
+    }
+  }
+}
+
+.lgx-owlitems .owl-controls .owl-nav [class*=owl-]:hover,
+.lgx-owlnews .owl-controls .owl-nav [class*=owl-]:hover,
+.lgx-owltestimonial .owl-controls .owl-nav [class*=owl-]:hover {
+  background: $brand-color;
+}
+
+.lgx-owlitems {
+  .item {
+    padding-left: 10px;
+    padding-right: 10px;
+    position: relative;
+    z-index: 999;
+  }
+}
+.lgx-single-member, .lgx-single-team, .lgx-single-item {
+  border-radius: 6px;
+  margin-bottom: 2.4rem;
+  border: 1px solid $border-color;
+  @include transition-duration($duration: 0.3s);
+  margin-top: 10px;
+  figure {
+    position: relative;
+    a {
+      img {
+        border-radius: 6px;
+        -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+        filter: grayscale(100%);
+      }
+    }
+    figcaption {
+      position: absolute;
+      bottom: 50px;
+      margin: 1.5rem;
+      padding: 0 2rem 2rem 2rem;
+      @include bg-rgba($white-color, 1);
+      border-radius: 6px;
+      -webkit-box-shadow: 0 20px 35px rgba(0, 0, 0, 0.12);
+      -moz-box-shadow: 0 20px 35px rgba(0, 0, 0, 0.12);
+      box-shadow: 0 20px 35px rgba(0, 0, 0, 0.12);
+      @include transition-duration($duration: 0.5s);
+      opacity: 0;
+      &:before {
+        // content:"";
+        // width: 0;
+        // height: 0;
+        // border-left: 20px solid transparent;
+        // border-right: 20px solid transparent;
+        // border-bottom: 25px solid $white-color;
+        // position: relative;
+        // top: -41px;
+      }
+      p {
+        @include font-size(14);
+      }
+      .item-name, .member-name, .team-name {
+        margin: 1rem;
+        @include font-size(20);
+        margin-bottom: 1rem;
+        @include transition-duration($duration: 0.3s);
+        span {
+          font-family: $lgx-base-font;
+          @include font-size(13);
+          font-style: italic;
+          margin-left: 1.5rem;
+          display: inline-block;
+          color: $brand-color;
+          @include transition-duration($duration: 0.3s);
+
+        }
+      }
+      .text {
+        margin-bottom: 1rem;
+      }
+      .item-bottom, .member-bottom, .team-bottom {
+        ul,
+        .link {
+          float: left;
+        }
+        .link {
+          float: right;
+          i {
+            @include font-size(26);
+          }
+        }
+      }
+      .social-group {
+        li {
+          a {
+            color: $border-color;
+            i {
+              @include font-size(20);
+            }
+            .fa-twitter {
+              color: #1da1f2;
+            }
+            .facebook-f,
+            .fa-facebook-f {
+              color: #3b5998;
+            }
+            .fa-linkedin {
+              color: #00a0dc;
+            }
+            .fa-youtube-play {
+              color: #cd201f;
+            }
+            .fa-instagram {
+              color: #c13584;
+            }
+            .fa-google-plus,
+            .fa-google {
+              color: #dd4b39;
+            }
+            .fa-pinterest-p {
+              color: #bd081c;
+            }
+            &:hover {
+              color: $brand-color;
+              i {
+                color: inherit;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  &:hover {
+    border: 1px solid $brand-color;
+    -webkit-box-shadow: 0 0px 15px rgba(0,0,0,.3);
+    -moz-box-shadow: 0 0px 15px rgba(0,0,0,.3);
+    box-shadow: 0 0px 15px rgba(0,0,0,.3);
+    figure {
+      a {
+        img {
+          filter: none;
+          -webkit-filter: grayscale(0%);
+        }
+      }
+      figcaption {
+        opacity: 1;
+        bottom: 0;
+      }
+    }
+  }
+}
+
+.lgx-item-circle, .lgx-member-circle, .lgx-team-circle {
+  background: $white-color;
+  border-radius: 6px;
+  margin-bottom: 2.4rem;
+  border: 1px solid $border-color;
+  text-align: center;
+  padding: 3rem;
+  figure {
+    position: relative;
+    a {
+      img {
+        border-radius: 50%;
+        padding: 1.5rem;
+        padding-top: 0;
+        @include bg-rgba($border-color, .2);
+        border: 1.5rem solid rgba(0, 0, 0, .05);
+        border-bottom: 0;
+        -webkit-background-clip: padding-box; /* for Safari */
+        background-clip: padding-box; /* for IE9+, Firefox 4+, Opera, Chrome */
+        filter: none;
+        -webkit-filter: grayscale(0%);
+        -moz-transform: scale(.95);
+        -webkit-transform: scale(.95);
+        -o-transform: scale(.95);
+        -ms-transform: scale(.95);
+        transform: scale(.95);
+        @include transition-duration($duration: 0.5s);
+      }
+    }
+    figcaption {
+      position: static;
+      bottom: 50px;
+      margin: 1.5rem;
+      padding: 0;
+      background: transparent;
+      border-radius: 0;
+      -webkit-box-shadow: none;
+      -moz-box-shadow: none;
+      box-shadow: none;
+      @include transition-duration($duration: 0.5s);
+      opacity: 1;
+      p {
+        display: none;
+      }
+      &:before {
+        display: none;
+      }
+      .item-name, .member-name, .team-name {
+        margin: 0;
+        @include font-size(15);
+        text-transform: uppercase;
+        span {
+          font-style: normal;
+          margin-left: 0;
+          display: block;
+          margin-top: .5rem;
+          margin-bottom: 2rem;
+        }
+        &:hover {
+          a {
+            color: $white-color;
+          }
+        }
+      }
+      .item-bottom, .member-bottom, .team-bottom {
+        border-top: 1px solid rgba(0, 0, 0, .05);
+        -webkit-background-clip: padding-box; /* for Safari */
+        background-clip: padding-box; /* for IE9+, Firefox 4+, Opera, Chrome */
+        padding-top: 1rem;
+        margin-top: 1rem;
+        ul,
+        .link {
+          float: left;
+        }
+        .link {
+          float: right;
+        }
+        .social-group {
+          li {
+            a {
+              color: $border-color;
+              i {
+                color: inherit;
+              }
+              &:hover {
+                color: $black-color;
+                i {
+                  color: $black-color;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  &:hover {
+    border: 1px solid $brand-color;
+    -webkit-box-shadow: 0 0px 15px rgba(0,0,0,.3);
+    -moz-box-shadow: 0 0px 15px rgba(0,0,0,.3);
+    box-shadow: 0 0px 15px rgba(0,0,0,.3);
+    background: $brand-color;
+
+    figure {
+      a {
+        img {
+          filter: none;
+          -webkit-filter: grayscale(0%);
+          -moz-transform: scale(1);
+          -webkit-transform: scale(1);
+          -o-transform: scale(1);
+          -ms-transform: scale(1);
+          transform: scale(1);
+          @include transition-duration($duration: 0.8s);
+        }
+      }
+      figcaption {
+        opacity: 1;
+        bottom: 0;
+        .item-name, .member-name, .team-name {
+          color: $white-color;
+          span {
+            color: $black-color;
+          }
+        }
+        .item-bottom, .member-bottom, .team-bottom {
+          .link {
+            color: $white-color;
+          }
+          .social-group {
+            li {
+              a {
+                color: $border-color;
+                i {
+                  color: inherit;
+                }
+                &:hover {
+                  color: $white-color;
+                  i {
+                    color: inherit;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+
+
+
+
+
+

@@ -9,38 +9,45 @@
   display: inline-block;
   text-transform: uppercase;
   @include font-size(18);
-  -webkit-transition: all .3s ease-in-out 0s;
-  -moz-transition: all .3s ease-in-out 0s;
-  -o-transition: all .3s ease-in-out 0s;
-  transition: all .3s ease-in-out 0s;
   border: 2px solid $brand-color;
   border-radius: 4px;
-  @include transition-duration($duration: 0.3s);
   position: relative;
-  &:before {
-    content: "\f178";
-    font-family: FontAwesome;
-    @include font-size(17);
-    right: 19px;
-    position: absolute;
-    top: 10px;
-    display: none;
-  }
-  &:hover {
-    background: $brand-color;
-    color: $white-color;
-    border: 2px solid $brand-color;
-    -webkit-box-shadow: 0 4px 10px rgba(0,0,0,.25);
-    -moz-box-shadow: 0 4px 10px rgba(0,0,0,.25);
-    box-shadow: 0 4px 10px rgba(0,0,0,.25);
-    padding: 0.8rem 4.5rem 0.8rem 2.4rem;
+  &.lgx-btn-anim {
+    -webkit-transition: all .3s ease-in-out 0s;
+    -moz-transition: all .3s ease-in-out 0s;
+    -o-transition: all .3s ease-in-out 0s;
+    transition: all .3s ease-in-out 0s;
+    @include transition-duration($duration: 0.3s);
     &:before {
-      display: block;
+      content: "\f178";
+      font-family: FontAwesome;
+      @include font-size(17);
+      right: 19px;
+      position: absolute;
+      top: 10px;
+      display: none;
+    }
+    &:hover {
+      background: $brand-color;
+      color: $white-color;
+      border: 2px solid $brand-color;
+      -webkit-box-shadow: 0 4px 10px rgba(0,0,0,.25);
+      -moz-box-shadow: 0 4px 10px rgba(0,0,0,.25);
+      box-shadow: 0 4px 10px rgba(0,0,0,.25);
+      padding: 0.8rem 4.5rem 0.8rem 2.4rem;
+      &:before {
+        display: block;
+      }
     }
   }
+  
   &.lgx-btn-grey {
     background-color: $brand-color2;
     border-color: $brand-color2;
+  }
+  &.lgx-btn-grey-light {
+    background-color: $brand-grey-dark;
+    border-color: $brand-grey-dark;
   }
 }
 
@@ -58,16 +65,42 @@
 }
 
 .lgx-btn-sm {
-  padding: 1rem 2.4rem;
+  @include font-size(15);
+  letter-spacing: 1px;
+  padding: 0.8rem 1.2rem;
   border: 1px solid $brand-color;
   &:before {
     @include font-size(15);
     right: 10px;
     top: 10px;
   }
-  &:hover {
-    padding: 1rem 3rem 1rem 2.4rem;
-    border: 1px solid $brand-color;
+  &.lgx-btn-anim {
+    -webkit-transition: all .3s ease-in-out 0s;
+    -moz-transition: all .3s ease-in-out 0s;
+    -o-transition: all .3s ease-in-out 0s;
+    transition: all .3s ease-in-out 0s;
+    @include transition-duration($duration: 0.3s);
+    &:before {
+      content: "\f178";
+      font-family: FontAwesome;
+      @include font-size(15);
+      right: 10px;
+      position: absolute;
+      top: 8px;
+      display: none;
+    }
+    &:hover {
+      background: $brand-color;
+      color: $white-color;
+      border: 1px solid $brand-color;
+      -webkit-box-shadow: 0 4px 10px rgba(0,0,0,.25);
+      -moz-box-shadow: 0 4px 10px rgba(0,0,0,.25);
+      box-shadow: 0 4px 10px rgba(0,0,0,.25);
+      padding: 0.8rem 3.5rem 0.8rem 1.4rem;
+      &:before {
+        display: block;
+      }
+    }
   }
 }
 
