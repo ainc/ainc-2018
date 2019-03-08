@@ -407,6 +407,13 @@ img {
   -webkit-text-stroke-color: $brand-grey-dark;
 }
 
+.text-shadow-white {
+  text-shadow: 3px 3px 0 white;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: $brand-grey-dark;
+}
+
 /* ----------------------------------------------------------------
   5 Equal Columns 
   ref: https://stackoverflow.com/questions/10387740/five-equal-columns-in-twitter-bootstrap/22799354#22799354
@@ -470,6 +477,115 @@ img {
     background-image: linear-gradient(to right, black 33%, rgba(255,255,255,0) 0%);
     background-size: 7px 3px;
     background-repeat: repeat-x;
+  }
+}
+
+
+/************************************************************
+            Awesome Inc Tables
+************************************************************/
+
+.table-red {
+	margin: 35px 0;
+	thead {
+		background-color: $brand-red-bright; 
+		color: white; 
+		font-family: Exo;
+		font-weight: bold;
+		text-transform: uppercase;
+	}
+	tbody tr td:first-child {
+		font-weight: bold;
+	}
+	thead tr td, tbody tr td {
+		text-align: center;
+		vertical-align: middle;
+	}.table {
+    margin: 35px 0;
+    thead {
+      background-color: $brand-red-bright; 
+      color: white; 
+      font-family: Exo;
+      font-weight: bold;
+      text-transform: uppercase;
+    }
+    tbody tr td:first-child {
+      font-weight: bold;
+    }
+    thead tr td, tbody tr td {
+      text-align: center;
+      vertical-align: middle;
+    }
+  }
+}
+
+/************************************************************
+            Course Section
+************************************************************/
+
+.course-section {
+  h4 {
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+  i {
+    @include font-size(13);
+  }
+  .lgx-heading-area {
+    margin-bottom: 8rem;
+  }
+
+  svg#straight-line, svg {
+    position: absolute;
+    fill: none;
+    left: 50%;
+    z-index: 99;
+    width: 0.5rem;
+    height: 7rem;
+    margin-top: 2rem;
+    line {
+      stroke: $brand-red-bright;
+      stroke-width: 0.7rem;
+      stroke-linecap: round;
+      stroke-dasharray: 0, 15;
+      stroke-dashoffset: 3;
+    }
+    @include screen-lg {
+      height: 10rem;
+      line {
+        stroke-dasharray: 0, 8;
+        stroke-width: 0.3rem;
+      }
+    }
+  }
+
+  svg#straight-line-horiz {
+    position: absolute;
+    fill: none;
+    z-index: 99;
+    width: 20rem;
+    height: 0.5rem;
+    margin-top: 3rem;
+    &.right-side {
+      left: 75%;
+    }
+    &.left-side {
+      right: 75%;
+    }
+    line {
+      stroke: $brand-color2;
+      stroke-width: 0.25rem;
+      stroke-linecap: round;
+      stroke-dasharray: 0, 6;
+      stroke-dashoffset: 2;
+    }
+    @include screen-lg {
+      // height: 10rem;
+      line {
+        stroke-dasharray: 0, 8;
+        stroke-width: 0.3rem;
+      }
+    }
   }
 }
 

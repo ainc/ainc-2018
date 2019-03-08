@@ -17,11 +17,11 @@ layout: default
                           <li><a href="/"><i class="icon-home6"></i>Home</a></li>
                           <!-- generate array from permalink -->
                           {% assign permalink = page.permalink | split: "/" %}
-                          {% for link in permalink) %}
+                          {% for link in permalink %}
                             <!-- remove whitespace char and active element from array -->
                             {% if link != permalink.first and link != permalink.last %}
                               <!-- generate new route for breadcrumb link -->
-                              <li><a href="{{ site.data.routes.[link] }}"><i class="icon-home6"></i>{{ link }}</a></li> 
+                              <li><a href="{{ site.data.routes.link }}"><i class="icon-home6"></i>{{ link }}</a></li> 
                             {% endif %}
                           {% endfor %}
                           <li class="active">{{ permalink.last }}</li>

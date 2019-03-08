@@ -24,3 +24,27 @@ $(document).ready(function () {
 
     $(".row-eq-height").height(maxHeight);
 });
+
+/* ----------------------------------------------------------------
+    SVG Solution for dotted lines surrounding headers
+    https://stackoverflow.com/questions/3642035/jquerys-append-not-working-with-svg-element
+-------------------------------------------------------------------*/
+function makeSVG(tag, attrs) {
+  var el = document.createElementNS('http://www.w3.org/2000/svg', tag);
+  for (var k in attrs) {
+    el.setAttribute(k, attrs[k]);
+  }
+  return el;
+};
+
+$(document).ready(function() {
+  $(".dotted > span").each(function(index) {
+    console.log($(this).width());
+    $(this).attr("id", "svg_" + index);
+    var line = makeSVG('line', {x1: 0.5, y1: 0, x2: 0.5, y2: 100});
+    document.getElementById('svg_' + index).appendChild(line);
+    
+  });
+  
+  
+});

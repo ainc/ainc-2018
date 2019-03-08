@@ -1,0 +1,64 @@
+#adults {
+
+  #laptop-adult {
+    background-image: url('../../images/mac-code.png');
+    height: 350px;
+    background-size: 60rem;
+    background-position: 75% center;
+    margin: 30px;
+    background-repeat: no-repeat;
+    position: relative; // So that the paragraph will stick to the bottom
+    .lgx-inner {
+      padding-top: 0;
+    }
+    a.lgx-btn {
+      margin-right: 1rem;
+      padding: 0.2rem 1rem;
+    }
+    .lgx-heading {
+      text-align: left;
+      
+      .heading-title {
+        @include font-size(44);
+        color: $brand-color;
+        margin-bottom: 0;
+      }
+      .heading-subtitle {
+        margin-top: 0;
+        width: 70%;
+        font-style: italic;
+        margin-bottom: 2rem;
+        color: white;
+        @include font-size(20);
+        line-height: 2.2rem;
+        font-weight: 300;
+        i {
+          @include font-size(14);
+        }
+      }
+      
+    }
+  }
+
+  #grey-angle-bg {
+    background: -webkit-linear-gradient(-70deg, $brand-color2 40%, $body-bg 40%);
+    display: inline-block;
+    p {
+      position: absolute;
+      bottom: 0;
+      @include font-size(14);
+      text-align: center;
+    }
+  }
+
+  #spotlight-adult {
+    p {
+      position: absolute;
+      font-style: italic;
+      top: 20rem;
+      left: -5rem;
+    }
+  }
+
+
+}

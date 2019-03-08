@@ -1,0 +1,74 @@
+#youth {
+
+  #laptop-youth {
+    background-image: url('../../images/iMac.png');
+    height: 350px;
+    background-size: 60rem;
+    background-position: 75% center;
+    margin: 30px;
+    background-repeat: no-repeat;
+    .lgx-inner {
+      padding-top: 0;
+    }
+    a.lgx-btn {
+      margin-right: 1rem;
+      padding: 0.2rem 1rem;
+    }
+    .lgx-heading {
+      text-align: left;
+      
+      .heading-title {
+        @include font-size(44);
+        color: $brand-color;
+        margin-bottom: 0;
+      }
+      .heading-subtitle {
+        margin-top: 0;
+        font-style: italic;
+        margin-bottom: 2rem;
+        color: white;
+      }
+    }
+  }
+  
+  #red-angle-bg {
+    background: -webkit-linear-gradient(-70deg, $brand-red-bright 40%, $body-bg 40%);
+    display: inline-block;
+
+  }
+
+  #why-youth {
+    h5 {
+      @include font-size(20);
+      font-weight: 600;
+      text-transform: uppercase;
+    }
+    p {
+      @include font-size(13);
+    }
+
+  }
+
+  #camps-youth {
+    thead tr {
+      background-color: $color-light-blue;
+      color: black;
+    }
+    img {
+      max-width: 70%;
+    }
+    svg#straight-line-horiz {
+      width: 30rem;
+      &.right-side {
+        left: 70%;
+      }
+      &.left-side {
+        right: 70%;
+      }
+      line {
+        stroke-width: 0.15rem;
+      }
+    }
+
+  }
+}
