@@ -535,7 +535,17 @@ img {
     margin-bottom: 8rem;
   }
 
-  svg#straight-line, svg {
+  svg {
+    position: absolute;
+    fill: none;
+    z-index: 99;
+    line {
+      stroke: $brand-color2;
+      stroke-linecap: round;
+    }
+  }
+
+  svg.preset-svg {
     position: absolute;
     fill: none;
     left: 50%;

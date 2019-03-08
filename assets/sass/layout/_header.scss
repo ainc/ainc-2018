@@ -1,3 +1,11 @@
+/*
+  This is to make the dropdown header buttons clickable
+  https://stackoverflow.com/questions/19935480/bootstrap-3-how-to-make-head-of-dropdown-link-clickable-in-navbar
+*/
+ul.nav li.dropdown:hover ul.dropdown-menu {
+  display: block;
+}
+
 .lgx-header {
   background: $body-bg-deep;
   .lgx-inner {
