@@ -51,24 +51,35 @@ $(document).ready(function() {
     lgx_heading.attr("id", "h_" + index);
     
     var viewport_width = Math.max(document.documentElement.clientWidth, window.innerWidth || 0);
-    var whitespace_width = viewport_width - child_span.width();
-    var offset_width = child_span.width() / 2;
-    var calc_width = whitespace_width / 2;
-    var line = makeSVG('line', {
+    var header_width = $(this).width();
+    var line_width = (header_width - child_span.width()) / 2;
+    var x2_value = (line_width / header_width) * 100;
+    var line1 = makeSVG('line', {
       x1: 0, 
       y1: 0.5, 
-      x2: 100, 
+      x2: x2_value - 2, // subtract two for margin
       y2: 0.5,
-      'stroke-dasharray': '1 5',
-      'stroke-width': '5%'
+      'stroke-dasharray': '0 1.1',
+      'stroke-width': '0.05rem',
+      'stroke-dashoffset': '3'
+    });
+    var line2 = makeSVG('line', {
+      x1: 100 - x2_value + 2, // add two for margin
+      y1: 0.5, 
+      x2: 100,
+      y2: 0.5,
+      'stroke-dasharray': '0 1.1',
+      'stroke-width': '0.05rem',
+      'stroke-dashoffset': '3'
     });
     var svg_el = makeSVG('svg', {
       viewBox: "0 0 100 1", 
-      width: lgx_heading.width(), 
+      width: lgx_heading.width() - 30, 
       height: $(this).height(), 
       id: 'svg_' + index
     });
-    svg_el.appendChild(line);
+    svg_el.appendChild(line1);
+    svg_el.appendChild(line2);
     document.getElementById('h_' + index).insertAdjacentElement("afterbegin", svg_el);
     
   });

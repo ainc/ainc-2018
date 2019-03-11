@@ -1,3 +1,20 @@
-#rent-workspace {
-  
+#workspace {
+  #header-workspace {
+    background-image: url('../../images/ainc-workspace-header.jpg');
+    background-size: cover;
+    height: 90vh;
+  }
+
+  div#workspace-clip {
+    position: relative;
+    svg {
+      height: 15vh;
+      width: 100%;
+      position: absolute;
+      top: -15vh;
+      polygon {
+        fill: white;
+      }
+    }
+  }
 }

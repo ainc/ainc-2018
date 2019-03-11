@@ -539,6 +539,8 @@ img {
     position: absolute;
     fill: none;
     z-index: 99;
+    margin-left: 15px;
+    margin-right: 15px;
     line {
       stroke: $brand-color2;
       stroke-linecap: round;
