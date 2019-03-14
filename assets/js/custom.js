@@ -43,7 +43,7 @@ function parseSVG(s) {
 }
 
 $(document).ready(function() {
-  $(".dotted").each(function(index) {
+  $(".dotted-svg, .border-svg").each(function(index) {
     console.log($(this).width());
     var child_span = $(this).children('span');
     child_span.attr("id", "span_" + index);
@@ -54,27 +54,48 @@ $(document).ready(function() {
     var header_width = $(this).width();
     var line_width = (header_width - child_span.width()) / 2;
     var x2_value = (line_width / header_width) * 100;
-    var line1 = makeSVG('line', {
-      x1: 0, 
-      y1: 0.5, 
-      x2: x2_value - 2, // subtract two for margin
-      y2: 0.5,
-      'stroke-dasharray': '0 1.1',
-      'stroke-width': '0.05rem',
-      'stroke-dashoffset': '3'
-    });
-    var line2 = makeSVG('line', {
-      x1: 100 - x2_value + 2, // add two for margin
-      y1: 0.5, 
-      x2: 100,
-      y2: 0.5,
-      'stroke-dasharray': '0 1.1',
-      'stroke-width': '0.05rem',
-      'stroke-dashoffset': '3'
-    });
+    var outer_margin = 30;
+    if ($(this).hasClass('dotted-svg')) {
+      var line1 = makeSVG('line', {
+        x1: 0, 
+        y1: 0.5, 
+        x2: x2_value - 2, // subtract two for margin
+        y2: 0.5,
+        'stroke-dasharray': '0 1.1',
+        'stroke-width': '0.05rem',
+        'stroke-dashoffset': '3'
+      });
+      var line2 = makeSVG('line', {
+        x1: 100 - x2_value + 2, // add two for margin
+        y1: 0.5, 
+        x2: 100,
+        y2: 0.5,
+        'stroke-dasharray': '0 1.1',
+        'stroke-width': '0.05rem',
+        'stroke-dashoffset': '3'
+      });
+    } else if ($(this).hasClass('border-svg')) {
+      var line1 = makeSVG('line', {
+        x1: 0, 
+        y1: 0.5, 
+        x2: x2_value - 2, // subtract two for margin
+        y2: 0.5,
+        'stroke-width': '0.1',
+      });
+      var line2 = makeSVG('line', {
+        x1: 100 - x2_value + 2, // add two for margin
+        y1: 0.5, 
+        x2: 100,
+        y2: 0.5,
+        'stroke-width': '0.1',
+      });
+      outer_margin = 0;
+    }
+    
+
     var svg_el = makeSVG('svg', {
       viewBox: "0 0 100 1", 
-      width: lgx_heading.width() - 30, 
+      width: lgx_heading.width() - outer_margin, 
       height: $(this).height(), 
       id: 'svg_' + index
     });
@@ -83,6 +104,8 @@ $(document).ready(function() {
     document.getElementById('h_' + index).insertAdjacentElement("afterbegin", svg_el);
     
   });
+
+  
   
   
 });

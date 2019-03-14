@@ -25,29 +25,134 @@ page_id: workspace
 </section>
 
 <section>
-  <div id="workspace-clip">
-    <svg viewbox="0 0 100 100" preserveAspectRatio="none">
-      <polygon points="0,100 50,100 50,0"></polygon>
-      <polygon points="100,100 50,100 50,0"></polygon>
-    </svg>
-  </div>
   <div id="spotlight-adult">
+    <div id="workspace-clip">
+      <svg viewbox="0 0 100 100" preserveAspectRatio="none">
+        <polygon points="0,100 50,100 50,0"></polygon>
+        <polygon points="100,100 50,100 50,0"></polygon>
+      </svg>
+    </div>
     <div class="lgx-inner">
       <div class="container">
         <div class="row">
-          <div class="col-xs-12 col-sm-6 col-sm-offset-1" data-aos="fade-right">
-            <div class="youtube-video-image">
-              <img src="/images/macbook-youtube-video.png" border="0">
+          <div class="col-xs-4" id="see-space-div">
+            <h3>See the Space</h3>
+            
+          </div>
+          <div class="col-xs-4">
+            <div class="lgx-video-area">
+              <div class="video-thumbnail">
+                <a id="myModalLabel" class="icon" href="#" data-toggle="modal" data-target="#lgx-modal">
+                  <img class="opaque" src="/images/banners/awesome-inc-space-banner.jpg">
+                  <i class="fa fa-play " aria-hidden="true"></i>
+                </a>
+              </div>  
+              <img src="/images/icons/arrow.png" id="video-arrow">
+              <a href="#">
+                <img src="/images/icons/schedule-a-tour-button.png" id="schedule-a-tour-button">
+              </a>
+              <!-- Video Modal-->
+              <div id="lgx-modal" class="modal fade lgx-modal">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                    </div>
+                    <div class="modal-body">
+                      <iframe id="modalvideo" src="https://www.youtube.com/embed/3dylpY4W_xA" allowfullscreen></iframe>
+                    </div>
+                  </div>
+                </div>
+              </div> <!-- //.Modal-->
+            </div><!--//.VIDEO-AREA-->
+            
+          </div><!--//.COL-->
+        </div><!--//.ROW-->
+      </div><!-- //.CONTAINER -->
+    </div><!-- //.INNER -->
+  </div><!-- //.SPOTLIGHT --> 
+</section>
+
+<section>
+  <div id="become-a-member">
+    <div class="lgx-inner">
+      <div class="container">
+        <div class="row">
+          <svg id="left-border" class="border" viewBox="0 0 1 100" preserveAspectRatio="none">
+            <line x1="0.5" y1="0" x2="0.5" y2="100"/>
+          </svg>
+          <svg id="bottom-border" class="border" viewBox="0 0 100 1" preserveAspectRatio="none">
+            <line x1="0" y1="0.5" x2="100" y2="0.5"/>
+          </svg>
+          <svg id="right-border" class="border" viewBox="0 0 100 1" preserveAspectRatio="none">
+            <line x1="0" y1="0.5" x2="100" y2="0.5"/>
+          </svg>
+          <div class="lgx-heading-area">
+            <div class="lgx-heading">
+              <h2 class="heading-title border-svg">
+                <span>Become a Member</span>
+              </h2>
             </div>
           </div>
-          <div class="col-xs-12 col-sm-5" data-aos="fade-left">
-            <p>
-              "Starbucks to Software Developer in 12 Weeks."<br>
-              Web Developer Bootcamp Student Spotlight: David V.
-            </p>
+          <div class="col-md-4">
+            <div class="member-feature-img">
+              <img src="images/icons/virtual.png"/>
+            </div>
+            <h3>Virtual Member</h3>
+            <h6>Main St. Mailing Address</h6>
+            <h6>4 Hours of Professional Conference Room</h6>
+            <div class="abs-btn"><a class="lgx-btn" href="#">$75/Month</a></div>
+          </div>
+          <div class="col-md-4">
+            <div class="member-feature-img">
+              <img src="images/icons/full-time.png" id="member-feature"/>
+            </div>
+            <h3>Full Time Member</h3>
+            <h6>24/7 Access to Our Space</h6>
+            <h6>10 Hours of Professional Conference Room</h6>
+            <div class="abs-btn"><a class="lgx-btn" href="#">$250/Month</a></div>
+          </div>
+          <div class="col-md-4">
+            <div class="member-feature-img">
+              <img src="images/icons/day-pass.png"/>
+            </div>
+            <h3>Day Pass</h3>
+            <h6>9AM - 6PM Access</h6>
+            <h6>Professional Conference Room (Based on Availability)</h6>
+            <div class="abs-btn"><a class="lgx-btn" href="#">$20/Day</a></div>
           </div>
         </div><!--//.ROW-->
       </div><!-- //.CONTAINER -->
     </div><!-- //.INNER -->
-  </div>
+  </div> 
+</section>
+
+
+<section>
+  <div id="member-amenities">
+    <div class="lgx-inner">
+      <div class="container">
+        <div class="row">
+          <div class="lgx-heading-area">
+            <div class="lgx-heading">
+              <h2 class="heading-title">
+                Membership Amenities
+              </h2>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4 col-md-offset-2">
+            <div class="inline-block amenity">
+              <!-- <svg id="left-border" viewBox="0 0 1 100">
+                <line x1="0.5" y1="0" x2="0.5" y2="100"/>
+              </svg> -->
+              <img src="images/icons/wifi.png" class="img-responsive inline-block"/>
+              <p class="inline-block">High Speed, Secure Wi-Fi</p>
+            </div>
+          </div>
+        </div><!--//.ROW-->
+      </div><!-- //.CONTAINER -->
+    </div><!-- //.INNER -->
+  </div> 
 </section>

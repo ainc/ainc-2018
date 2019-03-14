@@ -228,14 +228,6 @@ table.no-border {
 }
 
 /* ----------------------------------------------------------------
-    Image responsive for centering images horizontally
--------------------------------------------------------------------*/
-
-.img-responsive {
-  display: inline-block;
-}
-
-/* ----------------------------------------------------------------
     Class to set images on the same line
 -------------------------------------------------------------------*/
 
@@ -613,5 +605,13 @@ img {
     line-height: 2.6rem;
     font-weight: 400;
     color: white;
+  }
+}
+
+.abs-btn {
+  position: relative;
+  display: flex;
+  a {
+    position: absolute; 
   }
 }

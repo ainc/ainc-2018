@@ -151,7 +151,7 @@
             top: -57px;
             left: 17px;
             display: block;
-            z-index: -1;
+            z-index: 2;
             opacity: 1;
             border: 1px solid $brand-color2;
             @include transition-duration($duration: 0.3s);
@@ -166,7 +166,7 @@
             left: -20px;
             display: block;
             @include bg-rgba($white-color, 0.5);
-            z-index: -1;
+            z-index: 2;
             opacity: 0;
             @include transition-duration($duration: 0.3s);
           }
