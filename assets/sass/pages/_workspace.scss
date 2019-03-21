@@ -177,13 +177,27 @@
       img {
         border: $brand-color2 solid 2px;
         border-radius: 50%;
-        margin: 2rem;
+        margin: 2rem 0.5rem 0rem 2rem;
         width: 70px;
+        height: 70px;
         padding: 10px;
       }
       p {
-
+        &:after {
+          content: "";
+          border-bottom: solid $brand-color2 2px;
+          display: block;
+          width: 250px;
+          margin-left: -8px;
+        }
       }
+    }
+  }
+  svg {
+    position: absolute;
+    line {
+      stroke: $brand-color2;
+      stroke-linecap: round;
     }
   }
 }

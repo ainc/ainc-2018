@@ -16,13 +16,13 @@ $(document).on('click', 'a[href^="#"]', function (event) {
 -------------------------------------------------------------------*/
 
 $(document).ready(function () {
-    var heights = $(".row-eq-height").map(function () {
+    var heights = $( ".row-eq-height" ).map(function () {
         return $(this).height();
     }).get(),
 
         maxHeight = Math.max.apply(null, heights);
 
-    $(".row-eq-height").height(maxHeight);
+    $( ".row-eq-height" ).height(maxHeight);
 });
 
 /* ----------------------------------------------------------------
@@ -45,27 +45,40 @@ function parseSVG(s) {
 $(document).ready(function() {
   $(".dotted-svg, .border-svg").each(function(index) {
     console.log($(this).width());
-    var child_span = $(this).children('span');
-    child_span.attr("id", "span_" + index);
-    var lgx_heading = $(this).parents('.lgx-heading-area');
-    lgx_heading.attr("id", "h_" + index);
+
+    var heading_area = $(this);
+    var child_span = heading_area.find( 'span' );
+    console.log(child_span)
+    var header_area_width = heading_area.width();
+    var header = $(this).find( '.heading-title' );
+    var header_height = header.innerHeight();
+    // Find width of each line by subtracting span width from entire width
+    // and then divide by 2 for each side
+    var svg_line_width = ( header_area_width - child_span.width() ) / 2;
+    // create "percentage" value because our SVG width is 0 to 100
+    var x2_value = ( svg_line_width / header_area_width ) * 100;
+
+    // Create Unique Ids
+    heading_area.attr( 'id', 'h_' + index );
+    child_span.attr( 'id', 'span_' + index );
     
-    var viewport_width = Math.max(document.documentElement.clientWidth, window.innerWidth || 0);
-    var header_width = $(this).width();
-    var line_width = (header_width - child_span.width()) / 2;
-    var x2_value = (line_width / header_width) * 100;
     var outer_margin = 30;
-    if ($(this).hasClass('dotted-svg')) {
-      var line1 = makeSVG('line', {
+    if ( heading_area.hasClass( 'dotted-svg' ) ) {
+      if ( heading_area.hasClass( 'link-svg' ) ) {
+        x2_value_margin = 0;
+      } else {
+        x2_value_margin = 2;
+      }
+      var line1 = makeSVG( 'line', {
         x1: 0, 
         y1: 0.5, 
-        x2: x2_value - 2, // subtract two for margin
+        x2: x2_value - x2_value_margin, // subtract two for margin
         y2: 0.5,
         'stroke-dasharray': '0 1.1',
         'stroke-width': '0.05rem',
         'stroke-dashoffset': '3'
       });
-      var line2 = makeSVG('line', {
+      var line2 = makeSVG( 'line', {
         x1: 100 - x2_value + 2, // add two for margin
         y1: 0.5, 
         x2: 100,
@@ -74,15 +87,15 @@ $(document).ready(function() {
         'stroke-width': '0.05rem',
         'stroke-dashoffset': '3'
       });
-    } else if ($(this).hasClass('border-svg')) {
-      var line1 = makeSVG('line', {
+    } else if (heading_area.hasClass( 'border-svg' )) {
+      var line1 = makeSVG( 'line', {
         x1: 0, 
         y1: 0.5, 
         x2: x2_value - 2, // subtract two for margin
         y2: 0.5,
         'stroke-width': '0.1',
       });
-      var line2 = makeSVG('line', {
+      var line2 = makeSVG( 'line', {
         x1: 100 - x2_value + 2, // add two for margin
         y1: 0.5, 
         x2: 100,
@@ -92,16 +105,16 @@ $(document).ready(function() {
       outer_margin = 0;
     }
     
-
-    var svg_el = makeSVG('svg', {
+    
+    var svg_el = makeSVG( 'svg', {
       viewBox: "0 0 100 1", 
-      width: lgx_heading.width() - outer_margin, 
-      height: $(this).height(), 
+      width: header_area_width - outer_margin, 
+      height: header_height, 
       id: 'svg_' + index
     });
-    svg_el.appendChild(line1);
-    svg_el.appendChild(line2);
-    document.getElementById('h_' + index).insertAdjacentElement("afterbegin", svg_el);
+    svg_el.appendChild( line1 );
+    svg_el.appendChild( line2 );
+    document.getElementById( 'h_' + index ).insertAdjacentElement("afterbegin", svg_el);
     
   });
 
