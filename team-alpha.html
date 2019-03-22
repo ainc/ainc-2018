@@ -29,11 +29,23 @@ permalink: "/team-alpha"
           <figure>
             <img src="/images/teamalpha/{{member.name | downcase | remove: " "}}_wall.png" alt="{{ member.name }}" onerror="this.onerror=null;this.src='/images/teamalpha/placeholder_wall.png';"/>
             <figcaption>
-              <h3 class="member-name">{{ member.name }}<span>{{ member.team }}</span></h3>
-              <p class="text"><b>Favorite Rule:</b> {{ member.rule }}</p>
-              <p class="text"><b>Favorite Song:</b> {{ member.song }}</p>
-              <p class="text"><b>Favorite Person:</b> {{ member.person }}</p>
-              <p class="text"><b>Random Fact:</b> {{ member.fact }}</p>
+              <h3 class="member-name">{{ member.name }}<br><span>{{ member.team }}</span></h3>
+              <div class="team-alpha-icon rule">
+                <img src="/images/icons/rule.png" alt="Favorite Rule"/>
+                <p class="text"><b>Favorite Rule:</b> {{ member.rule }}</p>
+              </div>
+              <div class="team-alpha-icon song">
+                <img src="/images/icons/music.png" alt="Favorite Song"/>
+                <p class="text"><b>Favorite Song:</b> {{ member.song }}</p>
+              </div>
+              <div class="team-alpha-icon person">
+                <img src="/images/icons/person.png" alt="Favorite Person"/>
+                <p class="text"><b>Favorite Person:</b> {{ member.person }}</p>
+              </div>
+              <div class="team-alpha-icon fact">
+                <img src="/images/icons/fact.png" alt="Favorite Fact"/>
+                <p class="text"><b>Random Fact:</b> {{ member.fact }}</p>
+              </div>
             </figcaption>
           </figure>
         </div>

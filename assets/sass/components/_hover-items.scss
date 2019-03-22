@@ -75,7 +75,7 @@
 .lgx-single-member, .lgx-single-team, .lgx-single-item {
   border-radius: 6px;
   margin-bottom: 2.4rem;
-  border: 1px solid $border-color;
+  // border: 1px solid $border-color;
   @include transition-duration($duration: 0.3s);
   margin-top: 10px;
   figure {
@@ -90,10 +90,10 @@
     figcaption {
       position: absolute;
       bottom: 50px;
-      margin: 1.5rem;
+      // margin: 1.5rem;
       padding: 0 2rem 2rem 2rem;
-      @include bg-rgba($white-color, 1);
-      border-radius: 6px;
+      @include bg-rgba($white-color, 0.7);
+      // border-radius: 6px;
       -webkit-box-shadow: 0 20px 35px rgba(0, 0, 0, 0.12);
       -moz-box-shadow: 0 20px 35px rgba(0, 0, 0, 0.12);
       box-shadow: 0 20px 35px rgba(0, 0, 0, 0.12);
@@ -111,25 +111,61 @@
       }
       p {
         @include font-size(14);
+        font-style: italic;
+        font-weight: 400;
+        b {
+          font-style: normal;
+          font-weight: 600;
+        }
       }
-      .item-name, .member-name, .team-name {
-        margin: 1rem;
+      h3.member-name {
+        text-transform: uppercase;
+        span {
+          text-transform: none;
+          font-weight: 400;
+        }
+      }
+      .item-name, .member-name, .team-name { 
+        margin: 0;
         @include font-size(20);
-        margin-bottom: 1rem;
+        margin-bottom: 2rem;
+        line-height: 2.2rem;
         @include transition-duration($duration: 0.3s);
         span {
           font-family: $lgx-base-font;
           @include font-size(13);
           font-style: italic;
-          margin-left: 1.5rem;
+          // margin-left: 1.5rem;
           display: inline-block;
           color: $brand-color;
           @include transition-duration($duration: 0.3s);
 
         }
       }
+      .team-alpha-icon {
+        position: relative;
+        &:before {
+          content: "";
+          border-top: solid $brand-color 1px;
+          position: absolute;
+          height: 1px;
+          width: 93%;
+          left: 7%;
+          top: -0.5rem;
+        }
+        img {
+          min-width: 15px; // min width is declared for the actual member img
+          width: 15px;
+          position: absolute;
+          top: -1rem;
+        }
+      }
+      .rule {
+        
+      }
       .text {
-        margin-bottom: 1rem;
+        margin-bottom: 2rem;
+        margin-left: 2rem;
       }
       .item-bottom, .member-bottom, .team-bottom {
         ul,
@@ -185,7 +221,7 @@
     }
   }
   &:hover {
-    border: 1px solid $brand-color;
+    // border: 1px solid $brand-color;
     -webkit-box-shadow: 0 0px 15px rgba(0,0,0,.3);
     -moz-box-shadow: 0 0px 15px rgba(0,0,0,.3);
     box-shadow: 0 0px 15px rgba(0,0,0,.3);
