@@ -34,7 +34,9 @@ permalink: "/fellowship/portfolio"
                       {% if team.facebook %}<li><a href="{{ team.facebook }}"><i class="fa fa-facebook-f" aria-hidden="true"></i></a></li>{% endif %}
                       {% if team.linkedin %}<li><a href="{{ team.linkedin }}"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>{% endif %}
                     </ul>
-                    <a class="link" href="{% if team.website %}{{ team.website }}{% else %}#{% endif %}"><i class="fa  fa-long-arrow-right" aria-hidden="true"></i></a>
+                    {% if team.website %}
+                      <a class="link" href="{{ team.website }}"><i class="fa  fa-long-arrow-right" aria-hidden="true"></i></a>
+                    {% endif %}
                   </div>
                 </figcaption>
               </figure>

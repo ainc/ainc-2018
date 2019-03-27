@@ -240,6 +240,21 @@
   }
 }
 
+.lgx-single-team {
+  margin-top: 2rem;
+  figcaption {
+    height: 100%;
+    h3.team-name {
+      margin-top: 2rem;
+    }
+  }
+  .team-bottom {
+    position: absolute;
+    width: 90%;
+    bottom: 0;
+  }
+}
+
 .lgx-item-circle, .lgx-member-circle, .lgx-team-circle {
   background: $white-color;
   border-radius: 6px;
