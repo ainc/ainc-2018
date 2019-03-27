@@ -1,5 +1,4 @@
 .faq-section {
-  background: #fdfdfd;
   min-height: 100vh;
   padding: 10vh 0 0;
 }
@@ -17,7 +16,7 @@
       left: 50%;
       width: 60px;
       height: 2px;
-      background: #E91E63;
+      background: $brand-red-bright;
       bottom: -25px;
       margin-left: -30px;
     }
@@ -29,7 +28,6 @@
 }
 
 .faq {
-  background: #FFFFFF;
   box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.06);
   border-radius: 4px;
   margin-bottom: 5rem;
@@ -88,7 +86,7 @@
           -moz-border-radius: 100px;
           border-radius: 100px;
           text-align: center;
-          background: #E91E63;
+          background: $brand-red-bright;
           color: #fff;
           font-size: 12px;
           margin-right: 20px;
