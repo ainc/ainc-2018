@@ -240,11 +240,11 @@
   }
 }
 
-.lgx-single-team {
+.lgx-single-team, .lgx-single-item {
   margin-top: 2rem;
   figcaption {
     height: 100%;
-    h3.team-name {
+    h3.team-name, h3.item-name {
       margin-top: 2rem;
     }
   }
