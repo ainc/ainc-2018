@@ -57,12 +57,12 @@
       border-bottom: 1px solid $white-color;
     }
   }
-  &:hover {
-    @include bg-rgba($white-color, .1);
-    -webkit-box-shadow: 0 20px 35px rgba(0, 0, 0, 0.12);
-    -moz-box-shadow: 0 20px 35px rgba(0, 0, 0, 0.12);
-    box-shadow: 0 20px 35px rgba(0, 0, 0, 0.12);
-  }
+  // &:hover {
+  //   @include bg-rgba($white-color, .1);
+  //   -webkit-box-shadow: 0 20px 35px rgba(0, 0, 0, 0.12);
+  //   -moz-box-shadow: 0 20px 35px rgba(0, 0, 0, 0.12);
+  //   box-shadow: 0 20px 35px rgba(0, 0, 0, 0.12);
+  // }
 }
 
 
