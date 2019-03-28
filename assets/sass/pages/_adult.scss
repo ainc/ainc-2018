@@ -36,18 +36,12 @@
           @include font-size(14);
         }
       }
-      
-    }
-  }
-
-  #grey-angle-bg {
-    background: -webkit-linear-gradient(-70deg, $brand-color2 40%, $body-bg 40%);
-    display: inline-block;
-    p {
-      position: absolute;
-      bottom: 0;
-      @include font-size(14);
-      text-align: center;
+      p {
+        position: absolute;
+        bottom: 0;
+        @include font-size(14);
+        text-align: center;
+      }
     }
   }
 

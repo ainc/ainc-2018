@@ -10,6 +10,9 @@ layout: default
           <div class="lgx-heading-area">
             <div class="lgx-heading lgx-heading">
               <h2 class="heading-title">Application - {{ page.title }}</h2>
+              {% if page.subtitle %}
+                <h4 class="heading-subtitle">{{ page.subtitle }}</h4>
+              {% endif %}
             </div>
           </div>
         </div>
