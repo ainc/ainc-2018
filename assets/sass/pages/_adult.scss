@@ -8,6 +8,14 @@
     margin: 30px;
     background-repeat: no-repeat;
     position: relative; // So that the paragraph will stick to the bottom
+    @include screen-tablet-max() {
+      background-position: 200% center;
+    }
+    @include screen-xs {
+      background-position: 175% center;
+      margin: 10px;
+      background-size: 30rem;
+    }
     .lgx-inner {
       padding-top: 0;
     }
@@ -22,6 +30,9 @@
         @include font-size(44);
         color: $brand-color;
         margin-bottom: 0;
+        @include screen-xs {
+          @include font-size(34);
+        }
       }
       .heading-subtitle {
         margin-top: 0;
@@ -34,6 +45,12 @@
         font-weight: 300;
         i {
           @include font-size(14);
+        }
+        @include screen-xs {
+          width: 85%;
+          i {
+            @include font-size(12);
+          }
         }
       }
       p {
@@ -51,6 +68,15 @@
       font-style: italic;
       top: 20rem;
       left: -5rem;
+      @include screen-tablet-max {
+        top: 10rem;
+        left: -2rem;
+      }
+      @include screen-xs {
+        top: 1rem;
+        left: 0rem;
+        margin: 10px;
+      }
     }
   }
 

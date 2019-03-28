@@ -7,6 +7,14 @@
     background-position: 75% center;
     margin: 30px;
     background-repeat: no-repeat;
+    @include screen-tablet-max() {
+      background-position: 200% center;
+    }
+    @include screen-xs {
+      background-position: 175% center;
+      margin: 10px;
+      background-size: 30rem;
+    }
     .lgx-inner {
       padding-top: 0;
     }
