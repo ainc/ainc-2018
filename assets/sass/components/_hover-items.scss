@@ -144,6 +144,7 @@
       }
       .team-alpha-icon {
         position: relative;
+        padding-bottom: 0.5rem;
         &:before {
           content: "";
           border-top: solid $brand-color 1px;
