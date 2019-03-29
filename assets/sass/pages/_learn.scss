@@ -7,9 +7,33 @@
     background-position: 10% center;
     margin: 30px;
     background-repeat: no-repeat;
+    @include screen-tablet-max {
+      background-position: 0% center;
+      margin: 20px;
+      background-size: 50rem;
+    }
+    @include screen-xs {
+      background-position: -80% 90%;
+      margin: 10px;
+      background-size: 30rem;
+    }
     a.lgx-btn {
       margin-right: 1rem;
       padding: 0.2rem 1rem;
+      @include screen-xs {
+        margin-left: 50%;
+        margin-right: 0;
+        @include font-size(15);
+        width: 115px;
+        float: right;
+        margin-top: 5px;
+        padding: 0.05rem 0.5rem;
+      }
+    }
+    .inline-block {
+      @include screen-xs {
+        width: 100%;
+      }
     }
     .lgx-heading {
       text-align: left;
@@ -18,16 +42,30 @@
         @include font-size(44);
         color: $brand-color;
         margin-bottom: 0;
+        @include screen-tablet-max {
+          @include font-size(34);
+        }
+        @include screen-xs {
+          @include font-size(27);
+          text-align: right;
+        }
       }
       .heading-subtitle {
         margin-top: 0;
         font-style: italic;
         margin-bottom: 2rem;
+        @include screen-xs {
+          text-align: right;
+        }
       }
       img {
         width: 4rem;
         height: 4rem;
         filter: brightness(0) invert(1);
+        @include screen-xs {
+          width: 3rem;
+          height: 3rem;
+        }
       }
     }
   }
@@ -42,40 +80,51 @@
       &:last-child {
         .heading-title, .heading-subtitle, p, a {
           text-align: right;
+          @include screen-xs {
+            text-align: center;
+          }
         }
       }
     }
     .learn-img-left {
       .heading-title, .heading-subtitle, p, a {
         text-align: left;
+        @include screen-xs {
+          text-align: center;
+        }
       }
     }
     .heading-title {
       @include font-size(36);
+      @include screen-lg {
+        @include font-size(26);
+      }
+      @include screen-tablet-max {
+        @include font-size(22);
+        margin-top: 0;
+      }
     }
     .heading-subtitle {
       @include font-size(24);
       text-transform: uppercase;
+      @include screen-lg {
+        @include font-size(18);
+      }
+      @include screen-tablet-max {
+        @include font-size(14);
+      }
     }
     h5.heading-subtitle {
       @include font-size(16);
       font-weight: 600;
       text-transform: none;
     }
-    @include screen-lg {
-      .heading-title {
-        @include font-size(26);
-      }
-      .heading-subtitle {
-        @include font-size(18);
-      }
-      p {
-        @include font-size(13);
-      }
-    }
     p {
       @include font-size(14);
       margin-bottom: 1rem;
+      @include screen-tablet-max {
+        @include font-size(12);
+      }
     }
   }
 
@@ -102,6 +151,9 @@
       max-width: 75%;
       display: block;
       margin: auto;
+      @include screen-tablet-max {
+        max-width: 100%;
+      }
     }
     #hire-100 {
       background: url("../../images/100-percent-hired.jpg") center center no-repeat;
@@ -111,6 +163,12 @@
       padding: 2rem;
       p {
         text-align: justify;
+        @include screen-tablet-max {
+          @include font-size(14);
+        }
+        @include screen-xs {
+          @include font-size(12);
+        }
       }
     }
   }
@@ -145,6 +203,16 @@
         stroke-width: 0.3rem;
       }
     }
+    @include screen-tablet-max {
+      height: 7rem;
+      line {
+        stroke-dasharray: 0, 10;
+        stroke-width: 0.4rem;
+      }
+    }
+    @include screen-xs {
+      display: none;
+    }
   }
   svg#zig-zag {
     position: absolute;
@@ -168,6 +236,17 @@
         stroke-width: 0.04rem;
         stroke-dasharray: 0, 1;
       }
+    }
+    @include screen-tablet-max {
+      top: 180%;
+      width: 32rem;
+      polyline {
+        stroke-width: 0.05rem;
+        stroke-dasharray: 0, 1.4;
+      }
+    }
+    @include screen-xs {
+      display: none;
     }
   }
 }

@@ -362,7 +362,11 @@ img {
     right: -15%;
     bottom: -1%;
     border: 1px solid $brand-red-bright;
+    @include screen-xs {
+      display: none;
+    }
   }
+  
 }
 
 .offset-border-bottom-left {
@@ -375,7 +379,11 @@ img {
     bottom: -1%;
     border: 1px solid $brand-red-bright;
     z-index: 99;
+    @include screen-xs {
+      display: none;
+    }
   }
+  
 }
 
 .offset-border-bottom-connect {
