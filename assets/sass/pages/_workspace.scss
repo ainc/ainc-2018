@@ -1,7 +1,12 @@
 #workspace {
   #header-workspace {
-    background-image: url('../../images/ainc-workspace-header.jpg');
+    background: linear-gradient(
+      rgba(55, 55, 55, 0.5),
+      rgba(55, 55, 55, 0.5),
+    ),
+    url('../../images/ainc-workspace-header-2.jpg');
     background-size: cover;
+    background-position-y: 110%;
     height: 90vh;
   }
 

@@ -545,6 +545,7 @@ img {
       stroke: $brand-color2;
       stroke-linecap: round;
     }
+    
   }
 
   svg.preset-svg {
@@ -598,6 +599,13 @@ img {
         stroke-width: 0.3rem;
       }
     }
+  }
+}
+
+div.dotted-svg > svg {
+  @include screen-xs {
+    // margin-left: 15px;
+    display: none;
   }
 }
 

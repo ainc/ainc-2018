@@ -257,6 +257,9 @@
   .lgx-about-bottom .lgx-inner,
   .lgx-register .lgx-inner, .lgx-core-values {
     padding: 6.3rem 0;
+    @include screen-xs {
+      padding: 2.3rem 0;
+    }
   }
   .lgx-about-bottom .lgx-inner {
     padding-bottom: 0;

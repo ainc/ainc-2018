@@ -3,6 +3,9 @@
   #header-fellowship {
     .lgx-heading {
       text-align: left;
+      @include screen-xs {
+        text-align: center;
+      }
       .heading-subtitle {
         @include font-size(27);
         font-weight: 200;
@@ -12,12 +15,23 @@
     .offset-border {
       width: 50%;
       margin-left: 20%;
+      @include screen-xs {
+        width: 80%;
+        margin-left: 10%;
+      }
     }
     #rocket-img-bg {
       background-image: url('/images/fellowship-rocket.png');
       background-size: contain;
       background-position: 50% 0;
       background-repeat: no-repeat;
+      @include screen-tablet-max {
+        background-size: 85%;
+        background-position: 50% 10px;
+      }
+      @include screen-xs {
+        background-image: none;
+      }
     }
   }
 
@@ -35,12 +49,21 @@
 
     img {
       max-height: 100px;
+      @include screen-tablet-max {
+        max-height: 75px;
+      }
+      @include screen-xs {
+        max-height: 50px;
+      }
     }
     h5 {
       text-align: center;
       @include font-size(30);
       font-weight: 800;
       text-transform: uppercase;
+      @include screen-xs {
+        @include font-size(18);
+      }
     }
 
   }
@@ -61,6 +84,14 @@
         left: -5rem;
         top: 5rem;
         letter-spacing: 3px;
+        @include screen-tablet-max {
+          left: -3rem;
+        }
+        @include screen-xs {
+          position: relative;
+          left: 0;
+          top: 0;
+        }
       }
     }
     .lgx-video-area {
@@ -80,6 +111,12 @@
         width: 40%;
         top: 30%;
         right: -12%;
+        @include screen-tablet-max {
+          top: 45%;
+        }
+        @include screen-xs {
+          display: none;
+        }
       }
 
       .icon {
@@ -138,6 +175,9 @@
         margin: 2rem;
         border-left: $brand-color solid 2px;
         border-right: $brand-color solid 2px;
+        @include screen-xs {
+          padding: 2rem 4rem;
+        }
       }
 
     }
@@ -147,6 +187,9 @@
   #fellowship-approach {
     h2, h6 {
       text-align: left;
+      @include screen-xs {
+        text-align: center;
+      }
     }
     h6 {
       font-weight: 800;
@@ -157,6 +200,9 @@
     }
     ul {
       padding-inline-start: 1.5rem;
+    }
+    .row-eq-height {
+      display: block;
     }
   }
 
