@@ -8,6 +8,34 @@
     background-size: cover;
     background-position-y: 110%;
     height: 90vh;
+    @include screen-tablet-max {
+      background-position-x: 75%;
+      height: 75vh;
+    }
+    @include screen-xs {
+      height: 60vh;
+    }
+    @include screen-tablet-max {
+      .lgx-heading {
+        h2 {
+          @include font-size(55);  
+          margin-top: 3rem;   
+        }
+        h4 {
+          @include font-size(24);
+        }
+      }
+    }
+    @include screen-xs {
+      .lgx-heading {
+        h2 {
+          @include font-size(45);
+        }
+        h4 {
+          @include font-size(20);
+        }
+      }
+    }
   }
 
   div#spotlight-adult {
@@ -25,6 +53,14 @@
         polygon {
           fill: $body-bg;
         }
+        @include screen-tablet-max {
+          height: 14vh;
+          top: -14vh;
+        }
+        @include screen-xs {
+          height: 10vh;
+          top: -9.95vh; /*mobile devices have a small gap */
+        }
       }  
     }
 
@@ -33,6 +69,9 @@
         float: right;
         text-transform: uppercase;
         @include font-size(32);
+        @include screen-xs {
+          @include font-size(15);
+        }
       } 
     }
 
@@ -52,6 +91,9 @@
         width: 50%;
         top: 40%;
         left: -32%;
+        @include screen-tablet-max {
+          top: 50%;
+        }
       }
       #schedule-a-tour-button {
         position: absolute;
@@ -60,6 +102,11 @@
         right: -14%;
         -webkit-filter: invert(100);
         filter: invert(100);
+        @include screen-xs {
+          width: 40%;
+          top: -35%;
+          right: -10%;
+        }
       }
 
       .icon {
@@ -84,6 +131,12 @@
           color: white;
           z-index: 99;
           @include transition-duration($duration: 0.3s);
+          @include screen-xs {
+            width: 50px;
+            height: 50px;
+            font-size: 25px;
+            line-height: 50px;
+          }
         }
         &:hover {
           i {
@@ -120,7 +173,16 @@
         }
       }
     }
-    .col-md-4 {
+    @include screen-tablet-max {
+      h3 {
+        @include font-size(25);
+      }
+      h6 {
+        text-transform: none;
+      }
+    }
+    
+    .col-sm-4 {
       padding: 0 5%;
     }
     .lgx-btn {
@@ -171,7 +233,12 @@
         width: 60%;
         @include font-size(14);
         top: 110%;
-
+        @include screen-tablet-max {
+          margin-left: 10%;
+          width: 80%;
+          padding-left: 1rem;
+          padding-right: 1rem;
+        }
       }
     }
   }
@@ -194,6 +261,13 @@
           display: block;
           width: 250px;
           margin-left: -8px;
+          @include screen-tablet-max {
+            width: 200px;
+          }
+        }
+        @include screen-tablet-max {
+          text-transform: none;
+          @include font-size(16);
         }
       }
     }

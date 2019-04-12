@@ -8,6 +8,9 @@ html {
 
 main { // push content below the header
   padding-top: $navbar-height;
+  @include screen-tablet-max {
+    padding-top: 75px;
+  }
 }
 
 /**

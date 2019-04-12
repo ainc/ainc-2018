@@ -651,6 +651,11 @@ svg.triangle-bg {
     }
   }
 }
+@include screen-xs {
+  .border-svg svg {
+    display: none;
+  }
+}
 
 
 /* ----------------------------------------------------------------
