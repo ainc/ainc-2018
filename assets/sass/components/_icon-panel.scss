@@ -86,3 +86,13 @@
     }
   }
 }
+
+.lgx-icon-no-hover {
+  img {
+    max-height: 100px;
+    padding-bottom: 20px;
+  }
+  h2.title {
+    @include font-size(20);
+  }
+}
