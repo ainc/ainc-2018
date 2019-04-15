@@ -43,7 +43,7 @@ collections:
 
   - name: "Team Alpha"
     label: "Team Alpha"
-    folder: "_data/team-alpha.json"
+    folder: "_data/"
     create: true
     fields:
       - {label: "Name", name: "name", widget: "string"}
