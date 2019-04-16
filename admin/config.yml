@@ -48,7 +48,6 @@ collections:
         label: "Team Alpha"
         file: "_data/team-alpha.json"
         description: "Team Alpha Members List"
-        create: true
         fields:
           - {label: "Name", name: "name", widget: "string"}
           - {label: "Rule", name: "rule", widget: "string"}
