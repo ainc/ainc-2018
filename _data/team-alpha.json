@@ -6,17 +6,6 @@
         "person": "Truett Cathy",
         "fact": "I started a water gun selling business when I was in middle school",
         "team": "Co-Founder",
-        "wallPhoto":true,
-        "location": "",
-        "work":[
-            {
-                "position":"",
-                "company":"",
-                "logo":"",
-            }
-        ],
-        "memory":"",
-        "experience":""
     },
 
     {
@@ -26,18 +15,7 @@
         "song": "Farther Along - Josh Garrels",
         "person": "C.S. Lewis",
         "fact": "I have a twin sister that was born exactly 2 years and 4 days before me.",
-        "team": "Director of Operations",
-        "wallPhoto":true,
-        "location": "",
-        "work":[
-            {
-                "position":"",
-                "company":"",
-                "logo":"",
-            }
-        ],
-        "memory":"",
-        "experience":""
+        "team": "Director of Operations"
     },
 
     {
@@ -47,18 +25,7 @@
         "song": "Billy Joel - We Didn't Start the Fire",
         "person": "Elon Musk",
         "fact": "In college, I was an international race car driver",
-        "team": "Co-Founder",
-        "wallPhoto":true,
-        "location": "",
-        "work":[
-            {
-                "position":"",
-                "company":"",
-                "logo":"",
-            }
-        ],
-        "memory":"",
-        "experience":""
+        "team": "Co-Founder"
     },
 
     {
@@ -68,18 +35,7 @@
         "song": "Who We Are by Imagine Dragons",
         "person": "Neil Armstrong",
         "fact": "I own and regularly drive a purple moped. ",
-        "team": "Video Team",
-        "wallPhoto":true,
-        "location": "",
-        "work":[
-            {
-                "position":"",
-                "company":"",
-                "logo":"",
-            }
-        ],
-        "memory":"",
-        "experience":""
+        "team": "Video Team"
     },
 
     {
@@ -88,18 +44,7 @@
         "song": "Menswear - The 1975",
         "person": "Jerry Seinfeld",
         "fact": "I drive a Toyota Highlander...like a lot of other 45 year old women in Lexington.",
-        "team": "Fellowship Director",
-        "wallPhoto":true,
-        "location": "",
-        "work":[
-            {
-                "position":"",
-                "company":"",
-                "logo":"",
-            }
-        ],
-        "memory":"",
-        "experience":""
+        "team": "Fellowship Director"
     },
 
     {
@@ -108,18 +53,7 @@
         "song": "ILYSB",
         "person": "Sheryl Sandberg",
         "fact": "I made a birthday cake for Britney Spears.",
-        "team": "Director of Marketing",
-        "wallPhoto":true,
-        "location": "",
-        "work":[
-            {
-                "position":"",
-                "company":"",
-                "logo":"",
-            }
-        ],
-        "memory":"",
-        "experience":""
+        "team": "Director of Marketing"
     },
 
     {
@@ -129,18 +63,7 @@
         "song": "I Forget Where We Were -Ben Howard",
         "person": "Alex Honnold",
         "fact": "I went to clown camp when I was a kid",
-        "team": "AInc U",
-        "wallPhoto":true,
-        "location": "",
-        "work":[
-            {
-                "position":"",
-                "company":"",
-                "logo":"",
-            }
-        ],
-        "memory":"",
-        "experience":""
+        "team": "AInc U"
     },
 
     {
@@ -150,18 +73,7 @@
       "song": "Safe and Sound - Capital Cities",
       "person": "John Wall",
       "fact": "I sell beef jerky and healthy snacks for a living.",
-      "team": "Development Team",
-      "wallPhoto":true,
-      "location": "",
-      "work":[
-          {
-              "position":"",
-              "company":"",
-              "logo":"",
-          }
-      ],
-      "memory":"",
-      "experience":""
+      "team": "Development Team"
     },
 
     {
@@ -171,18 +83,7 @@
         "song": "Stand By Me -Ben E. King",
         "person": "Martha Stewart",
         "fact": "I can wiggle my ears.",
-        "team": "Design Team",
-        "wallPhoto":true,
-        "location": "",
-        "work":[
-            {
-                "position":"",
-                "company":"",
-                "logo":"",
-            }
-        ],
-        "memory":"",
-        "experience":""
+        "team": "Design Team"
     },
 
     {
@@ -192,18 +93,7 @@
         "song": "Built to Last by Melee",
         "person": "Nigel Hendroff is one of my musical role models. His hair is iconic and he is an incredible musician",
         "fact": "I'm addicted to gum, but in a healthy manner",
-        "team": "Fellowship/HoF",
-        "wallPhoto":true,
-        "location": "",
-        "work":[
-            {
-                "position":"",
-                "company":"",
-                "logo":"",
-            }
-        ],
-        "memory":"",
-        "experience":""
+        "team": "Fellowship/HoF"
     },
 
     {
@@ -213,18 +103,7 @@
         "song": "Built to Last by Melee",
         "person": "Beyonce",
         "fact": "I've played guitar for 8 years",
-        "team": "Blog/Marketing Team",
-        "wallPhoto":true,
-        "location": "",
-        "work":[
-            {
-                "position":"",
-                "company":"",
-                "logo":"",
-            }
-        ],
-        "memory":"",
-        "experience":""
+        "team": "Blog/Marketing Team"
     },
 
     {
@@ -233,18 +112,7 @@
         "song": "I don't really have one",
         "person": "Andrew Skurka",
         "fact": "I love mountains",
-        "team": "Development Team",
-        "wallPhoto":true,
-        "location": "",
-        "work":[
-            {
-                "position":"",
-                "company":"",
-                "logo":"",
-            }
-        ],
-        "memory":"",
-        "experience":""
+        "team": "Development Team"
     },
 
     {
@@ -253,18 +121,7 @@
         "song": "1950 - King Princess ",
         "person": "Theodore Roosevelt Jr",
         "fact": "My name is a palindrome.",
-        "team": "Events/Marketing Team",
-        "wallPhoto":true,
-        "location": "",
-        "work":[
-            {
-                "position":"",
-                "company":"",
-                "logo":"",
-            }
-        ],
-        "memory":"",
-        "experience":""
+        "team": "Events/Marketing Team"
     }
 
 ]
