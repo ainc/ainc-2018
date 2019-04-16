@@ -41,13 +41,17 @@ collections:
       - {label: "Company", name: "company", widget: "string"}
       - {label: "LinkedIn", name: "linkedin", widget: "string", required: false}
 
-  - name: "Team Alpha"
-    label: "Team Alpha"
-    folder: "_data/"
-    create: true
-    fields:
-      - {label: "Name", name: "name", widget: "string"}
-      - {label: "Rule", name: "rule", widget: "string"}
-      - {label: "Song", name: "song", widget: "string"}
-      - {label: "Person", name: "person", widget: "string"}
-      - {label: "Fact", name: "fact", widget: "string"}
+  - label: "Data"
+    name: "data"
+    files:
+      - name: "team-alpha"
+        label: "Team Alpha"
+        file: "_data/team-alpha.json"
+        description: "Team Alpha Members List"
+        create: true
+        fields:
+          - {label: "Name", name: "name", widget: "string"}
+          - {label: "Rule", name: "rule", widget: "string"}
+          - {label: "Song", name: "song", widget: "string"}
+          - {label: "Person", name: "person", widget: "string"}
+          - {label: "Fact", name: "fact", widget: "string"}
