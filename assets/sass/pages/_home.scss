@@ -5,11 +5,43 @@
   }
 }
 
-#software-development {
-  background-color: $brand-grey;
+#three-initiatives {
+  svg.shape {
+    fill: $brand-grey;
+    height: 15rem;
+    width: 100%;
+    position: absolute;
+    &#top-triangle {
+      bottom: 0;
+    }
+    &#bottom-triangle {
+      bottom: -15rem;
+    }
+  }
+  svg.vert-line {
+    left: 50%;
+    width: 15rem;
+    height: 15rem;
+    &#top-line {
+      bottom: -5rem;
+    }
+    &#bottom-line {
+      bottom: -10rem;
+    }
+    line {
+      stroke: $brand-red-bright;
+      stroke-width: 5px;
+      stroke-linecap: round;
+      stroke-dasharray: 0, 13;
+      stroke-dashoffset: 1;
+    }
+  }
 }
 
 #lgx-software {
+  .lgx-inner {
+    padding-top: 10rem;
+  }
   h3 {
     text-transform: uppercase;
     margin-top: 0;
@@ -26,61 +58,36 @@
 
 #lgx-startups {
   position: relative;
-  svg {
-    position: absolute;
-    top: 10%;
-    right: 17%;
-
+	.lgx-heading {
+		margin-bottom: 3.3rem;
+	}
+	h4 {
+		font-weight: 600;
+		@include font-size(22);
   }
-  #rocket-path {
-    fill: none;
-    // stroke-dasharray: 1000;
-    // stroke-dashoffset: 1000;
-    // animation: dash 5s linear forwards;
+  td h4 {
+    color: $brand-color2;
   }
-}
-
-[data-aos="rocket-animation"] {
-  opacity: 0;
-  transition-property: transform, opactiy;
-  &.aos-animate {
-    opacity: 1;
-  }
-
-  @media screen and (min-width: 768px) {
-    transform: translateX(100px);
-
-    &.aos-animate {
-      transform: translateX(0);
-    }
-    
-  }
-}
-
-@keyframes dash {
-  from {
-    stroke-dashoffset: 1000;
-  }
-  to {
-    stroke-dashoffset: 0;
+  .lgx-inner {
+    padding-bottom: 9rem;
   }
 }
 
 #lgx-workspace {
-  background-image: url("../../images/workspace-home-bg.jpg");
   position: relative;
   background-size: 100%;
   background-position: 50%;
+  background-color: $brand-grey;
 
   h4 {
-    @include font-size(27);
+    @include font-size(22);
   }
   #desk-bg {
     background-image: url("../../images/icons/workspace-desk-bg.png");
     background-position: 50% 55%;
-    background-size: 40%;
+    background-size: 32%;
     background-repeat: no-repeat;
-    padding-bottom: 7%;
+    padding-bottom: 5%;
 
   }
   .card {
