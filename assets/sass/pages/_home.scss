@@ -26,21 +26,40 @@
       bottom: -5rem;
     }
     &#bottom-line {
-      bottom: -10rem;
+      bottom: -15rem;
     }
     line {
       stroke: $brand-red-bright;
       stroke-width: 5px;
       stroke-linecap: round;
-      stroke-dasharray: 0, 13;
+      stroke-dasharray: 0, 21;
       stroke-dashoffset: 1;
+    }
+
+    &.border {
+      height: 35rem;
+      width: 35rem;
+      left: 100%;
+      z-index: -1; // So that links can be clicked
+      line {
+        stroke-width: 2px;
+        stroke-dasharray: 0, 13;
+      }
+    }
+  }
+  .pinned-button {
+    position: absolute;
+    top: 2rem;
+    right: 0;
+    img {
+      width: 100px;
     }
   }
 }
 
 #lgx-software {
   .lgx-inner {
-    padding-top: 10rem;
+    padding-top: 15rem;
   }
   h3 {
     text-transform: uppercase;
@@ -50,9 +69,14 @@
     font-weight: 600;
     @include font-size(22);
     text-transform: none;
+    margin-top: 20px;
   }
   .thin-column {
     border-right-color: $black-color;
+  }
+  img {
+    max-width: 200px;
+    max-height: 140px;
   }
 }
 
@@ -90,6 +114,33 @@
     padding-bottom: 5%;
 
   }
+
+  line {
+    stroke: white;
+  }
+
+  svg.border {
+    position: absolute;
+    fill: none;
+    &#right-border {
+      width: 2rem;
+      height: 90%;
+      left: 95%;
+      top: 12%;
+    }
+    &#left-border {
+      width: 2rem;
+      height: 90%;
+      right: 95%;
+      top: 12%;
+    }
+    &#bottom-border {
+      height: 2rem;
+      width: 92.3%;
+      bottom: 0;
+    }
+  }
+
   .card {
     margin: auto;
     &.push-down {

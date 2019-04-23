@@ -201,15 +201,6 @@ table.no-border {
   
 }
 
-.pinned-button {
-  position: absolute;
-  top: 5.2rem;
-  right: 5.2rem;
-  img {
-    width: 125px;
-  }
-}
-
 /* ----------------------------------------------------------------
     Flexbox implementation: https://codepen.io/devwax/pen/WQOXzp
 -------------------------------------------------------------------*/
@@ -675,6 +666,10 @@ svg.vert-line {
     stroke-dasharray: 0, 6;
     stroke-dashoffset: 2;
   }
+}
+
+svg[id*='svg_'] {
+  position: absolute;
 }
 
 

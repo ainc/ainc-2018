@@ -43,7 +43,7 @@ function parseSVG(s) {
 }
 
 $(document).ready(function() {
-  $(".dotted-svg, .border-svg").each(function(index) {
+  $(".dotted-svg, .border-svg, .thick-border-svg").each(function(index) {
     console.log($(this).width());
 
     var heading_area = $(this);
@@ -101,6 +101,22 @@ $(document).ready(function() {
         x2: 100,
         y2: 0.5,
         'stroke-width': '0.1',
+      });
+      outer_margin = 0;
+    } else if (heading_area.hasClass( 'thick-border-svg' )) {
+      var line1 = makeSVG( 'line', {
+        x1: 0, 
+        y1: 0.5, 
+        x2: x2_value - 2, // subtract two for margin
+        y2: 0.5,
+        'stroke-width': '0.15rem'
+      });
+      var line2 = makeSVG( 'line', {
+        x1: 100 - x2_value + 2, // add two for margin
+        y1: 0.5, 
+        x2: 100,
+        y2: 0.5,
+        'stroke-width': '0.15rem'
       });
       outer_margin = 0;
     }
