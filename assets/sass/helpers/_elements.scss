@@ -630,6 +630,10 @@ div.dotted-svg > svg {
   Breadcrumb Customization
 -------------------------------------------------------------------*/
 
+.breadcrumb {
+  padding-bottom: 4rem;
+}
+
 .page .breadcrumb li a:hover {
   color: $brand-color;
 }
@@ -693,7 +697,6 @@ svg[id*='svg_'] {
   position: absolute;
 }
 
-
 /* ----------------------------------------------------------------
   Other Elements
 -------------------------------------------------------------------*/
@@ -715,6 +718,14 @@ svg[id*='svg_'] {
   a {
     position: absolute; 
   }
+}
+
+.margin-top {
+  margin-top: 2rem;
+}
+
+.margin-bottom {
+  margin-bottom: 2rem;
 }
 
 
