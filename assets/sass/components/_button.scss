@@ -47,6 +47,9 @@
   &.lgx-btn-grey {
     background-color: $brand-color2;
     border-color: $brand-color2;
+    &:hover {
+      color: $brand-grey-dark;
+    }
   }
   &.lgx-btn-grey-light {
     background-color: $brand-grey-dark;
