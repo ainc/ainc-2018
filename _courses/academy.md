@@ -1,6 +1,8 @@
 ---
 title: The Academy
 layout: sub
+permalink: "/academy/"
+breadcrumb: "/learn/youth/academy"
 description: Awesome Inc U's Premier Coding Program
 cover: "/img/Awesome-Inc-Academy.jpg"
 application: "/applications/academy/"

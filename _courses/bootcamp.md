@@ -1,11 +1,13 @@
 ---
 title: Web Developer Bootcamp
 layout: sub
-permalink: "/bootcamp"
+permalink: "/bootcamp/"
 breadcrumb: "/learn/adult/bootcamp"
 description: Become A Professional Web Developer
 application: "/applications/bootcamp/"
 ---
+
+{% include aincu-special-announcement.html %}
 
 ## Learn to code in 12 weeks, get a job as a web developer.
 

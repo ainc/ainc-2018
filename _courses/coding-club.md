@@ -8,6 +8,9 @@ cover: "/img/coding-club.jpg"
 class_day: Tuesdays
 eventbrite_eid: 51832961784
 ---
+
+{% include coding-club-buttons.html %}
+
 ### **Do you have a student at home who enjoys spending time on the computer, could play Minecraft for hours, or has done the Hour of Code at school?**
 
 The Coding Club is the place to take that interest in technology, and turn it into a productive skill. Designed for boys and girls in elementary and middle school who want to try out programming, the Coding Club is a fun way to learn to code in a social, after-school setting. Students are taught to code using the popular Scratch programming language from MIT. We make a series of video game and animation projects, which we use to help students learn the core concepts of coding and computer science.

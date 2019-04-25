@@ -12,6 +12,9 @@
   border: 2px solid $brand-color;
   border-radius: 4px;
   position: relative;
+  &:hover {
+    color: $brand-color2;
+  }
   &.lgx-btn-anim {
     -webkit-transition: all .3s ease-in-out 0s;
     -moz-transition: all .3s ease-in-out 0s;

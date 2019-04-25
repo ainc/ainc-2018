@@ -1,6 +1,7 @@
 ---
 title: Coding League
 permalink: "/coding-league/"
+breadcrumb: "/learn/youth/coding-league/"
 layout: sub
 description: Learn To Code Like The Pros
 cover: "/img/coding-league.jpg"
@@ -9,11 +10,13 @@ redirect_from:
 - "/league/"
 ---
 
+{% include coding-league-buttons.html %}
+
 ### **What happens when you’ve pushed the limits of block-based programming languages like Scratch?**
 
 It’s time to start using more powerful, professional-grade tools. HTML, CSS, and JavaScript are the building blocks of the web, and are the focus of our intermediate-level course for youth, the Coding League. Students use code to create websites. These websites range from informational pages on students’ hobbies and interests, to interactive games, and handy utilities.
 
-![Doodle Jump clone screenshot](/img/league-doodle-jump.gif "Doodler, a Coding League project, made with JavaScript in CodePen" ){:class="img-responsive center-block"}
+![Doodle Jump clone screenshot](/images/aincu/league-doodle-jump.gif "Doodler, a Coding League project, made with JavaScript in CodePen" ){:class="img-responsive center-block"}
 
 Coding League participants should have some prior programming experience, such as a basic course at school or [Awesome Inc’s Coding Club](/coding-club/). Since we’ll be using text-based programming languages, students should be comfortable typing at [20 words per minute](https://10fastfingers.com/typing-test/english) or faster.
 
@@ -33,13 +36,13 @@ Come back for as many sessions as you’d like, the fun and the knowledge keeps 
 	<div class="text-center col-lg-6">
 		<h3><a href="https://www.linkedin.com/in/nicksuch">Nick Such</a></h3>
 		<h4>Founder of Awesome Inc U, Awesome Labs, and BuildingLayer.</h4>
-		<img src="/img/nick-such.png">
+		<img src="/images/aincu/nick-such.png">
 	</div>
 	<div class="text-center col-lg-6">
 		<h3><a href="https://www.linkedin.com/in/brianraney">Brian Raney</a></h3>
 		<h4>Founder of APAX Software and Awesome Inc<br>
 			iOS and Web Instructor</h4>
-		<img src="/img/brian-raney.png">
+		<img src="/images/aincu/brian-raney.png">
 	</div>
 </div>
 
