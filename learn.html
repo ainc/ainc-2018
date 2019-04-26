@@ -40,8 +40,11 @@ page_id: learn
             <svg class="preset-svg" id="straight-line" viewBox="0 0 1 100">
               <line x1="0.5" y1="0" x2="0.5" y2="100"/>
             </svg>
-            <svg class="preset-svg" id="zig-zag" viewBox="0 0 50 15">
+            <svg class="preset-svg zig-zag" id="zig-zag-top" viewBox="0 0 50 15">
               <polyline points="0.5,0.5 0.5,7 49,7 49,14"/>
+            </svg>
+            <svg class="preset-svg zig-zag" id="zig-zag-bottom" viewBox="0 0 50 15">
+              <polyline points="49,0.5 49,7 0.5,7 0.5,12"/>
             </svg>
           </div>
           <div class="col-xs-12 col-sm-5" data-aos="fade-left">
@@ -54,7 +57,6 @@ page_id: learn
           <div class="col-xs-12 col-sm-4 col-sm-offset-1" data-aos="fade-right">
             <div class="img-outline-offset-right offset-border offset-border-bottom-zig-zag">
               <img src="/images/student-learn-to-code-week-of-code.jpg" border="0">
-              
             </div>
           </div>
           <div class="col-xs-12 col-sm-7 col-md-5" data-aos="fade-left">
@@ -86,25 +88,23 @@ page_id: learn
   <div id="testimonials-learn">
     <div class="lgx-inner">
       <div class="container">
-        <div class="lgx-heading-area">
-          <div class="lgx-heading">
-            <h2 class="heading-title text-shadow center">Proven Success</h2>
-            <p>Since 2013, over 1500 people have learned to code with us. Here's what they have to say:</p>
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-sm-offset-2">
+            <img id="percent" src="/images/100-percent-hired.jpg">
           </div>
-        </div>
+          <div class="col-xs-12 col-sm-5">
+            <div class="lgx-heading-area">
+              <div class="lgx-heading">
+                <h2 class="heading-title text-shadow">Proven Success</h2>
+                <p>Since 2013, over 1500 people have learned to code with us. Here's what they have to say:</p>
+              </div>
+            </div> <!-- lgx-heading-area -->
+          </div>
+        </div> <!-- row -->
         <div class="row row-eq-height flex-img-center center">
-          <div class="col-xs-12 col-sm-4 col-lg-3" data-aos="fade-right">
+          <div class="col-xs-12 col-sm-10 col-sm-offset-1" data-aos="fade-up">
             <div class="testimonial">
-              <p>"This was a fantastic course and I'd highly recommend taking it. The Awesome Inc team kept a seemingly tedious subject fun and interesting with games, jokes and sandbox time. It was a very hands-on class and by the end, we had built an actual website from scratch. They're not just blowing smoke -- Awesome Inc really is awesome!"</p>
-            </div>
-          </div>
-          <div class="col-sm-4 hidden-xs" data-aos="fade-up">
-            <!-- <div class="abs-center-img" id="hire-100"></div> -->
-            <img src="/images/100-percent-hired.jpg">
-          </div>
-          <div class="col-sm-4 col-lg-3 hidden-xs" data-aos="fade-left">
-            <div class="testimonial">
-              <p>"This was a fantastic course and I'd highly recommend taking it. The Awesome Inc team kept a seemingly tedious subject fun and interesting with games, jokes and sandbox time. It was a very hands-on class and by the end, we had built an actual website from scratch. They're not just blowing smoke -- Awesome Inc really is awesome!"</p>
+              <p>"The future was very uncertain, but Awesome Inc was very dedicated to helping me out, not just during the Bootcamp but also after I graduated and giving me job leads and giving me job search advice." -Clark, Bootcamp Graduate</p>
             </div>
           </div>
         </div><!--//.ROW-->

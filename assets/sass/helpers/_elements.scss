@@ -298,6 +298,12 @@ table.no-border {
   margin: auto;
 }
 
+.vcenter {
+  display: inline-block;
+  vertical-align: middle;
+  float: none;
+}
+
 /* ----------------------------------------------------------------
     Class to set images on the same line
 -------------------------------------------------------------------*/

@@ -137,30 +137,32 @@
     }
     .lgx-heading-area {
       .heading-title {
-        text-align: center;
+        text-align: left;
         @include font-size(40);
         font-weight: 800;
         text-transform: capitalize;
         margin-bottom: 0;
       }
+      .lgx-heading {
+        margin-bottom: 7.5rem;
+      }
       p {
-        text-align: center;
+        text-align: left;
       }
     }
-    img {
-      max-width: 75%;
-      display: block;
-      margin: auto;
-      @include screen-tablet-max {
-        max-width: 100%;
-      }
+    img#percent {
+      position: absolute;
+      max-width: 200px;
+      top: -5rem;
+      left: 5rem;
     }
-    #hire-100 {
-      background: url("../../images/100-percent-hired.jpg") center center no-repeat;
+    .vcenter {
+      // height: 100%;
+      p {
+        height: 100%;
+      }
     }
     .testimonial {
-      background-color: white;
-      padding: 2rem;
       p {
         text-align: justify;
         @include screen-tablet-max {
@@ -214,14 +216,22 @@
       display: none;
     }
   }
-  svg#zig-zag {
+  svg.zig-zag {
     position: absolute;
     fill: none;
-    top: 220%;
-    left: 50%;
     z-index: 99;
-    width: 50rem;
-    height: 15rem;
+    &#zig-zag-top {
+      top: 207%;
+      left: 50%;
+      width: 50rem;
+      height: 15rem;
+    }
+    &#zig-zag-bottom {
+      top: 315%;
+      left: 50%;
+      width: 50rem;
+      height: 15rem;
+    }
     polyline {
       stroke: $brand-red-bright;
       stroke-width: 0.03rem;
