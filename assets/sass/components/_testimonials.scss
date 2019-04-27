@@ -46,7 +46,7 @@
 
 blockquote {
 
-  &:after {
+  &:after, &:before {
     color: $brand-color;
   }
   

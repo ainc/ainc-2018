@@ -1,3 +1,11 @@
+#home {
+  #lgx-main-slider {
+    .owl-item img {
+      height: 100vh;
+    }
+  }
+}
+
 // Two sections with white bg had too much space between them.
 #lgx-about {
   .lgx-inner {
@@ -130,7 +138,7 @@
     @include font-size(22);
   }
   #desk-bg {
-    background-image: url("../../images/icons/workspace-desk-bg.png");
+    background-image: url("../../images/icons/workspace-desk-bg-red.png");
     background-position: 50% 30%;
     background-size: 33%;
     background-repeat: no-repeat;

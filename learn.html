@@ -89,10 +89,10 @@ page_id: learn
     <div class="lgx-inner">
       <div class="container">
         <div class="row">
-          <div class="col-xs-12 col-sm-3 col-sm-offset-2">
+          <div class="col-xs-12 col-sm-4 col-sm-offset-1 col-md-3 col-md-offset-2">
             <img id="percent" src="/images/100-percent-hired.jpg">
           </div>
-          <div class="col-xs-12 col-sm-5">
+          <div class="col-xs-12 col-sm-6 col-md-5">
             <div class="lgx-heading-area">
               <div class="lgx-heading">
                 <h2 class="heading-title text-shadow">Proven Success</h2>
@@ -101,17 +101,15 @@ page_id: learn
             </div> <!-- lgx-heading-area -->
           </div>
         </div> <!-- row -->
-        <div class="row row-eq-height flex-img-center center">
-          <div class="col-xs-12 col-sm-10 col-sm-offset-1" data-aos="">
-            <div class="testimonial">
-              <div class="quoteLoop">
-              {% for testimonial in site.data.aincu-testimonials %}
-                <blockquote class="quote">
-                  {{ testimonial.content }}
-                  <small>{{ testimonial.name }}</small>
-                </blockquote>
-              {% endfor %}
-              </div>
+        <div class="col-xs-12 col-sm-10 col-sm-offset-1" data-aos="">
+          <div class="testimonial">
+            <div class="quoteLoop">
+            {% for testimonial in site.data.aincu-testimonials %}
+              <blockquote class="quote">
+                {{ testimonial.content }}
+                <small>{{ testimonial.name }}</small>
+              </blockquote>
+            {% endfor %}
             </div>
           </div>
         </div><!--//.ROW-->

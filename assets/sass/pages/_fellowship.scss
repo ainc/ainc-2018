@@ -167,7 +167,7 @@
     .testimonial {
       border-left: $brand-color solid 2px;
       border-right: $brand-color solid 2px;
-      p {
+      blockquote {
         @include font-size(18);
         text-align: center;
         color: white;
@@ -175,6 +175,10 @@
         margin: 2rem;
         border-left: $brand-color solid 2px;
         border-right: $brand-color solid 2px;
+        height: 200px;
+        &:after, &:before {
+          display: none;
+        }
         @include screen-xs {
           padding: 2rem 4rem;
         }

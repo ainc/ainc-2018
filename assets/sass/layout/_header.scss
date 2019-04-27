@@ -197,6 +197,11 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
           @include screen-lg {
             padding: 16px 8px;
           }
+          .caret {
+            @include screen-tablet-max {
+              display: none;
+            }
+          }
         }
         .lgx-btn {
           //background: $brand-color2;

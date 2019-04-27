@@ -119,7 +119,9 @@ $(document).ready(function() {
   });
 });
 
-
+/***********************
+ Function to make testimonials fade in and out
+**************************/
 $(document).ready(function() {
   function fade($ele) {
     $ele.fadeIn(1000).delay(3000).fadeOut(1000, function() {

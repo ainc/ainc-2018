@@ -124,7 +124,14 @@ page_id: fellowship
       <div class="row">
         <div class="col-xs-12">
           <div class="testimonial">
-            <p>Awesome Inc accelerated my startup. The program helped my company to secure funding, add advisors, and launch my product.</p>
+            <div class="quoteLoop">
+            {% for testimonial in site.data.fellowship-testimonials %}
+            <blockquote class="quote">
+              {{ testimonial.content }}
+              <small>{{ testimonial.name }}</small>
+            </blockquote>
+            {% endfor %}
+            </div>
           </div>
         </div>
       </div><!--//.ROW-->
