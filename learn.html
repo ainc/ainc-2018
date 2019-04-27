@@ -102,9 +102,16 @@ page_id: learn
           </div>
         </div> <!-- row -->
         <div class="row row-eq-height flex-img-center center">
-          <div class="col-xs-12 col-sm-10 col-sm-offset-1" data-aos="fade-up">
+          <div class="col-xs-12 col-sm-10 col-sm-offset-1" data-aos="">
             <div class="testimonial">
-              <p>"The future was very uncertain, but Awesome Inc was very dedicated to helping me out, not just during the Bootcamp but also after I graduated and giving me job leads and giving me job search advice." -Clark, Bootcamp Graduate</p>
+              <div class="quoteLoop">
+              {% for testimonial in site.data.aincu-testimonials %}
+                <blockquote class="quote">
+                  {{ testimonial.content }}
+                  <small>{{ testimonial.name }}</small>
+                </blockquote>
+              {% endfor %}
+              </div>
             </div>
           </div>
         </div><!--//.ROW-->

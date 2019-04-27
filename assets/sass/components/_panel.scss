@@ -50,28 +50,6 @@
 				transition: all 0.25s ease-out;
 			}
 		}
-		// &:hover::before,
-		// &:hover::after {
-		// 	width: 100%;
-		// 	height: 100%;
-		// }
-		// &:hover::before {
-		// 	border-top-color: $brand-color2;
-		// 	border-right-color: $brand-color2;
-		// 	transition: 
-		// 		width 0.25s ease-out,
-		// 		height 0.25s ease-out;
-		// }
-		// &:hover::after {
-		// 	border-bottom-color: $brand-color2;
-		// 	border-left-color: $brand-color2;
-		// 	transition: 
-		// 		border-color 0s ease-out 0.5s,
-		// 		width 0.25s ease-out 0.5s,
-		// 		height 0.25 ease-out 0.75s;
-		// }
-
-		// transition: color 0.25s;
 
 		.panel-body {
 			height: inherit;
@@ -79,8 +57,8 @@
 				min-height: 130px;
 				padding-top: 30px;
 				.ico {
-					height: 80px;
-					width: 80px;
+					max-height: 80px;
+					max-width: 90px;
 				}
 				@include screen-xs {
 					padding-top: 0;

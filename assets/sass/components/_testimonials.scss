@@ -39,3 +39,20 @@
     }
   }
 }
+
+/********************************************
+          Testimonials Fade
+********************************************/
+
+blockquote {
+
+  &:after {
+    color: $brand-color;
+  }
+  
+  &.quote {
+    display: none;
+    border: none;
+    border-left: none;
+  }
+}
