@@ -1,0 +1,109 @@
+---
+title: Academy Application
+layout: sub
+course: "/academy/"
+breadcrumb: "/learn/youth/academy/apply"
+next-session: "(Fall 2019)"
+application-deadline: January 25, 2019
+---
+
+{% comment %}
+Zoho Forms Note :
+   - You can modify the font style and form style to suit your website.
+   - Code lines with comments “Do not remove this code”  are required for the form to work properly, make sure that you do not remove these lines of code.
+   - The Mandatory check script can modified as to suit your business needs.
+   - It is important that you test the modified form before going live.
+{% endcomment %}
+
+<div id='crmWebToEntityForm'>
+   <form action='https://crm.zoho.com/crm/WebToLeadForm' name=WebToLeads1947581000002007013 method='POST' onSubmit='javascript:document.charset="UTF-8"; return checkMandatory()' accept-charset='UTF-8'>
+
+     <!-- Do not remove this code. -->
+    <input type='text' style='display:none;' name='xnQsjsdp' value='f9f8e074403ef47daf3c5c41e25168a8c80d89350975dda34915963e2ad7ed89'/>
+    <input type='hidden' name='zc_gad' id='zc_gad' value=''/>
+    <input type='text' style='display:none;' name='xmIwtLD' value='36de0141405c9ef2e1f0f24b9f65b3174ccf8bbe7d1eaed22104da3228c4c9d0'/>
+    <input type='text' style='display:none;'  name='actionType' value='TGVhZHM='/>
+
+    <input type='text' style='display:none;' name='returnURL' value='https&#x3a;&#x2f;&#x2f;www.awesomeincu.com&#x2f;thanks&#x2f;' />
+     <!-- Do not remove this code. -->
+
+    <legend>Fill out this form to start your application process</legend>
+    <div class="form-group">
+        <label for="First Name">First Name</label>
+        <input type="text" maxlength="40" name="First Name" placeholder="First Name" class="form-control input-lg" />
+    </div>
+    <div class="form-group">
+        <label for="Last Name">Last Name</label>
+        <input type="text" maxlength="40" name="Last Name" placeholder="Last Name" class="form-control input-lg" />
+    </div>
+    <div class="form-group">
+        <label for="Email">Email</label>
+        <input type="text" maxlength="100" name="Email" placeholder="Email Address" class="form-control input-lg"/>
+    </div>
+    <div class="form-group">
+        <label for="Phone">Phone</label>
+        <input type="text" maxlength="30" name="Phone" placeholder="Phone Number" class="form-control input-lg"/>
+    </div>
+    <div class="form-group">
+        <label for="LEADCF6">How did you find out about Awesome Inc U?</label>
+        <input type="text" maxlength="255" name="LEADCF6" placeholder="Google search, Facebook, Signage, From a friend..." class="form-control input-lg"/>
+    </div>
+    <div style="display:none;">
+        Course
+        <select name="LEADCF4">
+        <option selected value="Academy">Academy</option>
+        </select>
+        Lead Source
+        <select name="Lead Source">
+        <option selected value='Website&#x20;Application&#x20;Form'>Website Application Form</option>
+        </select>
+    </div>
+
+
+
+    <input type="submit" value="Submit" class="btn btn-default" />
+    <script>
+      var mndFileds=new Array('First Name','Last Name','Email','LEADCF6','Phone');
+      var fldLangVal=new Array('First Name','Last Name','Email','Phone','How did you find out about Awesome Inc?');
+        var name='';
+        var email='';
+
+      function checkMandatory() {
+        for(i=0;i<mndFileds.length;i++) {
+          var fieldObj=document.forms['WebToLeads1947581000002007013'][mndFileds[i]];
+          if(fieldObj) {
+            if (((fieldObj.value).replace(/^\s+|\s+$/g, '')).length==0) {
+             if(fieldObj.type =='file')
+                {
+                 alert('Please select a file to upload.');
+                 fieldObj.focus();
+                 return false;
+                }
+            alert(fldLangVal[i] +' cannot be empty.');
+              fieldObj.focus();
+              return false;
+            }  else if(fieldObj.nodeName=='SELECT') {
+             if(fieldObj.options[fieldObj.selectedIndex].value=='-None-') {
+                alert(fldLangVal[i] +' cannot be none.');
+                fieldObj.focus();
+                return false;
+               }
+            } else if(fieldObj.type =='checkbox'){
+             if(fieldObj.checked == false){
+                alert('Please accept  '+fldLangVal[i]);
+                fieldObj.focus();
+                return false;
+               }
+             }
+             try {
+                 if(fieldObj.name == 'Last Name') {
+                name = fieldObj.value;
+                }
+            } catch (e) {}
+            }
+        }
+         }
+
+</script>
+    </form>
+</div>

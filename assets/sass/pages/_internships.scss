@@ -1,0 +1,156 @@
+#internships {
+  
+  #internship-header {
+    .lgx-heading {
+      text-align: left;
+      margin-bottom: 0rem;
+    } 
+    .lgx-inner {
+      padding-bottom: 0;
+      margin-bottom: 1.3rem;
+    }
+  }
+
+  #internship-why {
+    background-image: url('../../../images/intern-why.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    .lgx-inner {
+      padding-top: 1.3rem;
+    }
+    .lgx-heading {
+      margin-top: 10.3rem;
+      text-align: left;
+    }
+    p {
+      color: white;
+      margin-bottom: 3rem;
+      a {
+        color: white;
+      }
+    }
+    svg {
+      fill: $body-bg;
+      position: absolute;
+      &#top-angle {
+        width: 100%;
+        height: 15rem;
+        // top: 5%;
+      }
+      &#bottom-angle {
+        width: 100%;
+        height: 15rem;
+        bottom: 0;
+      }
+    }
+  }
+
+  #internship-team {
+    .lgx-inner {
+      padding-top: 0;
+    }
+    .img-banner {
+      position: relative;
+      margin: 10% 5%;
+      .img-outline-offset-left:before {
+        border-color: $brand-color;
+      }
+      a {
+        position: absolute;
+        top: -10%;
+        left: 10%;
+        width: 80%;
+        color: white;
+        background-color: $brand-color2;
+        text-align: center;
+        border-radius: 0;
+        @include font-size(22);
+      }
+    }
+
+    svg {
+      position: absolute;
+      line {
+        stroke: $brand-color2;
+        stroke-linecap: round;
+      }
+    }    
+  }
+
+  #who-we-look-for {
+    .row {
+      position: relative;
+    }
+    .lgx-heading {
+      margin-bottom: 2.3rem;
+    }
+    p {
+      text-align: justify;
+      padding: 0 3.5rem;
+    }
+    svg {
+      position: absolute;
+      fill: none;
+      line {
+        stroke: $brand-color;
+      }
+    }
+    svg.border {
+      position: absolute;
+      fill: none;
+      line {
+        stroke: $brand-color;
+      }
+    }
+    svg#left-border {
+      width: 0.1rem;
+      height: 97%;
+      right: 98%;
+      top: 13.2%;
+    }
+    svg#bottom-border {
+      height: 0.1rem;
+      width: 96.2%;
+      left: 1.9%;
+      top: 110%;
+    }
+    svg#right-border {
+      width: 0.1rem;
+      height: 97%;
+      left: 98%;
+      top: 13.2%;
+    }
+  }
+
+  #why-join {
+    background-color: $brand-color2;
+    .heading-title {
+      color: $brand-color;
+      // transform: rotate(-90deg);
+    }
+    .lgx-heading {
+      min-height: 250px;
+      position: relative;
+      color: rgba(black, 0.5);
+      font-size: small;
+      display: inline-block;
+      h2 {
+        position: absolute;
+        top: 90%;
+        left: 0;
+        margin-left: -30px;
+        
+        @include transform(rotate(270deg));
+        @include transform-origin(0 0);
+      }
+      p {
+        color: white;
+        text-align: justify;
+        margin-left: 4rem;
+      }
+    }
+  }
+
+}
