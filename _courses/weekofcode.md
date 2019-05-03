@@ -2,7 +2,7 @@
 title: Week of Code Summer Camp
 permalink: "/weekofcode/"
 breadcrumb: "/learn/youth/week-of-code/"
-layout: sub
+layout: course
 description: Lexington's &#35;1 Summer Coding Camp
 cover: "/img/Awesome-Inc-Week-Of-Code.jpg"
 applications: 

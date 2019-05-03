@@ -1,6 +1,6 @@
 ---
 title: Coding Club
-layout: sub
+layout: course
 permalink: "/coding-club"
 breadcrumb: "/learn/youth/coding-club"
 description: Learn Code, Make Friends

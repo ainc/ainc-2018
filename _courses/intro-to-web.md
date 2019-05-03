@@ -1,6 +1,6 @@
 ---
 title: Intro To Web Development
-layout: sub
+layout: course
 permalink: "/intro-to-web-development/"
 breadcrumb: "/learn/adult/intro-to-web-development"
 breadcrumb_bool: true

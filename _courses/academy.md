@@ -1,6 +1,6 @@
 ---
 title: The Academy
-layout: sub
+layout: course
 permalink: "/academy/"
 breadcrumb: "/learn/youth/academy"
 description: Awesome Inc U's Premier Coding Program

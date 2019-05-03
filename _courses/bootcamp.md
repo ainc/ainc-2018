@@ -1,6 +1,6 @@
 ---
 title: Web Developer Bootcamp
-layout: sub
+layout: course
 permalink: "/bootcamp/"
 breadcrumb: "/learn/adult/bootcamp"
 description: Become A Professional Web Developer
@@ -9,13 +9,13 @@ application: "/applications/bootcamp/"
 
 {% include aincu-special-announcement.html %}
 
-## Learn to code in 12 weeks, get a job as a web developer.
+## Learn to code in 16 weeks, get a job as a web developer.
 
-The Web Developer Bootcamp is a 12-week, full-time training program for aspiring software developers. We've worked with companies throughout the region to design a curriculum to prepare you to dive into a career in software development. This intense training program is designed to quickly take you from the basics of programming to a level of competency in building modern web applications. With over 500 hours of hands-on training, you'll gain experience while building 10+ projects using HTML, CSS, JavaScript, Heroku, GitHub, Agile, and more.
+The Web Developer Bootcamp is a 16-week, full-time training program for aspiring software developers. We've worked with companies throughout the region to design a curriculum to prepare you to dive into a career in software development. This intense training program is designed to quickly take you from the basics of programming to a level of competency in building modern web applications. With over 500 hours of hands-on training, you'll gain experience while building 10+ projects using HTML, CSS, JavaScript, Heroku, GitHub, Agile, and more.
 
 <img alt="Learn to code and make websites and mobile apps" src="/images/aincu/responsive-web-design.jpg" class="img-responsive img-rounded center-block margin-top margin-bottom">
 
-Participants are expected to be fully invested in the training process for a 12-week period. At the conclusion of the program, participants will be ready to interview with regional and national employers for the opportunity to earn a full-time position at a competitive junior developer's salary.
+Participants are expected to be fully invested in the training process for a 16-week period. At the conclusion of the program, participants will be ready to interview with regional and national employers for the opportunity to earn a full-time position at a competitive junior developer's salary.
 
 <div class="embed-responsive embed-responsive-16by9"><iframe width="560" height="315" src="https://www.youtube.com/embed/kTABF680TGU" style="border-width:0;" allowfullscreen></iframe></div>
 
@@ -49,6 +49,7 @@ Participants are expected to be fully invested in the training process for a 12-
 
 Alumni from Awesome Inc's Web Developer Bootcamp have found their first developer jobs with a variety of great employers in Kentucky and beyond.
 
+<br>
 <div class="row">
     <div class="col-xs-2 col-xs-offset-1">
       <img src="/images/aincu/logos/apaxsoftware-logo.png" alt="APAX Software Logo" class="img-responsive img-grayscale">
@@ -89,6 +90,7 @@ Alumni from Awesome Inc's Web Developer Bootcamp have found their first develope
 
 100% of the alumni from our first Bootcamp cohort (Fall '16) landed jobs in the software development field within 6 months of completing our program. [Applications](/applications/bootcamp/) are open for our next Bootcamp.
 
+<br>
 <a href="/alumni"><img src="/images/aincu/100-alumni-f16-hired.png" class="img-responsive center-block img-rounded"></a>
 <br>
 
@@ -155,7 +157,7 @@ Alumni from Awesome Inc's Web Developer Bootcamp have found their first develope
           <div class="panel-body">
             <p>Our ideal applicants are professional men and women who are looking to transition into a career in software development. This program is not for everyone. Like all Awesome Inc initiatives, we've built this program on the foundation of our <a href="http://www.awesomeinc.org/about/#core-values">Core Values</a>. CV #2 (Be Excellent) is a big part of this program. We expect that many of our candidates will have deep experience in a related field, such as graphic design, math/finance, or project management. Some applicants will have prior programming experience, maybe a class back in high school or college, but many will not.<br><br>
 
-            Most of our applicants reside in Kentucky, and desire to live and work in the region after Bootcamp. Since our 12-week program is full-time (8am - 5pm, five days per week), our candidates must be willing to sacrifice other commitments (such as outside employment) to focus on learning for that duration.</p>
+            Most of our applicants reside in Kentucky, and desire to live and work in the region after Bootcamp. Since our 16-week program is full-time (8am - 5pm, five days per week), our candidates must be willing to sacrifice other commitments (such as outside employment) to focus on learning for that duration.</p>
           </div>
         </div>
       </div>

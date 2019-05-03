@@ -2,6 +2,8 @@
   #lgx-main-slider {
     .owl-item img {
       height: 100vh;
+      -webkit-filter: brightness(80%) grayscale(20%);
+      filter: brightness(80%) grayscale(20%);
     }
   }
 }

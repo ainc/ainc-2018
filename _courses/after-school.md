@@ -2,7 +2,7 @@
 title: Coding Club at your school
 permalink: "/after-school/"
 breadcrumb: "/learn/youth/after-school/"
-layout: sub
+layout: course
 description: Learn Code, Make Friends
 cover: "/img/coding-club.jpg"
 ---

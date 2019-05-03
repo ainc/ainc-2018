@@ -2,7 +2,7 @@
 title: Coding League
 permalink: "/coding-league/"
 breadcrumb: "/learn/youth/coding-league/"
-layout: sub
+layout: course
 description: Learn To Code Like The Pros
 cover: "/img/coding-league.jpg"
 redirect_from:

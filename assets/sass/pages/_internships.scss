@@ -8,6 +8,9 @@
     .lgx-inner {
       padding-bottom: 0;
       margin-bottom: 1.3rem;
+      @include screen-xs {
+        margin-bottom: 3.3rem;
+      }
     }
   }
 
@@ -19,10 +22,20 @@
     position: relative;
     .lgx-inner {
       padding-top: 1.3rem;
+      @include screen-xs {
+        padding-top: 0;
+        padding-bottom: 5.4rem;
+      }
     }
     .lgx-heading {
       margin-top: 10.3rem;
       text-align: left;
+      @include screen-tablet-max {
+        margin-top: 4.3rem;
+      }
+      @include screen-xs {
+        margin-top: 5.8rem;
+      }
     }
     p {
       color: white;
@@ -37,12 +50,23 @@
       &#top-angle {
         width: 100%;
         height: 15rem;
-        // top: 5%;
+        @include screen-tablet-max {
+          height: 10rem;
+        }
+        @include screen-xs {
+          height: 12rem;
+        }
       }
       &#bottom-angle {
         width: 100%;
         height: 15rem;
         bottom: 0;
+        @include screen-tablet-max {
+          height: 10rem;
+        }
+        @include screen-xs {
+          height: 12rem;
+        }
       }
     }
   }
@@ -130,27 +154,64 @@
       color: $brand-color;
       // transform: rotate(-90deg);
     }
+    img {
+      float: right;
+      margin-right: 4rem;
+      width: 100px;
+      @include screen-tablet-max {
+        float: none;
+      }
+      @include screen-xs {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+      }
+    }
     .lgx-heading {
       min-height: 250px;
       position: relative;
-      color: rgba(black, 0.5);
       font-size: small;
       display: inline-block;
       h2 {
-        position: absolute;
+        position: absolute; 
         top: 90%;
         left: 0;
         margin-left: -30px;
         
         @include transform(rotate(270deg));
         @include transform-origin(0 0);
+        @include screen-xs {
+          top: 80%;
+          left: 20px;
+          letter-spacing: 4px;
+        }
       }
       p {
         color: white;
         text-align: justify;
-        margin-left: 4rem;
+        margin-left: 5rem;
+        @include font-size(20);
       }
     }
   }
 
+  #our-team {
+    .center-block {
+      width: 200px;
+      @include screen-tablet-max {
+        margin-bottom: 4rem;
+      }
+    }
+    img.teamalpha {
+      max-width: 200px;
+      @include screen-xs {
+        max-width: 150px;
+      }
+    }
+    .img-outline-offset-left {
+      &:before {
+        border-color: $brand-color;
+      }
+    }
+  }
 }
