@@ -185,9 +185,6 @@
     .col-sm-4 {
       padding: 0 5%;
     }
-    .lgx-btn {
-      margin-top: 2rem;
-    }
     .lgx-heading {
       margin-bottom: 3.3rem;
     }
@@ -230,6 +227,7 @@
     .abs-btn {
       a {
         margin-left: 20%;
+        margin-top: 3.5rem;
         width: 60%;
         @include font-size(14);
         top: 110%;
@@ -242,6 +240,9 @@
         @include screen-xs {
           position: relative;
         }
+      }
+      &.long-text a {
+        margin-top: 1.75rem;
       }
     }
   }
