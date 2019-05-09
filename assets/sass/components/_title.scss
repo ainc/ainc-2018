@@ -17,6 +17,14 @@
     color: $black-color;
     text-transform: uppercase;
   }
+  .heading-title-small {
+    font-family: $lgx-heading-font;
+    @include font-size(28);
+    font-weight: 900;
+    margin-top: 0;
+    color: $black-color;
+    text-transform: uppercase;
+  }
   .heading-subtitle {
     font-family: $lgx-base-font;
     @include font-size(17);

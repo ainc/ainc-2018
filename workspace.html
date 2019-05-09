@@ -43,17 +43,15 @@ page_id: workspace
           <div class="col-xs-6 col-md-4">
             <div class="lgx-video-area">
               <div class="video-thumbnail">
-                <a id="myModalLabel" class="icon" href="#" data-toggle="modal" data-target="#lgx-modal">
+                <a class="icon" href="#" data-toggle="modal" data-target="#see-space-video-modal" tab-index="-1">
                   <img class="opaque" src="/images/banners/awesome-inc-space-banner.jpg">
                   <i class="fa fa-play " aria-hidden="true"></i>
                 </a>
               </div>  
               <img src="/images/icons/arrow.png" id="video-arrow">
-              <a href="#">
-                <img src="/images/icons/schedule-a-tour-button.png" id="schedule-a-tour-button">
-              </a>
+              {% include modal-form.html initiative='tour' style='img-button' %}
               <!-- Video Modal-->
-              <div id="lgx-modal" class="modal fade lgx-modal">
+              <div id="see-space-video-modal" class="modal fade lgx-modal">
                 <div class="modal-dialog">
                   <div class="modal-content">
                     <div class="modal-header">
@@ -220,18 +218,6 @@ page_id: workspace
         </div><!--//.ROW-->
       </div><!-- //.CONTAINER -->
     </div><!-- //.INNER -->
-    <div class="lgx-inner">
-      <div class="container">
-        <div class="row">
-          <div class="lgx-heading-area dotted-svg link-svg">
-            <div class="lgx-heading">
-              <h4 class="heading-title" style="line-height: inherit;">
-                <span><a href="#" class="lgx-btn">Schedule a Tour</a></span>
-              </h4>
-            </div>
-          </div>
-        </div><!--//.ROW-->
-      </div><!-- //.CONTAINER -->
-    </div><!-- //.INNER -->
+    {% include modal-form.html style='dotted' initiative='tour' link-text='Shedule a Tour'%}
   </div> 
 </section>

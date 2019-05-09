@@ -13,6 +13,18 @@
   .lgx-inner {
     padding-top: 0;
   }
+  .lgx-about-content {
+    text-align: center;
+    margin-bottom: 3.9rem;
+    .subtitle {
+      @include font-size(15);
+      font-weight: 400;
+      color: $black-color;
+    }
+    .lgx-btn {
+      margin-top: 2.4rem;
+    }
+  }
 }
 
 #three-initiatives {
@@ -69,9 +81,16 @@
   .pinned-button {
     position: absolute;
     top: 2rem;
-    right: 0;
+    right: 4.5rem;
+    @include screen-xs {
+      right: 0;
+      top: 12rem;
+    }
     img {
       width: 100px;
+      @include screen-xs {
+        width: 70px;
+      }
     }
   }
 }
@@ -147,7 +166,7 @@
     margin-bottom: 6rem;
     padding-bottom: 3rem;
     @include screen-md {
-      background-size: 50%;
+      background-size: 45%;
     }
   }
 

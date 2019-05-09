@@ -5,7 +5,7 @@ layout: default
 {% assign permalink = page.breadcrumb | split: "/" %}
 {% assign permalink_length = permalink | size %}
 
-{% if page.banner %}
+{% if permalink_length > 2 %}
 <section>
   <div class="lgx-banner lgx-banner-inner">
     <div class="lgx-inner">
@@ -43,7 +43,7 @@ layout: default
   </div>
 </section>
 
-{% else if permalink_length > 2 %}
+{% else %}
 
 <section>
   <div class="lgx-inner subpage">
@@ -56,24 +56,6 @@ layout: default
               <p>{{ page.subtitle }}</p>
             </div>
           </div>
-          <ul class="breadcrumb">
-            <li><a href="/"><i class="icon-home6"></i>Home</a></li>
-            <!-- First, check if breadcrumb exists, if not, use permalink -->
-            <!-- generate array from permalink -->
-            {% if page.breadcrumb %}
-              {% assign links = page.breadcrumb | split: "/" %}
-            {% else %}
-              {% assign links = page.permalink | split: "/" %}
-            {% endif %}
-            {% for link in links %}
-            <!-- remove whitespace char and active element from array -->
-              {% if link != permalink.first and link != permalink.last %}
-                <!-- generate new route for breadcrumb link -->
-                <li><a href="{{ site.data.routes[link] }}"><i class="icon-home6"></i>{{ link }}</a></li> 
-              {% endif %}
-            {% endfor %}
-            <li class="active">{{ permalink.last }}</li>
-          </ul>
         </div>
       </div><!--//.ROW-->
     </div><!-- //.CONTAINER -->

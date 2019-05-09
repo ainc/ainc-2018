@@ -1,0 +1,59 @@
+
+<!-- Check what type of button -->
+{% if include.style == 'dotted' %}
+<div class="lgx-inner">
+  <div class="container">
+    <div class="row">
+      <div class="lgx-heading-area dotted-svg link-svg">
+        <div class="lgx-heading">
+          <h4 class="heading-title" style="line-height: inherit;">
+            <span>
+              <a class="lgx-btn" href="#" data-toggle="modal" data-target="#{{ include.initiative }}-modal">{{ include.link-text }}</a>
+            </span>
+          </h4>
+        </div>
+      </div>
+    </div><!--//.ROW-->
+  </div><!-- //.CONTAINER -->
+</div><!-- //.INNER -->
+{% elsif include.style == 'img-button' %}
+<a href="#" data-toggle="modal" data-target="#{{ include.initiative }}-modal">
+  <img src="/images/icons/schedule-a-tour-button-{{ include.img-color | default: 'white' }}.png" id="{{ include.initiative }}-button" alt="{{ include.initiative }} button"/>
+</a>
+{% else %}
+<a class="lgx-btn" href="#" data-toggle="modal" data-target="#{{ include.initiative }}-modal">{{ include.link-text }}</a>
+{% endif %}
+
+<div id="{{ include.initiative }}-modal" class="modal fade lgx-modal" tabindex="-1">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+      </div>
+      <div class="modal-body">
+        {% if include.initiative == 'fellowship' %}
+        <iframe src="https://docs.google.com/spreadsheet/viewform?formkey=dGViS0pDM2VUZlFub1BuLUJkc1RjcFE6MA"></iframe>
+        <p>On a mobile device? <a href="https://docs.google.com/spreadsheet/viewform?formkey=dGViS0pDM2VUZlFub1BuLUJkc1RjcFE6MA" target="_blank">Click here for form</a></p> 
+        {% elsif include.initiative == 'tour' %}
+        <div class="lgx-heading lgx-heading-white">
+          <h3 class="heading-title">Schedule a Tour Form</h3>
+        </div>
+        <div class="form-group">
+          <form method="POST"  action="https://formspree.io/maggie.collofello@gmail.com">
+            <input type="hidden" name="_cc" value="ek.andrews11@gmail.com">
+            <input class="form-control" type="email" id="CustInfo" name="_replyto" placeholder="Your email" /><br>
+            <input class="form-control" type="text" id="CustInfo" name="name" placeholder="Your name"><br>
+            <textarea class="form-control" name="message" id="CustInfo" rows="5" placeholder="Your message"></textarea><br>
+            <input type="text" name="_gotcha" style="display:none">
+            <input type="hidden" name="_next" value="https://awesomeinc.org"/>
+            <h3>
+              <button type="submit" class ="btn btn-danger btn-large" id ="hide">Send</button>
+            </h3>
+          </form>
+        </div>
+        {% endif %}
+      </div><!-- modal body -->
+    </div><!-- modal content -->
+  </div><!-- modal dialog -->
+</div> <!-- //.Modal-->
+

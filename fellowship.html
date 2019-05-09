@@ -61,19 +61,7 @@ page_id: fellowship
         </div><!--//.ROW-->
       </div><!-- //.CONTAINER -->
     </div><!-- //.INNER -->
-    <div class="lgx-inner">
-      <div class="container">
-        <div class="row">
-          <div class="lgx-heading-area dotted-svg link-svg">
-            <div class="lgx-heading">
-              <h4 class="heading-title" style="line-height: inherit;">
-                <span><a href="#" class="lgx-btn">Apply Now</a></span>
-              </h4>
-            </div>
-          </div>
-        </div><!--//.ROW-->
-      </div><!-- //.CONTAINER -->
-    </div><!-- //.INNER -->
+    {% include modal-form.html style='dotted' initiative='fellowship' link-text='Apply Now'%}
   </div>
 </section>
 
@@ -97,7 +85,7 @@ page_id: fellowship
               </div>  
               <img src="/images/icons/arrow-red.png" id="video-arrow">
               <!-- Video Modal-->
-              <div id="lgx-modal" class="modal fade lgx-modal">
+              <div id="lgx-modal" class="modal fade lgx-modal" tabindex="-1">
                 <div class="modal-dialog">
                   <div class="modal-content">
                     <div class="modal-header">
@@ -166,17 +154,5 @@ page_id: fellowship
       </div><!--//.ROW-->
     </div><!-- //.CONTAINER -->
   </div><!-- //.INNER -->
-  <div class="lgx-inner">
-    <div class="container">
-      <div class="row">
-        <div class="lgx-heading-area dotted-svg link-svg">
-          <div class="lgx-heading">
-            <h4 class="heading-title" style="line-height: inherit;">
-              <span><a href="#" class="lgx-btn">Apply Now</a></span>
-            </h4>
-          </div>
-        </div>
-      </div><!--//.ROW-->
-    </div><!-- //.CONTAINER -->
-  </div><!-- //.INNER -->
+  {% include modal-form.html style='dotted' initiative='fellowship' link-text='Apply Now'%}
 </section>

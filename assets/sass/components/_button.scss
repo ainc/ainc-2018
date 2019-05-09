@@ -42,6 +42,7 @@
         display: block;
       }
     }
+    
   }
   
   &.lgx-btn-grey {
@@ -57,7 +58,9 @@
   }
 }
 
-
+a:focus {
+  color: white;
+}
 
 .lgx-btn-border {
   background: transparent;

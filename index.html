@@ -344,22 +344,8 @@ page_id: home
           </div>
         </div>
         <!--//.ROW-->
-        <!-- <div class="lgx-tab">
-          <div class="row">
-            <div class="col-xs-12">
-              <div class="lgx-filter-area">
-                <ul id="lgx-filter" class="lgx-filter list-inline text-center">
-                  <li class="active"><a class="lgx-filter-item" href="javascript:void(0)" data-filter="*">All</a></li>
-                  <li><a class="lgx-filter-item" href="javascript:void(0)" data-filter=".design">Design</a></li>
-                  <li><a class="lgx-filter-item" href="javascript:void(0)" data-filter=".html">Python</a></li>
-                  <li><a class="lgx-filter-item" href="javascript:void(0)" data-filter=".wordpress">Wordpres</a></li>
-                  <li><a class="lgx-filter-item" href="javascript:void(0)" data-filter=".joomla">Joomla</a></li>
-                </ul>
-              </div>
-            </div>
-          </div> --><!--//. ROW-->
 
-          <div class="row">
+          <div class="row row-eq-height">
             <div id="lgx-grid-wrapper" class="lgx-grid-wrapper"> <!--lgx-list-wrapper-->
 
               <!-- BEGIN COURSE -->
@@ -543,7 +529,7 @@ page_id: home
             </div>
           </div> <!-- row -->
           <div class="pinned-button">
-            <a href="{{ site.data.routes.tour }}"><img src="/images/icons/schedule-a-tour-button.png" alt="schedule a tour button"></a>
+            {% include modal-form.html initiative='tour' style='img-button' img-color='red' %}
           </div>
           <div id="desk-bg" class="row">
             <div class="col-sm-6" style="position: relative">
