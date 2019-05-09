@@ -84,4 +84,9 @@ Documentation: https://www.sitepoint.com/hacking-routing-component-jekyll/
 Library to animate elements based on scrolling. It is very lightweight and more documentation can be found here:
 https://github.com/michalsnik/aos
 
+#### Useful Resources
+
+Developer Hints for Jekyll
+https://devhints.io/jekyll
+
 

@@ -240,6 +240,8 @@ page_id: home
 
 
 <!--EVENTS-->
+{% assign events = site.data.events | sort:'date' %}
+{% assign feature_events = events | where:'feature','true' %}
 <section>
   <div id="lgx-events" class="lgx-events">
     <div class="lgx-inner">
@@ -260,19 +262,21 @@ page_id: home
                 <div class="col-md-6">
                   <div class="lgx-featured-event">
                     <figure>
-                      <a href="#"><img src="http://via.placeholder.com/1000x874" alt="featured event"></a>
+                      <a href="{{ feature_events.first.eventbrite_url }}">
+                        <img src="{{ feature_events.first.image_url }}" alt="featured event">
+                      </a>
                       <figcaption>
                         <div class="figcaption">
                         </div>
                         <div class="event-info">
                           <div class="date">
-                            <h4>12<span>jan</span></h4>
+                            <h4>{{ feature_events.first.date | date: '%-d'}}<span>{{ feature_events.first.date | date: '%b' }}</span></h4>
                           </div>
                           <div class="info-right">
-                            <p>6:30 AM - 5:00 PM</p>
-                            <h4 class="location"> Swick Hill Street, Charlotte, UK</h4>
+                            <p>{{ feature_events.first.date | date: '%I:%M %P' }}</p>
+                            <h4 class="location">{{ feature_events.first.location }}</h4>
                             <h3 class="title">
-                              <a href="event-single.html">The 10 best educational websites</a>
+                              <a href="{{ site.data.routes.events }}">{{ feature_events.first.title }}</a>
                             </h3>
                           </div>
                         </div>
@@ -280,42 +284,20 @@ page_id: home
                     </figure>
                   </div>
                 </div>
+                {% for event in events limit:3 %}
                 <div class="col-md-6">
                   <div class="lgx-single-event">
                     <div class="thumb">
-                      <a href="event-single.html"><img src="http://via.placeholder.com/600x600" alt="event"></a>
+                      <a href="{{ site.data.routes.events }}"><img src="{{ event.image_url }}" alt="event"></a>
                     </div>
                     <div class="event-info">
-                      <a class="date" href="">June 14, 2017</a>
-                      <h4 class="location"> Swick Hill Street, Charlotte, UK</h4>
-                      <h3 class="title"><a href="event-single.html">I no longer understand my PhD dissertation on Education</a></h3>
+                      <a class="date" href="{{ site.data.routes.events }}">{{ event.date | date: '%B %-d, %Y' }}</a>
+                      <h4 class="location">{{ event.location }}</h4>
+                      <h3 class="title"><a href="{{ site.data.routes.events }}">{{ event.title }}</a></h3>
                     </div>
                   </div>
                 </div>
-                <div class="col-md-6">
-                  <div class="lgx-single-event">
-                    <div class="thumb">
-                      <a href="event-single.html"><img src="http://via.placeholder.com/600x600" alt="event"></a>
-                    </div>
-                    <div class="event-info">
-                      <a class="date" href="">December 24, 2016</a>
-                      <h4 class="location"> Swick Hill Street, Charlotte, UK</h4>
-                      <h3 class="title"><a href="event-single.html">The digital revolution in higher education has already happened</a></h3>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-6">
-                  <div class="lgx-single-event">
-                    <div class="thumb">
-                      <a href="event-single.html"><img src="http://via.placeholder.com/600x600" alt="event"></a>
-                    </div>
-                    <div class="event-info">
-                      <a class="date" href="">March 30, 2015</a>
-                      <h4 class="location"> Swick Hill Street, Charlotte, UK</h4>
-                      <h3 class="title"><a href="event-single.html">UX Education: Designing free Online Learning Curriculum</a></h3>
-                    </div>
-                  </div>
-                </div>
+                {% endfor %}
               </div>
             </div>
           </div>
