@@ -242,6 +242,12 @@ page_id: home
 <!--EVENTS-->
 {% assign events = site.data.events | sort:'date' %}
 {% assign feature_events = events | where:'feature','true' %}
+{% for event in events reversed %}
+  {% if event.feature == true %}
+    {% assign feature_event = event %}
+    {% assign rem_index = forloop.index | minus: events.size | plus: 1 %}
+  {% endif %}
+{% endfor %}
 <section>
   <div id="lgx-events" class="lgx-events">
     <div class="lgx-inner">
@@ -262,21 +268,21 @@ page_id: home
                 <div class="col-md-6">
                   <div class="lgx-featured-event">
                     <figure>
-                      <a href="{{ feature_events.first.eventbrite_url }}">
-                        <img src="{{ feature_events.first.image_url }}" alt="featured event">
+                      <a href="{{ feature_event.eventbrite_url }}">
+                        <img src="{{ feature_event.image_url }}" alt="featured event">
                       </a>
                       <figcaption>
                         <div class="figcaption">
                         </div>
                         <div class="event-info">
                           <div class="date">
-                            <h4>{{ feature_events.first.date | date: '%-d'}}<span>{{ feature_events.first.date | date: '%b' }}</span></h4>
+                            <h4>{{ feature_event.date | date: '%-d'}}<span>{{ feature_event.date | date: '%b' }}</span></h4>
                           </div>
                           <div class="info-right">
-                            <p>{{ feature_events.first.date | date: '%I:%M %P' }}</p>
-                            <h4 class="location">{{ feature_events.first.location }}</h4>
+                            <p>{{ feature_event.date | date: '%I:%M %P' }}</p>
+                            <h4 class="location">{{ feature_event.location }}</h4>
                             <h3 class="title">
-                              <a href="{{ site.data.routes.events }}">{{ feature_events.first.title }}</a>
+                              <a href="{{ site.data.routes.events }}">{{ feature_event.title }}</a>
                             </h3>
                           </div>
                         </div>
@@ -284,19 +290,28 @@ page_id: home
                     </figure>
                   </div>
                 </div>
-                {% for event in events limit:3 %}
-                <div class="col-md-6">
-                  <div class="lgx-single-event">
-                    <div class="thumb">
-                      <a href="{{ site.data.routes.events }}"><img src="{{ event.image_url }}" alt="event"></a>
+                {% assign counter = 0 %}
+                {% for event in events %}
+                  {% if forloop.index == rem_index %}
+                    {% continue %}
+                  {% else %}
+                    <div class="col-md-6">
+                      <div class="lgx-single-event">
+                        <div class="thumb">
+                          <a href="{{ site.data.routes.events }}"><img src="{{ event.image_url }}" alt="event"></a>
+                        </div>
+                        <div class="event-info">
+                          <a class="date" href="{{ site.data.routes.events }}">{{ event.date | date: '%B %-d, %Y' }}</a>
+                          <h4 class="location">{{ event.location }}</h4>
+                          <h3 class="title"><a href="{{ site.data.routes.events }}">{{ event.title }}</a></h3>
+                        </div>
+                      </div>
                     </div>
-                    <div class="event-info">
-                      <a class="date" href="{{ site.data.routes.events }}">{{ event.date | date: '%B %-d, %Y' }}</a>
-                      <h4 class="location">{{ event.location }}</h4>
-                      <h3 class="title"><a href="{{ site.data.routes.events }}">{{ event.title }}</a></h3>
-                    </div>
-                  </div>
-                </div>
+                    {% assign counter = counter | plus: 1 %}
+                  {% endif %}
+                  {% if counter == 3 %}
+                    {% break %}
+                  {% endif %}
                 {% endfor %}
               </div>
             </div>
