@@ -240,8 +240,7 @@ page_id: home
 
 
 <!--EVENTS-->
-{% assign events = site.data.events | sort:'date' %}
-{% assign feature_events = events | where:'feature','true' %}
+{% assign events = site.data.events.current | sort:'date' %}
 {% for event in events reversed %}
   {% if event.feature == true %}
     {% assign feature_event = event %}

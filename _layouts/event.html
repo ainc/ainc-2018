@@ -9,14 +9,22 @@ layout: default
         <div class="col-xs-12">
           <div class="lgx-heading-area">
             <div class="lgx-heading lgx-heading">
-              <h2 class="heading-title">Event - {{ event.title }}</h2>
+              <h2 class="heading-title">{{ page.title }}</h2>
             </div>
           </div>
         </div>
       </div><!--//.ROW-->
+      <div class="row">
+        <div class="col-xs-12">
+          <p>{{ page.description }}</p>
+        </div>
+      </div>
     </div><!-- //.CONTAINER -->
   </div><!-- //.INNER -->
 </section>
+
+
+
 
 {{ content }}
 

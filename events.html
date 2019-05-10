@@ -1,7 +1,45 @@
 ---
 title: Events
-layout: sub
+layout: default
+page_id: events
 permalink: "/events"
 redirect_from:
 - "/event"
 ---
+
+<section id="upcoming-events">
+  <div id="lgx-events" class="lgx-events">
+    <div class="lgx-inner">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12">
+            <div class="lgx-heading">
+              <h2 class="heading-title">Upcoming Events</h2>
+              <h4 class="heading-subtitle">Join us and be a part of the startup community!</h4>
+            </div>
+          </div>
+        </div> <!-- row -->
+        <div class="row">
+          {% for event in site.data.events.current %}
+          <div class="col-xs-12 col-sm-6">
+            <div class="lgx-events-area">
+                
+              <div class="lgx-single-event">
+                <div class="thumb">
+                  <a href="{{ event.eventbrite_id | default: '#' }}"><img src="{{ event.image_url }}" alt="{{ event.title }}"></a>
+                </div>
+                <div class="event-info">
+                  <a class="date" href="{{ event.eventbrite_id | default: '#' }}">{{ event.date | date: '%B %-d, %Y' }}</a>
+                  <h4 class="location">{{ event.location }}</h4>
+                  <h3 class="title"><a href="{{ event.eventbrite_id | default: '#' }}">{{ event.title }}</a></h3>
+                </div>
+              </div>
+            </div>
+          </div>
+          {% endfor %}
+        </div><!--//.ROW-->
+      </div><!-- //.CONTAINER -->
+    </div><!-- //.INNER -->
+  </div>
+</section>
+<!--EVENTS END-->

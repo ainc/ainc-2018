@@ -60,3 +60,8 @@ collections:
   mentors:
     title: Mentors
     output: true
+  events:
+    title: Events
+    output: true
+    permalink: /events/:title
+

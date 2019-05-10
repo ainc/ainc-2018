@@ -27,6 +27,32 @@
   }
 }
 
+#lgx-events {
+  .lgx-featured-event {
+    img {
+      object-fit: cover;
+      @include screen-laptop-min {
+        height: 450px;
+      }
+      @include screen-tablet-max {
+        
+      }
+    }
+  }
+  .lgx-single-event {
+    .title {
+      @include screen-lg {
+        @include font-size(19);
+      }
+    }
+    img {
+      object-fit: cover;
+      height: 118px;
+      width: 118px;
+    }
+  }
+}
+
 #three-initiatives {
   svg.shape {
     fill: $brand-grey;
