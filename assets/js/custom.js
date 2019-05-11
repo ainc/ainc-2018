@@ -155,9 +155,11 @@ $(document).ready(function () {
   var target = document.location.hash;
   if (target.length) {
     if(target=="#rent"){
-      $('#tour-modal').modal('show');
+      $('#member-form-modal').modal('show');
     } else if (target=="#fellowship-apply") {
       $('#fellowship-modal').modal('show');
+    } else if (target=="#tour") {
+      $('#tour-modal').modal('show');
     }
   }
 

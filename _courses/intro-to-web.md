@@ -2,7 +2,7 @@
 title: Intro To Web Development
 layout: course
 permalink: "/intro-to-web-development/"
-breadcrumb: "/learn/adult/intro-to-web-development"
+breadcrumb: "/learn/adults/intro-to-web-development"
 breadcrumb_bool: true
 description: Your First Step in Learning To Code
 cover: "/img/intro-to-web-development-awesome-inc.jpg"

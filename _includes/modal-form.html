@@ -1,7 +1,6 @@
 
 <!-- Check what type of button -->
 {% if include.style == 'dotted' %}
-<div class="lgx-inner">
   <div class="container">
     <div class="row">
       <div class="lgx-heading-area dotted-svg link-svg">
@@ -15,11 +14,12 @@
       </div>
     </div><!--//.ROW-->
   </div><!-- //.CONTAINER -->
-</div><!-- //.INNER -->
 {% elsif include.style == 'img-button' %}
 <a href="#{{ include.initiative }}" data-toggle="modal" data-target="#{{ include.initiative }}-modal">
   <img src="/images/icons/schedule-a-tour-button-{{ include.img-color | default: 'white' }}.png" id="{{ include.initiative }}-button" alt="{{ include.initiative }} button"/>
 </a>
+{% elsif include.style == 'no-button' %}
+<!-- Show nothing -->
 {% else %}
 <a class="lgx-btn" href="#{{ include.initiative }}" data-toggle="modal" data-target="#{{ include.initiative }}-modal">{{ include.link-text }}</a>
 {% endif %}
@@ -34,6 +34,12 @@
         {% if include.initiative == 'fellowship' %}
         <iframe src="https://docs.google.com/spreadsheet/viewform?formkey=dGViS0pDM2VUZlFub1BuLUJkc1RjcFE6MA"></iframe>
         <p>On a mobile device? <a href="https://docs.google.com/spreadsheet/viewform?formkey=dGViS0pDM2VUZlFub1BuLUJkc1RjcFE6MA" target="_blank">Click here for form</a></p> 
+        {% elsif include.initiative == 'team-alpha' %}
+        <iframe src="https://docs.google.com/spreadsheet/viewform?formkey=dDNLRTI0MmcyYWtDSDZNNGZOVERfNUE6MQ"></iframe>
+        <p>On a mobile device? <a href="https://docs.google.com/spreadsheet/viewform?formkey=dDNLRTI0MmcyYWtDSDZNNGZOVERfNUE6MQ" target="_blank">Click here for form</a></p> 
+        {% elsif include.initiative == 'member-form' %}
+        <iframe src="https://docs.google.com/spreadsheet/viewform?formkey=dGh0eWtpRkczSEZ0aXBhazV6S0JwV3c6MQ"></iframe>
+        <p>On a mobile device? <a href="https://docs.google.com/spreadsheet/viewform?formkey=dGh0eWtpRkczSEZ0aXBhazV6S0JwV3c6MQ" target="_blank">Click here for form</a></p> 
         {% elsif include.initiative == 'tour' %}
         <div class="lgx-heading lgx-heading-white">
           <h3 class="heading-title">Schedule a Tour Form</h3>

@@ -38,7 +38,7 @@ page_id: internships
       <div class="container">
         <div class="row">
           <div class="col-xs-12">
-            <a class="lgx-btn" href="#">Apply Now</a> 
+            {% include modal-form.html initiative='team-alpha' link-text='Apply Now' %}
           </div>
         </div>
         <div class="row">
@@ -54,7 +54,7 @@ page_id: internships
               Team Alpha is a group of about 20 talented interns that learn, work, and have fun with each other to help make Awesome Inc, and our community, a better place to live and work. There are no age or time restrictions, we just require that you follow our <a href="/#core-values">core values</a>.
             </p>
             <p>
-              Team Alpha's leader, Emily, is way more fun than any other boss you'll have. Our Video Team gets to hang out with millionaires, like the Dippin' Dots inventor. Our Development Team gets to work on sweet mobile apps and learn to code websites, such as <a href="https://www.entrepreneurhof.com/">EntrepreneurHOF.com</a>. The Events & Marketing Team help plan our fun ways to connect in the community, while pushing out creative marketing strategies. And the Graphic Design Team gets to create everything that all of our teams and initiatives use like flyers, social media images, and more!
+              Team Alpha's leader, Emily, is way more fun than any other boss you'll ever have. Our Video Team gets to hang out with millionaires, like the Dippin' Dots inventor. Our Development Team gets to work on sweet mobile apps and code websites, such as EntrepreneurHOF.com. The Events & Marketing Team help plan fun ways to build community, while pushing out creative marketing strategies. And the Graphic Design Team gets to create everything that all of our teams and initiatives use like flyers, social media images, and more!
             </p>
           </div>
         </div>
@@ -81,7 +81,7 @@ page_id: internships
             <div class="img-banner">
               <div class="img-outline-offset-left">
                 <img src="/images/intern-video.jpg" alt="Video Internship"/>
-                <a class="lgx-btn lgx-btn-grey" href="#">Video</a>
+                <a class="lgx-btn lgx-btn-grey" href="#" data-toggle="modal" data-target="#team-alpha-modal">Video</a>
               </div>
             </div>
           </div>
@@ -89,7 +89,7 @@ page_id: internships
             <div class="img-banner">
               <div class="img-outline-offset-left">
                 <img src="/images/intern-develpment.jpg" alt="Development Internship"/>
-                <a class="lgx-btn lgx-btn-grey" href="#">Development</a>
+                <a class="lgx-btn lgx-btn-grey" href="#" data-toggle="modal" data-target="#team-alpha-modal">Development</a>
               </div>
             </div>
           </div>
@@ -99,7 +99,7 @@ page_id: internships
             <div class="img-banner">
               <div class="img-outline-offset-left">
                 <img src="/images/intern-events-marketing.jpg" alt="Events and Marketing Internship"/>
-                <a class="lgx-btn lgx-btn-grey" href="#">Events + Marketing</a>
+                <a class="lgx-btn lgx-btn-grey" href="#" data-toggle="modal" data-target="#team-alpha-modal">Events + Marketing</a>
               </div>
             </div>
           </div>
@@ -107,26 +107,14 @@ page_id: internships
             <div class="img-banner">
               <div class="img-outline-offset-left">
                 <img src="/images/intern-design.jpg" alt="Design Internship"/>
-                <a class="lgx-btn lgx-btn-grey" href="#">Design</a>
+                <a class="lgx-btn lgx-btn-grey" href="#" data-toggle="modal" data-target="#team-alpha-modal">Design</a>
               </div>
             </div>
           </div>
         </div><!--//.ROW-->
       </div><!-- //.CONTAINER -->
     </div><!-- //.INNER -->
-    <div class="lgx-inner">
-      <div class="container">
-        <div class="row">
-          <div class="lgx-heading-area dotted-svg link-svg">
-            <div class="lgx-heading">
-              <h4 class="heading-title" style="line-height: inherit;">
-                <span><a href="#" class="lgx-btn">Apply Now</a></span>
-              </h4>
-            </div>
-          </div>
-        </div><!--//.ROW-->
-      </div><!-- //.CONTAINER -->
-    </div><!-- //.INNER -->
+    {% include modal-form.html initiative='team-alpha' link-text='Apply Now' style='dotted' %}
   </div>
 </section>
 
@@ -182,7 +170,7 @@ page_id: internships
           </div>
         </div><!--//.ROW-->
         <div class="row text-center">
-          <a href="#" class="lgx-btn">Apply Now</a>
+          {% include modal-form.html initiative='team-alpha' link-text='Apply Now' %}
         </div>
       </div><!-- //.CONTAINER -->
     </div><!-- //.INNER -->

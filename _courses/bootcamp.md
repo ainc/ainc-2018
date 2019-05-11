@@ -2,7 +2,7 @@
 title: Web Developer Bootcamp
 layout: course
 permalink: "/bootcamp/"
-breadcrumb: "/learn/adult/bootcamp"
+breadcrumb: "/learn/adults/bootcamp"
 description: Become A Professional Web Developer
 application: "/applications/bootcamp/"
 ---

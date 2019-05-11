@@ -100,7 +100,7 @@ page_id: workspace
             <h3>Virtual Member</h3>
             <h6>Main Street Mailing Address</h6>
             <h6>4 Hours Prof. Conf. Room per Month</h6>
-            <div class="abs-btn"><a class="lgx-btn" href="#">$75/Month</a></div>
+            <div class="abs-btn"><a class="lgx-btn" href="#" data-toggle="modal" data-target="#member-form-modal">$75/Month</a></div>
           </div>
           <div class="col-sm-4">
             <div class="member-feature-img">
@@ -109,7 +109,7 @@ page_id: workspace
             <h3>Open Desk Member</h3>
             <h6>24/7 Access to Our Space</h6>
             <h6>10 Hours Prof. Conf. Room per Month</h6>
-            <div class="abs-btn"><a class="lgx-btn" href="#">$250/Month</a></div>
+            <div class="abs-btn"><a class="lgx-btn" href="#" data-toggle="modal" data-target="#member-form-modal">$250/Month</a></div>
           </div>
           <div class="col-sm-4">
             <div class="member-feature-img">
@@ -118,11 +118,12 @@ page_id: workspace
             <h3>Private Office</h3>
             <h6>Space to suit your team</h6>
             <h6>Up To 20 Conference Room Hours Per Month</h6>
-            <div class="abs-btn long-text"><a class="lgx-btn" href="#">$400/Month</a></div>
+            <div class="abs-btn long-text"><a class="lgx-btn" href="#" data-toggle="modal" data-target="#member-form-modal">$400/Month</a></div>
           </div>
         </div><!--//.ROW-->
       </div><!-- //.CONTAINER -->
     </div><!-- //.INNER -->
+    {% include modal-form.html initiative='member-form' style='no-button' %}
   </div> 
 </section>
 

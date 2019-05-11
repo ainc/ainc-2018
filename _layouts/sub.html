@@ -9,36 +9,36 @@ layout: default
 <section>
   <div class="lgx-banner lgx-banner-inner">
     <div class="lgx-inner">
-        <div class="container">
-            <div class="row">
-                <div class="col-xs-12">
-                    <div class="lgx-heading-area">
-                        <div class="lgx-heading lgx-heading-white">
-                            <h2 class="heading-page">{{ page.title }}</h2>
-                        </div>
-                        <!-- automatically generate breadcrumbs for pages regrardless of depth -->
-                        <ul class="breadcrumb">
-                          <li><a href="/"><i class="icon-home6"></i>Home</a></li>
-                          <!-- First, check if breadcrumb exists, if not, use permalink -->
-                          <!-- generate array from permalink -->
-                          {% if page.breadcrumb %}
-                            {% assign permalink = page.breadcrumb | split: "/" %}
-                          {% else %}
-                            {% assign permalink = page.permalink | split: "/" %}
-                          {% endif %}
-                          {% for link in permalink %}
-                          <!-- remove whitespace char and active element from array -->
-                            {% if link != permalink.first and link != permalink.last %}
-                              <!-- generate new route for breadcrumb link -->
-                              <li><a href="{{ site.data.routes[link] }}"><i class="icon-home6"></i>{{ link }}</a></li> 
-                            {% endif %}
-                          {% endfor %}
-                          <li class="active">{{ permalink.last }}</li>
-                        </ul>
-                    </div>
-                </div>
-            </div><!--//.ROW-->
-        </div><!-- //.CONTAINER -->
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12">
+            <div class="lgx-heading-area">
+              <div class="lgx-heading lgx-heading-white">
+                  <h2 class="heading-page">{{ page.title }}</h2>
+              </div>
+              <!-- automatically generate breadcrumbs for pages regrardless of depth -->
+              <ul class="breadcrumb">
+                <li><a href="/"><i class="icon-home6"></i>Home</a></li>
+                <!-- First, check if breadcrumb exists, if not, use permalink -->
+                <!-- generate array from permalink -->
+                {% if page.breadcrumb %}
+                  {% assign permalink = page.breadcrumb | split: "/" %}
+                {% else %}
+                  {% assign permalink = page.permalink | split: "/" %}
+                {% endif %}
+                {% for link in permalink %}
+                <!-- remove whitespace char and active element from array -->
+                  {% if link != permalink.first and link != permalink.last %}
+                    <!-- generate new route for breadcrumb link -->
+                    <li><a href="{{ site.data.routes[link] }}"><i class="icon-home6"></i>{{ link }}</a></li> 
+                  {% endif %}
+                {% endfor %}
+                <li class="active">{{ permalink.last }}</li>
+              </ul>
+            </div>
+          </div>
+        </div><!--//.ROW-->
+      </div><!-- //.CONTAINER -->
     </div><!-- //.INNER -->
   </div>
 </section>
