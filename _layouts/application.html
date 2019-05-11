@@ -2,24 +2,89 @@
 layout: default
 ---
 
+{% assign permalink = page.breadcrumb | split: "/" %}
+{% assign permalink_length = permalink | size %}
+
+{% if page.banner %}
 <section>
-  <div class="lgx-inner">
+  <div class="lgx-banner lgx-banner-inner">
+    <div class="lgx-inner">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12">
+            <div class="lgx-heading-area">
+              <div class="lgx-heading lgx-heading-white">
+                <h2 class="heading-page">{{ page.title }}</h2>
+              </div>
+              <!-- automatically generate breadcrumbs for pages regrardless of depth -->
+              <ul class="breadcrumb">
+                <li><a href="/"><i class="icon-home6"></i>Home</a></li>
+                <!-- First, check if breadcrumb exists, if not, use permalink -->
+                <!-- generate array from permalink -->
+                {% if page.breadcrumb %}
+                  {% assign permalink = page.breadcrumb | split: "/" %}
+                {% else %}
+                  {% assign permalink = page.permalink | split: "/" %}
+                {% endif %}
+                {% for link in permalink %}
+                <!-- remove whitespace char and active element from array -->
+                  {% if link != permalink.first and link != permalink.last %}
+                    <!-- generate new route for breadcrumb link -->
+                    <li><a href="{{ site.data.routes[link] }}"><i class="icon-home6"></i>{{ link }}</a></li> 
+                  {% endif %}
+                {% endfor %}
+                <li class="active">{{ permalink.last }}</li>
+              </ul>
+            </div>
+          </div>
+        </div><!--//.ROW-->
+      </div><!-- //.CONTAINER -->
+    </div><!-- //.INNER -->
+  </div>
+</section>
+
+{% else if permalink_length > 2 %}
+
+<section>
+  <div class="lgx-inner subpage">
     <div class="container">
       <div class="row">
         <div class="col-xs-12">
           <div class="lgx-heading-area">
             <div class="lgx-heading lgx-heading">
-              <h2 class="heading-title">Application - {{ page.title }}</h2>
-              {% if page.subtitle %}
-                <h4 class="heading-subtitle">{{ page.subtitle }}</h4>
-              {% endif %}
+              <h2 class="heading-title">{% if page.alt_title %}{{ page.alt_title }}{% else %}{{ page.title }}{% endif %}</h2>
+              <p>{{ page.subtitle }}</p>
             </div>
           </div>
+          <ul class="breadcrumb">
+            <li><a href="/"><i class="icon-home6"></i>Home</a></li>
+            <!-- First, check if breadcrumb exists, if not, use permalink -->
+            <!-- generate array from permalink -->
+            {% if page.breadcrumb %}
+              {% assign links = page.breadcrumb | split: "/" %}
+            {% else %}
+              {% assign links = page.permalink | split: "/" %}
+            {% endif %}
+            {% for link in links %}
+            <!-- remove whitespace char and active element from array -->
+              {% if link != permalink.first and link != permalink.last %}
+                <!-- generate new route for breadcrumb link -->
+                <li><a href="{{ site.data.routes[link] }}"><i class="icon-home6"></i>{{ link }}</a></li> 
+              {% endif %}
+            {% endfor %}
+            <li class="active">{{ permalink.last }}</li>
+          </ul>
         </div>
       </div><!--//.ROW-->
     </div><!-- //.CONTAINER -->
   </div><!-- //.INNER -->
 </section>
 
-{{ content }}
+{% endif %}
+
+<div class="lgx-inner application">
+  <div class="container">
+    {{ content }}
+  </div>
+</div>
 

@@ -41,6 +41,10 @@ collections:
     title: Applications
     output: true
     permalink: /:name/apply
+  notes:
+    title: Notes
+    output: true
+    permalink: /:name/notes
   courses:
     title: Courses
     output: true

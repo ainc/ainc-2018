@@ -1,10 +1,11 @@
 ---
 title: Web Developer Bootcamp
 layout: course
-permalink: "/bootcamp/"
+permalink: "/bootcamp"
 breadcrumb: "/learn/adults/bootcamp"
 description: Become A Professional Web Developer
 application: "/applications/bootcamp/"
+cta: Apply Now
 ---
 
 {% include aincu-special-announcement.html %}
