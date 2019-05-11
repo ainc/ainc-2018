@@ -147,3 +147,18 @@ $(document).ready(function() {
   }
   fade($('.quoteLoop > .quote').first());
 });
+
+/***********************
+ Function to allow for a link to open a modal
+**************************/
+$(document).ready(function () {
+  var target = document.location.hash;
+  if (target.length) {
+    if(target=="#rent"){
+      $('#tour-modal').modal('show');
+    } else if (target=="#fellowship-apply") {
+      $('#fellowship-modal').modal('show');
+    }
+  }
+
+});
