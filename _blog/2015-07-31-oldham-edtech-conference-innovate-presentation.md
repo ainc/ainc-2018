@@ -1,6 +1,9 @@
 ---
 title: Oldham County EdTech Conference Presentation
 date: 2015-07-31 00:00:00 Z
+header_img: "/images/blog/oldham-coding-presentation.png"
+author_img: "/images/teamalpha/nicksuch_wall.png"
+author: Nick Such
 tags:
 - learntocode
 - k-12
@@ -10,7 +13,7 @@ description: Nick Such presented to a group of K-12 educators at the Oldham Coun
   Public Schools Innovate Integrate Motivate conference
 ---
 
-![Slides from Coding Demystified presentation](/img/blog/oldham-coding-presentation.png)
+![Slides from Coding Demystified presentation](/images/blog/oldham-coding-presentation.png)
 
 by [Nick Such](https://plus.google.com/+NickSuch/)
 

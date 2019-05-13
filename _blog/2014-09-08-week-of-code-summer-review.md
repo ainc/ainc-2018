@@ -1,6 +1,7 @@
 ---
 title: Teaching Kids to Code - in 1 Week
 date: 2014-09-08 00:00:00 Z
+author: Ben Jacoby
 tags:
 - learntocode
 - summer camp
@@ -9,8 +10,6 @@ layout: post
 description: Awesome Inc hosted three Week of Code summer camps this year, teaching
   45 kids the basics of programming
 ---
-
-by [Ben Jacoby](https://plus.google.com/103491752687353303272/)
 
 If you‘re looking for the most promising programming talent in Lexington, Awesome Inc has you covered.  There’s only one catch: some of them haven’t gotten to middle school yet.
 

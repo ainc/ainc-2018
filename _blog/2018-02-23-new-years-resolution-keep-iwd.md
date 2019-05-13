@@ -1,6 +1,9 @@
 ---
 title: A New Year's Resolution You Can Keep
 date: 2018-02-23 00:00:00 Z
+header_img: "/images/blog/new-years-keep-intro.jpg"
+author_img: "/images/teamalpha/aayatali_wall.png"
+author: Aayat Ali
 tags:
 - learntocode
 - intro
@@ -10,9 +13,7 @@ description: New Intro to Web Development course at Awesome Inc is off to a grea
   start
 ---
 
-![Awesome Inc Intro to Web Development](/img/blog/new-years-keep-intro.jpg "Gary Ditsch & Thomas Cothran leading students in Intro to Web Development class")
-
-By [Aayat Ali](https://www.linkedin.com/in/aayat-ali-088a7112b/)
+![Awesome Inc Intro to Web Development](/images/blog/new-years-keep-intro.jpg "Gary Ditsch & Thomas Cothran leading students in Intro to Web Development class")
 
 It's that time of year where New Year's resolutions have come and gone. Whether it was going to the gym four times a week, or learning a new skill, keeping up with resolutions can be difficult. But the tide is turning, and it's time to follow through. You can do that with Awesome Inc's brand new [Intro to Web Development](https://www.awesomeincu.com/intro-to-web-development/) course.
 

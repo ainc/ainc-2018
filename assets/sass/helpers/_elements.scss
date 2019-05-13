@@ -656,6 +656,19 @@ div.dotted-svg > svg {
   color: $brand-color;
 }
 
+/* ----------------------------------------------------------------
+ Press - "As seen on" section
+-------------------------------------------------------------------*/
+
+#press {
+  img {
+    max-height: 8rem;
+    display: block;
+    margin: auto;
+  }
+  
+}
+
 
 /* ----------------------------------------------------------------
   SVG Elements
@@ -749,3 +762,6 @@ svg[id*='svg_'] {
 .embed-responsive iframe {
 }
 
+.object-fit-cover {
+  object-fit: cover;
+}

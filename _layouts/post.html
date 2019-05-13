@@ -2,25 +2,35 @@
 layout: default
 ---
 
-<div class="container">
+<div class="lgx-inner">
+  <div class="container">
     <div class="row">
-
-        <div class="col-sm-8 col-sm-offset-2 blog-main">
-
-          <div class="blog-post">
-				<h1 class="blog-post-title">{{ page.title }}</h1>
-                <p class="blog-post-meta">{{ page.date | date: "%b %d, %Y" }}</p>
-				<div class="a2a_kit a2a_kit_size_32 a2a_default_style">
-					<a class="a2a_dd" href="https://www.addtoany.com/share"></a>
-					<a class="a2a_button_facebook"></a>
-					<a class="a2a_button_twitter"></a>
-					<a class="a2a_button_linkedin"></a>
-				</div>
-                <script async src="https://static.addtoany.com/menu/page.js"></script>
-                <br>
-                {{ content }}
+      <div class="col-sm-8 col-sm-offset-2 blog-main">
+        <div class="blog-post single-post">
+          <div class="lgx-heading-area">
+            <div class="lgx-heading">
+              <h2 class="heading-title">{{ page.title }}</h2>
+              <div class="author">
+                <img src="{{ page.author | default: '/images/icons/innovation.png' }}" alt="{{ page.author | default: 'Awesome Inc' }}" />
+                <div class="author-info">
+                  <h4 class="title">{{ post.author | default: 'Awesome Inc' }}</h4>
+                  <h5 class="subtitle">{{ page.date | date: "%b %-d, %Y" }}</h5>
+                </div>
+              </div>
+              
             </div>
-        </div><!-- /.blog-main -->
-
-     </div><!-- /.row -->
+          </div>
+          <div class="a2a_kit a2a_kit_size_32 a2a_default_style">
+            <a class="a2a_dd" href="https://www.addtoany.com/share"></a>
+            <a class="a2a_button_facebook"></a>
+            <a class="a2a_button_twitter"></a>
+            <a class="a2a_button_linkedin"></a>
+          </div>
+          <script async src="https://static.addtoany.com/menu/page.js"></script>
+          <br>
+          {{ content }}
+        </div>
+      </div><!-- /.blog-main -->
+    </div><!-- /.row -->
+  </div><!-- container -->
 </div>

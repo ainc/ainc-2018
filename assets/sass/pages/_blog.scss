@@ -45,15 +45,7 @@
     box-sizing:  border-box !important;
   }
 
-  .row {
-    -moz-column-width: 22em;
-    -webkit-column-width: 22em;
-    -moz-column-gap: 1em;
-    -webkit-column-gap:1em;
-
-  }
-
-  .lgx-news-single {
+  .lgx-news-single, .lgx-blog-single {
     display: inline-block;
     width:  100%;
   }
@@ -61,12 +53,18 @@
 
 
 
-.lgx-news-single {
+.lgx-news-single, .lgx-blog-single {
   background: $white-color;
   border-radius: 6px;
   border: 1px solid $border-color;
   padding: 1.5rem;
   margin-bottom: 2.4rem;
+  height: 540px;
+  img {
+    height: 275px;
+    min-width: 100%;
+    object-position: 0 0;
+  }
   figure {
     position: relative;
     @include scale($ratio:1);
@@ -122,10 +120,13 @@
         @include transition-duration($duration: 0.8s);
         img {
           max-width: 60px;
+          max-height: 60px;
+          min-width: 60px;
           float: left;
           border-radius: 50%;
           border: 3px solid $white-color;
           margin-right: 1rem;
+          background-color: white;
         }
         .author-info {
           overflow: hidden;
@@ -136,6 +137,7 @@
             margin-bottom: 0;
             color: $brand-color;
             font-weight: 700;
+            text-transform: capitalize;
           }
           .subtitle {
             @include font-size(13);
@@ -150,6 +152,7 @@
     padding: 2rem 1.5rem;
     .title {
       @include font-size(20);
+      text-transform: capitalize;
       color: $black-color;
       margin: 0;
       margin-bottom: 1rem;
@@ -158,6 +161,8 @@
       margin-bottom: 1rem;
     }
     .text-bottom {
+      position: absolute;
+      bottom: 4rem;
       .date {
         font-family: $lgx-heading-font;
         @include font-size(15);
@@ -165,6 +170,8 @@
       .link {
         float: right;
         @include font-size(24);
+        line-height: 2.6rem;
+        margin-left: 2rem;
       }
     }
   }

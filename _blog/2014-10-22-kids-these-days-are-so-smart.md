@@ -1,6 +1,9 @@
 ---
 title: Kids these days are so…
 date: 2014-10-22 00:00:00 Z
+header_img: "/images/blog/kids-so-smart.jpg"
+author_img: "/images/teamalpha/brianraney_wall.png"
+author: Brian Raney
 tags:
 - learntocode
 - smart
@@ -10,8 +13,6 @@ layout: post
 description: ''
 ---
 
-by [Brian Raney](https://plus.google.com/u/0/114667204038993827459/), Co-Founder, Awesome Inc
-
 SMART. I've heard numerous quotes from adults about how kids these days are so lazy, entitled, irresponsible. "The future seems bleak," we'll say to one another when we hear about a trouble maker kid that refuses to work hard at school or the student athlete that thinks they don't have to earn the starting position on the sports team. I've murmured these quotes more times than I can remember. 
 
 <!--more-->
@@ -20,7 +21,7 @@ But this summer, I found myself murmuring something else. I had the pleasure of 
 
 "Now that we're done with this game, can we go back to coding?" said one 9-year-old student after finishing a game of ping pong during one of the mid day breaks. 
 
-![Kids take programming class, give us hope for the future](/img/blog/kids-so-smart.jpg)
+![Kids take programming class, give us hope for the future](/images/blog/kids-so-smart.jpg)
 
 These kids were eager to learn how to program apps, video games, and web sites. It was a breath of fresh air.
 

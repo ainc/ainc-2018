@@ -1,6 +1,9 @@
 ---
 title: Learning How To Learn
 date: 2018-10-20 00:00:00 Z
+header_img: "/images/blog/learning-how-to-learn-white-board.jpg"
+author_img: "/images/teamalpha/nicksuch_wall.png"
+author: Nick Such
 tags:
 - learntocode
 - learning
@@ -9,9 +12,7 @@ layout: post
 description: On day one of Bootcamp, aspiring software developers learn how to learn
 ---
 
-![Whiteboard - learning how to learn](/img/blog/learning-how-to-learn-white-board.jpg)
-
-by [Nick Such](https://plus.google.com/+NickSuch/)
+![Whiteboard - learning how to learn](/images/blog/learning-how-to-learn-white-board.jpg)
 
 The [Web Developer Bootcamp](/bootcamp/) is the most challenging course we offer at Awesome Inc. Over the course of sixteen weeks, a student, who is expected to have no prior programming experience, is transformed into an employable software developer. This journey is one filled with ups and downs, and it is completed as a matter of will, persistence, and lots of help from the local software developer community. At the end of the intensive training phase of the journey, this freshly-minted software developer has wrestled with new programming languages, wrangled databases, and written a lot of code. While HTML, JavaScript, and Git skills are no doubt important for a web developer, it’s hard to argue against the primacy of the skill of learning itself. 
 

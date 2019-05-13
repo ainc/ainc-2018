@@ -41,7 +41,8 @@
 
 .lgx-owlteachers,
 .lgx-owlnews,
-.lgx-owltestimonial {
+.lgx-owltestimonial,
+.lgx-owlblog {
   &:hover {
     .owl-controls {
       .owl-prev,
@@ -60,6 +61,7 @@
 
 .lgx-owlteachers .owl-controls .owl-nav [class*=owl-]:hover,
 .lgx-owlnews .owl-controls .owl-nav [class*=owl-]:hover,
+.lgx-owlblog .owl-controls .owl-nav [class*=owl-]:hover,
 .lgx-owltestimonial .owl-controls .owl-nav [class*=owl-]:hover {
   background: $brand-color;
 }

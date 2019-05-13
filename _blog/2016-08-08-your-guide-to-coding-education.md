@@ -1,6 +1,8 @@
 ---
 title: Your guide to a coding education
 date: 2016-08-08 00:00:00 Z
+header_img: "/images/blog/filling-the-gap.png"
+author: Isaac Rowe
 tags:
 - learntocode
 - learning
@@ -9,8 +11,6 @@ layout: post
 description: All across the nation, programs are sprouting, encouraging young and
   old alike to learn how to code.
 ---
-
-Guest post by: [**Isaac Rowe**](https://medium.com/@Isaac_rowe1)
 
 All across the nation, programs are sprouting, encouraging young and old alike to learn how to code. These programs range from low-key online tutorials to full-blown bootcamps. All of them want to promote the &quot;new literacy&quot;, and you want in on the fun. Why should you learn to code, who should you learn from, and what can you expect?
 
@@ -42,7 +42,7 @@ Computer programming education is growing, and it&#39;s growing just in time too
 
 #### Filling the gap
 
- ![Filling the gap statistical image](/img/blog/filling-the-gap.png)
+ ![Filling the gap statistical image](/images/blog/filling-the-gap.png)
 
 Source:  [http://www.exploringcs.org/resources/cs-statistics](http://www.exploringcs.org/resources/cs-statistics) Data from Bureau of Labor Statistics
 

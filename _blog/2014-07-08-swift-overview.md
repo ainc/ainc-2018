@@ -1,6 +1,8 @@
 ---
 title: A Swift Overview of Swift
 date: 2014-07-08 00:00:00 Z
+header_img: "/images/blog/swift_overview_0.jpg"
+author: Danny Thorne
 tags:
 - learntocode
 - swift
@@ -16,7 +18,7 @@ On June 2, 2014 at [WWDC](https://developer.apple.com/videos/wwdc/2014/), Apple 
 
 The standard language for Apple iOS and OS X development is [Objective-C](http://en.wikipedia.org/wiki/Objective-C). It is an extension of the original C language, a language that is notoriously difficult to learn and tricky to use. Apple proposes the Swift language as a replacement for Objective-C that is easier to learn and use. At least two other strategies drive its design: it should be interoperable with Objective-C, and it should be fast.
 
-![Swift playground, image from Apple &copy;](/img/blog/swift_overview_0.jpg)
+![Swift playground, image from Apple &copy;](/images/blog/swift_overview_0.jpg)
 
 <!--more-->
 

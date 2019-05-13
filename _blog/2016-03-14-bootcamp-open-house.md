@@ -1,6 +1,9 @@
 ---
 title: Bootcamp Open House
 date: 2016-03-14 00:00:00 Z
+header_img: "/images/blog/bootcamp-web-development-awesome-inc.jpg"
+author_img: "/images/teamalpha/nicksuch_wall.png"
+author: Nick Such
 tags:
 - learntocode
 - bootcamp
@@ -9,7 +12,7 @@ layout: post
 description: Open House event for upcoming Awesome Inc U Web Developer Bootcamp
 ---
 
-![A-Inc Web Developer Bootcamp classroom](/img/bootcamp-web-development-awesome-inc.jpg)
+![A-Inc Web Developer Bootcamp classroom](/images/bootcamp-web-development-awesome-inc.jpg)
 
 by [Nick Such](https://plus.google.com/+NickSuch/)
 

@@ -1,6 +1,9 @@
 ---
 title: Learning How To Learn
 date: 2013-09-05 00:00:00 Z
+header_img: null
+author_img: "/images/teamalpha/nicksuch_wall.png"
+author: Nick Such
 tags:
 - learntocode
 - education

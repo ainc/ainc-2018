@@ -57,7 +57,7 @@ collections:
   blog:
     title: Blog
     output: true
-    permalink: /blog/:name
+    permalink: /blog/:title
   fellowship_portfolio:
     title: Fellowship Portfolio
     output: true

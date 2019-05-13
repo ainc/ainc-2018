@@ -1,6 +1,9 @@
 ---
 title: What We Learned From The Hour Of Code
 date: 2013-11-17 00:00:00 Z
+header_img: "/images/blog/hour-of-code-promo.jpg"
+author_img: "/images/teamalpha/nicksuch_wall.png"
+author: Nick Such
 tags:
 - learntocode
 - hourofcode
@@ -16,10 +19,8 @@ description: Computer Science Education week and the Hour of Code movement was a
 
 ### What We Learned From The Hour Of Code
 
-<a href="http://www.flickr.com/photos/awesomeinc/sets/72157638532676604/"><img src="/img/blog/hour-of-code-team-students.jpg" alt="The Awesome Inc team working with students at Eastside Technical Center." title="The Awesome Inc team working with students at Eastside Technical Center. More photos available on flickr."></a>
+<a href="http://www.flickr.com/photos/awesomeinc/sets/72157638532676604/"><img src="/images/blog/hour-of-code-team-students.jpg" alt="The Awesome Inc team working with students at Eastside Technical Center." title="The Awesome Inc team working with students at Eastside Technical Center. More photos available on flickr."></a>
 _The Awesome Inc team working with students at Eastside Technical Center. [More photos available on flickr](http://www.flickr.com/photos/awesomeinc/sets/72157638532676604/)._
-
-By [Nick Such](https://plus.google.com/+NickSuch/)
 
 Last week, over 15 million people around the world celebrated Computer Science Education Week by dedicating an hour to learn to code. Our team at [Awesome Inc](http://www.awesomeinc.org/) helped facilitate 10 [Hour of Code](http://www.awesomeincu.com/hourofcode) sessions at 8 schools around Fayette County, working with over 950 students from grades 4 - 12. During this process, we made a few observations:
 

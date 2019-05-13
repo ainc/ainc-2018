@@ -15,7 +15,7 @@ layout: default
             <div class="lgx-heading-area">
               <div class="lgx-heading lgx-heading-white">
                 <h2 class="heading-page">{{ page.title }}</h2>
-                {% if page.cta != blank %}
+                {% if page.cta %}
                 <a href="{{ page.permalink }}/apply" class="lgx-btn">{{ page.cta | default: 'Apply Now' }}</a>
                 {% endif %}
               </div>
@@ -57,7 +57,7 @@ layout: default
             <div class="lgx-heading lgx-heading">
               <h2 class="heading-title">{% if page.alt_title %}{{ page.alt_title }}{% else %}{{ page.title }}{% endif %}</h2>
               <p>{{ page.subtitle }}</p>
-              {% if page.cta != blank %}
+              {% if page.cta %}
                 <a href="{{ page.permalink }}/apply" class="lgx-btn">{{ page.cta }}</a>
               {% endif %}
             </div>

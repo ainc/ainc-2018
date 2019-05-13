@@ -1,6 +1,9 @@
 ---
 title: First Bootcamp Success, 2017 Sessions Announced
 date: 2016-12-21 00:00:00 Z
+header_img: "/images/blog/bootcamp-f16-demo-presentation.jpg"
+author_img: "/images/teamalpha/nicksuch_wall.png"
+author: Nick Such
 tags:
 - learntocode
 - bootcamp
@@ -11,9 +14,7 @@ description: The first Awesome Inc U Web Developer Bootcamp cohort has successfu
   completed the program, and 2017 program dates have been announced.
 ---
 
-![Awesome Inc Bootcamp student Kelly Wright presents at Demo Day F16](/img/blog/bootcamp-f16-demo-presentation.jpg)
-
-by [Nick Such](https://plus.google.com/+NickSuch/)
+![Awesome Inc Bootcamp student Kelly Wright presents at Demo Day F16](/images/blog/bootcamp-f16-demo-presentation.jpg)
 
 When we launched Awesome Inc U in 2013, we were spurred on by Lexington-area technology companies looking for, but not finding, the software development talent they need to grow. We could have pursued several possible solutions: consulting firm, recruiting practice, teach at the local universities. But we were inspired by a new wave of "[coding bootcamps](https://www.coursereport.com/)", programs designed to train ambitious, local people in a new trade.
 

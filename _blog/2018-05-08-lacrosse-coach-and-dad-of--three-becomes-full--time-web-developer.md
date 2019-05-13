@@ -1,16 +1,18 @@
 ---
 title: Lacrosse Coach and Dad-Of-Three Becomes Full-Time Web Developer
 date: 2018-05-08 00:00:00 Z
+header_img: "/images/blog/josh-stewart-and-family.jpg"
+author_img: "/images/teamalpha/rossladenburger_wall.png"
+author: Ross Ladenburger
 tags:
 - learntocode
 - bootcamp
 - student
 layout: post
+description: Josh Stewart had recently become a father to his third   daughter and was working between 60 to 80 hours a week at a small university in sports information and as a lacrosse coach when he read an article in the Herald-Leader about Awesome Inc’s Web Developer Bootcamp.
 ---
 
-![Web Developer Bootcamp Student Success Story](/img/josh-stewart-and-family.jpg "Josh Stewart and Family")
-
-By [Ross Ladenburger](https://www.linkedin.com/in/ross-ladenburger-078369a8/)
+![Web Developer Bootcamp Student Success Story](/images/blog/josh-stewart-and-family.jpg "Josh Stewart and Family")
 
 Josh Stewart had recently become a father to his third daughter and was working between 60 to 80 hours a week at a small university in sports information and as a lacrosse coach when he read an article in the Herald-Leader about Awesome Inc’s Web Developer Bootcamp.
 

@@ -1,6 +1,9 @@
 ---
 title: Communicating in Code
 date: 2014-10-29 00:00:00 Z
+header_img: "/images/blog/communicating-football.png"
+author_img: "/images/teamalpha/nicksuch_wall.png"
+author: Nick Such
 tags:
 - learntocode
 - language
@@ -10,32 +13,30 @@ description: Code is not new, we use plenty of other types of code in our lives.
   computing code is uniquely powerful.
 ---
 
-by [Nick Such](https://plus.google.com/+NickSuch/)
-
 While the Learn To Code movement has certainly picked up steam in the past year, I think it's interesting to realize that "code" is not something new. What's new is that we have a strong incentive to learn a particular type of code: billions of people now have Internet-connected computing devices, which we carry around with us wherever we go, and we spend an increasing amount of time using these devices. If we want to interact with these people and influence these people, then we have to communicate with the code (in this case, computer code) that gets their attention. But the notion that coding is something new is a fallacy.
 
 <!--more-->
 
-[![Musical staff code](/img/blog/communicating-music.png)](http://en.wikipedia.org/wiki/Clef#mediaviewer/File:Bass_and_Treble_clef.svg)
+[![Musical staff code](/images/blog/communicating-music.png)](http://en.wikipedia.org/wiki/Clef#mediaviewer/File:Bass_and_Treble_clef.svg)
 
 ### Music
 
 When I'm teaching people to code for the first time, I usually look for metaphors that relate to their prior experiences. One of my go-to examples is music. While both music and software have near universal prevalence today, it seems that more people have experience creating music than software. However, learning to develop software is no more difficult than learning to play and create music. Music provides a great example of another type of code, a programming language, if you will. The building blocks of musical code are things like time signatures, half-notes, and the [G clef](http://en.wikipedia.org/wiki/Clef) on a staff. This code can then be executed by any musician wielding an appropriate instrument. In its simplest form, the output is a series of acoustical vibrations at a variety of audible frequencies. Yet, for reasons we don't fully understand, music's simple components can be chained together to express pain and sorrow, joy and elation, all without the presence of words. Musical code is indeed a powerful language.
 
 
-[![Football playbook code](/img/blog/communicating-football.png)](http://en.wikipedia.org/wiki/Flea_flicker_(American_football)#mediaviewer/File:FleaFlicker.png)
+[![Football playbook code](/images/blog/communicating-football.png)](http://en.wikipedia.org/wiki/Flea_flicker_(American_football)#mediaviewer/File:FleaFlicker.png)
 
 ### Football
 
 Personally, l have a strong mental association between football and code. Perhaps it's because my first web development gig was as the webmaster for my high school football team. Or maybe it's because my high school football coach was also my AP Physics teacher, leaving my brain tangled in a mesh of [free-body diagrams](http://en.wikipedia.org/wiki/Free_body_diagram) and [student body right](http://en.wikipedia.org/wiki/Student_Body_Right) X-and-O sketches. But either way, a football playbook is nothing short of software documentation. The pages are lined with diagrams that would seem peculiar and complex to any uninformed onlooker. Its series of play calls might as well be method calls. And, if sufficiently well-described, these plays could be executed by any other football team, young or old. This code is also constantly vulnerable to security breaches. You may have seen a sideline head coach covering his mouth, or a backup quarterback making a peculiar set of (possibly decoy) gestures. If an opposing team was to discover your playbook, or reverse-engineer your strategies by analyzing your football code's output (e.g. game film), then they may be able to thwart your intended operations.
 
-![English sentence code](/img/blog/communicating-english.png)
+![English sentence code](/images/blog/communicating-english.png)
 
 ### English
 
 It can be really frustrating when you're a beginning programmer, and you can't figure out why your For Loop isn't doing what you expected. You think you have all the parts there, but maybe you swapped a semicolon for a comma, or forgot to increment your iterator. The syntax of a programming language can seem alien at first. You may think that you've explained to the computer exactly what it needs to do, but for some reason, it seems to choose a different path. But consider the languages we use to communicate with other human beings. In college, I spent a semester in Budapest, and got to learn the basics of the Hungarian language. It's much different from the neighboring Germanic, Slavic, and Romance languages. One of the most noticeable changes was the switch to Subject-Object-Verb from English's [Subject-Verb-Object](http://en.wikipedia.org/wiki/Subject%E2%80%93verb%E2%80%93object) orientation. It was easy to explain this difference as "Yoda-speak". A classic Yoda phrase, “Hard to see the Dark Side is,” would be “The Dark Side is hard to see,” using the English norm. This simple change in the order of these seven words yields incorrect, yet parseable, English. This also illustrates the differing strengths of humans and computers. While computers can use millions of transistors to make billions of calculations per second, they're notoriously rigid and intolerant of faults. As humans, we're not quite as fast at number-crunching, but we can find meaning in all sorts of malformed inputs.
 
-[![Manufacturing diagram code](/img/blog/communicating-manufacturing.png)](http://en.wikipedia.org/wiki/Computer-aided_design#mediaviewer/File:Schneckengetriebe.png)
+[![Manufacturing diagram code](/images/blog/communicating-manufacturing.png)](http://en.wikipedia.org/wiki/Computer-aided_design#mediaviewer/File:Schneckengetriebe.png)
 
 ### Manufacturing
 

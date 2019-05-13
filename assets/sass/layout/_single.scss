@@ -4,6 +4,42 @@
 .single-post,
 .page,
 .page-template {
+
+  .lgx-heading {
+    text-align: left;
+    .heading-title {
+      text-transform: capitalize;
+    }
+    .author {
+      img {
+        max-width: 60px;
+        max-height: 60px;
+        min-width: 60px;
+        float: left;
+        border-radius: 50%;
+        border: 2px solid $brand-color2;
+        padding: 2px;
+        margin-right: 1rem;
+        background-color: $body-bg;
+      }
+      .author-info {
+        overflow: hidden;
+        margin-left: 5px;
+        color: $white-color;
+        .title {
+          font-family: $lgx-heading-font;
+          margin-bottom: 0;
+          color: $brand-color;
+          font-weight: 700;
+        }
+        .subtitle {
+          @include font-size(13);
+          margin: 0;
+        }
+      }
+    }
+  }
+
   .lgx-banner-inner {
     background: url($hero-img-url) bottom center no-repeat fixed;
     -webkit-background-size: cover;
@@ -33,7 +69,7 @@
     }
   }
 
-
+  
 
   .lgx-banner-inner .lgx-heading {
     margin-bottom: 0;
@@ -86,10 +122,10 @@
 }
 
 
-/*SINGLE NEWS*/
+/*SINGLE NEWS AND SINGLE BLOG*/
 .single,
 .single-post {
-  .lgx-news-single {
+  .lgx-news-single, .lgx-blog-single {
     border: 0;
     padding: 0;
     margin-bottom: 0;

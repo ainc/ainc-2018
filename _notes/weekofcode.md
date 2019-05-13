@@ -2,6 +2,7 @@
 title: Week of Code
 layout: notes
 course_link: "/weekofcode/"
+permalink: "/woc"
 ---
 
 <br>

@@ -1,6 +1,8 @@
 ---
 title: 'John Newton: Awesome Inc U Graduate, Web Designer'
 date: 2015-06-08 00:00:00 Z
+header_img: "/images/blog/john-newton-membership.png"
+author: Sarah Brookbank
 tags:
 - learntocode
 - academy
@@ -10,9 +12,7 @@ description: John Newton came to the Awesome Inc U Membership without web develo
   experience, and left with a coding job.
 ---
 
-![image alt text](/img/blog/john-newton-membership.png)
-
-By Sarah Brookbank
+![image alt text](/images/blog/john-newton-membership.png)
 
 One of our goals at Awesome Inc is to help everyone pursue their own definition of awesome, and our coding school is a way we work towards that goal. For two years [Awesome Inc U](http://www.awesomeincu.com/) has helped anyone and everyone learn to code, from professionals looking to beef up their skill set to middle school students who learn the more practical side of Minecraft.
 

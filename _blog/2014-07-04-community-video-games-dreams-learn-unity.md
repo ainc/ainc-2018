@@ -1,6 +1,8 @@
 ---
 title: Community, Video Games, and Childhood Dreams - Let's Learn Unity
 date: 2014-07-04 00:00:00 Z
+header_img: "/images/blog/learn_unity_0.png"
+author: Will Oldham
 tags:
 - learntocode
 - learning
@@ -10,11 +12,9 @@ description: Video games are an important part of our culture, and the Unity gam
   development engine enables more people to create part of that culture.
 ---
 
-By Will Oldham
-
 In 2013, YouTube hosted an event they called "Geek Week" that showcased and celebrated a subculture of YouTube: the Geeks. Of course over the week there was one day set aside for the celebration of every Geek’s favorite activity - Video Games. On this day, a YouTube channel called Polaris - made famous from game-playing duos like “The Game Grumps” - released a video called “[MULTIPLAYER - Games bring us together](http://www.youtube.com/watch?v=SSA84_jW1f4).” The video is a five minute montage of different YouTube content creators that focus on making videos about video games - from playing them, to talking about them, to criticizing them. It is sometimes difficult to understand why someone would choose to invest their life into something as momentary, as intangible as a video game. The thing that brought these people to do what they do was not a stereotype. It was not that they were lonely kids who had nothing better to do, nor were they avoiding having a real job. It was because they had been part of a community of gamers and wanted to give back. Here were dozens of different groups of people who played together, who worked together, who cared about each other. People who had never met and would never meet felt free to share their lives and their stories. They all were brought together under a simple banner - playing video games. And now, all these ‘YouTubers’ got to create the community they themselves had benefited from. That’s a phenomenal opportunity, and one they constantly talk about how grateful they are to have had. 
 
-![Multiplayer video on YouTube](/img/blog/learn_unity_0.png)
+![Multiplayer video on YouTube](/images/blog/learn_unity_0.png)
 
 <!--more-->
 

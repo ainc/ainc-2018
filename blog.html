@@ -7,7 +7,47 @@ redirect_from:
 - "/blogs"
 ---
 
-{% for post in site.blog %}
-  <h2>{{ post.title }}</h2>
-  <p>{{ page.date | date: "%b %d, %Y" }}</p>
-{% endfor %}
+<div class="lgx-inner lgx-inner-small">
+  <div class="container">
+    <div class="row">
+      {% for post in site.blog reversed %}
+        <div class="col-xs-6 col-sm-4">
+          <div class="lgx-blog-single">
+            <figure>
+              <img class="object-fit-cover" src="{{ post.header_img | default: '/images/logos/ainc-logo-triangle-layer-red.png' }}" alt="{{ post.author | default:'Awesome Inc' }}" title="{{ post.author | default:'Awesome Inc' }}"/>
+              <figcaption>
+                <div class="figcaption">
+                  <div class="lgx-hover-link">
+                    <div class="lgx-vertical">
+                      <a href="{{ post.url }}"><i class="fa fa-book"></i></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="author">
+                  <div class="author-info">
+                    <img src="{{ post.author_img | default: '/images/icons/innovation.png' }}" alt="author">
+                    <div class="author-info">
+                      <h4 class="title"><a href="{{ post.url }}">{{ post.author | default: "Awesome Inc"}}</a></h4>
+                      <h5 class="subtitle">{{ post.date | date: "%b %d, %Y" }}</h5>
+                    </div>
+                  </div>
+                </div>
+              </figcaption>
+            </figure>
+            <div class="text-area">
+              <h3 class="title"><a href="{{ post.url }}">{{ post.title }}</a></h3>
+              <p class="text">{% if post.description %}{{ post.description | truncate: 100, "..." }}{% else %}{{ post.content | truncate: 100, "..." }}{% endif %}</p>
+              <div class="hits-area">
+                <span class="date"></span>
+              </div>
+              <div class="text-bottom">
+                <a class="date" href="{{ post.url }}">Read More</a>
+                <a class="link" href="{{ post.url }}"><i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+              </div>
+            </div>
+          </div> <!--//.News-single-->
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>

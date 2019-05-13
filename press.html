@@ -3,3 +3,44 @@ title: Press
 layout: sub
 permalink: "/press"
 ---
+
+<section>
+  <div id="press">
+    <div class="lgx-inner">
+      <div class="container" data-aos="fade-in">
+        <div class="lgx-heading-area">
+          <div class="lgx-heading">
+            <h2 class="heading-title text-shadow center horiz-line">As Seen On</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-5ths">
+            <img src="/images/press/nbc-logo.png">
+          </div>
+          <div class="col-sm-5ths">
+            <img src="/images/press/course_report.png">
+          </div>
+          <div class="col-sm-5ths">
+            <img src="/images/press/abc-logo.png">
+          </div>
+          <div class="col-sm-5ths">
+            <img src="/images/press/good_day_ky.png">
+          </div>
+          <div class="col-sm-5ths">
+            <img src="/images/press/fox-logo.png">
+          </div>
+        </div><!--//.ROW-->
+      </div><!-- //.CONTAINER -->
+    </div><!-- //.INNER -->
+    <hr>
+  </div>
+</section>
+
+<section>
+  <ul>
+    {% assign articles = site.data.press | sort:'date' %}
+    {% for article in articles reversed %}
+      <li>{{ article.date | date: "%b %d, %Y" }} <a href="{{ article.url }}" target="_blank">{{ article.title }}</a>, {{ article.source }}</li>
+    {% endfor %}
+  </ul>
+</section>

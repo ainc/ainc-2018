@@ -1,6 +1,9 @@
 ---
 title: 'Bootcamp Open House #2'
 date: 2016-05-10 00:00:00 Z
+header_img: "/images/blog/bootcamp-openhouse-1.jpg"
+author_img: "/images/teamalpha/nicksuch_wall.png"
+author: Nick Such
 tags:
 - learntocode
 - bootcamp
@@ -10,8 +13,6 @@ description: Open House event for upcoming Awesome Inc U Web Developer Bootcamp
 ---
 
 ![A-Inc Web Developer Bootcamp classroom](/img/blog/bootcamp-openhouse-1.jpg)
-
-by [Nick Such](https://plus.google.com/+NickSuch/)
 
 With applications rolling in for our Web Developer Bootcamp, we're excited to host our second Open House event this week. We'll be welcoming a host of potential applicants and employer partners to discuss the growing need for software developers, and how our Bootcamp program will help you land a tech job...guaranteed.
 

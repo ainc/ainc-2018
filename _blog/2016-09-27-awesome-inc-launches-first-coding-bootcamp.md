@@ -2,6 +2,7 @@
 title: Awesome Inc Launches Lexington’s First Coding Bootcamp - Guarantees Job Placement
   as Web Developer
 date: 2016-09-27 00:00:00 Z
+author: Gregory Petitt
 tags:
 - learntocode
 - bootcamp

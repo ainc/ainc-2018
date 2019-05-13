@@ -2,6 +2,7 @@
 title: Basic Web Crash Course
 layout: notes
 course_link: "/register/"
+permalink: "/basicweb-crash"
 ---
 
 ## Overview

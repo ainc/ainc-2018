@@ -1,6 +1,9 @@
 ---
 title: Pong Tutorial Updated to Unity 5
 date: 2016-07-18 00:00:00 Z
+header_img: "/images/blog/pong_updated_unity_5.png"
+author_img: "/images/teamalpha/nicksuch_wall.png"
+author: Nick Such
 tags:
 - learntocode
 - unity
@@ -10,9 +13,7 @@ layout: post
 description: Our popular Pong tutorial has been updated to the latest version of Unity
 ---
 
-![Classic pong game developed in Unity 5](/img/blog/pong_updated_unity_5.png)
-
-by [Nick Such](https://plus.google.com/+NickSuch/)
+![Classic pong game developed in Unity 5](/images/blog/pong_updated_unity_5.png)
 
 The [Unity Pong tutorial](/tutorials/unity-pong/) is actually *the* most popular destination on our site, besting even our home page. It has been listed on dozens of sites for aspiring game developers. However, it was in desperate need of an update.
 

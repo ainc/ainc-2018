@@ -1,6 +1,9 @@
 ---
 title: From The Trenches - Bootcamp F16 Update
 date: 2016-09-29 00:00:00 Z
+header_img: "/images/blog/bootcamp-f16-roundtable.jpg"
+author_img: "/images/teamalpha/nicksuch_wall.png"
+author: Nick Such
 tags:
 - learntocode
 - bootcamp
@@ -9,9 +12,7 @@ layout: post
 description: Fall 2016 Bootcamp cohort is half way through program
 ---
 
-![Awesome Inc U Web Developer Bootcamp students coding](/img/blog/bootcamp-f16-roundtable.jpg)
-
-by [Nick Such](https://plus.google.com/+NickSuch/)
+![Awesome Inc U Web Developer Bootcamp students coding](/images/blog/bootcamp-f16-roundtable.jpg)
 
 Six weeks ago, the [ten students](https://www.awesomeincu.com/blog/2016/08/31/bootcamp-f16-begins/) in our [Web Developer Bootcamp](/bootcamp/) gathered into one room at Awesome Inc and cracked open their laptops. In six more weeks, they’ll conclude the formal educational portion of our F16 Bootcamp, armed with the necessary skills and experiences to land their first job as a developer. What they’re doing, learning how to develop software, is no easy task. The journey so far has been filled with a whole range of celebration and frustration, tears and laughter. I wanted to share a brief glance into the world into which our students are diving.
 

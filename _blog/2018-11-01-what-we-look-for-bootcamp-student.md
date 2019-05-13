@@ -1,6 +1,9 @@
 ---
 title: What We Look For In A Bootcamp Student
 date: 2018-11-01 00:00:00 Z
+header_img: "/images/blog/quality-bootcamp-students.jpg"
+author_img: "/images/teamalpha/nicksuch_wall.png"
+author: Nick Such
 tags:
 - bootcamp
 - career
@@ -9,9 +12,7 @@ layout: post
 description: Tips for getting into Awesome Inc's Web Developer Bootcamp
 ---
 
-![Web Developer Bootcamp students at Awesome Inc Demo Day](/img/blog/quality-bootcamp-students.jpg)
-
-by [Nick Such](https://plus.google.com/+NickSuch/)
+![Web Developer Bootcamp students at Awesome Inc Demo Day](/images/blog/quality-bootcamp-students.jpg)
 
 Today, I’m sharing with you something never before released to our Bootcamp applicants: the secrets to acing your interview. As part of the application process for our highly-selective [Web Developer Bootcamp](/bootcamp/), candidates complete a four step process: the online application, the basic challenges, the interview, and the FIO (figure-it-out) challenges. Our admissions team uses the information gathered from these four steps to make admission decisions.
 

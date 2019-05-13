@@ -1,6 +1,9 @@
 ---
 title: Demo Day - Bootcamp F16
 date: 2016-11-02 00:00:00 Z
+header_img: "/images/blog/bootcamp-f16-students.jpg"
+author_img: "/images/teamalpha/nicksuch_wall.png"
+author: Nick Such
 tags:
 - learntocode
 - bootcamp
@@ -10,9 +13,7 @@ description: Fall 2016 Bootcamp cohort will present final projects at demo day o
   November 10th
 ---
 
-![Awesome Inc Bootcamp students](/img/blog/bootcamp-f16-students.jpg)
-
-by [Nick Such](https://plus.google.com/+NickSuch/)
+![Awesome Inc Bootcamp students](/images/blog/bootcamp-f16-students.jpg)
 
 In August, [ten aspiring software developers](/blog/2016/09/29/bootcamp-update-halfway/) began a 500+ hour journey of intense, hands-on learning in Awesome Inc U's Web Developer Bootcamp. On Thursday, November 10th, this group will be [presenting their final projects](https://www.eventbrite.com/e/demo-day-web-developer-bootcamp-f16-cohort-tickets-28837502747), full-stack web applications, to a group of tech company executives, local software developers, and other members of the Lexington-area technology community.
 

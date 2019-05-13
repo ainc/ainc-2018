@@ -1,6 +1,7 @@
 ---
 title: 4 Reasons You're Not Too Old to Learn to Code
 date: 2016-07-06 00:00:00 Z
+header_img: "/images/blog/4_reasons_to_code.png"
 tags:
 - learntocode
 - smart
@@ -11,7 +12,7 @@ description: It's been said that learning to code is as essential to a successfu
   start in life as reading, writing, and math.
 ---
 
-![Laptop on coffee table coding](/img/blog/4_reasons_to_code.png)
+![Laptop on coffee table coding](/images/blog/4_reasons_to_code.png)
 
 *"Learning to write programs stretches your mind, and helps you think better, creates a way of thinking about things that I think is helpful in all domains."*  - Bill Gates
 

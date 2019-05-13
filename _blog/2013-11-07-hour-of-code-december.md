@@ -1,6 +1,9 @@
 ---
 title: How To Change Your Life In Just One Hour This December
 date: 2013-11-07 00:00:00 Z
+header_img: "/images/startup-panel.jpg"
+author_img: "/images/teamalpha/nicksuch_wall.png"
+author: Nick Such
 tags:
 - learntocode
 - code.org
@@ -14,7 +17,7 @@ description: Why you should join millions of Americans to learn to code during C
   Science Education Week.
 ---
 
-<img src="/img/blog/hour-of-code-promo.jpg" alt="Kids learning to code with CSEdWeek logo">
+<img src="/images/blog/hour-of-code-promo.jpg" alt="Kids learning to code with CSEdWeek logo">
 
 By [Nick Such](https://plus.google.com/+NickSuch/)
 

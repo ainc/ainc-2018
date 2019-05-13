@@ -1,6 +1,7 @@
 ---
 title: Why 21st Century Kids Should Learn the 21st Century Skill
 date: 2014-05-28 00:00:00 Z
+author: Sarah Hoffman
 tags:
 - learntocode
 - learning
@@ -8,8 +9,6 @@ tags:
 layout: post
 description: Coding is an integral skill for this generation.
 ---
-
-by Sarah Hoffmann
 
 Code is the language of the 21st century. Computer programming is rapidly becoming an essential skill in every sector of the job world. To put it simply, everyone is doing it. But that begs the question, if coding is so important, why isn’t it being taught in schools?
 

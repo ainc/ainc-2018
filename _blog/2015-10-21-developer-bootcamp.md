@@ -1,6 +1,9 @@
 ---
 title: Launching The Bootcamp
 date: 2015-10-21 00:00:00 Z
+header_img: "/images/blog/bootcamp-screenshot.png"
+author_img: "/images/teamalpha/nicksuch_wall.png"
+author: Nick Such
 tags:
 - learntocode
 - bootcamp
@@ -10,9 +13,7 @@ description: Awesome Inc U announces upcoming Web Developer Bootcamp, intensive 
   program for starting a new career
 ---
 
-![A-Inc Web Developer Bootcamp screenshot](/img/blog/bootcamp-screenshot.png)
-
-by [Nick Such](https://plus.google.com/+NickSuch/)
+![A-Inc Web Developer Bootcamp screenshot](/images/blog/bootcamp-screenshot.png)
 
 As of today, we are living in the future 
 
@@ -34,7 +35,7 @@ Our program is focused on what we've come to see as the most important skill for
 
 So, who is the ideal candidate for our bootcamp program? It's not for everyone. One person to look at is John Newton, who participated in our Membership program and landed a web development job at Lexington-based eLink Design three months later. John came in with a masters degree in Astronomy (which is impressive!), but no experience in web development. His analytical mindset, and voracious appetite for learning, made him an excellent candidate. We expect that many of our candidates will have deep experience in a related field, such as graphic design, math/science, finance, or project management. Since our 14-week program is full-time (8am - 5pm, five days per week), our candidates must be willing to sacrifice other full-time employment to focus on learning for that duration. We're working with employers to make this an option for internal candidates looking to pick up technical responsibilities. We also know that $10k in tuition is no small matter, so our goal is to make payment as easy as possible for our students.
 
-![Terminal and Sublime Text, tools of the web development trade](/img/blog/bootcamp-screenshot-2.png)
+![Terminal and Sublime Text, tools of the web development trade](/images/blog/bootcamp-screenshot-2.png)
 
 What will you be able to do once you complete the Bootcamp? You should be able to build web applications. If I was hiring someone to make me a new chair, I'd want to see that she had built chairs before, and I'd want to sit in one of those chairs to make sure it could hold up. Our employer partners are looking for people who can build digital products, such as [full-stack web](https://www.quora.com/What-does-the-term-full-stack-programmer-mean) applications, so you'll be making several of those during the program. Your future employer will want to see what you've made, and poke around a bit to make sure it holds up. You'll also learn how to work with a technical team, how to communicate with customers, and how to keep your development skills in top shape for years to come.
 
