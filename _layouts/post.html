@@ -11,9 +11,9 @@ layout: default
             <div class="lgx-heading">
               <h2 class="heading-title">{{ page.title }}</h2>
               <div class="author">
-                <img src="{{ page.author | default: '/images/icons/innovation.png' }}" alt="{{ page.author | default: 'Awesome Inc' }}" />
+                <img src="{{ page.author_img | default: '/images/icons/innovation.png' }}" alt="{{ page.author | default: 'Awesome Inc' }}" />
                 <div class="author-info">
-                  <h4 class="title">{{ post.author | default: 'Awesome Inc' }}</h4>
+                  <h4 class="title">{{ page.author | default: 'Awesome Inc' }}</h4>
                   <h5 class="subtitle">{{ page.date | date: "%b %-d, %Y" }}</h5>
                 </div>
               </div>

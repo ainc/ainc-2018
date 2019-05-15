@@ -729,6 +729,104 @@ svg[id*='svg_'] {
 }
 
 /* ----------------------------------------------------------------
+  Header Border Box
+  http://jsfiddle.net/gkSYq/
+-------------------------------------------------------------------*/
+
+.header-border {
+  margin: 1em auto 3em;
+  display: flex;
+  flex-wrap: wrap;
+  border: solid $brand-red-bright 1px;
+  border-top: none;
+  margin-top: 4em;
+  background-color: $body-bg;
+  box-shadow: $body-bg 11px 0px 0px,
+              $body-bg -13px 0px 0px;
+
+  .heading-title {
+    font-family: "Open Sans",sans-serif;
+    @include font-size(39);
+    font-weight: 900;
+    color: #323333;
+    text-transform: uppercase;
+  }
+  
+  &.col-xs-12 {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .heading-title {
+    width: 100%;
+    display: flex;
+    margin-top: -2.75rem;
+    margin-bottom: 6rem;
+    &:before, &::after {
+      margin: auto;
+      border-top: solid $brand-red-bright 1px;
+    }
+    &::before {
+      margin-right: 1rem;
+    }
+    &::after {
+      margin-left: 1rem;
+    }
+  }
+
+  .header-border-box {
+    flex: 1 1 25%;
+    margin: 3rem 4rem 5.5rem;
+    border: solid $brand-red-bright 1px;
+    border-top: none;
+    display: flex;
+    flex-direction: column;
+    min-height: 285px;
+  }
+
+  .lgx-heading-area, .header-border-footer {
+    display: flex;
+    text-align: center;
+  }
+
+  & h2::before,
+  .lgx-heading-area::before, 
+  .header-border-footer::before,
+  & h2::after,
+  .lgx-heading-area::after,
+  .header-border-footer::after {
+    content: '  ';
+    flex: 1;
+  }
+
+  .heading-subtitle {
+    margin: -1.25rem 1rem 0.5rem;
+    max-width: 85%;
+    text-transform: uppercase;
+    @include font-size(20);
+  }
+  
+  .lgx-heading-area::before, .lgx-heading-area::after {
+    border-top: solid $brand-red-bright 1px;
+  }
+
+  .header-border-footer a {
+    transform: translateY(50%);
+  }
+
+  .header-border-content {
+    padding: 2.5rem 2rem;
+    margin: auto 0;
+    text-align: justify;
+    line-height: 2.3rem;
+  }
+
+
+  
+}
+
+
+/* ----------------------------------------------------------------
   Other Elements
 -------------------------------------------------------------------*/
 

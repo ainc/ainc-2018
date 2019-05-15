@@ -17,6 +17,15 @@
   }
 }
 
+.blog-post {
+  .lgx-heading {
+    text-align: left;
+    .heading-title {
+      text-transform: capitalize;
+    }
+  }
+}
+
 .lgx-owlnews {
   .item {
     padding-left: 10px;
