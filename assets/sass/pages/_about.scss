@@ -1,40 +1,50 @@
 #about {
-  .lgx-about {
-    background: $white-color;
-    background: url('../img/about-bg.jpg') bottom center no-repeat;
-    -webkit-background-size: contain;
-    -o-background-size: contain;
-    -moz-background-size: contain;
-    background-size: contain;
+  background-color: white;
+  #about-header {
+    background-image: url('../../images/banners/about-page-bg2.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+
     .lgx-heading {
-      margin-bottom: 2.4rem;
-      text-align: center;
+      text-align: left;
+      .heading-title {
+        margin-top: 6rem;
+        text-align: left;
+        text-transform: none;
+      }
+      .heading-subtitle {
+        margin-bottom: 4rem;
+      }
     }
-    .lgx-inner {
-      padding: 10.2rem 0;
-    }
-  }
-  
-  .lgx-about-bottom {
-    .lgx-inner {
-      padding-bottom: 0;
+    img {
+      width: 75%;
+      margin: auto;
     }
   }
 
-  #our-initiatives {
-    .title {
-      text-align: center;
-      @include font-size(32);
-      a {
-        color: $brand-color2;
-        &:hover {
-          color: $brand-color;
-        }
+  .header-border {
+    background-color: white;
+  }
+
+  #accomplishments {
+    background: 
+          linear-gradient(rgba(193,32,41,0.8),
+                        rgba(193,32,41,0.8)
+          ),  
+          url('../../images/banners/success-bell.jpg');
+    background-position: 50%;
+    background-size: 100%;
+    filter: contrast(110%);
+    img {
+      max-height: 190px;
+      margin: auto;
+      &.align-right {
+        float: right;
       }
-    }
-    p {
-      text-align: center;
-      margin-bottom: 2rem;
+      &.align-left {
+        float: left;
+      }
     }
   }
 
