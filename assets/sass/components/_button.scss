@@ -15,6 +15,10 @@
   &:hover {
     color: $brand-color2;
   }
+  @include screen-xs {
+    @include font-size(14);
+    padding: 0.6rem 1.8rem;
+  }
   &.lgx-btn-anim {
     -webkit-transition: all .3s ease-in-out 0s;
     -moz-transition: all .3s ease-in-out 0s;

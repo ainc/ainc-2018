@@ -12,6 +12,9 @@
         margin-top: 6rem;
         text-align: left;
         text-transform: none;
+        @include screen-xs {
+          @include font-size(29);
+        }
       }
       .heading-subtitle {
         margin-bottom: 4rem;
@@ -20,6 +23,9 @@
     img {
       width: 75%;
       margin: auto;
+      @include screen-xs {
+        width: 90%;
+      }
     }
   }
 
@@ -36,14 +42,26 @@
     background-position: 50%;
     background-size: 100%;
     filter: contrast(110%);
+    @include screen-xs {
+      background-size: cover;
+    }
     img {
       max-height: 190px;
       margin: auto;
+      @include screen-xs {
+        margin-bottom: 4rem;
+      }
       &.align-right {
         float: right;
+        @include screen-xs {
+          float: none;
+        }
       }
       &.align-left {
         float: left;
+        @include screen-xs {
+          float: none;
+        }
       }
     }
   }

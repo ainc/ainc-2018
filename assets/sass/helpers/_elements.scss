@@ -744,12 +744,16 @@ svg[id*='svg_'] {
   box-shadow: $body-bg 11px 0px 0px,
               $body-bg -13px 0px 0px;
 
+
   .heading-title {
     font-family: "Open Sans",sans-serif;
     @include font-size(39);
     font-weight: 900;
     color: #323333;
     text-transform: uppercase;
+    @include screen-xs {
+      @include font-size(16);
+    }
   }
   
   &.col-xs-12 {
@@ -772,6 +776,10 @@ svg[id*='svg_'] {
     &::after {
       margin-left: 1rem;
     }
+    @include screen-xs {
+      margin-top: -1.2rem;
+      margin-bottom: 2.5rem;
+    }
   }
 
   .header-border-box {
@@ -782,6 +790,13 @@ svg[id*='svg_'] {
     display: flex;
     flex-direction: column;
     min-height: 285px;
+    @include screen-md {
+      margin: 3rem 0.5rem 5.5rem;
+    }
+    @include screen-xs {
+      margin: 2rem 0rem 3rem;
+      border: none;
+    }
   }
 
   .lgx-heading-area, .header-border-footer {
@@ -804,21 +819,49 @@ svg[id*='svg_'] {
     max-width: 85%;
     text-transform: uppercase;
     @include font-size(20);
+    @include screen-md {
+      @include font-size(16);
+    }
+    @include screen-xs {
+      @include font-size(15);
+    }
   }
   
   .lgx-heading-area::before, .lgx-heading-area::after {
     border-top: solid $brand-red-bright 1px;
+    @include screen-xs {
+      border: none;
+    }
   }
 
   .header-border-footer a {
     transform: translateY(50%);
+    @include screen-xs {
+      transform: none;
+    }
   }
 
   .header-border-content {
     padding: 2.5rem 2rem;
     margin: auto 0;
     text-align: justify;
-    line-height: 2.3rem;
+    
+    @include screen-md {
+      padding: 2rem 1rem;
+    }
+    @include screen-xs {
+      padding: 0.5rem 0.5rem;
+      text-align: center;
+    }
+    p {
+      line-height: 2.3rem;
+      @include screen-md {
+        line-height: 2rem;
+      }
+      @include screen-xs {
+        line-height: 1.6rem;
+      }
+    }
   }
 
 
