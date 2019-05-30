@@ -4,19 +4,19 @@
 
 ### TOC
 
- - [Stack]("#stack")
- - [Quick Start]("#quick-start")
- - [How to Edit]("#how-to-edit")
- - [Code Style Guide]("#code-style-guide")
- - [Styling / Sass]("#styling--sass")
- - [Github Process]("#github-process")
- - [File Structure]("#styling--sass")
- - [Underscores vs Hyphens]("#styling--sass")
- - [Editing Javascript]("#editing-javascript")
- - [Frameworks & Libraries]("#frameworks-and-libraries")
- - [Links / Routes]("#links--routes")
- - [Linter]("#linter")
- - [Where to report bugs]("#where-to-report-bugs")
+ - [Stack](#stack)
+ - [Quick Start](#quick-start)
+ - [How to Edit](#how-to-edit)
+ - [Code Style Guide](#code-style-guide)
+ - [Styling / Sass](#styling--sass)
+ - [Github Process](#github-process)
+ - [File Structure](#file-structure)
+ - [Underscores vs Hyphens](#underscores-vs-hyphens)
+ - [Editing Javascript](#editing-javascript)
+ - [Frameworks & Libraries](#frameworks-and-libraries)
+ - [Links / Routes](#links--routes)
+ - [Linter](#linter)
+ - [Where to report bugs](#where-to-report-bugs)
  - [Useful Resources]("#useful-resources")
 
 
@@ -131,6 +131,10 @@ Documentation: https://www.sitepoint.com/hacking-routing-component-jekyll/
 
 Developer Hints for Jekyll
 https://devhints.io/jekyll
+
+### Where to Report Bugs
+
+Trello is the best place to report bugs. Create a card with an appropriate title, link the page(s) where the problem is, [possibly] suggest a fix.
 
 ### Linter
 
