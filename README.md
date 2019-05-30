@@ -21,21 +21,30 @@
  - Animate on Scroll (aos)
 
 
-#### Stack
+### Stack
 
 The website is built with the [SSG Jekyll](https://jekyllrb.com/).
 
-#### File Structure
+### File Structure
 
 We follow a simple Jekyll file structure with layouts, includes, data, etc. All CSS, Javascript and font files are in the /assets folder. Images can be found in the /images folder.
 
-#### Styling / Sass
+### Styling / Sass
 
 Any style changes should be made with [Sass](https://sass-lang.com/).  There is no need to edit any libraries such as Bootstrap because they will be updated as we update the framework.
 
-The Sass file structure follows the 7-1 Pattern. More info can be found here: [architecture-sass-project](https://www.sitepoint.com/architecture-sass-project/). Most changes will take place in /components, /helpers, /layout and /pages. 
+#### Index of SASS Files/Folders
+ - /base/_root.scss - Global style changes 
+ - /base/_typography.scss - Global font styles 
+ - /components/ - Components that are used in different pages
+ - /helpers/ - Animations, mixins, responsive styling
+ - /layout/ - Specific style changes for page layouts
+ - /pages/ - Styles for page-specific properties. 
+ - /themes/ - This came with the template, no need to use this
+ - /vendor/ - Libraries like bootstrap
+ - /assets/css/main.scss - Importer for all scss files
 
-#### Github Process
+### Github Process
 
 Our Github process follows the [Git Centralized Workflow](https://www.atlassian.com/git/tutorials/comparing-workflows#centralized-workflow).
 
@@ -48,27 +57,28 @@ Our Github process follows the [Git Centralized Workflow](https://www.atlassian.
 
 Be descriptive with your commits. 
 
-#### Editing Javascript
+### Editing Javascript
 
 TBD
 
 Currently working out of custom.js to add additional scripts.
 
-#### Underscores vs Hyphens
+### Underscores vs Hyphens
 
 SEO is important and it cares about how you name your images. Currently, Google wants us to name our images with hyphens.
 source: https://shuttermuse.com/image-seo-how-to-name-files/
 
-#### How to Edit
+### How to Edit
 
 Only invent new things if you can't use what is already there
 
+Below is the order of how you should edit things:
 1. Use a component from the theme
 2. Use current css classes from theme
 3. Assemble a new component from bootstrap classes
 4. Create new classes, but still use bootstrap components as base
 
-#### Links / Routes
+### Links / Routes
 
 Routes file - _data/routes.yml
 
@@ -79,12 +89,12 @@ The point of this is to create a central place to hold links so that if we were 
 
 Documentation: https://www.sitepoint.com/hacking-routing-component-jekyll/
 
-#### Animate on Scroll (aos)
+### Animate on Scroll (aos)
 
 Library to animate elements based on scrolling. It is very lightweight and more documentation can be found here:
 https://github.com/michalsnik/aos
 
-#### Useful Resources
+### Useful Resources
 
 Developer Hints for Jekyll
 https://devhints.io/jekyll
