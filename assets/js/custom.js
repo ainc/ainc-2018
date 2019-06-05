@@ -164,3 +164,26 @@ $(document).ready(function () {
   }
 
 });
+
+/***********************
+ Function to adjust link to membership options
+ See worspace.html and nav.html
+**************************/
+function offsetAnchor() {
+    if (location.hash.length !== 0) {
+        window.scrollTo(window.scrollX, window.scrollY - 80);
+    }
+}
+
+$(document).on('click', 'a[href^="#become-a-member"]', function (event) {
+    // Click events are captured before hashchanges. Timeout
+    // causes offsetAnchor to be called after the page jump.
+    window.setTimeout(function () {
+        offsetAnchor();
+    }, 0);
+});
+
+window.setTimeout(offsetAnchor, 0);
+/***********************
+ End of adjustment code. Source: https://stackoverflow.com/questions/17534661/make-anchor-link-go-some-pixels-above-where-its-linked-to
+**************************/

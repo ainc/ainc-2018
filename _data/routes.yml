@@ -29,6 +29,7 @@ idea-form: "/idea"
 workspace: "/workspace"
 tour: "/workspace#tour"
 rent: "/workspace#rent"
+rent-options: "/workspace#become-a-member"
 be-awesome: "/be-awesome"
 startup-weekend: "/events/#startup-weekend"
 
