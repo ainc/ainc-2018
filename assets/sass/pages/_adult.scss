@@ -70,7 +70,7 @@
       left: -5rem;
       @include screen-tablet-max {
         top: 10rem;
-        left: -2rem;
+        left: 2rem;
       }
       @include screen-xs {
         top: 1rem;
@@ -80,5 +80,17 @@
     }
   }
 
+  #courses-youth {
+    h2.heading-title {
+      @include screen-xs {
+        margin-top: 25px;
+      }
+    }
 
+    .lgx-inner .container {
+      @include screen-tablet-max {
+        margin-top: 25px;
+      }
+    }
+  }
 }

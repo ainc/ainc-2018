@@ -25,21 +25,16 @@ Participants are expected to be fully invested in the training process for a 16-
 <div class="row">
   <div class="col-xs-3">
     <img src="/images/aincu/alumni/brett-fraley.jpg" class="img-responsive img-rounded">
-  </div>
-  <div class="col-xs-9">
-    <p>"Over the last two weeks I have used every little bit of experience from Bootcamp, in some way. And I was able to go from a paragraph description from a client to a deployment-ready web application involving teams, team captains, payment gateway APIs, logging and tracking admin, image uploads, signup invites, social media event link invites and shares - all in a new language and framework. All this practically all on my own.</p>
-    <p>There's no way I would have been able to figure any of it out or do so well, without Bootcamp."
-    </p>
-  </div>
-</div>
-
-<div class="row">
-  <div class="col-xs-3">
+    <br />
     <p><a href="https://www.linkedin.com/in/brett-fraley-446134125">Brett Fraley</a>  Bootcamp Fall '16
     <br>Front End Engineer, ITHAKA / Artstor</p>
     <p><a class="btn cl-link-effect alumni" data-hover="Bootcamp Alumni" href="/alumni"><span>Bootcamp Alumni</span></a></p>
   </div>
   <div class="col-xs-9">
+    <p>"Over the last two weeks I have used every little bit of experience from Bootcamp, in some way. And I was able to go from a paragraph description from a client to a deployment-ready web application involving teams, team captains, payment gateway APIs, logging and tracking admin, image uploads, signup invites, social media event link invites and shares - all in a new language and framework. All this practically all on my own.</p>
+    <p>There's no way I would have been able to figure any of it out or do so well, without Bootcamp."
+    </p>
+    <br />
     <a href="https://www.coursereport.com/schools/awesome-inc-u#/reviews" target="_blank">
       <img src="/images/aincu/coursereport-badge.png" style="width: 60%"/>
     </a>
