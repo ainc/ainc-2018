@@ -240,3 +240,66 @@ ul#filters li a {
     font-size: 16px;
     font-weight: normal;
 }
+
+.title {
+    font-family: Times New Roman, Times, Serif;
+    border-bottom: 1px solid #bbb;
+    padding-bottom: 15px;
+    margin: 15px 0 30px;
+    height: 52px;
+}
+
+.title h2 {
+    font-weight: 100;
+    color: #666;
+    font-size: 28px;
+    margin: 5px 0;
+    float: left;
+}
+
+.container > .content > .row > .col-xs-12 > .title {
+    display: inline-block;
+    float: right;
+}
+
+.container > .content > .row > .col-xs-12 > .title h2 {
+    display: inline-block;
+    padding-right: 10px;
+    margin: 0px;
+}
+
+.container > .content > .row > .col-xs-12 > .title h2 .link {
+    max-height: 50px;
+    display: inline;
+    padding: 5px;
+    float: left;
+    display: inline;
+    width: match-child;
+}
+
+.btn-group > a {
+    width: 77px !important;
+    height: 34px !important;
+}
+
+/**** Isotope Filtering ****/
+
+.isotope-item {
+    z-index: 2;
+}
+
+.isotope-hidden.isotope-item {
+    pointer-events: none;
+    z-index: 1;
+}
+
+/**** Isotope CSS3 transitions ****/
+
+.isotope,
+.isotope .isotope-item {
+    -webkit-transition-duration: 0.8s;
+    -moz-transition-duration: 0.8s;
+    -ms-transition-duration: 0.8s;
+    -o-transition-duration: 0.8s;
+    transition-duration: 0.8s;
+}
