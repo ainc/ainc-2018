@@ -1,0 +1,53 @@
+---
+title: Alumni
+layout: default
+permalink: "/learn/alumni"
+page_id: alumni
+---
+
+<div class="container">
+    <div class="blog-header">
+        <h1 class="blog-title">Alumni</h1>
+        <p class="lead blog-description">Ribbons indicate student's first programming job following <a href="/bootcamp">Bootcamp</a></p>
+    </div>
+    <section class="content">
+        <div class="title">
+            <h2>Bootcamp Alumni</h2>
+            <ul id="filters" class="hidden-phone">
+                <li><a href="#" data-filter="*">All Cohorts</a></li>
+                <li><a href="#" data-filter=".s19">Spring '19</a></li>
+                <li><a href="#" data-filter=".f18">Fall '18</a></li>
+                <li><a href="#" data-filter=".s18">Summer '18</a></li>
+                <li><a href="#" data-filter=".f17">Fall '17</a></li>
+                <li><a href="#" data-filter=".s17">Summer '17</a></li>
+                <li><a href="#" data-filter=".f16">Fall '16</a></li>
+            </ul>
+        </div>
+        <div id="gallery" class="row">
+            <div class="col-xs-12">
+                <ul id="alumni" class="da-thumbs alumnis">
+                    {% for student in site.data.alumni-bootcamp %}
+                    <li class="bootcampAlumni text-center {{student.cohort}}">
+                        <a href="/{{ student.abbreviated_name }}">
+                            <img src="../../images/alumni/{{student.image}}.jpg" alt="{{student.name}} - Awesome Inc U Web Developer Bootcamp">
+                        </a>
+                        {% if student.position %}
+                        <div class="ribbon-wrapper-green">
+                            <div class="ribbon-green">{{ student.position }}</div>
+                        </div>
+                        {% endif %}
+                        <div class="text-center" style="font-size: 10pt">
+                            {{ student.name }}
+                        </div>
+                        <div class="btn-group text-center" role="group">
+                            <a class="btn btn-default" href="{{student.website}}" role="button">Portfolio</a>
+                            <a class="btn btn-default" href="{{student.linkedin}}" role="button">LinkedIn</a>
+                            <a class="btn btn-default" href="{{student.github}}" role="button">GitHub</a>
+                        </div>
+                    </li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+    </section>
+</div><!-- /.container -->
