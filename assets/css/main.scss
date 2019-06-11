@@ -1,4 +1,4 @@
----
+﻿---
 ---
 /*****************************************
 Modules: Meant for code that output css - mixins, functions, variables
@@ -63,6 +63,7 @@ Vendor: Don't edit this directory, this is for libraries like bootstrap
 @import 'pages/adult';
 @import 'pages/fellowship';
 @import 'pages/internships';
+@import 'pages/alumni';
 
 h1 {
 	color: black;
