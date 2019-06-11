@@ -1,10 +1,28 @@
-$(document).on('click', 'a[href^="#"]', function (event) {
-  event.preventDefault();
+/***********************
+ Adjustment code for become-a-member. Source: https://stackoverflow.com/questions/17534661/make-anchor-link-go-some-pixels-above-where-its-linked-to
+**************************/
 
+function offsetAnchor() {
+    if (location.hash.length !== 0) {
+        window.scrollTo(window.scrollX, window.scrollY - 80);    
+    }
+}
+
+window.setTimeout(offsetAnchor, 0);
+
+$(document).on('click', 'a[href^="#"],a[href^="/workspace#become-a-member"]', function (event) {
+    
   var navbarHeight = $( '.lgx-header-bottom' ).outerHeight();
   var scrollDistance;
   var scrollSpeedCoefficient;
-  if ($( this ).parents( '.panel-group' ).length) {
+
+  if (this.href.includes("become-a-member")) {
+      window.setTimeout(function () {
+          offsetAnchor();
+      }, 0);
+  }
+  else {
+      if ($(this).parents('.panel-group').length) {
     // Code for moving to FAQ question
     // The expanded element is causing a misrespresentation of the offset
     // var expandedHeight = $( '.collapse.in' ).height();
@@ -12,6 +30,7 @@ $(document).on('click', 'a[href^="#"]', function (event) {
     // scrollDistance = $( this ).parents( '.panel-heading' ).offset().top - navbarHeight - expandedHeight;
     // scrollSpeedCoefficient = 0.75;
   } else {
+    event.preventDefault();
     scrollDistance = $($.attr(this, 'href')).offset().top - navbarHeight;
     scrollSpeedCoefficient = 0.5;
   }
@@ -24,6 +43,7 @@ $(document).on('click', 'a[href^="#"]', function (event) {
     duration: Math.abs(window.scrollY - scrollDistance * scrollSpeedCoefficient),
     easing: "swing"
   });
+  }
 });
 
 /* ----------------------------------------------------------------
@@ -164,26 +184,3 @@ $(document).ready(function () {
   }
 
 });
-
-/***********************
- Function to adjust link to membership options
- See worspace.html and nav.html
-**************************/
-function offsetAnchor() {
-    if (location.hash.length !== 0) {
-        window.scrollTo(window.scrollX, window.scrollY - 80);
-    }
-}
-
-$(document).on('click', 'a[href^="#become-a-member"]', function (event) {
-    // Click events are captured before hashchanges. Timeout
-    // causes offsetAnchor to be called after the page jump.
-    window.setTimeout(function () {
-        offsetAnchor();
-    }, 0);
-});
-
-window.setTimeout(offsetAnchor, 0);
-/***********************
- End of adjustment code. Source: https://stackoverflow.com/questions/17534661/make-anchor-link-go-some-pixels-above-where-its-linked-to
-**************************/
