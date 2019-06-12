@@ -28,14 +28,23 @@
 }
 
 #lgx-core-values {
+  figure {
+    .lgx-vertical {
+      display: flex;
+      justify-content: space-around;
+      .icon::before {
+        top: -13px;
+      }
+    }
+  }
   .lgx-video-area {
     #watch-cv-video {
       span {
-        height: 200px;
+        height: 150px;
         position: absolute;
-        width: 20px;
-        top: 0;
-        left: 0;
+        width: -45px;
+        top: 75px;
+        left: 35px;
         transform-origin: bottom center;
       }
       .char1 { transform: rotate(6deg); }
