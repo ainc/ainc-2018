@@ -27,7 +27,7 @@ page_id: alumni
             <div class="col-xs-12">
                 <ul id="alumni" class="da-thumbs alumnis isotope">
                     {% for student in site.data.alumni-bootcamp %}
-                    <li class="bootcampAlumni text-center {{student.cohort}} isotope-item">
+                    <li class="bootcampAlumni text-center {{student.cohort}}">
                         <a href="/{{ student.abbreviated_name }}">
                             <img src="../../images/alumni/{{student.image}}.jpg" alt="{{student.name}} - Awesome Inc U Web Developer Bootcamp">
                         </a>
