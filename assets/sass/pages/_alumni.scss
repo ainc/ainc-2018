@@ -1,4 +1,5 @@
-﻿.ribbon-wrapper-green {
+﻿#alumni{
+.ribbon-wrapper-green {
     margin-top: 11px;
     margin-right: 25px;
 }
@@ -240,14 +241,6 @@ ul#filters li a {
     font-weight: normal;
 }
 
-.title {
-    font-family: Times New Roman, Times, Serif;
-    border-bottom: 1px solid #bbb;
-    padding-bottom: 15px;
-    margin: 15px 0 30px;
-    height: 52px;
-}
-
 .title h2 {
     font-weight: 100;
     color: #666;
@@ -301,4 +294,5 @@ ul#filters li a {
     -ms-transition-duration: 0.8s;
     -o-transition-duration: 0.8s;
     transition-duration: 0.8s;
+}
 }
