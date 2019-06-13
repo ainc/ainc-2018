@@ -1,7 +1,6 @@
 #about {
-  background-color: white;
   #about-header {
-    background-image: url('../../images/banners/about-page-bg2.png');
+    background-image: url('../../images/banners/about-page-bg3.png');
     background-repeat: no-repeat;
     background-size: 100%;
 
@@ -29,8 +28,12 @@
     }
   }
 
+  #core-values {
+    margin-bottom: 4rem;
+  }
+
   .header-border {
-    background-color: white;
+    background-color: $body-bg;
   }
 
   #accomplishments {
@@ -64,6 +67,16 @@
         }
       }
     }
+  }
+
+  #meet-the-team {
+    background-color: $brand-grey-light;
+
+    img {
+      border-radius: 50%;
+      margin: 10px;
+    }
+
   }
 
 }
