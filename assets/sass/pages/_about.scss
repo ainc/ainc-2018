@@ -73,11 +73,14 @@
     background-color: $brand-grey-light;
     img {
       border-radius: 50%;
-      margin: 10px;
       @include screen-tablet-max {
         width: 50%;
         margin: 2rem 25%;
       }
+    }
+    h6 {
+      color: $brand-color;
+      @include font-size(16);
     }
   }
 

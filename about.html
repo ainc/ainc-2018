@@ -157,52 +157,18 @@ redirect_from:
         </div>
         <div class="row seven-cols">
           <div class="col-xs-12 col-sm-10 col-sm-offset-1">
-            <div class="col-xs-6 col-md-1">
-              <img src="/images/teamalpha/brianraney-wall.jpg" alt="Awesome Inc team member, Brian Raney" />
+            {% for member in site.data.internal-team %}
+            <div class="col-xs-6 col-md-1 lgx-single-item team-member">
+              <figure>
+                <img src="/images/teamalpha/{{ member.name | remove: ' ' | downcase  }}-wall.jpg" alt="Awesome Inc team member, {{ member.name }}" />
+                <figcaption>
+                  <div class="name-hover">
+                    <h6 class="lgx-vertical">{{ member.name | truncatewords: 1, "" }}</h6>
+                  </div>
+                </figcaption>
+              </figure>
             </div>
-            <div class="col-xs-6 col-md-1">
-              <img src="/images/teamalpha/lukemurray-wall.jpg" alt="Awesome Inc team member, Luke Murray" />
-            </div>
-            <div class="col-xs-6 col-md-1">
-              <img src="/images/teamalpha/nathanfort-wall.jpg" alt="Awesome Inc team member, Nathan Fort" />
-            </div>
-            <div class="col-xs-6 col-md-1">
-              <img src="/images/teamalpha/nicksuch-wall.jpg" alt="Awesome Inc team member, Nick Such" />
-            </div>
-            <div class="col-xs-6 col-md-1">
-              <img src="/images/teamalpha/emilywehrle-wall.jpg" alt="Awesome Inc team member, Emily Wehrle" />
-            </div>
-            <div class="col-xs-6 col-md-1">
-              <img src="/images/teamalpha/keithmcmunn-wall.jpg" alt="Awesome Inc team member, Keith McMunn" />
-            </div>
-            <div class="col-xs-6 col-md-1">
-              <img src="/images/teamalpha/kyleraney-wall.jpg" alt="Awesome Inc team member, Kyle Raney" />
-            </div>
-          </div>
-        </div> <!-- row -->
-        <div class="row seven-cols">
-          <div class="col-xs-12 col-sm-10 col-sm-offset-1">
-            <div class="col-xs-6 col-md-1">
-              <img src="/images/teamalpha/maggiecollofello-wall.jpg" alt="Awesome Inc team member, Maggie Collofello" />
-            </div>
-            <div class="col-xs-6 col-md-1">
-              <img src="/images/teamalpha/rossladenburger-wall.jpg" alt="Awesome Inc team member, Ross Ladenburger" />
-            </div>
-            <div class="col-xs-6 col-md-1">
-              <img src="/images/teamalpha/lizbrown-wall.jpg" alt="Awesome Inc team member, Liz Brown" />
-            </div>
-            <div class="col-xs-6 col-md-1">
-              <img src="/images/teamalpha/jacquelinebenson-wall.jpg" alt="Awesome Inc team member, Jacqueline Benson" />
-            </div>
-            <div class="col-xs-6 col-md-1">
-              <img src="/images/teamalpha/loganjones-wall.jpg" alt="Awesome Inc team member, Logan Jones" />
-            </div>
-            <div class="col-xs-6 col-md-1">
-              <img src="/images/teamalpha/garrettfahrbach-wall.jpg" alt="Awesome Inc team member, Garrett Fahrbach" />
-            </div>
-            <div class="col-xs-6 col-md-1">
-              <img src="/images/teamalpha/peterbriggs-wall.jpg" alt="Awesome Inc team member, Peter Briggs" />
-            </div>
+            {% endfor %}
           </div>
         </div> <!-- row -->
       </div> <!-- container -->
