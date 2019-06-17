@@ -25,10 +25,10 @@ page_id: alumni
         </div>
         <div id="gallery" class="row">
             <div class="col-xs-12">
-                <ul id="alumni" class="da-thumbs alumnis isotope">
+                <ul id="alumni" class="da-thumbs alumnis isotope" style="margin-left:0 auto;left:-18px">
                     {% for student in site.data.alumni-bootcamp %}
                     <li class="bootcampAlumni text-center {{student.cohort}}">
-                        <a href="/{{ student.abbreviated_name }}">
+                        <a>
                             <img src="../../images/alumni/{{student.image}}.jpg" alt="{{student.name}} - Awesome Inc U Web Developer Bootcamp">
                         </a>
                         {% if student.position %}
