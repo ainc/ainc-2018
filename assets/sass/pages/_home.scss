@@ -31,8 +31,13 @@
   .lgx-video-area {
     .lgx-vertical {
       text-align: left;
+      a {
+        img {
+          height: 175px;
+        }
+      }
       #video-btn {
-        margin-right: 25px;
+        margin-right: 40px;
       }
     }
   }
