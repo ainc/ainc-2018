@@ -1,7 +1,6 @@
 #about {
-  background-color: white;
   #about-header {
-    background-image: url('../../images/banners/about-page-bg2.png');
+    background-image: url('../../images/banners/about-page-bg3.png');
     background-repeat: no-repeat;
     background-size: 100%;
 
@@ -29,8 +28,12 @@
     }
   }
 
+  #core-values {
+    margin-bottom: 4rem;
+  }
+
   .header-border {
-    background-color: white;
+    background-color: $body-bg;
   }
 
   #accomplishments {
@@ -62,6 +65,70 @@
         @include screen-xs {
           float: none;
         }
+      }
+    }
+  }
+
+  #meet-the-team {
+    background-color: $brand-grey-light;
+    img {
+      border-radius: 50%;
+      @include screen-tablet-max {
+        width: 50%;
+        margin: 2rem 25%;
+      }
+    }
+    h6 {
+      color: $brand-color;
+      @include font-size(16);
+    }
+  }
+
+  #social-media {
+    .lgx-heading {
+      margin-top: 8rem;
+      @include screen-sm {
+        margin-top: 4.5rem;
+      }
+      @include screen-xs {
+        margin-top: 2rem;
+        margin-bottom: 1.2rem;
+      }
+    }
+    .heading-title {
+      @include font-size(28);
+    }
+    .heading-title, .heading-subtitle {
+      text-align: center;
+    }
+    .heading-subtitle {
+      @include screen-xs {
+        display: none;
+      }
+    }
+    .list-inline {
+      font-size: 32px;
+      margin: 0 10px;
+    }
+  }
+  div#social-section-triangle {
+    position: relative;
+    svg {
+      height: 32vh;
+      width: 100%;
+      position: absolute;
+      bottom: 0vh;
+      z-index: -1;
+      polygon {
+        fill: $brand-color2;
+      }
+      @include screen-tablet-max {
+        height: 14vh;
+        top: -14vh;
+      }
+      @include screen-xs {
+        height: 10vh;
+        top: -9.95vh; /*mobile devices have a small gap */
       }
     }
   }
