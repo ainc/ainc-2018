@@ -243,6 +243,12 @@
       }
       &.long-text a {
         margin-top: 1.75rem;
+        margin-left: 0;
+        width: 100%;
+        span {
+          @include font-size(10);
+          font-weight: 500;
+        }
       }
     }
   }
