@@ -1,0 +1,298 @@
+﻿#alumni{
+.ribbon-wrapper-green {
+    margin-top: 11px;
+    margin-right: 25px;
+}
+
+
+@media screen and (max-width: 1200px) {
+    .ribbon-wrapper-green {
+        margin-right: 173px;
+    }
+}
+
+@media screen and (max-width: 1199px) {
+    .ribbon-wrapper-green {
+        margin-right: 174px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .ribbon-wrapper-green {
+        margin-right: 120px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .ribbon-wrapper-green {
+        display: none;
+    }
+}
+
+
+
+.ribbon-wrapper-green {
+    width: 120px;
+    height: 100px;
+    overflow: hidden;
+    position: absolute;
+    top: -3px;
+    right: -3px;
+}
+
+.ribbon-green {
+    font: bold 11px Sans-Serif;
+    color: #333;
+    text-align: center;
+    text-shadow: rgba(255,255,255,0.5) 0px 1px 0px;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    position: relative;
+    padding: 7px 0;
+    left: -5px;
+    top: 19px;
+    width: 180px;
+    background-color: #cb232e;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#BFDC7A), to(#8EBF45));
+    background-image: -webkit-linear-gradient(top, #cb232e, #cb232e);
+    background-image: -moz-linear-gradient(top, #cb232e, #cb232e);
+    background-image: -ms-linear-gradient(top, #cb232e, #cb232e);
+    background-image: -o-linear-gradient(top, #cb232e, #cb232e);
+    color: #FFFFFF;
+    -webkit-box-shadow: 0px 0px 3px rgba(0,0,0,0.3);
+    -moz-box-shadow: 0px 0px 3px rgba(0,0,0,0.3);
+    box-shadow: 0px 0px 3px rgba(0,0,0,0.3);
+}
+
+.ribbon-green:before, .ribbon-green:after {
+    content: "";
+    border-top: 3px solid #6e8900;
+    border-left: 3px solid transparent;
+    border-right: 3px solid transparent;
+    position: absolute;
+    bottom: -3px;
+}
+
+.ribbon-green:before {
+    left: 0;
+}
+
+.ribbon-green:after {
+    right: 0;
+}
+
+​
+
+.ribbon-wrapper-green {
+    margin-right: 32%;
+}
+
+/* above ribbon */
+
+@media screen and (min-width: 767px) {
+    .ribbon {
+        display: none;
+    }
+}
+
+.ribbon {
+    font-size: 15px !important;
+    /* This ribbon is based on a 16px font side and a 24px vertical rhythm. I've used em's to position each element for scalability. If you want to use a different font size you may have to play with the position of the ribbon elements */
+    width: 32%;
+    position: relative;
+    background: #cb232e;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 1em 2em; /* Adjust to suit */
+    margin: 2em auto 3em; /* Based on 24px vertical rhythm. 48px bottom margin - normally 24 but the ribbon 'graphics' take up 24px themselves so we double it. */
+}
+
+.ribbon:before, .ribbon:after {
+    content: "";
+    position: absolute;
+    display: block;
+    bottom: -1em;
+    border: 1.5em solid #c6050f;
+    z-index: -1;
+}
+
+.ribbon:before {
+    left: -2em;
+    border-right-width: 1.5em;
+    border-left-color: transparent;
+}
+
+.ribbon:after {
+    right: -2em;
+    border-left-width: 1.5em;
+    border-right-color: transparent;
+}
+
+.ribbon .ribbon-content:before, .ribbon .ribbon-content:after {
+    content: "";
+    position: absolute;
+    display: block;
+    border-style: solid;
+    border-color: #b7030c transparent transparent transparent;
+    bottom: -1em;
+}
+
+.ribbon .ribbon-content:before {
+    left: 0;
+    border-width: 1em 0 0 1em;
+}
+
+.ribbon .ribbon-content:after {
+    right: 0;
+    border-width: 1em 1em 0 0;
+}
+
+/* isotope css */
+
+ul#filters {
+    float: left;
+    margin-top: 18px;
+    margin-left: 10px;
+}
+
+ul#filters li {
+    float: left;
+    position: relative;
+    list-style: none;
+    padding: 0 10px;
+    color: #666;
+    font-size: 18px;
+    font-family: Times New Roman, Times, Serif;
+    border-right: 1px solid #bbb;
+}
+
+ul#filters li:last-child {
+    border-right: none;
+}
+
+ul#filters li a {
+    color: #666;
+    border-bottom: none;
+}
+
+.alumnis {
+    list-style: none;
+    position: relative;
+    margin: 0 0 20px 10px;
+    padding: 0;
+}
+
+.alumnis li {
+    float: left;
+    margin: 10px;
+    background: #fff;
+    padding: 8px;
+    position: relative;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.3);
+}
+
+.alumnis li a,
+.alumnis li a img {
+    position: relative;
+    width: 200px;
+    height: 200px;
+}
+
+.alumnis li a {
+    overflow: hidden;
+}
+
+.alumnis li a div {
+    position: absolute;
+    background: #333;
+    background: rgba(213, 1, 1, 0.8);
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+.alumnis li a div > span.name {
+    display: block;
+    padding: 10px 0;
+    margin: 40px 20px 20px 20px;
+    font-size: 16px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: rgba(255,255,255,0.9);
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+    border-bottom: 1px solid rgba(255,255,255,0.5);
+    box-shadow: 0 1px 0 rgba(0,0,0,0.1), 0 -10px 0 rgba(255,255,255,0.3);
+}
+
+.alumnis li a div > span.name > .company {
+    font-style: italic;
+    font-size: 12px;
+    font-weight: normal;
+}
+
+.alumnis li a div > span.view-bio {
+    text-transform: none;
+    color: rgba(255,255,255,0.9);
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.title h2 {
+    font-weight: 100;
+    color: #666;
+    font-size: 28px;
+    margin: 5px 0;
+    float: left;
+}
+
+.container > .content > .row > .col-xs-12 > .title {
+    display: inline-block;
+    float: right;
+}
+
+.container > .content > .row > .col-xs-12 > .title h2 {
+    display: inline-block;
+    padding-right: 10px;
+    margin: 0px;
+}
+
+.container > .content > .row > .col-xs-12 > .title h2 .link {
+    max-height: 50px;
+    display: inline;
+    padding: 5px;
+    float: left;
+    display: inline;
+    width: match-child;
+}
+
+.btn-group > a {
+    width: 77px !important;
+    height: 34px !important;
+}
+
+/**** Isotope Filtering ****/
+
+.isotope-item {
+    z-index: 2;
+}
+
+.isotope-hidden.isotope-item {
+    pointer-events: none;
+    z-index: 1;
+}
+
+/**** Isotope CSS3 transitions ****/
+
+.isotope,
+.isotope .isotope-item {
+    -webkit-transition-duration: 0.8s;
+    -moz-transition-duration: 0.8s;
+    -ms-transition-duration: 0.8s;
+    -o-transition-duration: 0.8s;
+    transition-duration: 0.8s;
+}
+}

@@ -49,7 +49,7 @@ academy-app: "/academy/apply"
 instructors: "/instructors"
 notes: "/learn/notes"
 tutorials: "/learn/tutorials"
-alumni: "/learn/alumni"
+alumni: "/alumni"
 instructors: "/learn/instructors"
 
 # Fellowship links
