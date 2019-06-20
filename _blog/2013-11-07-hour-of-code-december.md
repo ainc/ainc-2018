@@ -1,7 +1,7 @@
 ---
 title: How To Change Your Life In Just One Hour This December
 date: 2013-11-07 00:00:00 Z
-header_img: "/images/startup-panel.jpg"
+header_img: "/images/startup-panel-min.jpg"
 author_img: "/images/teamalpha/nicksuch_wall.png"
 author: Nick Such
 tags:
