@@ -246,8 +246,9 @@
         margin-left: 0;
         width: 100%;
         span {
-          @include font-size(10);
+          @include font-size(9);
           font-weight: 500;
+          letter-spacing: 1px;
         }
       }
     }
