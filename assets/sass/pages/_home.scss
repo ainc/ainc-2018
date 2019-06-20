@@ -28,16 +28,34 @@
 }
 
 #lgx-core-values {
-  .lgx-video-area {
-    .lgx-vertical {
-      text-align: left;
-      a {
-        img {
-          height: 175px;
+  .lgx-inner {
+    .col-md-7 {
+      .lgx-video-area {
+        .lgx-vertical {
+          text-align: left;
+          @include screen-tablet-max {
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+          }
+          a {
+            img {
+              height: 175px;
+              @include screen-xs {
+                height: 135px;
+              }
+            }
+          }
+          #video-btn {
+            margin-right: 40px;
+          }
         }
       }
-      #video-btn {
-        margin-right: 40px;
+    }
+    .col-md-5 {
+      margin-top: 130px;
+      img {
+        max-height: 500px;
       }
     }
   }
