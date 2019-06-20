@@ -29,6 +29,11 @@
         margin-top: 5px;
         padding: 0.05rem 0.5rem;
       }
+      &:hover {
+        background: $brand-color;
+        border-color: $brand-color;
+        color: $brand-color3;
+      }
     }
     .inline-block {
       @include screen-xs {
