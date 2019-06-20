@@ -25,6 +25,36 @@ redirect_from:
   </div><!-- container -->
 </section>
 
+<!-- accomplishments -->
+<section id="accomplishments">
+  <div class="lgx-inner">
+    <div class="container">
+      <div class="lgx-heading-area">
+        <div class="lgx-heading lgx-heading-white">
+          <h2 class="heading-title">What We Accomplished in 2018</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12 col-sm-4">
+          <a href="{{ site.data.routes.learn }}">
+            <img class="img-responsive align-right" src="/images/lines-of-code.png" alt="120,000 lines of student code written with the Awesome Inc U coding school" />
+          </a>
+        </div>
+        <div class="col-xs-12 col-sm-4">
+          <a href="{{ site.data.routes.fellowship }}">
+            <img class="img-responsive" src="/images/companies-served.png" alt="75 companies served with the Awesome Inc Fellowship program" />
+          </a>
+        </div>
+        <div class="col-xs-12 col-sm-4">
+          <a href="{{ site.data.routes.workspace }}">
+            <img class="img-responsive align-left" src="/images/events-hosted.png" alt="159 Events and 3784 attendees hosted at Awesome Inc workspace"/>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
 <!-- What We Do -->
 <section id="what-we-do">
   <div id="learn-more-what-we-do">
@@ -116,32 +146,69 @@ redirect_from:
   </div>
 </section>
 
-<section id="accomplishments">
-  <div class="lgx-inner">
-    <div class="container">
-      <div class="lgx-heading-area">
-        <div class="lgx-heading lgx-heading-white">
-          <h2 class="heading-title">What We Accomplished in 2018</h2>
+<section id="meet-the-team">
+  <div id="team-section">
+    <div class="lgx-inner">
+      <div class="container">
+        <div class="lgx-heading-area">
+          <div class="lgx-heading lgx-heading-white">
+            <h2 class="heading-title text-shadow">Meet the Team</h2>
+          </div>
         </div>
-      </div>
-      <div class="row">
-        <div class="col-xs-12 col-sm-4">
-          <a href="{{ site.data.routes.learn }}">
-            <img class="img-responsive align-right" src="/images/lines-of-code.png" alt="120,000 lines of student code written with the Awesome Inc U coding school" />
-          </a>
-        </div>
-        <div class="col-xs-12 col-sm-4">
-          <a href="{{ site.data.routes.fellowship }}">
-            <img class="img-responsive" src="/images/companies-served.png" alt="75 companies served with the Awesome Inc Fellowship program" />
-          </a>
-        </div>
-        <div class="col-xs-12 col-sm-4">
-          <a href="{{ site.data.routes.workspace }}">
-            <img class="img-responsive align-left" src="/images/events-hosted.png" alt="159 Events and 3784 attendees hosted at Awesome Inc workspace"/>
-          </a>
-        </div>
-      </div>
+        <div class="row seven-cols">
+          <div class="col-xs-12 col-sm-10 col-sm-offset-1">
+            {% for member in site.data.internal-team %}
+            <div class="col-xs-6 col-md-1 lgx-single-item team-member">
+              <figure>
+                <img src="/images/teamalpha/{{ member.name | remove: ' ' | downcase  }}-wall.jpg" alt="Awesome Inc team member, {{ member.name }}" />
+                <figcaption>
+                  <div class="name-hover">
+                    <h6 class="lgx-vertical">{{ member.name | truncatewords: 1, "" }}</h6>
+                  </div>
+                </figcaption>
+              </figure>
+            </div>
+            {% endfor %}
+          </div>
+        </div> <!-- row -->
+      </div> <!-- container -->
+    </div> <!-- lgx-inner -->
+  </div>
+</section>
+
+<!-- Social Section -->
+<section id="social-media">
+  <div id="social-section">
+    <div class="lgx-inner">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-6 col-sm-6 col-md-3 col-md-offset-3">
+            <img src="/images/social-media-phone.gif" class="img-responsive pull-right" alt="Awesome Inc Social Media"/>
+          </div>
+          <div class="col-xs-6 col-sm-5 col-md-3">
+            <div class="lgx-heading">
+              <h3 class="heading-title">Let's Be Friends!</h3>
+              <h5 class="heading-subtitle"> - Find us on social media - </h5>
+            </div>
+            <ul class="list-inline text-center">
+              <li><a href="{{ site.data.routes.twitter }}"><i class="fa fa-twitter"></i></a></li>
+              <li><a href="{{ site.data.routes.facebook }}"><i class="fa fa-facebook-f"></i></a></li>
+              <li><a href="{{ site.data.routes.linkedin }}"><i class="fa fa-linkedin"></i></a></li>
+              <li><a href="{{ site.data.routes.instagram }}"><i class="fa fa-instagram"></i></a></li>
+              <li><a href="{{ site.data.routes.youtube }}"><i class="fa fa-youtube-play"></i></a></li>
+            </ul>
+          </div>
+        </div> <!-- row -->
+      </div> <!-- container -->
+    </div> <!-- lgx-inner -->
+    <div id="social-section-triangle">
+      <svg viewbox="0 0 100 100" preserveAspectRatio="none">
+        <polygon points="0,100 51,101 50,0"></polygon> 
+        <!-- middle value is 51 because of bleeding on smaller devices -->
+        <polygon points="100,100 50,100 50,0"></polygon>
+      </svg>
     </div>
   </div>
 </section>
+  
 

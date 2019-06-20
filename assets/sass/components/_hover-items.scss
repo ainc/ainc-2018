@@ -78,6 +78,21 @@
   // border: 1px solid $border-color;
   @include transition-duration($duration: 0.3s);
   margin-top: 10px;
+  &.team-member figcaption {
+    border-radius: 50%;
+    padding: 0 1rem 0 1rem;
+    width: 100%;
+    .name-hover {
+      display: table;
+      width: 100%;
+      height: 100%;
+      .lgx-vertical {
+        display: table-cell;
+        vertical-align: middle;
+        text-align: center;
+      }
+    }
+  }
   figure {
     position: relative;
     a {
@@ -161,9 +176,6 @@
           top: -1rem;
         }
       }
-      .rule {
-        
-      }
       .text {
         margin-bottom: 2rem;
         margin-left: 2rem;
@@ -238,6 +250,9 @@
         bottom: 0;
       }
     }
+  }
+  &.team-member:hover {
+    box-shadow: none;
   }
 }
 
