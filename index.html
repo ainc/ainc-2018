@@ -197,39 +197,46 @@ page_id: home
               </div>
               <div class="lgx-video-banner-info">
                 <p class="text">Here at Awesome Inc we not only work by our core values, but live by them too.</p>
-                <a class="lgx-btn lgx-btn-anim lgx-btn-grey" href="{{ site.data.routes.culture-book }}" target="_blank" rel="noopener">View our culture book</a>
+              </div>
+              <div class="lgx-video-area">
+                <figure>
+                  <figcaption>
+                    <div class="video-icon">
+                      <div class="lgx-vertical">
+                        <!-- <a id="myModalLabel" class="icon" href="#" data-toggle="modal" data-target="#lgx-modal">
+                          <i class="fa fa-play" aria-hidden="true"></i>
+                        </a>
+                        <p id="watch-cv-video">Watch Video</p> -->
+                        <!-- <a id="video-btn" class="lgx-btn lgx-btn-anim lgx-btn-grey" href="#" data-toggle="modal" data-target="#lgx-modal">Watch Video</a>
+                        <a class="lgx-btn lgx-btn-anim lgx-btn-grey" href="{{ site.data.routes.culture-book }}" target="_blank" rel="noopener">View our culture book</a> -->
+                        <a id="video-btn" href="#" data-toggle="modal" data-target="#lgx-modal">
+                          <img src="images/Video_Button.png">
+                        </a>
+                        <a id="culture-book-btn" href="{{ site.data.routes.culture-book }}" target="_blank" rel="noopener">
+                          <img src="images/CultureBook_Button.png">
+                        </a>
+                      </div>
+                    </div>
+                  </figcaption>
+                </figure>
+                <!-- Modal-->
+                <div id="lgx-modal" class="modal fade lgx-modal">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                      </div>
+                      <div class="modal-body">
+                        <iframe id="modalvideo" src="https://www.youtube.com/embed/3dylpY4W_xA" allowfullscreen></iframe>
+                      </div>
+                    </div>
+                  </div>
+                </div> <!-- //.Modal-->
               </div>
             </div>
           </div>
-          <div class="col-md-5">
-            <div class="lgx-video-area">
-              <figure>
-                <figcaption>
-                  <div class="video-icon">
-                    <div class="lgx-vertical">
-                      <span>Watch</span>
-                      <a id="myModalLabel" class="icon" href="#" data-toggle="modal" data-target="#lgx-modal">
-                        <i class="fa fa-play " aria-hidden="true"></i>
-                      </a>
-                      <span>Video</span>
-                    </div>
-                  </div>
-                </figcaption>
-              </figure>
-              <!-- Modal-->
-              <div id="lgx-modal" class="modal fade lgx-modal">
-                <div class="modal-dialog">
-                  <div class="modal-content">
-                    <div class="modal-header">
-                      <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-                    </div>
-                    <div class="modal-body">
-                      <iframe id="modalvideo" src="https://www.youtube.com/embed/3dylpY4W_xA" allowfullscreen></iframe>
-                    </div>
-                  </div>
-                </div>
-              </div> <!-- //.Modal-->
-            </div>
+          <div class="col-md-5 text-center">
+            <img src="images/SmallCoreValues.png">
           </div>
         </div>
       </div><!-- //.CONTAINER -->
@@ -457,6 +464,14 @@ page_id: home
                 </div><!-- SINGLE COURSE -->
               </div><!--//ITEM-->
               <!-- END COURSE -->
+            </div>
+          </div><!--//. ROW-->
+
+          <div class="row">
+            <div class="col-xs-12">
+              <div class="lgx-button-wrapper">
+                <a class="lgx-btn lgx-btn-anim lgx-btn-grey-light" href="/learn">Learn More</a>
+              </div>
             </div>
           </div><!--//. ROW-->
         </div>

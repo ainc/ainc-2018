@@ -27,6 +27,40 @@
   }
 }
 
+#lgx-core-values {
+  .lgx-inner {
+    .col-md-7 {
+      .lgx-video-area {
+        .lgx-vertical {
+          text-align: left;
+          @include screen-tablet-max {
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+          }
+          a {
+            img {
+              height: 175px;
+              @include screen-xs {
+                height: 135px;
+              }
+            }
+          }
+          #video-btn {
+            margin-right: 40px;
+          }
+        }
+      }
+    }
+    .col-md-5 {
+      margin-top: 130px;
+      img {
+        max-height: 500px;
+      }
+    }
+  }
+}
+
 #lgx-events {
   .lgx-featured-event {
     img {
@@ -49,6 +83,15 @@
       object-fit: cover;
       height: 118px;
       width: 118px;
+    }
+  }
+}
+
+#learn-to-code {
+  .lgx-button-wrapper {
+    text-align: center;
+    a {
+      margin-top: 12px;
     }
   }
 }
