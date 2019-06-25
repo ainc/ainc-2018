@@ -181,13 +181,13 @@
     top: 2rem;
     right: 4.5rem;
     @include screen-xs {
-      right: 0;
-      top: 12rem;
+      top: 80%;
+      left: 37%;
     }
     img {
       width: 100px;
       @include screen-xs {
-        width: 70px;
+        width: 120px;
       }
     }
   }
@@ -252,12 +252,20 @@
     @include screen-tablet-max {
       background-image: none;
     }
+    .container {
+      @include screen-xs {
+        padding-bottom: 125px;
+      }
+    }
   }
   h4 {
     @include font-size(22);
   }
   #desk-bg {
     background-image: url("../../images/icons/workspace-desk-bg-red.png");
+    @include screen-xs {
+      background-image: none;
+    }
     background-position: 50% 30%;
     background-size: 33%;
     background-repeat: no-repeat;
