@@ -26,12 +26,12 @@ redirect_from:
                 
               <div class="lgx-single-event">
                 <div class="thumb">
-                  <a href="{{ event.eventbrite_id | default: '#' }}"><img src="{{ event.image_url }}" alt="{{ event.title }}"></a>
+                  <a target="_blank" href="{{ event.eventbrite_url | default: '#' }}"><img src="{{ event.image_url }}" alt="{{ event.title }}"></a>
                 </div>
                 <div class="event-info">
-                  <a class="date" href="{{ event.eventbrite_id | default: '#' }}">{{ event.date | date: '%B %-d, %Y' }}</a>
+                  <a target="_blank" class="date" href="{{ event.eventbrite_url | default: '#' }}">{{ event.date | date: '%B %-d, %Y' }}</a>
                   <h4 class="location">{{ event.location }}</h4>
-                  <h3 class="title"><a href="{{ event.eventbrite_id | default: '#' }}">{{ event.title }}</a></h3>
+                  <h3 class="title"><a target="_blank" href="{{ event.eventbrite_url | default: '#' }}">{{ event.title }}</a></h3>
                 </div>
               </div>
             </div>
