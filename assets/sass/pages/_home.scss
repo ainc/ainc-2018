@@ -28,9 +28,32 @@
 }
 
 #lgx-core-values {
+  @include screen-tablet-max {
+    background-size: 250%;
+  }
   .lgx-inner {
+    // @include screen-xs {
+    //   padding: 0.5rem 0;
+    // }
+    // FIXME: use font mixin for h2 and p
+    .lgx-heading-video-banner {
+      h2 {
+        font-size: 3.3rem;
+      }
+    }
+    .lgx-video-banner-info {
+      p {
+        font-size: 1.3rem;
+        @include screen-tablet-max {
+          text-align: center;
+        }
+      }
+    }
     .col-md-7 {
       .lgx-video-area {
+        @include screen-xs {
+          padding: 0;
+        }
         .lgx-vertical {
           text-align: left;
           @include screen-tablet-max {
@@ -42,7 +65,7 @@
             img {
               height: 175px;
               @include screen-xs {
-                height: 135px;
+                height: 100px;
               }
             }
           }
@@ -54,8 +77,14 @@
     }
     .col-md-5 {
       margin-top: 130px;
+      @include screen-xs {
+        margin-top: 150px;
+      }
       img {
         max-height: 500px;
+        @include screen-xs {
+          max-height: 260px;
+        }
       }
     }
   }
