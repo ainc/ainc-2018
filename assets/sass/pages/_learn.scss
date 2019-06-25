@@ -175,10 +175,11 @@
     }
     img#percent {
       position: absolute;
-      max-width: 200px;
+      max-width: 80%;
       top: -5rem;
       left: 5rem;
       @include screen-xs {
+        max-width: 60%;
         position: relative;
         top: 0;
         left: 0;
