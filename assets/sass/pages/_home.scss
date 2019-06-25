@@ -32,9 +32,9 @@
     background-size: 250%;
   }
   .lgx-inner {
-    // @include screen-xs {
-    //   padding: 0.5rem 0;
-    // }
+    @include screen-tablet-max {
+      padding: 4rem 0;
+    }
     // FIXME: use font mixin for h2 and p
     .lgx-heading-video-banner {
       h2 {
