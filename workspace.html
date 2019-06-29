@@ -58,9 +58,12 @@ page_id: workspace
                       <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
                     </div>
                     <div class="modal-body">
-                      <iframe id="modalvideo" src="https://www.youtube.com/embed/0YgGYadr7rk" allowfullscreen></iframe>
+                        <!-- Lazy Load video- https://webdesign.tutsplus.com/tutorials/how-to-lazy-load-embedded-youtube-videos--cms-26743-->
+                        <!-- JS: custom.youtube.js , CSS in _modal.scss-->
+                        <div class="youtube" data-embed="0YgGYadr7rk">
+                            <div class="play-button"></div>
+                        </div>
                     </div>
-                  </div>
                 </div>
               </div> <!-- //.Modal-->
             </div><!--//.VIDEO-AREA-->
