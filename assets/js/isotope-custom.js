@@ -9,7 +9,7 @@ $(document).ready(function(){
 
   	$alumni.isotope({
   	  itemSelector : '.bootcampAlumni',
-			layoutMode : 'fitRows'
+            layoutMode: 'fitRowsCentered'
   	});
 
   	$('#filters a').on("click", function(){
