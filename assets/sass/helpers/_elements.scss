@@ -387,7 +387,7 @@ img {
   &::before {
     content: "";
     position: absolute;
-    z-index: 99;
+    z-index: 1;
   }
 }
 .offset-border-bottom-right {
