@@ -21,7 +21,7 @@ permalink: "mentors/"
           <div class="col-xs-6 col-sm-4 col-md-3">
             <div class="lgx-single-item"> <!--lgx-team-circle-->
               <figure>
-                <img src="{% if mentor.picture %}{{ mentor.picture }}{% else %}http://via.placeholder.com/600x708{% endif %}" alt="{{ mentor.name }}"/>
+                <img src="{{ mentor.picture | default: '/images/logos/ainc-logo-triangle-layer-red.png' }}" alt="{{ mentor.name }}"/>
                 <figcaption>
                   <h3 class="item-name">
                     {% if mentor.linkedin %}
