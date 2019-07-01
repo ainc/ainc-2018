@@ -2,7 +2,7 @@
 title: First Bootcamp Success, 2017 Sessions Announced
 date: 2016-12-21 00:00:00 Z
 header_img: "/images/blog/bootcamp-f16-demo-presentation.jpg"
-author_img: "/images/teamalpha/nicksuch_wall.png"
+author_img: "/images/teamalpha/nicksuch-wall.jpg"
 author: Nick Such
 tags:
 - learntocode

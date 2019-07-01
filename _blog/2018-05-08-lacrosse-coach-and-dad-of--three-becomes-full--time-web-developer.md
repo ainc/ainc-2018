@@ -2,7 +2,7 @@
 title: Lacrosse Coach and Dad-Of-Three Becomes Full-Time Web Developer
 date: 2018-05-08 00:00:00 Z
 header_img: "/images/blog/josh-stewart-and-family.jpg"
-author_img: "/images/teamalpha/rossladenburger_wall.png"
+author_img: "/images/teamalpha/rossladenburger-wall.jpg"
 author: Ross Ladenburger
 tags:
 - learntocode

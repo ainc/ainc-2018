@@ -2,7 +2,7 @@
 title: From The Trenches - Bootcamp F16 Update
 date: 2016-09-29 00:00:00 Z
 header_img: "/images/blog/bootcamp-f16-roundtable.jpg"
-author_img: "/images/teamalpha/nicksuch_wall.png"
+author_img: "/images/teamalpha/nicksuch-wall.jpg"
 author: Nick Such
 tags:
 - learntocode

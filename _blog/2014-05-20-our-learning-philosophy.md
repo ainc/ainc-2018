@@ -2,7 +2,7 @@
 title: Our Learning Philosophy at Awesome Inc U
 date: 2014-05-20 00:00:00 Z
 header_img: "/images/blog/philosophy-instructors.jpg"
-author_img: "/images/teamalpha/nicksuch_wall.png"
+author_img: "/images/teamalpha/nicksuch-wall.jpg"
 author: Nick Such
 tags:
 - learntocode

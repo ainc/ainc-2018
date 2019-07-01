@@ -2,7 +2,7 @@
 title: What We Look For In A Bootcamp Student
 date: 2018-11-01 00:00:00 Z
 header_img: "/images/blog/quality-bootcamp-students.jpg"
-author_img: "/images/teamalpha/nicksuch_wall.png"
+author_img: "/images/teamalpha/nicksuch-wall.jpg"
 author: Nick Such
 tags:
 - bootcamp
