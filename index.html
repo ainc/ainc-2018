@@ -219,10 +219,10 @@ page_id: home
                         <!-- <a id="video-btn" class="lgx-btn lgx-btn-anim lgx-btn-grey" href="#" data-toggle="modal" data-target="#lgx-modal">Watch Video</a>
                         <a class="lgx-btn lgx-btn-anim lgx-btn-grey" href="{{ site.data.routes.culture-book }}" target="_blank" rel="noopener">View our culture book</a> -->
                         <a id="video-btn" href="#" data-toggle="modal" data-target="#lgx-modal">
-                          <img src="images/Video_Button.png">
+                          <img class="lazyload" data-src="images/Video_Button.png">
                         </a>
                         <a id="culture-book-btn" href="{{ site.data.routes.culture-book }}" target="_blank" rel="noopener">
-                          <img src="images/CultureBook_Button.png">
+                          <img class="lazyload" data-src="images/CultureBook_Button.png">
                         </a>
                       </div>
                     </div>
@@ -245,7 +245,7 @@ page_id: home
             </div>
           </div>
           <div class="col-md-5 text-center">
-            <img src="images/SmallCoreValues.png">
+            <img class="lazyload" data-src="images/SmallCoreValues.png">
           </div>
         </div>
       </div><!-- //.CONTAINER -->
@@ -284,7 +284,7 @@ page_id: home
                   <div class="lgx-featured-event">
                     <figure>
                       <a href="{{ feature_event.eventbrite_url }}">
-                        <img src="{{ feature_event.image_url }}" alt="featured event">
+                        <img class="lazyload" data-src="{{ feature_event.image_url }}" alt="featured event">
                       </a>
                       <figcaption>
                         <div class="figcaption">
@@ -365,7 +365,7 @@ page_id: home
                 <div class="lgx-single-course">
                   <div class="lgx-single-course-inner">
                     <figure>
-                      <img src="/images/instructor-teaching-coding.jpg" alt="course">
+                      <img class="lazyload" data-src="/images/instructor-teaching-coding.jpg" alt="course">
                       <figcaption>
                         <div class="lgx-hover-link">
                           <div class="lgx-vertical">
@@ -378,7 +378,7 @@ page_id: home
                     </figure>
                     <div class="course-info">
                       <div class="course-author">
-                        <img src="/images/icons/coding-club.png" alt="course">
+                        <img class="lazyload" data-src="/images/icons/coding-club.png" alt="course">
                         <div class="author-info">
                           <h4 class="title uppercase"><a href="{{ site.data.routes.club }}">Coding Club</a></h4>
                           <h5 class="subtitle uppercase">Beginner</h5>
@@ -416,7 +416,7 @@ page_id: home
                     </figure>
                     <div class="course-info">
                       <div class="course-author">
-                        <img src="/images/icons/coding-league.png" alt="course">
+                        <img class="lazyload" data-src="/images/icons/coding-league.png" alt="course">
                         <div class="author-info">
                           <h4 class="title uppercase"><a href="{{ site.data.routes.league }}">Coding League</a></h4>
                           <h5 class="subtitle uppercase">Intermediate</h5>
@@ -441,7 +441,7 @@ page_id: home
                 <div class="lgx-single-course">
                   <div class="lgx-single-course-inner">
                     <figure>
-                      <img src="/images/student-learning-data-structures.jpg" alt="course">
+                      <img class="lazyload" data-src="/images/student-learning-data-structures.jpg" alt="course">
                       <figcaption>
                         <div class="lgx-hover-link">
                           <div class="lgx-vertical">
@@ -454,7 +454,7 @@ page_id: home
                     </figure>
                     <div class="course-info">
                       <div class="course-author">
-                        <img src="/images/icons/the-academy.png" alt="course">
+                        <img class="lazyload" data-src="/images/icons/the-academy.png" alt="course">
                         <div class="author-info">
                           <h4 class="title uppercase"><a href="{{ site.data.routes.academy }}">The Academy</a></h4>
                           <h5 class="subtitle uppercase">Advanced</h5>
