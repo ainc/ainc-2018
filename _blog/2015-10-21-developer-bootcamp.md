@@ -2,7 +2,7 @@
 title: Launching The Bootcamp
 date: 2015-10-21 00:00:00 Z
 header_img: "/images/blog/bootcamp-screenshot.png"
-author_img: "/images/teamalpha/nicksuch_wall.png"
+author_img: "/images/teamalpha/nicksuch-wall.jpg"
 author: Nick Such
 tags:
 - learntocode

@@ -2,7 +2,7 @@
 title: New Part-Time Course for Adults - Intro to Web
 date: 2017-11-15 00:00:00 Z
 header_img: "/images/blog/intro-to-web-development-awesome-inc.jpg"
-author_img: "/images/teamalpha/nicksuch_wall.png"
+author_img: "/images/teamalpha/nicksuch-wall.jpg"
 author: Nick Such
 tags:
 - learntocode

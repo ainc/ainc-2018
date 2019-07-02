@@ -2,7 +2,7 @@
 title: Pong Tutorial Updated to Unity 5
 date: 2016-07-18 00:00:00 Z
 header_img: "/images/blog/pong_updated_unity_5.png"
-author_img: "/images/teamalpha/nicksuch_wall.png"
+author_img: "/images/teamalpha/nicksuch-wall.jpg"
 author: Nick Such
 tags:
 - learntocode

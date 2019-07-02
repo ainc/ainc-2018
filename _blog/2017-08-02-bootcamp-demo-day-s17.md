@@ -2,7 +2,7 @@
 title: Demo Day - Bootcamp S17
 date: 2017-08-02 00:00:00 Z
 header_img: "/images/blog/bootcamp-s17-door.jpg"
-author_img: "/images/teamalpha/nicksuch_wall.png"
+author_img: "/images/teamalpha/nicksuch-wall.jpg"
 author: Nick Such
 tags:
 - learntocode

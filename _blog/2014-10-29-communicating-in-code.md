@@ -2,7 +2,7 @@
 title: Communicating in Code
 date: 2014-10-29 00:00:00 Z
 header_img: "/images/blog/communicating-football.png"
-author_img: "/images/teamalpha/nicksuch_wall.png"
+author_img: "/images/teamalpha/nicksuch-wall.jpg"
 author: Nick Such
 tags:
 - learntocode

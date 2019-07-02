@@ -2,7 +2,7 @@
 title: 5 Reasons Why Everyone Should Learn To Code
 date: 2013-08-16 00:00:00 Z
 header_img: "/images/blog/hour-of-code-promo.jpg"
-author_img: "/images/teamalpha/nicksuch_wall.png"
+author_img: "/images/teamalpha/nicksuch-wall.jpg"
 author: Nick Such
 tags:
 - learntocode

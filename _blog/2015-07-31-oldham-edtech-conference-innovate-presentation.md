@@ -2,7 +2,7 @@
 title: Oldham County EdTech Conference Presentation
 date: 2015-07-31 00:00:00 Z
 header_img: "/images/blog/oldham-coding-presentation.png"
-author_img: "/images/teamalpha/nicksuch_wall.png"
+author_img: "/images/teamalpha/nicksuch-wall.jpg"
 author: Nick Such
 tags:
 - learntocode

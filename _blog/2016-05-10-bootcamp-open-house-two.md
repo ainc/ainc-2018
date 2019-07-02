@@ -2,7 +2,7 @@
 title: 'Bootcamp Open House #2'
 date: 2016-05-10 00:00:00 Z
 header_img: "/images/blog/bootcamp-openhouse-1.jpg"
-author_img: "/images/teamalpha/nicksuch_wall.png"
+author_img: "/images/teamalpha/nicksuch-wall.jpg"
 author: Nick Such
 tags:
 - learntocode

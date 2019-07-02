@@ -122,6 +122,9 @@
       polygon {
         fill: $brand-color2;
       }
+      @include screen-max {
+        height: 20vh;
+      }
       @include screen-tablet-max {
         height: 14vh;
         top: -14vh;

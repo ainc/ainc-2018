@@ -2,7 +2,7 @@
 title: A New Year's Resolution You Can Keep
 date: 2018-02-23 00:00:00 Z
 header_img: "/images/blog/new-years-keep-intro.jpg"
-author_img: "/images/teamalpha/aayatali_wall.png"
+author_img: "/images/teamalpha/aayatali-wall.jpg"
 author: Aayat Ali
 tags:
 - learntocode

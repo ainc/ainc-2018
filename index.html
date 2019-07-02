@@ -14,7 +14,10 @@ page_id: home
             <div class="col-sm-12g">
               <div class="slider-text-single">
                 <figure>
-                  <img src="images/hero-image-1.jpg" alt="Start something awesome with awesome inc"/>
+                  <picture>
+                    <source type="image/webp" srcset="images/hero-image-1.webp">
+                    <img src="images/hero-image-1-min.jpg" alt="Start something awesome with awesome inc"/>
+                  </picture>
                   <figcaption>
                     <div class="lgx-container">
                       <div class="lgx-hover-link">
@@ -41,7 +44,10 @@ page_id: home
             <div class="col-sm-12g">
               <div class="slider-text-single">
                 <figure>
-                  <img src="images/hero-image-2.jpg" alt="Start something awesome with awesome inc"/>
+                  <picture>
+                    <source type="image/webp" srcset="images/hero-image-2.webp">
+                    <img src="images/hero-image-2-min.jpg" alt="Start something awesome with awesome inc"/>
+                  </picture>
                   <figcaption>
                     <div class="lgx-container">
                       <div class="lgx-hover-link">
@@ -68,7 +74,10 @@ page_id: home
               <div class="col-sm-12g">
                 <div class="slider-text-single">
                   <figure>
-                    <img src="images/hero-image-3.jpg" alt="Start something awesome with awesome inc"/>
+                    <picture>
+                      <source type="image/webp" srcset="images/hero-image-3.webp">
+                      <img src="images/hero-image-3-min.jpg" alt="Start something awesome with awesome inc"/>
+                    </picture>
                     <figcaption>
                       <div class="lgx-container">
                         <div class="lgx-hover-link">
@@ -628,182 +637,26 @@ page_id: home
           <div class="col-xs-12">
             <div class="lgx-heading lgx-heading-white">
               <h2 class="heading-title">Blog</h2>
-              <h4 class="heading-subtitle">Latest Posts</h4>
             </div>
           </div>
-        </div>
-        <!--//.ROW-->
+        </div><!--//.ROW-->
         <div class="row">
-          <div id="lgx-owlblog" class="owl-carousel lgx-owlblog">
-
-            <div class="item">
-              <!--News-single-->
-              <div class="lgx-blog-single">
-                <figure>
-                  <img src="http://via.placeholder.com/600x472" alt="Adv" title="Adv"/>
-                  <figcaption>
-                    <div class="figcaption">
-                      <div class="lgx-hover-link">
-                        <div class="lgx-vertical">
-                          <a href="news-single.html"><i class="fa fa-book"></i></a>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="author">
-                      <div class="author-info">
-                        <img src="http://via.placeholder.com/350x350" alt="author">
-                        <div class="author-info">
-                          <h4 class="title"><a href="#">Jonathon Doe</a></h4>
-                          <h5 class="subtitle">Lecturar of Education</h5>
-                        </div>
-                      </div>
-                    </div>
-                  </figcaption>
-                </figure>
-                <div class="text-area">
-                  <h3 class="title"><a href="news-single.html">The 10 best educational websites apps to learn new stuff for free</a></h3>
-                  <p class="text">Lorem ipsum dolor sit amet, consectetuer adir elit. Aenean commodo ligula eget ...</p>
-                  <div class="hits-area">
-                    <span class="date"></span>
+          <div class="col-sm-12">
+            <div class="lgx-subscriber-area">
+              <h4 class="title">Don’t miss any updates of our new templates and extensions and all the astonishing offers we bring for you.</h4>
+              <div class="lgx-subscriber">
+                <form name="Blog Signup" method="POST" data-netlify="true" class="subscribe-form" >
+                  <div class="form-group">
+                    <input name="email" type="email" id="subscribe" placeholder="Ex: yourname@gmail.com" class="form-control lgx-input-form form-control" />
                   </div>
-                  <div class="text-bottom">
-                    <a class="date" href="#">25 July 2016</a>
-                    <a class="link" href="news-single.html"><i class="fa  fa-long-arrow-right" aria-hidden="true"></i></a>
+                  <div class="form-group">
+                    <button type="submit" name="lgx-submit" id="lgx-submit" class="lgx-submit the-submit-btn rippler rippler-default"><i class="fa fa-long-arrow-right" aria-hidden="true"></i></button>
                   </div>
-                </div>
-              </div> <!--//.News-single-->
-            </div> <!--//.Item-->
-            <div class="item">
-              <!--News-single-->
-              <div class="lgx-blog-single">
-                <figure>
-                  <img src="http://via.placeholder.com/600x472" alt="Adv" title="Adv"/>
-                  <figcaption>
-                    <div class="figcaption">
-                      <div class="lgx-hover-link">
-                        <div class="lgx-vertical">
-                          <a href="news-single.html"><i class="fa fa-book"></i></a>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="author">
-                      <div class="author-info">
-                        <img src="http://via.placeholder.com/350x350" alt="author">
-                        <div class="author-info">
-                          <h4 class="title"><a href="#">Riazul Islam</a></h4>
-                          <h5 class="subtitle">Head of Education</h5>
-                        </div>
-                      </div>
-                    </div>
-                  </figcaption>
-                </figure>
-                <div class="text-area">
-                  <h3 class="title"><a href="news-single.html">UX Education: Designing free Online Learning Curriculum</a></h3>
-                  <p class="text">Lorem ipsum dolor sit amet, consectetuer adir elit. Aenean commodo ligula eget ...</p>
-                  <div class="hits-area">
-                    <span class="date"></span>
-                  </div>
-                  <div class="text-bottom">
-                    <a class="date" href="#">25 July 2016</a>
-                    <a class="link" href="news-single.html"><i class="fa  fa-long-arrow-right" aria-hidden="true"></i></a>
-                  </div>
-                </div>
-              </div> <!--//.News-single-->
-            </div> <!--//.Item-->
-            <div class="item">
-              <!--News-single-->
-              <div class="lgx-news-single">
-                <figure>
-                  <img src="http://via.placeholder.com/600x472" alt="Adv" title="Adv"/>
-                  <figcaption>
-                    <div class="figcaption">
-                      <div class="lgx-hover-link">
-                        <div class="lgx-vertical">
-                          <a href="news-single.html"><i class="fa fa-book"></i></a>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="author">
-                      <div class="author-info">
-                        <img src="http://via.placeholder.com/350x350" alt="author">
-                        <div class="author-info">
-                          <h4 class="title"><a href="#">Jewel Jonathon</a></h4>
-                          <h5 class="subtitle">Professor of Education</h5>
-                        </div>
-                      </div>
-                    </div>
-                  </figcaption>
-                </figure>
-                <div class="text-area">
-                  <h3 class="title"><a href="news-single.html">The digital revolution in higher education has already happened</a></h3>
-                  <p class="text">Lorem ipsum dolor sit amet, consectetuer adir elit. Aenean commodo ligula eget ...</p>
-                  <div class="hits-area">
-                    <span class="date"></span>
-                  </div>
-                  <div class="text-bottom">
-                    <a class="date" href="#">25 July 2016</a>
-                    <a class="link" href="news-single.html"><i class="fa  fa-long-arrow-right" aria-hidden="true"></i></a>
-                  </div>
-                </div>
-              </div> <!--//.News-single-->
-            </div> <!--//.Item-->
-            <div class="item">
-              <!--News-single-->
-              <div class="lgx-news-single">
-                <figure>
-                  <img src="http://via.placeholder.com/600x472" alt="Adv" title="Adv"/>
-                  <figcaption>
-                    <div class="figcaption">
-                      <div class="lgx-hover-link">
-                        <div class="lgx-vertical">
-                          <a href="news-single.html"><i class="fa fa-book"></i></a>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="author">
-                      <div class="author-info">
-                        <img src="http://via.placeholder.com/350x350" alt="author">
-                        <div class="author-info">
-                          <h4 class="title"><a href="#">Devid Talukdar</a></h4>
-                          <h5 class="subtitle">Master of Education</h5>
-                        </div>
-                      </div>
-                    </div>
-                  </figcaption>
-                </figure>
-                <div class="text-area">
-                  <h3 class="title"><a href="news-single.html">I no longer understand my PhD dissertation on Education</a></h3>
-                  <p class="text">Lorem ipsum dolor amet, consectetuer adir elit. Aenean commodo ligula dolor ...</p>
-                  <div class="hits-area">
-                    <span class="date"></span>
-                  </div>
-                  <div class="text-bottom">
-                    <a class="date" href="#">25 July 2016</a>
-                    <a class="link" href="news-single.html"><i class="fa  fa-long-arrow-right" aria-hidden="true"></i></a>
-                  </div>
-                </div>
-              </div> <!--//.News-single-->
-            </div> <!--//.Item-->
-          </div><!--l//#lgx-OWL NEWS-->
-          <!--//.ROW-->
-          <div class="row">
-            <div class="col-sm-12">
-              <div class="lgx-subscriber-area">
-                <h4 class="title">Don’t miss any updates of our new templates and extensions and all the astonishing offers we bring for you.</h4>
-                <div class="lgx-subscriber">
-                  <form class="subscribe-form lgx-subscribe-form" >
-                    <div class="form-group">
-                      <input type="email" id="subscribe" placeholder="Ex: themearth@gmail.com" class="form-control lgx-input-form form-control"  />
-                    </div>
-                    <div class="form-group">
-                      <button type="submit" name="lgx-submit" id="lgx-submit" class="lgx-submit the-submit-btn rippler rippler-default"><i class="fa fa-long-arrow-right" aria-hidden="true"></i></button>
-                    </div>
-                  </form>
-                </div> <!--//.SUBSCRIBE-->
-              </div>
+                </form>
+              </div> <!--//.SUBSCRIBE-->
             </div>
           </div>
-          <!--//.ROW-->
+        </div><!--//.ROW-->
         </div>
       </div><!-- //.CONTAINER -->
     </div><!-- //.INNER -->

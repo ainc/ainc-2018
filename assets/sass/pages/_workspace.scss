@@ -8,6 +8,9 @@
     background-size: cover;
     background-position-y: 110%;
     height: 90vh;
+    .lgx-heading-area {
+      margin-top: 20vh;
+    }
     @include screen-tablet-max {
       background-position-x: 75%;
       height: 75vh;

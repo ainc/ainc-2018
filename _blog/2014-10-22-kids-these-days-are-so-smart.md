@@ -2,7 +2,7 @@
 title: Kids these days are so…
 date: 2014-10-22 00:00:00 Z
 header_img: "/images/blog/kids-so-smart.jpg"
-author_img: "/images/teamalpha/brianraney_wall.png"
+author_img: "/images/teamalpha/brianraney-wall.jpg"
 author: Brian Raney
 tags:
 - learntocode

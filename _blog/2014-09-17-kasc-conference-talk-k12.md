@@ -1,7 +1,7 @@
 ---
 title: Teaching Teachers How To Teach Coding
 date: 2014-09-17 00:00:00 Z
-author_img: "/images/teamalpha/nicksuch_wall.png"
+author_img: "/images/teamalpha/nicksuch-wall.jpg"
 author: Nick Such
 tags:
 - learntocode

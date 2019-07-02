@@ -2,7 +2,7 @@
 title: Academy Spring 2015 Recap
 date: 2015-05-12 00:00:00 Z
 header_img: "/images/blog/academy_s15_1.jpg"
-author_img: "/images/teamalpha/nicksuch_wall.png"
+author_img: "/images/teamalpha/nicksuch-wall.jpg"
 author: Nick Such
 tags:
 - learntocode

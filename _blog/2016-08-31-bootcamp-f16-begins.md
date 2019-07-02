@@ -2,7 +2,7 @@
 title: Ten Students Begin 12-Week Web Developer Bootcamp Program
 date: 2016-08-31 00:00:00 Z
 header_img: "/images/blog/bootcamp-f16-classroom.jpg"
-author_img: "/images/teamalpha/nicksuch_wall.png"
+author_img: "/images/teamalpha/nicksuch-wall.jpg"
 author: Nick Such
 tags:
 - learntocode
