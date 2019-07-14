@@ -2921,6 +2921,9 @@ return FitRows;
     var proto = FitRowsCentered.prototype;
 
     proto._resetLayout = function () {
+        // only if there is at least one row to centering
+        if (this.isotope.filteredItems.length < 1) return;
+      
         // pre-calculate offsets for centering each row
         this.x = 0;
         this.y = 0;
