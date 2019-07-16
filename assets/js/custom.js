@@ -184,3 +184,17 @@ $(document).ready(function () {
   }
 
 });
+
+function passName() {
+    var input = document.getElementById("subscribe").value;
+    localStorage.setItem("user", input);
+}
+
+$(document).ready(function () {
+    if (window.location.pathname == "/thanks") {
+        console.log("ran");
+        var username = localStorage.getItem("user");
+        $("h2").text("Thank you for subscribing " + username);
+    }
+
+});
