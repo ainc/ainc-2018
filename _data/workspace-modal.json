@@ -1,0 +1,20 @@
+[
+  {
+    "image": "/images/outside-workspace.jpg",
+    "title": "Virtual Member",
+    "price": "$75/month",
+    "body": "With a Virtual Office membership, we offer a desirable downtown mailing address as well as access to internal and external events. Hassle-free mail service is a great way to jumpstart your business, so get started today at Awesome Inc."
+  },
+  {
+    "image": "/images/ainc-workspace-header-2.jpg",
+    "title": "Open Desk Member",
+    "price": "$250/month",
+    "body": "An Open Desk Membership allows you at have 24-hour access to a quiet, yet collaborative workspace in downtown Lexington. With a membership, you will receive unlimited printing, conference room time in one of our two conference rooms and access to internal and external events."
+  },
+  {
+    "image": "/images/adult-coding-laptop.jpg",
+    "title": "Private Office Member",
+    "price": "Starting at $400/month",
+    "body": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem cupiditate facere officiis dolorum dignissimos, distinctio pariatur nesciunt fugiat quidem consectetur delectus? Necessitatibus quaerat soluta impedit amet, perspiciatis sint nemo vitae corrupti quibusdam saepe rerum itaque ipsa illo voluptatem id architecto ad animi excepturi alias, modi atque fugiat asperiores expedita quasi?"
+  }
+]

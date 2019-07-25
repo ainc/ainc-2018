@@ -6,7 +6,7 @@
         <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
       </div>
       <div class="modal-body">
-        {% if include.member == 'virtual' %} 
+        <!-- {% if include.member == 'virtual' %} 
         <img src="{{ site.data.workspace-modal.virtual_img_url }}" alt="virtual modal image">
         <div class="modal-body-content">
           <h2>Virtual Member</h2>
@@ -30,11 +30,18 @@
           <h2>Private Office Member</h2>
           <p class="price">Starting at $400/month</p>
           <div class="private-member-features">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, architecto cupiditate placeat dolores molestiae corrupti, tempore vero aut quisquam nemo numquam quo praesentium inventore pariatur?</p>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur impedit adipisci nam veniam laboriosam.</p>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem cupiditate facere officiis dolorum dignissimos, distinctio pariatur nesciunt fugiat quidem consectetur delectus? Necessitatibus quaerat soluta impedit amet, perspiciatis sint nemo vitae corrupti quibusdam saepe rerum itaque ipsa illo voluptatem id architecto ad animi excepturi alias, modi atque fugiat asperiores expedita quasi?</p>
           </div>
         </div>
-        {% endif %}
+        {% endif %} -->
+        {% for modal_data in site.data.workspace-modal %}
+          <img src="{{ modal_data.image }}" alt="{{ modal_data.title }} modal image">
+          <div class="modal-body-content">
+            <h2>{{ modal_data.title }}</h2>
+            <p class="price">{{ modal_data.price }}</p>
+              <p>{{ modal_data.body }}</p>
+          </div>
+        {% endfor %}
       </div><!-- modal body -->
     </div><!-- modal content -->
   </div><!-- modal dialog -->
