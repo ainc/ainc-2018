@@ -6,34 +6,6 @@
         <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
       </div>
       <div class="modal-body">
-        <!-- {% if include.member == 'virtual' %} 
-        <img src="{{ site.data.workspace-modal.virtual_img_url }}" alt="virtual modal image">
-        <div class="modal-body-content">
-          <h2>Virtual Member</h2>
-          <p class="price">$75/month</p>
-          <div class="virtual-member-features">
-            <p>With a Virtual Office membership, we offer a desirable downtown mailing address as well as access to internal and external events. Hassle-free mail service is a great way to jumpstart your business, so get started today at Awesome Inc.</p>
-          </div>
-        </div>
-        {% elsif include.member == 'opendesk' %}
-        <img src="{{ site.data.workspace-modal.open_desk_img_url }}" alt="open desk modal image">
-        <div class="modal-body-content">
-          <h2>Open Desk Member</h2>
-          <p class="price">$250/month</p>
-          <div class="opendesk-member-features">
-            <p>An Open Desk Membership allows you at have 24-hour access to a quiet, yet collaborative workspace in downtown Lexington. With a membership, you will receive unlimited printing, conference room time in one of our two conference rooms and access to internal and external events.</p>
-          </div>
-        </div>
-        {% elsif include.member == 'private' %} 
-        <img src="{{ site.data.workspace-modal.private_office_img_url }}" alt="private office modal image">
-        <div class="modal-body-content">
-          <h2>Private Office Member</h2>
-          <p class="price">Starting at $400/month</p>
-          <div class="private-member-features">
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem cupiditate facere officiis dolorum dignissimos, distinctio pariatur nesciunt fugiat quidem consectetur delectus? Necessitatibus quaerat soluta impedit amet, perspiciatis sint nemo vitae corrupti quibusdam saepe rerum itaque ipsa illo voluptatem id architecto ad animi excepturi alias, modi atque fugiat asperiores expedita quasi?</p>
-          </div>
-        </div>
-        {% endif %} -->
         <img src="{{ modal_data.image }}" alt="{{ modal_data.title }} modal image">
         <div class="modal-body-content">
           <h2>{{ modal_data.title }}</h2>
