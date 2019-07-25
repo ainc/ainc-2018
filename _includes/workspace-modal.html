@@ -6,15 +6,36 @@
         <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
       </div>
       <div class="modal-body">
-        {% if include.member == 'virtual' %}
-        <p>virtual member modal body</p> 
+        {% if include.member == 'virtual' %} 
         <img src="{{ site.data.workspace-modal.virtual_img_url }}" alt="virtual modal image">
+        <div class="modal-body-content">
+          <h2>Virtual Member</h2>
+          <p class="price">Price varies</p>
+          <div class="virtual-member-features">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, architecto cupiditate placeat dolores molestiae corrupti, tempore vero aut quisquam nemo numquam quo praesentium inventore pariatur?</p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur impedit adipisci nam veniam laboriosam.</p>
+          </div>
+        </div>
         {% elsif include.member == 'opendesk' %}
-        <p>open desk member modal body</p> 
         <img src="{{ site.data.workspace-modal.open_desk_img_url }}" alt="open desk modal image">
-        {% elsif include.member == 'private' %}
-        <p>private office member modal body</p> 
+        <div class="modal-body-content">
+          <h2>Open Desk Member</h2>
+          <p class="price">Price varies</p>
+          <div class="opendesk-member-features">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, architecto cupiditate placeat dolores molestiae corrupti, tempore vero aut quisquam nemo numquam quo praesentium inventore pariatur?</p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur impedit adipisci nam veniam laboriosam.</p>
+          </div>
+        </div>
+        {% elsif include.member == 'private' %} 
         <img src="{{ site.data.workspace-modal.private_office_img_url }}" alt="private office modal image">
+        <div class="modal-body-content">
+          <h2>Private Office Member</h2>
+          <p class="price">Price varies</p>
+          <div class="private-member-features">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, architecto cupiditate placeat dolores molestiae corrupti, tempore vero aut quisquam nemo numquam quo praesentium inventore pariatur?</p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur impedit adipisci nam veniam laboriosam.</p>
+          </div>
+        </div>
         {% endif %}
       </div><!-- modal body -->
     </div><!-- modal content -->
