@@ -34,14 +34,12 @@
           </div>
         </div>
         {% endif %} -->
-        {% for modal_data in site.data.workspace-modal %}
-          <img src="{{ modal_data.image }}" alt="{{ modal_data.title }} modal image">
-          <div class="modal-body-content">
-            <h2>{{ modal_data.title }}</h2>
-            <p class="price">{{ modal_data.price }}</p>
-              <p>{{ modal_data.body }}</p>
-          </div>
-        {% endfor %}
+        <img src="{{ modal_data.image }}" alt="{{ modal_data.title }} modal image">
+        <div class="modal-body-content">
+          <h2>{{ modal_data.title }}</h2>
+          <p class="price">{{ modal_data.price }}</p>
+            <p>{{ modal_data.body }}</p>
+        </div>
       </div><!-- modal body -->
     </div><!-- modal content -->
   </div><!-- modal dialog -->
