@@ -68,4 +68,7 @@ collections:
     title: Events
     output: true
     permalink: /events/:title
+  charts:
+    title: Chart
+    output: true
 

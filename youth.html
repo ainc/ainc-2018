@@ -85,15 +85,15 @@ page_id: youth
                 </thead>
                 <tbody>
                   {% for chart in site.charts %}
-                  <tr>
-                    <td><a href="{{ chart.link }}"><img alt="{{ chart.title }}" data-src="{{ chart.image}}" class="img-responsive lazyload"></a></td>
-                    <td>{{ chart.title }}</td>
-                    <td>{{ chart.ages }}</td>
-                    <td>{{ chart.description }}</td>
-                    <td>{{ chart.languages }}</td>
-                    <td>{{ chart.season }}<br>{{ chart.time }}</td>
-                    <td><a href="{{ chart.link }}" class="btn btn-default center" role="button">Details &amp; Registration</a></td>
-                  </tr>
+                    <tr>
+                      <td><a href="{{ chart.link }}"><img alt="{{ chart.title }}" data-src="{{ chart.image}}" class="img-responsive lazyload"></a></td>
+                      <td>{{ chart.title }}</td>
+                      <td>{{ chart.ages }}</td>
+                      <td>{{ chart.description }}</td>
+                      <td>{{ chart.languages }}</td>
+                      <td>{{ chart.season }}<br>{{ chart.time }}</td>
+                      <td><a href="{{ chart.link }}" class="btn btn-default center" role="button">Details &amp; Registration</a></td>
+                    </tr>
                   {% endfor %}
                 </tbody>
               </table>
