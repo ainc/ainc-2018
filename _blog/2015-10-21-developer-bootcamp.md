@@ -1,23 +1,13 @@
 ---
-title: Launching The Bootcamp
-date: 2015-10-21 00:00:00 Z
-header_img: "/images/blog/bootcamp-screenshot.png"
-author_img: "/images/teamalpha/nicksuch-wall.jpg"
-author: Nick Such
-tags:
-- learntocode
-- bootcamp
-- career
 layout: post
-description: Awesome Inc U announces upcoming Web Developer Bootcamp, intensive training
-  program for starting a new career
+title: Launching The Bootcamp
+date: 2015-10-21T00:00:00.000Z
 ---
-
 ![A-Inc Web Developer Bootcamp screenshot](/images/blog/bootcamp-screenshot.png)
 
 As of today, we are living in the future 
 
-Today's date, October 21, 2015, is affectionately known as [Back To The Future day](http://www.cnet.com/news/heres-the-technology-back-to-the-future-part-ii-predicted-and-what-it-missed/). Has the future become what the 80's movie predicted? Our cars may not fly through the air, but we have figured out how to make them self-piloting. Our shoes may not lace themselves, but we have built fitness trackers that easily gather and analyze exercise data for millions of people. One thing the movie seems to have underestimated was that the revolution wouldn't be led by the arrival of Mr. Fusion boxes to cheaply power our stuff, but rather that **software** would become the technology to define our world.
+Today's date, October 21, 2015, is affectionately known as [Back To The Future day](http://www.cnet.com/news/heres-the-technology-back-to-the-future-part-ii-predicted-and-what-it-missed/). Has the future become what the 80's movie predicted? Our cars may not fly through the air, but we have figured out how to make them self-piloting. Our shoes may not lace themselves, but we have built fitness trackers that easily gather and analyze exercise data for millions of people. One thing the movie seems to have underestimated was that the revolution wouldn't be led by the arrival of Mr. Fusion boxes to cheaply power our stuff, but rather that **software** would become the technology to define our world. 
 
 <!--more-->
 
@@ -39,4 +29,4 @@ So, who is the ideal candidate for our bootcamp program? It's not for everyone. 
 
 What will you be able to do once you complete the Bootcamp? You should be able to build web applications. If I was hiring someone to make me a new chair, I'd want to see that she had built chairs before, and I'd want to sit in one of those chairs to make sure it could hold up. Our employer partners are looking for people who can build digital products, such as [full-stack web](https://www.quora.com/What-does-the-term-full-stack-programmer-mean) applications, so you'll be making several of those during the program. Your future employer will want to see what you've made, and poke around a bit to make sure it holds up. You'll also learn how to work with a technical team, how to communicate with customers, and how to keep your development skills in top shape for years to come.
 
-We'll have more info in the coming months about our curriculum, schedule, employer partners, and other opportunities for the technology community to be involved. For now, check out the [Bootcamp page](/bootcamp/) for the details. This journey into the future is one that we couldn't make alone. Awesome Inc U wouldn't be at this point, ready to grow our region's base of technical talent, without help from our friends at [Apax Software](http://www.apaxsoftware.com), [Commerce Lexington](http://www.commercelexington.com), and a host of individuals who have advised our team over the past few years. 
+We'll have more info in the coming months about our curriculum, schedule, employer partners, and other opportunities for the technology community to be involved. For now, check out the [Bootcamp page](/bootcamp/) for the details. This journey into the future is one that we couldn't make alone. Awesome Inc U wouldn't be at this point, ready to grow our region's base of technical talent, without help from our friends at [Apax Software](http://www.apaxsoftware.com), [Commerce Lexington](http://www.commercelexington.com), and a host of individuals who have advised our team over the past few years.
