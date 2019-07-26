@@ -52,7 +52,6 @@ collections:
         file: "_data/team-alpha.json"
         description: "Team Alpha Members List"
         fields:
-          - {label: Title, name: title, widget: string}
           - label: Entries
             name: Entries
             widget: list
@@ -68,7 +67,6 @@ collections:
         file: "_data/alumni-bootcamp.yml"
         description: "Bootcamp Alumni List"
         fields:
-          - {label: Title, name: title, widget: string}
           - label: Entries
             name: Entries
             widget: list
@@ -80,3 +78,32 @@ collections:
               - {label: Image, name: image, widget: string}
               - {label: Position, name: position, widget: string}
               - {label: Cohort, name: cohort, widget: string}
+      - name: "events"
+        label: "Events"
+        file: "_data/events.yml"
+        description: "Current Events"
+        fields:
+          - label: Entries
+            name: Entries
+            widget: list
+            fields:
+              - {label: title, name: title, widget: string}
+              - {label: date, name: date, widget: string}
+              - {label: eventbrite_url, name: eventbrite_url, widget: string}
+              - {label: feature, name: feature, widget: boolean, default: false}
+              - {label: location, name: location, widget: string}
+              - {label: image_url, name: image_url, widget: string}
+              - {label: id, name: id, widget: string, required: false}
+
+  - name: "Course Charts"
+    label: "charts"
+    folder: "_charts"
+    create: true
+    fields:
+      - {label: "Link", name: "link", widget: "string"}
+      - {label: "Image", name: "image", widget: "image"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Ages", name: "ages", widget: "string"}
+      - {label: "Description", name: "description", widget: "string"}
+      - {label: "Languages", name: "languages", widget: "string"}
+      - {label: "Time", name: "time", widget: "string"}
