@@ -1,16 +1,8 @@
 ---
-title: Demo Day - Bootcamp F17
-date: 2017-11-30 00:00:00 Z
-header_img: "/images/blog/bootcamp-s17-demo-day.jpg"
-author_img: "/images/teamalpha/nicksuch-wall.jpg"
-author: Nick Such
-tags:
-- learntocode
-- bootcamp
-- php
 layout: post
-description: Fall 2017 Bootcamp cohort will present final projects at demo day on
-  December 7th
+title: Demo Day - Bootcamp F17
+date: 2017-11-30T00:00:00.000Z
+thumbnail: /images/uploads/5-across-logo.png
 ---
 
 ![Awesome Inc Bootcamp demo day](/images/blog/bootcamp-s17-demo-day.jpg)
