@@ -51,10 +51,11 @@ collections:
         label: "Team Alpha"
         file: "_data/team-alpha.json"
         description: "Team Alpha Members List"
-        field:
-          - label: "Entries"
-            name: "entries"
-            widget: "list"
+        fields:
+          - {label: Title, name: title, widget: string}
+          - label: Entries
+            name: Entries
+            widget: list
             fields:
               - {label: Name, name: name, widget: string}
               - {label: Rule, name: rule, widget: string}
@@ -67,10 +68,15 @@ collections:
         file: "_data/alumni-bootcamp.yml"
         description: "Bootcamp Alumni List"
         fields:
-          - {label: Name, name: name, widget: string}
-          - {label: Website, name: website, widget: string}
-          - {label: Github, name: github, widget: string}
-          - {label: Linkedin, name: linkedin, widget: string}
-          - {label: Image, name: image, widget: string}
-          - {label: Position, name: position, widget: string}
-          - {label: Cohort, name: cohort, widget: string}
+          - {label: Title, name: title, widget: string}
+          - label: Entries
+            name: Entries
+            widget: list
+            fields:
+              - {label: Name, name: name, widget: string}
+              - {label: Website, name: website, widget: string}
+              - {label: Github, name: github, widget: string}
+              - {label: Linkedin, name: linkedin, widget: string}
+              - {label: Image, name: image, widget: string}
+              - {label: Position, name: position, widget: string}
+              - {label: Cohort, name: cohort, widget: string}
