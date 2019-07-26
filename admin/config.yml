@@ -16,7 +16,10 @@ collections:
       - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Featured Image", name: "thumbnail", widget: "image", required: false}
+      - {label: "Header Image", name: "header_img", widget: "image", required: false}
+      - {label: "Author Image", name: "author_img", widget: "image", required: false}
+      - {label: "Author", name: "author", widget: "string"}
+      - {label: "Tags", name: "tags", widget: "list"}
       - {label: "Body", name: "body", widget: "markdown"}
 
   - name: "Fellowship Portfolio"
@@ -48,9 +51,24 @@ collections:
         label: "Team Alpha"
         file: "_data/team-alpha.json"
         description: "Team Alpha Members List"
+        widget: "list"
         fields:
           - {label: "Name", name: "name", widget: "string"}
           - {label: "Rule", name: "rule", widget: "string"}
           - {label: "Song", name: "song", widget: "string"}
           - {label: "Person", name: "person", widget: "string"}
           - {label: "Fact", name: "fact", widget: "string"}
+          - {label: "Team", name: "team", widget: "string"}
+      - name: "alumni-bootcamp"
+        label: "Alumni Bootcamp"
+        file: "_data/alumni-bootcamp.yml"
+        description: "Bootcamp Alumni List"
+        widget: "list"
+        fields:
+          - {label: "Name", name: "name", widget: "string"}
+          - {label: "Website", name: "website", widget: "string"}
+          - {label: "Github", name: "github", widget: "string"}
+          - {label: "Linkedin", name: "linkedin", widget: "string"}
+          - {label: "Image", name: "image", widget: "string"}
+          - {label: "Position", name: "position", widget: "string"}
+          - {label: "Cohort", name: "cohort", widget: "string"}
