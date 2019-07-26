@@ -53,6 +53,7 @@ collections:
         description: "Team Alpha Members List"
         fields:
           - label: Entries
+            name: Entries
             widget: list
             fields:
               - {label: Name, name: name, widget: string}
@@ -67,6 +68,7 @@ collections:
         description: "Bootcamp Alumni List"
         fields:
           - label: Entries
+            name: Entries
             widget: list
             fields:
               - {label: Name, name: name, widget: string}
@@ -104,4 +106,5 @@ collections:
       - {label: "Ages", name: "ages", widget: "string"}
       - {label: "Description", name: "description", widget: "string"}
       - {label: "Languages", name: "languages", widget: "string"}
+      - {label: "Season", name: "season", widget: "string"}
       - {label: "Time", name: "time", widget: "string"}
