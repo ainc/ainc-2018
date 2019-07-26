@@ -51,19 +51,21 @@ collections:
         label: "Team Alpha"
         file: "_data/team-alpha.json"
         description: "Team Alpha Members List"
-        widget: "list"
-        fields:
-          - {label: Name, name: name, widget: string}
-          - {label: Rule, name: rule, widget: string}
-          - {label: Song, name: song, widget: string}
-          - {label: Person, name: person, widget: string}
-          - {label: Fact, name: fact, widget: string}
-          - {label: Team, name: team, widget: string}
+        field:
+          - label: "Entries"
+            name: "entries"
+            widget: "list"
+            fields:
+              - {label: Name, name: name, widget: string}
+              - {label: Rule, name: rule, widget: string}
+              - {label: Song, name: song, widget: string}
+              - {label: Person, name: person, widget: string}
+              - {label: Fact, name: fact, widget: string}
+              - {label: Team, name: team, widget: string}
       - name: "alumni-bootcamp"
         label: "Alumni Bootcamp"
         file: "_data/alumni-bootcamp.yml"
         description: "Bootcamp Alumni List"
-        widget: "list"
         fields:
           - {label: Name, name: name, widget: string}
           - {label: Website, name: website, widget: string}
