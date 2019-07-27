@@ -55,3 +55,38 @@
       }
     }
 }
+
+#virtual-modal, #opendesk-modal, #private-modal {
+  .modal-content .modal-body {
+    background: white;
+    color: #333;
+    text-transform: none;
+    padding: 30px 15px;
+    .modal-body-content {
+      text-align: left;
+      width: 70%;
+      margin: 0 auto;
+    }
+    h2 {
+      font-weight: 600;
+      margin: 20px 0 8px;
+      letter-spacing: 1px;
+      @include font-size(22);
+    }
+    .price {
+      color: #8e8e8f;
+      font-weight: 500;
+      @include font-size(16);
+      margin-bottom: 25px;
+    }
+    p {
+      color: #333;
+      font-weight: 100;
+      @include font-size(18);
+    }
+    img {
+      text-align: center;
+      width: 70%;
+    }
+  }
+}
