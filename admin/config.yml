@@ -63,3 +63,17 @@ collections:
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Price", name: "price", widget: "string"}
           - {label: "Body", name: "body", widget: "markdown"}
+  
+  - name: "Job Openings"
+    label: "Job Openings"
+    folder: "_job_openings"
+    create: true
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Description", name: "description", widget: "markdown"}
+      - {label: "Email", name: "email", widget: "string"}
+      - {label: "Team", name: "team", widget: "string"}
+      - {label: "Manager", name: "manager", widget: "string"}
+      - {label: "Time Commitment", name: "commitment", widget: "string"}
+      - {label: "Active", name: "active", widget: "string"}
+      - {label: "Apply URL", name: "url", widget: "string", required: false}
