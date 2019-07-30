@@ -74,6 +74,6 @@ collections:
       - {label: "Email", name: "email", widget: "string"}
       - {label: "Team", name: "team", widget: "string"}
       - {label: "Manager", name: "manager", widget: "string"}
-      - {label: "Time Commitment", name: "commitment", widget: "string"}
+      - {label: "Time Commitment", name: "time-commitment", widget: "string"}
       - {label: "Active", name: "active", widget: "boolean"}
       - {label: "Apply URL", name: "url", widget: "string", required: false}
