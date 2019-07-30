@@ -19,15 +19,15 @@ We are seeking a Director to join our Awesome Inc team. At Awesome Inc, our purp
   * Strong Google Docs game
   * Fits the Awesome Inc Culture [learn more here](https://www.awesomeinc.org/culture-book-3.1.pdf)
 
-  ### Tasks Include
-    * Marketing and recruiting
-    * Planning and coordinating events
-    * Networking and relationship building
-    * Effectively running meetings
-    * Giving feedback to peers or subordinates
-    * Budget management, accounting (Quickbooks)
-    * Grant writing
-    * Using Google Docs and Sheets
-    * Other administrative tasks associated with running an organization
+### Tasks Include
+  * Marketing and recruiting
+  * Planning and coordinating events
+  * Networking and relationship building
+  * Effectively running meetings
+  * Giving feedback to peers or subordinates
+  * Budget management, accounting (Quickbooks)
+  * Grant writing
+  * Using Google Docs and Sheets
+  * Other administrative tasks associated with running an organization
 
 Competitive pay and perks
