@@ -71,5 +71,4 @@ collections:
   job_openings:
     title: Job Openings
     output: true
-    permalink: /careers/:title
 
