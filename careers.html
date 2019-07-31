@@ -9,7 +9,7 @@ redirect_from:
   {% for job in site.job_openings %}
   {% if job.active == true %}
   <h3>{{ job.title }}</h3>
-  <p>{{ job.body | markdownify }}</p>
+  <p>{{ job.content | markdownify }}</p>
   <p>
     <a href="mailto:{{ job.email }}?subject=I have some questions about {{ job.title }}">Questions? Email {{ job.manager }}: {{ job.email }}</a>
   </p>
