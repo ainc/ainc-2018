@@ -1,0 +1,18 @@
+<!-- include.member: virtual, opendesk, private -->
+<div id="{{ include.member }}-modal" class="modal fade lgx-modal" tabindex="-1">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+      </div>
+      <div class="modal-body">
+        <img src="{{ modal_data.image }}" alt="{{ modal_data.title }} modal image">
+        <div class="modal-body-content">
+          <h2>{{ modal_data.title }}</h2>
+          <p class="price">{{ modal_data.price }}</p>
+            <p>{{ modal_data.body }}</p>
+        </div>
+      </div><!-- modal body -->
+    </div><!-- modal content -->
+  </div><!-- modal dialog -->
+</div> <!-- //.Modal-->

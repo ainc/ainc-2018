@@ -1,17 +1,8 @@
 ---
-title: 5 Reasons Why Everyone Should Learn To Code
-date: 2013-08-16 00:00:00 Z
-header_img: "/images/blog/hour-of-code-promo.jpg"
-author_img: "/images/teamalpha/nicksuch-wall.jpg"
-author: Nick Such
-tags:
-- learntocode
-- launch
-- jobs
-- software developer
 layout: post
-description: Thoughts on the changing nature of software development and why we think
-  everyone should learn to code.
+title: 5 Reasons Why Everyone Should Learn To Code
+date: 2013-08-16T00:00:00.000Z
+thumbnail: /images/uploads/5-across-logo.png
 ---
 
 <iframe width="400" height="265" src="https://www.youtube.com/embed/g_ytoNfe83Y?rel=0" style="border-width:0;"> </iframe>

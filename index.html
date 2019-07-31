@@ -142,7 +142,7 @@ page_id: home
                 <div class="panel-body">
                   <div class="col-xs-12 text-center icon"><img src="/images/icons/accelerate-your-startup.png" class="ico center-block img-responsive"/></div>
                   <h4>Accelerate your Startup</h4>
-                  <p>Let us create custom software for your business.</p>
+                  <p>We will help grow your business with a mentor-driven, accelerator program.</p>
                 </div>
               </div>
             </a>
@@ -645,12 +645,24 @@ page_id: home
             <div class="lgx-subscriber-area">
               <h4 class="title">Don’t miss any updates of our new templates and extensions and all the astonishing offers we bring for you.</h4>
               <div class="lgx-subscriber">
-                <form name="Blog Signup" method="POST" data-netlify="true" class="subscribe-form" >
+                <form name="Blog Signup" method="POST" data-netlify="true" action="/thanks" class="subscribe-form">
                   <div class="form-group">
-                    <input name="email" type="email" id="subscribe" placeholder="Ex: yourname@gmail.com" class="form-control lgx-input-form form-control" />
+                    <input name="email" type="email" id="subscribe" placeholder="Ex: yourname@gmail.com" class="form-control lgx-input-form" />
                   </div>
                   <div class="form-group">
-                    <button type="submit" name="lgx-submit" id="lgx-submit" class="lgx-submit the-submit-btn rippler rippler-default"><i class="fa fa-long-arrow-right" aria-hidden="true"></i></button>
+                    <button type="submit" data-toggle="modal" data-target="#thank-you-modal" onclick="passName();" name="lgx-submit" id="lgx-submit" class="lgx-submit the-submit-btn rippler rippler-default"><i class="fa fa-long-arrow-right" aria-hidden="true"></i></button>
+                    <div id="thank-you-modal" class="modal fade lgx-modal">
+                      <div class="modal-dialog">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                          </div>
+                          <div class="modal-body">
+                            Thank you for subscribing!
+                          </div>
+                        </div>
+                      </div> <!-- //.Modal-->
+                    </div>
                   </div>
                 </form>
               </div> <!--//.SUBSCRIBE-->

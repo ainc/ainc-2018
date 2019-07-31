@@ -52,59 +52,31 @@ collections:
         file: "_data/team-alpha.json"
         description: "Team Alpha Members List"
         fields:
-          - label: Entries
-            name: Entries
-            widget: list
-            fields:
-              - {label: Name, name: name, widget: string}
-              - {label: Rule, name: rule, widget: string}
-              - {label: Song, name: song, widget: string}
-              - {label: Person, name: person, widget: string}
-              - {label: Fact, name: fact, widget: string}
-              - {label: Team, name: team, widget: string}
-      - name: "alumni-bootcamp"
-        label: "Alumni Bootcamp"
-        file: "_data/alumni-bootcamp.yml"
-        description: "Bootcamp Alumni List"
+          - {label: "Name", name: "name", widget: "string"}
+          - {label: "Rule", name: "rule", widget: "string"}
+          - {label: "Song", name: "song", widget: "string"}
+          - {label: "Person", name: "person", widget: "string"}
+          - {label: "Fact", name: "fact", widget: "string"}
+      - name: "workspace"
+        label: "Workspace"
+        file: "_data/workspace-modal.json"
+        description: "Images and copy for workspace member modals"
         fields:
-          - label: Entries
-            name: Entries
-            widget: list
-            fields:
-              - {label: Name, name: name, widget: string}
-              - {label: Website, name: website, widget: string}
-              - {label: Github, name: github, widget: string}
-              - {label: Linkedin, name: linkedin, widget: string}
-              - {label: Image, name: image, widget: string}
-              - {label: Position, name: position, widget: string}
-              - {label: Cohort, name: cohort, widget: string}
-      - name: "events"
-        label: "Events"
-        file: "_data/events.yml"
-        description: "Current Events"
-        fields:
-          - label: Entries
-            name: Entries
-            widget: list
-            fields:
-              - {label: title, name: title, widget: string}
-              - {label: date, name: date, widget: string}
-              - {label: eventbrite_url, name: eventbrite_url, widget: string}
-              - {label: feature, name: feature, widget: boolean, default: false}
-              - {label: location, name: location, widget: string}
-              - {label: image_url, name: image_url, widget: string}
-              - {label: id, name: id, widget: string, required: false}
-
-  - name: "Course Charts"
-    label: "charts"
-    folder: "_charts"
+          - {label: "Image", name: "image", widget: "image"}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Price", name: "price", widget: "string"}
+          - {label: "Body", name: "body", widget: "markdown"}
+  
+  - name: "Job Openings"
+    label: "Job Openings"
+    folder: "_job_openings"
     create: true
     fields:
-      - {label: "Link", name: "link", widget: "string"}
-      - {label: "Image", name: "image", widget: "image"}
       - {label: "Title", name: "title", widget: "string"}
-      - {label: "Ages", name: "ages", widget: "string"}
-      - {label: "Description", name: "description", widget: "string"}
-      - {label: "Languages", name: "languages", widget: "string"}
-      - {label: "Season", name: "season", widget: "string"}
-      - {label: "Time", name: "time", widget: "string"}
+      - {label: "Email", name: "email", widget: "string", default: "careers@awesomeinc.org"}
+      - {label: "Team", name: "team", widget: "string"}
+      - {label: "Manager", name: "manager", widget: "string"}
+      - {label: "Time Commitment", name: "time-commitment", widget: "string"}
+      - {label: "Active", name: "active", widget: "boolean"}
+      - {label: "Apply URL", name: "url", widget: "string", required: false}
+      - {label: "Body", name: "body", widget: "markdown"}

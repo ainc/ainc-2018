@@ -68,7 +68,7 @@ collections:
     title: Events
     output: true
     permalink: /events/:title
-  charts:
-    title: Chart
+  job_openings:
+    title: Job Openings
     output: true
 
