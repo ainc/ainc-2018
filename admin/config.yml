@@ -3,7 +3,7 @@ backend:
   branch: master # branch to update (optional; defaults to master)
   repo: https://github.com/ainc/ainc-2018
 
-publish_mode: editorial_workflow # docs: https://www.netlifycms.org/docs/configuration-options/#publish-mode
+# publish_mode: editorial_workflow # docs: https://www.netlifycms.org/docs/configuration-options/#publish-mode
 
 media_folder: "images/uploads"
 
@@ -16,7 +16,10 @@ collections:
       - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Featured Image", name: "thumbnail", widget: "image"}
+      - {label: "Header Image", name: "header_img", widget: "image", required: false}
+      - {label: "Author Image", name: "author_img", widget: "image", required: false}
+      - {label: "Author", name: "author", widget: "string"}
+      - {label: "Tags", name: "tags", widget: "list"}
       - {label: "Body", name: "body", widget: "markdown"}
 
   - name: "Fellowship Portfolio"
@@ -63,3 +66,17 @@ collections:
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Price", name: "price", widget: "string"}
           - {label: "Body", name: "body", widget: "markdown"}
+  
+  - name: "Job Openings"
+    label: "Job Openings"
+    folder: "_job_openings"
+    create: true
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Email", name: "email", widget: "string", default: "careers@awesomeinc.org"}
+      - {label: "Team", name: "team", widget: "string"}
+      - {label: "Manager", name: "manager", widget: "string"}
+      - {label: "Time Commitment", name: "time-commitment", widget: "string"}
+      - {label: "Active", name: "active", widget: "boolean"}
+      - {label: "Apply URL", name: "url", widget: "string", required: false}
+      - {label: "Body", name: "body", widget: "markdown"}
