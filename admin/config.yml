@@ -103,3 +103,16 @@ collections:
       - {label: "Time", name: "time", widget: "string"}
       - {label: "Semester", name: "semester", widget: "boolean"}
       - {label: "Body", name: "body", widget: "markdown"}
+
+  - name: "Events"
+    label: "events"
+    folder: "_events"
+    create: true
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Date", name: "date", widget: "string"}
+      - {label: "Eventbrite_url", name: "eventbrite_url", widget: "string"}
+      - {label: "Feature", name: "feature", widget: "boolean"}
+      - {label: "Location", name: "location", widget: "string"}
+      - {label: "Image_url", name: "image_url", widget: "string"}
+      - {label: "Id", name: "id", widget: "string"}
