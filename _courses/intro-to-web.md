@@ -12,6 +12,7 @@ redirect_from:
 - "/web-intro/"
 - "/web-basics/"
 - "/intro-to-web/"
+semester: false
 ---
 
 {% include intro-to-web-buttons.html %}

@@ -5,6 +5,7 @@ breadcrumb: "/learn/youth/after-school/"
 layout: course
 description: Learn Code, Make Friends
 cover: "/img/coding-club.jpg"
+semester: false
 ---
 
 ### Do you have students at your school who enjoy spending time on the computer, could play Minecraft for hours, or have done the Hour of Code?

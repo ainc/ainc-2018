@@ -10,6 +10,7 @@ redirect_from:
 - "/camp/"
 - "/summer/"
 - "/lexcamp/"
+semester: false
 ---
 
 {% include woc-buttons-sponsorship.html %}

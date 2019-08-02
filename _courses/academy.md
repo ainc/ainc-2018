@@ -8,6 +8,7 @@ cover: "/img/Awesome-Inc-Academy.jpg"
 application: "/applications/academy/"
 redirect_from: "/programs/academy/"
 cta: Apply Now
+semester: false
 ---
 
 So, you’ve got the basics down. You’ve taken a class or two, followed some tutorials, built a few “Hello, world” programs. How do you go beyond learning-to-code and take your software development skills to the next level? The Awesome Inc Academy is our answer.

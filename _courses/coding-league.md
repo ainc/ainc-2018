@@ -5,9 +5,20 @@ breadcrumb: "/learn/youth/coding-league/"
 layout: course
 description: Learn To Code Like The Pros
 cover: "/img/coding-league.jpg"
+class_day: Tuesdays
 redirect_from:
 - "/codingleague/"
 - "/league/"
+link: site.data.routes.league
+image: /images/logos/aincu-coding-league-logo.png
+level: Intermediate
+min_age: 11
+max_age: 14
+chart_description: Web Development, Computer Science Basics
+languages: HTML, CSS, JavaScript
+season: Spring and Fall
+time: 5:30-7pm
+semester: true
 ---
 
 {% include coding-league-buttons.html %}

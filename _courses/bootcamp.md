@@ -4,8 +4,19 @@ layout: course
 permalink: "/bootcamp"
 breadcrumb: "/learn/adults/bootcamp"
 description: Become A Professional Web Developer
+class_day: Tuesdays and Thursdays
 application: "/applications/bootcamp/"
 cta: Apply Now
+link: site.data.routes.academy
+image: /images/logos/aincu-academy-logo.png
+level: Advanced
+min_age: 13
+max_age: 17
+chart_description: Projects in Web, Mobile, Games
+languages: HTML, CSS, JavaScript, Python, Swift, Java, C#, Unity 3D
+season: Spring and Fall
+time: 6-8pm
+semester: true
 ---
 
 {% include aincu-special-announcement.html %}
