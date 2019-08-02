@@ -101,7 +101,8 @@ collections:
       - {label: "Languages", name: "languages", widget: "string"}
       - {label: "Season", name: "season", widget: "string"}
       - {label: "Time", name: "time", widget: "string"}
-      - {label: "Semester", name: "semester", widget: "boolean"}
+      - {label: "Age Group", name: "age_group", widget: "string"}
+      - {label: "Open", name: "open", widget: "boolean"}
       - {label: "Body", name: "body", widget: "markdown"}
 
   - name: "Events"

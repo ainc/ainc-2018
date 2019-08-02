@@ -18,7 +18,8 @@ chart_description: Web Development, Computer Science Basics
 languages: HTML, CSS, JavaScript
 season: Spring and Fall
 time: 5:30-7pm
-semester: true
+age_group: youth
+open: false
 ---
 
 {% include coding-league-buttons.html %}

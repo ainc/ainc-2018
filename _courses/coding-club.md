@@ -15,7 +15,8 @@ chart_description: Computational Thinking, Block-Based Programming
 languages: MIT Scratch
 season: Spring and Fall
 time: 5-6:30pm
-semester: true
+age_group: youth
+open: true
 ---
 
 {% include coding-club-buttons.html %}

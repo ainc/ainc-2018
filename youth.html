@@ -86,7 +86,7 @@ page_id: youth
                 <tbody>
                   {% assign courses = site.courses | sort:'min_age' %}
                   {% for course in courses %}
-                     {% if course.semester == true %}
+                    {% if course.age_group == 'youth' %}
                     <tr>
                       <td><a href="{{ course.link }}"><img alt="{{ course.title }}" data-src="{{ course.image}}" class="img-responsive lazyload"></a></td>
                       <td>{{ course.level }}</td>
@@ -94,7 +94,11 @@ page_id: youth
                       <td>{{ course.chart_description }}</td>
                       <td>{{ course.languages }}</td>
                       <td>{{ course.season }}<br>{{ course.class_day}}, {{ course.time }}</td>
+                      {% if course.open == true %}
                       <td><a href="{{ course.link }}" class="btn btn-default center" role="button">Details &amp; Registration</a></td>
+                      {% else %}
+                      <td><a href="{{ course.link }}" class="btn btn-default center disabled" role="button">Registration Closed</a></td>
+                      {% endif %}
                     </tr>
                     {% endif %}
                   {% endfor %}
