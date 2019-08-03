@@ -19,7 +19,7 @@ permalink: "/team-alpha"
           </div>
         </div>
       </div><!--//.ROW-->
-      {% for member in site.data.team-alpha %}
+      {% for member in site.data.team-alpha.items %}
       {% assign check = forloop.index | modulo:4 %}
       {% if check == 1 or forloop.index == 1 %}
       <div class="row">
@@ -27,7 +27,7 @@ permalink: "/team-alpha"
       <div class="col-xs-6 col-sm-3">
         <div class="lgx-single-member"> <!--team-alpha member-->
           <figure>
-            <img src="/images/teamalpha/{{member.name | downcase | remove: " "}}-wall.jpg" alt="{{ member.name }}" onerror="this.onerror=null;this.src='/images/teamalpha/placeholder-wall.jpg';"/>
+            <img src="/images/teamalpha/{{ member.name | downcase | remove: " " }}-wall.jpg" alt="{{ member.name }}" onerror="this.onerror=null;this.src='/images/teamalpha/placeholder-wall.jpg';"/>
             <figcaption>
               <h3 class="member-name">{{ member.name }}<br><span>{{ member.team }}</span></h3>
               <div class="team-alpha-icon rule">
