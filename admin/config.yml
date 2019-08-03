@@ -47,23 +47,32 @@ collections:
   - label: "Data"
     name: "data"
     files:
-      - name: "team-alpha"
-        label: "Team Alpha"
+      - label: "Team Alpha"
+        name: "team-alpha"
         file: "_data/team-alpha.yml"
         description: "Team Alpha Members List"
         fields:
-          - {label: "Name", name: "name", widget: "string"}
-          - {label: "Rule", name: "rule", widget: "string"}
-          - {label: "Song", name: "song", widget: "string"}
-          - {label: "Person", name: "person", widget: "string"}
-          - {label: "Fact", name: "fact", widget: "string"}
-          - {label: "Image", name: "img_path", widget: "image", default: "images/teamalpha/placeholder-wall.jpg"}
           - {
-            label: "Team", 
-            name: "team", 
-            widget: "select",
-            options: [ "Development", "Design", "Marketing", "Videography", "Photography", "Blog" ]
+            label: "Team Alpha Members",
+            name: "items",
+            widget: "list",
+            fields: 
+              - {
+                - {label: "Name", name: "name", widget: "string"}
+                - {label: "Rule", name: "rule", widget: "string"}
+                - {label: "Song", name: "song", widget: "string"}
+                - {label: "Person", name: "person", widget: "string"}
+                - {label: "Fact", name: "fact", widget: "string"}
+                - {label: "Image", name: "img_path", widget: "image", default: "images/teamalpha/placeholder-wall.jpg"}
+                - {
+                  label: "Team", 
+                  name: "team", 
+                  widget: "select",
+                  options: [ "Development", "Design", "Marketing", "Videography", "Photography", "Blog" ]
+                }
+              }
           }
+          
 
       - name: "internal-team"
         label: "Awesome Inc Internal Team"
