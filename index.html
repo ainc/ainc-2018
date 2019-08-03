@@ -256,7 +256,7 @@ page_id: home
 
 
 <!--EVENTS-->
-{% assign events = site.data.events.current | sort:'date' %}
+{% assign events = site.events | sort:'date' %}
 {% for event in events reversed %}
   {% if event.feature == true %}
     {% assign feature_event = event %}

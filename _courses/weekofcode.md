@@ -10,6 +10,7 @@ redirect_from:
 - "/camp/"
 - "/summer/"
 - "/lexcamp/"
+age_group: not_youth
 ---
 
 {% include woc-buttons-sponsorship.html %}
