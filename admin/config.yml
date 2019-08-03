@@ -83,7 +83,7 @@ collections:
 
  #note: this is the concatenation of two different old file types, this was requested but could/should be optimized in future
   - name: "Courses"
-    label: "courses"
+    label: "Courses"
     folder: "_courses"
     create: true
     fields:
@@ -106,7 +106,7 @@ collections:
       - {label: "Body", name: "body", widget: "markdown"}
 
   - name: "Events"
-    label: "events"
+    label: "Events"
     folder: "_events"
     create: true
     fields:
