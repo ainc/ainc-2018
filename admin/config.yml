@@ -57,7 +57,6 @@ collections:
             name: "items",
             widget: "list",
             fields: 
-              - {
                 - {label: "Name", name: "name", widget: "string"}
                 - {label: "Rule", name: "rule", widget: "string"}
                 - {label: "Song", name: "song", widget: "string"}
@@ -70,7 +69,6 @@ collections:
                   widget: "select",
                   options: [ "Development", "Design", "Marketing", "Videography", "Photography", "Blog" ]
                 }
-              }
           }
           
 
