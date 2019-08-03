@@ -44,51 +44,51 @@ collections:
       - {label: "Company", name: "company", widget: "string"}
       - {label: "LinkedIn", name: "linkedin", widget: "string", required: false}
 
-  - label: "Data"
-    name: "data"
-    files:
-      - label: "Team Alpha"
-        name: "team-alpha"
-        file: "_data/team-alpha.yml"
-        description: "Team Alpha Members List"
-        fields:
-          - {
-            label: "Team Alpha Members",
-            name: "items",
-            widget: "list",
-            fields: 
-              - {label: "Name", name: "name", widget: "string"}
-              - {label: "Rule", name: "rule", widget: "string"}
-              - {label: "Song", name: "song", widget: "string"}
-              - {label: "Person", name: "person", widget: "string"}
-              - {label: "Fact", name: "fact", widget: "string"}
-              - {label: "Image", name: "img_path", widget: "image", default: "images/teamalpha/placeholder-wall.jpg"}
-              - {
-                label: "Team", 
-                name: "team", 
-                widget: "select",
-                options: [ "Development", "Design", "Marketing", "Videography", "Photography", "Blog" ]
-              }
-          }
+  # - label: "Data"
+  #   name: "data"
+  #   files:
+  #     - label: "Team Alpha"
+  #       name: "team-alpha"
+  #       file: "_data/team-alpha.yml"
+  #       description: "Team Alpha Members List"
+  #       fields:
+  #         - {
+  #           label: "Team Alpha Members",
+  #           name: "items",
+  #           widget: "list",
+  #           fields: 
+  #             - {label: "Name", name: "name", widget: "string"}
+  #             - {label: "Rule", name: "rule", widget: "string"}
+  #             - {label: "Song", name: "song", widget: "string"}
+  #             - {label: "Person", name: "person", widget: "string"}
+  #             - {label: "Fact", name: "fact", widget: "string"}
+  #             - {label: "Image", name: "img_path", widget: "image", default: "images/teamalpha/placeholder-wall.jpg"}
+  #             - {
+  #               label: "Team", 
+  #               name: "team", 
+  #               widget: "select",
+  #               options: [ "Development", "Design", "Marketing", "Videography", "Photography", "Blog" ]
+  #             }
+  #         }
           
 
-      - name: "internal-team"
-        label: "Awesome Inc Internal Team"
-        file: "_data/ainc-team.yml"
-        description: "Awesome Inc Internal Team Members & Founders"
-        fields:
-         - {label: "Name", name: "name", widget: "string"}
-         - {label: "Image", name: "img_path", widget: "image", default: "images/teamalpha/placeholder-wall.jpg"}
+  #     - name: "internal-team"
+  #       label: "Awesome Inc Internal Team"
+  #       file: "_data/ainc-team.yml"
+  #       description: "Awesome Inc Internal Team Members & Founders"
+  #       fields:
+  #        - {label: "Name", name: "name", widget: "string"}
+  #        - {label: "Image", name: "img_path", widget: "image", default: "images/teamalpha/placeholder-wall.jpg"}
          
-      - name: "workspace"
-        label: "Workspace"
-        file: "_data/workspace-modal.json"
-        description: "Images and copy for workspace member modals"
-        fields:
-          - {label: "Image", name: "image", widget: "image"}
-          - {label: "Title", name: "title", widget: "string"}
-          - {label: "Price", name: "price", widget: "string"}
-          - {label: "Body", name: "body", widget: "markdown"}
+  #     - name: "workspace"
+  #       label: "Workspace"
+  #       file: "_data/workspace-modal.json"
+  #       description: "Images and copy for workspace member modals"
+  #       fields:
+  #         - {label: "Image", name: "image", widget: "image"}
+  #         - {label: "Title", name: "title", widget: "string"}
+  #         - {label: "Price", name: "price", widget: "string"}
+  #         - {label: "Body", name: "body", widget: "markdown"}
   
   - name: "Job Openings"
     label: "Job Openings"
