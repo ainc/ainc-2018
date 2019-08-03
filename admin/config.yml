@@ -49,7 +49,7 @@ collections:
     files:
       - name: "team-alpha"
         label: "Team Alpha"
-        file: "_data/team-alpha.json"
+        file: "_data/team-alpha.yml"
         description: "Team Alpha Members List"
         fields:
           - {label: "Name", name: "name", widget: "string"}
@@ -57,6 +57,23 @@ collections:
           - {label: "Song", name: "song", widget: "string"}
           - {label: "Person", name: "person", widget: "string"}
           - {label: "Fact", name: "fact", widget: "string"}
+          - {label: "Image", name: "img_path", widget: "image", default: "images/teamalpha/placeholder-wall.jpg"}
+          - {
+            label: "Team", 
+            name: "team", 
+            widget: "select",
+            options:
+              - [ "Development", "Design", "Marketing", "Videography", "Photography", "Blog" ]
+          }
+
+      - name: "internal-team"
+        label: "Awesome Inc Internal Team"
+        file: "_data/ainc-team.yml"
+        description: "Awesome Inc Internal Team Members & Founders"
+        fields:
+         - {label: "Name", name: "name", widget: "string"}
+         - {label: "Image", name: "img_path", widget: "image", default: "images/teamalpha/placeholder-wall.jpg"}
+         
       - name: "workspace"
         label: "Workspace"
         file: "_data/workspace-modal.json"
@@ -101,7 +118,14 @@ collections:
       - {label: "Languages", name: "languages", widget: "string"}
       - {label: "Season", name: "season", widget: "string"}
       - {label: "Time", name: "time", widget: "string"}
-      - {label: "Age Group", name: "age_group", widget: "string"}
+      - {
+          label: "Age Group", 
+          name: "age_group", 
+          widget: "select", 
+          options:
+            - { label: "Youth", value: "youth" }
+            - { label: "Adult", value: "adult" }
+        }
       - {label: "Open", name: "open", widget: "boolean"}
       - {label: "Body", name: "body", widget: "markdown"}
 
