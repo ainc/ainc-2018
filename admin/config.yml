@@ -62,8 +62,7 @@ collections:
             label: "Team", 
             name: "team", 
             widget: "select",
-            options:
-              - [ "Development", "Design", "Marketing", "Videography", "Photography", "Blog" ]
+            options: [ "Development", "Design", "Marketing", "Videography", "Photography", "Blog" ]
           }
 
       - name: "internal-team"
