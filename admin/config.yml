@@ -1,6 +1,6 @@
 backend:
   name: git-gateway
-  branch: master # branch to update (optional; defaults to master)
+  branch: netlify-cms # branch to update (optional; defaults to master)
   repo: https://github.com/ainc/ainc-2018
 
 # publish_mode: editorial_workflow # docs: https://www.netlifycms.org/docs/configuration-options/#publish-mode
@@ -117,9 +117,9 @@ collections:
       - {label: "Languages", name: "languages", widget: "string"}
       - {label: "Season", name: "season", widget: "string"}
       - {label: "Time", name: "time", widget: "string"}
-      - label: "Age Group", 
-        name: "age_group", 
-        widget: "select", 
+      - label: "Age Group"
+        name: "age_group" 
+        widget: "select" 
         options:
           - { label: "Youth", value: "youth" }
           - { label: "Adult", value: "adult" }
