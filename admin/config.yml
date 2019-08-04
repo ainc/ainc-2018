@@ -69,14 +69,12 @@ collections:
         name: "internal-team"
         file: "_data/ainc-team.yml"
         fields:
-          - {
-            label: "Awesome Inc Internal Team Members",
-            name: "items",
-            widget: "list",
+          - label: "Awesome Inc Internal Team Members"
+            name: "items"
+            widget: "list"
             fields:
               - {label: "Name", name: "name", widget: "string"}
               - {label: "Image", name: "img_path", widget: "image", default: "images/teamalpha/placeholder-wall.jpg"}
-          }
          
       - name: "workspace"
         label: "Workspace"
