@@ -1,6 +1,6 @@
 backend:
   name: git-gateway
-  branch: netlify-cms # branch to update (optional; defaults to master)
+  branch: master # branch to update (optional; defaults to master)
   repo: https://github.com/ainc/ainc-2018
 
 # publish_mode: editorial_workflow # docs: https://www.netlifycms.org/docs/configuration-options/#publish-mode
