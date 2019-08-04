@@ -117,14 +117,12 @@ collections:
       - {label: "Languages", name: "languages", widget: "string"}
       - {label: "Season", name: "season", widget: "string"}
       - {label: "Time", name: "time", widget: "string"}
-      - {
-          label: "Age Group", 
-          name: "age_group", 
-          widget: "select", 
-          options:
-            - { label: "Youth", value: "youth" }
-            - { label: "Adult", value: "adult" }
-        }
+      - label: "Age Group", 
+        name: "age_group", 
+        widget: "select", 
+        options:
+          - { label: "Youth", value: "youth" }
+          - { label: "Adult", value: "adult" }
       - {label: "Open", name: "open", widget: "boolean"}
       - {label: "Body", name: "body", widget: "markdown"}
 
