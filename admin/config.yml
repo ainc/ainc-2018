@@ -63,11 +63,7 @@ collections:
             - {label: "Person", name: "person", widget: "string"}
             - {label: "Fact", name: "fact", widget: "string"}
             - {label: "Image", name: "img_path", widget: "image", default: "images/teamalpha/placeholder-wall.jpg"}
-            - label: "Team" 
-              name: "team"
-              widget: "select"
-              multiple: true
-              options: [ "Development", "Design", "Marketing", "Videography", "Photography", "Blog" ]
+            - {label: "Team", name: "team", widget: "string"}
 
       - label: "Awesome Inc Internal Team"
         name: "internal-team"
