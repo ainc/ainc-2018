@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Learning How To Learn2
+title: Learning How To Learn
 date: 2013-09-05T00:00:00.000Z
 author_img: /images/teamalpha/nicksuch-wall.jpg
 author: Nick Such
