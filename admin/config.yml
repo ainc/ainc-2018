@@ -78,7 +78,7 @@ collections:
          
       - name: "workspace"
         label: "Workspace"
-        file: "_data/workspace-modal.json"
+        file: "_data/workspace-modal.yml"
         description: "Images and copy for workspace member modals"
         fields:
           - label: "Awesome Inc Workspace Member Popups"
