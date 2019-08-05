@@ -6,8 +6,24 @@ redirect_from:
 - "/jobs/"
 ---
 <div>
+  <div class="contents">
+    <h2>Open Roles</h2>
+    <ul>
+    {% for job in site.job_openings %}
+    {% if job.active == true %}
+    {% assign job_id = job.title | downcase | split: " " %}
+      <li>
+        <a href="#{{ job_id | join: '-' }}">{{ job.title }}</a>
+      </li>
+    {% endif %}
+    {% endfor %}
+    </ul>
+  </div>
+
   {% for job in site.job_openings %}
   {% if job.active == true %}
+  {% assign job_id = job.title | downcase | split: " " %}
+  <div class="job-posting" id="#{{ job_id | join: '-' }}">
   <h3>{{ job.title }}</h3>
   <p>{{ job.content }}</p>
   <p>
@@ -16,6 +32,7 @@ redirect_from:
   <h3>
     <a type="button" class="lgx-btn lgx-btn-anim" href="{% if job.apply_url %}{{ job.apply_url }}{% else %}mailto:{{ job.email }}?subject=I am interseted in applying to the {{ job.title }} position at {{ job.team }}{% endif %}">Apply Here</a>
   </h3>
+  </div>
   {% endif %}
   {% endfor %}
 </div>
