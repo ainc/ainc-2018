@@ -4,8 +4,10 @@ layout: course
 permalink: "/bootcamp"
 breadcrumb: "/learn/adults/bootcamp"
 description: Become A Professional Web Developer
+class_day: Tuesdays and Thursdays
 application: "/applications/bootcamp/"
 cta: Apply Now
+age_group: adults
 ---
 
 {% include aincu-special-announcement.html %}

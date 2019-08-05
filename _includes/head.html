@@ -1,38 +1,36 @@
-<!-- Used for meta-data and importing stylesheets. NOTE: This is imported at the top, any files that can be waited to load, should be added to the /_includes/footer.html file -->
+﻿<!-- Used for meta-data and importing stylesheets. NOTE: This is imported at the top, any files that can be waited to load, should be added to the /_includes/footer.html file -->
 
 <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
 
 <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
 <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
 
-<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
-<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 <!-- The above 3 meta tags *must* come first in the head -->
-
 <!-- SITE TITLE -->
 <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
-<meta name="description" content="{% if page.description %}{{ page.description | escape }}{% endif %}. {{ site.description }}"/>
-<meta name="keywords" content="{{ site.keywords }}"/>
-<meta name="author" content="Awesome Inc"/>
+<meta name="description" content="{% if page.description %}{{ page.description | escape }}{% endif %}. {{ site.description }}" />
+<meta name="keywords" content="{{ site.keywords }}" />
+<meta name="author" content="Awesome Inc" />
 
 <!-- twitter card starts from here, if you don't need remove this section -->
-<meta name="twitter:card" content="We exist to create and grow high-tech startups. We do this by hosting community events, leading technology education courses, and offering a shared workspace."/>
-<meta name="twitter:site" content="@awesome_inc"/>
-<meta name="twitter:creator" content="@awesome_inc"/>
-<meta name="twitter:url" content="https://twitter.com/awesome_inc"/>
-<meta name="twitter:title" content="We exist to create and grow high-tech startups. We do this by hosting community events, leading technology education courses, and offering a shared workspace."/>
+<meta name="twitter:card" content="We exist to create and grow high-tech startups. We do this by hosting community events, leading technology education courses, and offering a shared workspace." />
+<meta name="twitter:site" content="@awesome_inc" />
+<meta name="twitter:creator" content="@awesome_inc" />
+<meta name="twitter:url" content="https://twitter.com/awesome_inc" />
+<meta name="twitter:title" content="We exist to create and grow high-tech startups. We do this by hosting community events, leading technology education courses, and offering a shared workspace." />
 <!-- maximum 140 char -->
-<meta name="twitter:description" content="We exist to create and grow high-tech startups. We do this by hosting community events, leading technology education courses, and offering a shared workspace."/>
+<meta name="twitter:description" content="We exist to create and grow high-tech startups. We do this by hosting community events, leading technology education courses, and offering a shared workspace." />
 <!-- maximum 140 char -->
-<meta name="twitter:image" content="images/twitter-image.jpg"/>
+<meta name="twitter:image" content="images/twitter-image.jpg" />
 <!-- when you post this page url in twitter , this image will be shown -->
 <!-- twitter card ends from here -->
-
 <!--  FAVICON AND TOUCH ICONS -->
-<link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico"/>
+<link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico" />
 <!-- this icon shows in browser toolbar -->
-<link rel="icon" type="image/x-icon" href="images/favicon.ico"/>
+<link rel="icon" type="image/x-icon" href="images/favicon.ico" />
 <!-- this icon shows in browser toolbar -->
 <link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="192x192" href="/images/favicon/android-chrome-192x192.png">
@@ -42,18 +40,17 @@
 <link rel="manifest" href="/images/favicon/site.webmanifest">
 
 <!-- FONT AWESOME -->
-<link rel="stylesheet" href="/assets/css/font-awesome.min.css" media="all"/>
+<link rel="stylesheet" href="/assets/css/font-awesome.min.css" media="all" />
 
 <!-- FONT AWESOME -->
 <!-- <link rel="stylesheet" href="assets/libs/maginificpopup/magnific-popup.css" media="all"/> -->
-
 <!-- OWL CAROUSEL CSS -->
 <link rel="stylesheet" href="/assets/libs/owlcarousel/owl.carousel.min.css" media="all" />
 <link rel="stylesheet" href="/assets/libs/owlcarousel/owl.theme.default.min.css" media="all" />
 
 <!-- GOOGLE FONT -->
 <!--<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Merriweather:300,400,400i,700,900%7cLato:400,700,900"/>-->
-<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,900%7cUbuntu:300,300i,400,500,700"/>
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,900%7cUbuntu:300,300i,400,500,700" />
 <!-- Exo -->
 <link href="//fonts.googleapis.com/css?family=Lato:300,700|Exo:300,800" rel="stylesheet" type="text/css">
 <!-- Open Sans -->
@@ -71,4 +68,9 @@
 <!-- Netlify Identity Widget -->
 <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 
+<!-- Netlify CMS -->
+<script src="https://unpkg.com/netlify-cms@^2.0.0/dist/netlify-cms.js"></script>
+
+<!-- Mailchimp -->
+<link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
 

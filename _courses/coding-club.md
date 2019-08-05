@@ -6,7 +6,17 @@ breadcrumb: "/learn/youth/coding-club"
 description: Learn Code, Make Friends
 cover: "/img/coding-club.jpg"
 class_day: Tuesdays
-eventbrite_eid: 51832961784
+link: site.data.routes.club
+image: /images/logos/aincu-coding-club-logo.png
+level: Beginner
+min_age: 9
+max_age: 12
+chart_description: Computational Thinking, Block-Based Programming
+languages: MIT Scratch
+season: Spring and Fall
+time: 5-6:30pm
+age_group: youth
+open: true
 ---
 
 {% include coding-club-buttons.html %}

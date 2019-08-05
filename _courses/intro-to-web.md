@@ -12,6 +12,7 @@ redirect_from:
 - "/web-intro/"
 - "/web-basics/"
 - "/intro-to-web/"
+age_group: adults
 ---
 
 {% include intro-to-web-buttons.html %}

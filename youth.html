@@ -84,16 +84,23 @@ page_id: youth
                   </tr>
                 </thead>
                 <tbody>
-                  {% for chart in site.charts %}
+                  {% assign courses = site.courses | sort:'min_age' %}
+                  {% for course in courses %}
+                    {% if course.age_group == 'youth' %}
                     <tr>
-                      <td><a href="{{ chart.link }}"><img alt="{{ chart.title }}" data-src="{{ chart.image}}" class="img-responsive lazyload"></a></td>
-                      <td>{{ chart.title }}</td>
-                      <td>{{ chart.ages }}</td>
-                      <td>{{ chart.description }}</td>
-                      <td>{{ chart.languages }}</td>
-                      <td>{{ chart.season }}<br>{{ chart.time }}</td>
-                      <td><a href="{{ chart.link }}" class="btn btn-default center" role="button">Details &amp; Registration</a></td>
+                      <td><a href="{{ course.link }}"><img alt="{{ course.title }}" data-src="{{ course.image}}" class="img-responsive lazyload"></a></td>
+                      <td>{{ course.level }}</td>
+                      <td>{{ course.min_age }}-{{ course.max_age }}</td>
+                      <td>{{ course.chart_description }}</td>
+                      <td>{{ course.languages }}</td>
+                      <td>{{ course.season }}<br>{{ course.class_day}}, {{ course.time }}</td>
+                      {% if course.open == true %}
+                      <td><a href="{{ course.link }}" class="btn btn-default center" role="button">Details &amp; Registration</a></td>
+                      {% else %}
+                      <td><a href="{{ course.link }}" class="btn btn-default center disabled" role="button">Registration Closed</a></td>
+                      {% endif %}
                     </tr>
+                    {% endif %}
                   {% endfor %}
                 </tbody>
               </table>
