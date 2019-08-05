@@ -46,6 +46,8 @@ collections:
 
   - label: "Data"
     name: "data"
+    editor:
+      preview: false
     files:
       - name: "team-alpha"
         label: "Team Alpha"
