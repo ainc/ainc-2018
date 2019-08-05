@@ -22,8 +22,9 @@ collections:
       - {label: "Tags", name: "tags", widget: "list"}
       - {label: "Body", name: "body", widget: "markdown"}
 
-  - name: "Fellowship Portfolio"
-    label: "Fellowship Portfolio"
+  - label: "Fellowship Portfolio Teams"
+    label_singular: "Fellowship Portfolio Team"
+    name: "fellowship_portfolio"
     folder: "_fellowship_portfolio"
     create: true
     fields:
@@ -36,6 +37,7 @@ collections:
 
   - name: "Mentors"
     label: "Mentors"
+    label_singluar: "Mentor"
     folder: "_mentors"
     create: true
     fields:
@@ -54,6 +56,7 @@ collections:
         file: "_data/team-alpha.yml"
         fields:
           - label: "Team Alpha Members"
+            label_singular: "Team Alpha Member"
             name: "items"
             widget: "list"
             fields:
@@ -70,6 +73,7 @@ collections:
         file: "_data/ainc-team.yml"
         fields:
           - label: "Awesome Inc Internal Team Members"
+            label_singular: "Awesome Inc Internal Team Member"
             name: "items"
             widget: "list"
             fields:
@@ -77,21 +81,23 @@ collections:
               - {label: "Image", name: "img_path", widget: "image", default: "images/teamalpha/placeholder-wall.jpg"}
          
       - name: "workspace"
-        label: "Workspace"
+        label: "Workspace Popups"
         file: "_data/workspace-modal.yml"
         description: "Images and copy for workspace member modals"
         fields:
           - label: "Awesome Inc Workspace Member Popups"
+            label_singular: "Awesome Inc Workspace Popup"
             name: "items"
             widget: "list"
             fields:
-              - {label: "Image", name: "image", widget: "image"}
               - {label: "Title", name: "title", widget: "string"}
+              - {label: "Image", name: "image", widget: "image"}
               - {label: "Price", name: "price", widget: "string"}
               - {label: "Body", name: "body", widget: "markdown"}
   
   - name: "Job Openings"
     label: "Job Openings"
+    label_singular: "Job Opening"
     folder: "_job_openings"
     create: true
     fields:
@@ -107,6 +113,7 @@ collections:
  #note: this is the concatenation of two different old file types, this was requested but could/should be optimized in future
   - name: "Courses"
     label: "Courses"
+    label_singular: "Course"
     folder: "_courses"
     create: true
     fields:
@@ -144,6 +151,7 @@ collections:
 
   - name: "Events"
     label: "Events"
+    label_singluar: "Event"
     folder: "_events"
     create: true
     fields:
