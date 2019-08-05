@@ -1,21 +1,15 @@
 ---
+layout: post
 title: Learning How To Learn
-date: 2013-09-05 00:00:00 Z
-header_img: null
-author_img: "/images/teamalpha/nicksuch-wall.jpg"
+date: 2013-09-05T00:00:00.000Z
+author_img: /images/teamalpha/nicksuch-wall.jpg
 author: Nick Such
 tags:
-- learntocode
-- education
-- software developer
-- mooc
-layout: post
-description: How the learntocode movement is just the first step in changing how we
-  learn everything.
+  - learntocode
+  - education
+  - software developer
+  - mooc
 ---
-
-By [Nick Such](https://plus.google.com/+NickSuch/)
-
 A few months ago, my team at Awesome Inc launched [a code school](http://awesomeincu.com/). After a few years of running a startup accelerator program, we realized that there was a glaring weakness in our entrepreneurial ecosystem that was holding back our local startups: a lack of technical co-founders. Like many startup communities, we have plenty of "idea" guys and gals, plus quite a few biz-dev hustlers, marketing geniuses, and even domain experts. But as we saw pitch after pitch from passionate people with interesting startup ideas, a mobile app for this, a website for that, we noticed that few startups had someone on their team who could actually build the piece of software they proposed! We wondered why, with exploding job demand and startup opportunities, we weren't seeing more technical co-founders.
 
 <!--more-->
@@ -50,4 +44,4 @@ We hoped that this shortage of technical co-founders would improve on its own ov
 
 ## Learning Is Hard, But It's Easier Than Ever
 
-As my team at [Awesome Inc](http://awesomeincu.com/) spent the past few months exploring the technical co-founder drought, we learned that our society's journey to help people learn to code is still in its infancy. In spite of all our modern advances in [MOOCs](https://www.coursera.org/), [K-12 STEM curriculum programs](http://alum.mit.edu/volunteering/VolunteerTools/K12Toolkit?destination=node/18117), and some [ridiculously awesome Q&A sites](http://stackoverflow.com/), **learning is still hard work**. We have made great strides increasing access to educational content, but that content is only part of the challenge of education. It still takes time, money, discipline, and some great teachers to create a capable software developer. And while the learn-to-code movement has gotten some [mixed reviews](http://www.slate.com/articles/technology/future_tense/2013/08/everybody_does_not_need_to_learn_to_code.html), I think its major benefit is in paving the way for helping people learn *anything* more easily. With the abundance of educational content, huge employment demand, and boundless startup opportunities, we have some potent resources for training people in today's crop of technical skills. Tomorrow will bring some new technology to learn, some new skill *du jour*. If I am ever going to consider my work on the learn-to-code movement to be a success, it will be that our impact goes well beyond helping some people learn how to make their first iPhone app. I hope we help a whole new generation learn how to learn.
+As my team at [Awesome Inc](http://awesomeincu.com/) spent the past few months exploring the technical co-founder drought, we learned that our society's journey to help people learn to code is still in its infancy. In spite of all our modern advances in [MOOCs](https://www.coursera.org/), [K-12 STEM curriculum programs](http://alum.mit.edu/volunteering/VolunteerTools/K12Toolkit?destination=node/18117), and some [ridiculously awesome Q&A sites](http://stackoverflow.com/), **learning is still hard work**. We have made great strides increasing access to educational content, but that content is only part of the challenge of education. It still takes time, money, discipline, and some great teachers to create a capable software developer. And while the learn-to-code movement has gotten some [mixed reviews](http://www.slate.com/articles/technology/future_tense/2013/08/everybody_does_not_need_to_learn_to_code.html), I think its major benefit is in paving the way for helping people learn _anything_ more easily. With the abundance of educational content, huge employment demand, and boundless startup opportunities, we have some potent resources for training people in today's crop of technical skills. Tomorrow will bring some new technology to learn, some new skill _du jour_. If I am ever going to consider my work on the learn-to-code movement to be a success, it will be that our impact goes well beyond helping some people learn how to make their first iPhone app. I hope we help a whole new generation learn how to learn.

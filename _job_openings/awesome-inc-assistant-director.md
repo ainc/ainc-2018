@@ -7,7 +7,6 @@ time-commitment: full-time
 active: true
 apply_url: https://docs.google.com/forms/d/e/1FAIpQLSeo_C5kwAFAwtxY64qT03egpsnVrwjGc-5UNezZ4HLwQj5SGA/viewform?usp=sf_link
 ---
-
 We are seeking an enthusiastic and self-driven member to join our team. At Awesome Inc, our purpose is to help others pursue their definition of awesome.
 
 Ideal candidates will be enthusiastic about entrepreneurship, eager to learn, and most importantly, hungry to build a community that helps others reach their goals. The Assistant Director will work closely with the rest of the management team to execute on and help grow existing programs.
@@ -35,4 +34,8 @@ Desired qualifications:
   * Writing reports on progress of entrepreneur community
   * Other administrative tasks associated with running an organization
 
+<<<<<<< HEAD
 Competitive pay and perks
+=======
+Competitive pay and perks
+>>>>>>> 2b0a0b5909236e9fbc5886e02a2dbe4021fdd3be

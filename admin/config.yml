@@ -3,7 +3,7 @@ backend:
   branch: master # branch to update (optional; defaults to master)
   repo: https://github.com/ainc/ainc-2018
 
-publish_mode: editorial_workflow # docs: https://www.netlifycms.org/docs/configuration-options/#publish-mode
+# publish_mode: editorial_workflow # docs: https://www.netlifycms.org/docs/configuration-options/#publish-mode
 
 media_folder: "images/uploads"
 
@@ -16,7 +16,10 @@ collections:
       - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Featured Image", name: "thumbnail", widget: "image"}
+      - {label: "Header Image", name: "header_img", widget: "image", required: false}
+      - {label: "Author Image", name: "author_img", widget: "image", required: false}
+      - {label: "Author", name: "author", widget: "string"}
+      - {label: "Tags", name: "tags", widget: "list"}
       - {label: "Body", name: "body", widget: "markdown"}
 
   - name: "Fellowship Portfolio"
@@ -46,7 +49,7 @@ collections:
     files:
       - name: "team-alpha"
         label: "Team Alpha"
-        file: "_data/team-alpha.json"
+        file: "_data/team-alpha.yml"
         description: "Team Alpha Members List"
         fields:
           - {label: "Name", name: "name", widget: "string"}
@@ -54,6 +57,22 @@ collections:
           - {label: "Song", name: "song", widget: "string"}
           - {label: "Person", name: "person", widget: "string"}
           - {label: "Fact", name: "fact", widget: "string"}
+          - {label: "Image", name: "img_path", widget: "image", default: "images/teamalpha/placeholder-wall.jpg"}
+          - {
+            label: "Team", 
+            name: "team", 
+            widget: "select",
+            options: [ "Development", "Design", "Marketing", "Videography", "Photography", "Blog" ]
+          }
+
+      - name: "internal-team"
+        label: "Awesome Inc Internal Team"
+        file: "_data/ainc-team.yml"
+        description: "Awesome Inc Internal Team Members & Founders"
+        fields:
+         - {label: "Name", name: "name", widget: "string"}
+         - {label: "Image", name: "img_path", widget: "image", default: "images/teamalpha/placeholder-wall.jpg"}
+         
       - name: "workspace"
         label: "Workspace"
         file: "_data/workspace-modal.json"
@@ -77,3 +96,45 @@ collections:
       - {label: "Active", name: "active", widget: "boolean"}
       - {label: "Apply URL", name: "url", widget: "string", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
+
+ #note: this is the concatenation of two different old file types, this was requested but could/should be optimized in future
+  - name: "Courses"
+    label: "Courses"
+    folder: "_courses"
+    create: true
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Layout", name: "layout", widget: "string"}
+      - {label: "Permalink", name: "permalink", widget: "string"}
+      - {label: "Breadcrumb", name: "breadcrumb", widget: "string"}
+      - {label: "Description", name: "description", widget: "string"}
+      - {label: "Class Day", name: "class_day", widget: "string"}
+      - {label: "Image", name: "image", widget: "string"}
+      - {label: "Level", name: "level", widget: "string"}
+      - {label: "Min Age", name: "min-age", widget: "string"}
+      - {label: "Max Age", name: "max_age", widget: "string"}
+      - {label: "Chart Description", name: "chart_description", widget: "string"}
+      - {label: "Languages", name: "languages", widget: "string"}
+      - {label: "Season", name: "season", widget: "string"}
+      - {label: "Time", name: "time", widget: "string"}
+      - label: "Age Group"
+        name: "age_group" 
+        widget: "select" 
+        options:
+          - { label: "Youth", value: "youth" }
+          - { label: "Adult", value: "adult" }
+      - {label: "Open", name: "open", widget: "boolean"}
+      - {label: "Body", name: "body", widget: "markdown"}
+
+  - name: "Events"
+    label: "Events"
+    folder: "_events"
+    create: true
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Date", name: "date", widget: "string"}
+      - {label: "Eventbrite_url", name: "eventbrite_url", widget: "string"}
+      - {label: "Feature", name: "feature", widget: "boolean"}
+      - {label: "Location", name: "location", widget: "string"}
+      - {label: "Image_url", name: "image_url", widget: "string"}
+      - {label: "Id", name: "id", widget: "string"}

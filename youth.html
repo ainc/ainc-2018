@@ -84,33 +84,24 @@ page_id: youth
                   </tr>
                 </thead>
                 <tbody>
-                  <tr>
-                    <td><a href="{{ site.data.routes.club }}"><img alt="Coding Club" data-src="/images/logos/aincu-coding-club-logo.png" class="img-responsive lazyload"></a></td>
-                    <td>Beginner</td>
-                    <td>9-12</td>
-                    <td>Computational Thinking, Block-Based Programming</td>
-                    <td>MIT Scratch</td>
-                    <td>Spring and Fall<br>Tuesdays, 5-6:30pm</td>
-                    <td><a href="{{ site.data.routes.club }}" class="btn btn-default center" role="button">Details &amp; Registration</a></td>
-                  </tr>
-                  <tr>
-                    <td><a href="{{ site.data.routes.league }}"><img alt="Coding League" data-src="/images/logos/aincu-coding-league-logo.png" class="img-responsive lazyload"></a></td>
-                    <td>Intermediate</td>
-                    <td>11-14</td>
-                    <td>Web Development, Computer Science Basics&nbsp;</td>
-                    <td>HTML, CSS, JavaScript</td>
-                    <td>Spring and Fall<br>Tuesdays, 5:30-7pm</td>
-                    <td><a href="{{ site.data.routes.league }}" class="btn btn-default center" role="button">Details &amp; Registration</a></td>
-                  </tr>
-                  <tr>
-                    <td><a href="{{ site.data.routes.academy }}"><img alt="The Academy" data-src="/images/logos/aincu-academy-logo.png" class="img-responsive lazyload"></a></td>
-                    <td>Advanced</td>
-                    <td>13-17</td>
-                    <td>Projects in Web, Mobile, Games&nbsp;</td>
-                    <td>HTML, CSS, JavaScript, Python, Swift, Java, C#, Unity 3D</td>
-                    <td>Spring and Fall<br>Tuesdays and Thursdays, 6-8pm</td>
-                    <td><a href="{{ site.data.routes.academy }}" class="btn btn-default center" role="button">Details &amp; Application</a></td>
-                  </tr>
+                  {% assign courses = site.courses | sort:'min_age' %}
+                  {% for course in courses %}
+                    {% if course.age_group == 'youth' %}
+                    <tr>
+                      <td><a href="{{ course.link }}"><img alt="{{ course.title }}" data-src="{{ course.image}}" class="img-responsive lazyload"></a></td>
+                      <td>{{ course.level }}</td>
+                      <td>{{ course.min_age }}-{{ course.max_age }}</td>
+                      <td>{{ course.chart_description }}</td>
+                      <td>{{ course.languages }}</td>
+                      <td>{{ course.season }}<br>{{ course.class_day}}, {{ course.time }}</td>
+                      {% if course.open == true %}
+                      <td><a href="{{ course.link }}" class="btn btn-default center" role="button">Details &amp; Registration</a></td>
+                      {% else %}
+                      <td><a href="{{ course.link }}" class="btn btn-default center disabled" role="button">Registration Closed</a></td>
+                      {% endif %}
+                    </tr>
+                    {% endif %}
+                  {% endfor %}
                 </tbody>
               </table>
             </div>
