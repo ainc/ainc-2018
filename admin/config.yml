@@ -65,13 +65,16 @@ collections:
             options: [ "Development", "Design", "Marketing", "Videography", "Photography", "Blog" ]
           }
 
-      - name: "internal-team"
-        label: "Awesome Inc Internal Team"
+      - label: "Awesome Inc Internal Team"
+        name: "internal-team"
         file: "_data/ainc-team.yml"
-        description: "Awesome Inc Internal Team Members & Founders"
         fields:
-         - {label: "Name", name: "name", widget: "string"}
-         - {label: "Image", name: "img_path", widget: "image", default: "images/teamalpha/placeholder-wall.jpg"}
+          - label: "Awesome Inc Internal Team Members"
+            name: "items"
+            widget: "list"
+            fields:
+              - {label: "Name", name: "name", widget: "string"}
+              - {label: "Image", name: "img_path", widget: "image", default: "images/teamalpha/placeholder-wall.jpg"}
          
       - name: "workspace"
         label: "Workspace"

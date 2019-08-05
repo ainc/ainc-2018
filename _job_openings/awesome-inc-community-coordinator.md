@@ -34,8 +34,4 @@ Desired qualifications:
   * Using Google Docs and Sheets
   * Other administrative tasks associated with running an organization
 
-<<<<<<< HEAD
 Competitive pay and perks
-=======
-Competitive pay and perks
->>>>>>> 2b0a0b5909236e9fbc5886e02a2dbe4021fdd3be
