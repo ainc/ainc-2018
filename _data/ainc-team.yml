@@ -5,5 +5,25 @@ items:
     name: Nathan Fort
   - img_path: /images/uploads/lukemurray-wall.jpg
     name: Luke Murray
+  - img_path: /images/uploads/nicksuch-wall.jpg
+    name: Nick Such
+  - img_path: /images/uploads/emilywehrle-wall.jpg
+    name: Emily Wehrle
+  - img_path: /images/uploads/keithmcmunn-wall.jpg
+    name: Keith McMunn
   - img_path: /images/uploads/kyleraney-wall.jpg
     name: Kyle Raney
+  - img_path: /images/uploads/maggiecollofello-wall.jpg
+    name: Maggie Collofello
+  - img_path: images/teamalpha/placeholder-wall.jpg
+    name: Mike Hilton
+  - img_path: /images/uploads/lizbrown-wall.jpg
+    name: Liz Brown
+  - img_path: /images/uploads/jacquelinebenson-wall.jpg
+    name: Jacqueline Benson
+  - img_path: /images/uploads/loganjones-wall.jpg
+    name: Logan Jones
+  - img_path: /images/uploads/garrettfahrbach-wall.jpg
+    name: Garrett Fahrbach
+  - img_path: /images/uploads/peterbriggs-wall.jpg
+    name: Peter Briggs
