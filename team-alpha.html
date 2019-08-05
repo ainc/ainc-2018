@@ -27,7 +27,14 @@ permalink: "/team-alpha"
       <div class="col-xs-6 col-sm-3">
         <div class="lgx-single-member"> <!--team-alpha member-->
           <figure>
-            <img src="/images/teamalpha/{{ member.name | downcase | remove: " " }}-wall.jpg" alt="{{ member.name }}" onerror="this.onerror=null;this.src='/images/teamalpha/placeholder-wall.jpg';"/>
+            <img 
+            {% if member.img_path %}
+              src="{{ member.img_path }}"
+            {% else %}
+              src="/images/teamalpha/{{ member.name | remove: ' ' | downcase | default: 'placeholder' }}-wall.jpg" 
+            {% endif %}
+              alt="Awesome Inc team member, {{ member.name }}" 
+            />
             <figcaption>
               <h3 class="member-name">{{ member.name }}<br><span>{{ member.team }}</span></h3>
               <div class="team-alpha-icon rule">
