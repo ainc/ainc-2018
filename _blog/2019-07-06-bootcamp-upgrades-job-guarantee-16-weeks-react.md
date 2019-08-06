@@ -1,12 +1,13 @@
 ---
 layout: post
 title: 'BOOTCAMP UPGRADES: JOB GUARANTEE, 16 WEEKS, REACT'
-date: '2019-07-06T14:00:00-04:00'
+date: 2019-07-06 00:00:00 Z
 header_img: /images/uploads/bootcamp-upgrades-f19.jpg
 author_img: /images/uploads/nick2.jpg
-author: 'Nick Such '
+author: Nick Such
 tags:
-  - ''
+  - bootcamp
+description: Details the job guarantee of Awesome Inc U's developer bootcamp
 ---
 Do you remember May 12th, 2016? I do. It was when we hosted the [first info session](https://www.awesomeincu.com/blog/2015/10/21/developer-bootcamp/) for Awesome Inc’s new Web Developer Bootcamp program. We weren’t sure if anyone would show up for the open house event, much less if anyone would entrust us with their career and livelihood, enough to apply and commit to completing our program. By August, ten people had taken that leap, our first cohort of Bootcamp students, the Fall 2016 group.
 
