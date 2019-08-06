@@ -119,7 +119,7 @@ page_id: workspace
             <h6>Up To 20 Conference Room Hours Per Month</h6>
             <div class="abs-btn long-text"><a class="lgx-btn" href="#" data-toggle="modal" data-target="#member-form-modal"><span>Starting at</span> $400/Month</a></div>
           </div>
-          {% for modal_data in site.data.workspace-modal %}
+          {% for modal_data in site.data.workspace-modal.items %}
             {% include workspace-modal.html member=modal_data.short_title %}
           {% endfor %}
         </div><!--//.ROW-->
