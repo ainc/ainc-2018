@@ -8,7 +8,6 @@ cover: "/img/Awesome-Inc-Academy.jpg"
 application: "/applications/academy/"
 redirect_from: "/programs/academy/"
 cta: Apply Now
-link: site.data.routes.academy
 image: /images/logos/aincu-academy-logo.png
 level: Advanced
 min_age: 13
