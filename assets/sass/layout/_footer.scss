@@ -30,37 +30,41 @@
 }
 
 #instafeed {
-  //max-width: 350px;
-  a {
-    //width: 100%;
-    //position: relative;
-    overflow: hidden;
-    width: 33.33%;
+    list-style: none;
+    column-count: 3;
     float: left;
-    img {
-      padding-right: 4px;
-      padding-bottom: 4px;
-      border-radius: 6px;
-      opacity: .8;
-      height: 90px;
-      @include transition-duration($duration: 0.3s);
-      -ms-transform: scale(2);
-      -moz-transform: scale(2);
-      -webkit-transform: scale(2);
-      -o-transform: scale(2);
-      transform: scale(2);
+    padding: 0;
+
+    li {
+        width: 100px;
+        height: 100px;
+        align-content: center;
+        display: inline-flex; //deals with different images sizes
+        img {
+            max-height: 100px;
+            width: 100px;
+            position: relative;
+            z-index: 1;
+            padding-right: 4px;
+            padding-bottom: 4px;
+            border-radius: 6px;
+            opacity: .9;
+            will-change: transform; //NOTE: this line is necessary so that the transform overflow is not auto-clipped, always clips off otherwise
+            @include transition-duration($duration: 0.3s);
+        }
+
+        &:hover {
+            img {
+                z-index: 3;
+                opacity: 1;
+                -ms-transform: scale(3);
+                -moz-transform: scale(3);
+                -webkit-transform: scale(3);
+                -o-transform: scale(3);
+                transform: scale(3);
+            }
+        }
     }
-    &:hover {
-      img {
-        opacity: 1;
-        -ms-transform: scale(3);
-        -moz-transform: scale(3);
-        -webkit-transform: scale(3);
-        -o-transform: scale(3);
-        transform: scale(3);
-      }
-    }
-  }
 }
 
 .lgx-footer {
