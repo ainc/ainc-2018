@@ -108,6 +108,7 @@ collections:
       - {label: "Time Commitment", name: "time-commitment", widget: "string"}
       - {label: "Active", name: "active", widget: "boolean", description: "Do you want the job to be listed?"}
       - {label: "Apply URL", name: "url", widget: "string", required: false}
+      - {label: "Priority", name: "priority", widget: "number", required: false, description: "Pick 1 to prioritize this field to show up at the top"}
       - {label: "Body", name: "body", widget: "markdown"}
 
  #note: this is the concatenation of two different old file types, this was requested but could/should be optimized in future

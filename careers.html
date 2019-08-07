@@ -5,11 +5,14 @@ permalink: "/careers"
 redirect_from:
 - "/jobs/"
 ---
+
+{% assign jobs = site.job_openings | sort: "priority" | reverse %}
+
 <div>
   <div class="contents">
     <h2>Open Roles</h2>
     <ul>
-    {% for job in site.job_openings %}
+    {% for job in jobs %}
     {% if job.active == true %}
     {% assign job_id = job.title | downcase | split: " " %}
       <li>
@@ -20,10 +23,10 @@ redirect_from:
     </ul>
   </div>
 
-  {% for job in site.job_openings %}
+  {% for job in jobs %}
   {% if job.active == true %}
   {% assign job_id = job.title | downcase | split: " " %}
-  <div class="job-posting" id="#{{ job_id | join: '-' }}">
+  <div class="job-posting" id="{{ job_id | join: '-' }}">
   <h3>{{ job.title }}</h3>
   <p>{{ job.content }}</p>
   <p>
