@@ -9,7 +9,6 @@ class_day: Tuesdays
 redirect_from:
 - "/codingleague/"
 - "/league/"
-link: site.data.routes.league
 image: /images/logos/aincu-coding-league-logo.png
 level: Intermediate
 min_age: 11
