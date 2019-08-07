@@ -6,7 +6,6 @@ breadcrumb: "/learn/youth/coding-club"
 description: Learn Code, Make Friends
 cover: "/img/coding-club.jpg"
 class_day: Tuesdays
-link: site.data.routes.club
 image: /images/logos/aincu-coding-club-logo.png
 level: Beginner
 min_age: 9
