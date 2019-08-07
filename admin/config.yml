@@ -156,7 +156,7 @@ collections:
     create: true
     fields:
       - {label: "Title", name: "title", widget: "string"}
-      - {label: "Date", name: "date", widget: "string"}
+      - {label: "Date", name: "date", widget: "datetime"}
       - {label: "Eventbrite_url", name: "eventbrite_url", widget: "string"}
       - {label: "Feature", name: "feature", widget: "boolean"}
       - {label: "Location", name: "location", widget: "string"}
