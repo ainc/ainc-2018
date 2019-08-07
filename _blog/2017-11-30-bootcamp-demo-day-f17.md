@@ -3,6 +3,7 @@ layout: post
 title: Demo Day - Bootcamp F17
 date: 2017-11-30T00:00:00.000Z
 thumbnail: /images/uploads/5-across-logo.png
+description:  Fall 2017 Bootcamp Demo Day presentations
 ---
 
 ![Awesome Inc Bootcamp demo day](/images/blog/bootcamp-s17-demo-day.jpg)
