@@ -8,6 +8,7 @@ class_day: Tuesdays and Thursdays
 application: "/applications/bootcamp/"
 cta: Apply Now
 age_group: adults
+team: aincu
 ---
 
 {% include aincu-special-announcement.html %}

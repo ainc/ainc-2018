@@ -19,6 +19,7 @@ season: Spring and Fall
 time: 5:30-7pm
 age_group: youth
 open: false
+team: aincu
 ---
 
 {% include coding-league-buttons.html %}

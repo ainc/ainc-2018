@@ -6,6 +6,7 @@ layout: course
 description: Learn Code, Make Friends
 cover: "/img/coding-club.jpg"
 age_group: not_youth
+team: aincu
 ---
 
 ### Do you have students at your school who enjoy spending time on the computer, could play Minecraft for hours, or have done the Hour of Code?

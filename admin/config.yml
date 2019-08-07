@@ -146,6 +146,16 @@ collections:
         options:
           - { label: "Youth", value: "youth" }
           - { label: "Adult", value: "adult" }
+      - label: "Team"
+        name: "team"
+        description: "Which initiative is this for?"
+        widget: "select"
+        required: false
+        options: 
+          - { label: "Awesome Inc", value: "ainc" }
+          - { label: "Awesome Inc U", value: "aincu" }
+          - { label: "Fellowship Program", value: "fellowship" }
+          - { label: "APAX Software", value: "apax" }
       - {label: "Open", name: "open", widget: "boolean", description: "Is the class registration open?"}
       - {label: "Body", name: "body", widget: "markdown"}
 
