@@ -3,6 +3,7 @@ layout: post
 title: 5 Reasons Why Everyone Should Learn To Code
 date: 2013-08-16T00:00:00.000Z
 thumbnail: /images/uploads/5-across-logo.png
+description: Why you should learn to code and the benefits of doing so
 ---
 
 <iframe width="400" height="265" src="https://www.youtube.com/embed/g_ytoNfe83Y?rel=0" style="border-width:0;"> </iframe>
