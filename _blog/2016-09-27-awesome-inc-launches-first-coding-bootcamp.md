@@ -9,9 +9,7 @@ tags:
 - programming
 - students
 layout: post
-description: Awesome Inc, the hi-tech incubator and computer coding school that provides
-  programming courses for kids and adults in Kentucky has launched Lexington’s first
-  coding Bootcamp.
+description: ''
 ---
 
 by: Gregory Petitt
