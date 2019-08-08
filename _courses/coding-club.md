@@ -16,6 +16,7 @@ season: Spring and Fall
 time: 5-6:30pm
 age_group: youth
 open: true
+team: aincu
 ---
 
 {% include coding-club-buttons.html %}
