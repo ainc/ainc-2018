@@ -43,6 +43,7 @@
         img {
             max-height: 100px;
             width: 100px;
+            height: auto;
             position: relative;
             z-index: 1;
             padding-right: 4px;
@@ -55,6 +56,7 @@
 
         &:hover {
             img {
+                height: auto;
                 z-index: 3;
                 opacity: 1;
                 -ms-transform: scale(3);
@@ -62,8 +64,16 @@
                 -webkit-transform: scale(3);
                 -o-transform: scale(3);
                 transform: scale(3);
+                max-height: none;
             }
         }
+    }
+
+    #cont-icon {
+        width: 100px;
+        height: 100px;
+        padding-top: 15px;
+        padding-left: 10px;
     }
 }
 
