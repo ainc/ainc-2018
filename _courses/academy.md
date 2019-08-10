@@ -18,6 +18,7 @@ season: Spring and Fall
 time: 6-8pm
 age_group: youth
 open: false
+team: aincu
 ---
 
 So, you’ve got the basics down. You’ve taken a class or two, followed some tutorials, built a few “Hello, world” programs. How do you go beyond learning-to-code and take your software development skills to the next level? The Awesome Inc Academy is our answer.

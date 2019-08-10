@@ -173,6 +173,20 @@
         &#member-feature { // Make this img stand taller than the others
           max-height: 150px;
           margin-top: 0;
+          @include screen-md {
+              margin-top: 3vh;
+          }
+          @include screen-lg {
+              margin-top: 20px;
+          }
+        }
+        &#member-ticket { // Make this img stand taller than the others
+          @include screen-md {
+              margin-top: 2vh;
+          }
+          @include screen-lg {
+              margin-top: 25px;
+          }
         }
       }
     }
@@ -240,6 +254,46 @@
           padding-left: 1rem;
           padding-right: 1rem;
         }
+        @include screen-md {
+            width: 130%;
+            display: inline-block;
+            margin-left: -12px;
+            margin-top: 5.25rem;
+        }
+        @include screen-lg {
+            width: 105%;
+            display: inline-block;
+            margin-left: -2px;
+            letter-spacing: 2px;
+        }
+        @include screen-xs {
+          position: relative;
+        }
+      }
+      &#med-text a {
+        margin-left: 20%;
+        margin-top: 3.5rem;
+        width: 60%;
+        @include font-size(14);
+        top: 110%;
+        @include screen-tablet-max {
+          margin-left: 10%;
+          width: 80%;
+          padding-left: 1rem;
+          padding-right: 1rem;
+        }
+        @include screen-md {
+            width: 130%;
+            display: inline-block;
+            margin-left: -12px;
+            margin-top: 1.7rem;
+        }
+        @include screen-lg {
+            width: 105%;
+            display: inline-block;
+            margin-left: -2px;
+            letter-spacing: 2px;
+        }
         @include screen-xs {
           position: relative;
         }
@@ -248,6 +302,16 @@
         margin-top: 1.75rem;
         margin-left: 0;
         width: 100%;
+        @include screen-md {
+            width: 130%;
+            display: inline-block;
+            margin-top: 2.25rem;
+        }
+        @include screen-lg {
+            width: 110%;
+            display: inline-block;
+            margin-top: 1rem;
+        }
         span {
           @include font-size(9);
           font-weight: 500;

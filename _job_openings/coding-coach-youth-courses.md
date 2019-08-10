@@ -1,5 +1,5 @@
 ---
-title: Coding Coach, Youth Courses
+title: Coding Coach - Youth Courses
 email: info@awesomeincu.com
 team: Awesome Inc U
 manager: Nick

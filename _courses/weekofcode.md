@@ -11,6 +11,7 @@ redirect_from:
 - "/summer/"
 - "/lexcamp/"
 age_group: not_youth
+team: aincu
 ---
 
 {% include woc-buttons-sponsorship.html %}
