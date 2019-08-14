@@ -17,6 +17,9 @@ sass:
   sourcemap: :true
 
 # Build settings
+include:
+  - _redirects
+
 exclude:
   - package.json
   - README.md
