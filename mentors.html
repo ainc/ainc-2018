@@ -3,13 +3,6 @@ title: Mentors
 layout: sub
 permalink: "mentors/"
 ---
-<div class="container">
-  <ul class="breadcrumb">
-    <li><a href="/"><i class="icon-home6"></i>Home</a></li>
-    <li><a href="{{ site.data.routes.fellowship }}"><i class="icon-home6"></i>Fellowship</a></li>
-    <li class="active">Mentors</li>
-  </ul>
-</div>
 
 <!--MENTORS-->
 <section>
@@ -17,24 +10,26 @@ permalink: "mentors/"
     <div class="lgx-inner">
       <div class="container">
         <div class="row">
-          {% for mentor in site.mentors %}
-          <div class="col-xs-6 col-sm-4 col-md-3">
+          {% for mentor in site.data.mentors-list %}
+          <div class="col-md-2-4">
             <div class="lgx-single-item"> <!--lgx-team-circle-->
               <figure>
-                <img src="{{ mentor.picture | default: '/images/logos/ainc-logo-triangle-layer-red.png' }}" alt="{{ mentor.name }}"/>
+                <img src="{{ mentor.image | default: '/images/logos/ainc-logo-triangle-layer-red.png' }}" alt="{{ mentor.lastname }}" width="125" height="125"/>
                 <figcaption>
                   <h3 class="item-name">
-                    {% if mentor.linkedin %}
-                      <a href="{{ mentor.linkedin }}">{{ mentor.name }}</a>
+                    {% if mentor.website %}
+                    <a href="{{ mentor.website }}">{{ mentor.firstname }} {{mentor.lastname}}</a>
                     {% else %}
-                      {{ mentor.name }}
+                    {{ mentor.firstname }} {{ mentor.lastname }}
                     {% endif %}
                   </h3>
                   <p class="text">{{ mentor.company }}</p>
                   <div class="item-bottom pull-right">
-                    <ul class="list-inline social-group">
-                      {% if mentor.linkedin %}<li><a href="{{ mentor.linkedin }}"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>{% endif %}
-                    </ul>
+                      <p class="text">{{ mentor.website_text }}</p>
+                      <ul class="list-inline social-group pull-right">
+                          {% if mentor.website %}
+                          <li><a href="{{ mentor.website }}"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>{% endif %}
+                      </ul>
                   </div>
                 </figcaption>
               </figure>
