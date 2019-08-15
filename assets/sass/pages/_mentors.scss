@@ -1,0 +1,23 @@
+#mentors {
+    .lgx-single-item figcaption h3.item-name {
+        margin-top: 1rem;
+    }
+
+    .lgx-single-item figure figcaption .item-name {
+        font-size: 1.7rem;
+        margin-bottom: 1rem;
+    }
+
+    .lgx-single-item figure figcaption p {
+        font-size: 1.25rem;
+    }
+
+    .lgx-single-item figure figcaption {
+        padding-left: 1vw;
+    }
+
+    .lgx-single-item {
+        width: 135px;
+        overflow: hidden;
+    }
+}

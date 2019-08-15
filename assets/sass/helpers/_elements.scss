@@ -943,3 +943,17 @@ svg[id*='svg_'] {
   object-fit: cover;
 }
 
+//bootstrap 5-per-row columns, used on mentors
+//and maybe 5across related puns
+.col-lg-2-4 {
+    @include make-lg-column(2.4)
+}
+
+.col-md-2-4 {
+    @include make-md-column(2.4)
+}
+
+.col-sm-2-4 {
+    @include make-sm-column(2.4)
+}
+

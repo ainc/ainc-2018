@@ -12,18 +12,6 @@ body{
   line-height: 2.6rem;
 }
 
-.col-lg-2-4 {
-    @include make-lg-column(2.4)
-}
-
-.col-md-2-4 {
-    @include make-md-column(2.4)
-}
-
-.col-sm-2-4 {
-    @include make-sm-column(2.4)
-}
-
 p {
   font-family:$lgx-base-font;
   @include font-size($font-size-base);
