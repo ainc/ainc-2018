@@ -72,6 +72,49 @@
     z-index: 999;
   }
 }
+
+/* Custom styles for Fellowship Portfolio */
+.lgx-portfolio .lgx-single-team {
+  width: 360px;
+  height: 200px;
+  figure {
+    width: 100%;
+    height: 100%;
+
+    white-space: nowrap;
+    text-align: center;
+    img {
+      max-width: 80%;
+      max-height: 150px;
+      vertical-align: middle;
+      max-height: 100%;
+      max-width: 100%;
+      margin: auto;
+    }
+    &:hover img {
+      filter: grayscale(0.75) opacity(0.5);
+    }
+    .vert-align-helper {
+      display: inline-block;
+      height: 100%;
+      vertical-align: middle;
+    }
+    figcaption {
+      white-space: normal;
+      text-align: left;
+      overflow-y: scroll;
+    }
+    .text {
+      margin-left: 0;
+      margin-bottom: 0.5rem;
+    }
+    .team-bottom {
+      position: relative;
+    }
+  }
+}
+/* // End custom style for Fellowship team */
+
 .lgx-single-member, .lgx-single-team, .lgx-single-item {
   border-radius: 6px;
   margin-bottom: 2.4rem;
@@ -93,6 +136,8 @@
       }
     }
   }
+  
+
   figure {
     position: relative;
     a {
