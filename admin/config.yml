@@ -20,6 +20,7 @@ collections:
       - {label: "Author Image", name: "author_img", widget: "image", required: false}
       - {label: "Author", name: "author", widget: "string"}
       - {label: "Tags", name: "tags", widget: "list"}
+      - {label: "Description", name: "description", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
 
   - label: "Fellowship Portfolio Teams"
