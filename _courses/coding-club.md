@@ -190,7 +190,7 @@ The Coding Club meets one evening a week for 90 minutes, with 13 weeks of classe
     window.EBWidgets.createWidget({
         // Required
         widgetType: 'checkout',
-        eventId: '51832961784',
+        eventId: '61825181783',
         iframeContainerId: 'eventbrite-widget-container',
 
         // Optional
