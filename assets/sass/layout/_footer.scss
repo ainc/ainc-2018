@@ -29,6 +29,15 @@
   }
 }
 
+.newsletter {
+  text-align: center;
+  margin: 4rem;
+  max-width: 65%;
+  @include screen-tablet-max {
+    max-width: none;
+  }
+}
+
 #instafeed {
   //max-width: 350px;
   a {

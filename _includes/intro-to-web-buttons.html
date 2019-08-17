@@ -1,5 +1,24 @@
+
 <div style="display:inline-block; padding-bottom:20px; padding-top: 10px;">
     <div style="display:inline-block; padding-right:15px; padding-bottom:15px;">
-        <a class="lgx-btn lgx-btn-anim" style="margin-left:5px;" href="https://www.eventbrite.com/e/60544720890" target="_blank">Mon & Wed &raquo;</a>
+        <!-- Noscript content for added SEO -->
+        <noscript><a href="https://www.eventbrite.com/e/60544720890" rel="noopener noreferrer" target="_blank">Buy Tickets on Eventbrite</a></noscript>
+        <button id="eventbrite-widget-modal-trigger-60544720890" class="btn btn-primary" style="margin-left:5px;background:rgb(193, 32, 41);border-color:rgb(193, 32, 41);" type="button">Register for {{page.title}}</button>
     </div>
 </div>
+
+<script src="https://www.eventbrite.com/static/widgets/eb_widgets.js"></script>
+
+<script type="text/javascript">
+    var exampleCallback = function() {
+        console.log('Order complete!');
+    };
+
+    window.EBWidgets.createWidget({
+        widgetType: 'checkout',
+        eventId: '60544720890',
+        modal: true,
+        modalTriggerElementId: 'eventbrite-widget-modal-trigger-60544720890',
+        onOrderComplete: exampleCallback
+    });
+</script>

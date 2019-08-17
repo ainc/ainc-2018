@@ -1,39 +1,46 @@
 ---
-title: Coding Club
+title: Coding Club Level 2
+permalink: "/coding-club-level-2/"
+breadcrumb: "/learn/youth/coding-club-level-2"
 layout: course
-permalink: "/coding-club"
-breadcrumb: "/learn/youth/coding-club"
-description: Learn Code, Make Friends
-cover: "/img/coding-club.jpg"
+description: Learn To Code Like The Pros
+cover: "/img/coding-league.jpg"
 class_day: Tuesdays
-link: site.data.routes.club
-image: /images/logos/aincu-coding-club-logo.png
-level: Beginner
-min_age: 9
-max_age: 12
-chart_description: Computational Thinking, Block-Based Programming
-languages: MIT Scratch
+redirect_from:
+- "/codingleague/"
+- "/league/"
+- "/coding-league"
+- "/coding-club2"
+image: /images/logos/aincu-coding-league-logo.png
+level: Intermediate
+min_age: 11
+max_age: 14
+chart_description: Web Development, Computer Science Basics
+languages: HTML, CSS, JavaScript
 season: Spring and Fall
-time: 5-6:30pm
+time: 5:30-7pm
 age_group: youth
 open: true
+team: aincu
 ---
 
-{% include coding-club-buttons.html %}
+{% include coding-club-l2-buttons.html %}
 
-### **Do you have a student at home who enjoys spending time on the computer, could play Minecraft for hours, or has done the Hour of Code at school?**
+### **What happens when you’ve pushed the limits of block-based programming languages like Scratch?**
 
-The Coding Club is the place to take that interest in technology, and turn it into a productive skill. Designed for boys and girls in elementary and middle school who want to try out programming, the Coding Club is a fun way to learn to code in a social, after-school setting. Students are taught to code using the popular Scratch programming language from MIT. We make a series of video game and animation projects, which we use to help students learn the core concepts of coding and computer science.
+It’s time to start using more powerful, professional-grade tools. HTML, CSS, and JavaScript are the building blocks of the web, and are the focus of our intermediate-level course for youth, the Coding League. Students use code to create websites. These websites range from informational pages on students’ hobbies and interests, to interactive games, and handy utilities.
 
-![Flappy Cat project in MIT Scratch](/images/aincu/scratch-flappy-cat-coding-club.gif "Flappy Cat, a Coding Club project, made with MIT Scratch" ){:class="img-responsive center-block margin-top margin-bottom"}
+![Doodle Jump clone screenshot](/images/aincu/league-doodle-jump.gif "Doodler, a Coding League project, made with JavaScript in CodePen" ){:class="img-responsive center-block"}
 
-The Coding Club meets one evening a week for 90 minutes, with 13 weeks of classes in the Spring and Fall. The Club starts on a new project every four weeks, so the fun and the knowledge keeps on building. Sign up with friends, or meet new people with similar interests. No prior programming experience is required, but students should be comfortable using a mouse, keyboard, and web browser.
+Coding League participants should have some prior programming experience, such as a basic course at school or [Awesome Inc’s Coding Club](/coding-club/). Since we’ll be using text-based programming languages, students should be comfortable typing at [20 words per minute](https://10fastfingers.com/typing-test/english) or faster.
 
-## Coding Club Outcomes:
+Come back for as many sessions as you’d like, the fun and the knowledge keeps on building. Sign up with friends, or meet new people with similar interests.
 
-- Learn to apply computational thinking to solve problems
-- Create your own programs and video games using MIT Scratch
-- Meet other students learning to code
+## Coding League Outcomes:
+
+- Go beyond block-based languages to use text-based programming
+- Learn Computer Science fundamentals
+- Explore the creative power of programming, start building a portfolio of professional-quality code
 
 <br>
 
@@ -105,13 +112,13 @@ The Coding Club meets one evening a week for 90 minutes, with 13 weeks of classe
         <div class="panel-heading" role="tab" id="headingFour">
           <h4 class="panel-title">
             <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-              <h3>Are there any age limits for students in the Coding Club?</h3>
+              <h3>Are there any age limits for students in the Coding League?</h3>
             </a>
           </h4>
         </div>
         <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
           <div class="panel-body">
-            <p>The Coding Club is designed for students ages 9-12 (approx. 4th - 7th grade). Please inquire if your student doesn't fit that age range but you still want him/her to participate - <a href="mailto:info@awesomeincu.com">info@awesomeincu.com</a>.</p>
+            <p>The Coding League is designed for students ages 11 - 14 (approx. 6th - 9th grade). Please inquire if your student doesn't fit that age range but you still want him/her to participate - <a href="mailto:info@awesomeincu.com">info@awesomeincu.com</a>.</p>
           </div>
         </div>
       </div>
@@ -128,7 +135,7 @@ The Coding Club meets one evening a week for 90 minutes, with 13 weeks of classe
             <p>There is a one-week gap between sessions 3 and 4 due to Fayette Co. Schools Spring Break.</p>
           </div>
         </div>
-	</div>
+      </div>
       <div class="panel panel-default"> <!-- QUESTION 7 -->
         <div class="panel-heading" role="tab" id="headingSeven">
           <h4 class="panel-title">
@@ -190,7 +197,7 @@ The Coding Club meets one evening a week for 90 minutes, with 13 weeks of classe
     window.EBWidgets.createWidget({
         // Required
         widgetType: 'checkout',
-        eventId: '51832961784',
+        eventId: '51881135874',
         iframeContainerId: 'eventbrite-widget-container',
 
         // Optional

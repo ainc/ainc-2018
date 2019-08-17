@@ -10,7 +10,7 @@ tags:
 - camps
 - jobs
 layout: post
-description: ''
+description: SMART. I've heard numerous quotes from adults about how kids these days are so lazy, entitled, irresponsible. "The future seems bleak," we'll say to one another when we hear about a trouble maker kid that refuses to work hard at school or the student athlete that thinks they don't have to earn the starting position on the sports team. I've murmured these quotes more times than I can remember.
 ---
 
 SMART. I've heard numerous quotes from adults about how kids these days are so lazy, entitled, irresponsible. "The future seems bleak," we'll say to one another when we hear about a trouble maker kid that refuses to work hard at school or the student athlete that thinks they don't have to earn the starting position on the sports team. I've murmured these quotes more times than I can remember. 

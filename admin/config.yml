@@ -1,6 +1,6 @@
 backend:
   name: git-gateway
-  branch: netlify-cms # branch to update (optional; defaults to master)
+  branch: master # branch to update (optional; defaults to master)
   repo: https://github.com/ainc/ainc-2018
 
 publish_mode: editorial_workflow # docs: https://www.netlifycms.org/docs/configuration-options/#publish-mode
@@ -20,6 +20,7 @@ collections:
       - {label: "Author Image", name: "author_img", widget: "image", required: false}
       - {label: "Author", name: "author", widget: "string"}
       - {label: "Tags", name: "tags", widget: "list"}
+      - {label: "Description", name: "description", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
 
   - label: "Fellowship Portfolio Teams"
@@ -29,7 +30,7 @@ collections:
     create: true
     fields:
       - {label: "Company", name: "company", widget: "string"}
-      - {label: "Start Date", name: "date", widget: "datetime"}
+      - {label: "Start Date", name: "date", widget: "date", format: "MMM Do YY"}
       - {label: "Logo", name: "logo", widget: "image"}
       - {label: "Website", name: "website", widget: "string", required: false}
       - {label: "Facebook", name: "facebook", widget: "string", required: false}
@@ -108,6 +109,7 @@ collections:
       - {label: "Time Commitment", name: "time-commitment", widget: "string"}
       - {label: "Active", name: "active", widget: "boolean", description: "Do you want the job to be listed?"}
       - {label: "Apply URL", name: "url", widget: "string", required: false}
+      - {label: "Priority", name: "priority", widget: "number", required: false, description: "Pick 1 to prioritize this field to show up at the top"}
       - {label: "Body", name: "body", widget: "markdown"}
 
  #note: this is the concatenation of two different old file types, this was requested but could/should be optimized in future
@@ -146,6 +148,16 @@ collections:
         options:
           - { label: "Youth", value: "youth" }
           - { label: "Adult", value: "adult" }
+      - label: "Team"
+        name: "team"
+        description: "Which initiative is this for?"
+        widget: "select"
+        required: false
+        options: 
+          - { label: "Awesome Inc", value: "ainc" }
+          - { label: "Awesome Inc U", value: "aincu" }
+          - { label: "Fellowship Program", value: "fellowship" }
+          - { label: "APAX Software", value: "apax" }
       - {label: "Open", name: "open", widget: "boolean", description: "Is the class registration open?"}
       - {label: "Body", name: "body", widget: "markdown"}
 

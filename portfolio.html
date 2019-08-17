@@ -19,18 +19,34 @@ permalink: "/fellowship/portfolio"
   <div id="lgx-portfolio" class="lgx-portfolio">
     <div class="lgx-inner">
       <div class="container">
+        {% assign teams = site.fellowship_portfolio | sort: "date" | reverse %}
+        
+        {% for team in teams %}
+        {% assign check = forloop.index | modulo: 3 %}
+        {% if check == 1 or forloop.index == 1 %}
         <div class="row">
-          {% for team in site.fellowship_portfolio %}
+        {% endif %}
+          
           <div class="col-xs-12 col-sm-6 col-md-4">
             <div class="lgx-single-team"> <!--lgx-team-circle-->
               <figure>
-                <a href="{% if team.website %}{{ team.website }}{% else %}#{% endif %}"><img src="{% if team.logo %}{{ team.logo }}{% else %}http://via.placeholder.com/600x708{% endif %}" alt="{{ team.name }} logo"/></a>
+                  <span class="vert-align-helper"></span>
+                  <img 
+                    {% if team.logo %}
+                      src="{{ team.logo }}" 
+                    {% else %}
+                      src="/images/teamalpha/placeholder-wall.jpg"
+                    {% endif %}
+                    alt="{{ team.name }} logo"
+                  />
                 <figcaption>
                   <h3 class="team-name">
                     <a href="{% if team.website %}{{ team.website }}{% else %}#{% endif %}">{{ team.company }}</a>
                     <span class="pull-right">{{ team.date | date: "%Y" }}</span>
                   </h3>
-                  <p class="text">{{ team.content }}</p>
+                  <div class="text">
+                    {{ team.content }}
+                  </div>
                   <div class="team-bottom">
                     <ul class="list-inline social-group">
                       {% if team.facebook %}<li><a href="{{ team.facebook }}"><i class="fa fa-facebook-f" aria-hidden="true"></i></a></li>{% endif %}
@@ -44,10 +60,12 @@ permalink: "/fellowship/portfolio"
               </figure>
             </div>
           </div>
-          {% endfor %}
-        </div><!-- //.ROW -->
-      </div><!-- //.CONTAINER -->
-    </div><!-- //.INNER -->
+        {% if forloop.last == true or check == 0 and forloop.index != 1 %}
+        </div><!-- .ROW -->
+        {% endif %}
+        {% endfor %}
+      </div><!-- .CONTAINER -->
+    </div><!-- .INNER -->
   </div>
 </section>
 <!--PORTFOLIO END-->

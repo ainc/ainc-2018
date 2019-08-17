@@ -18,6 +18,8 @@
 <a href="#{{ include.initiative }}" data-toggle="modal" data-target="#{{ include.initiative }}-modal">
   <img src="/images/icons/schedule-a-tour-button-{{ include.img-color | default: 'white' }}.png" id="{{ include.initiative }}-button" alt="{{ include.initiative }} button"/>
 </a>
+{% elsif include.style == 'small' %}
+<a class="lgx-btn lgx-btn-sm" href="#{{ include.initiative }}" data-toggle="modal" data-target="#{{ include.initiative }}-modal">{{ include.link-text }}</a>
 {% elsif include.style == 'no-button' %}
 <!-- Show nothing -->
 {% else %}

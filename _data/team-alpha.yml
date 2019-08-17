@@ -62,3 +62,86 @@ items:
     rule: 'Rule #17: Bring the fun!'
     song: Built to Last by Melee
     team: Fellowship/HoF
+  - fact: >-
+      When I was a kid, I fell asleep while swinging on a swing set. I flew out
+      backwards and broke my arm.
+    img_path: /images/uploads/loganjones-wall.jpg
+    name: Logan Jones
+    person: My dad
+    rule: '#22 go big or don''t be my friend'
+    song: Can't You See - Zac Brown Band & Kid Rock (Live Version)
+    team: Project Coordinator
+  - fact: I've walked to a different country and back for groceries before
+    img_path: /images/uploads/markhisle-wall-min.jpg
+    name: Mark Hisle
+    person: Kylian Mbappé
+    rule: '#26 don''t let stupid things keep you from doing awesome things'
+    song: Corazon Espinado- Santana
+    team: Development
+  - fact: >-
+      Basketball will always be my first love. I could talk basketball for days,
+      and in another life I am a WNBA player.
+    img_path: /images/uploads/skyewall-min.jpg
+    name: Skye Brown
+    person: LeBron James
+    rule: '#76 no excuses, play like a champion'
+    song: 'Wake Up In The Sky -  Gucci Mane, Bruno Mars, Kodak Black'
+    team: Development
+  - fact: I make really good cinnamon toast
+    img_path: /images/uploads/jakewall-min.jpg
+    name: Jake Spencer
+    person: >-
+      My buddy Spencer Given who is always the life of the party and a great
+      friend
+    rule: >-
+      #29 no postgaming in the fourth quarter, or within 100 yds of relevant
+      parties
+    song: Parked out by the Lake
+    team: Design
+  - fact: I'm learning how to play the ukulele
+    img_path: /images/uploads/harrison-min.jpg
+    name: Harrison Kurz
+    person: 'My Grandpa '
+    rule: '#76 no excuses, play like a champion'
+    song: Can't Stop- Red Hot Chili Peppers
+    team: Events & Marketing
+  - fact: 'I like my water/all drinks with no ice '
+    img_path: /images/uploads/heatherwall-min.jpg
+    name: Heather Seaton
+    person: Today it is Ross Turner
+    rule: '#26 don''t let stupid things keep you from doing awesome things'
+    song: Making Luv To The Beat by WATCH THE DUCK
+    team: Events & Marketing
+  - fact: I lived in South Korea for a year
+    img_path: /images/uploads/zachwall-min.jpg
+    name: Zach Woodlridge
+    person: Anthony Bourdain
+    rule: >-
+      #10  2-3 minutes late is okay, it shows that you are punctual but
+      important enough to have other stuff going on
+    song: '"Last Nite" - The Strokes'
+    team: Design
+  - fact: I'm a leftie
+    img_path: /images/uploads/erin-min.jpg
+    name: Erin Logsdon
+    person: Ellen
+    rule: >-
+      #34 A person's Shit:Substance ratio or their "ss" for short refers to the
+      amount of bullshit someone is made up of relative to their ability to
+      actually back up their claims and/or confidence
+    song: 'Right now, 1999 by Brockhampton'
+    team: Events & Marketing
+  - fact: '-'
+    img_path: /images/uploads/willshapiro-wall-min.jpg
+    name: Will Shapiro
+    person: '-'
+    rule: '-'
+    song: '#4 Always do something awesome over something not awesome'
+    team: Development
+  - fact: '-'
+    img_path: /images/uploads/rileywall-min.jpg
+    name: Riley Stamper
+    person: '-'
+    rule: '#4 Always do something awesome over something not awesome'
+    song: '-'
+    team: Design
