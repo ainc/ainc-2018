@@ -1,7 +1,7 @@
 ---
-title: Coding League
-permalink: "/coding-league/"
-breadcrumb: "/learn/youth/coding-league/"
+title: Coding Club Level 2
+permalink: "/coding-club-level-2/"
+breadcrumb: "/learn/youth/coding-club-level-2"
 layout: course
 description: Learn To Code Like The Pros
 cover: "/img/coding-league.jpg"
@@ -9,6 +9,8 @@ class_day: Tuesdays
 redirect_from:
 - "/codingleague/"
 - "/league/"
+- "/coding-league"
+- "/coding-club2"
 image: /images/logos/aincu-coding-league-logo.png
 level: Intermediate
 min_age: 11
@@ -18,11 +20,11 @@ languages: HTML, CSS, JavaScript
 season: Spring and Fall
 time: 5:30-7pm
 age_group: youth
-open: false
+open: true
 team: aincu
 ---
 
-{% include coding-league-buttons.html %}
+{% include coding-club-l2-buttons.html %}
 
 ### **What happens when you’ve pushed the limits of block-based programming languages like Scratch?**
 

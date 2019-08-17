@@ -17,7 +17,7 @@ languages: HTML, CSS, JavaScript, Python, Swift, Java, C#, Unity 3D
 season: Spring and Fall
 time: 6-8pm
 age_group: youth
-open: false
+open: true
 team: aincu
 ---
 

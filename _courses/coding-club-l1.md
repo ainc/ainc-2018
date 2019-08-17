@@ -1,8 +1,8 @@
 ---
-title: Coding Club
+title: Coding Club Level 1
 layout: course
-permalink: "/coding-club"
-breadcrumb: "/learn/youth/coding-club"
+permalink: "/coding-club-level-1"
+breadcrumb: "/learn/youth/coding-club-level-1"
 description: Learn Code, Make Friends
 cover: "/img/coding-club.jpg"
 class_day: Tuesdays
@@ -17,9 +17,10 @@ time: 5-6:30pm
 age_group: youth
 open: true
 team: aincu
+redirect_from: "/coding-club"
 ---
 
-{% include coding-club-buttons.html %}
+{% include coding-club-l1-buttons.html %}
 
 ### **Do you have a student at home who enjoys spending time on the computer, could play Minecraft for hours, or has done the Hour of Code at school?**
 
