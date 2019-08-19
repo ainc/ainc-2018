@@ -15,16 +15,20 @@ image: /images/logos/aincu-coding-league-logo.png
 level: Intermediate
 min_age: 11
 max_age: 14
-chart_description: Web Development, Computer Science Basics
+course_topics: Web Development, Computer Science Basics
 languages: HTML, CSS, JavaScript
 season: Spring and Fall
 time: 5:30-7pm
 age_group: youth
 open: true
 team: aincu
+eventbrite_eid: "65948288105"
 ---
-
-{% include coding-club-l2-buttons.html %}
+{% if page.eventbrite_eid %}
+{% include coding-course-buttons.html %}
+{% else %}
+<p> Registrations are currently closed. Email <a href="mailto:info@awesomincu.com">info@awesomeincu.com</a> for more information. </p>
+{% endif %}
 
 ### **What happens when you’ve pushed the limits of block-based programming languages like Scratch?**
 
@@ -182,26 +186,10 @@ Come back for as many sessions as you’d like, the fun and the knowledge keeps 
   </div>
 </div> <!-- /container -->
 
-## Tuesdays
+{% if page.eventbrite_eid %}
+## Register
 
-<!--Eventbrite generated ticket form widget-->
-<div id="eventbrite-widget-container"></div>
-
-<script src="https://www.eventbrite.com/static/widgets/eb_widgets.js"></script>
-
-<script>
-    var exampleCallback = function() {
-        console.log('Order complete!');
-    };
-
-    window.EBWidgets.createWidget({
-        // Required
-        widgetType: 'checkout',
-        eventId: '51881135874',
-        iframeContainerId: 'eventbrite-widget-container',
-
-        // Optional
-        iframeContainerHeight: 506,  // Widget height in pixels. Defaults to a minimum of 425px if not provided
-        onOrderComplete: exampleCallback  // Method called when an order has successfully completed
-    });
-</script>
+{% include coding-course-eventbrite-widget.html %}
+{% else %}
+<p> Registrations are currently closed. Email <a href="mailto:info@awesomincu.com">info@awesomeincu.com</a> for more information. </p>
+{% endif %}

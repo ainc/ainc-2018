@@ -3,6 +3,7 @@ title: Coding Club Level 1
 layout: course
 permalink: "/coding-club-level-1"
 breadcrumb: "/learn/youth/coding-club-level-1"
+redirect_from: "/coding-club"
 description: Learn Code, Make Friends
 cover: "/img/coding-club.jpg"
 class_day: Tuesdays
@@ -10,17 +11,17 @@ image: /images/logos/aincu-coding-club-logo.png
 level: Beginner
 min_age: 9
 max_age: 12
-chart_description: Computational Thinking, Block-Based Programming
+course_topics: Computational Thinking, Block-Based Programming
 languages: MIT Scratch
 season: Spring and Fall
 time: 5-6:30pm
 age_group: youth
 open: true
 team: aincu
-redirect_from: "/coding-club"
+eventbrite_eid: "61825181783"
 ---
 
-{% include coding-club-l1-buttons.html %}
+{% include coding-course-buttons.html %}
 
 ### **Do you have a student at home who enjoys spending time on the computer, could play Minecraft for hours, or has done the Hour of Code at school?**
 
@@ -176,26 +177,7 @@ The Coding Club meets one evening a week for 90 minutes, with 13 weeks of classe
   </div>
 </div> <!-- /container -->
 
-## Tuesdays
+## Register
 
-<!--Eventbrite generated ticket form widget-->
-<div id="eventbrite-widget-container"></div>
+{% include coding-course-eventbrite-widget.html %}
 
-<script src="https://www.eventbrite.com/static/widgets/eb_widgets.js"></script>
-
-<script>
-    var exampleCallback = function() {
-        console.log('Order complete!');
-    };
-
-    window.EBWidgets.createWidget({
-        // Required
-        widgetType: 'checkout',
-        eventId: '61825181783',
-        iframeContainerId: 'eventbrite-widget-container',
-
-        // Optional
-        iframeContainerHeight: 506,  // Widget height in pixels. Defaults to a minimum of 425px if not provided
-        onOrderComplete: exampleCallback  // Method called when an order has successfully completed
-    });
-</script>
