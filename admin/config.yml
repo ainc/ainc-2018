@@ -107,12 +107,11 @@ collections:
       - {label: "Team", name: "team", widget: "string"}
       - {label: "Manager", name: "manager", widget: "string"}
       - {label: "Time Commitment", name: "time-commitment", widget: "string"}
-      - {label: "Active", name: "active", widget: "boolean", description: "Do you want the job to be listed?"}
+      - {label: "Active", name: "active", widget: "boolean", hint: "Do you want the job to be listed?"}
       - {label: "Apply URL", name: "url", widget: "string", required: false}
-      - {label: "Priority", name: "priority", widget: "number", required: false, description: "Pick 1 to prioritize this field to show up at the top"}
+      - {label: "Priority", name: "priority", widget: "number", required: false, hint: "Pick 1 to prioritize this field to show up at the top"}
       - {label: "Body", name: "body", widget: "markdown"}
 
- #note: this is the concatenation of two different old file types, this was requested but could/should be optimized in future
   - name: "Courses"
     label: "Courses"
     label_singular: "Course"
@@ -120,19 +119,23 @@ collections:
     create: true
     fields:
       - {label: "Title", name: "title", widget: "string"}
-      - {label: "Layout", name: "layout", widget: "string"}
-      - {label: "Permalink", name: "permalink", widget: "string"}
-      - {label: "Breadcrumb", name: "breadcrumb", widget: "string"}
       - {label: "Description", name: "description", widget: "string"}
-      - {label: "Image", name: "image", widget: "string"}
-      - {label: "Level", name: "level", widget: "string"}
+      - {label: "Image", name: "image", widget: "image"}
+      - {label: "Layout", name: "layout", widget: "hidden", default: "course"}
+      - label: "Level"
+        name: "level"
+        widget: "string"
+        required: true
+        multiple: true
+        options: ["Beginner", "Intermediate", "Advanced"]
       - {label: "Min Age", name: "min-age", widget: "string", required: false}
       - {label: "Max Age", name: "max_age", widget: "string", required: false}
-      - {label: "Course Topics", name: "chart_description", widget: "string", required: false}
+      - {label: "Course Topics", name: "course_topics", widget: "string", required: false}
       - {label: "Languages", name: "languages", widget: "string", required: false}
       - label: "Class Day"
         name: "class_day"
         widget: "string"
+        required: false
         multiple: true
         options: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
       - label: "Season" 
@@ -148,17 +151,12 @@ collections:
         options:
           - { label: "Youth", value: "youth" }
           - { label: "Adult", value: "adult" }
-      - label: "Team"
-        name: "team"
-        description: "Which initiative is this for?"
-        widget: "select"
-        required: false
-        options: 
-          - { label: "Awesome Inc", value: "ainc" }
-          - { label: "Awesome Inc U", value: "aincu" }
-          - { label: "Fellowship Program", value: "fellowship" }
-          - { label: "APAX Software", value: "apax" }
-      - {label: "Open", name: "open", widget: "boolean", description: "Is the class registration open?"}
+      - {label: "Team", name: "team", widget: "hidden", default: "aincu" }
+      - {label: "Open", name: "open", widget: "boolean", hint: "Is the class registration open?"}
+      - label: "Eventbrite"
+        name: "eventbrite_eid"
+        widget: "string"
+        hint: "Note: Only copy the number from the url, not the entire url." 
       - {label: "Body", name: "body", widget: "markdown"}
 
   - name: "Events"
