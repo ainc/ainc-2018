@@ -1,0 +1,35 @@
+<div style="display:inline-block; padding-bottom:20px; padding-top: 10px;">
+  <div style="display:inline-block; padding-right:15px; padding-bottom:15px;">
+      <!-- Noscript content for added SEO -->
+      <noscript>
+        <a 
+          href="https://www.eventbrite.com/e/{{ page.eventbrite_eid }}" 
+          rel="noopener noreferrer" 
+          target="_blank">
+            Buy Tickets on Eventbrite
+        </a>
+      </noscript>
+      <button 
+        id="eventbrite-widget-modal-trigger-{{ page.eventbrite_eid }}" 
+        class="lgx-btn lgx-btn-anim" 
+        style="font-size: 1.4rem" 
+        type="button">
+          Register for {{ page.title }}
+      </button>
+  </div>
+</div>
+
+<script src="https://www.eventbrite.com/static/widgets/eb_widgets.js"></script>
+
+<script type="text/javascript">
+  var exampleCallback = function() {
+      console.log('Order complete!');
+  };
+  window.EBWidgets.createWidget({
+      widgetType: 'checkout',
+      eventId: '{{ page.eventbrite_eid }}',
+      modal: true,
+      modalTriggerElementId: 'eventbrite-widget-modal-trigger-{{ page.eventbrite_eid }}',
+      onOrderComplete: exampleCallback
+  });
+</script>
