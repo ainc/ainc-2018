@@ -173,6 +173,7 @@ collections:
         name: "eventbrite_eid"
         widget: "string"
         hint: "Note: Only copy the number from the url, not the entire url." 
+        required: false
       - {label: "Body", name: "body", widget: "markdown"}
 
   - name: "Events"
