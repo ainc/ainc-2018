@@ -14,9 +14,10 @@ redirect_from:
 - "/intro-to-web/"
 age_group: adults
 team: aincu
+eventbrite_eid: "64242674569"
 ---
 
-{% include intro-to-web-buttons.html %}
+{% include coding-course-buttons.html %}
 
 Learning to code can be intimidating on your own. Maybe you’ve started an online course, but never finished. Perhaps you’ve made a website with Wordpress or a drag-and-drop web design tool, but want to do more. If you’re curious if a career in code is for you, or just want to gain a useful new skill, Awesome Inc’s **{{page.title}}** is made for people like you.
 
@@ -43,9 +44,9 @@ Classes are two nights per week, two hours per night, for nine weeks. In additio
 <br>
 
 <div class="row">
-  <div class="col-xs-4"><img src="/images/aincu/logos/logo-html.png" alt="HTML logo" class="img-responsive center-block"></div>
-  <div class="col-xs-4"><img src="/images/aincu/logos/logo-css.png" alt="CSS logo" class="img-responsive center-block"></div>
-  <div class="col-xs-4"><img src="/images/aincu/logos/logo-js.png" alt="JavaScript logo" class="img-responsive center-block"></div>
+  <div class="col-xs-4"><img src="/img/logos/logo-html.png" alt="HTML logo" class="img-responsive center-block"></div>
+  <div class="col-xs-4"><img src="/img/logos/logo-css.png" alt="CSS logo" class="img-responsive center-block"></div>
+  <div class="col-xs-4"><img src="/img/logos/logo-js.png" alt="JavaScript logo" class="img-responsive center-block"></div>
 </div>
 
 <br>
@@ -59,8 +60,8 @@ Classes are two nights per week, two hours per night, for nine weeks. In additio
 - Build a Final Project like these:
 
 <div class="row">
-  <div class="col-xs-6"><img src="/images/aincu/quizzler-intro-web-project.gif" alt="Quizzler screenshot" title="Quiz game, student project from Intro to Web class, made with JavaScript and APIs" class="img-responsive center-block img-thumbnail"></div>
-  <div class="col-xs-6"><img src="/images/aincu/lyricsdb-intro-web-project.gif" alt="Lyrics DB screenshot" title="Find lyrics to songs, student project from Intro to Web class, made with JavaScript and APIs" class="img-responsive center-block img-thumbnail"></div>
+  <div class="col-xs-6"><img src="/img/quizzler-intro-web-project.gif" alt="Quizzler screenshot" title="Quiz game, student project from Intro to Web class, made with JavaScript and APIs" class="img-responsive center-block img-thumbnail"></div>
+  <div class="col-xs-6"><img src="/img/lyricsdb-intro-web-project.gif" alt="Lyrics DB screenshot" title="Find lyrics to songs, student project from Intro to Web class, made with JavaScript and APIs" class="img-responsive center-block img-thumbnail"></div>
 </div>
 <br>
 
@@ -145,25 +146,4 @@ Classes are two nights per week, two hours per night, for nine weeks. In additio
 </div>
 </div> <!-- /container -->
 
-
-<!--Eventbrite generated ticket form widget-->
-<div id="eventbrite-widget-container"></div>
-
-<script src="https://www.eventbrite.com/static/widgets/eb_widgets.js"></script>
-
-<script>
-    var exampleCallback = function() {
-        console.log('Order complete!');
-    };
-
-    window.EBWidgets.createWidget({
-        // Required
-        widgetType: 'checkout',
-        eventId: '64242674569',
-        iframeContainerId: 'eventbrite-widget-container',
-
-        // Optional
-        iframeContainerHeight: 506,  // Widget height in pixels. Defaults to a minimum of 425px if not provided
-        onOrderComplete: exampleCallback  // Method called when an order has successfully completed
-    });
-</script>
+{% include coding-course-buttons.html %}
