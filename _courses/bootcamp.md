@@ -1,16 +1,14 @@
 ---
 title: Web Developer Bootcamp
-layout: course
-permalink: "/bootcamp"
-breadcrumb: "/learn/adults/bootcamp"
 description: Become A Professional Web Developer
+image: /images/uploads/5-across-logo.png
+layout: course
+level: 'Intermediate '
 class_day: Tuesdays and Thursdays
-application: "/applications/bootcamp/"
-cta: Apply Now
 age_group: adults
 team: aincu
+open: true
 ---
-
 ## Learn to code in 16 weeks, get a job as a web developer, guaranteed
 
 The Web Developer Bootcamp is a 16-week, intensive training program for aspiring software developers. We've worked with companies throughout the region to design a curriculum to prepare you to dive into a career in software development. This rigorous learning experience is designed to quickly take you from the basics of programming to a professional level of competency in building modern web applications. With over 500 hours of hands-on training, you'll gain experience while building 10+ projects using HTML, CSS, JavaScript, web frameworks, GitHub, Agile, and more.
@@ -93,6 +91,7 @@ Alumni from Awesome Inc's Web Developer Bootcamp have found their first develope
 ## Student Outcomes
 
 <small><em>Data from 2016 - 2018 students</em></small>
+
 <div class="row">
   <div class="col-sm-4 text-center">
     <p style="font-size: 30px; font-family: 'Exo', Sans Serif;">94&percnt;</p>
@@ -124,6 +123,12 @@ There is a four-step, competitive [application process](/applications/bootcamp) 
 ![Bootcamp Application Process](/images/aincu/bootcamp-application-process.png){:class="img-responsive"}
 
 This process helps us to find top-quality applicants for the Bootcamp. We continue to be surprised and inspired by the variety of different educational and professional backgrounds from which our students come to Bootcamp. Contrary to stereotypes about software developers, there's not just one archetype that's a good fit for this career. Our goal throughout the application process is to find people who, in their own unique way, are ready to dive into a software development career through the accelerated learning environment we provide. For more on this, check out our blog post [What We Look For In A Bootcamp Student](/blog/2018/11/01/what-we-look-for-bootcamp-student/).
+
+## Timeline for Bootcamp 
+
+This is a realistic timeline of what a Web Developer Bootcamp student can expect from applying to the program to becoming a proud alumni. 
+
+![Web Developer Bootcamp timeline ](/images/uploads/student_dev_timeline.png)
 
 ## Paying for Bootcamp
 
