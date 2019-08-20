@@ -26,10 +26,19 @@ page_id: alumni
         <div id="gallery" class="row">
             <div class="col-xs-12">
                 <ul id="alumni" class="da-thumbs alumnis isotope" style="margin-left:0 auto;left:-18px">
-                    {% for student in site.data.alumni-bootcamp %}
+                    {% for student in site.data.alumni-bootcamp.items %}
                     <li class="bootcampAlumni text-center {{student.cohort}}">
                         <a>
-                            <img src="../../images/alumni/{{student.image}}.jpg" alt="{{student.name}} - Awesome Inc U Web Developer Bootcamp">
+                            <img 
+                              {% if student.image %}
+                                src="../../images/alumni/{{student.image}}.jpg" 
+                              {% elsif student.img_url %}
+                                src="../../images/alumni/{{student.img_url}}.jpg" 
+                              {% else %}
+                                src="../../images/teamalpha/placeholder-wall.jpg"
+                              {% endif %}
+                              alt="{{student.name}} - Awesome Inc U Web Developer Bootcamp"
+                            />
                         </a>
                         {% if student.position %}
                         <div class="ribbon-wrapper-green">

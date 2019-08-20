@@ -95,6 +95,20 @@ collections:
               - {label: "Image", name: "image", widget: "image"}
               - {label: "Price", name: "price", widget: "string"}
               - {label: "Body", name: "body", widget: "markdown"}
+      - label: "Bootcamp Alumni"
+        name: "bootcamp-alumni"
+        file: "_data/alumni-bootcamp.yml"
+        fields:
+          - label: "Alumni"
+            widget: "list"
+            fields:
+              - {label: "Full Name", name: "name", widget: "string"}
+              - {label: "Portfolio Website", name: "website", widget: "string"}
+              - {label: "GitHub Link", name: "github", widget: "string"}
+              - {label: "LinkedIn Link", name: "linkedin", widget: "string"}
+              - {label: "Picture", name: "img_url", widget: "image"}
+              - {label: "Position", name: "position", widget: "string"}
+              - {label: "Cohort", name: "cohort", widget: "string", hint: "s19: Spring 2019, f19: Fall 2019"}
   
   - name: "Job Openings"
     label: "Job Openings"
