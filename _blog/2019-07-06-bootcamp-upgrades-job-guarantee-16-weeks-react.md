@@ -1,7 +1,7 @@
 ---
 layout: post
-title: 'BOOTCAMP UPGRADES: JOB GUARANTEE, 16 WEEKS, REACT'
-date: 2019-07-06 00:00:00 Z
+title: 'Bootcamp Upgrades: Job Guarantee, 16 Weeks, React'
+date: 2019-07-06T00:00:00.000Z
 header_img: /images/uploads/bootcamp-upgrades-f19.jpg
 author_img: /images/uploads/nick2.jpg
 author: Nick Such
