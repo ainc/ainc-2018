@@ -136,12 +136,12 @@ collections:
     fields:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Description", name: "description", widget: "string"}
-      - {label: "Image", name: "image", widget: "image"}
+      - {label: "Image", name: "image", widget: "image", required: false}
       - {label: "Layout", name: "layout", widget: "hidden", default: "course"}
       - label: "Level"
         name: "level"
         widget: "string"
-        required: true
+        required: false
         multiple: true
         options: ["Beginner", "Intermediate", "Advanced"]
       - {label: "Min Age", name: "min-age", widget: "string", required: false}

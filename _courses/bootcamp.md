@@ -1,9 +1,11 @@
 ---
 title: Web Developer Bootcamp
+permalink: "/bootcamp"
+breadcrumb: "/learn/adults/bootcamp"
 description: Become A Professional Web Developer
 image: /images/uploads/5-across-logo.png
 layout: course
-level: 'Intermediate '
+level: 'Intermediate'
 class_day: Tuesdays and Thursdays
 age_group: adults
 team: aincu
