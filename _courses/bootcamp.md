@@ -23,7 +23,7 @@ Students begin with a part-time Prework phase, with 4 weeks of remote lessons co
 
 <div class="row">
   <div class="col-sm-3">
-    <img src="/img/alumni/brett_fraley.jpg" class="img-responsive img-rounded">
+    <img src="/images/aincu/alumni/brett-fraley.jpg" class="img-responsive img-rounded">
     <p><a href="https://www.linkedin.com/in/brett-fraley-446134125">Brett Fraley</a>  Bootcamp Fall '16
     <br>Front End Engineer, ITHAKA / Artstor</p>
   </div>
@@ -34,16 +34,16 @@ Students begin with a part-time Prework phase, with 4 weeks of remote lessons co
 </div>
 <div class="row" >
   <div class="col-sm-3">
-    <p style="margin-top: 120px"><a class="btn btn-primary btn-lg center-block" href="/alumni"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> Bootcamp Alumni</a></p>
+    <p style="margin-top: 120px"><a class="lgx-btn lgx-btn-sm center-block" href="/alumni"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> Bootcamp Alumni</a></p>
   </div>
   <div class="col-sm-offset-1 col-sm-4">
     <a href="https://www.coursereport.com/schools/awesome-inc-u#/reviews" target="_blank">
-      <img src="/img/course-report-badge.png" class="img-responsive center-block" width="295" alt="Reviews of Awesome Inc on Course Report"/>
+      <img src="/images/aincu/coursereport-badge.png" class="img-responsive center-block" width="200" style="margin-top: 15px" alt="Reviews of Awesome Inc on Course Report"/>
     </a>
   </div>
   <div class="col-sm-4">
     <a href="https://www.switchup.org/bootcamps/awesome-inc-u#tablist-tab-review" target="_blank">
-      <img src="/img/switchup-logo.png" class="img-circle img-responsive center-block" width="225" style="margin-top: 35px" alt="Reviews of Awesome Inc on SwitchUp"/>
+      <img src="/images/aincu/switchup-logo.png" class="img-circle img-responsive center-block" width="200" alt="Reviews of Awesome Inc on SwitchUp"/>
     </a>
   </div>
 </div>
@@ -54,37 +54,37 @@ Alumni from Awesome Inc's Web Developer Bootcamp have found their first develope
 
 <div class="row">
     <div class="col-xs-2 col-xs-offset-1">
-      <img src="/img/logos/apaxsoftware-logo.png" alt="APAX Software Logo" class="img-responsive img-grayscale">
+      <img src="/images/aincu/logos/apaxsoftware-logo.png" alt="APAX Software Logo" class="img-responsive img-grayscale">
     </div>
     <div class="col-xs-2">
-      <img src="/img/logos/ableengine-logo.png" alt="Able Engine logo" class="img-responsive img-grayscale">
+      <img src="/images/aincu/logos/ableengine-logo.png" alt="Able Engine logo" class="img-responsive img-grayscale">
     </div>
     <div class="col-xs-2">
-      <img src="/img/logos/cabemtechnologies-logo.png" alt="Cabem Technologies logo" class="img-responsive img-grayscale">
+      <img src="/images/aincu/logos/cabemtechnologies-logo.png" alt="Cabem Technologies logo" class="img-responsive img-grayscale">
     </div>
     <div class="col-xs-2">
-      <img src="/img/logos/infosys-logo.png" alt="Infosys logo" class="img-responsive img-grayscale">
+      <img src="/images/aincu/logos/infosys-logo.png" alt="Infosys logo" class="img-responsive img-grayscale">
     </div>
     <div class="col-xs-2">
-      <img src="/img/logos/ireportsource-logo.png" alt="iReportSource logo" class="img-responsive img-grayscale">
+      <img src="/images/aincu/logos/ireportsource-logo.png" alt="iReportSource logo" class="img-responsive img-grayscale">
     </div>
 </div>
 <br>
 <div class="row">
     <div class="col-xs-2 col-xs-offset-1">
-      <img src="/img/logos/medmyne-logo.png" alt="Medmyne logo" class="img-responsive img-grayscale">
+      <img src="/images/aincu/logos/medmyne-logo.png" alt="Medmyne logo" class="img-responsive img-grayscale">
     </div>
     <div class="col-xs-2">
-      <img src="/img/logos/nymblsystems-logo.png" alt="Nymbl Systems logo" class="img-responsive img-grayscale">
+      <img src="/images/aincu/logos/nymblsystems-logo.png" alt="Nymbl Systems logo" class="img-responsive img-grayscale">
     </div>
     <div class="col-xs-2">
-      <img src="/img/logos/prospecttrax-logo.png" alt="Prospect Trax logo" class="img-responsive img-grayscale">
+      <img src="/images/aincu/logos/prospecttrax-logo.png" alt="Prospect Trax logo" class="img-responsive img-grayscale">
     </div>
     <div class="col-xs-2">
-      <img src="/img/logos/scheduleit-logo.png" alt="ScheduleIt logo" class="img-responsive img-grayscale">
+      <img src="/images/aincu/logos/scheduleit-logo.png" alt="ScheduleIt logo" class="img-responsive img-grayscale">
     </div>
     <div class="col-xs-2">
-      <img src="/img/logos/vetdata-logo.png" alt="Vetdata Logo" class="img-responsive img-grayscale">
+      <img src="/images/aincu/logos/vetdata-logo.png" alt="Vetdata Logo" class="img-responsive img-grayscale">
     </div>
 </div>
 
@@ -111,7 +111,7 @@ Alumni from Awesome Inc's Web Developer Bootcamp have found their first develope
 
 ## Job Guarantee
 
-<a href="/alumni"><img src="/img/bootcamp-jobguaranteed-alumni.jpg" class="img-responsive center-block img-rounded" alt="Bootcamp job guarantee"></a>
+<a href="/alumni"><img src="/images/aincu/bootcamp-jobguaranteed-alumni.jpg" class="img-responsive center-block img-rounded" alt="Bootcamp job guarantee"></a>
 
 We only succeed when you succeed. We guarantee that all students who complete the 16-week Bootcamp program and uphold the job search requirements will receive a job offer within six months of their graduation date, or we'll refund your tuition. See our [Student Agreement](https://docs.google.com/document/d/10FALUwWn0aWvFoNCf5--OxYFrsBKakShqBSqaAfva28/edit#heading=h.tgddtcmill8k){:target="_blank"} for details.
 
@@ -121,7 +121,7 @@ We only succeed when you succeed. We guarantee that all students who complete th
 
 There is a four-step, competitive [application process](/applications/bootcamp) for the Bootcamp program:
 
-![Bootcamp Application Process](/img/bootcamp-application-process.png){:class="img-responsive"}
+![Bootcamp Application Process](/images/aincu/bootcamp-application-process.png){:class="img-responsive"}
 
 This process helps us to find top-quality applicants for the Bootcamp. We continue to be surprised and inspired by the variety of different educational and professional backgrounds from which our students come to Bootcamp. Contrary to stereotypes about software developers, there's not just one archetype that's a good fit for this career. Our goal throughout the application process is to find people who, in their own unique way, are ready to dive into a software development career through the accelerated learning environment we provide. For more on this, check out our blog post [What We Look For In A Bootcamp Student](/blog/2018/11/01/what-we-look-for-bootcamp-student/).
 
