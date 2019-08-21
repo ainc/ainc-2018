@@ -9,15 +9,12 @@ permalink: "mentors/"
   <div id="lgx-mentors" class="lgx-mentors">
     <div class="lgx-inner">
       <h1>
-          Meet our Mentors!
+        Meet our Mentors!
       </h1>
-      <h3 id="description">
-          Insert more description here...
-      </h3>
-      <div class="container" id="mentor-gallery">
+      <div class="container" id="mentors">
         <div class="row">
           {% for mentor in site.data.mentors-list %}
-          <div class="col-md-2-4 col-sm-2-4 col-xs-6" align="center">
+          <div class="col-md-5ths col-sm-5ths col-xs-6" align="center">
             <div class="lgx-single-item"> <!--lgx-team-circle-->
               <figure>
                 <img src="{{ mentor.image | default: '/images/logos/ainc-logo-triangle-layer-red.png' }}" alt="{{ mentor.lastname }}" width="135" height="135"/>
@@ -34,7 +31,8 @@ permalink: "mentors/"
                     <!--<p>{{ mentor.website_text }}</p>-->
                     <ul class="list-inline social-group">
                         {% if mentor.website %}
-                        <li><a href="{{ mentor.website }}"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>{% endif %}
+                        <li><a href="{{ mentor.website }}"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                        {% endif %}
                     </ul>
                   </div>
                 </figcaption>
