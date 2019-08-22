@@ -5,7 +5,7 @@ team: Awesome Inc
 manager: Brian
 time-commitment: full-time
 active: true
-apply_url: https://docs.google.com/forms/d/e/1FAIpQLSeo_C5kwAFAwtxY64qT03egpsnVrwjGc-5UNezZ4HLwQj5SGA/viewform?usp=sf_link
+priority: 10
 ---
 We are seeking an enthusiastic and self-driven member to join our team. At Awesome Inc, our purpose is to help others pursue their definition of awesome.
 

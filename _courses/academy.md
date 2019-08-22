@@ -12,12 +12,12 @@ image: /images/logos/aincu-academy-logo.png
 level: Advanced
 min_age: 13
 max_age: 17
-chart_description: Projects in Web, Mobile, Games
+course_topics: Projects in Web, Mobile, Games
 languages: HTML, CSS, JavaScript, Python, Swift, Java, C#, Unity 3D
 season: Spring and Fall
 time: 6-8pm
 age_group: youth
-open: false
+open: true
 team: aincu
 ---
 

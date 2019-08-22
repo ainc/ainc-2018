@@ -1,45 +1,49 @@
 ---
 title: Web Developer Bootcamp
-layout: course
 permalink: "/bootcamp"
 breadcrumb: "/learn/adults/bootcamp"
 description: Become A Professional Web Developer
+image: /images/uploads/5-across-logo.png
+layout: course
+level: 'Intermediate'
 class_day: Tuesdays and Thursdays
-application: "/applications/bootcamp/"
-cta: Apply Now
 age_group: adults
 team: aincu
+open: true
 ---
+## Learn to code in 16 weeks, get a job as a web developer, guaranteed
 
-{% include aincu-special-announcement.html %}
-
-## Learn to code in 16 weeks, get a job as a web developer.
-
-The Web Developer Bootcamp is a 16-week, full-time training program for aspiring software developers. We've worked with companies throughout the region to design a curriculum to prepare you to dive into a career in software development. This intense training program is designed to quickly take you from the basics of programming to a level of competency in building modern web applications. With over 500 hours of hands-on training, you'll gain experience while building 10+ projects using HTML, CSS, JavaScript, Heroku, GitHub, Agile, and more.
-
-<img alt="Learn to code and make websites and mobile apps" src="/images/aincu/responsive-web-design.jpg" class="img-responsive img-rounded center-block margin-top margin-bottom">
-
-Participants are expected to be fully invested in the training process for a 16-week period. At the conclusion of the program, participants will be ready to interview with regional and national employers for the opportunity to earn a full-time position at a competitive junior developer's salary.
+The Web Developer Bootcamp is a 16-week, intensive training program for aspiring software developers. We've worked with companies throughout the region to design a curriculum to prepare you to dive into a career in software development. This rigorous learning experience is designed to quickly take you from the basics of programming to a professional level of competency in building modern web applications. With over 500 hours of hands-on training, you'll gain experience while building 10+ projects using HTML, CSS, JavaScript, web frameworks, GitHub, Agile, and more.
 
 <div class="embed-responsive embed-responsive-16by9"><iframe width="560" height="315" src="https://www.youtube.com/embed/kTABF680TGU" style="border-width:0;" allowfullscreen></iframe></div>
+
+Students begin with a part-time Prework phase, with 4 weeks of remote lessons covering the basics of web development. After that, we kick it into high gear for 12 weeks of full-time, in-person training. We've designed Bootcamp to feel less like school, and more like your first 3 months on the job. By the conclusion of the combined 16-week program, our alumni are ready to interview with regional and national employers for the opportunity to earn a full-time position at a competitive junior developer's salary.
 
 ## What our alumni are saying
 
 <div class="row">
-  <div class="col-xs-3">
+  <div class="col-sm-3">
     <img src="/images/aincu/alumni/brett-fraley.jpg" class="img-responsive img-rounded">
-    <br />
     <p><a href="https://www.linkedin.com/in/brett-fraley-446134125">Brett Fraley</a>  Bootcamp Fall '16
     <br>Front End Engineer, ITHAKA / Artstor</p>
-    <p><a class="btn cl-link-effect alumni" data-hover="Bootcamp Alumni" href="/alumni"><span>Bootcamp Alumni</span></a></p>
   </div>
-  <div class="col-xs-9">
+  <div class="col-sm-9">
     <p>"Over the last two weeks I have used every little bit of experience from Bootcamp, in some way. And I was able to go from a paragraph description from a client to a deployment-ready web application involving teams, team captains, payment gateway APIs, logging and tracking admin, image uploads, signup invites, social media event link invites and shares - all in a new language and framework. All this practically all on my own.</p>
-    <p>There's no way I would have been able to figure any of it out or do so well, without Bootcamp."
-    </p>
-    <br />
+    <p>There's no way I would have been able to figure any of it out or do so well, without Bootcamp."</p>
+  </div>
+</div>
+<div class="row" >
+  <div class="col-sm-3">
+    <p style="margin-top: 120px"><a class="lgx-btn lgx-btn-sm center-block" href="/alumni"><span class="glyphicon glyphicon-education" aria-hidden="true"></span> Bootcamp Alumni</a></p>
+  </div>
+  <div class="col-sm-offset-1 col-sm-4">
     <a href="https://www.coursereport.com/schools/awesome-inc-u#/reviews" target="_blank">
-      <img src="/images/aincu/coursereport-badge.png" style="width: 60%"/>
+      <img src="/images/aincu/coursereport-badge.png" class="img-responsive center-block" width="200" style="margin-top: 15px" alt="Reviews of Awesome Inc on Course Report"/>
+    </a>
+  </div>
+  <div class="col-sm-4">
+    <a href="https://www.switchup.org/bootcamps/awesome-inc-u#tablist-tab-review" target="_blank">
+      <img src="/images/aincu/switchup-logo.png" class="img-circle img-responsive center-block" width="200" alt="Reviews of Awesome Inc on SwitchUp"/>
     </a>
   </div>
 </div>
@@ -48,7 +52,6 @@ Participants are expected to be fully invested in the training process for a 16-
 
 Alumni from Awesome Inc's Web Developer Bootcamp have found their first developer jobs with a variety of great employers in Kentucky and beyond.
 
-<br>
 <div class="row">
     <div class="col-xs-2 col-xs-offset-1">
       <img src="/images/aincu/logos/apaxsoftware-logo.png" alt="APAX Software Logo" class="img-responsive img-grayscale">
@@ -87,11 +90,47 @@ Alumni from Awesome Inc's Web Developer Bootcamp have found their first develope
 
 <br>
 
-100% of the alumni from our first Bootcamp cohort (Fall '16) landed jobs in the software development field within 6 months of completing our program. [Applications](/applications/bootcamp/) are open for our next Bootcamp.
+## Student Outcomes
+
+<small><em>Data from 2016 - 2018 students</em></small>
+
+<div class="row">
+  <div class="col-sm-4 text-center">
+    <p style="font-size: 30px; font-family: 'Exo', Sans Serif;">94&percnt;</p>
+    <p>Graduation Rate</p>
+  </div>
+  <div class="col-sm-4 text-center">
+    <p style="font-size: 30px; font-family: 'Exo', Sans Serif;">91&percnt;</p>
+    <p>Job Placement Rate</p>
+  </div>
+  <div class="col-sm-4 text-center">
+    <p style="font-size: 30px; font-family: 'Exo', Sans Serif;">$43k</p>
+    <p>Average Starting Salary</p>
+    <small>Compare Local Wage Data: <a href="https://www.glassdoor.com/Salaries/lexington-web-developer-salary-SRCH_IL.0,9_IM494_KO10,23.htm" target="_blank">Glassdoor</a>, <a href="https://www.payscale.com/research/US/Job=Web_Developer/Salary/0afc083d/Lexington-KY" target="_blank">PayScale</a>, <a href="https://www.indeed.com/salaries/Software-Developer-Salaries,-Lexington-KY" target="_blank">Indeed</a></small>
+  </div>
+</div>
+
+## Job Guarantee
+
+<a href="/alumni"><img src="/images/aincu/bootcamp-jobguaranteed-alumni.jpg" class="img-responsive center-block img-rounded" alt="Bootcamp job guarantee"></a>
+
+We only succeed when you succeed. We guarantee that all students who complete the 16-week Bootcamp program and uphold the job search requirements will receive a job offer within six months of their graduation date, or we'll refund your tuition. See our [Student Agreement](https://docs.google.com/document/d/10FALUwWn0aWvFoNCf5--OxYFrsBKakShqBSqaAfva28/edit#heading=h.tgddtcmill8k){:target="_blank"} for details.
 
 <br>
-<a href="/alumni"><img src="/images/aincu/100-alumni-f16-hired.png" class="img-responsive center-block img-rounded"></a>
-<br>
+
+## Applying for Bootcamp
+
+There is a four-step, competitive [application process](/applications/bootcamp) for the Bootcamp program:
+
+![Bootcamp Application Process](/images/aincu/bootcamp-application-process.png){:class="img-responsive"}
+
+This process helps us to find top-quality applicants for the Bootcamp. We continue to be surprised and inspired by the variety of different educational and professional backgrounds from which our students come to Bootcamp. Contrary to stereotypes about software developers, there's not just one archetype that's a good fit for this career. Our goal throughout the application process is to find people who, in their own unique way, are ready to dive into a software development career through the accelerated learning environment we provide. For more on this, check out our blog post [What We Look For In A Bootcamp Student](/blog/2018/11/01/what-we-look-for-bootcamp-student/).
+
+## Timeline for Bootcamp 
+
+This is a realistic timeline of what a Web Developer Bootcamp student can expect from applying to the program to becoming a proud alumni. 
+
+![Web Developer Bootcamp timeline ](/images/uploads/student_dev_timeline.png)
 
 ## Paying for Bootcamp
 
@@ -131,121 +170,111 @@ Alumni from Awesome Inc's Web Developer Bootcamp have found their first develope
   <div>
     <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
       <div class="panel panel-default"> <!-- QUESTION 1 -->
-        <div class="panel-heading" role="tab" id="headingOne">
+        <div class="panel-heading" role="tab" id="heading-1">
           <h4 class="panel-title">
-            <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse-1" aria-expanded="true" aria-controls="collapse-1">
               <h3>What is a Developer Bootcamp?</h3>
             </a>
           </h4>
         </div>
-        <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+        <div id="collapse-1" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading-1">
           <div class="panel-body">
-            <p>Employers around the country are experiencing a shortage of well-qualified software developers, and Kentucky is no different. While there are several possible responses to this need, many regions have benefited from intensive training programs called Developer Bootcamps. The general model is a 3-month program, in batches of 10-20 students, with a curriculum for full-stack web development jobs. Bootcamps are taught by experienced software developers (10+ years industry experience), with a focus on quickly moving from basic skills to project experience. High job placement rates (close to 100%) are the target for these programs. Successful programs are highly selective of their applicants, typically targeting college graduates and experienced professionals in their 20s, 30s, and 40s looking to make a career change.</p>
+            <p>Employers around the country are experiencing a shortage of well-qualified software developers, and Kentucky is no different. While there are several possible responses to this need, many regions have benefited from intensive training programs called Developer Bootcamps. The general model is a 3-month program, in batches of 10-20 students, with a curriculum for full-stack web development jobs. Bootcamps are taught by experienced software developers (10+ years industry experience), with a focus on quickly moving from basic skills to project experience. High job placement rates (>80% within 180 days of graduation) are the target for these programs. Successful programs are highly selective of their applicants, typically targeting college graduates and experienced professionals in their 20s, 30s, and 40s looking to make a career change.</p>
           </div>
         </div>
       </div>
       <div class="panel panel-default"> <!-- QUESTION 2 -->
-        <div class="panel-heading" role="tab" id="headingTwo">
+        <div class="panel-heading" role="tab" id="heading-2">
           <h4 class="panel-title">
-            <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse-2" aria-expanded="false" aria-controls="collapse-2">
               <h3>Who should apply?</h3>
             </a>
           </h4>
         </div>
-        <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+        <div id="collapse-2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading-2">
           <div class="panel-body">
-            <p>Our ideal applicants are professional men and women who are looking to transition into a career in software development. This program is not for everyone. Like all Awesome Inc initiatives, we've built this program on the foundation of our <a href="http://www.awesomeinc.org/about/#core-values">Core Values</a>. CV #2 (Be Excellent) is a big part of this program. We expect that many of our candidates will have deep experience in a related field, such as graphic design, math/finance, or project management. Some applicants will have prior programming experience, maybe a class back in high school or college, but many will not.<br><br>
-
-            Most of our applicants reside in Kentucky, and desire to live and work in the region after Bootcamp. Since our 16-week program is full-time (8am - 5pm, five days per week), our candidates must be willing to sacrifice other commitments (such as outside employment) to focus on learning for that duration.</p>
+            <p>Our ideal applicants are professional men and women who are looking to transition into a career in software development. This program is not for everyone. Like all Awesome Inc initiatives, we've built this program on the foundation of our <a href="http://www.awesomeinc.org/about/#core-values">Core Values</a>. CV #2 (Be Excellent) is a big part of this program. We expect that many of our candidates will have deep experience in a related field, such as graphic design, math/finance, or project management. Some applicants will have prior programming experience, maybe a class back in high school or college, but many will not.<br><br>Most of our applicants reside in Kentucky, and desire to live and work in the region after Bootcamp. Since the 12-week in-person phase of our program is full-time (8am - 5pm, five days per week), our candidates must be willing to sacrifice other commitments (such as outside employment) to focus on learning for that duration.</p>
           </div>
         </div>
       </div>
       <div class="panel panel-default"> <!-- QUESTION 3 -->
-        <div class="panel-heading" role="tab" id="headingThree">
+        <div class="panel-heading" role="tab" id="heading-3">
           <h4 class="panel-title">
-            <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse-3" aria-expanded="false" aria-controls="collapse-3">
               <h3>What is the cost of the Bootcamp?</h3>
             </a>
           </h4>
         </div>
-        <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+        <div id="collapse-3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading-3">
           <div class="panel-body">
             <p>Tuition for the Bootcamp is $11,500. Financing and flexible payment plans are available. Once accepted, a $500 deposit is due to confirm your spot in the program. If the only thing keeping you from participating in the program is finances, please <a href="/contact/">contact us</a> and we'll do our best to work with you to find a solution.</p>
           </div>
         </div>
       </div>
       <div class="panel panel-default"> <!-- QUESTION 4 -->
-        <div class="panel-heading" role="tab" id="headingFour">
+        <div class="panel-heading" role="tab" id="heading-4">
           <h4 class="panel-title">
-            <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+            <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse-4" aria-expanded="false" aria-controls="collapse-4">
               <h3>Are scholarships available?</h3>
             </a>
           </h4>
         </div>
-        <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
+        <div id="collapse-4" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading-4">
           <div class="panel-body">
             <p>Yes. Through employer partners such as <a href="http://www.apaxsoftware.com">APAX Software</a>, partial scholarships are available. Once you've applied for the Bootcamp, please <a href="/contact/#scholarship">fill out the scholarship application</a> for more information.</p>
           </div>
         </div>
       </div>
       <div class="panel panel-default"> <!-- QUESTION 5 -->
-        <div class="panel-heading" role="tab" id="headingFive">
+        <div class="panel-heading" role="tab" id="heading-5">
           <h4 class="panel-title">
-            <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+            <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse-5" aria-expanded="false" aria-controls="collapse-5">
               <h3>When is the next class?</h3>
             </a>
           </h4>
         </div>
-        <div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFive">
+        <div id="collapse-5" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading-5">
           <div class="panel-body">
-            <p>Our next Bootcamp cohort (Fall 2019, i.e. F19) has classes from Monday, September 16th - Friday, December 6th. The application deadline for the F19 cohort is Friday, July 12th.</p>
+            <p>Our next Bootcamp cohort (Fall 2019, i.e. F19) has in-person classes from Monday, September 16th - Friday, December 6th. The application deadline for the F19 cohort is Friday, July 12th.</p>
             <p>The Spring 2020 cohort runs February - May 2020, and applications for S20 are due in December.</p>
           </div>
         </div>
       </div>
       <div class="panel panel-default"> <!-- QUESTION 6 -->
-        <div class="panel-heading" role="tab" id="headingSix">
+        <div class="panel-heading" role="tab" id="heading-6">
           <h4 class="panel-title">
-            <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+            <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse-6" aria-expanded="false" aria-controls="collapse-6">
               <h3>What will I learn?</h3>
             </a>
           </h4>
         </div>
-        <div id="collapseSix" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingSix">
+        <div id="collapse-6" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading-6">
           <div class="panel-body">
-            <p>Our curriculum provides what we and our employer partners see as necessary skills for a junior-level software developer. First, we'll help you learn how to learn (seriously, there are some lifehacks you'll wish you had during college chemistry class). Then we will start with programming and computer science basics, dive into the building blocks of web pages (HTML, CSS, JS), then get into the server side of web applications (databases, SQL, Python/Node.js/Ruby/PHP, web frameworks, AWS), all with plenty of exposure to modern development systems and tools (Git, GitHub, Agile, TDD, UI/UX design). Through all of this, our focus is on making real, working software projects. We can print off a certificate for you at the end if you're the sentimental type, but this experience is really about making things, working with a team, building your project portfolio, and networking with the local developers and companies who we hope will be your future co-workers and employers.<br><br>
-
-            As software development is a rapidly-changing field, we update some our specific technology offerings for each cohort. A few past offerings:<br><br>
-
-            Fall 2018: JavaScript, PHP, VueJS, Laravel<br>
-            Summer 2018: JavaScript, PHP, VueJS, Laravel<br>
-            Fall 2017: JavaScript, PHP, VueJS, Laravel<br>
-            Summer 2017: JavaScript, PHP, AngularJS, Laravel<br>
-            Fall 2016: JavaScript, Python, AngularJS, Django</p>
+            <p>Our curriculum provides what we and our employer partners see as necessary skills for a junior-level software developer. First, we'll help you learn how to learn (seriously, there are some lifehacks you'll wish you had during college chemistry class). Then we will start with programming and computer science basics, dive into the building blocks of web pages (HTML, CSS, JS), then get into the server side of web applications (databases, SQL, Python/Node.js/Ruby/PHP, web frameworks, AWS), all with plenty of exposure to modern development systems and tools (Git, GitHub, Agile, TDD, UI/UX design). Through all of this, our focus is on making real, working software projects. We can print off a certificate for you at the end if you're the sentimental type, but this experience is really about making things, working with a team, building your project portfolio, and networking with the local developers and companies who we hope will be your future co-workers and employers.<br><br>As software development is a rapidly-changing field, we update some our specific technology offerings for each cohort. A few past offerings:<br><br>
+            Spring 2019: JavaScript, PHP, VueJS, MySQL, Laravel, Heroku<br>
+            Fall 2018: JavaScript, PHP, VueJS, PostgreSQL, Laravel, Heroku<br>
+            Summer 2018: JavaScript, PHP, VueJS, PostgreSQL, Laravel, Heroku<br>
+            Fall 2017: JavaScript, PHP, VueJS, PostgreSQL, Laravel, Heroku<br>
+            Summer 2017: JavaScript, PHP, AngularJS, PostgreSQL, Laravel, Heroku<br>
+            Fall 2016: JavaScript, Python, AngularJS, PostgreSQL, Django, AWS</p>
           </div>
         </div>
       </div>
       <div class="panel panel-default"> <!-- QUESTION 7 -->
-        <div class="panel-heading" role="tab" id="headingSeven">
+        <div class="panel-heading" role="tab" id="heading-7">
           <h4 class="panel-title">
-            <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
-              <h3>Why do you require prework before the bootcamp?</h3>
+            <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse-7" aria-expanded="false" aria-controls="collapse-7">
+              <h3>What is Prework?</h3>
             </a>
           </h4>
         </div>
-        <div id="collapseSeven" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingSeven">
+        <div id="collapse-7" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading-7">
           <div class="panel-body">
-            <p>There are two reasons. First, we want to hit the ground running on week one. Our students start with different prior experiences, so we want to make sure everyone is starting at (nearly) the same spot. And we want that spot to be somewhere beyond absolute zero. Our program is an intense 12 weeks, but without the prework, we couldn't fit in all that you'll need. Don't worry, Bootcamp week 1 will include a review of material you'll be covering on your own during Prework.<br><br>
-
-            Second, one of our Awesome Inc co-founders is a physician and an author. As such, Dr. Luke Murray has interviewed hundreds of medical students from across the country. These are people who have spent their whole lives focused on becoming doctors, starting with high school biology classes, volunteering to help sick kids, all the way through taking the MCAT and getting into medical school. Something odd that Luke noticed was this: many medical students never _tried being a doctor_ until it was too late. Maybe they didn't like seeing blood, or maybe they were no good at talking with patients. We like to get this out of the way early. Maybe you don't actually like programming, or maybe you're way better at graphic design or video production. Again, our program is not a good fit for everyone, so the Prework helps you to figure this out.<br><br>
-
-            The <a href="/intro-to-web-development/">Intro to Web Development</a> is a part-time, evening course that covers most of the Prework content, with the added benefit of an in-person instructor.</p>
+            <p>The first four weeks of Bootcamp lessons are delivered remotely. We do this for a few reasons. First, we want to hit the ground running on week one of the in-person phase, while minimizing the time our students spend out of full-time work. Our students start with different prior experiences, so we want to make sure everyone is starting at (nearly) the same spot. And we want that spot to be somewhere beyond absolute zero. Our program is an intense 16 weeks, but without the prework, we couldn't fit in all that you'll need.<br><br>
+            The <a href="/intro-to-web-development/">Intro to Web Development</a> is a part-time, evening course intended to cover most of the Prework content, with the added benefits of an in-person instructor and a slower pace (nine weeks instead of four). For someone who wants to explore coding before committing to Bootcamp, or who wants to get a head start on Bootcamp content, the Intro to Web Development is a great opportunity.</p>
           </div>
         </div>
       </div>
     </div> <!-- panel-group -->
   </div>
 </div> <!-- /container -->
-
-
-
