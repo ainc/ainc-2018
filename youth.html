@@ -2,6 +2,8 @@
 title: Coding Courses for Youth
 layout: default
 permalink: "/learn/youth"
+redirect_from:
+  - "/youth"
 page_id: youth
 team: aincu
 ---
@@ -87,7 +89,7 @@ team: aincu
                 <tbody>
                   {% assign courses = site.courses | sort:'min_age' %}
                   {% for course in courses %}
-                    {% if course.age_group == 'youth' %}
+                    {% if course.age_group == 'youth' and course.hide != true %}
                     <tr>
                       <td><a href="{{ course.permalink }}"><img alt="{{ course.title }}" data-src="{{ course.image}}" class="img-responsive lazyload"></a></td>
                       <td>{{ course.level }}</td>

@@ -11,7 +11,7 @@ redirect_from:
 - "/league/"
 - "/coding-league"
 - "/coding-club2"
-image: /images/logos/aincu-coding-league-logo.png
+image: /images/icons/coding-club-level-2.png
 level: Intermediate
 min_age: 11
 max_age: 14
@@ -32,15 +32,15 @@ eventbrite_eid: "65948288105"
 
 ### **What happens when you’ve pushed the limits of block-based programming languages like Scratch?**
 
-It’s time to start using more powerful, professional-grade tools. HTML, CSS, and JavaScript are the building blocks of the web, and are the focus of our intermediate-level course for youth, the Coding League. Students use code to create websites. These websites range from informational pages on students’ hobbies and interests, to interactive games, and handy utilities.
+It’s time to start using more powerful, professional-grade tools. HTML, CSS, and JavaScript are the building blocks of the web, and are the focus of our intermediate-level course for youth, the Coding Club Level 2. Students use code to create websites. These websites range from informational pages on students’ hobbies and interests, to interactive games, and handy utilities.
 
-![Doodle Jump clone screenshot](/images/aincu/league-doodle-jump.gif "Doodler, a Coding League project, made with JavaScript in CodePen" ){:class="img-responsive center-block"}
+![Doodle Jump clone screenshot](/images/aincu/league-doodle-jump.gif "Doodler, a Coding Club Level 2 project, made with JavaScript in CodePen" ){:class="img-responsive center-block"}
 
-Coding League participants should have some prior programming experience, such as a basic course at school or [Awesome Inc’s Coding Club](/coding-club/). Since we’ll be using text-based programming languages, students should be comfortable typing at [20 words per minute](https://10fastfingers.com/typing-test/english) or faster.
+Coding Club Level 2 participants should have some prior programming experience, such as a basic course at school or [Awesome Inc’s Coding Club](/coding-club/). Since we’ll be using text-based programming languages, students should be comfortable typing at [20 words per minute](https://10fastfingers.com/typing-test/english) or faster.
 
 Come back for as many sessions as you’d like, the fun and the knowledge keeps on building. Sign up with friends, or meet new people with similar interests.
 
-## Coding League Outcomes:
+## Coding Club Level 2 Outcomes:
 
 - Go beyond block-based languages to use text-based programming
 - Learn Computer Science fundamentals
@@ -116,13 +116,13 @@ Come back for as many sessions as you’d like, the fun and the knowledge keeps 
         <div class="panel-heading" role="tab" id="headingFour">
           <h4 class="panel-title">
             <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-              <h3>Are there any age limits for students in the Coding League?</h3>
+              <h3>Are there any age limits for students in the Coding Club Level 2?</h3>
             </a>
           </h4>
         </div>
         <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
           <div class="panel-body">
-            <p>The Coding League is designed for students ages 11 - 14 (approx. 6th - 9th grade). Please inquire if your student doesn't fit that age range but you still want him/her to participate - <a href="mailto:info@awesomeincu.com">info@awesomeincu.com</a>.</p>
+            <p>The Coding Club Level 2 is designed for students ages 11 - 14 (approx. 6th - 9th grade). Please inquire if your student doesn't fit that age range but you still want him/her to participate - <a href="mailto:info@awesomeincu.com">info@awesomeincu.com</a>.</p>
           </div>
         </div>
       </div>

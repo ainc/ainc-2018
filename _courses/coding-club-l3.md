@@ -1,42 +1,72 @@
 ---
-title: The Academy
+title: Coding Club Level 3
+permalink: "/coding-club-level-3/"
+breadcrumb: "/learn/youth/coding-club-level-3"
 layout: course
-permalink: "/academy"
-breadcrumb: "/learn/youth/academy"
-description: Awesome Inc U's Premier Coding Program
-cover: "/img/Awesome-Inc-Academy.jpg"
-application: "/applications/academy/"
-redirect_from: "/programs/academy/"
-cta: Apply Now
-image: /images/logos/aincu-academy-logo.png
+description: Learn To Code Like The Pros
+cover: "/img/coding-league.jpg"
+class_day: Tuesdays
+redirect_from:
+- "/coding-club3"
+image: /images/icons/coding-club-level-3.png
 level: Advanced
 min_age: 13
 max_age: 17
 course_topics: Projects in Web, Mobile, Games
-languages: HTML, CSS, JavaScript, Python, Swift, Java, C#, Unity 3D
+languages: HTML, CSS, JavaScript, Python, Siwft, Java, C#, Unity 3D
 season: Spring and Fall
-time: 6-8pm
+time: 6:30-8pm
 age_group: youth
-open: false
-hide: true
+open: true
 team: aincu
+eventbrite_eid: "70067887939"
 ---
+{% if page.eventbrite_eid %}
+{% include coding-course-buttons.html %}
+{% else %}
+<p> Registrations are currently closed. Email <a href="mailto:info@awesomincu.com">info@awesomeincu.com</a> for more information. </p>
+{% endif %}
 
-So, you’ve got the basics down. You’ve taken a class or two, followed some tutorials, built a few “Hello, world” programs. How do you go beyond learning-to-code and take your software development skills to the next level? The Awesome Inc Academy is our answer.
+### **The Coding Club Level 3 is designed for students ages 12-15 who already have an established understanding of computational thinking and text-based programming.**
 
-<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/kSqzDzU-Bxo"></iframe></div>
+The Awesome Inc Coding Club is for students who want to sharpen their computer programming skills with the help of our experienced instructional team. Sign up with friends, or meet new people with similar interests. Students should have at least 1 year of prior program experience, such as completing the Coding Club Levels 1 and 2.
 
-The Academy is our premier training program for high school students who aspire to be software developers. This program runs for 14 weeks each Spring and Fall semester, and meets twice a week, two hours per night. During program sessions, our team of coding coaches work with each student to select a challenging final project, assess his or her current skill level, then design a curriculum to help them achieve their goals. Students work alongside other highly-talented peers to gain exposure to a breadth of topics, not just their own focus area. In addition to 56 in-class hours, our coaches are available throughout the semester via Slack online chat.
+Coding Club Level 3 builds on Software Development skills and Computer Science principles by using JavaScript, APIs, and cross-platform mobile app development.
 
-Academy Outcomes:
+Coding Club Level 3 participants should have some prior programming experience, such as a basic course at school or [Awesome Inc’s Coding Club](/coding-club/). Since we’ll be using text-based programming languages, students should be comfortable typing at [20 words per minute](https://10fastfingers.com/typing-test/english) or faster.
 
-*   Make your own Apps, Games, and Websites
-*   Learn Software Development methodology, communication skills, and teamwork
-*   Meet professional programmers from local tech companies
+<br>
+![Girl Coding](/images/girl-student-learning-to-code.jpg "Girl learning to code apps, websites, and video games" ){:class="img-responsive center-block"}
+<br>
+
+Come back for as many sessions as you’d like, the fun and the knowledge keeps on building. Sign up with friends, or meet new people with similar interests.
+
+## Coding Club Level 3 Outcomes:
+
+- Create useful computer programs
+- Sharpen Computer Science skills through practice
+- Collaborate with other student developers
 
 <br>
 
-<!-- FAQ SECTION -->
+## Instructional Team:
+
+<div class="row">
+	<div class="text-center col-lg-6">
+		<h3><a href="https://www.linkedin.com/in/nicksuch">Nick Such</a></h3>
+		<h4>Founder of Awesome Inc U, Awesome Labs, and BuildingLayer.</h4>
+		<img src="/images/aincu/nick-such.png">
+	</div>
+	<div class="text-center col-lg-6">
+		<h3><a href="https://www.linkedin.com/in/brianraney">Brian Raney</a></h3>
+		<h4>Founder of APAX Software and Awesome Inc<br>
+			iOS and Web Instructor</h4>
+		<img src="/images/aincu/brian-raney.png">
+	</div>
+</div>
+
+<br>
+
 <div>
   <div>
   <h1 style="font-weight:bold;">FAQs</h1>
@@ -51,7 +81,7 @@ Academy Outcomes:
         </div>
         <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
           <div class="panel-body">
-            <p>Yes. Each student will need to provide his/her own laptop for the course. Microsoft Windows-based PC's, Apple macOS computers, and Linux machines should all work fine. However, Chromebooks and iPads will not work for this course. We recommend a laptop made within the past 3-4 years. Computers should be free from viruses/malware. We have a very limited number of rental laptops available for $25/day, which can be <a href="https://squareup.com/market/awesome-inc/laptop-rental/">reserved online</a>.</p>
+            <p>Yes. Each student will need to provide his/her own laptop for the course. Microsoft Windows-based PC's, Apple macOS computers, or Google Chromebooks will work, but iPads will not work for this course. We recommend a laptop made within the past 3-4 years. Computers should be free from viruses/malware. We have a very limited number of rental laptops available for $25/day, which can be <a href="https://squareup.com/market/awesome-inc/laptop-rental/">reserved online</a>.</p>
           </div>
         </div>
       </div>
@@ -65,7 +95,7 @@ Academy Outcomes:
         </div>
         <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
           <div class="panel-body">
-            <p>The Students in the Academy should have some experience with programming. They should be familiar with terms like: variables, loops, conditionals, classes, etc. They don't need to have a large portfolio, that's what we're here for.</p>
+            <p>No prior programming experience is required, but students should be comfortable typing and using a web browser!</p>
           </div>
         </div>
       </div>
@@ -87,13 +117,13 @@ Academy Outcomes:
         <div class="panel-heading" role="tab" id="headingFour">
           <h4 class="panel-title">
             <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-              <h3>Are there any age limits for students in the Academy?</h3>
+              <h3>Are there any age limits for students in the Coding Club Level 3?</h3>
             </a>
           </h4>
         </div>
         <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
           <div class="panel-body">
-            <p>The Academy is designed for students ages 13-18 (approx. 8th - 12th grade). Please inquire if your student doesn't fit that age range but you still want him/her to participate - <a href="mailto:info@awesomeincu.com">info@awesomeincu.com</a>.</p>
+            <p>The Coding Club Level 3 is designed for students ages 11 - 14 (approx. 6th - 9th grade). Please inquire if your student doesn't fit that age range but you still want him/her to participate - <a href="mailto:info@awesomeincu.com">info@awesomeincu.com</a>.</p>
           </div>
         </div>
       </div>
@@ -101,27 +131,13 @@ Academy Outcomes:
         <div class="panel-heading" role="tab" id="headingFive">
           <h4 class="panel-title">
             <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-              <h3>Are there classes during Spring / Fall Breaks?</h3>
+              <h3>Are there classes during Spring Break?</h3>
             </a>
           </h4>
         </div>
         <div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFive">
           <div class="panel-body">
-            <p>We typically observe any holiday / weather cancellations from <a href="https://www.fcps.net/calendar">FCPS</a>.</p>
-          </div>
-        </div>
-	</div>
-      <div class="panel panel-default"> <!-- QUESTION 6 -->
-        <div class="panel-heading" role="tab" id="headingSix">
-          <h4 class="panel-title">
-            <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
-              <h3>Where do I park?</h3>
-            </a>
-          </h4>
-        </div>
-        <div id="collapseSix" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingSix">
-          <div class="panel-body">
-            <p>See <a href="https://www.awesomeinc.org/parking/">map for parking options</a>.</p>
+            <p>There is a one-week gap between sessions 3 and 4 due to Fayette Co. Schools Spring Break.</p>
           </div>
         </div>
       </div>
@@ -129,13 +145,13 @@ Academy Outcomes:
         <div class="panel-heading" role="tab" id="headingSeven">
           <h4 class="panel-title">
             <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
-              <h3>How much does it cost?</h3>
+              <h3>Where do I park?</h3>
             </a>
           </h4>
         </div>
         <div id="collapseSeven" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingSeven">
           <div class="panel-body">
-            <p>Tuition for The Academy is $1200 and is due at the beginning of the semester. Tuition can also be paid over the semester in 3 payments of $429.</p>
+            <p>See <a href="https://www.awesomeinc.org/parking/">map for parking options</a>.</p>
           </div>
         </div>
       </div>
@@ -153,15 +169,15 @@ Academy Outcomes:
           </div>
         </div>
       </div>
-      <div class="panel panel-default"> <!-- QUESTION 9 -->
-        <div class="panel-heading" role="tab" id="headingNine">
+      <div class="panel panel-default"> <!-- QUESTION 10 -->
+        <div class="panel-heading" role="tab" id="headingTen">
           <h4 class="panel-title">
-            <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
+            <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
               <h3>What is Awesome Inc U?</h3>
             </a>
           </h4>
         </div>
-        <div id="collapseNine" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingNine">
+        <div id="collapseTen" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTen">
           <div class="panel-body">
             <p>Awesome Inc U is devoted to teaching coding skills. It’s never too early or too late to learn how to code. You don’t have to be a genius to learn to code, you just need to be determined. Check out what some of our <a href="https://www.youtube.com/watch?v=kSqzDzU-Bxo">past students have to say!</a></p>
           </div>
@@ -170,6 +186,11 @@ Academy Outcomes:
     </div> <!-- panel-group -->
   </div>
 </div> <!-- /container -->
-<!-- END FAQ SECTION -->
 
-<br>
+{% if page.eventbrite_eid %}
+## Register
+
+{% include coding-course-eventbrite-widget.html %}
+{% else %}
+<p> Registrations are currently closed. Email <a href="mailto:info@awesomincu.com">info@awesomeincu.com</a> for more information. </p>
+{% endif %}

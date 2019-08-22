@@ -7,7 +7,7 @@ redirect_from: "/coding-club"
 description: Learn Code, Make Friends
 cover: "/img/coding-club.jpg"
 class_day: Tuesdays
-image: /images/logos/aincu-coding-club-logo.png
+image: /images/icons/coding-club-level-1.png
 level: Beginner
 min_age: 9
 max_age: 12
@@ -17,6 +17,7 @@ season: Spring and Fall
 time: 5-6:30pm
 age_group: youth
 open: true
+feature: true
 team: aincu
 eventbrite_eid: "61825181783"
 ---
