@@ -450,44 +450,25 @@ img {
 
 /* ----------------------------------------------------------------
   5 Equal Columns 
-  ref: https://stackoverflow.com/questions/10387740/five-equal-columns-in-twitter-bootstrap/22799354#22799354
+  Bootstrap 5-per-row columns, used on mentors page
 -------------------------------------------------------------------*/
 
-.col-xs-5ths,
-.col-sm-5ths,
-.col-md-5ths,
 .col-lg-5ths {
-    position: relative;
-    min-height: 1px;
-    padding-right: 15px;
-    padding-left: 15px;
+    @include make-lg-column(2.4)
+}
+
+.col-md-5ths {
+    @include make-md-column(2.4)
+}
+
+.col-sm-5ths {
+    @include make-sm-column(2.4)
 }
 
 .col-xs-5ths {
-    width: 20%;
-    float: left;
+    @include make-xs-column(2.4)
 }
 
-@media (min-width: 768px) {
-    .col-sm-5ths {
-        width: 20%;
-        float: left;
-    }
-}
-
-@media (min-width: 992px) {
-    .col-md-5ths {
-        width: 20%;
-        float: left;
-    }
-}
-
-@media (min-width: 1200px) {
-    .col-lg-5ths {
-        width: 20%;
-        float: left;
-    }
-}
 
 /* ----------------------------------------------------------------
   Header with line on the side
@@ -942,4 +923,3 @@ svg[id*='svg_'] {
 .object-fit-cover {
   object-fit: cover;
 }
-

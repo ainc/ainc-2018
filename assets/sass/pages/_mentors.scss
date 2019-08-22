@@ -1,0 +1,40 @@
+#mentors {
+    .lgx-single-item {
+        width: 135px;
+        overflow: hidden;
+
+        figcaption {
+            h3.item-name {
+                margin-top: 1rem;
+            }
+        }
+
+        figure {
+            figcaption {
+                padding-left: 1vw;
+                overflow-y: scroll;
+                width: 100%;
+                @include screen-xs {
+                    padding-left: 3vw;
+                }
+
+                .item-name {
+                    font-size: 1.7rem;
+                    margin-bottom: 1rem;
+                }
+
+                p {
+                    font-size: 1.25rem;
+                }
+            }
+        }
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    #description {
+        text-align: center;
+    }
+}

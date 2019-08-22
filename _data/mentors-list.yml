@@ -1,0 +1,513 @@
+---
+- title: Founder
+  website: http://www.linkedin.com/pub/drew-curtis/18/285/32b
+  firstname: Drew
+  lastname: " Curtis"
+  company: Fark.com
+  website_text: Founder, Fark.com
+  image: "/images/mentors/curtis.jpg.pagespeed.ic.VTQQMUw6pQ.jpg"
+- title: CEO
+  website: http://www.linkedin.com/in/nager
+  firstname: Marc
+  lastname: " Nager"
+  company: Startup Weekend
+  website_text: Former CEO, Startup Weekend
+  image: "/images/mentors/nager.jpg"
+- title: Founder
+  website: http://www.linkedin.com/in/nihalmehta
+  firstname: Nihal
+  lastname: " Mehta"
+  company: LocalResponse. Partner, ENIAC Ventures
+  website_text: CEO, LocalResponse | Partner, ENIAC Ventures
+  image: "/images/mentors/mehta.jpg.pagespeed.ic.5rqx5N3oxH.jpg"
+- title: Founder
+  website: http://www.engr.uky.edu/alumni/hod/davis-l-marksbury/
+  firstname: Davis
+  lastname: " Marksbury"
+  company: Exstream Software (sold to HP)
+  website_text: Founder, Exstream Software (sold to HP)
+  image: "/images/mentors/marksbury.jpg.pagespeed.ic.Du_svn3ZEJ.jpg"
+- title: Founder
+  website: http://en.wikipedia.org/wiki/Lee_T._Todd,_Jr.
+  firstname: Lee
+  lastname: "T. Todd Jr."
+  company: Databeam
+  website_text: Founder, Databeam (sold to IBM) | Founder, Projectron (sold to Hughes
+    Aircraft)
+  image: "/images/mentors/todd.jpg"
+- title: Founder
+  website: http://www.badgirlventures.com/index.php?option=com_content&view=article&id=26&Itemid=34
+  firstname: Candace
+  lastname: " Klein"
+  company: SoMoLend
+  website_text: Founder, SoMoLend
+  image: "/images/mentors/klein.jpg.pagespeed.ic.ye9E0wYzyp.jpg"
+- title: President & Co-Founder
+  website: http://www.linkedin.com/in/seanshadmand
+  firstname: Sean
+  lastname: " Shadmand"
+  company: Socialize, Inc
+  website_text: President & Co-Founder, Socialize, Inc
+  image: "/images/mentors/shadmand.jpg.pagespeed.ic.lJ67RD2ZI3.jpg"
+- title: Founder & CEO
+  website: http://www.linkedin.com/pub/bambi-francisco/0/79/2a2/
+  firstname: Bambi
+  lastname: " Francisco"
+  company: Vator.tv
+  website_text: Founder & CEO, Vator.tv
+  image: "/images/mentors/francisco.jpg"
+- title: Founder
+  website: http://www.linkedin.com/in/brendanlim
+  firstname: Brendan
+  lastname: " Lim"
+  company: Kicksend. YC Grad
+  website_text: Founder, Kicksend | YC Grad
+  image: "/images/mentors/lim.jpg.pagespeed.ic.Ld8nnIsq3_.jpg"
+- title: Founder
+  website: http://jat.uky.edu/lectures/excellence-in-pr/item/174-w-james-host.html
+  firstname: Jim
+  lastname: " Host"
+  company: Host Communications
+  website_text: Founder, Host Communications (sold to IMG) | CEO, iHigh
+  image: "/images/mentors/host.jpg"
+- title: Co-Founder & former CEO
+  website: http://www.linkedin.com/pub/sean-o-leary/8/452/ab8
+  firstname: Sean
+  lastname: " O'Leary"
+  company: Genscape
+  website_text: Co-Founder & former CEO, Genscape
+  image: "/images/mentors/oleary2.jpg"
+- title: CEO
+  website: http://www.linkedin.com/pub/steven-huey/0/b0/580
+  firstname: Steve
+  lastname: " Huey"
+  company: Capture Higher Ed
+  website_text: CEO, Capture Higher Ed
+  image: "/images/mentors/huey.jpg"
+- title: Partner
+  website: http://www.linkedin.com/in/nickseguin
+  firstname: Nick
+  lastname: " Seguin"
+  company: Dynamit
+  website_text: Board Member, Startup Weekend | Partner, Dynamit
+  image: "/images/mentors/sequin.jpg"
+- title: CEO
+  website: http://www.linkedin.com/in/kentoyler
+  firstname: Kent
+  lastname: " Oyler"
+  company: OPM
+  website_text: Co-founder, High Speed Access Corp. (IPO) | CEO, OPM Services
+  image: "/images/mentors/oyler.jpg"
+- title: Founder. Angel Investor
+  website: http://www.linkedin.com/pub/ben-self/0/96a/460
+  firstname: Ben
+  lastname: " Self"
+  company: Blue State Digital
+  website_text: Founder, Blue State Digital | Angel Investor
+  image: "/images/mentors/self.jpg"
+- title: CEO
+  website: http://www.linkedin.com/pub/matthew-wiley/33/836/364
+  firstname: Matthew
+  lastname: " Wiley"
+  company: uHAPS
+  website_text: CEO, uHAPS | Angel Investor
+  image: "/images/mentors/wiley.jpg"
+- title: Director
+  website: http://www.linkedin.com/in/elizabethrounsavall
+  firstname: Elizabeth
+  lastname: " Rounsavall"
+  company: Chrysalis Ventures
+  website_text: Director, Chrysalis Ventures
+  image: "/images/mentors/rounsavall.jpg"
+- title: Mayor & Former CEO
+  website: http://www.lexingtonky.gov/index.aspx?page=305
+  firstname: Jim
+  lastname: " Gray"
+  company: Lexington, Gray Construction
+  website_text: Former CEO, Gray Construction | Lexington Mayor
+  image: "/images/mentors/gray.jpg.pagespeed.ic.H0NVQ0uzYu.jpg"
+- title: CEO
+  website: http://www.linkedin.com/in/vanness
+  firstname: Sidney
+  lastname: " VanNess"
+  company: On Call Central
+  website_text: CEO, On Call Central
+  image: "/images/mentors/vanness.jpg"
+- title: Director
+  website: http://www.linkedin.com/in/rickcoplin
+  firstname: Rick
+  lastname: " Coplin"
+  company: TechColumbus. Venture Accelerator
+  website_text: Venture Acceleration. Director, TechColumbus
+  image: "/images/mentors/coplin.jpg.pagespeed.ic.yfHkCqJJgx.jpg"
+- title: CEO & Founder
+  website: http://www.linkedin.com/in/drodio
+  firstname: Daniel
+  lastname: " Odio"
+  company: Socialize, Inc
+  website_text: CEO & Co-Founder, Socialize, Inc
+  image: "/images/mentors/odio.jpg.pagespeed.ic.T31MmWJ9ZO.jpg"
+- title: Executive Director. Angel Investor
+  website: http://www.linkedin.com/pub/george-ward/8/482/500
+  firstname: George
+  lastname: " Ward"
+  company: UK Coldstream
+  website_text: Angel Investor | Executive Director at UK Coldstream
+  image: "/images/mentors/ward.jpg"
+- title: Owner
+  website: http://www.linkedin.com/pub/alan-stein/1/143/813
+  firstname: Alan
+  lastname: " Stein"
+  company: Lexington Legends
+  website_text: Angel Investor | Lexington Legends Owner
+  image: "/images/mentors/stein.gif.pagespeed.ic.FcyAcZlsU2.png"
+- title: Angel Investor. GM
+  website: http://www.linkedin.com/pub/chris-young/1/94/499
+  firstname: Chris
+  lastname: " Young"
+  company: Overbrook Farms
+  website_text: Angel Investor | GM, Overbrook Farms
+  image: "/images/mentors/young.png"
+- title: Angel Investor. Founder
+  website: http://www.linkedin.com/pub/j-whitney-wallingford/16/3bb/7a6
+  firstname: Whitney
+  lastname: " Wallingford"
+  company: Wallingford Law
+  website_text: Angel Investor | Founder, Wallingford Law
+  image: "/images/mentors/wallingford.jpg"
+- title: Senior Director
+  website: http://www.linkedin.com/pub/sean-o-leary/6/977/556
+  firstname: Sean
+  lastname: " O'Leary"
+  company: KSTC
+  website_text: Senior Director, KSTC
+  image: "/images/mentors/oleary.jpg"
+- title: Associate Dean
+  website: http://www.linkedin.com/pub/bruce-walcott/25/822/380
+  firstname: Bruce
+  lastname: " Walcott"
+  company: University of Kentucky
+  website_text: Associate Dean, University of Kentucky
+  image: "/images/mentors/walcott.jpg"
+- title: Principal
+  website: http://www.linkedin.com/in/kelleysloane
+  firstname: Kelley
+  lastname: " Sloane"
+  company: Sloane Marketing
+  website_text: Principal, Sloane Marketing | Former VP Mktg, Exstream Software
+  image: "/images/mentors/sloan.jpg"
+- title: Angel Investor
+  website: http://www.linkedin.com/pub/richard-c-rick-miller/b/128/b54
+  firstname: Rick
+  lastname: " Miller"
+  company: ''
+  website_text: Angel Investor
+  image: "/images/mentors/miller.jpg"
+- title: Angel Investor
+  website: http://www.linkedin.com/in/medicalnews
+  firstname: Tom
+  lastname: " McMahon"
+  company: ''
+  website_text: Angel Investor
+  image: "/images/mentors/mcmahon.jpg"
+- title: ICC Director
+  website: http://www.linkedin.com/pub/warren-nash/14/8b9/68b
+  firstname: Warren
+  lastname: " Nash"
+  company: Lexington
+  website_text: Lexington ICC Director
+  image: "/images/mentors/nash.jpg"
+- title: Director
+  website: http://www.linkedin.com/pub/dov-rosenberg/0/45/1b8
+  firstname: Dov
+  lastname: " Rosenberg"
+  company: Allos Ventures
+  website_text: Director, Allos Ventures
+  image: "/images/mentors/rosenberg.jpg"
+- title: Co-Founder
+  website: http://www.linkedin.com/in/vikchadha
+  firstname: Vik
+  lastname: " Chadha"
+  company: Backupify
+  website_text: Co-Founder, Backupify
+  image: "/images/mentors/chadha.jpg"
+- title: CEO. Founder
+  website: http://www.linkedin.com/pub/randall-stevens/0/363/232
+  firstname: Randall
+  lastname: " Stevens"
+  company: Punndit. Archvision
+  website_text: CEO, Punndit. Founder, Archvision
+  image: "/images/mentors/stevens.jpg"
+- title: Senior VP
+  website: http://www.linkedin.com/in/tedsmith
+  firstname: Ted
+  lastname: " Smith"
+  company: CNET
+  website_text: Senior VP, CNET | Chief Economic Growth, Louisville Metro
+  image: "/images/mentors/smith.jpg"
+- title: Director of Sales & Marketing
+  website: http://www.linkedin.com/pub/joe-dover/a/299/2b8
+  firstname: Joe
+  lastname: " Dover"
+  company: OPM
+  website_text: Director of Sales & Marketing, OPM
+  image: "/images/mentors/dover.jpg"
+- title: President
+  website: http://www.linkedin.com/pub/chuck-woods/50/92a/46a
+  firstname: Chuck
+  lastname: " Woods"
+  company: OPM
+  website_text: President, OPM
+  image: "/images/mentors/woods.jpg"
+- title: Director
+  website: http://www.linkedin.com/pub/gordon-garrett/2/209/267
+  firstname: Gordon
+  lastname: " Garrett"
+  company: KY Small Business Development Center
+  website_text: Director, KY Small Business Development Center
+  image: "/images/mentors/garrett.jpg"
+- title: Attorney
+  website: http://www.linkedin.com/in/kensagan
+  firstname: Ken
+  lastname: " Sagan"
+  company: Stites & Harbison
+  website_text: Attorney, Stites & Harbison
+  image: "/images/mentors/sagan.jpg"
+- title: Owner
+  website: http://www.linkedin.com/pub/bryce-anderson/5/90/6b
+  firstname: Bryce
+  lastname: " Anderson"
+  company: Breakout Games, Orange Leaf Frozen Yogurt, Vinaigrette
+  website_text: Owner, Breakout Games, Orange Leaf Frozen Yogurt, Vinaigrette
+  image: "/images/mentors/anderson.jpg"
+- title: Owner
+  website: http://www.facebook.com/sizemore
+  firstname: Jeremiah
+  lastname: " Sizemore"
+  company: Orange Leaf Frozen Yogurt
+  website_text: Owner, Orange Leaf Frozen Yogurt
+  image: "/images/mentors/sizemore.jpg"
+- title: Project Manager
+  website: http://www.linkedin.com/pub/keith-kurzendoerfer/3/aa4/127
+  firstname: Keith
+  lastname: " Kurzendoerfer"
+  company: APAX Software
+  website_text: Project Manager, APAX Software
+  image: "/images/mentors/kurzendoerfer.jpg"
+- title: Owner
+  website: http://www.linkedin.com/in/evanmorris
+  firstname: Evan
+  lastname: " Morris"
+  company: Orange Leaf Frozen Yogurt
+  website_text: Owner, Orange Leaf Frozen Yogurt
+  image: "/images/mentors/morris.jpg"
+- title: Wealth Manager
+  website: http://www.linkedin.com/in/chadbischof
+  firstname: Chad
+  lastname: " Bischof"
+  company: Strong Tower Group
+  website_text: Wealth Management, Strong Tower Group
+  image: "/images/mentors/bischof.jpg"
+- title: Founder. Owner
+  website: http://www.linkedin.com/in/wayneyeager
+  firstname: Wayne
+  lastname: " Yeager"
+  company: Webalytics. Bailey Run Farm
+  website_text: Founder, Webalytics | Owner at Bailey Run Farm
+  image: "/images/mentors/yeager.jpg"
+- title: President
+  website: http://www.linkedin.com/in/jmclifton
+  firstname: Jim
+  lastname: " Clifton"
+  company: Therix Medical
+  website_text: President, Therix Medical
+  image: "/images/mentors/clifton.jpg"
+- title: Member
+  website: http://www.frostbrowntodd.com/professionals-506.html
+  firstname: Bill
+  lastname: " Strench"
+  company: Frost Brown Todd
+  website_text: Member, Frost Brown Todd Attorneys
+  image: "/images/mentors/strench.jpg"
+- title: President
+  website: http://www.linkedin.com/in/davedurand
+  firstname: Dave
+  lastname: " Durand"
+  company: Forest Giant
+  website_text: President, Forest Giant
+  image: "/images/mentors/durand.jpg"
+- title: Founder
+  website: http://morrisindustries.com/about/founder
+  firstname: Nate
+  lastname: " Morris"
+  company: Morris Industries
+  website_text: Founder, Morris Industries | Co-Founder, Rubicon Global
+  image: "/images/mentors/nateMorris.jpg"
+- title: CEO
+  website: http://www.linkedin.com/pub/fielding-rogers/0/960/a04
+  firstname: Fielding
+  lastname: " Rogers"
+  company: Ale-8-One Bottling Company
+  website_text: CEO, Ale-8-One
+  image: "/images/mentors/Fielding-Rogers.jpg"
+- title: CEO
+  website: https://www.linkedin.com/pub/billy-harper/10/983/575
+  firstname: Billy
+  lastname: " Harper"
+  company: Harper Industries
+  website_text: CEO, Harper Industries
+  image: "/images/mentors/billy_harper.jpg"
+- title: CEO
+  website: http://www.linkedin.com/in/brianpoe
+  firstname: Brian
+  lastname: " Poe"
+  company: Corrisoft
+  website_text: CEO, Corrisoft
+  image: "/images/mentors/brian_poe.jpg"
+- title: Wealth Management Advisor
+  website: www.randy-collins.com
+  firstname: Randy
+  lastname: " Collins"
+  company: Northwestern Mutual
+  website_text: Wealth Management Advisor, Northwestern Mutual
+  image: "/images/mentors/randy.jpg"
+- title: Financial Advisor
+  website: http://christianschnabel.nm.com/
+  firstname: Christian
+  lastname: " Schnabel"
+  company: Northwestern Mutual
+  website_text: Financial Advisor, Northwestern Mutual
+  image: "/images/mentors/christian.jpg"
+- title: Managing Director
+  website: https://www.linkedin.com/in/patspowell/
+  firstname: Pat
+  lastname: " Powell"
+  company: Corporate Finance Associates
+  website_text: Managing Director, Corporate Finance Associates
+  image: "/images/mentors/pat-powell.jpeg"
+- title: Managing Director
+  website: https://www.linkedin.com/in/phil-holoubek-8a00704/
+  firstname: Phil
+  lastname: " Holoubek"
+  company: LRC Real Estate
+  website_text: Managing Director, Lexington Real Estate Company
+  image: "/images/mentors/phil-holoubek.jpeg"
+- title: ''
+  website: https://www.linkedin.com/in/phoebe-wood-b404328/
+  firstname: Phoebe
+  lastname: " Wood"
+  company: ''
+  website_text: Board Member, PPL Corporation
+  image: "/images/mentors/phoebe-wood.jpeg"
+- title: ''
+  website: https://www.linkedin.com/in/russhensley/
+  firstname: Russ
+  lastname: " Hensley"
+  company: ''
+  website_text: CEO, Hensley / Elam
+  image: "/images/mentors/russ-hensley.jpeg"
+- title: ''
+  website: https://www.linkedin.com/in/stephen-gray-242a9/
+  firstname: Stephen
+  lastname: " Gray"
+  company: ''
+  website_text: CEO, Gray Construction
+  image: "/images/mentors/stephen-gray.jpeg"
+- title: ''
+  website: https://www.linkedin.com/in/susannah-sizemore-a407444/
+  firstname: Susannah
+  lastname: " Sizemore"
+  company: ''
+  website_text: Director, Orange Consulting
+  image: "/images/mentors/susannah-sizemore.jpeg"
+- title: ''
+  website: https://www.linkedin.com/in/tedsmith/
+  firstname: Ted
+  lastname: " Smith"
+  company: ''
+  website_text: CEO, Revon Systems
+  image: "/images/mentors/ted-smith.jpeg"
+- title: ''
+  website: https://www.linkedin.com/in/tendaicharasika/
+  firstname: Tendai
+  lastname: " Charasika"
+  company: ''
+  website_text: CEO, SuperFanU, Inc
+  image: "/images/mentors/tendai-charasika.jpeg"
+- title: ''
+  website: https://www.linkedin.com/in/hartmanky/
+  firstname: Eric
+  lastname: " Hartman"
+  company: ''
+  website_text: Director, Kentucky Innovation Network
+  image: "/images/mentors/eric-hartman.jpeg"
+- title: ''
+  website: https://www.linkedin.com/in/willmontague/
+  firstname: Will
+  lastname: " Montague"
+  company: ''
+  website_text: Owner, Montague Law PLLC
+  image: "/images/mentors/will-montague.jpeg"
+- title: ''
+  website: https://www.linkedin.com/in/chrisheivly/
+  firstname: Chris
+  lastname: " Heivly"
+  company: ''
+  website_text: Entrepreneur in Residence, Techstars
+  image: "/images/mentors/chris-heivly.jpeg"
+- title: ''
+  website: https://www.linkedin.com/in/drew-sutton-210025aa/
+  firstname: Drew
+  lastname: " Sutton"
+  company: ''
+  website_text: Founder, Barksdale Rutherford
+  image: "/images/mentors/drew-sutton.jpeg"
+- title: ''
+  website: https://www.linkedin.com/in/danbeldy/
+  firstname: Dan
+  lastname: " Beldy"
+  company: ''
+  website_text: Venture Investor
+  image: "/images/mentors/dan-beldy.jpeg"
+- title: ''
+  website: ''
+  firstname: Ron
+  lastname: " Geary"
+  company: ''
+  website_text: President, ResCare
+  image: "/images/mentors/ronald_geary.jpg"
+- title: ''
+  website: ''
+  firstname: Terry
+  lastname: " Forcht"
+  company: ''
+  website_text: Founder, Forcht Bank
+  image: "/images/mentors/terry_forcht.jpg"
+- title: ''
+  website: ''
+  firstname: John
+  lastname: " Williams"
+  company: ''
+  website_text: Founder, Computer Services Inc
+  image: "/images/mentors/john_williams.jpg"
+- title: Entrepreneur in Residence
+  website: https://www.linkedin.com/in/douglasfcobb/
+  firstname: Doug
+  lastname: " Cobb"
+  company: Chrysalis Ventures
+  website_text: Entrepreneur in Residence, Chrysalis Ventures
+  image: "/images/mentors/doug-cobb.jpeg"
+- title: ''
+  website: https://www.linkedin.com/in/kim-knopf-4b6a43b/
+  firstname: Kim
+  lastname: " Knopf"
+  company: ''
+  website_text: CEO, Innovative Mattress Solutions
+  image: "/images/mentors/kim-knopf.jpeg"
+- title: ''
+  website: https://www.linkedin.com/in/joe-steier-14a39b12/
+  firstname: Joe
+  lastname: " Steier"
+  company: ''
+  website_text: President and CEO, Signature HealthCARE
+  image: "/images/mentors/joe-steier.jpeg"
