@@ -171,6 +171,7 @@ collections:
           - { label: "Adult", value: "adult" }
       - {label: "Team", name: "team", widget: "hidden", default: "aincu" }
       - {label: "Open", name: "open", widget: "boolean", hint: "Is the class registration open?"}
+      - {label: "Hide?", name: "hide", widget: "boolean", hint: "Do you want the class to be hidden from the Youth Page?"}
       - label: "Eventbrite"
         name: "eventbrite_eid"
         widget: "string"
