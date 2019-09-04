@@ -1,0 +1,51 @@
+<!-- styling our first page -->
+<div id="style" class="section">
+			<h1>
+				Styling Your Page
+			</h1>
+
+			<p class="sectionContent">
+				In able to keep our directory organized, make a file called “main.css” within the css folder of our project, and just as before, I will provide you with some code in able to expedite this step, all you will have to do is copy the code snippet below and paste it into the main.css file you just created. 
+			</p>
+
+			<pre>
+body{
+	overflow-y: hidden;
+  text-align: center;
+}
+* {
+  margin: 0;
+}
+html, body {
+  height: 100%;
+}
+.page-wrap {
+  min-height: 100%;
+  /* equal to footer height */
+  margin-bottom: -142px; 
+}
+.page-wrap:after {
+  content: "";
+  display: block;
+}
+.site-footer, .page-wrap:after {
+  height: 142px; 
+}
+.site-footer {
+  background: #F8F8F8;
+}
+
+.site-footer p{
+  text-align: center;
+  padding-top: 2%;
+}
+			</pre>
+
+
+      <p>
+        After styling your page, it should look like the image below. With the main.css file attached to your head, it will allow you to edit any element within the web page.
+      </p>
+
+      <img class="thumbnail" src="/images/tutorials/jekyll-basics/styled-page.png">
+
+</div>

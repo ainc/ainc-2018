@@ -1,0 +1,356 @@
+<div>
+	<div class="section" id="create">
+		<h1>Creating Your First Page</h1>
+		</div>
+
+		<b>
+			Note, due to the nature of how the steps for this section were laid out, it would be best to restart/start your project server after all of the steps in the 'Ceating Your First Page' section have been completed. Specifically, after creating your content and before styling your page.  
+		</b>
+
+		<div>
+			<p class="sectionContent underline">
+				Front Matter and Content
+			</p>
+
+			<p class="sectionContent">
+				A Jekyll page consists of two main parts, the <a href="https://jekyllrb.com/docs/frontmatter/">front matter</a> and the content. 
+			</p>
+
+			<div class="sectionContent">
+
+			<div class="row">
+				<div class="col-lg-5">
+
+					<p class="underline subsection center">Front Matter</p>
+
+					<img class="thumbnail" src="/images/tutorials/jekyll-basics/frontMatter.png">
+
+
+					<p class="subsection">
+						Very much like the config.yml, in the sense that it can control settings on specific pages. The difference, however, being that while a config.yml file can control settings for multiple elements across several pages, the front matter of a Jekyll file can only control the settings for the page in which it is located. 
+					</p>
+					
+				</div>
+
+				<div class="col-lg-5 col-lg-offset-2">
+
+				<p class="underline subsection center">Content</p>
+
+				<img class="thumbnail" src="/images/tutorials/jekyll-basics/content.png">
+
+				<p class="subsection">
+					The content of a Jekyll page contains all of the body text, everything in between the headers and footers. 
+				</p>
+
+				</div>
+			</div>
+		</div>
+		</div>
+
+		<p class="sectionContent">
+			At this point, you should have already replaced the 'index.md' file within the directory with an 'index.html' file. If not, then simply delete the “index.md” file from your Jekyll project and add a new one by the name of “index.html” into the root directory.
+		</p>
+
+		<!-- creating the font matter -->
+		<div>
+			<p class="underline sectionHeader">
+			Creating The Front Matter
+			</p>
+
+			<p class="sectionContent">
+				The front matter in this tutorial will consist of only a layout, and will implement custom paths in a further section. On your empty Index.html page, apply this code:
+			</p>
+
+{% highlight ruby %}
+---
+layout: home
+---
+{% endhighlight %}
+
+			<b>
+				Note, when applying layouts to a page through this matter, the extension '.html' does not need to be applied to the name just as above.
+			</b>
+
+			<p class="sectionContent">
+				This code will allow us to pull a layout from the “_layouts” page as our layout. Next, after telling our file to pull the layout, we must now create one in able for our page to have something to load. 
+			</p>
+
+		</div>
+
+		<!-- creating the layout -->
+		<div>
+			<p class="underline sectionHeader">
+				Creating The Layout
+			</p>
+
+			<p class="sectionContent">
+				From within our _layouts folder, create a file by the name of “home.html”, and then open it in our text editor.
+			</p>
+
+			<p class="sectionContent">
+				Because our layout file will dictate how our page is presented, we will need to create the outline of our layout for jekyll to fill in upon load. The code below shows how we will structure our home page layout. Copy and paste this into your empty home file in the _layouts directory. 
+			</p>
+
+			<pre>			
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+	&#123;% include header.html %&#125;
+	&#123;% include head.html %&#125;
+&lt;/head&gt;
+&lt;body&gt;
+	&lt;div class="page-wrap"&gt;
+
+	&#123;&#123;content&#125;&#125;
+
+	&lt;/div>
+	&lt;footer class="site-footer"&gt;
+		&#123;% include footer.html %&#125; 
+	&lt;/footer&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+			</pre>
+
+		</div>
+
+		<div>
+			<p class="sectionContent">
+				From this code snippet we can see that our home page will include both the header and header files, the page content below that, and then the footer last. 
+			</p> 
+
+			<img class="thumbnail" src="/images/tutorials/jekyll-basics/includes.png">
+		</div>
+
+
+
+
+
+
+		<div class="sectionContent">
+			<p>Now to create the Header, Head, and Footer files for this layout to include. Within the '_includes' folder, add these files below with the names exactly as they are shown. Click on the individual names to receive the code to copy and paste into each corresponding file.</p>
+
+
+			<div id="file" class="col-lg-4 col-sm-6">
+		
+
+					<!-- Trigger the modal with a button -->
+			<a data-toggle="modal" data-target="#header">
+				<img class="thumbnail" src="/images/tutorials/jekyll-basics/gray.png">
+			</a> 
+				
+				
+					
+
+				<!-- Modal -->
+				<div id="header" class="modal fade" role="dialog">
+				  <div class="modal-dialog">
+
+				    <!-- Modal content-->
+				    <div class="modal-content">
+				      <div class="modal-header">
+				        <button type="button" class="close" data-dismiss="modal">&times;</button>
+				        <h4 class="modal-title">The 'header' File</h4>
+				      </div>
+				      <div class="modal-body">
+				      	<p>
+				      		Within the header file is the navbar of our site. 
+				      	</p>
+
+				        <p class="sectionContent">
+				        <pre>
+				        	<xmp> 
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Brand</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">Link</a></li>
+        <li><a href="#">Link</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+				        	</xmp>
+				        	</pre>
+				        </p>
+
+				      </div>
+				      <div class="modal-footer">
+				        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+				      </div>
+				    </div>
+
+				  </div>
+				</div>
+				
+				<p id="fileText">header.html</p>
+			</div>
+		</div>
+	
+
+
+
+	<!-- CSS -->
+
+		<div id="file" class="col-lg-4 col-sm-6">
+
+					<!-- Trigger the modal with a button -->
+			<a data-toggle="modal" data-target="#head">
+				<img class="thumbnail" src="/images/tutorials/jekyll-basics/gray.png">
+			</a>
+				
+				
+					
+
+				<!-- Modal -->
+				<div id="head" class="modal fade" role="dialog">
+				  <div class="modal-dialog">
+
+				    <!-- Modal content-->
+				    <div class="modal-content">
+				      <div class="modal-header">
+				        <button type="button" class="close" data-dismiss="modal">&times;</button>
+				        <h4 class="modal-title">The 'head' File</h4>
+				      </div>
+				      <div class="modal-body">
+
+				      	<p>
+				      		The head file in the tutorial site will contain the title, Bootstrap CND, and link to our stylesheet.
+				      	</p>
+
+
+				        <p class="sectionContent">
+				        	<pre>
+				        		<xmp>
+<title>Home Page</title>
+
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<link rel="stylesheet" href="/css/main.css">
+				        		</xmp>
+				        	</pre>
+				        </p>
+				   					    
+				      </div>
+				      <div class="modal-footer">
+				        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+				      </div>
+				    </div>
+
+				  </div>
+				</div>
+				
+				<p id="fileText">head.html</p>
+			</div>
+
+
+
+	<!-- _LAYOUTS -->
+
+
+		<div id="file" class="col-lg-4 col-sm-6">
+
+					<!-- Trigger the modal with a button -->
+			<a data-toggle="modal" data-target="#footer">
+				<img class="thumbnail" src="/images/tutorials/jekyll-basics/gray.png">
+			</a>
+				
+				
+					
+
+				<!-- Modal -->
+				<div id="footer" class="modal fade" role="dialog">
+				  <div class="modal-dialog">
+
+				    <!-- Modal content-->
+				    <div class="modal-content">
+				      <div class="modal-header">
+				        <button type="button" class="close" data-dismiss="modal">&times;</button>
+				        <h4 class="modal-title">The 'footer' File</h4>
+				      </div>
+				      <div class="modal-body">
+
+				      	<p>
+				      		The footer file will include the footer section of our site, which holds the javascript and any extra text.
+				      	</p>
+
+				        <p class="sectionContent">
+				        	<pre>
+				        		<xmp>
+<p>This is the footer file</p>
+
+<script src="https://code.jquery.com/jquery-3.1.1.js"
+  integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA="
+  crossorigin="anonymous">
+ </script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+				        		</xmp>
+				        	</pre>
+				        </p>
+				   					    
+				      </div>
+				      <div class="modal-footer">
+				        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+				      </div>
+				    </div>
+
+				  </div>
+				</div>
+				
+				<p id="fileText">footer.html</p>
+			</div>
+
+
+<!-- head header and footer END -->
+</div>
+
+<div>
+		<p class="sectionHeader">
+			Now that we have all the includes for our home page, let’s go on to creating the content. 
+		</p>
+
+		
+		<div>
+			<p class="underline sectionHeader">
+				Creating The Content
+			</p>
+
+			<p class="sectionContent">
+				Luckily, the harder part of creating the home page is behind us, and now that we have our layout set up, we can simply type up some content for our page. 
+			</p>
+
+			<p class="sectionContent">
+				Underneath your front matter on the “index.html” file, go ahead and type up a sentence or two of raw text into the specified location  below as an introduction to the site, just as if you were typing in a Microsoft Office document. 
+			</p>
+
+			<img class="thumbnail" src="/images/tutorials/jekyll-basics/content2.png">
+
+			<p class="sectionContent">
+			Even though simply placing raw text within a .html file may seem wrong at first, as you will see, it is very much doable. In addition to being able to process raw text, jekyll will also accept html code in able to better organize and style your page just as any other html file. For example, &lt;div&gt; and &lt;p&gt; tags WILL WORK here. 
+			</p>
+
+			<p class="sectionContent">
+				Something to keep in mind when creating pages is that every page will need a layout, and if a layout is not specified, our will not be applied and none of the includes that we have within our layout would be activated. After a layout has been created, it can be applied to a page by telling it to do so from within the front matter of that specific page. 
+			</p>
+
+			<p>
+				Upon relaunching, your page should look like this.
+			</p>
+
+			<img class="thumbnail" src="/images/tutorials/jekyll-basics/unstyled-page.png">
+
+		</div>
+
+	</div>
