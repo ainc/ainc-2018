@@ -1,0 +1,513 @@
+<div id="settingUp" class="section">
+
+	<h1 class="sectionHeader">Setting Up Jekyll and Jekyll Environment</h1>
+
+	<p class="underline sectionContent">a. Jekyll Installation</p>
+
+	<p class="sectionContent">
+		Installing and launching Jekyll will all be done from the <a href="http://blog.teamtreehouse.com/introduction-to-the-mac-os-x-command-line">terminal</a>. All of the instructions here can also be found on the <a href="https://jekyllrb.com/docs/quickstart/">official jekyll</a> documentation page. 
+	</p>
+
+	<p class="sectionContent">
+		After initially opening your terminal you should be in your user directory, displaying all of your documents when listing all of the files. 
+	</p>
+
+	<p>
+		from within your user directory, run this command in able to begin the jekyll install
+{% highlight ruby %}
+
+gem install jekyll
+
+{% endhighlight %}
+	</p>
+</div>
+
+<note>
+IMPORTANT: in able to install these packages you will need root permissions, if your account does not have these permissions, you can run these commands along with the ‘sudo’ command. For example: 'sudo gem install jekyll'
+</note>
+
+
+<div class="sectionContent">
+	<p class="underline">b. Other Installations</p>
+
+	<p class="sectionContent">
+		You will also need to install the <a href="https://learn.cloudcannon.com/jekyll/gemfiles-and-the-bundler/#what-is-the-bundler-and-how-do-we-use-it">jekyll bundler</a> by running the  command:
+{% highlight ruby %}
+
+gem install jekyll bundler
+
+{% endhighlight %}
+	</p>
+
+	<p class="sectionContent">
+		In able to access and edit files within your jekyll project, you will need a text editor. Any text editor will work, but I recommend the free text editor <a href="https://www.sublimetext.com/3">sublime text 3</a>.
+	</p>
+
+	<p class="sectionContent">
+		Lastly, you will need to have <a href="http://www.rubyist.net/~slagell/ruby/">Ruby</a> installed. Luckily, all mac devices come preinstalled with Ruby so no installation should be needed. However, if you do need to install Ruby, you can do so <a href="https://www.ruby-lang.org/en/documentation/installation/">here</a>.
+	</p>
+
+</div>
+
+<div class="section">
+
+	<p class="underline">c. Getting Started With Jekyll</p>
+
+		<p clas="sectionHeader">
+			In able to begin building our jekyll site, we must first create the project directory. Luckily, this is can be done with a simple command from within the terminal. From the terminal, navigate to your Desktop and run the following command to create a project entitled ‘myjekyllsite’: 
+
+{% highlight ruby %}
+
+Jekyll new myjekyllsite
+
+{% endhighlight %}
+		</p>
+
+		<p class="sectionContent">
+			Now that we have our project directory created, navigate into it from within the terminal and launch it using the following command:  
+{% highlight ruby %}
+
+Bundle exec jekyll serve
+
+{% endhighlight %}
+		</p>
+
+		<p>
+			Now that we have our project up and running on a local server we can take a look at the active project by entering the URL address “localhost:4000” within any browser of your choice while the application is running. By default, all Jekyll projects run locally on port 4000, hence, the address “localhost:4000”. After entering the URL to your localhost, you should see a page similar to this one
+		</p>
+
+		<img class="thumbnail" src="/images/tutorials/jekyll-basics/default-site.png">
+
+		<p>
+			 In able to stop your project press the following key combination in the terminal (at the same time): 
+
+{% highlight ruby %}
+
+control + c
+
+{% endhighlight %}
+		</p>
+
+
+
+
+		<p class="sectionContent">
+			While editing our Jekyll project files, front end changes to our code will be able to take effect immediately upon save and can be viewed upon reloading the page. You can see if these changes have been successfully implemented by viewing the active log on at the terminal. This log will remain active and up to date as long as the project is running. Any changes to the .config file will require a server restart in able for the changes to take effect. 
+		</p>
+
+		<img class="thumbnail" src="/images/tutorials/jekyll-basics/terminal-changes.png">
+
+
+			<p class="sectionHeader underline">
+				Premade Files
+			</p>
+
+			<p class="sectionContent">
+				To view the project directory you can either open it directly from the desktop or by using our Sublime text editor. For the sake of convenience, we will be viewing our project inside of the Sublime text editor.
+			</p>
+
+			<img class="thumbnail" src="/images/tutorials/jekyll-basics/open-project.png">
+
+
+	<p class="sectionContent">
+		After opening the project within Sublime, or any other text editor of your choice, you should be able to view all of the files within the project. Various version updates to Jekyll may often change which files are included with your new project, so we will just go over the most relevant files. 
+
+	</p>
+
+	<p class="sectionContent">
+	From within your project folder, you should have the files listed below. Click on each file to find out more about it. 
+	</p>
+
+	<div id="filesGallery" class="row"> 
+		
+			<!-- POST FILE -->
+
+
+		<div id="file" class="col-lg-4 col-sm-6">
+
+				<!-- Trigger the modal with a button -->
+			<a id="box" data-toggle="modal" data-target="#_posts">
+				<img class="thumbnail" src="/images/tutorials/jekyll-basics/gray.png">
+			</a>
+				
+				
+					
+
+				<!-- Modal -->
+				<div id="_posts" class="modal fade" role="dialog">
+				  <div class="modal-dialog">
+
+				    <!-- Modal content-->
+				    <div class="modal-content">
+				      <div class="modal-header">
+				        <button type="button" class="close" data-dismiss="modal">&times;</button>
+				        <h4 class="modal-title">The '_posts' Folder</h4>
+				      </div>
+				      <div class="modal-body">
+				        <p>Because of Jekyll’s main functionality as a blogging site, the project comes preinstalled with a _posts folder. The purpose of this folder is gather all of the bloggers “posts” that they will have on their site. In able for a post file to be usable, it must follow the naming convention of 'Year-Month-Day-Name'</p>
+				      </div>
+				      <div class="modal-footer">
+				        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+				      </div>
+				    </div>
+
+				  </div>
+				</div>
+				
+				<p id="fileText">_posts</p>
+
+
+		</div>
+
+			<!-- _SITE FILE -->
+
+		<div id="file" class="col-lg-4 col-sm-6">
+
+				<!-- Trigger the modal with a button -->
+			<a data-toggle="modal" data-target="#_site">
+				<img class="thumbnail" src="/images/tutorials/jekyll-basics/gray.png">
+			</a>
+				
+				
+					
+
+				<!-- Modal -->
+				<div id="_site" class="modal fade" role="dialog">
+				  <div class="modal-dialog">
+
+				    <!-- Modal content-->
+				    <div class="modal-content">
+				      <div class="modal-header">
+				        <button type="button" class="close" data-dismiss="modal">&times;</button>
+				        <h4 class="modal-title">The '_site' Folder</h4>
+				      </div>
+				      <div class="modal-body">
+				        <p>In short, the site folder is used to hold your running application. Whenever a Jekyll project is launched, all of the files are compiled into the _site folder and launched from there.
+
+				        </p>
+
+				        <p>
+				        	You can view this yourself by launching your Jekyll project and viewing the _site directory 
+				        </p>
+
+				        <p>
+				        	Any changes to this file will be overridden upon the launch of your Jekyll site
+				        </p>
+				        					    
+				      </div>
+				      <div class="modal-footer">
+				        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+				      </div>
+				    </div>
+
+				  </div>
+				</div>
+				
+				<p id="fileText">_site</p>
+
+
+		</div>
+
+
+			<!-- INDEX.MD FILE -->
+
+		<div id="file" class="col-lg-4 col-sm-6">
+
+
+				<!-- Trigger the modal with a button -->
+			<a data-toggle="modal" data-target="#indexMarkdown">
+				<img class="thumbnail" src="/images/tutorials/jekyll-basics/gray.png">
+			</a>
+				
+				
+					
+
+				<!-- Modal -->
+				<div id="indexMarkdown" class="modal fade" role="dialog">
+				  <div class="modal-dialog">
+
+				    <!-- Modal content-->
+				    <div class="modal-content">
+				      <div class="modal-header">
+				        <button type="button" class="close" data-dismiss="modal">&times;</button>
+				        <h4 class="modal-title">The 'index.md' File</h4>
+				      </div>
+				      <div class="modal-body">
+
+
+				      	<p>
+				        	In this project, the index.md file serves as the homepage of the site. Jekyll will look for an 'index.md' or 'index.html' file to open first upon launching. 
+				        </p>
+
+				        <p>
+				        	The extension .md is shorthand for mark down. Much like an HTML file, a markdown file will allow a user to display text, but without having to worry about the coding aspect of HTML. 
+				        </p>
+				    
+
+				        <p>
+				        For further insight into what a Markdown file is, follow the link <a href="https://guides.github.com/features/mastering-markdown/">Here</a>
+				        </p>
+				   					    
+				      </div>
+				      <div class="modal-footer">
+				        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+				      </div>
+				    </div>
+
+				  </div>
+				</div>
+				
+				<p id="fileText">index.md</p>
+
+
+		</div>
+
+
+			
+			
+
+
+			<!-- _CONFIG.YML -->
+
+		<div id="file" class="col-lg-4 col-lg-offset-2 col-sm-6">
+					<!-- Trigger the modal with a button -->
+			<a data-toggle="modal" data-target="#_config">
+				<img class="thumbnail" src="/images/tutorials/jekyll-basics/gray.png">
+			</a>
+				
+				
+					
+
+				<!-- Modal -->
+				<div id="_config" class="modal fade" role="dialog">
+				  <div class="modal-dialog">
+
+				    <!-- Modal content-->
+				    <div class="modal-content">
+				      <div class="modal-header">
+				        <button type="button" class="close" data-dismiss="modal">&times;</button>
+				        <h4 class="modal-title">The '_config.yml' File</h4>
+				      </div>
+				      <div class="modal-body">
+
+				        <p>
+				        	The _config.yml, in a sense, serves as the global settings for your Jekyll project. From here, you can configure your site by changing the title or description of your web site, configuring the gems within your project, applying a theme, and several other helpful settings.
+				        </p>
+
+				      </div>
+				      <div class="modal-footer">
+				        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+				      </div>
+				    </div>
+
+				  </div>
+				</div>
+				
+				<p id="fileText">_config.yml</p>
+
+		</div>
+
+		
+		<div id="file" class="col-lg-4 col-sm-6">
+					<!-- Trigger the modal with a button -->
+			<a data-toggle="modal" data-target="#gemfile">
+				<img class="thumbnail" src="/images/tutorials/jekyll-basics/gray.png">
+			</a>
+				
+				
+					
+
+				<!-- Modal -->
+				<div id="gemfile" class="modal fade" role="dialog">
+				  <div class="modal-dialog">
+
+				    <!-- Modal content-->
+				    <div class="modal-content">
+				      <div class="modal-header">
+				        <button type="button" class="close" data-dismiss="modal">&times;</button>
+				        <h4 class="modal-title">The 'gemfile' File</h4>
+				      </div>
+				      <div class="modal-body">
+				        <p>
+				        	All of the gems within your project are stored here.  For more information on the gemfile folder, check out the link <a href="https://learn.cloudcannon.com/jekyll/gemfiles-and-the-bundler/#what-is-a-gem">here</a>
+				        </p>
+				   					    
+				      </div>
+				      <div class="modal-footer">
+				        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+				      </div>
+				    </div>
+
+				  </div>
+				</div>
+				
+				<p id="fileText">gemfile</p>
+		</div>
+				
+	</div> <!-- files gallery end -->
+
+
+
+
+	<!-- ADDITIONAL FILES -->
+
+
+
+	<div id="additionalFiles" class="sectionHeader">
+		<div class="underline" id="additionalFiles">
+			<p>Additional Files</p>
+		</div>
+
+		<b>
+			Note, While adding files to the directory, it is important to remember to follow the spelling as shown below. This includes having the underscore in front of specific folders names. 
+		</b>
+
+		<p class="sectionContent">
+			In addition to the pages provided with our default creation, we will also need some additional folders to the project directory as well. In able to add files into the project folder, simply bring up the right click menu on the 'myjekyllsite' folder and 'new folder'.
+		</p>
+
+		<p class="sectionContent">
+			Below are the files that need to be added, click on each box to learn about individual files. 
+		</p>
+
+		<div class="sectionContent">
+
+
+	<!--_INCLUDES -->
+	<div class="row">
+
+			<div id="file" class="col-lg-4 col-sm-6">
+
+					<!-- Trigger the modal with a button -->
+			<a data-toggle="modal" data-target="#_includes">
+				<img class="thumbnail" src="/images/tutorials/jekyll-basics/gray.png">
+			</a>
+				
+				
+					
+
+				<!-- Modal -->
+				<div id="_includes" class="modal fade" role="dialog">
+				  <div class="modal-dialog">
+
+				    <!-- Modal content-->
+				    <div class="modal-content">
+				      <div class="modal-header">
+				        <button type="button" class="close" data-dismiss="modal">&times;</button>
+				        <h4 class="modal-title">The '_includes' Folder</h4>
+				      </div>
+				      <div class="modal-body">
+				        <p>
+				        	The includes file, in the case of this tutorial, will hold any files that will require consistency throughout several pages or give an organizational advantage to have somewhere else within the directory. 
+				        </p>
+
+				        <p>
+				        For example, on many websites, both the header and footer sections of the page are all the same. With the exception of any page specific javascript or database related information, the files for these two are very much copy and paste onto every other page by being pulled from this folder.
+				        </p>
+				   					    
+				      </div>
+				      <div class="modal-footer">
+				        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+				      </div>
+				    </div>
+
+				  </div>
+				</div>
+				
+				<p id="fileText">_includes</p>
+			</div>
+		
+	
+
+
+
+	<!-- CSS -->
+
+		<div id="file" class="col-lg-4 col-sm-6">
+
+					<!-- Trigger the modal with a button -->
+			<a data-toggle="modal" data-target="#css">
+				<img class="thumbnail" src="/images/tutorials/jekyll-basics/gray.png">
+			</a>
+				
+				
+					
+
+				<!-- Modal -->
+				<div id="css" class="modal fade" role="dialog">
+				  <div class="modal-dialog">
+
+				    <!-- Modal content-->
+				    <div class="modal-content">
+				      <div class="modal-header">
+				        <button type="button" class="close" data-dismiss="modal">&times;</button>
+				        <h4 class="modal-title">The 'css' Folder</h4>
+				      </div>
+				      <div class="modal-body">
+				        <p>
+				        	This folder hold the styling for the site. Css files within a jekyll project, and pretty much every other web application, hold the custom and individual styles for the project. While Jekyll also supports .scss (Sass) files, we will only be using css for the sake of simplicity. 
+				        </p>
+				   					    
+				      </div>
+				      <div class="modal-footer">
+				        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+				      </div>
+				    </div>
+
+				  </div>
+				</div>
+				
+				<p id="fileText">css</p>
+		</div>
+
+
+
+	<!-- _LAYOUTS -->
+
+
+		<div id="file" class="col-lg-4 col-sm-6">
+
+					<!-- Trigger the modal with a button -->
+			<a data-toggle="modal" data-target="#_layouts">
+				<img class="thumbnail" src="/images/tutorials/jekyll-basics/gray.png">
+			</a>
+				
+				
+					
+
+				<!-- Modal -->
+				<div id="_layouts" class="modal fade" role="dialog">
+				  <div class="modal-dialog">
+
+				    <!-- Modal content-->
+				    <div class="modal-content">
+				      <div class="modal-header">
+				        <button type="button" class="close" data-dismiss="modal">&times;</button>
+				        <h4 class="modal-title">The 'gemfile' File</h4>
+				      </div>
+				      <div class="modal-body">
+				        <p>
+				        	This file holds the layouts for your site. Layouts allow a user to create and apply individual themes to each page of their Jekyll site. Much like applying a theme to a wordpress site, Jekyll allows the customization of page content by only having to modify the body, relieving the worry of your new content causing unknown bugs within the header, footer, or any other peripheral file. 
+
+				        </p>
+				   					    
+				      </div>
+				      <div class="modal-footer">
+				        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+				      </div>
+				    </div>
+
+				  </div>
+				</div>
+				
+				<p id="fileText">_layouts</p>
+		</div>
+	</div>
+
+
+			<p class="sectionContent">
+				Before moving on throughout this tutorial, make sure to delete the 'index.md' file and replace it with an 'index.html' file. This will allow us to use HTML on our index file.
+			</p>
+
+
+	</div>

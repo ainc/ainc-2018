@@ -1,6 +1,6 @@
 ---
 title: Coding Club Level 3
-permalink: "/coding-club-level-3/"
+permalink: "/coding-club-level-3"
 breadcrumb: "/learn/youth/coding-club-level-3"
 layout: course
 description: Learn To Code Like The Pros

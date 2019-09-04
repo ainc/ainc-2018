@@ -1,0 +1,116 @@
+<style>
+/*general styling*/
+.underline{
+	text-decoration: underline;
+}
+
+.section{
+	margin-top: 15%;
+}
+
+.sectionHeader{
+	margin-top: 10%;
+}
+
+.sectionContent{
+	margin-top: 5%;
+}
+
+.center{
+  text-align: center;
+}
+
+/*enlarge image on hover*/
+.hover:hover {
+    position:relative;
+    top:-25px;
+    left:-35px;
+    width:500px;
+    height:auto;
+    display:block;
+    z-index:999;
+}
+/*enlarge image on hover END*/
+
+
+.tutorial a{
+  color: red;
+}
+
+
+
+/*end of general styling*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*specific styling*/
+
+/*files gallery shadow on hover*/
+#file {
+    background-color: white;
+    display: inline-block;
+}
+
+#file img:hover {
+    opacity: .5;
+}
+
+.modal{
+	top: 20%;
+}
+
+.modal .modal-content .modal-body p {
+  color: black;
+}
+
+
+/*files gallery shadow on hover END*/
+
+
+
+
+#fileText{
+  z-index: 1;
+  position: absolute;
+  color: white;
+  text-shadow: 2px 2px black;
+  font-size: 24px;
+  font-weight: bold;
+  top: 45px;
+  right: 95px;
+  pointer-events:none; 
+}
+
+
+/*getting the text to place right after the files grid*/
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+	 .afterGrid{
+	 	margin-top: 120%;
+	 }   
+}
+
+@media screen and (max-width: 767px) {
+    .afterGrid{
+    	margin-top: -50%;
+    }
+}
+
+/*placing text after grid END*/
+
+
+/*end of specific styling*/
+</style>

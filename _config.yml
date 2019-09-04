@@ -72,4 +72,8 @@ collections:
   job_openings:
     title: Job Openings
     output: true
+  tutorials:
+    title: Tutorials
+    output: true
+    permalink: "/tutorials/:path/"
 
