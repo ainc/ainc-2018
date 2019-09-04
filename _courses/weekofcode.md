@@ -1,6 +1,6 @@
 ---
 title: Week of Code Summer Camp
-permalink: "/weekofcode/"
+permalink: "/weekofcode"
 breadcrumb: "/learn/youth/week-of-code/"
 layout: course
 description: Lexington's &#35;1 Summer Coding Camp

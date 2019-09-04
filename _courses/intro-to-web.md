@@ -1,7 +1,7 @@
 ---
 title: Intro To Web Development
 layout: course
-permalink: "/intro-to-web-development/"
+permalink: "/intro-to-web-development"
 breadcrumb: "/learn/adults/intro-to-web-development"
 breadcrumb_bool: true
 description: Your First Step in Learning To Code

@@ -1,14 +1,14 @@
 ---
 title: Coding Club Level 2
-permalink: "/coding-club-level-2/"
+permalink: "/coding-club-level-2"
 breadcrumb: "/learn/youth/coding-club-level-2"
 layout: course
 description: Learn To Code Like The Pros
 cover: "/img/coding-league.jpg"
 class_day: Tuesdays
 redirect_from:
-- "/codingleague/"
-- "/league/"
+- "/codingleague"
+- "/league"
 - "/coding-league"
 - "/coding-club2"
 image: /images/icons/coding-club-level-2.png
