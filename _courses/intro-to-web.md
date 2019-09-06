@@ -1,20 +1,15 @@
 ---
 title: Intro To Web Development
-layout: course
-permalink: "/intro-to-web-development"
-breadcrumb: "/learn/adults/intro-to-web-development"
-breadcrumb_bool: true
 description: Your First Step in Learning To Code
-cover: "/images/aincu/intro-to-web-development-awesome-inc.jpg"
-registration: 
-redirect_from:
-- "/membership/"
-- "/web-intro/"
-- "/web-basics/"
-- "/intro-to-web/"
-age_group: adults
+image: /images/uploads/intro-to-web-dev.png
+layout: course
+permalink: /intro-to-web-development
+breadcrumb: /learn/adults/intro-to-web-development
+age_group: adult
 team: aincu
-eventbrite_eid: "64242674569"
+open: true
+hide: false
+eventbrite_eid: '64242674569'
 ---
 
 {% include coding-course-buttons.html %}
