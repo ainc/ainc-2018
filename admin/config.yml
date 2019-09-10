@@ -35,6 +35,7 @@ collections:
       - {label: "Website", name: "website", widget: "string", required: false}
       - {label: "Facebook", name: "facebook", widget: "string", required: false}
       - {label: "LinkedIn", name: "linkedin", widget: "string", required: false}
+      - {label: "Description", name: "body", widget: "markdown"}
 
   - name: "Mentors"
     label: "Mentors"
