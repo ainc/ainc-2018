@@ -13,6 +13,8 @@ open: true
 ---
 ## Learn to code in 16 weeks, get a job as a web developer, guaranteed
 
+<a class="lgx-btn" href="bootcamp/apply">Apply Now</a> 
+
 The Web Developer Bootcamp is a 16-week, intensive training program for aspiring software developers. We've worked with companies throughout the region to design a curriculum to prepare you to dive into a career in software development. This rigorous learning experience is designed to quickly take you from the basics of programming to a professional level of competency in building modern web applications. With over 500 hours of hands-on training, you'll gain experience while building 10+ projects using HTML, CSS, JavaScript, web frameworks, GitHub, Agile, and more.
 
 <div class="embed-responsive embed-responsive-16by9"><iframe width="560" height="315" src="https://www.youtube.com/embed/kTABF680TGU" style="border-width:0;" allowfullscreen></iframe></div>
@@ -126,6 +128,9 @@ There is a four-step, competitive [application process](/applications/bootcamp) 
 
 This process helps us to find top-quality applicants for the Bootcamp. We continue to be surprised and inspired by the variety of different educational and professional backgrounds from which our students come to Bootcamp. Contrary to stereotypes about software developers, there's not just one archetype that's a good fit for this career. Our goal throughout the application process is to find people who, in their own unique way, are ready to dive into a software development career through the accelerated learning environment we provide. For more on this, check out our blog post [What We Look For In A Bootcamp Student](/blog/2018/11/01/what-we-look-for-bootcamp-student/).
 
+<br>
+<a class="lgx-btn" href="bootcamp/apply">Apply Now</a> 
+
 ## Timeline for Bootcamp 
 
 This is a realistic timeline of what a Web Developer Bootcamp student can expect from applying to the program to becoming a proud alumni. 
@@ -163,6 +168,8 @@ This is a realistic timeline of what a Web Developer Bootcamp student can expect
     </tbody>
   </table>
 </div>
+
+<a class="lgx-btn" href="bootcamp/apply">Apply Now</a> 
 
 ## FAQ
 
