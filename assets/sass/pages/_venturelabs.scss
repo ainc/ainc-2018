@@ -10,16 +10,16 @@ $venturelabs-blue-color: #0090D1;
     height: 80vh;
     .lgx-heading-area {
       img {
-        width: 200px;
+        width: 300px;
         @include screen-tablet-max {
-          width: 130px;
+          width: 160px;
         }
       }
       .heading-subtitle {
         color: $venturelabs-color;
         @include font-size(27);
         font-weight: 600;
-        margin: 8rem 40vh;
+        margin: 4rem 40vh;
       }
     }
   }
