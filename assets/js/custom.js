@@ -185,6 +185,10 @@ $(document).ready(function () {
 
 });
 
+
+/***********************
+ Function to display what the user subscribed to
+**************************/
 function passName() {
     var input = document.getElementById("subscribe").value;
     localStorage.setItem("user", input);
@@ -194,7 +198,14 @@ $(document).ready(function () {
     if (window.location.pathname == "/thanks") {
         console.log("ran");
         var username = localStorage.getItem("user");
-        $("h2").text("Thank you for subscribing " + username);
+        var message;
+        if (username === "") {
+           message = "Thank you for subscribing " + username;  
+        } else {
+          message = "Thank you";
+        }
+        
+        $("h2").text(message);
     }
 
 });
