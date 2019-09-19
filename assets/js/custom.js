@@ -180,6 +180,8 @@ $(document).ready(function () {
       $('#fellowship-modal').modal('show');
     } else if (target=="#tour") {
       $('#tour-modal').modal('show');
+    } else if (target=="#newsletter") {
+      $('#newsletter-modal').modal('show');
     }
   }
 
