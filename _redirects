@@ -2,7 +2,7 @@
 
 https://www.awesomeincu.com   https://www.awesomeinc.org/learn  301
 https://www.awesomeincu.com/tutorials/*   https://www.awesomeinc.org/tutorials/:splat   301
-https://www.awesomeincu.com/tutorials   https://www.awesomeinc.org/tutorials   301
+https://www.awesomeincu.com/tutorials   https://www.awesomeinc.org/learn   301 # need to fix this
 https://www.awesomeincu.com/notes/*   https://www.awesomeinc.org/notes/:splat   301
 https://www.awesomeincu.com/blog/:year/:month/:day/:title   https://www.awesomeinc.org/blog/:title  301
 https://www.awesomeincu.com/blog/   https://www.awesomeinc.org/blog/  301
