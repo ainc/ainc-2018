@@ -1,33 +1,33 @@
 # Awesome Inc U Redirects
 
-https://awesomeincu.com/tutorials/*   https://www.awesomeinc.org/tutorials/:splat   301
-https://awesomeincu.com/tutorials   https://www.awesomeinc.org/tutorials   301
-https://awesomeincu.com/notes/*   https://www.awesomeinc.org/notes/:splat   301
-https://awesomeincu.com/blog/:year/:month/:day/:title   https://www.awesomeinc.org/blog/:title  301
-https://awesomeincu.com/blog/   https://www.awesomeinc.org/blog/  301
-https://awesomeincu.com   https://www.awesomeinc.org/learn  301
-https://awesomeincu.com/adults   https://www.awesomeinc.org/learn/adults  301
-https://awesomeincu.com/youth   https://www.awesomeinc.org/learn/youth  301
-https://awesomeincu.com/contact   https://www.awesomeinc.org/contact  301
-https://awesomeincu.com/alumni   https://www.awesomeinc.org/alumni  301
-https://awesomeincu.com/intro-to-web-development   https://www.awesomeinc.org/intro-to-web-development  301
-https://awesomeincu.com/coding-club   https://www.awesomeinc.org/coding-club-level-1  301
-https://awesomeincu.com/coding-league   https://www.awesomeinc.org/coding-club-level-2  301
-https://awesomeincu.com/academy   https://www.awesomeinc.org/coding-club-level-3  301
-https://awesomeincu.com/about   https://www.awesomeinc.org/about  301
-https://awesomeincu.com/careers   https://www.awesomeinc.org/careers  301
-https://awesomeincu.com/faq   https://www.awesomeinc.org/learn  301
-https://awesomeincu.com/instructors   https://www.awesomeinc.org/learn  301
-https://awesomeincu.com/notes   https://www.awesomeinc.org/notes  301
-https://awesomeincu.com/press   https://www.awesomeinc.org/press  301
-https://awesomeincu.com/privacy   https://www.awesomeinc.org/privacy  301
-https://awesomeincu.com/terms   https://www.awesomeinc.org/terms  301
-https://awesomeincu.com/testimonials   https://www.awesomeinc.org/learn  301
-https://awesomeincu.com/thanks   https://www.awesomeinc.org/thanks  301
-https://awesomeincu.com/bootcamp   https://www.awesomeinc.org/bootcamp  301
-https://awesomeincu.com/applications/bootcamp   https://www.awesomeinc.org/bootcamp/apply  301
-https://awesomeincu.com/confirmation/bootcamp   https://www.awesomeinc.org/thanks  301
-https://awesomeincu.com/404   https://www.awesomeinc.org  301
+https://www.awesomeincu.com   https://www.awesomeinc.org/learn  301
+https://www.awesomeincu.com/tutorials/*   https://www.awesomeinc.org/tutorials/:splat   301
+https://www.awesomeincu.com/tutorials   https://www.awesomeinc.org/tutorials   301
+https://www.awesomeincu.com/notes/*   https://www.awesomeinc.org/notes/:splat   301
+https://www.awesomeincu.com/blog/:year/:month/:day/:title   https://www.awesomeinc.org/blog/:title  301
+https://www.awesomeincu.com/blog/   https://www.awesomeinc.org/blog/  301
+https://www.awesomeincu.com/adults   https://www.awesomeinc.org/learn/adults  301
+https://www.awesomeincu.com/youth   https://www.awesomeinc.org/learn/youth  301
+https://www.awesomeincu.com/contact   https://www.awesomeinc.org/contact  301
+https://www.awesomeincu.com/alumni   https://www.awesomeinc.org/alumni  301
+https://www.awesomeincu.com/intro-to-web-development   https://www.awesomeinc.org/intro-to-web-development  301
+https://www.awesomeincu.com/coding-club   https://www.awesomeinc.org/coding-club-level-1  301
+https://www.awesomeincu.com/coding-league   https://www.awesomeinc.org/coding-club-level-2  301
+https://www.awesomeincu.com/academy   https://www.awesomeinc.org/coding-club-level-3  301
+https://www.awesomeincu.com/about   https://www.awesomeinc.org/about  301
+https://www.awesomeincu.com/careers   https://www.awesomeinc.org/careers  301
+https://www.awesomeincu.com/faq   https://www.awesomeinc.org/learn  301
+https://www.awesomeincu.com/instructors   https://www.awesomeinc.org/learn  301
+https://www.awesomeincu.com/notes   https://www.awesomeinc.org/notes  301
+https://www.awesomeincu.com/press   https://www.awesomeinc.org/press  301
+https://www.awesomeincu.com/privacy   https://www.awesomeinc.org/privacy  301
+https://www.awesomeincu.com/terms   https://www.awesomeinc.org/terms  301
+https://www.awesomeincu.com/testimonials   https://www.awesomeinc.org/learn  301
+https://www.awesomeincu.com/thanks   https://www.awesomeinc.org/thanks  301
+https://www.awesomeincu.com/bootcamp   https://www.awesomeinc.org/bootcamp  301
+https://www.awesomeincu.com/applications/bootcamp   https://www.awesomeinc.org/bootcamp/apply  301
+https://www.awesomeincu.com/confirmation/bootcamp   https://www.awesomeinc.org/thanks  301
+https://www.awesomeincu.com/404   https://www.awesomeinc.org  301
 
 
 
