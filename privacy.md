@@ -64,7 +64,7 @@ Our Site is not directed at children under the age of 13 and we do not knowingly
 
 ## California Minors Privacy Rights
 
-If you are a California resident under 18, and a registered user of our website, California law permits you to request and obtain removal of content or information that you have publicly posted. To make such a request, please send us an email with a detailed description of the specific content or information you want removed to info@awesomeincu.com. Please be aware that such a request does not ensure complete or comprehensive removal of the content or information posted and that there may be circumstances in which the law does not require or allow removal even if requested.
+If you are a California resident under 18, and a registered user of our website, California law permits you to request and obtain removal of content or information that you have publicly posted. To make such a request, please send us an email with a detailed description of the specific content or information you want removed to info@awesomeinc.org. Please be aware that such a request does not ensure complete or comprehensive removal of the content or information posted and that there may be circumstances in which the law does not require or allow removal even if requested.
 
 ## Do-Not-Track Signals and Similar Mechanisms
 
@@ -72,7 +72,7 @@ Some web browsers may transmit "do-not-track" signals to the websites with which
 
 ## Correct/Update Your Information
 
-We give our users the options to review, correct and modify their personal information. To exercise any of these options, please contact us at info@awesomeincu.com.
+We give our users the options to review, correct and modify their personal information. To exercise any of these options, please contact us at info@awesomeinc.org.
 
 ## Changes to This Statement
 
@@ -89,6 +89,6 @@ If you have any questions about this privacy policy or about our treatment of yo
 	348 E. Main St.
 	Lexington, KY 40507
 	Phone: (502) 209-9960
-	Email: info@awesomeincu.com
+	Email: info@awesomeinc.org
 
-Last updated July 28, 2016.
+Last updated Sept 22, 2019.
