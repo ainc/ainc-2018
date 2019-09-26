@@ -5,8 +5,6 @@ team: Marketing/Customer Service
 manager: Brian Raney
 time-commitment: full-time
 active: true
-apply_url: >-
-  https://docs.google.com/forms/d/e/1FAIpQLSeo_C5kwAFAwtxY64qT03egpsnVrwjGc-5UNezZ4HLwQj5SGA/viewform?usp=pp_url&entry.986034689=Awesome+Inc+U+Marketing+and+Customer+Service+Specialist
 priority: 1
 ---
 ### Company Description 
@@ -15,9 +13,8 @@ Awesome Inc exists to help people pursue their definition of awesome. Our work s
 
 ### Position Details
 
-* Entry-level
-* 40 hrs / week 
-* $15-$18/hr
+* Entry to Mid-level
+* $40k+/yr
 * Downtown Lexington office / classroom location
 * 9am - 6pm typical schedule, with evening/weekend events on a monthly frequency
 
@@ -40,9 +37,9 @@ Awesome Inc exists to help people pursue their definition of awesome. Our work s
 ### Sample Tasks
 
 * Update records in CRM system (Zoho) for youth students following summer camp
-* Create Mailchimp campaign to promote upcoming Bootcamp course to subscribers
+* Create Mailchimp campaign to promote upcoming Bootcamp course to email subscribers
 * Update website copy to reflect new fall course schedule
 * Welcome students arriving for new session of Intro to Web class
 * Respond to current and potential customer inquiries via Phone, Social Media, and Email
-* Consolidate payments system (Square, Quickbooks, Eventbrite) to simplify customer purchase experience
+* Work with graphic designer and web developer to simplify course registration experience for students
 
