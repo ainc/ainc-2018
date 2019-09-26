@@ -66,6 +66,10 @@ a:focus {
   color: white;
 }
 
+li > a:focus {
+  color: $black-color;
+}
+
 .lgx-btn-border {
   background: transparent;
   color: $brand-color;
