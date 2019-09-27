@@ -5,6 +5,8 @@ team: Marketing/Customer Service
 manager: Brian Raney
 time-commitment: full-time
 active: true
+url: >-
+  https://docs.google.com/forms/d/e/1FAIpQLSeo_C5kwAFAwtxY64qT03egpsnVrwjGc-5UNezZ4HLwQj5SGA/viewform?usp=pp_url&entry.986034689=Awesome+Inc+U+Marketing+and+Customer+Service+Specialist
 priority: 1
 ---
 ### Company Description 
