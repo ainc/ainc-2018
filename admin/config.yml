@@ -105,12 +105,12 @@ collections:
             widget: "list"
             fields:
               - {label: "Full Name", name: "name", widget: "string"}
-              - {label: "Portfolio Website", name: "website", widget: "string"}
-              - {label: "GitHub Link", name: "github", widget: "string"}
-              - {label: "LinkedIn Link", name: "linkedin", widget: "string"}
+              - {label: "Portfolio Website", name: "website", widget: "string", required: false}
+              - {label: "GitHub Link", name: "github", widget: "string", required: false}
+              - {label: "LinkedIn Link", name: "linkedin", widget: "string", required: false}
               - {label: "Picture", name: "img_url", widget: "image", required: false}
-              - {label: "Position", name: "position", widget: "string"}
-              - {label: "Cohort", name: "cohort", widget: "string", hint: "s19: Spring 2019, f19: Fall 2019"}
+              - {label: "Position", name: "position", widget: "string", required: false}
+              - {label: "Cohort", name: "cohort", widget: "string", hint: "s19: Spring 2019, f19: Fall 2019", required: false}
   
   - name: "Job Openings"
     label: "Job Openings"
