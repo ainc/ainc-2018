@@ -188,8 +188,9 @@ collections:
     fields:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Date", name: "date", widget: "datetime"}
-      - {label: "Eventbrite_url", name: "eventbrite_url", widget: "string"}
-      - {label: "Feature", name: "feature", widget: "boolean"}
-      - {label: "Location", name: "location", widget: "string"}
-      - {label: "Image_url", name: "image_url", widget: "string"}
-      - {label: "Id", name: "id", widget: "string"}
+      - {label: "Eventbrite Id", name: "eventbrite_id", widget: "string", required: false, hint: "Only copy the number at the end."}
+      - {label: "Feature", name: "feature", widget: "boolean", default: false, hint: "Set to true to make the event display on the homepage"}
+      - {label: "Active", name: "active", widget: "boolean", default: true, hint: "Is the event still active?"}
+      - {label: "Location", name: "location", widget: "string", required: false}
+      - {label: "Image_url", name: "image_url", widget: "string", required: false}
+      - {label: "Id", name: "id", widget: "string", required: false}

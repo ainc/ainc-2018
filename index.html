@@ -283,7 +283,7 @@ page_id: home
                 <div class="col-md-6">
                   <div class="lgx-featured-event">
                     <figure>
-                      <a href="{{ feature_event.eventbrite_url }}">
+                      <a href="https://www.eventbrite.com/e/{{ feature_event.eventbrite_id }}">
                         <img class="lazyload" data-src="{{ feature_event.image_url }}" alt="featured event">
                       </a>
                       <figcaption>
@@ -297,7 +297,7 @@ page_id: home
                             <p>{{ feature_event.date | date: '%I:%M %P' }}</p>
                             <h4 class="location">{{ feature_event.location }}</h4>
                             <h3 class="title">
-                              <a href="{{ site.data.routes.events }}">{{ feature_event.title }}</a>
+                              <a href="https://www.eventbrite.com/e/{{ feature_event.eventbrite_id }}">{{ feature_event.title }}</a>
                             </h3>
                           </div>
                         </div>
@@ -313,12 +313,12 @@ page_id: home
                     <div class="col-md-6">
                       <div class="lgx-single-event">
                         <div class="thumb">
-                          <a href="{{ site.data.routes.events }}"><img src="{{ event.image_url }}" alt="event"></a>
+                          <a href="https://www.eventbrite.com/e/{{ feature_event.eventbrite_id }}"><img src="{{ event.image_url }}" alt="event"></a>
                         </div>
                         <div class="event-info">
-                          <a class="date" href="{{ site.data.routes.events }}">{{ event.date | date: '%B %-d, %Y' }}</a>
+                          <a class="date" href="https://www.eventbrite.com/e/{{ feature_event.eventbrite_id }}">{{ event.date | date: '%B %-d, %Y' }}</a>
                           <h4 class="location">{{ event.location }}</h4>
-                          <h3 class="title"><a href="{{ site.data.routes.events }}">{{ event.title }}</a></h3>
+                          <h3 class="title"><a href="https://www.eventbrite.com/e/{{ feature_event.eventbrite_id }}">{{ event.title }}</a></h3>
                         </div>
                       </div>
                     </div>
@@ -328,9 +328,16 @@ page_id: home
                     {% break %}
                   {% endif %}
                 {% endfor %}
-              </div>
-            </div>
-          </div>
+              </div> <!-- row -->
+              <div class="row">
+                <div class="col-xs-12">
+                  <div class="lgx-button-wrapper">
+                    <a class="lgx-btn lgx-btn-anim" href="{{ site.data.routes.events }}">View Events</a>
+                  </div>
+                </div>
+              </div> <!-- row -->
+            </div> 
+          </div> <!-- col-xs-12 -->
         </div>
         <!--//.ROW-->
       </div>
