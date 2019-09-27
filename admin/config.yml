@@ -108,7 +108,7 @@ collections:
               - {label: "Portfolio Website", name: "website", widget: "string"}
               - {label: "GitHub Link", name: "github", widget: "string"}
               - {label: "LinkedIn Link", name: "linkedin", widget: "string"}
-              - {label: "Picture", name: "img_url", widget: "image"}
+              - {label: "Picture", name: "img_url", widget: "image", required: false}
               - {label: "Position", name: "position", widget: "string"}
               - {label: "Cohort", name: "cohort", widget: "string", hint: "s19: Spring 2019, f19: Fall 2019"}
   
