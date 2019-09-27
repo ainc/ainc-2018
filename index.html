@@ -284,7 +284,13 @@ page_id: home
                   <div class="lgx-featured-event">
                     <figure>
                       <a href="https://www.eventbrite.com/e/{{ feature_event.eventbrite_id }}">
-                        <img class="lazyload" data-src="{{ feature_event.image_url }}" alt="featured event">
+                        <img class="lazyload" 
+                          {% if feature_event.image %}
+                            data-src="{{ feature_event.image }}" 
+                          {% else %}
+                            data-src="/images/icons/innovation.png" 
+                          {% endif %}
+                          alt="featured event">
                       </a>
                       <figcaption>
                         <div class="figcaption">
@@ -313,7 +319,15 @@ page_id: home
                     <div class="col-md-6">
                       <div class="lgx-single-event">
                         <div class="thumb">
-                          <a href="https://www.eventbrite.com/e/{{ feature_event.eventbrite_id }}"><img src="{{ event.image_url }}" alt="event"></a>
+                          <a href="https://www.eventbrite.com/e/{{ feature_event.eventbrite_id }}">
+                            <img 
+                            {% if event.image %}
+                              src="{{ feature_event.image }}" 
+                            {% else %}
+                              src="/images/icons/innovation.png" 
+                            {% endif %}
+                            alt="event">
+                          </a>
                         </div>
                         <div class="event-info">
                           <a class="date" href="https://www.eventbrite.com/e/{{ feature_event.eventbrite_id }}">{{ event.date | date: '%B %-d, %Y' }}</a>
