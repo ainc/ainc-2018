@@ -26,7 +26,15 @@ redirect_from:
                 
               <div class="lgx-single-event">
                 <div class="thumb">
-                  <a target="_blank" href="https://www.eventbrite.com/e/{{ event.eventbrite_id | default: '#' }}">
+                  <a target="_blank" 
+                    {% if event.eventbrite_id %}
+                      href="https://www.eventbrite.com/e/{{ event.eventbrite_id }}"
+                    {% elsif event.event_url %}
+                      href="https://www.eventbrite.com/e/{{ event.event_url }}"
+                    {% else %}
+                      href="#"
+                    {% endif %}
+                  >
                     <img
                       {% if event.image %}
                         src="{{ feature_event.image }}" 
@@ -37,9 +45,29 @@ redirect_from:
                   </a>
                 </div>
                 <div class="event-info">
-                  <a target="_blank" class="date" href="https://www.eventbrite.com/e/{{ event.eventbrite_id | default: '#' }}">{{ event.date | date: '%B %-d, %Y' }}</a>
+                  <a target="_blank" class="date" 
+                    {% if event.eventbrite_id %}
+                      href="https://www.eventbrite.com/e/{{ event.eventbrite_id }}"
+                    {% elsif event.event_url %}
+                      href="https://www.eventbrite.com/e/{{ event.event_url }}"
+                    {% else %}
+                      href="#"
+                    {% endif %}
+                  >{{ event.date | date: '%B %-d, %Y'}}
+                  </a>
                   <h4 class="location">{{ event.location }}</h4>
-                  <h3 class="title"><a target="_blank" href="https://www.eventbrite.com/e/{{ event.eventbrite_id | default: '#' }}">{{ event.title }}</a></h3>
+                  <h3 class="title">
+                    <a target="_blank" class="date" 
+                      {% if event.eventbrite_id %}
+                        href="https://www.eventbrite.com/e/{{ event.eventbrite_id }}"
+                      {% elsif event.event_url %}
+                        href="https://www.eventbrite.com/e/{{ event.event_url }}"
+                      {% else %}
+                        href="#"
+                      {% endif %}
+                    >{{ event.title }}
+                    </a>
+                  </h3>
                 </div>
               </div>
             </div>

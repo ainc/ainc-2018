@@ -189,8 +189,8 @@ collections:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Date", name: "date", widget: "datetime"}
       - {label: "Eventbrite Id", name: "eventbrite_id", widget: "string", required: false, hint: "Only copy the number at the end."}
+      - {label: "Registration URL", name: "event_url", widget: "string", required: false, hint: "Fill this if there is no Eventbrite page."}
       - {label: "Feature", name: "feature", widget: "boolean", default: false, hint: "Set to true to make the event display on the homepage"}
       - {label: "Active", name: "active", widget: "boolean", default: true, hint: "Is the event still active?"}
       - {label: "Location", name: "location", widget: "string", required: false}
       - {label: "Image", name: "image", widget: "image", required: false}
-      - {label: "Id", name: "id", widget: "string", required: false}
