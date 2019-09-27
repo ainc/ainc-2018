@@ -31,9 +31,7 @@ page_id: alumni
                         <a>
                             <img 
                               {% if student.image %}
-                                src="../../images/alumni/{{student.image}}.jpg" 
-                              {% elsif student.img_url %}
-                                src="../../images/alumni/{{student.img_url}}.jpg" 
+                                src="{{student.image}}" 
                               {% else %}
                                 src="../../images/teamalpha/placeholder-wall.jpg"
                               {% endif %}
