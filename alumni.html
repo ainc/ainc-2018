@@ -32,6 +32,8 @@ page_id: alumni
                             <img 
                               {% if student.image %}
                                 src="{{student.image}}" 
+                              {% elsif student.img_path %}
+                                src="/images/uploads/{{ student.img_path }}.jpg"
                               {% else %}
                                 src="../../images/teamalpha/placeholder-wall.jpg"
                               {% endif %}
