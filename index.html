@@ -339,7 +339,7 @@ page_id: home
                           >
                             <img 
                             {% if event.image %}
-                              src="{{ feature_event.image }}" 
+                              src="{{ event.image }}" 
                             {% else %}
                               src="/images/icons/innovation.png" 
                             {% endif %}
@@ -358,7 +358,7 @@ page_id: home
                           >{{ event.date | date: '%B %-d, %Y'}}
                           </a>
                           <h4 class="location">{{ event.location }}</h4>
-                          <h3 class="title"><a href="https://www.eventbrite.com/e/{{ feature_event.eventbrite_id }}">{{ event.title }}</a></h3>
+                          <h3 class="title"><a href="https://www.eventbrite.com/e/{{ event.eventbrite_id }}">{{ event.title }}</a></h3>
                         </div>
                       </div>
                     </div>
