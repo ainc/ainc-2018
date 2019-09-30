@@ -5,6 +5,8 @@ team: Awesome Inc
 manager: Brian
 time-commitment: full-time
 active: true
+apply_url: >-
+  https://docs.google.com/forms/d/e/1FAIpQLSeo_C5kwAFAwtxY64qT03egpsnVrwjGc-5UNezZ4HLwQj5SGA/viewform?usp=pp_url&entry.986034689=Awesome+Inc+U+Marketing+and+Customer+Service+Specialist
 priority: 13
 ---
 We are seeking a Director to join our Awesome Inc team. At Awesome Inc, our purpose is to help others pursue their definition of awesome. Ideal candidates will be passionate about entrepreneurship, eager to learn, and most importantly, excited to help build a community that helps others reach their goals. The Director will work closely with the rest of the management team to launch new programs and grow existing programs. Desired qualifications:
