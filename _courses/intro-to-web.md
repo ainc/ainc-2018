@@ -9,7 +9,7 @@ age_group: adult
 team: aincu
 open: true
 hide: false
-eventbrite_eid: '64242674569'
+eventbrite_eid: '75013215547'
 ---
 
 {% include coding-course-buttons.html %}
