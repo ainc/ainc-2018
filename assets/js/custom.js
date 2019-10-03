@@ -182,6 +182,8 @@ $(document).ready(function () {
       $('#tour-modal').modal('show');
     } else if (target=="#newsletter") {
       $('#newsletter-modal').modal('show');
+    } else if (target=="#apply") {
+      $('#team-alpha-modal').modal('show');
     }
   }
 
