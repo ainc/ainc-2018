@@ -1,0 +1,10 @@
+---
+title: Stop Counting
+date: 2011-10-14 00:00:00 Z
+layout: post
+---
+ 
+<p>When we first started leasing Awesome Inc. we had a bunch of people we thought were going to move in. Now, we didn&rsquo;t expect them to all move in or for the space to be &lsquo;full&rsquo; right away, but also didn&rsquo;t think that the space would consist of just one guy for the most part, good old Mike Sullivan.  Mike Sullivan runs <a href="http://www.abetteroffice.com/" target="_blank">abetteroffice.com </a>and for a long time he was the only consistent tenant in the building. For months I would come in and look around counting the people at desks and saying to myself &ldquo;Hmmm&hellip;four people here including me and Brian&hellip;is this really working? Are we making any progress?&rdquo; Almost every time I was in the space I made sure to take a headcount and see how many people were there and then have a mini-conversation in my head about whether we were making progress or not.</p>
+<p>A few months ago I looked around one day and acutely realized that I hadn&rsquo;t counted the number of people in the space for a long time. I don&rsquo;t remember how many people were in the building when this happened, but probably more than four or five.</p>
+<p>I&rsquo;m not sure if there really is a point to this story other than perhaps that it&rsquo;s pointless to stress about day-to-day measurements of progress and extremely important to <a href="http://awesomeinc.org/Blog/focus-on-the-hot-dog" target="_blank">focus on the hot dog</a> and to look at longer term trends like weekly or monthly. Great examples of the counterproductivity of constantly counting are the person trying to lose weight that gets discouraged when they check the scale after every meal only to see no improvement, or the stressed out stockbrocker who checks their stocks several times a day.</p>
+<p>You can&rsquo;t do anything to ensure that a change or result happens right now, or even today. You can, however, guarantee that if you do certain things over time – change in the right direction is inevitable.</p>

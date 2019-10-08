@@ -1,0 +1,13 @@
+---
+title: Epic Small - The Awesome Inc Bike Shop
+date: 2011-10-28 00:00:00 Z
+layout: post
+---
+ 
+<p><img alt="bicycle" height="159" src="http://t1.gstatic.com/images?q=tbn:ANd9GcTadwhVSBLo7KDbbCzYCV_A7Z_-NVsM64_HvC53jQaFKQJKMSo-evOtMbXl" width="224"/></p>
+<p>Starting small is the best way to get started in something because it starts some amount of momentum. By lowering the bar to a place where you&rsquo;re comfortable it helps lower the uncomfortable or intimidating feelings you have towards the task.</p>
+<p>The problem with starting small is that it&rsquo;s not very inspiring. I read a ton of self-help/personal development literature and have come across this concept in various forms and I would always say something like, &ldquo;What? Start small? That&rsquo;s for wimps and it takes forever! If you were tough you&rsquo;d just suck it up and jump in with both feet and go balls to the walls and figure it out!&rdquo; Then I would proceed to go another month without making progress on a single one of any of the habits I would have liked to have acquired or progress towards any of the goals I would have liked to accomplished.</p>
+<p>It&rsquo;s not sexy or exciting to start small. Hence, <a href="http://epicsmall.com/" target="_blank">epic small</a>. Epic small is about celebrating small amounts of progress. This means getting excited when even the littlest piece of advancement is made in the right direction, especially in the beginning and especially when it&rsquo;s something that involves facing one&rsquo;s fears.</p>
+<p>I love the use of the word &lsquo;epic&rsquo; here as well, as it puts starting small in the place where it belongs. When you are starting small you have such a better chance of seeing your project through&hellip;.there&rsquo;s no such thing as an 'epic&rsquo; journey that someone quit in a week.</p>
+<p>Being 'doers&rsquo; down here at Awesome Inc. we (and by 'we&rsquo; I of course mean Nick Such) decided to contribute to the 'epic small&rsquo; community by starting something small ourselves&hellip;.The Awesome Inc Bike Shop. We don&rsquo;t charge for anything. We don&rsquo;t have anything to sell you. We don&rsquo;t have a staff or hours&hellip;but we have a couple extra bikes that we can loan to tenants and we have some of the tools necessary to fix bikes that people may bring in. There – we&rsquo;ve got something. Anybody else starting something small today?</p>
+<p>This post was written last summer. This 'epic small&rsquo; idea has since grown into <a href="http://bikeky.org/" target="_blank">Bike KY</a> and the <a href="http://thebrokespoke.org/" target="_blank">Broke Spoke Community Bike Shop</a>. Not a bad finish for starting small.</p>

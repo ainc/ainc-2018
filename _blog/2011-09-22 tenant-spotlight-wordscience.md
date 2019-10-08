@@ -1,0 +1,24 @@
+---
+title: Tenant Spotlight - WordScience
+date: 2011-09-22 00:00:00 Z
+layout: post
+---
+ 
+<p><img src="http://wordscience.vpweb.com/bg-1.gif?u=3108536620" width="590"/></p>
+<p>Many believe that the science of marketing often comes down to an effective communication process that is easily interpreted and understood which, in turn, increases sales due to a clearly delivered/received message. WordScience is the messenger waiting to deliver your message.</p>
+<p>WordScience is a content marketing firm owned and managed by a veteran in the marketing/public relations sector who has over 25 years experience in the industry.</p>
+<p>Carro Ford is the face behind the brand. Ford, a graduate of Spring Hill College in Mobile, Ala., began her career in bank marketing, and then moved to the marketing communications branch at a technology company. She has been involved in technology ever since.</p>
+<p>&ldquo;I got my first jobs in marketing,&rdquo; Ford said. &ldquo;I went into bank marketing and then I got into technology, which is where I&rsquo;ve been ever since. I&rsquo;ve always been in marketing and communications.&rdquo;</p>
+<p>WordScience, based out of Lexington, Ky., specializes in content marketing and copywriting. Services offered include press releases, case studies, articles, blogs, web copy, white papers, brochures, presentations and backgrounders.</p>
+<p>&ldquo;I&rsquo;m mostly involved in PR and the copywriting part of marketing &hellip; I write content. And then for some clients I help them get it placed in trade journals. I don&rsquo;t deal with the consumer press. There are many aspects of PR, there&rsquo;s corporate PR, which is where I am, and I specialize in my own niche,&rdquo; Ford said.</p>
+<p>Ford&rsquo;s clientele base is wide and ranges from Kentucky to Europe. Describing her business as an outsourced marketing firm, she gets her clientele base mostly from word of mouth and referrals. Ford&rsquo;s clientele base is mostly, but not limited to, software companies.</p>
+<p>&ldquo;That&rsquo;s my sweet spot,&rdquo; Ford said of the software companies. &ldquo;To take it a little further, it&rsquo;s the marketing director at those companies that either has too many projects and not enough bandwidth, or they don&rsquo;t have a marketing person and the CEO does it on the side. Those are the kind of people that I find are the best clients for me.&rdquo;</p>
+<p>She added that sometimes companies don&rsquo;t know what kind of marketing they need and that they want her to tell them what (marketing) they need because they don&rsquo;t know where to start. &ldquo;We&rsquo;re kind of an outsourced marketing department. That&rsquo;s exactly the model I&rsquo;m trying to work toward,&rdquo; Ford said.</p>
+<p>After spending time in North Carolina and Pennsylvania, Ford, a Louisville native, decided it was time to come back to Kentucky and be around her family. She would eventually branch away from the corporate world and launch her company, WordScience.</p>
+<p>&ldquo;I&rsquo;ve been doing it (running her business) for 12 years. I lived elsewhere after I left Mobile (which is where she attended college). I went to Pennsylvania then North Carolina, then I had a chance to come back to Kentucky, which is where all my family was, and at the time I thought it would be a good thing to do, and it was,&rdquo; Ford said. &ldquo;So I came back and worked for a company in town for about a year and I had an opportunity to pick up some side jobs and I realized, after running my numbers, that if I picked up a few more I could support myself. So I kept on growing the business from there. There&rsquo;s a lot of work out there for free lance marketers.</p>
+<p>&quot;I had a really good network in the industry. The corporate jobs I had were in the same industry so my contacts go way back. I started with a couple of clients, some I&rsquo;ve had for about ten years. They&rsquo;re some of my original clients &hellip; that helped me move along,&rdquo; Ford said.</p>
+<p>Despite success in the field, Ford never envisioned owning her own company.</p>
+<p>&ldquo;It just happened. I never had a goal of doing it when I was in the corporate world. It just kept going and going and I realized I could do this,&rdquo; Ford said.</p>
+<p>As the digital age of marketing and technology continues to grow from where it was years ago, marketing content and reach-ability has also matured.</p>
+<p>&ldquo;That (the digital age of marketing) has made what I bring to clients richer. I can offer clients so much more,&rdquo; Ford said. &ldquo;Marketing is so different than from when I started, I think it&rsquo;s really exciting today to be a marketer and in PR.&rdquo;</p>
+<p>Visit Ford&rsquo;s website at <a href="http://www.wordscience.net/" target="_blank">wordscience.net.</a> To contact Carro, dial (859) 771-5091 and/or email her at carrof@earthlink.net.</p>

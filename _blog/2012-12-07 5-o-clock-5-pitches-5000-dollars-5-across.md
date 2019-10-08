@@ -1,0 +1,18 @@
+---
+title: 5 o' clock, 5 pitches, 5000 dollars - 5 Across Finals (2012 Edition)
+date: 2012-12-07 00:00:00 Z
+layout: post
+---
+ 
+<p><img alt="miketherese" height="170" src="http://awesomeinc.org/images/showcase/miketherese.png" width="590"/></p>
+<p>The 2012 series of 5 Across has officially ended with the champions event being held on December 5th. The event brought some of the best pitches to date to the 5 Across series.</p>
+<p>The first prize winner was<strong> Mike Sullivan</strong> of <strong>Alliance Virtual Offices</strong>. Mike brought home $4,000 in prize money.</p>
+<p>The second place winner, <strong>Dan Adams</strong> of <strong>Earthineer</strong>, won another $1,000 in prize money. The winner of the audience participation text vote was <strong>Wade Powell</strong> and <strong>Geoff Carlson</strong> of <strong>Cornerstone Innovations</strong>.</p>
+<p>Congratulations to all of the teams who participated. Awesome Inc wishes them the best of luck in their entrepreneurial pursuits! We would like to thank all of our sponsors for helping make this year&rsquo;s 5 Across season possible: <a href="http://lexingtonventureclub.com/" target="_blank">Lexington Venture Club</a> &amp; <a href="http://awesomeinc.org/" target="_blank">Awesome Inc</a></p>
+<p>Here is a quick summary of the 5 participants in the champions round:</p>
+<p><strong>Wade Powell</strong> and<strong> Geoff Carlson</strong> of <a href="http://www.youtube.com/user/CSInnovations" target="_blank">Cornerstone Innovations</a> pitched the company&rsquo;s disposable cup lids for cold drinks promoted to a few different markets, the first being the long-distance running event market. This high-flow disposable cup lid allows runners to consume water or sports drinks quickly without slowing down, choking, or spilling the liquid all over themselves.</p>
+<p><strong>Cameron Lippert</strong> of <strong>Last Call Ventures</strong> pitched <a href="http://www.faveohangoverprevention.com/about/" target="_blank">Faveo</a>, which is a beverage for hangover pre-treatment. This beverage, when taken during alcohol consumption, scavenges the toxins produced from alcohol metabolism therefore reducing hangover symptoms or even preventing them all together.</p>
+<p><strong>Nick Jordan</strong>, <strong>Sam Blake</strong>, and <strong>Kyle Vaughn</strong> of <a href="http://www.rate-my-rental.com/" target="_blank">Rate My Rental</a> pitched the company&rsquo;s online platform, Rate My Rental, which allows students to easily access information concerning area housing by viewing property listings around their college campus alongside reviews of previous tenants.</p>
+<p><strong>Mike Sullivan</strong> of <a href="http://www.alliancevirtualoffices.com/" target="_blank">Alliance Virtual Offices</a> pitched the company&rsquo;s business model of combining three central components necessary to service mobile and work-from-home professionals: People, Place and Technology. The company delivers the complete virtual office.</p>
+<p><strong>Dan Adams</strong> of <a href="http://www.earthineer.com/" target="_blank">Earthineer</a> pitched the company&rsquo;s network designed exclusively for homesteading and sustainable living which allows people to socialize, find experts, and trade commodities.</p>
+<p>The winner of the text vote was <strong>Cornerstone Innovations</strong>. The second place winner was <strong>Dan Adams</strong> with<strong>Earthineer</strong>, who won $1000 in prize money. First prize winner <strong>Mike Sullivan</strong> of <strong>Alliance Virtual Offices</strong> took home the remaining $4000.</p>

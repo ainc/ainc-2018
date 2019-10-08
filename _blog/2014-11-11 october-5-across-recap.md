@@ -1,0 +1,11 @@
+---
+title: October 5 Across Recap
+date: 2014-11-11 00:00:00 Z
+layout: post
+---
+ 
+<p>We just wrapped up another competitive edition of 5 Across. We spiced up the general 5 Across formula by adding minute-to-win-it challenges and a Freshest Tweet contest, curated by yours truly. The winner of the Freshest Tweet got to treat himself to lunch at <a href="http://www.dadsfavorites.com/" target="_blank">Dad’s Favorites</a> just by typing 140 characters on his phone. Look out for even more exciting additions in upcoming editions. </p>
+<p>Something that didn’t change was the quality of the pitches. It featured companies with great potential but only one could come out on top. The Rover, Ockham Applied Sciences, Love Me Bloncho, QICourses, and Healthy Nation competed for the $500 prize. This time, Healthy Nation was written on the Happy Gilmore style check for their product Vegy Vida, pitched by Josh Young.</p>
+<p><figure class="tmblr-full" data-orig-height="333" data-orig-width="500" data-orig-src="https://66.media.tumblr.com/bb5407de897acd9a5a7476831d6b1eb0/tumblr_inline_newcd7vUQW1spm8pc.jpg"><img alt="image" src="https://66.media.tumblr.com/2bf48ed5c2935ab207312760f46043e1/tumblr_inline_pk22tyAqZ61spm8pc_540.jpg" data-orig-height="333" data-orig-width="500" data-orig-src="https://66.media.tumblr.com/bb5407de897acd9a5a7476831d6b1eb0/tumblr_inline_newcd7vUQW1spm8pc.jpg"/></figure></p>
+<p>Vegy Vida is a vegetable dip that masks the bitter tastes in veggies that kids, myself included, dislike so much. Not only does it block the bitterness, but it transforms the flavor into something kids love such as bacon or macaroni and cheese. Think of it like Febreeze for vegetables. Just imagine biting into a piece of broccoli and tasting bacon instead. I never ate vegetables as a kid or even now as an adult but anything bacon flavored is hard to resist.</p>
+<p>You can’t forget about Ockham Applied Sciences winning the $50 cash text vote. The regular season of 5 Across has come to a close and now it’s time for the finals. Winners from the past five editions of 2014 5 Across will be coming together on December 10 to compete for their share of $5000 or forty Benjamins (if you like to think about it that way). Be on the lookout for a 5 Across Finals preview coming soon!</p>

@@ -1,0 +1,7 @@
+---
+title: Start-Up Slam - Six New Kentucky Companies by Lunch
+date: 2009-12-08 00:00:00 Z
+layout: post
+---
+ 
+<p>That&rsquo;s right&hellip;six new innovation-driven Kentucky companies started by lunch. Not a bad morning&rsquo;s work. Ten additional entrepreneurs signed-up for vouchers to start their company within the next 90 days. <br/><br/>This was the outcome of a Start-up Slam held in Lexington on Friday, November 20th at Awesome Inc. Start-up Slams are a new experiment of the Kentucky Science and Technology Corporation (KSTC) and its partners, the Cabinet for Economic Development&rsquo;s Department of Commercialization and Innovation and the Council on Postsecondary Education as part of an ongoing strategy to build new entrepreneurial companies in the State. Slams bring together entrepreneurs and business professionals in a high-energy setting to learn, network and start innovation-driven companies. <br/><br/>A similar event was held in October in Louisville at the Louisville Science Center and one is scheduled for Northern Kentucky on March 19, 2010 at NKU&rsquo;s Center for Entrepreneurship. A potential 25 to 30 new companies could be started as a result of just the Louisville and Lexington events alone. Slams are now in the works for Eastern and Western Kentucky as well. <br/><br/>For additional information or to learn more about the Start-Up Slams, <a href="http://startupslam.wordpress.com/" target="_blank">click here</a> or contact Matt McGarvey at (859) 233-3502 ext. 240 or mmcgarvey at kstc.com.</p>
