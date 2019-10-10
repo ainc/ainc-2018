@@ -22,6 +22,8 @@
 <a class="lgx-btn lgx-btn-sm" href="#{{ include.initiative }}" data-toggle="modal" data-target="#{{ include.initiative }}-modal">{{ include.link-text }}</a>
 {% elsif include.style == 'no-button' %}
 <!-- Show nothing -->
+{% elsif include.style == 'subtle' %}
+<a class="lgx-btn lgx-btn-grey-light" href="#{{ include.initiative }}" data-toggle="modal" data-target="#{{ include.initiative }}-modal">{{ include.link-text }}</a>
 {% else %}
 <a class="lgx-btn" href="#{{ include.initiative }}" data-toggle="modal" data-target="#{{ include.initiative }}-modal">{{ include.link-text }}</a>
 {% endif %}
@@ -103,6 +105,23 @@
           <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
           <script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[3]='ADDRESS';ftypes[3]='address';fnames[4]='PHONE';ftypes[4]='phone';fnames[5]='MMERGE5';ftypes[5]='number';fnames[6]='MMERGE6';ftypes[6]='text';fnames[7]='MMERGE7';ftypes[7]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
           <!--End mc_embed_signup-->
+          {% elsif include.initiative == 'bootcamp-program-guide' %}
+          <div class="form-group">
+            <!-- Change or deletion of the name attributes in the input tag will lead to empty values on record submission-->
+            <form action='https://forms.zohopublic.com/virtualoffice9155/form/EmailSubscription/formperma/DpCKAlyxEJ-dLzdhzYuvhtQ8sCUVAbu4fE3JEMuAPqI/htmlRecords/submit' name='form' id='form' class="validate" method='POST' accept-charset='UTF-8' enctype='multipart/form-data'>
+              <input type="hidden" name="zf_referrer_name" value="" /><!-- To Track referrals , place the referrer name within the " " in the above hidden input field -->
+              <input type="hidden" name="zf_redirect_url" value="https://www.awesomeinc.org/confirmation/bootcamp-download" /><!-- To redirect to a specific page after record submission , place the respective url within the " " in the above hidden input field -->
+              <input type="hidden" name="zc_gad" value="" /><!-- If GCLID is enabled in Zoho CRM Integration, click details of AdWords Ads will be pushed to Zoho CRM -->
+              <h2>Bootcamp Program Guide</h2>
+              <!--Name-->
+              <input class="form-control" placeholder="First Name" type="text" maxlength="255" name="Name_First" fieldType=7 /><br/>
+              <input class="form-control" placeholder="Last Name" type="text" maxlength="255" name="Name_Last" fieldType=7 /><br/>
+              <!--Email-->
+              <input class="form-control" placeholder="Email Address" type="text" maxlength="255" name="Email" value="" fieldType=9 />
+              <p>No spam. It's a promise.</p><br/>
+              <button type="submit" class="btn btn-danger btn-large lgx-btn">Submit</button>
+            </form>
+          </div>
           {% endif %}
       </div><!-- modal body -->
     </div><!-- modal content -->
