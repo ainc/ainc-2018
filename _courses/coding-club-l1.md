@@ -19,7 +19,7 @@ age_group: youth
 open: true
 feature: true
 team: aincu
-eventbrite_eid: "61825181783"
+eventbrite_eid: "77543575923"
 ---
 
 {% include coding-course-buttons.html %}

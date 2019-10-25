@@ -22,7 +22,7 @@ time: 5:30-7pm
 age_group: youth
 open: true
 team: aincu
-eventbrite_eid: "65948288105"
+eventbrite_eid: "77545132579"
 ---
 {% if page.eventbrite_eid %}
 {% include coding-course-buttons.html %}
