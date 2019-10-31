@@ -19,6 +19,7 @@ sass:
 # Build settings
 include:
   - _redirects
+  - _headers
 
 exclude:
   - package.json
