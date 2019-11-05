@@ -1,41 +1,60 @@
 ---
 title: Careers
-layout: sub
+layout: default
 permalink: "/careers"
 redirect_from:
 - "/jobs/"
 ---
 
+<section id="careers-header">
+  <div class="lgx-inner">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-10 col-xs-offset-1">
+          <div class="lgx-heading-area">
+            <div class="lgx-heading lgx-heading-white">
+              <h1 class="heading-title">Careers</h1>
+              <p class="heading-subtitle">We're always looking for passionate, driven people who think they'd be a fit for our company! If you don't see what you're looking for on this page, reach out - we'd love to chat.</p>
+            </div>
+          </div> <!-- lgx-heading-area  -->
+        </div> <!-- col -->
+      </div> <!-- row -->
+    </div> <!-- container -->
+  </div> <!-- lgx-inner -->
+</section>
+
 {% assign jobs = site.job_openings | sort: "priority" %}
 
-<div>
-  <div class="contents">
-    <h2>Open Roles</h2>
-    <ul>
+<div class="lgx-inner">
+  <div class="container">
+    <div class="contents">
+      <h2>Open Roles</h2>
+      <ul>
+      {% for job in jobs %}
+      {% if job.active == true %}
+      {% assign job_id = job.title | downcase | split: " " %}
+        <li>
+          <a href="#{{ job_id | join: '-' }}">{{ job.title }}</a>
+        </li>
+      {% endif %}
+      {% endfor %}
+      </ul>
+    </div>
+
     {% for job in jobs %}
     {% if job.active == true %}
     {% assign job_id = job.title | downcase | split: " " %}
-      <li>
-        <a href="#{{ job_id | join: '-' }}">{{ job.title }}</a>
-      </li>
+    <div class="job-posting" id="{{ job_id | join: '-' }}">
+    <h3>{{ job.title }}</h3>
+    <p>{{ job.content }}</p>
+    <p>
+      <a href="mailto:{{ job.email }}?subject=I have some questions about {{ job.title }}">Questions? Email {{ job.manager }}: {{ job.email }}</a>
+    </p>
+    <h3>
+      <a type="button" class="lgx-btn lgx-btn-anim" href="{% if job.apply_url %}{{ job.apply_url }}{% else %}mailto:{{ job.email }}?subject=I am interested in applying to the {{ job.title }} position at {{ job.team }}{% endif %}">Apply Here</a>
+    </h3>
+    </div>
     {% endif %}
     {% endfor %}
-    </ul>
   </div>
-
-  {% for job in jobs %}
-  {% if job.active == true %}
-  {% assign job_id = job.title | downcase | split: " " %}
-  <div class="job-posting" id="{{ job_id | join: '-' }}">
-  <h3>{{ job.title }}</h3>
-  <p>{{ job.content }}</p>
-  <p>
-    <a href="mailto:{{ job.email }}?subject=I have some questions about {{ job.title }}">Questions? Email {{ job.manager }}: {{ job.email }}</a>
-  </p>
-  <h3>
-    <a type="button" class="lgx-btn lgx-btn-anim" href="{% if job.apply_url %}{{ job.apply_url }}{% else %}mailto:{{ job.email }}?subject=I am interested in applying to the {{ job.title }} position at {{ job.team }}{% endif %}">Apply Here</a>
-  </h3>
-  </div>
-  {% endif %}
-  {% endfor %}
 </div>
