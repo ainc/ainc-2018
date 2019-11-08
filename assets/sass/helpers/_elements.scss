@@ -885,6 +885,30 @@ svg[id*='svg_'] {
   }
 }
 
+/* ----------------------------------------------------------------
+  Shield (for bootcamp page originally)
+-------------------------------------------------------------------*/
+.shield-panel {
+  background-image: url('../../assets/img/shield.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 200px;
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+
+  .shield-text {
+    text-align: center;
+    justify-self: center;
+    align-self: center;
+    padding: 2rem 3.25rem 3rem 3.25rem;
+    h6 {
+      @include font-size(16);
+      color: white;
+    }
+  }
+}
 
 /* ----------------------------------------------------------------
   Other Elements

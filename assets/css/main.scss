@@ -20,6 +20,7 @@ Vendor: Don't edit this directory, this is for libraries like bootstrap
 @import 'helpers/elements';
 @import 'helpers/animations';
 @import 'helpers/responsive';
+@import 'helpers/utility';
 
 // Base
 @import 'base/root';
@@ -52,6 +53,7 @@ Vendor: Don't edit this directory, this is for libraries like bootstrap
 @import 'pages/home';
 @import 'pages/about';
 @import 'pages/blog';
+@import 'pages/bootcamp';
 @import 'pages/careers';
 @import 'pages/contact';
 @import 'pages/courses';

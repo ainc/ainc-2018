@@ -1,0 +1,70 @@
+#bootcamp {
+
+  #bootcamp-header {
+    background-image: url('../../assets/img/bootcamp/hero-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: 85%;
+    background-position: right -10vh;
+    height: 90vh;
+    .lgx-heading-area {
+      margin-top: 20vh;
+      @include screen-sm {
+        margin-top: 10vh;
+      }
+    }
+    h2 {
+      text-transform: none;
+      @include font-size(22);
+      text-align: left;
+      line-height: 3.4rem;
+    }
+    .lgx-btn {
+      float: left;
+      margin-right: 1.5rem;
+    }
+    #bootcamp-clip {
+      position: relative;
+      svg {
+        height: 37vh;
+        width: 100%;
+        position: absolute;
+        polygon {
+          fill: $body-bg;
+        }
+        @include screen-tablet-max {
+          height: 14vh;
+          top: -14vh;
+        }
+        @include screen-xs {
+          height: 10vh;
+          top: -9.95vh; /*mobile devices have a small gap */
+        }
+      }  
+    }
+  }
+
+  #answer-honestly {
+    .absolute-child {
+      top: -20vh;
+    }
+    h3 {
+      color: $brand-color;
+      margin-bottom: 0;
+      line-height: 2.4rem;
+    }
+    #answer-yes {
+      margin-top: 10rem;
+      margin-bottom: 10rem;
+      p {
+        margin-bottom: 10px;
+        text-align: center;
+        color: $brand-color2;
+      }
+      p.fancy-yes {
+        color: $brand-color;
+        // TODO add bohemian font
+      }
+    }
+  }
+
+}
