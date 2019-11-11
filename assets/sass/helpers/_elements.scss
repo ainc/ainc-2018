@@ -273,6 +273,14 @@ table.no-border {
     Flexbox implementation: https://codepen.io/devwax/pen/WQOXzp
 -------------------------------------------------------------------*/
 
+@include screen-max {
+  .row-eq-height {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
 @include screen-lg {
   .row-eq-height {
     display: -webkit-box;
@@ -296,6 +304,11 @@ table.no-border {
     display: -ms-flexbox;
     display: flex;
   }
+}
+
+.row-eq-height > [class*='col-'] {
+  display: flex;
+  flex-direction: column;
 }
 
 
@@ -939,9 +952,6 @@ svg[id*='svg_'] {
 
 .margin-bottom {
   margin-bottom: 2rem;
-}
-
-.embed-responsive iframe {
 }
 
 .object-fit-cover {

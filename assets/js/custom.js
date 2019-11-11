@@ -50,16 +50,17 @@ $(document).on('click', 'a[href^="#"],a[href^="/workspace#become-a-member"]', fu
   Make equal size columns across a row in bootstrap. Flexbox solutions to this break responsiveness. 
   https://stackoverflow.com/questions/23287206/same-height-column-bootstrap-3-row-responsive
 -------------------------------------------------------------------*/
+// TODO Figure out why this is being used in the first place, or why it is broken. 
+// TODO on bootcamp page, row height was too large
+// $(document).ready(function () {
+//   var heights = $( ".row-eq-height" ).map(function () {
+//     return $(this).height();
+//   }).get(),
 
-$(document).ready(function () {
-  var heights = $( ".row-eq-height" ).map(function () {
-    return $(this).height();
-  }).get(),
+//     maxHeight = Math.max.apply(null, heights);
 
-    maxHeight = Math.max.apply(null, heights);
-
-  $( ".row-eq-height" ).height(maxHeight);
-});
+//   $( ".row-eq-height" ).height(maxHeight);
+// });
 
 /* ----------------------------------------------------------------
   SVG Solution for dotted lines surrounding headers

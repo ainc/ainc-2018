@@ -56,15 +56,154 @@
       margin-top: 10rem;
       margin-bottom: 10rem;
       p {
-        margin-bottom: 10px;
+        margin-bottom: 20px;
         text-align: center;
         color: $brand-color2;
       }
-      p.fancy-yes {
+      p.fancy-text {
         color: $brand-color;
         // TODO add bohemian font
       }
     }
+  }
+
+  #alumni-testimonials {
+    background-image: url('../../assets/img/bootcamp/testimonials-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 95vh;
+    .testimonial-window {
+      height: 100%;
+      background-color: rgba(255, 255, 255, 0.8);
+      .testimonial-window-text {
+        margin: 3rem 5rem 5rem 5rem;
+      }
+      h6, p {
+        color: black;
+      }
+      h6 {
+        text-transform: uppercase;
+        @include font-size(22);
+        margin-bottom: 3rem;
+        font-weight: 600;
+      }
+      p {
+        @include font-size(21);
+        line-height: 4.15rem;
+        letter-spacing: 2px;
+        text-align: justify;
+      }
+    }
+    #bootcamp-grads {
+      img {
+        width: 125px;
+        margin-bottom: 3rem;
+        border: 1px white solid;
+        &:last-child {
+          margin-bottom: 0;
+        }
+      }
+    }
+    p#more-alumni {
+      text-align: center;
+      margin-top: 3rem;
+    }
+  }
+  #motivational-quote {
+    p {
+      color: $brand-color;
+      @include font-size(22);
+      font-weight: 600;
+      text-align: center;
+    }
+  }
+
+  #why-awesome-inc {
+    background-image: url('../../assets/img/bootcamp/awesome-inc-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 50vh;
+    background-position: top center;
+    .absolute-child {
+      right: 0;
+    }
+    .clipped-header {
+      margin-top: 25rem;
+    }
+    #awesomeinc-clip {
+      position: relative;
+      svg {
+        height: 25vh;
+        top: 25.1vh;
+        width: 100%;
+        position: absolute;
+        polygon {
+          fill: $body-bg;
+        }
+        @include screen-tablet-max {
+          height: 14vh;
+          top: -14vh;
+        }
+        @include screen-xs {
+          height: 10vh;
+          top: -9.95vh; /*mobile devices have a small gap */
+        }
+      }  
+    }
+    #why-sub-text {
+      margin-top: 10rem;
+      text-align: right;
+      p {
+        margin-bottom: 3rem;
+      }
+    }
+    #arrow-img {
+      position: absolute;
+      height: 29vh;
+      top: -30vh;
+      left: 16.5%;
+    }
+    #instructor-row {
+      p {
+        margin-bottom: 3rem;
+      }
+    }
+  }
+
+  #bootcamp-job {
+    background-image: url('../../assets/img/bootcamp/job-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    p {
+      margin-top: 3rem;
+      color: white;
+    }
+  }
+
+  #stats {
+    background-color: $brand-red-bright;
+    img {
+      max-width: fit-content;
+      height: 140px;
+    }
+    h4, h5, p {
+      color: white;
+    }
+    h4 {
+      @include font-size(24);
+      font-weight: 400;
+      letter-spacing: 2px;
+    }
+    h5 {
+      @include font-size(28);
+      font-weight: 800;
+      margin-top: 2rem;
+    }
+  }
+
+  p.fancy-text {
+    color: $brand-color;
   }
 
 }
