@@ -1,6 +1,6 @@
 (function () {
 
-    var youtube = document.querySelectorAll(".modal-body");
+    var youtube = document.querySelectorAll("#workspace .modal-body");
 
     for (var i = 0; i < youtube.length; i++) {
 
