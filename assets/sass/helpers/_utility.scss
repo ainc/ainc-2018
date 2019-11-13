@@ -4,3 +4,23 @@
 .absolute-child {
   position: absolute;
 }
+
+.center-text-mobile {
+  @include screen-xs {
+    text-align: center
+  }
+}
+
+.center-text-tablet {
+  @include screen-sm {
+    text-align: center
+  }
+}
+
+.center-block-mobile {
+  @include screen-xs {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}

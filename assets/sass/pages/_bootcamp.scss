@@ -6,10 +6,18 @@
     background-size: 85%;
     background-position: right -10vh;
     height: 90vh;
+    @include screen-xs {
+      background-size: cover;
+      background-position: 70% -10vh;
+      height: 75vh;
+    }
     .lgx-heading-area {
       margin-top: 20vh;
       @include screen-sm {
         margin-top: 10vh;
+      }
+      @include screen-xs {
+        margin-top: 5vh;
       }
     }
     h2 {
@@ -21,6 +29,9 @@
     .lgx-btn {
       float: left;
       margin-right: 1.5rem;
+      @include screen-xs {
+        margin-bottom: 1rem;
+      }
     }
     #bootcamp-clip {
       position: relative;
@@ -36,8 +47,8 @@
           top: -14vh;
         }
         @include screen-xs {
-          height: 10vh;
-          top: -9.95vh; /*mobile devices have a small gap */
+          height: 15vh;
+          top: 0; /*mobile devices have a small gap */
         }
       }  
     }
@@ -73,11 +84,30 @@
     background-size: cover;
     background-position: center center;
     height: 95vh;
+    @include screen-xs {
+      height: auto;
+    }
     .testimonial-window {
       height: 100%;
       background-color: rgba(255, 255, 255, 0.8);
+      &:before {
+        content: '';
+        display: block;
+        width: 0;
+        height: 0;
+        border-top: 40px solid transparent;
+        border-bottom: 40px solid transparent;
+        border-right: 40px solid rgba(255, 255, 255, 0.8);
+        position: absolute;
+        top: 41%;
+        left: -25px;
+      }
       .testimonial-window-text {
+        display: none;
         margin: 3rem 5rem 5rem 5rem;
+        &.active {
+          display: block;
+        }
       }
       h6, p {
         color: black;
@@ -95,7 +125,7 @@
         text-align: justify;
       }
     }
-    #bootcamp-grads {
+    #bootcamp-grads-images {
       img {
         width: 125px;
         margin-bottom: 3rem;
@@ -122,13 +152,16 @@
   #why-awesome-inc {
     background-image: url('../../assets/img/bootcamp/awesome-inc-bg.jpg');
     background-repeat: no-repeat;
-    background-size: 100% 50vh;
+    background-size: 100%;
     background-position: top center;
     .absolute-child {
       right: 0;
     }
     .clipped-header {
       margin-top: 25rem;
+      @include screen-xs {
+        margin-top: 10rem;
+      }
     }
     #awesomeinc-clip {
       position: relative;
@@ -153,6 +186,10 @@
     #why-sub-text {
       margin-top: 10rem;
       text-align: right;
+      @include screen-xs {
+        margin-top: 15rem;
+        text-align: left;
+      }
       p {
         margin-bottom: 3rem;
       }
@@ -179,6 +216,11 @@
       margin-top: 3rem;
       color: white;
     }
+    @include screen-xs {
+      img {
+        width: 50%;
+      }
+    }
   }
 
   #stats {
@@ -186,6 +228,9 @@
     img {
       max-width: fit-content;
       height: 140px;
+      @include screen-xs {
+        height: 100px;
+      }
     }
     h4, h5, p {
       color: white;
@@ -194,6 +239,9 @@
       @include font-size(24);
       font-weight: 400;
       letter-spacing: 2px;
+      @include screen-xs {
+        margin-top: 0;
+      }
     }
     h5 {
       @include font-size(28);
@@ -203,13 +251,22 @@
   }
 
   #companies {
+    @include screen-xs {
+      .lgx-heading {
+        margin-bottom: 3.5rem;
+        .heading-title {
+          @include font-size(29);
+        }
+      }
+    }
+    
     .row {
       margin-bottom: 3rem;
     }
   }
 
   #languages {
-    background-image: url('../../assets/img/bootcamp/awesome-inc-bg.jpg');
+    background-image: url('../../assets/img/bootcamp/languages-bg.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -225,13 +282,29 @@
     img {
       max-width: 80%;
       margin-left: 10%;
+      @include screen-xs {
+        max-width: 50%;
+        margin-left: 25%;
+        margin-bottom: 3rem;
+      }
     }
   }
 
   #apply {
-    i {
-      right: -10%;
+    .relative-parent {
+      @include screen-xs {
+        margin-bottom: 5rem;
+      }
+    }
+    img.absolute-child {
+      right: -5%;
       top: 33%;
+      @include screen-xs {
+        @include transform(rotate(90deg));
+        @include transform-origin(0 0);
+        right: 30%;
+        top: 110%;
+      }
     }
     p {
       margin-top: 3rem;
@@ -268,21 +341,38 @@
         @include transform(rotate(270deg));
         @include transform-origin(0 0);
         @include screen-xs {
+          position: relative;
+          @include font-size(34);
+          @include transform(rotate(0));
           top: 80%;
           left: 20px;
           letter-spacing: 4px;
+        }
+      }
+      .lgx-heading {
+        @include screen-xs {
+          margin-bottom: 2.3rem;
         }
       }
       .aside-content {
         p {
           margin-bottom: 3rem;
           width: 60%;
+          @include screen-xs {
+            width: 100%;
+          }
         }
         img {
           width: 90%;
           margin-bottom: 15vh;
+          @include screen-xs {
+            width: 100%;
+          }
         }
         margin-left: 10%;
+        @include screen-xs {
+          margin-left: 0;
+        }
       }
     }
   }

@@ -910,6 +910,9 @@ svg[id*='svg_'] {
   display: grid;
   grid-template-columns: auto;
   grid-template-rows: auto;
+  @include screen-xs {
+    margin-bottom: 1rem;
+  }
 
   .shield-text {
     text-align: center;
@@ -919,6 +922,10 @@ svg[id*='svg_'] {
     h6 {
       @include font-size(16);
       color: white;
+    }
+    @include screen-xs {
+      width: 175px;
+      padding: 1rem 3rem 3rem 3rem;
     }
   }
 }
