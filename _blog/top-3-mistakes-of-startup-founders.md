@@ -12,7 +12,7 @@ tags:
   - ecosystem
   - problem
   - traction
-description: Insight into the main things to avoid as a startup
+description: Insight into the top things to avoid as a startup!
 ---
 After 10 years of working with startups and helping them scale, our team has seen inspiring successes and plenty of failures. We figured the best way to avoid those mistakes in the future is to share them with you so we asked Keith McMunn, the Director of the Awesome Inc Fellowship, to lay them out.
 
