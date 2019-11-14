@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Top 3 Mistakes of Startup Founders
+title: Top 4 Mistakes of Startup Founders
 date: 2019-11-14T20:00:00.000Z
 header_img: /images/uploads/5across_oct_19-39.jpg
 author: Keith McMunn
