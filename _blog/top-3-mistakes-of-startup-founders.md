@@ -51,3 +51,4 @@ If you want somebody to help you, it’s not a good move to slide a paper across
 My point above about NDA’s, at its core, is about playing nicely with your community. Not only should you trust those that you request help from, you should also partner with them. Startups should participate in their local startup ecosystem for many reasons, but primarily because every founder is susceptible to that problem that “you don’t know what you don’t know.” When you position yourself around the other members of your local startup community, you dramatically decrease the things you don’t know. We take this very seriously at Awesome Inc and in the Lexington, KY startup ecosystem. 
 
 > We have a core value called Be A Friend. Turns out that when startup ecosystem players become friends, they share their experiences and expensive lessons, thus making themselves better founders.
+
