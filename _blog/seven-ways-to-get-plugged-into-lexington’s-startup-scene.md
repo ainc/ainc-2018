@@ -22,15 +22,9 @@ description: Get involved in the startup community!
 ---
 Known internationally for horses, bourbon, and basketball, Central KY is now making its mark in a different world - startups and technology.
 
-
-
 In 2019, Lexington was rated [one of the top 10 cities in the US for entrepreneurs](https://www.thepennyhoarder.com/make-money/start-a-business/best-cities-for-entrepreneurs/) and in this year alone, Kentucky companies accelerated through Awesome Inc's Fellowship Program have raised $12m. As we mentioned, things are happening. So much so that [KY Innovation](https://www.kyinnovation.com/), the state’s entrepreneurship and innovation enterprise, has invested more than $1M into the Lexington community to encourage growth. 
 
-
-
 So, why do you care and what does that mean to you?
-
-
 
 Well, are you an entrepreneur, investor, developer, or a curious and passionate person who cares about things that matter?
 
@@ -62,8 +56,6 @@ StartupLEX is the primary guide and entry point to help you find your place in L
 
 
 
-
-
 3. Attend These Events
 
 There are so many, but these are a great start. (To find all the others, [sign up to download the Startup LEX Guidebook](https://docs.google.com/forms/d/e/1FAIpQLSfVxL2S11MxT1j7eXyopQN5uOzwurPj1x3mnUb8W3hVbtXl5A/viewform).)
@@ -73,8 +65,6 @@ There are so many, but these are a great start. (To find all the others, [sign u
 [5 Across](https://www.awesomeinc.org/idea) - Lexington’s version of Shark Tanks, occurs every other month
 
 [SPARK Events](http://locateinlexington.com/LOCAL-BUSINESS-SERVICES/SPARK.aspx) - various events put on by Commerce Lexington
-
-
 
 
 
@@ -108,13 +98,7 @@ The Lexington community operates out of a “Give First” mentality. That means
 
 Be bold. Find someone who you want to learn from or collaborate with via [Slack](https://join.slack.com/t/startuplexington/shared_invite/enQtNjA2MDk2MjQ0ODM5LTI2Y2YxNmM0MjE1YjQ5ZWQ1NjI4MDRjZmI2ODM3Nzc0YmU1NDI2ZmZlNjQ0MTE1ZTQ0NTIwMzZkZWFkYjU5ODA) or send out an email asking for time. Pro tips - come with prepared questions and never, ever forget to write a thank-you note afterward.
 
-
-
-
-
 We love Kentucky, and not just because of our superior basketball team (Do not @ us). We’re proud to be a part of a collaborative community that’s dedicated to creating a community where people pursue their definition of Awesome in the tech and startup space.
-
-
 
 See you around!
 
