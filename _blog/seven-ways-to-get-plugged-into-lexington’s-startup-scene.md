@@ -30,9 +30,13 @@ Well, are you an entrepreneur, investor, developer, or a curious and passionate 
 
 Then you should get involved. And we’re here to help (you can thank us later)!
 
+
+
 1. Check out [the StartupLEX website](https://www.startuplexington.org/),[ join the newsletter](https://docs.google.com/forms/d/e/1FAIpQLSfVxL2S11MxT1j7eXyopQN5uOzwurPj1x3mnUb8W3hVbtXl5A/viewform), and [engage the community via Slack](https://join.slack.com/t/startuplexington/shared_invite/enQtNjA2MDk2MjQ0ODM5LTI2Y2YxNmM0MjE1YjQ5ZWQ1NjI4MDRjZmI2ODM3Nzc0YmU1NDI2ZmZlNjQ0MTE1ZTQ0NTIwMzZkZWFkYjU5ODA).
 
 StartupLEX is the primary guide and entry point to help you find your place in Lexington’s ecosystem. It’s a one-stop-shop for all activities, resources, and connections you need to make. We even made a Guidebook to house all the info! [Sign up for the newsletter to get the free download](https://docs.google.com/forms/d/e/1FAIpQLSfVxL2S11MxT1j7eXyopQN5uOzwurPj1x3mnUb8W3hVbtXl5A/viewform)!
+
+
 
 2. Follow these people on Twitter ([see Twitter list here](https://twitter.com/awesome_inc/lists/lexstartupscene))
 
@@ -50,6 +54,8 @@ StartupLEX is the primary guide and entry point to help you find your place in L
 
 [@ukyeclub](https://twitter.com/ukyeclub) - University of Kentucky’s Entrepreneurship Club
 
+
+
 3. Attend These Events
 
 There are so many, but these are a great start. (To find all the others, [sign up to download the Startup LEX Guidebook](https://docs.google.com/forms/d/e/1FAIpQLSfVxL2S11MxT1j7eXyopQN5uOzwurPj1x3mnUb8W3hVbtXl5A/viewform).)
@@ -59,6 +65,8 @@ There are so many, but these are a great start. (To find all the others, [sign u
 [5 Across](https://www.awesomeinc.org/idea) - Lexington’s version of Shark Tanks, occurs every other month
 
 [SPARK Events](http://locateinlexington.com/LOCAL-BUSINESS-SERVICES/SPARK.aspx) - various events put on by Commerce Lexington
+
+
 
 4. Check Out a Coworking Space 
 
@@ -70,15 +78,21 @@ We have quite a few around town: Again, [the StartupLEX Guidebook](https://docs.
 
 [The Plantory](https://www.plantory.org/)
 
+
+
 5. Get your News Here
 
 [StartupLEX Newsletter](https://docs.google.com/forms/d/e/1FAIpQLSfVxL2S11MxT1j7eXyopQN5uOzwurPj1x3mnUb8W3hVbtXl5A/viewform)
 
 [In2LEX](RKaffenberger@commercelexington.com)
 
+
+
 6. Make an Introduction
 
 The Lexington community operates out of a “Give First” mentality. That means that we always try to give before we ask. So - want to get connected to more of the right people? Start by introducing two people you know who share a similar passion or skill who should know each other! Show others that you’re willing to make connections and support the growth of our community.
+
+
 
 7. Ask To Grab Coffee
 
