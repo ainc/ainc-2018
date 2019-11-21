@@ -2,6 +2,7 @@
 layout: post
 title: Seven Ways to Get Plugged Into Lexington’s Startup Scene
 date: 2019-11-21T17:35:07.775Z
+header_img: /images/uploads/startuplex_logo_1.png
 author: Liz Brown Evans
 tags:
   - startuplex
