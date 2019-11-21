@@ -1,3 +1,4 @@
+@include font('The-Bohemian-Regular', '../../assets/fonts/The-Bohemian-Regular');
 #bootcamp {
 
   #bootcamp-header {
@@ -6,19 +7,40 @@
     background-size: 85%;
     background-position: right -10vh;
     height: 90vh;
+    position: relative;
+    @include screen-tablet-max {
+      background-position: 50% 0;
+      background-size: cover;
+      height: 75vh;
+    }
     @include screen-xs {
       background-size: cover;
-      background-position: 70% -10vh;
+      background-position: 50% 0;
       height: 75vh;
     }
     .lgx-heading-area {
       margin-top: 20vh;
-      @include screen-sm {
+      @include screen-tablet-max {
         margin-top: 10vh;
       }
       @include screen-xs {
         margin-top: 5vh;
       }
+    }
+    #bootcamp-clip {
+      height: 22.1vw;
+      width: 100%;
+      position: absolute;
+      bottom: 0;
+      polygon {
+        fill: $body-bg;
+      }
+      @include screen-tablet-max {
+        height: 32vw;
+      }
+      @include screen-xs {
+        height: 60vw;
+      }  
     }
     h2 {
       text-transform: none;
@@ -29,28 +51,9 @@
     .lgx-btn {
       float: left;
       margin-right: 1.5rem;
-      @include screen-xs {
+      @include screen-tablet-max {
         margin-bottom: 1rem;
       }
-    }
-    #bootcamp-clip {
-      position: relative;
-      svg {
-        height: 37vh;
-        width: 100%;
-        position: absolute;
-        polygon {
-          fill: $body-bg;
-        }
-        @include screen-tablet-max {
-          height: 14vh;
-          top: -14vh;
-        }
-        @include screen-xs {
-          height: 15vh;
-          top: 0; /*mobile devices have a small gap */
-        }
-      }  
     }
   }
 
@@ -73,7 +76,8 @@
       }
       p.fancy-text {
         color: $brand-color;
-        // TODO add bohemian font
+        font-family: The-Bohemian-Regular;
+        @include font-size(42);
       }
     }
   }
@@ -99,12 +103,17 @@
         border-bottom: 40px solid transparent;
         border-right: 40px solid rgba(255, 255, 255, 0.8);
         position: absolute;
-        top: 41%;
         left: -25px;
+        @include screen-tablet-max {
+          display: none;
+        }
       }
       .testimonial-window-text {
         display: none;
         margin: 3rem 5rem 5rem 5rem;
+        @include screen-tablet-max {
+          margin: 3rem 2rem 5rem 2rem;
+        }
         &.active {
           display: block;
         }
@@ -123,6 +132,9 @@
         line-height: 4.15rem;
         letter-spacing: 2px;
         text-align: justify;
+        @include screen-tablet-max {
+          line-height: 3.15rem;
+        }
       }
     }
     #bootcamp-grads-images {
@@ -132,6 +144,19 @@
         border: 1px white solid;
         &:last-child {
           margin-bottom: 0;
+        }
+        @include screen-tablet-max {
+          width: 110px;
+          margin-bottom: 3rem;
+          &:last-child {
+            margin-bottom: 3rem;
+          }
+        }
+        @include screen-sm {
+          width: 150px;
+        }
+        @include screen-md {
+          width: 150px;
         }
       }
     }
@@ -149,45 +174,39 @@
     }
   }
 
-  #why-awesome-inc {
+  #why-awesome-inc-header {
     background-image: url('../../assets/img/bootcamp/awesome-inc-bg.jpg');
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: top center;
-    .absolute-child {
-      right: 0;
-    }
-    .clipped-header {
-      margin-top: 25rem;
-      @include screen-xs {
-        margin-top: 10rem;
-      }
-    }
+    height: 40vh;
+    position: relative;
     #awesomeinc-clip {
-      position: relative;
-      svg {
-        height: 25vh;
-        top: 25.1vh;
+        height: 10vw;
+        bottom: 0;
         width: 100%;
         position: absolute;
         polygon {
           fill: $body-bg;
-        }
         @include screen-tablet-max {
-          height: 14vh;
-          top: -14vh;
         }
         @include screen-xs {
-          height: 10vh;
-          top: -9.95vh; /*mobile devices have a small gap */
         }
-      }  
+      }
+    }  
+  }
+
+  #why-awesome-inc {
+    
+    .absolute-child {
+      right: 0;
+      top: -15vh;
     }
     #why-sub-text {
-      margin-top: 10rem;
+      margin-top: 3rem;
       text-align: right;
       @include screen-xs {
-        margin-top: 15rem;
+        margin-top: 3rem;
         text-align: left;
       }
       p {
@@ -299,10 +318,14 @@
     img.absolute-child {
       right: -5%;
       top: 33%;
+      @include screen-tablet-max {
+        top: 40%;
+        width: 20px;
+      }
       @include screen-xs {
         @include transform(rotate(90deg));
         @include transform-origin(0 0);
-        right: 30%;
+        right: 39%;
         top: 110%;
       }
     }
@@ -365,7 +388,7 @@
         img {
           width: 90%;
           margin-bottom: 15vh;
-          @include screen-xs {
+          @include screen-tablet-max {
             width: 100%;
           }
         }
@@ -422,7 +445,7 @@
       margin-bottom: 3rem;
     }
     .lgx-inner {
-      padding: 8.2rem;
+      padding: 8.2rem 0;
     }
     .lgx-heading {
       margin-bottom: 0;
@@ -437,6 +460,13 @@
 
   p.fancy-text {
     color: $brand-color;
+    font-family: The-Bohemian-Regular;
+    @include font-size(42);
   }
 
+}
+
+// this needs to be a 'less-specified' class because it is getting overwritten
+.testimonial-window:before {
+  top: 41%;
 }
