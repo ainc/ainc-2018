@@ -200,11 +200,11 @@
     a {
       color: $brand-grey;
       // @include font-size(17);
-      i {
-        min-width: 20px;
-        color: $brand-color;
-        margin-right: 10px;
-      }
+    }
+    i {
+      min-width: 20px;
+      color: $brand-color;
+      margin-right: 10px;
     }
   }
   ul {
