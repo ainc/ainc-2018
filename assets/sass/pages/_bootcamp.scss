@@ -16,7 +16,7 @@
     @include screen-xs {
       background-size: cover;
       background-position: 50% 0;
-      height: 75vh;
+      height: 90vh;
     }
     .lgx-heading-area {
       margin-top: 20vh;
@@ -87,10 +87,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    height: 95vh;
-    @include screen-xs {
-      height: auto;
-    }
+    height: auto;
     .testimonial-window {
       height: 100%;
       background-color: rgba(255, 255, 255, 0.8);
@@ -141,9 +138,12 @@
       img {
         width: 125px;
         margin-bottom: 3rem;
-        border: 1px white solid;
+        border: 1px rgba(255, 255, 255, 0.5) solid;
         &:last-child {
           margin-bottom: 0;
+        }
+        &.active {
+          animation: shadow-pulse 1.25s infinite;
         }
         @include screen-tablet-max {
           width: 110px;
@@ -157,6 +157,10 @@
         }
         @include screen-md {
           width: 150px;
+        }
+        @include screen-xs {
+          margin-left: 5px;
+          width: 105px;
         }
       }
     }
@@ -201,6 +205,9 @@
     .absolute-child {
       right: 0;
       top: -15vh;
+      @include screen-xs {
+        top: -25vh;
+      }
     }
     #why-sub-text {
       margin-top: 3rem;
@@ -276,6 +283,13 @@
         .heading-title {
           @include font-size(29);
         }
+      }
+    }
+
+    img {
+      @include screen-xs {
+        max-width: 80%;
+        margin: 5px auto;
       }
     }
     
@@ -368,7 +382,7 @@
           @include font-size(34);
           @include transform(rotate(0));
           top: 80%;
-          left: 20px;
+          left: 10px;
           letter-spacing: 4px;
         }
       }

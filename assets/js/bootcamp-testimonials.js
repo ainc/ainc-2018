@@ -23,7 +23,6 @@ HTMLElement.prototype.pseudoStyle = function(element,prop,value){
 	return this;
 };
 
-
 /************************************
  * Click bootcamp grad image action
  */
@@ -33,6 +32,8 @@ $(document).on( 'click', '#bootcamp-grads-images > img', function (event) {
   var active_testimonial_content_div = $( `#bootcamp-grads-content [data-testimonial='${testimonial_id}']` );
   active_testimonial_content_div.siblings().removeClass( 'active' );
   active_testimonial_content_div.addClass( 'active' );
+	$( this ).siblings().removeClass( 'active' );
+	$( this ).addClass( 'active' );
 
   // Top Percentage offset based on which bootcamper is selected
   var triangle_locations = {
