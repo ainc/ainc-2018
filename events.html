@@ -23,20 +23,21 @@ redirect_from:
         </div> <!-- row -->
         <div class="row">
           {% for event in events %}
+
+            {% if event.eventbrite_id or feature_event.eventbrite_id == '' %}
+              {% assign event_url = "https://www.eventbrite.com/e/" | append: event.eventbrite_id %}
+            {% elsif event.event_url %}
+              {% assign event_url = event.event_url %}
+            {% else %}
+              {% assign event_url = "#" %}
+            {% endif %}
+
           <div class="col-xs-12 col-sm-6">
             <div class="lgx-events-area">
                 
               <div class="lgx-single-event">
                 <div class="thumb">
-                  <a target="_blank" 
-                    {% if event.eventbrite_id %}
-                      href="https://www.eventbrite.com/e/{{ event.eventbrite_id }}"
-                    {% elsif event.event_url %}
-                      href="https://www.eventbrite.com/e/{{ event.event_url }}"
-                    {% else %}
-                      href="#"
-                    {% endif %}
-                  >
+                  <a target="_blank" href="{{ event_url }}">
                     <img
                       {% if event.image %}
                         src="{{ event.image }}" 
@@ -47,27 +48,13 @@ redirect_from:
                   </a>
                 </div>
                 <div class="event-info">
-                  <a target="_blank" class="date" 
-                    {% if event.eventbrite_id %}
-                      href="https://www.eventbrite.com/e/{{ event.eventbrite_id }}"
-                    {% elsif event.event_url %}
-                      href="https://www.eventbrite.com/e/{{ event.event_url }}"
-                    {% else %}
-                      href="#"
-                    {% endif %}
-                  >{{ event.date | date: '%B %-d, %Y'}}
+                  <a target="_blank" class="date" href="{{ event_url }}">
+                    {{ event.date | date: '%B %-d, %Y'}}
                   </a>
                   <h4 class="location">{{ event.location }}</h4>
                   <h3 class="title">
-                    <a target="_blank" class="date" 
-                      {% if event.eventbrite_id %}
-                        href="https://www.eventbrite.com/e/{{ event.eventbrite_id }}"
-                      {% elsif event.event_url %}
-                        href="https://www.eventbrite.com/e/{{ event.event_url }}"
-                      {% else %}
-                        href="#"
-                      {% endif %}
-                    >{{ event.title }}
+                    <a target="_blank" class="date" href="{{ event_url }}">
+                      {{ event.title }}
                     </a>
                   </h3>
                 </div>
