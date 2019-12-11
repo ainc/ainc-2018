@@ -1,0 +1,486 @@
+@include font('The-Bohemian-Regular', '../../assets/fonts/The-Bohemian-Regular');
+#bootcamp {
+
+  #bootcamp-header {
+    background-image: url('../../assets/img/bootcamp/hero-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: 85%;
+    background-position: right -10vh;
+    height: 90vh;
+    position: relative;
+    @include screen-tablet-max {
+      background-position: 50% 0;
+      background-size: cover;
+      height: 75vh;
+    }
+    @include screen-xs {
+      background-size: cover;
+      background-position: 50% 0;
+      height: 90vh;
+    }
+    .lgx-heading-area {
+      margin-top: 20vh;
+      @include screen-tablet-max {
+        margin-top: 10vh;
+      }
+      @include screen-xs {
+        margin-top: 5vh;
+      }
+    }
+    #bootcamp-clip {
+      height: 22.1vw;
+      width: 100%;
+      position: absolute;
+      bottom: 0;
+      polygon {
+        fill: $body-bg;
+      }
+      @include screen-tablet-max {
+        height: 32vw;
+      }
+      @include screen-xs {
+        height: 60vw;
+      }  
+    }
+    h2 {
+      text-transform: none;
+      @include font-size(22);
+      text-align: left;
+      line-height: 3.4rem;
+    }
+    .lgx-btn {
+      float: left;
+      margin-right: 1.5rem;
+      @include screen-tablet-max {
+        margin-bottom: 1rem;
+      }
+    }
+  }
+
+  #answer-honestly {
+    .absolute-child {
+      top: -20vh;
+    }
+    h3 {
+      color: $brand-color;
+      margin-bottom: 0;
+      line-height: 2.4rem;
+    }
+    #answer-yes {
+      margin-top: 3rem;
+      margin-bottom: 10rem;
+      p {
+        margin-bottom: 20px;
+        text-align: center;
+        color: $brand-color2;
+      }
+      p.fancy-text {
+        color: $brand-color;
+        font-family: The-Bohemian-Regular;
+        @include font-size(42);
+      }
+    }
+  }
+
+  #alumni-testimonials {
+    background-image: url('../../assets/img/bootcamp/testimonials-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: auto;
+    .testimonial-window {
+      height: 100%;
+      background-color: rgba(255, 255, 255, 0.8);
+      &:before {
+        content: '';
+        display: block;
+        width: 0;
+        height: 0;
+        border-top: 40px solid transparent;
+        border-bottom: 40px solid transparent;
+        border-right: 40px solid rgba(255, 255, 255, 0.8);
+        position: absolute;
+        left: -25px;
+        @include screen-tablet-max {
+          display: none;
+        }
+      }
+      .testimonial-window-text {
+        display: none;
+        margin: 3rem 5rem 5rem 5rem;
+        @include screen-tablet-max {
+          margin: 3rem 2rem 5rem 2rem;
+        }
+        &.active {
+          display: block;
+        }
+      }
+      h6, p {
+        color: black;
+      }
+      h6 {
+        text-transform: uppercase;
+        @include font-size(22);
+        margin-bottom: 3rem;
+        font-weight: 600;
+      }
+      p {
+        @include font-size(21);
+        line-height: 4.15rem;
+        letter-spacing: 2px;
+        text-align: justify;
+        @include screen-tablet-max {
+          line-height: 3.15rem;
+        }
+      }
+    }
+    #bootcamp-grads-images {
+      img {
+        width: 125px;
+        margin-bottom: 3rem;
+        border: 1px rgba(255, 255, 255, 0.5) solid;
+        &:last-child {
+          margin-bottom: 0;
+        }
+        &.active {
+          animation: shadow-pulse 1.25s infinite;
+        }
+        @include screen-tablet-max {
+          width: 110px;
+          margin-bottom: 3rem;
+          &:last-child {
+            margin-bottom: 3rem;
+          }
+        }
+        @include screen-sm {
+          width: 150px;
+        }
+        @include screen-md {
+          width: 150px;
+        }
+        @include screen-xs {
+          margin-left: 5px;
+          width: 105px;
+        }
+      }
+    }
+    p#more-alumni {
+      text-align: center;
+      margin-top: 3rem;
+    }
+  }
+  #motivational-quote {
+    p {
+      color: $brand-color;
+      @include font-size(22);
+      font-weight: 600;
+      text-align: center;
+    }
+  }
+
+  #why-awesome-inc-header {
+    background-image: url('../../assets/img/bootcamp/awesome-inc-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: top center;
+    height: 40vh;
+    position: relative;
+    #awesomeinc-clip {
+        height: 10vw;
+        bottom: 0;
+        width: 100%;
+        position: absolute;
+        polygon {
+          fill: $body-bg;
+        @include screen-tablet-max {
+        }
+        @include screen-xs {
+        }
+      }
+    }  
+  }
+
+  #why-awesome-inc {
+    
+    .absolute-child {
+      right: 0;
+      top: -15vh;
+      @include screen-xs {
+        top: -25vh;
+      }
+    }
+    #why-sub-text {
+      margin-top: 3rem;
+      text-align: right;
+      @include screen-xs {
+        margin-top: 3rem;
+        text-align: left;
+      }
+      p {
+        margin-bottom: 3rem;
+      }
+    }
+    #arrow-img {
+      position: absolute;
+      height: 29vh;
+      top: -30vh;
+      left: 16.5%;
+    }
+    #instructor-row {
+      p {
+        margin-bottom: 3rem;
+      }
+    }
+  }
+
+  #job {
+    background-image: url('../../assets/img/bootcamp/job-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    p {
+      margin-top: 3rem;
+      color: white;
+    }
+    @include screen-xs {
+      img {
+        width: 50%;
+      }
+    }
+  }
+
+  #stats {
+    background-color: $brand-red-bright;
+    img {
+      max-width: fit-content;
+      height: 140px;
+      @include screen-xs {
+        height: 100px;
+      }
+    }
+    h4, h5, p {
+      color: white;
+    }
+    h4 {
+      @include font-size(24);
+      font-weight: 400;
+      letter-spacing: 2px;
+      @include screen-xs {
+        margin-top: 0;
+      }
+    }
+    h5 {
+      @include font-size(28);
+      font-weight: 800;
+      margin-top: 2rem;
+    }
+  }
+
+  #companies {
+    @include screen-xs {
+      .lgx-heading {
+        margin-bottom: 3.5rem;
+        .heading-title {
+          @include font-size(29);
+        }
+      }
+    }
+
+    img {
+      @include screen-xs {
+        max-width: 80%;
+        margin: 5px auto;
+      }
+    }
+    
+    .row {
+      margin-bottom: 3rem;
+    }
+  }
+
+  #languages {
+    background-image: url('../../assets/img/bootcamp/languages-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    h5 {
+      font-weight: 600;
+      margin-bottom: 3rem;
+      @include font-size(18);
+      text-align: center;
+    }
+    p {
+      margin-top: 3rem;
+    }
+    img {
+      max-width: 80%;
+      margin-left: 10%;
+      @include screen-xs {
+        max-width: 50%;
+        margin-left: 25%;
+        margin-bottom: 3rem;
+      }
+    }
+  }
+
+  #apply {
+    .relative-parent {
+      @include screen-xs {
+        margin-bottom: 5rem;
+      }
+    }
+    img.absolute-child {
+      right: -5%;
+      top: 33%;
+      @include screen-tablet-max {
+        top: 40%;
+        width: 20px;
+      }
+      @include screen-xs {
+        @include transform(rotate(90deg));
+        @include transform-origin(0 0);
+        right: 39%;
+        top: 110%;
+      }
+    }
+    p {
+      margin-top: 3rem;
+      text-align: justify;
+    }
+    .button-row {
+      margin-top: 3rem;
+      .lgx-btn {
+        margin-left: 10%;
+      }
+      
+    }
+  }
+
+  #timeline {
+    background-image: url('../../assets/img/bootcamp/angled-bg.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center center;
+    .aside {
+      display: block;
+      position: relative;
+      font-size: small;
+      h2 {
+        position: absolute; 
+        top: 80%;
+        left: 0;
+        margin-left: -30px;
+        color: $brand-color;
+        @include font-size(70);
+        letter-spacing: 4px;
+        text-transform: none;
+        
+        @include transform(rotate(270deg));
+        @include transform-origin(0 0);
+        @include screen-xs {
+          position: relative;
+          @include font-size(34);
+          @include transform(rotate(0));
+          top: 80%;
+          left: 10px;
+          letter-spacing: 4px;
+        }
+      }
+      .lgx-heading {
+        @include screen-xs {
+          margin-bottom: 2.3rem;
+        }
+      }
+      .aside-content {
+        p {
+          margin-bottom: 3rem;
+          width: 60%;
+          @include screen-xs {
+            width: 100%;
+          }
+        }
+        img {
+          width: 90%;
+          margin-bottom: 15vh;
+          @include screen-tablet-max {
+            width: 100%;
+          }
+        }
+        margin-left: 10%;
+        @include screen-xs {
+          margin-left: 0;
+        }
+      }
+    }
+  }
+
+  #cost {
+    .heading-title {
+      text-align: right;
+      color: $brand-red-bright;
+      @include font-size(74);
+      letter-spacing: 2px;
+      text-transform: none;
+    }
+    table {
+      margin-bottom: 10rem;
+    }
+    .absolute-child {
+      width: 150px;
+      left: -13.5rem;
+      top: 8.5rem;
+    }
+  }
+
+  #still-unsure {
+    background-image: url('../../assets/img/bootcamp/alumni-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    .heading-title {
+      text-transform: none;
+      margin-bottom: 3rem;
+    }
+    .lgx-heading {
+      margin-bottom: 0;
+    }
+    .lgx-inner {
+      padding: 8.2rem 0;
+    }
+  }
+
+  #questions {
+    background-image: url('../../assets/img/bootcamp/faq-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    .heading-title {
+      text-transform: none;
+      margin-bottom: 3rem;
+    }
+    .lgx-inner {
+      padding: 8.2rem 0;
+    }
+    .lgx-heading {
+      margin-bottom: 0;
+    }
+  }
+
+  #bootcamp-faq-modal {
+    .faq .card .card-header .faq-title {
+      color: $brand-color3;
+    }
+  }
+
+  p.fancy-text {
+    color: $brand-color;
+    font-family: The-Bohemian-Regular;
+    @include font-size(42);
+  }
+
+}
+
+// this needs to be a 'less-specified' class because it is getting overwritten
+.testimonial-window:before {
+  top: 41%;
+}

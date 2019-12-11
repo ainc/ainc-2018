@@ -90,3 +90,9 @@
     }
   }
 }
+
+.lgx-modal .modal-dialog .modal-content .modal-body {
+  @include screen-xs {
+    width: 95%;
+  }
+}

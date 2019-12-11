@@ -25,7 +25,13 @@
 {% elsif include.style == 'subtle' %}
 <a class="lgx-btn lgx-btn-grey-light" href="#{{ include.initiative }}" data-toggle="modal" data-target="#{{ include.initiative }}-modal">{{ include.link-text }}</a>
 {% else %}
-<a class="lgx-btn" href="#{{ include.initiative }}" data-toggle="modal" data-target="#{{ include.initiative }}-modal">{{ include.link-text }}</a>
+<a 
+  class="{% if include.button-class %}{{include.button-class}}{%else%}lgx-btn{%endif%}" 
+  href="#{{ include.initiative }}" 
+  data-toggle="modal" 
+  data-target="#{{ include.initiative }}-modal">
+    {{ include.link-text }}
+</a>
 {% endif %}
 
 <div id="{{ include.initiative }}-modal" class="modal fade lgx-modal" tabindex="-1">

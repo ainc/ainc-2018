@@ -60,6 +60,10 @@
     background-color: $brand-grey-dark;
     border-color: $brand-grey-dark;
   }
+  &.lgx-btn-small-text {
+    @include font-size(16);
+    padding: 1rem 2.2rem;
+  }
 }
 
 a:focus {
