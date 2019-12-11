@@ -1,4 +1,81 @@
 items:
+  - name: Taylor Akin
+    website: https://taylorakin.github.Final
+    github: https://github.com/TaylorAkin
+    linkedin: https://www.linkedin.com/in/taylor-akin-178a5790/
+    img_path: taylor-akin
+    position: 
+    cohort: f19
+  - name: Ethan Borkosky
+    website: https://eBork1.github.io/ 
+    github: https://github.com/eBork1 
+    linkedin: https://www.linkedin.com/in/ethan-borkosky-764aa6186/
+    img_path: ethan-borkosky
+    position: 
+    cohort: f19
+  - name: Robbie Gay
+    linkedin: https://www.linkedin.com/in/robbie-gay-3a38aa72/
+    github: https://www.github.com/robbiegay
+    website: https://robbiegay.github.io/ 
+    img_path: robbie-gay
+    position: 
+    cohort: f19
+  - name: Abram Gornik
+    linkedin: https://www.linkedin.com/in/abram-gornik-a45066191/
+    github: https://github.com/Wildercat
+    website: https://Wildercat.github.io/ 
+    img_path: abram-gornik
+    position: 
+    cohort: f19
+  - name: Eric Hampton
+    linkedin: https://www.linkedin.com/in/james-hampton-102107191/
+    github: https://github.com/EricHampton12
+    website: https://EricHampton.github.io/
+    img_path: eric-hampton
+    position: 
+    cohort: f19
+  - name: David Joyce
+    linkedin: https://www.linkedin.com/in/david-joyce-ky/
+    github: https://www.github.com/dmjoyce951
+    website: https://dmjoyce951.github.io/ 
+    img_path: david-joyce
+    position: 
+    cohort: f19
+  - name: Michael Loyselle
+    linkedin: https://www.linkedin.com/in/michael-a-loyselle-01767b9a/
+    github: https://github.com/Leozas
+    website: https://leozas.github.io/MyGitHubBlog/ 
+    img_path: michael-loyselle
+    position: 
+    cohort: f19
+  - name: William McGill
+    linkedin: https://www.linkedin.com/in/will-mcgill-759596125/
+    github: http://www.github.com/willmcgill
+    website: https://willmcgill.github.io/BootBlog/ 
+    img_path: will-mcgill
+    position: 
+    cohort: f19
+  - name: Todd Trivisonno
+    linkedin: https://www.linkedin.com/in/todd-trivisonno-80a84b155/
+    github: https://www.github.com/toddtrivisonno
+    website: https://toddtrivisonno.github.io/ 
+    img_path: todd-trivisonno
+    position: 
+    cohort: f19
+  - name: Sam Wheeling
+    linkedin: https://www.linkedin.com/in/samuel-wheeling-01121513a/
+    github: https://www.github.com/anchormansam
+    website: https://anchormansam.github.io/my-blog/ 
+    img_path: sam-wheeling
+    position: 
+    cohort: f19
+  - name: Rachael Yoder
+    linkedin: https://www.linkedin.com/in/rachael-yoder-6637b9192/
+    github: http://github.com/rachyoder
+    website: https://rachyoder.github.io/ 
+    img_path: rachael-yoder
+    position: 
+    cohort: f19
   - name: Jaelyn Coles
     website: https://jaelyncoles.github.io
     github: https://github.com/jaelyncoles/
