@@ -129,9 +129,6 @@
   .lgx-footer-single .title {
     color: $brand-color;
   }
-  .lgx-footer-bottom {
-    border-top: 1px solid $body-bg;
-  }
   .lgx-footer-bottom .lgx-copyright ul li a {
     color: $black-color;
   }
@@ -164,6 +161,9 @@
         width: 25%;
       }
     }
+  }
+  .row {
+    margin-bottom: 15px;
   }
   address {
     margin-bottom: 1.5rem;
@@ -244,7 +244,6 @@
 }*/
 
 .lgx-footer-bottom {
-  border-top: 1px solid #444;
   padding-top: 2.4rem;
   .lgx-copyright,
   .lgx-social-footer {
