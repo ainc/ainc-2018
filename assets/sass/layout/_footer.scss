@@ -120,7 +120,7 @@
 }
 
 .lgx-footer-middle {
-  @include bg-rgba($black-color, 1);
+  background-color: $brand-color2;
   padding: 10.2rem 0 5.2rem 0;
 }
 

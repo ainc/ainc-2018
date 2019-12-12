@@ -210,4 +210,13 @@
     }
   }
 
+  #fellowship-sponsors {
+    background-color: $brand-color2;
+    p {
+      color: $brand-grey-dark;
+      @include font-size(26);
+      text-align: center;
+    }
+  }
+
 }
