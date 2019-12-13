@@ -3,6 +3,7 @@ layout: post
 title: 3 Key Takeaways on Corporate Innovation
 date: 2019-11-06T19:46:51.129Z
 header_img: /images/uploads/img_9245.jpg
+author_img: /images/uploads/mike_hilton.jpg
 author: Mike Hilton
 tags:
   - innovation
