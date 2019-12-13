@@ -3,6 +3,7 @@ layout: post
 title: 6 Best Re-Occurring Events and The Only 2 Newsletters That Matter!
 date: 2019-12-13T21:30:00.000Z
 header_img: /images/uploads/save-new.jpg
+author_img: /images/uploads/heather.jpg
 author: Heather Seaton & Liz Brown Evans
 tags:
   - startups
