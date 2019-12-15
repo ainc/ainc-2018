@@ -109,6 +109,7 @@ collections:
               - {label: "GitHub Link", name: "github", widget: "string", required: false}
               - {label: "LinkedIn Link", name: "linkedin", widget: "string", required: false}
               - {label: "Picture", name: "image", widget: "image", required: false}
+              - {label: "Image Path", name: "img_path", widget: "hidden", default: "placeholder-wall.jpg"} # Hidden widget: https://www.netlifycms.org/docs/widgets/hidden/
               - {label: "Position", name: "position", widget: "string", required: false}
               - {label: "Cohort", name: "cohort", widget: "string", hint: "s19: Spring 2019, f19: Fall 2019", required: false}
   
