@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 5 Helpful Coding Tools For Parents
+title: 6 Helpful Coding Resources For Parents
 date: 2019-12-19T17:29:13.168Z
 header_img: /images/uploads/aincu-blog-photo.jpeg
 author_img: /images/uploads/nick.jpg
