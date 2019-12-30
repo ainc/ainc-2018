@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 3 Tips For A Productive Workplace
-date: 2019-12-30T19:30:00.000Z
+date: 2019-12-30T19:29:00.000Z
 header_img: /images/uploads/coworking-graphic.png
 author_img: /images/uploads/maggie.jpeg
 author: Maggie Collofello
