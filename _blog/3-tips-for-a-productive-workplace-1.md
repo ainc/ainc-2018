@@ -22,6 +22,8 @@ We want to help you have your best professional 2020 so we asked Maggie Collofel
 
 3 Tips for a Productive Workspace
 
+
+
 1. Decide what place is right for you (location, amenities, community)
 
 There are so many different options to work, whether it is at home, a traditional office space, or coworking space. It is great that we have so many options to work based on work style and preferences.
@@ -34,6 +36,8 @@ Amenities are also unique to coworking spaces. Each space is different based on 
 
 It is common to have monthly events in the space to help members get to know one another. Having access to a whole community of like-minded professionals also helps you grow your network in an organic way.
 
+
+
 2. Create an atmosphere (plants, sound proofing, temperature)
 
 Once you find a spot that best suits you, create an atmosphere that will help you work most productively. Plants help create a comfortable vibe and also can clean the air. If you create an atmosphere similar to a home, it is found that employees work more effectively.
@@ -41,6 +45,8 @@ Once you find a spot that best suits you, create an atmosphere that will help yo
 If you are on the phone often, you may want to consider making your office sound resistant. There are many non-permanent solutions to make you office absorb sound so as to not disturb other tenants and to keep sound from bouncing on calls.
 
 Temperature is important to a more productive atmosphere. You want to be comfortable, but alert. A cooler office makes employees feel more alert and awake, while a warmer office can encourage the afternoon tiredness.
+
+
 
 3. Have the right equipment (standing desks, external monitor, laptop riser)
 
