@@ -1,0 +1,29 @@
+---
+layout: default
+---
+
+<section id="event-header">
+  <div id="lgx-events" class="lgx-events">
+    <div class="lgx-inner">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12">
+            <div class="lgx-heading">
+              <h2 class="heading-title">{{ page.title }}</h2>
+              <h4 class="heading-subtitle">{{ page.subtitle }}</h4>
+            </div>
+          </div>
+        </div> <!-- row -->
+      </div><!-- container -->
+    </div><!-- lgx-inner -->
+  </div>
+</section>
+
+<section id="event-content">
+  <div class="lgx-inner">
+    <div class="container" id="{{ page.title | downcase | remove: ' ' }}">
+      {{ content }}
+    </div> <!-- container -->
+  </div> <!-- lgx-inner -->
+</section>
+

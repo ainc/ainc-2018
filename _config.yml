@@ -70,6 +70,10 @@ collections:
     title: Events
     output: true
     permalink: /events/:title
+  recurring_events:
+    title: Recurring Events
+    output: true
+    permalink: /events/:title
   job_openings:
     title: Job Openings
     output: true
