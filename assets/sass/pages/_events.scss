@@ -530,12 +530,22 @@
 }
 /*SESSIONS END*/
 
+#event-content {
 
+  #past-events {
+    .strike {
+      text-decoration: line-through;
+    }
+  }
+}
 
+/* 5 Across Events Page */
 
-
-
-
+#5across {
+  .lgx-heading {
+    text-align: left;
+  }
+}
 
 
 

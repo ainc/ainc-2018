@@ -6,5 +6,8 @@ feature: true
 active: true
 location: Kentucky Theatre
 image: /images/uploads/5-across-2.jpg
+tags:
+  - 5across
+  - entrepreneurship
 ---
 
