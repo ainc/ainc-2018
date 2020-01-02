@@ -46,7 +46,7 @@ Temperature is important to a more productive atmosphere. You want to be comfort
 
 While finding the right office space is important, so are the items that you choose to fill it. There are numerous options for workstations nowadays and a popular choice is the option for sit-stand desks. Standing while you work can improve concentration and helps increase blood circulation. After sitting all day, give yourself a break to stand and stretch. Another option is for a treadmill desk. This has been a popular choice that allows employees to move while they work.
 
-If you have multiple windows open on your computer, a great option is to have one of two external monitors on your desk to quickly and efficiently flip through documents and emails.
+If you have multiple windows open on your computer, a great option is to have one or two external monitors on your desk to quickly and efficiently flip through documents and emails.
 
 Looking at a computer all day can strain your eyes and neck and there are many choices for laptop or monitor risers. Keeping your screen at eye level can decrease strain and will be a healthy long-term choice.
 
