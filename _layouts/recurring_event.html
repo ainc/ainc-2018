@@ -9,9 +9,26 @@ layout: default
         <div class="row">
           <div class="col-xs-12">
             <div class="lgx-heading">
+              {% if page.logo_path %}
+              <img src="{{ page.logo_path }}" alt="{{ page.title }} Logo" />
+              {% else %}
               <h2 class="heading-title">{{ page.title }}</h2>
+              {% endif %}
               <h4 class="heading-subtitle">{{ page.subtitle }}</h4>
+              
             </div>
+          </div>
+        </div> <!-- row -->
+        <div class="row">
+          <div class="col-xs-6 center-text">
+            <a class="lgx-btn" href="#">
+              Register to Attend
+            </a>
+          </div>
+          <div class="col-xs-6 center-text">
+            <a class="lgx-btn" target="_blank" href="https://docs.google.com/spreadsheet/embeddedform?formkey=dF9KeS1iZ1ZETjFKazlBN1U2emlId0E6MA">
+              Apply to Pitch
+            </a>
           </div>
         </div> <!-- row -->
       </div><!-- container -->

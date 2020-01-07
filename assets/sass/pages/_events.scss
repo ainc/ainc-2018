@@ -544,7 +544,14 @@
 #5across {
   .lgx-heading {
     text-align: left;
+    img {
+      margin-bottom: 1rem;
+    }
+    .cta-buttons {
+      // margin-top: 3rem;
+    }
   }
+
 }
 
 
