@@ -12,6 +12,24 @@ subtitle: A Pitch Competition for Kentucky Entrepreneurs
 logo_path: '/assets/img/5-across/5-across-logo.png' 
 ---
 
+<div class="lgx-inner">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-6 center-text">
+        {% assign next_event = site.events | sort: "date" | where: "tags", "5across" | limit: 1 | where_exp: "event", "event.date > site.time" %}
+        <a class="lgx-btn" target="_blank" href="https://www.eventbrite.com/e/{{ next_event.first.eventbrite_id }}">
+          Register to Attend
+        </a>
+      </div>
+      <div class="col-xs-6 center-text">
+        <a class="lgx-btn" target="_blank" href="https://docs.google.com/spreadsheet/embeddedform?formkey=dF9KeS1iZ1ZETjFKazlBN1U2emlId0E6MA">
+          Apply to Pitch
+        </a>
+      </div>
+    </div> <!-- row -->
+  </div> <!-- container -->
+</div> 
+
 <div class="row"> 
   <div class="lgx-heading">
     <h2 class="heading-title text-left">Upcoming Events</h2>
