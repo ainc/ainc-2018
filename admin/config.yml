@@ -196,11 +196,4 @@ collections:
       - {label: "Location", name: "location", widget: "string", required: false}
       - {label: "Image", name: "image", widget: "image", required: false}
 
-  - label: "Recurring Event"
-    name: "recurring_event"
-    widget: "relation"
-    collection: "Events"
-    searchFields: ["title"]
-    valueField: "title"
-    displayFields: ["title"]
 
