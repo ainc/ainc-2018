@@ -195,6 +195,6 @@ collections:
       - {label: "Active", name: "active", widget: "boolean", default: true, hint: "Is the event still active?"}
       - {label: "Location", name: "location", widget: "string", required: false}
       - {label: "Image", name: "image", widget: "image", required: false}
-      - {label: "Tags", name: "tags", widget: "list"}
+      - {label: "Tags", name: "tags", widget: "list", required: false }
 
 
