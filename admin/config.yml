@@ -81,6 +81,16 @@ collections:
             fields:
               - {label: "Name", name: "name", widget: "string"}
               - {label: "Image", name: "img_path", widget: "image", default: "images/teamalpha/placeholder-wall.jpg"}
+      
+      - label: "Bootcamp Info"
+        name: bootcamp-info"
+        file: "_data/bootcamp-info.yml"
+        fields: 
+          - {label: "Application Deadline", name: "application-date", widget: "datetime" }
+          - {label: "Prework Begins", name: "prework-date", widget: "datetime" }
+          - {label: "Program Begins", name: "program-begin-date", widget: "datetime" }
+          - {label: "Program Ends", name: "program-end-date", widget: "datetime" }
+          - {label: "Season", name: "season", options: ["Winter", "Spring" "Summer", "Fall"] }
          
       - name: "workspace"
         label: "Workspace Popups"

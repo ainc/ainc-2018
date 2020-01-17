@@ -71,8 +71,17 @@
     </div>
     <div id="faqCollapse-5" class="collapse" aria-labelledby="faqHeading-5" data-parent="#accordion">
       <div class="card-body">
-        <p>Our next Bootcamp cohort (Fall 2019, i.e. F19) has in-person classes from Monday, September 16th - Friday, December 6th. The application deadline for the F19 cohort is Friday, July 12th.</p>
-        <p>The Spring 2020 cohort runs February - May 2020, and applications for S20 are due in December.</p>
+        {% assign bootcamp = site.data.bootcamp-info %}
+        {% if bootcamp.season == "Summer" %}
+          {% capture season_short %}
+            {{ bootcamp.season | slice: 0,1 }}{{ bootcamp.application-date | date: "%Y" | slice: 2,3 }}
+          {% endcapture %}
+        {% else %}
+          {% capture season_short %}
+            {{ bootcamp.season | slice: 0 }}{{ bootcamp.application-date | date: "%Y" | slice: 2,3 }}
+          {% endcapture %}
+        {% endif %}
+        <p>Our next Bootcamp cohort ({{ bootcamp.season }} {{ bootcamp.prework-date | date: "%Y" }}, i.e. {{ season_short }}) has in-person classes from {{ bootcamp.program-begin-date | date: "%A, %B %d" }} - {{ bootcamp.program-end-date | date: "%A, %B %d" }}. The application deadline for the {{ season_short }} cohort is {{ bootcamp.application-date | date: "%A, %B %d" }}.</p>
       </div>
     </div>
   </div>
