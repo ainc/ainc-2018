@@ -73,9 +73,7 @@
       <div class="card-body">
         {% assign bootcamp = site.data.bootcamp-info %}
         {% if bootcamp.season == "Summer" %}
-          {% capture season_short %}
-            {{ bootcamp.season | slice: 0,1 }}{{ bootcamp.application-date | date: "%Y" | slice: 2,3 }}
-          {% endcapture %}
+          {% capture season_short %}{{ bootcamp.season | slice: 0,1 }}{{ bootcamp.application-date | date: "%Y" | slice: 2,3 }}{% endcapture %}
         {% else %}
           {% capture season_short %}
             {{ bootcamp.season | slice: 0 }}{{ bootcamp.application-date | date: "%Y" | slice: 2,3 }}
