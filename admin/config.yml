@@ -81,16 +81,6 @@ collections:
             fields:
               - {label: "Name", name: "name", widget: "string"}
               - {label: "Image", name: "img_path", widget: "image", default: "images/teamalpha/placeholder-wall.jpg"}
-      
-      - label: "Bootcamp Info"
-        name: bootcamp-info"
-        file: "_data/bootcamp-info.yml"
-        fields: 
-          - {label: "Application Deadline", name: "application-date", widget: "datetime" }
-          - {label: "Prework Begins", name: "prework-date", widget: "datetime" }
-          - {label: "Program Begins", name: "program-begin-date", widget: "datetime" }
-          - {label: "Program Ends", name: "program-end-date", widget: "datetime" }
-          - {label: "Season", name: "season", options: ["Winter", "Spring", "Summer", "Fall"] }
          
       - name: "workspace"
         label: "Workspace Popups"
@@ -154,27 +144,40 @@ collections:
       - {label: "Breadcrumb", name: "breadcrumb", widget: "hidden"}
       - label: "Level"
         name: "level"
-        widget: "string"
+        widget: "select"
         required: false
         multiple: true
         options: ["Beginner", "Intermediate", "Advanced"]
+      - label: "Course Category"
+        name: "course-category"
+        widget: select
+        required: false
+        options: 
+          - { label: "Upcoming Bootcamp", name: upcoming-bootcamp, hint: "The closest one" }
+          - { label: "Future Bootcamp", name: future-bootcamp, hint: "The one after the next" }
+          - { label: "Intro to Web", name: intro-to-web }
+          - { label: "Coding Club", name: coding-club }
       - {label: "Min Age", name: "min-age", widget: "string", required: false}
       - {label: "Max Age", name: "max_age", widget: "string", required: false}
       - {label: "Course Topics", name: "course_topics", widget: "string", required: false}
       - {label: "Languages", name: "languages", widget: "string", required: false}
       - label: "Class Day"
         name: "class_day"
-        widget: "string"
+        widget: "select"
         required: false
         multiple: true
-        options: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
+        options: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday', 'Mon-Fri', 'Mon, Wed', 'Tue, Thur']
       - label: "Season" 
         name: "season"
-        widget: "string"
+        widget: "select"
         required: false
         multiple: true
         options: ['Fall', 'Winter', 'Spring', 'Summer']
-      - {label: "Time", name: "time", widget: "string", required: false}
+      - {label: "Application Deadline", name: "application-date", widget: "datetime", required: false }
+      - {label: "Prework Begins", name: "prework-date", widget: "datetime", required: false }
+      - {label: "Program Begins", name: "program-begin-date", widget: "datetime", required: false }
+      - {label: "Program Ends", name: "program-end-date", widget: "datetime", required: false }
+      - {label: "Time of Class", name: "time", widget: "string", required: false}
       - label: "Age Group"
         name: "age_group" 
         widget: "select" 
@@ -183,8 +186,8 @@ collections:
           - { label: "Adult", value: "adult" }
       - {label: "Team", name: "team", widget: "hidden", default: "aincu" }
       - {label: "Open", name: "open", widget: "boolean", hint: "Is the class registration open?"}
-      - {label: "Hide?", name: "hide", widget: "boolean", hint: "Do you want the class to be hidden from the Youth Page?"}
-      - label: "Eventbrite"
+      - {label: "Hide?", name: "hide", widget: "boolean", hint: "Do you want the class to be hidden from the Page?"}
+      - label: "Eventbrite ID"
         name: "eventbrite_eid"
         widget: "string"
         hint: "Note: Only copy the number from the url, not the entire url." 
