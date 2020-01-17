@@ -90,7 +90,7 @@ collections:
           - {label: "Prework Begins", name: "prework-date", widget: "datetime" }
           - {label: "Program Begins", name: "program-begin-date", widget: "datetime" }
           - {label: "Program Ends", name: "program-end-date", widget: "datetime" }
-          - {label: "Season", name: "season", options: ["Winter", "Spring" "Summer", "Fall"] }
+          - {label: "Season", name: "season", options: ["Winter", "Spring", "Summer", "Fall"] }
          
       - name: "workspace"
         label: "Workspace Popups"
