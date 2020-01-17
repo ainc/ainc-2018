@@ -153,8 +153,8 @@ collections:
         widget: select
         required: false
         options: 
-          - { label: "Upcoming Bootcamp", name: upcoming-bootcamp, hint: "The closest one" }
-          - { label: "Future Bootcamp", name: future-bootcamp, hint: "The one after the next" }
+          - { label: "Upcoming Bootcamp (The closest one)", name: upcoming-bootcamp }
+          - { label: "Future Bootcamp (The one after the next)", name: future-bootcamp }
           - { label: "Intro to Web", name: intro-to-web }
           - { label: "Coding Club", name: coding-club }
       - {label: "Min Age", name: "min-age", widget: "string", required: false}
