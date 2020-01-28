@@ -71,15 +71,15 @@
     </div>
     <div id="faqCollapse-5" class="collapse" aria-labelledby="faqHeading-5" data-parent="#accordion">
       <div class="card-body">
-        {% assign bootcamp = site.data.bootcamp-info %}
-        {% if bootcamp.season == "Summer" %}
-          {% capture season_short %}{{ bootcamp.season | slice: 0,1 }}{{ bootcamp.application-date | date: "%Y" | slice: 2,3 }}{% endcapture %}
-        {% else %}
-          {% capture season_short %}
-            {{ bootcamp.season | slice: 0 }}{{ bootcamp.application-date | date: "%Y" | slice: 2,3 }}
-          {% endcapture %}
-        {% endif %}
-        <p>Our next Bootcamp cohort ({{ bootcamp.season }} {{ bootcamp.prework-date | date: "%Y" }}, i.e. {{ season_short }}) has in-person classes from {{ bootcamp.program-begin-date | date: "%A, %B %d" }} - {{ bootcamp.program-end-date | date: "%A, %B %d" }}. The application deadline for the {{ season_short }} cohort is {{ bootcamp.application-date | date: "%A, %B %d" }}.</p>
+        {% assign bootcamp = site.courses | where: "course-category", "bootcamp" %}
+        {% for class in bootcamp limit: 1 %}
+          {% if class.season == "Summer" %}
+            {% capture season_short %}{{ class.season | slice: 0,1 }}{{ class.application-date | date: "%Y" | slice: 2,3 }}{% endcapture %}
+          {% else %}
+            {% capture season_short %}{{ class.season | slice: 0 }}{{ class.application-date | date: "%Y" | slice: 2,3 }}{% endcapture %}
+          {% endif %}
+          <p>Our next Bootcamp cohort ({{ class.season }} {{ class.prework-date | date: "%Y" }}, i.e. {{ season_short }}) has in-person classes from {{ class.program-begin-date | date: "%A, %B %d" }} - {{ class.program-end-date | date: "%A, %B %d" }}. The application deadline for the {{ season_short }} cohort is {{ class.application-date | date: "%A, %B %d" }}.</p>
+        {% endfor %}
       </div>
     </div>
   </div>

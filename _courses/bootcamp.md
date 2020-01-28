@@ -6,7 +6,18 @@ description: Become A Professional Web Developer
 image: /images/uploads/5-across-logo.png
 layout: default
 level: 'Intermediate'
-class_day: Tuesdays and Thursdays
+course-category: bootcamp
+course_topics: Programming Fundamentals, Front-End Web Development
+languages: HTML, CSS, JavaScript, CLI, Git
+season: Fall
+class_day: Mon-Fri
+application-date: 2020-07-17T17:00:53.429Z
+prework-date: 2020-08-24T17:00:53.429Z
+program-begin-date: 2020-09-21T17:00:53.429Z
+program-end-date: 2020-12-11T17:00:53.429Z
+time: 8am - 5pm
+open: true
+hide: false
 age_group: adults
 team: aincu
 open: true
