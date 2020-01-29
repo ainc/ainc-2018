@@ -1,13 +1,16 @@
 ---
 title: Web Developer Bootcamp
-permalink: "/bootcamp"
-breadcrumb: "/learn/adults/bootcamp"
-layout: default
 description: Become A Professional Web Developer
 image: /images/uploads/codelogo.png
+layout: default
+permalink: /bootcamp
+page_id: bootcamp
+team: aincu
+breadcrumb: /learn/adults/bootcamp
 level:
   - Advanced
   - Intermediate
+course-category: bootcamp
 course_topics: 'Programming Fundamentals, Front-End Web Development'
 languages: 'HTML, CSS, JavaScript, CLI, Git'
 class_day:
@@ -23,8 +26,6 @@ age_group: adult
 open: true
 hide: false
 path: /bootcamp
-page_id: bootcamp
-team: aincu
 ---
 <section id="bootcamp-header">
   <div class="lgx-inner">
