@@ -37,11 +37,11 @@ Zoho Forms Note :
         {% assign bootcamp = site.courses | where: "course-category", "bootcamp" %}
         {% for class in bootcamp limit: 1%}
             {% if class.season == "Summer" %}
-                {% capture season_short %}{{ class.season | slice: 0,1 }}{{ class.application-date | date: "%Y" | slice: 2,3 }}{% endcapture %}
+                {% capture season_short %}{{ class.season.first | slice: 0,1 }}{{ class.application-date | date: "%Y" | slice: 2,3 }}{% endcapture %}
             {% else %}
-                {% capture season_short %}{{ class.season | slice: 0 }}{{ class.application-date | date: "%Y" | slice: 2,3 }}{% endcapture %}
+                {% capture season_short %}{{ class.season.first | slice: 0 }}{{ class.application-date | date: "%Y" | slice: 2,3 }}{% endcapture %}
             {% endif %}
-            <small>Application Deadline for cohort {{ season_short }}: <b>{{ class.application-date | date: "%A, %B %d" }}</b></small>
+            <small>Application Deadline for cohort {{ class.season.first }} '{{ class.application-date | date: "%Y" | slice: 2,3 }} ({{ season_short }}): <b>{{ class.application-date | date: "%A, %B %d" }}</b></small>
         {% endfor %}
     </legend>
     

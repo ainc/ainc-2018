@@ -74,11 +74,11 @@
         {% assign bootcamp = site.courses | where: "course-category", "bootcamp" %}
         {% for class in bootcamp limit: 1 %}
           {% if class.season == "Summer" %}
-            {% capture season_short %}{{ class.season | slice: 0,1 }}{{ class.application-date | date: "%Y" | slice: 2,3 }}{% endcapture %}
+            {% capture season_short %}{{ class.season.first | slice: 0,1 }}{{ class.application-date | date: "%Y" | slice: 2,3 }}{% endcapture %}
           {% else %}
-            {% capture season_short %}{{ class.season | slice: 0 }}{{ class.application-date | date: "%Y" | slice: 2,3 }}{% endcapture %}
+            {% capture season_short %}{{ class.season.first | slice: 0 }}{{ class.application-date | date: "%Y" | slice: 2,3 }}{% endcapture %}
           {% endif %}
-          <p>Our next Bootcamp cohort ({{ class.season }} {{ class.prework-date | date: "%Y" }}, i.e. {{ season_short }}) has in-person classes from {{ class.program-begin-date | date: "%A, %B %d" }} - {{ class.program-end-date | date: "%A, %B %d" }}. The application deadline for the {{ season_short }} cohort is {{ class.application-date | date: "%A, %B %d" }}.</p>
+          <p>Our next Bootcamp cohort ({{ class.season.first }} {{ class.prework-date | date: "%Y" }}, i.e. {{ season_short }}) has in-person classes from {{ class.program-begin-date | date: "%A, %B %d" }} - {{ class.program-end-date | date: "%A, %B %d" }}. The application deadline for the {{ season_short }} cohort is {{ class.application-date | date: "%A, %B %d" }}.</p>
         {% endfor %}
       </div>
     </div>
