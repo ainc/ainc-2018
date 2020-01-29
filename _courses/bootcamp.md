@@ -1,5 +1,7 @@
 ---
 title: Web Developer Bootcamp
+permalink: "/bootcamp"
+breadcrumb: "/learn/adults/bootcamp"
 description: Become A Professional Web Developer
 image: /images/uploads/codelogo.png
 level:
