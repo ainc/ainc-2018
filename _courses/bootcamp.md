@@ -23,6 +23,8 @@ age_group: adult
 open: true
 hide: false
 path: /bootcamp
+page_id: bootcamp
+team: aincu
 ---
 <section id="bootcamp-header">
   <div class="lgx-inner">

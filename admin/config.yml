@@ -141,6 +141,8 @@ collections:
       - {label: "Image", name: "image", widget: "image", required: false}
       - {label: "Layout", name: "layout", widget: "hidden", default: "course"}
       - {label: "Permalink", name: "permalink", widget: "hidden"}
+      - {name: "page_id", widget: "hidden" }
+      - {name: "team", widget: "hidden" }
       - {label: "Breadcrumb", name: "breadcrumb", widget: "hidden"}
       - label: "Level"
         name: "level"
