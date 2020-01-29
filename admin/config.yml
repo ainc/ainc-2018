@@ -155,9 +155,9 @@ collections:
         widget: select
         required: false
         options: 
-          - { label: "Bootcamp", name: bootcamp }
-          - { label: "Intro to Web", name: intro-to-web }
-          - { label: "Coding Club", name: coding-club }
+          - { label: "Bootcamp", value: bootcamp }
+          - { label: "Intro to Web", value: intro-to-web }
+          - { label: "Coding Club", value: coding-club }
       - {label: "Min Age", name: "min-age", widget: "string", required: false}
       - {label: "Max Age", name: "max_age", widget: "string", required: false}
       - {label: "Course Topics", name: "course_topics", widget: "string", required: false}
