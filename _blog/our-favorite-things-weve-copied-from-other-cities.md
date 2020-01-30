@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Our Favorite Things We've Copied From Other Cities
-date: 2020-01-30T21:34:33.486Z
+date: 2020-01-29T21:34:33.486Z
 header_img: /images/uploads/Austin_2019-70.jpg
 author_img: /images/uploads/Keith_M_Zoom.jpg
 author: Keith McMunn
