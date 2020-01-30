@@ -52,6 +52,43 @@ page_id: venturelabs
   </div>
 </section>
 
+<section id="testimonials">
+  <div class="lgx-inner">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+          <h3 class="text-center">Hear From Our Customers</h3>
+          <div class="testimonial">
+            <div class="quoteLoop" >
+              {% for testimonial in site.data.venture-labs-testimonials.items %}
+              <blockquote class="quote" data-quote-time="7500">
+                {{ testimonial.content }}
+                <small>{{ testimonial.name }}, {{ testimonial.title }}, {{ testimonial.company }}</small>
+              </blockquote>
+            {% endfor %}
+            </div>
+          </div> 
+        </div> <!-- col -->
+      </div><!-- row -->
+      <div class="row row-eq-height">
+        <div class="col-xs-6 col-sm-3">
+          <img class="flex-img-center" src="/assets/img/venture-labs/chase-bank-logo.png" alt="Chase Bank Logo" />
+        </div>
+        <div class="col-xs-6 col-sm-3">
+          <img class="flex-img-center" src="/assets/img/venture-labs/lexington-legends-logo.png" alt="Chase Bank Logo" />
+        </div>
+        <div class="col-xs-6 col-sm-3">
+          <img class="flex-img-center" src="/assets/img/venture-labs/lex-library-logo.png" alt="Chase Bank Logo" />
+        </div>
+        <div class="col-xs-6 col-sm-3">
+          <img class="flex-img-center" src="/assets/img/venture-labs/gray-logo.png" alt="Chase Bank Logo" />
+        </div>
+      </div>
+    </div><!-- container -->
+  </div> <!-- lgx-inner -->
+
+</section>
+
 <section id="contact">
   <div class="lgx-inner">
     <div class="container">
