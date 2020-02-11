@@ -11,8 +11,18 @@ level:
   - Advanced
   - Intermediate
 course-category: bootcamp
-course_topics: 'Programming Fundamentals, Front-End Web Development'
-languages: 'HTML, CSS, JavaScript, CLI, Git'
+course_topics: 'CS and Programming Fundamentals, Full-Stack Web Development, Tech Job Skills'
+technologies:
+  - HTML
+  - CSS
+  - JavaScript
+  - PHP
+  - SQL
+  - Laravel
+  - React
+  - Git
+  - Agile
+  - Google Cloud
 class_day:
   - Mon-Fri
 season:
@@ -25,7 +35,7 @@ time: 8am - 5pm
 age_group: adult
 open: true
 hide: false
-path: /bootcamp
+rel_path: /bootcamp
 page_id: bootcamp
 team: aincu
 ---

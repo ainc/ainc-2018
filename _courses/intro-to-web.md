@@ -6,10 +6,26 @@ layout: course
 permalink: /intro-to-web-development
 breadcrumb: /learn/adults/intro-to-web-development
 age_group: adult
+season:
+  - Spring
+course_topics: 'Programming Fundamentals, Front-End Web Development'
+technologies:
+  - HTML
+  - CSS
+  - Javascript
+application-date: 2020-02-17T22:30:04.530Z
+prework-date: ''
+program-begin-date: 2020-02-17T22:30:00.000Z
+program-end-date: 2020-04-15T00:00:04.609Z
+class_day:
+  - Mon, Wed
+time: '6:30 - 8:30 PM'
+course-category: intro
 team: aincu
 open: true
 hide: false
 eventbrite_eid: '75013215547'
+rel_path: '/intro-to-web-development'
 ---
 
 {% include coding-course-buttons.html %}
@@ -27,21 +43,20 @@ Classes are two nights per week, two hours per night, for nine weeks. In additio
 ## Curriculum
 
 1. Developer Tools and Environment Setup
-2. Command Line Interface, Git and GitHub
-3. HTML and How the Web Works
-4. Styling pages with CSS and Bootstrap
-5. Templates and the DRY Principle
-6. JavaScript (variables, conditionals, loops, arrays, objects, functions)
-7. Interactive JavaScript and the DOM
-8. Getting Data from APIs
-9. Final Project
+2. HTML and How the Web Works
+3. Styling pages with CSS and Bootstrap
+4. Templates and the DRY Principle
+5. JavaScript (variables, conditionals, loops, arrays, objects, functions)
+6. Interactive JavaScript and the DOM
+7. Getting Data from APIs
+8. Final Project
 
 <br>
 
 <div class="row">
-  <div class="col-xs-4"><img src="/images/aincu/logos/logo-html.png" alt="HTML logo" class="img-responsive center-block"></div>
-  <div class="col-xs-4"><img src="/images/aincu/logos/logo-css.png" alt="CSS logo" class="img-responsive center-block"></div>
-  <div class="col-xs-4"><img src="/images/aincu/logos/logo-js.png" alt="JavaScript logo" class="img-responsive center-block"></div>
+  <div class="col-xs-4"><img src="assets/img/bootcamp/languages/html.png" alt="HTML logo" class="img-responsive center-block"></div>
+  <div class="col-xs-4"><img src="assets/img/bootcamp/languages/css.png" alt="CSS logo" class="img-responsive center-block"></div>
+  <div class="col-xs-4"><img src="assets/img/bootcamp/languages/javascript.png" alt="JavaScript logo" class="img-responsive center-block"></div>
 </div>
 
 <br>

@@ -157,12 +157,12 @@ collections:
         required: false
         options: 
           - { label: "Bootcamp", value: bootcamp }
-          - { label: "Intro to Web", value: intro-to-web }
+          - { label: "Intro to...", value: intro }
           - { label: "Coding Club", value: coding-club }
       - {label: "Min Age", name: "min-age", widget: "string", required: false}
       - {label: "Max Age", name: "max_age", widget: "string", required: false}
       - {label: "Course Topics", name: "course_topics", widget: "string", required: false}
-      - {label: "Languages", name: "languages", widget: "string", required: false}
+      - {label: "Technologies", name: "technologies", widget: "list", required: false}
       - label: "Class Day"
         name: "class_day"
         widget: "select"
@@ -195,7 +195,7 @@ collections:
         hint: "Note: Only copy the number from the url, not the entire url." 
         required: false
       - label: "Alternate Path"
-        name: "path"
+        name: "rel_path"
         widget: "string"
         hint: "Note: Only use this if there is no Eventbrite Id and a page exists for the class. Also, only copy everything after awesomeinc.org"
       - {label: "Body", name: "body", widget: "markdown"}

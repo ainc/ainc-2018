@@ -104,16 +104,16 @@ team: aincu
                     <td>HTML, CSS, JavaScript, CLI, Git, Jekyll, SQL, PHP, Laravel, Vue, Heroku</td>
                     <td>February 25 - May 20<br>Mon - Fri<br>8am - 5pm</td>
                     <td>Career switchers</td>
-                    <td><a href="{{ site.data.routes.bootcamp }}" class="btn btn-default center" role="button">Details &amp; Application</a></td>
+                    <td><a href="{{ site.data.routes.bootcamp }}" class="btn btn-default center" role="button" disabled>Applications Closed</a></td>
                   </tr>
                   <tr>
                     {% assign bootcamp = site.courses | where: "course-category", "bootcamp" %}
                     {% for class in bootcamp limit: 1 %}
                       <td><a href="{{ site.data.routes.bootcamp }}"><img alt="Web Developer Bootcamp" data-src="/images/logos/aincu-bootcamp-logo.png" class="img-responsive lazyload"></a><br>{{ class.season.first }} {{ class.prework-date | date: "%Y" }}</td>
                       <td>Full-Time<br>4 weeks remote<br>12 weeks in-person</td>
-                      <td>CS and Programming Fundamentals, Full-Stack Web Development, Tech Job Skills</td>
-                      <td>HTML, CSS, JavaScript, CLI, Git, Jekyll, SQL, PHP, Laravel, Vue, Heroku</td>
-                      <td>{{ class.program-begin-date | date: "%b %d" }} - {{ class.program-end-date | date: "%b %d" }}<br>Mon - Fri<br>8am - 5pm</td>
+                      <td>{{ class.course_topics }}</td>
+                      <td>{{ class.technologies | join: ", " }}</td>
+                      <td>{{ class.program-begin-date | date: "%b %d" }} - {{ class.program-end-date | date: "%b %d" }}<br>{{ class.class_day }}<br>{{ class.time }}</td>
                       <td>Career switchers</td>
                       <td><a href="{{ site.data.routes.bootcamp }}" class="btn btn-default center" role="button">Details &amp; Application</a></td>
                     {% endfor %}
@@ -161,24 +161,23 @@ team: aincu
                   </tr>
                 </thead>
                 <tbody>
+                  {% assign intro_classes = site.courses | where: "course-category", "intro" %}
+                  {% for class in intro_classes %}
                   <tr>
-                    <td>Intro to Web Development<br /><em>Fall 2019</em></td>
+                    <td>{{ class.title }} <br/> <em>{{ class.season.first }} {{ class.application-date | date: "%Y" }}</em></td>
                     <td>Part-Time (evenings)<br>9 Weeks</td>
-                    <td>Programming Fundamentals, Front-End Web Development</td>
-                    <td>HTML, CSS, JavaScript, CLI, Git</td>
-                    <td>Dates TBD<br>Mondays and Wednesdays<br>6:30-8:30pm</td>
+                    <td>{{ class.course_topics }}</td>
+                    <td>{{ class.technologies | join: ", " }}</td>
+                    <td>{{ class.program-begin-date | date: "%b %d" }} - {{ class.program-end-date | date: "%b %d" }}<br>{{ class.class_day }}<br>{{ class.time }}</td>
                     <td>Anyone new to programming, future Bootcamp students</td>
-                    <td><a href="/intro-to-web-development/" class="btn btn-default center disabled" role="button">Registration Closed</a></td>
+                    {% if class.rel_path %}
+                      {% assign url = class.rel_path %}  
+                    {% else %}
+                      {% assign url = "https://www.eventbrite.com/e/" | append: class.eventbrite_eid %}
+                    {% endif %}
+                    <td><a href="{{ url }}" class="btn btn-default center" role="button">Details & Registration</a></td>
                   </tr>
-                  <tr>
-                    <td>Intro to Web Development<br/><em>Spring 2020</em></td>
-                    <td>Part-Time (evenings)<br>9 Weeks</td>
-                    <td>Programming Fundamentals, Front-End Web Development</td>
-                    <td>HTML, CSS, JavaScript, CLI, Git</td>
-                    <td>February 17 - April 15<br>Mondays and Wednesdays<br>6:30-8:30pm</td>
-                    <td>Anyone new to programming, future Bootcamp students</td>
-                    <td><a href="/intro-to-web-development/" class="btn btn-default center" role="button">Details &amp; Registration</a></td>
-                  </tr>
+                  {% endfor %}
                 </tbody>
               </table>
             </div><!--//.TABLE RESPONSIVE-->

@@ -1,5 +1,13 @@
 ---
 title: Intro to Design
+permalink: /intro-to-design
+breadcrumb: /learn/adults/intro-to-design
+layout: course
+age_group: adult
+course_topics: 'Design Fundamentals, Web Design'
+technologies: 
+  - Photoshop
+  - Illustrator
 description: >-
   Creating nice looking materials to help market your company can be difficult
   to achieve on your own. If you’re in a role where you are always needing a new
@@ -18,20 +26,19 @@ team: aincu
 level:
   - Beginner
 class_day:
-  - Tuesday
-  - Thursday
+  - Tue, Thur
 season:
   - Spring
 application-date: 2020-03-10T22:30:04.530Z
 prework-date: ''
 program-begin-date: 2020-03-10T22:30:00.000Z
 program-end-date: 2020-05-01T00:00:04.609Z
-time: 'Tuesdays and Thursdays 6:30 - 8:00 PM'
+time: '6:30 - 8:00 PM'
+course-category: intro
 age_group: adult
 open: true
 hide: false
 eventbrite_eid: '86588381179'
-path: N/a
 ---
 Curriculum:
 
