@@ -1,5 +1,5 @@
 ---
-title: Awesome Inc Assistant Director
+title: Awesome Inc Administrative Assistant
 email: careers@awesomeinc.org
 team: Awesome Inc
 manager: Brian
