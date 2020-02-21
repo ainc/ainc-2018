@@ -8,11 +8,14 @@ $venturelabs-blue-color: #0090D1;
     background-size: cover;
     background-position-y: 50%;
     height: 80vh;
+    @include screen-md {
+      height: 60vh;
+    }
     .lgx-heading-area {
       img {
         width: 300px;
         @include screen-tablet-max {
-          width: 160px;
+          width: 220px;
         }
       }
       .heading-subtitle {
@@ -20,6 +23,16 @@ $venturelabs-blue-color: #0090D1;
         @include font-size(27);
         font-weight: 600;
         margin: 4rem 40vh;
+        @include screen-md {
+          margin: 2rem 10vh;
+        }
+        @include screen-sm {
+          margin: 2rem 10vh;
+        }
+        @include screen-xs {
+          margin: 1rem 4rem;
+          @include font-size(23);
+        }
       }
     }
   }
@@ -27,6 +40,15 @@ $venturelabs-blue-color: #0090D1;
   #get-hyped {
     position: relative;
     height: 90vh;
+    @include screen-md {
+      height: 50vh;
+    }
+    @include screen-sm {
+      height: 65vh;
+    }
+    @include screen-xs {
+      height: 75vh;
+    }
     #bg-container {
       background: url('/assets/img/venture-labs/green-wave-bg.png');
       background-size: cover;
@@ -34,6 +56,15 @@ $venturelabs-blue-color: #0090D1;
       position: absolute;
       top: -32vh;
       width: 100vw;
+      @include screen-md {
+        height: 80vh;
+      }
+      @include screen-sm {
+        height: 85vh;
+      }
+      @include screen-xs {
+        height: 100vh;
+      }
     }
     h3, p {
       color: white;
@@ -56,6 +87,12 @@ $venturelabs-blue-color: #0090D1;
     }
     blockquote {
       height: 250px; // Hardcode height so that quotes don't move other elements
+      @include screen-md {
+        height: 300px;
+      }
+      @include screen-xs {
+        @include font-size(12);
+      }
     }
   }
 
