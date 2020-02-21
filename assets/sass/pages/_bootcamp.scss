@@ -55,6 +55,9 @@
         margin-bottom: 1rem;
       }
     }
+    form .lgx-btn {
+      float: none; // TODO: Fix this... If float: left, then button will float outside of modal
+    }
   }
 
   #answer-honestly {
