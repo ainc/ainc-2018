@@ -8,6 +8,9 @@ $venturelabs-blue-color: #0090D1;
     background-size: cover;
     background-position-y: 50%;
     height: 80vh;
+    @media (max-height: 700px) {
+      height: 90vh;
+    }
     @include screen-md {
       height: 60vh;
     }
