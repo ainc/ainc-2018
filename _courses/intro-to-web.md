@@ -15,11 +15,11 @@ technologies:
 class_day:
   - 'Mon, Wed'
 season:
-  - Spring
-application-date: 2020-02-17T22:30:04.530Z
+  - Summer
+application-date: 2020-06-15T21:30:04.530Z
 prework-date: ''
-program-begin-date: 2020-02-17T22:30:00.000Z
-program-end-date: 2020-04-15T00:00:04.609Z
+program-begin-date: 2020-06-15T22:30:00.000Z
+program-end-date: 2020-08-13T00:00:04.609Z
 time: '6:30 - 8:30 PM'
 age_group: adult
 open: true
