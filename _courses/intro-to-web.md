@@ -4,28 +4,28 @@ description: Your First Step in Learning To Code
 image: /images/uploads/intro-to-web-dev.png
 layout: course
 permalink: /intro-to-web-development
+team: aincu
 breadcrumb: /learn/adults/intro-to-web-development
-age_group: adult
-season:
-  - Spring
+course-category: intro
 course_topics: 'Programming Fundamentals, Front-End Web Development'
 technologies:
   - HTML
   - CSS
   - Javascript
+class_day:
+  - 'Mon, Wed'
+season:
+  - Spring
 application-date: 2020-02-17T22:30:04.530Z
 prework-date: ''
 program-begin-date: 2020-02-17T22:30:00.000Z
 program-end-date: 2020-04-15T00:00:04.609Z
-class_day:
-  - Mon, Wed
 time: '6:30 - 8:30 PM'
-course-category: intro
-team: aincu
+age_group: adult
 open: true
 hide: false
-eventbrite_eid: '75013215547'
-rel_path: '/intro-to-web-development'
+eventbrite_eid: '96473511871'
+rel_path: /intro-to-web-development
 ---
 
 {% include coding-course-buttons.html %}
