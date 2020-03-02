@@ -232,7 +232,7 @@ team: aincu
     <div class="container">
       <div class="row">
         <img src="/assets/img/bootcamp/job-guaranteed.png" class="center-block" alt="Graduates will land a job, guaranteed" />
-        <p class="center-text">We only succeed when you succeed. We guarantee that all students who complete the 16-week Bootcamp program and ophole the job search requirements will receive a job offer within six months of their graduation date, or we'll refund your tuition. See our Student Agreement for details.</p>
+        <p class="center-text">We only succeed when you succeed. We guarantee that all students who complete the 16-week Bootcamp program and uphold the job search requirements will receive a job offer within six months of their graduation date, or we'll refund your tuition. See our Student Agreement for details.</p>
       </div> <!-- row -->
     </div> <!-- container -->
   </div> <!-- lgx-inner-->
@@ -440,7 +440,7 @@ team: aincu
       <div class="row">
         <div class="vcenter">
           <div class="lgx-heading">
-            <h2 class="heading-title">Still unsure? Here's everyone who took this same leap and has't looked back!</h2>
+            <h2 class="heading-title">Still unsure? Here's everyone who took this same leap and hasn't looked back!</h2>
             <a class="lgx-btn lgx-btn-small-text" href="/alumni">Meet Alumni</a>
           </div>
         </div>
