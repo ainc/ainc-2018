@@ -71,6 +71,20 @@ items:
     rule: '#22 go big or don''t be my friend'
     song: Can't You See - Zac Brown Band & Kid Rock (Live Version)
     team: Project Coordinator
+  - fact: '-'
+    img_path: /images/uploads/maggiecollofello-wall.jpg
+    name: Maggie Collofello
+    person: '-'
+    rule: '-'
+    song: '-'
+    team: Marketing
+  - fact: '-'
+    img_path: /images/uploads/lbe-wall.jpeg
+    name: Liz Brown Evans
+    person: '-'
+    rule: '-'
+    song: '-'
+    team: '_'
   - fact: >-
       Basketball will always be my first love. I could talk basketball for days,
       and in another life I am a WNBA player.
@@ -80,17 +94,13 @@ items:
     rule: '#76 no excuses, play like a champion'
     song: 'Wake Up In The Sky -  Gucci Mane, Bruno Mars, Kodak Black'
     team: Development
-  - fact: I make really good cinnamon toast
-    img_path: /images/uploads/jakewall-min.jpg
-    name: Jake Spencer
-    person: >-
-      My buddy Spencer Given who is always the life of the party and a great
-      friend
-    rule: >-
-      #29 no postgaming in the fourth quarter, or within 100 yds of relevant
-      parties
-    song: Parked out by the Lake
-    team: Design
+  - fact: I used to ride horses and competed in hunter-jumper circuits
+    img_path: /images/uploads/samhartman-wall.jpg
+    name: Samuel Hartman
+    person: Guy Fieri
+    rule: '#17 Bring the fun'
+    song: Disco Inferno
+    team: Development
   - fact: 'I like my water/all drinks with no ice '
     img_path: /images/uploads/heatherwall-min.jpg
     name: Heather Seaton
@@ -114,3 +124,38 @@ items:
     rule: '-'
     song: '#4 Always do something awesome over something not awesome'
     team: Development
+  - fact: '-'
+    img_path: /images/uploads/oliviahornback-wall.jpg
+    name: Olivia Hornback
+    person: 'Sigourney Weaver'
+    rule: '#26'
+    song: ' "You''re welcome" - Jordan Fisher'
+    team: Development
+  - fact: I have 60 second cousins
+    img_path: /images/uploads/maryrose-wall.jpg
+    name: Maryrose Ramsey
+    person: Coach Becky
+    rule: 'Rule #76: no excuses, play like a champion'
+    song: Mr Brightside
+    team: Events & Marketing
+  - fact: '-'
+    img_path: /images/uploads/erinrenfro-wall.jpg
+    name: Erin Renfro
+    person: '-'
+    rule: '-'
+    song: '-'
+    team: Design Team
+  - fact: I am left-handed
+    img_path: /images/uploads/jacobcollins-wall.jpg
+    name: Jacob Collins
+    person: Lionel Messi
+    rule: 'Rule #76: no excuses, play like a champion'
+    song: No hard feelings -The Avett Brothers
+    team: Events & Marketing
+  - fact: '-'
+    img_path: /images/uploads/stephenruh-wall.jpg
+    name: Stephen Ruh
+    person: '-'
+    rule: '-'
+    song: '-'
+    team: Events & Marketing

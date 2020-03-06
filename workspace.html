@@ -40,69 +40,35 @@ page_id: workspace
             <h3>See the Space</h3>
             
           </div>
-          <div class="col-xs-6 col-md-4">
-            <div class="lgx-video-area">
-              <div class="video-thumbnail">
-                <a class="icon" data-toggle="modal" data-target="#see-space-video-modal" tab-index="-1">
-                  <img class="opaque" src="/images/banners/awesome-inc-space-banner.jpg">
-                  <i class="fa fa-play " aria-hidden="true"></i>
-                </a>
-              </div>  
-              <img src="/images/icons/arrow.png" id="video-arrow">
-              {% include modal-form.html initiative='tour' style='img-button' %}
-              <!-- Video Modal-->
-              <div id="see-space-video-modal" class="modal fade lgx-modal">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-<style>
-    .bs-example{
-    	margin: 545px;
-    }
-    .modal-content iframe{
-        margin: 0 auto;
-        display: block;
-    }
-</style>
-<script>
-$(document).ready(function(){
-    /* Get iframe src attribute value i.e. YouTube video url
-    and store it in a variable */
-    var url = $("#workspaceVideo").attr('src');
-    
-    /* Assign empty url value to the iframe src attribute when
-    modal hide, which stop the video playing */
-    $("#myModal").on('hide.bs.modal', function(){
-        $("#workspaceVideo").attr('src', '');
-    });
-    
-    /* Assign the initially stored url back to the iframe src
-    attribute when modal is displayed again */
-    $("#myModal").on('show.bs.modal', function(){
-        $("#workspaceVideo").attr('src', url);
-    });
-});
-</script>
-</head>
-<body>
-<div class="bs-example">
-    <!-- Button HTML -->
-    <a href="#myModal" class="btn btn-lg btn-primary" data-toggle="modal">See our space</a>
-    <!-- Modal HTML -->
-    <div id="myModal" class="modal fade">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                </div>
-                <div class="modal-body">
-                    <iframe id="workspaceVideo" width="560" height="315" src="https://www.youtube.com/embed/0YgGYadr7rk" frameborder="0" allowfullscreen></iframe>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>     
-</body>
+ <div class="col-xs-6 col-md-4">
+   <div class="lgx-video-area">
+     <div class="video-thumbnail">
+       <a class="icon" data-toggle="modal" data-target="#see-space-video-modal" tab-index="-1">
+         <img class="opaque" src="/images/banners/awesome-inc-space-banner.jpg">
+         <i class="fa fa-play " aria-hidden="true"></i>
+       </a>
+     </div>
+         <img src="/images/icons/arrow.png" id="video-arrow">
+         {% include modal-form.html initiative='tour' style='img-button' %}
+         <!-- Video Modal-->
+         <div id="see-space-video-modal" class="lgx-modal modal fade">
+           <body>
+             <div class="container">
+               <!-- Modal -->
+                   <!-- Modal content-->
+                   <div class="modal-content">
+                     <div class="modal-header">
+                       <button type="button" class="close" data-dismiss="modal">X</button>
+                     </div>
+                     <div class="modal-body">
+                       <iframe width="1110" height="450" src="https://www.youtube.com/embed/0YgGYadr7rk" frameboarder="0" allowfullscreen></iframe>
+                     </div>
+                   </div>
+
+                 </div>
+               </div>
+             </div>
+         </body>
 </section>
 <section>
   <div id="become-a-member">
