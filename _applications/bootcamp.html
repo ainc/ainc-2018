@@ -18,17 +18,17 @@ Zoho Forms Note :
    - It is important that you test the modified form before going live.
 {% endcomment %}
 
+<!-- Connection between Zoho & Google Adwords -->
+<script type="text/javascript" src='https://forms.zoho.com/js/zf_gclid.js'></script>
+
 <div id="crmWebToEntityForm">
-   <form action="https://crm.zoho.com/crm/WebToLeadForm" name="WebToLeads1947581000001439009" method="POST" onsubmit="return checkMandatory()" accept-charset="UTF-8">
+    <form action='https://forms.zohopublic.com/virtualoffice9155/form/BootcampApplication/formperma/H7RiVteQOsrAh4ytlS0k9R-UO5McXKE5_FvNKrYe6JU/htmlRecords/submit' name='form' id='form' method='POST' accept-charset='UTF-8' enctype='multipart/form-data'>
 
 	 <!-- Do not remove this code. -->
-     <input type="text" style="display:none;" name="xnQsjsdp" value="f9f8e074403ef47daf3c5c41e25168a8c80d89350975dda34915963e2ad7ed89">
-     <input type="hidden" name="zc_gad" id="zc_gad" value="">
-     <input type="text" style="display:none;" name="xmIwtLD" value="36de0141405c9ef2e1f0f24b9f65b317e6fe9f68ce8cea150b006a1a440ce379">
-     <input type="text" style="display:none;"  name="actionType" value="TGVhZHM=">
-     <input type="text" style="display:none;" name="returnURL" value="https&#x3a;&#x2f;&#x2f;www.awesomeinc.org&#x2f;confirmation&#x2f;bootcamp&#x2f;" >
-     <input type="text" style="display:none;" id="ldeskuid" name="ldeskuid">
-     <input type="text" style="display:none;" id="LDTuvid" name="LDTuvid">
+    <input type="hidden" name="zf_referrer_name" value=""><!-- To Track referrals , place the referrer name within the " " in the above hidden input field -->
+    <input type="hidden" name="zf_redirect_url" value=""><!-- To redirect to a specific page after record submission , place the respective url within the " " in the above hidden input field -->
+    <input type="hidden" name="zc_gad" value=""><!-- If GCLID is enabled in Zoho CRM Integration, click details of AdWords Ads will be pushed to Zoho CRM -->
+
       <!-- Do not remove this code. -->
     <legend>
         Fill out this form to start your application process
@@ -47,29 +47,32 @@ Zoho Forms Note :
     
     <div class="form-group">
     	<label for="First Name">First Name</label>
-        <input type="text" maxlength="40" name="First Name" placeholder="First Name" class="form-control input-lg" required>
+        <input type="text" fieldType=7 maxlength="255" name="Name_First" placeholder="First Name" class="form-control input-lg" required>
     </div>
     <div class="form-group">
     	<label for="Last Name">Last Name</label>
-        <input type="text" maxlength="80" name="Last Name" placeholder="Last Name" class="form-control input-lg" required>
+        <input type="text" fieldType=7 maxlength="255" name="Name_Last" placeholder="Last Name" class="form-control input-lg" required>
     </div>
     <div class="form-group">
         <label for="Email">Email</label>
-        <input type="email" maxlength="100" name="Email" placeholder="Email Address" class="form-control input-lg" required>
+        <input type="email" fieldType=9 maxlength="100" name="Email" placeholder="Email Address" class="form-control input-lg" required>
     </div>
     <div class="form-group">
     	<label for="Phone">Phone</label>
-        <input type="tel" maxlength="30" name="Phone" placeholder="Phone Number" class="form-control input-lg" required>
+        <input type="text" compname="PhoneNumber" name="PhoneNumber_countrycode" phoneFormat="1" isCountryCodeEnabled=false maxlength="20" value="" fieldType=11 id="international_PhoneNumber_countrycode" class="form-control input-lg"/>
     </div>
     <div class="form-group">
-    	<label for="Lead Source">How did you find out about Awesome Inc U?</label>
-		<select class="form-control input-lg" name="Lead Source" required>
-			<option value="-None-">-None-</option>
+    	<label for="Lead Source">How did you find out about the Bootcamp?</label>
+		<select class="form-control input-lg" name="Radio" required>
+            <option value="-Select-">-Select-</option>
 			<option value="Advertisement">Advertisement</option>
 			<option value="News&#x20;Article">News Article</option>
 			<option value="Signage&#x20;&#x2f;&#x20;Building">Signage &#x2f; Building</option>
 			<option value="Google&#x20;Search">Google Search</option>
-			<option value="Referral&#x20;&#x2f;&#x20;Word&#x20;of&#x20;Mouth">Referral &#x2f; Word of Mouth</option>
+            <option value="Referral&#x20;&#x2f;&#x20;Word&#x20;of&#x20;Mouth">Referral &#x2f; Word of Mouth</option>
+            <option value="Event">Event</option>
+            <option value="Facebook">Facebook</option>
+            <option value="Other">Other</option>
 		</select>
     </div>
     <div class="form-group">
@@ -82,49 +85,6 @@ Zoho Forms Note :
 		<option selected value="Bootcamp">Bootcamp</option>
 		</select>
 	</div>
-	<input type="submit" value="Submit" class="btn btn-default" >
-	<script>
-        var mndFileds=new Array('First Name','Last Name','Email','Phone','Lead Source');
-        var fldLangVal=new Array('First Name','Last Name','Email','Phone','Lead Source');
-         var name='';
-         var email='';
- 
-        function checkMandatory() {
-         for(i=0;i<mndFileds.length;i++) {
-           var fieldObj=document.forms['WebToLeads1947581000001439009'][mndFileds[i]];
-           if(fieldObj) {
-             if (((fieldObj.value).replace(/^\s+|\s+$/g, '')).length==0) {
-              if(fieldObj.type =='file')
-                 { 
-                  alert('Please select a file to upload.'); 
-                  fieldObj.focus(); 
-                  return false;
-                 } 
-             alert(fldLangVal[i] +' cannot be empty.'); 
-                       fieldObj.focus();
-                       return false;
-             }  else if(fieldObj.nodeName=='SELECT') {
-                      if(fieldObj.options[fieldObj.selectedIndex].value=='-None-') {
-                 alert(fldLangVal[i] +' cannot be none.'); 
-                 fieldObj.focus();
-                 return false;
-                }
-             } else if(fieldObj.type =='checkbox'){
-                 if(fieldObj.checked == false){
-                 alert('Please accept  '+fldLangVal[i]);
-                 fieldObj.focus();
-                 return false;
-                } 
-              } 
-              try {
-                  if(fieldObj.name == 'Last Name') {
-                 name = fieldObj.value;
-                    }
-             } catch (e) {}
-             }
-         }
-         trackVisitor();
-     }
- </script><script id="VisitorTracking">var $zoho= $zoho || {};$zoho.salesiq = $zoho.salesiq || {widgetcode:'77464144f0307e5d43de560d9806d2fdd98dbf1a8dba0fb4a61a9630fe7d7d5c1e92507c13fa0fac71e5ac4fb3822ca1', values:{},ready:function(){$zoho.salesiq.floatbutton.visible('hide');}};var d=document;s=d.createElement('script');s.type='text/javascript';s.id='zsiqscript';s.defer=true;s.src='https://salesiq.zoho.com/widget';t=d.getElementsByTagName('script')[0];t.parentNode.insertBefore(s,t);function trackVisitor(){try{if($zoho){var LDTuvidObj = document.forms['WebToLeads1947581000001439009']['LDTuvid'];if(LDTuvidObj){LDTuvidObj.value = $zoho.salesiq.visitor.uniqueid();}var firstnameObj = document.forms['WebToLeads1947581000001439009']['First Name'];if(firstnameObj){name = firstnameObj.value +' '+name;}$zoho.salesiq.visitor.name(name);var emailObj = document.forms['WebToLeads1947581000001439009']['Email'];if(emailObj){email = emailObj.value;$zoho.salesiq.visitor.email(email);}}} catch(e){}}</script>
+    <input type="submit" value="Submit" class="btn btn-default" >
 	</form>
 </div>
