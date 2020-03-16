@@ -5,4 +5,5 @@ eventbrite_id: '94896890153'
 feature: false
 active: true
 location: 'Awesome Inc, 348 East Main Street Lexington, KY 40508'
+image: /images/uploads/codelogo.png
 ---
