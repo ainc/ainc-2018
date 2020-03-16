@@ -1,6 +1,6 @@
 ---
 company: Nursing CE Central
-date: Jan 1st 20
+date: Feb 8th 20
 logo: /images/uploads/nursing_ce_central_logo.png
 website: 'https://nursingcecentral.com/'
 ---
