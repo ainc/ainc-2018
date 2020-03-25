@@ -71,13 +71,13 @@ items:
     rule: '#22 go big or don''t be my friend'
     song: Can't You See - Zac Brown Band & Kid Rock (Live Version)
     team: Project Coordinator
-  - fact: '-'
+  - fact: I went to 3 colleges, lived in 2 different states and graduated in 4 years
     img_path: /images/uploads/maggiecollofello-wall.jpg
     name: Maggie Collofello
-    person: '-'
-    rule: '-'
-    song: '-'
-    team: Marketing
+    person: My mom
+    rule: '#17 Bring the fun'
+    song: 'Don''t Stop by Fleetwood Mac'
+    team: Director of Workspace and Events
   - fact: '-'
     img_path: /images/uploads/lbe-wall.jpeg
     name: Liz Brown Evans
@@ -117,14 +117,14 @@ items:
       important enough to have other stuff going on
     song: '"Last Nite" - The Strokes'
     team: Design
-  - fact: '-'
+  - fact: I love rock climbing
     img_path: /images/uploads/willshapiro-wall-min.jpg
     name: Will Shapiro
-    person: '-'
-    rule: '-'
-    song: '#4 Always do something awesome over something not awesome'
+    person: Barack Obama
+    rule: '#17 bring the fun'
+    song: Day and Night by Kid Cudi
     team: Development
-  - fact: '-'
+  - fact: I made a game while on a train from Chicago to San Francisco
     img_path: /images/uploads/oliviahornback-wall.jpg
     name: Olivia Hornback
     person: 'Sigourney Weaver'
@@ -138,12 +138,12 @@ items:
     rule: 'Rule #76: no excuses, play like a champion'
     song: Mr Brightside
     team: Events & Marketing
-  - fact: '-'
+  - fact: I was born on Friday the 13th
     img_path: /images/uploads/erinrenfro-wall.jpg
-    name: Erin Renfro
-    person: '-'
-    rule: '-'
-    song: '-'
+    name: Erin Renfroe
+    person: Jenna Marbles
+    rule: '#1: all rules are meant to be bent or broken'
+    song: The Love Club by Lorde
     team: Design Team
   - fact: I am left-handed
     img_path: /images/uploads/jacobcollins-wall.jpg
