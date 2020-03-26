@@ -47,18 +47,21 @@ items:
     img_path: will-mcgill
     linkedin: 'https://www.linkedin.com/in/will-mcgill-759596125/'
     name: William McGill
+    position: Big Ass Fans
     website: 'https://willmcgill.rocks/'
   - cohort: f19
     github: 'https://www.github.com/toddtrivisonno'
     img_path: todd-trivisonno
     linkedin: 'https://www.linkedin.com/in/todd-trivisonno-80a84b155/'
     name: Todd Trivisonno
+    position: Avail
     website: 'https://toddtrivisonno.github.io/'
   - cohort: f19
     github: 'https://www.github.com/anchormansam'
     img_path: sam-wheeling
     linkedin: 'https://www.linkedin.com/in/samuel-wheeling-01121513a/'
     name: Sam Wheeling
+    position: BlueFrame
     website: 'https://anchormansam.github.io/my-blog/'
   - cohort: f19
     github: 'http://github.com/rachyoder'

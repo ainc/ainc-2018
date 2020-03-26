@@ -40,52 +40,52 @@ page_id: workspace
             <h3>See the Space</h3>
             
           </div>
-          <div class="col-xs-6 col-md-4">
-            <div class="lgx-video-area">
-              <div class="video-thumbnail">
-                <a class="icon" data-toggle="modal" data-target="#see-space-video-modal" tab-index="-1">
-                  <img class="opaque" src="/images/banners/awesome-inc-space-banner.jpg">
-                  <i class="fa fa-play " aria-hidden="true"></i>
-                </a>
-              </div>  
-              <img src="/images/icons/arrow.png" id="video-arrow">
-              {% include modal-form.html initiative='tour' style='img-button' %}
-              <!-- Video Modal-->
-              <div id="see-space-video-modal" class="modal fade lgx-modal">
-                <div class="modal-dialog">
-                  <div class="modal-content">
-                    <div class="modal-header">
-                      <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-                    </div>
-                    <div class="modal-body" data-embed="0YgGYadr7rk">
-                      <iframe id="modalvideo" src="https://www.youtube.com/embed/0YgGYadr7rk" allowfullscreen></iframe>
-                    </div>
-                </div>
-              </div> <!-- //.Modal-->
-            </div><!--//.VIDEO-AREA-->
-            
-          </div><!--//.COL-->
-        </div><!--//.ROW-->
-      </div><!-- //.CONTAINER -->
-    </div><!-- //.INNER -->
-  </div><!-- //.SPOTLIGHT --> 
-</section>
+ <div class="col-xs-6 col-md-4">
+   <div class="lgx-video-area">
+     <div class="video-thumbnail">
+       <a class="icon" data-toggle="modal" data-target="#see-space-video-modal" tab-index="-1">
+         <img class="opaque" src="/images/banners/awesome-inc-space-banner.jpg">
+         <i class="fa fa-play " aria-hidden="true"></i>
+       </a>
+     </div>
+         <img src="/images/icons/arrow.png" id="video-arrow">
+         {% include modal-form.html initiative='tour' style='img-button' %}
+         <!-- Video Modal-->
+         <div id="see-space-video-modal" class="lgx-modal modal fade">
+           <body>
+             <div class="container">
+               <!-- Modal -->
+                   <!-- Modal content-->
+                   <div class="modal-content">
+                     <div class="modal-header">
+                       <button type="button" class="close" data-dismiss="modal">X</button>
+                     </div>
+                     <div class="modal-body">
+                       <iframe width="1110" height="450" src="https://www.youtube.com/embed/0YgGYadr7rk" frameboarder="0" allowfullscreen></iframe>
+                     </div>
+                   </div>
 
+                 </div>
+               </div>
+             </div>
+         </body>
+</section>
 <section>
   <div id="become-a-member">
-    <div class="lgx-inner">
+    <div class="lgx-inner border-svg">
       <div class="container">
-        <div class="row row-eq-height">
-          <svg id="left-border" class="border mobile-hide" viewBox="0 0 1 100" preserveAspectRatio="none">
-            <line x1="0.5" y1="0" x2="0.5" y2="100"/>
-          </svg>
-          <svg id="bottom-border" class="border mobile-hide" viewBox="0 0 100 1" preserveAspectRatio="none">
-            <line x1="0" y1="0.5" x2="100" y2="0.5"/>
-          </svg>
-          <svg id="right-border" class="border mobile-hide" viewBox="0 0 100 1" preserveAspectRatio="none">
-            <line x1="0" y1="0.5" x2="100" y2="0.5"/>
-          </svg>
-          <div class="lgx-heading-area border-svg">
+       <div class="row row-eq-height">
+         <svg id="left-border" class="border mobile-hide" width="300" height="600" preserveAspectRatio="xMidYMid">
+           <line x1="20" y1="20" x2="20" y2="50"/></line>
+         </svg>
+         <svg id="bottom-border" class="border mobile-hide" viewBox="0 0 1 100" preserveAspectRatio="none">
+           <line x1="0" y1="0.5" x2="100" y2="0.5"/></line>
+         </svg>
+         <svg id="right-border" class="border mobile-hide" viewBox="50 50 10 1" preserveAspectRatio="xMidYMid">
+           <line x1="1" y1="0.5" x2="100" y2="0.5"></line>
+         </svg>
+       </div>
+         <div class="lgx-heading-area border">
             <div class="lgx-heading">
               <h2 class="heading-title">
                 <span>Become a Member</span>
@@ -118,7 +118,7 @@ page_id: workspace
             <h6>Space to suit your team</h6>
             <h6>Up To 20 Conference Room Hours Per Month</h6>
             <div class="abs-btn long-text"><a class="lgx-btn" href="#" data-toggle="modal" data-target="#member-form-modal"><span>Starting at</span> $400/Month</a></div>
-          </div>
+           </div>
           {% for modal_data in site.data.workspace-modal.items %}
             {% include workspace-modal.html member=modal_data.short_title %}
           {% endfor %}
@@ -138,7 +138,7 @@ page_id: workspace
           <div class="lgx-heading-area">
             <div class="lgx-heading">
               <h2 class="heading-title">
-                Membership Amenities
+               <br><br> Membership Amenities
               </h2>
             </div>
           </div>
@@ -224,3 +224,4 @@ page_id: workspace
     {% include modal-form.html style='dotted' initiative='tour' link-text='Schedule a Tour'%}
   </div> 
 </section>
+

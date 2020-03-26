@@ -4,12 +4,12 @@
 
     for (var i = 0; i < youtube.length; i++) {
 
-        var source = "https://img.youtube.com/vi/" + youtube[1].dataset.embed + "/sddefault.jpg";
+        var source = "https://img.youtube.com/vi/" + youtube[0].dataset.embed + "/sddefault.jpg";
 
         var image = new Image();
         image.src = source;
         image.addEventListener("load", function () {
-            youtube[1].appendChild(image);
+            youtube[0].appendChild(image);
         }(i));
 
         youtube[i].addEventListener("click", function () {

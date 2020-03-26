@@ -6,4 +6,3 @@ gem 'jekyll-sitemap'
 
 gem 'jekyll-assets'
 gem 'jekyll-redirect-from'
-
