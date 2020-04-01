@@ -78,13 +78,13 @@ items:
     rule: '#17 Bring the fun'
     song: Don't Stop by Fleetwood Mac
     team: Director of Workspace and Events
-  - fact: '-'
+  - fact: I met my husband while running the Bourbon Chase
     img_path: /images/uploads/lbe-wall.jpeg
     name: Liz Brown Evans
-    person: '-'
-    rule: '-'
-    song: '-'
-    team: _
+    person: my husband Eric or Dolly Parton
+    rule: '#34'
+    song: Time by John Lucas
+    team: Marketing
   - fact: I’m the best in the world at catching food in my mouth.
     img_path: /images/uploads/stephenruh-wall.jpg
     name: Stephen Ruh
