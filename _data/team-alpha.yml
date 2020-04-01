@@ -115,15 +115,6 @@ items:
     rule: '#26 don''t let stupid things keep you from doing awesome things'
     song: Making Luv To The Beat by WATCH THE DUCK
     team: Events & Marketing
-  - fact: I lived in South Korea for a year
-    img_path: /images/uploads/zachwall-min.jpg
-    name: Zach Woodlridge
-    person: Anthony Bourdain
-    rule: >-
-      #10  2-3 minutes late is okay, it shows that you are punctual but
-      important enough to have other stuff going on
-    song: '"Last Nite" - The Strokes'
-    team: Design
   - fact: I love rock climbing
     img_path: /images/uploads/willshapiro-wall-min.jpg
     name: Will Shapiro
