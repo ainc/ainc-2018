@@ -71,12 +71,12 @@ items:
     rule: '#22 go big or don''t be my friend'
     song: Can't You See - Zac Brown Band & Kid Rock (Live Version)
     team: Project Coordinator
-  - fact: I went to 3 colleges, lived in 2 different states and graduated in 4 years
+  - fact: 'I went to 3 colleges, lived in 2 different states and graduated in 4 years'
     img_path: /images/uploads/maggiecollofello-wall.jpg
     name: Maggie Collofello
     person: My mom
     rule: '#17 Bring the fun'
-    song: 'Don''t Stop by Fleetwood Mac'
+    song: Don't Stop by Fleetwood Mac
     team: Director of Workspace and Events
   - fact: '-'
     img_path: /images/uploads/lbe-wall.jpeg
@@ -84,7 +84,14 @@ items:
     person: '-'
     rule: '-'
     song: '-'
-    team: '_'
+    team: _
+  - fact: I’m the best in the world at catching food in my mouth.
+    img_path: /images/uploads/stephenruh-wall.jpg
+    name: Stephen Ruh
+    person: My wife Liz
+    rule: 'Rule #4 Bring the fun'
+    song: Ivory Road by King Charles
+    team: Events & Marketing
   - fact: >-
       Basketball will always be my first love. I could talk basketball for days,
       and in another life I am a WNBA player.
@@ -127,7 +134,7 @@ items:
   - fact: I made a game while on a train from Chicago to San Francisco
     img_path: /images/uploads/oliviahornback-wall.jpg
     name: Olivia Hornback
-    person: 'Sigourney Weaver'
+    person: Sigourney Weaver
     rule: '#26'
     song: ' "You''re welcome" - Jordan Fisher'
     team: Development
@@ -151,11 +158,4 @@ items:
     person: Lionel Messi
     rule: 'Rule #76: no excuses, play like a champion'
     song: No hard feelings -The Avett Brothers
-    team: Events & Marketing
-  - fact: '-'
-    img_path: /images/uploads/stephenruh-wall.jpg
-    name: Stephen Ruh
-    person: '-'
-    rule: '-'
-    song: '-'
     team: Events & Marketing
