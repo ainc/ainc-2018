@@ -30,6 +30,31 @@ logo_path: '/assets/img/5-across/5-across-logo.png'
   </div> <!-- container -->
 </div> 
 
+<div class="container icons">
+			<div class="row">
+				<div class="col-md-1">
+				</div>
+				<div class="col-md-2 col-xs-6">
+					<img src="/assets/img/5-across/5-pitches-red-text.png">
+				</div>
+				<div class="col-md-2 col-xs-6">
+					<img src="/assets/img/5-across/5-min-red-text.png">
+				</div>
+				<div class="col-md-2 col-xs-6">
+					<img src="/assets/img/5-across/500-red-text.png">
+				</div>
+				<div class="col-md-2 col-xs-6">
+					<img src="/assets/img/5-across/5-pm-red-text.png">
+				</div>
+				<div class="col-md-2 col-xs-12">
+					<img src="/assets/img/5-across/5-entry-red-text.png">
+				</div>
+				<div class="col-md-1">
+				</div>
+			</div>
+				<!-- /col -->
+		</div><!-- /container -->
+
 <div class="row"> 
   <div class="lgx-heading">
     <h2 class="heading-title text-left">Upcoming Events</h2>
@@ -79,6 +104,8 @@ logo_path: '/assets/img/5-across/5-across-logo.png'
   {% endif %}
   <hr>
 </div> <!-- row -->
+
+<br><br>
 
 
 <div class="row"> 
@@ -151,7 +178,7 @@ logo_path: '/assets/img/5-across/5-across-logo.png'
   <div class="lgx-heading">
     <h2 class="heading-title text-left">Recent Blog Posts</h2>
   </div>
-  {% assign recent_blogs = site.blog | sort: 'date' %}
+  {% assign recent_blogs = site.blog | sort: 'date'| reverse %}
   {% for post in recent_blogs limit: 3 %}
 
   <div class="col-xs-6 col-sm-4">
