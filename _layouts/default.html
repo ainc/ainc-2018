@@ -11,7 +11,9 @@
 	<body class="page page-template">
 		<div class="lgx-container "></div>
 		<header>
+			{% include covid-announcement.html %}
 			{% include nav.html %}
+			
 		</header>
 
 		<main class="main" id='{% if page.page_id %}{{ page.page_id }}{% else %}{{ page.title | remove:" " | downcase }}{% endif %}' aria-label="Content">

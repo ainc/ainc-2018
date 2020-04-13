@@ -17,9 +17,11 @@ logo_path: '/assets/img/5-across/5-across-logo.png'
     <div class="row">
       <div class="col-xs-6 center-text">
         {% assign next_event = site.events | sort: "date" | where: "tags", "5across" | limit: 1 | where_exp: "event", "event.date > site.time" %}
-        <a class="lgx-btn" target="_blank" href="https://www.eventbrite.com/e/{{ next_event.first.eventbrite_id }}">
-          Register to Attend
-        </a>
+        <div class="tooltip-wrapper disabled" data-title="Due to COVID-19, this event is cancelled. More information coming soon.">
+          <button class="lgx-btn btn disabled" role="button" aria-disabled="true" target="_blank" href="https://www.eventbrite.com/e/{{ next_event.first.eventbrite_id }}">
+            Register to Attend
+          </button>
+        </div>  
       </div>
       <div class="col-xs-6 center-text">
         <a class="lgx-btn" target="_blank" href="https://docs.google.com/spreadsheet/embeddedform?formkey=dF9KeS1iZ1ZETjFKazlBN1U2emlId0E6MA">
