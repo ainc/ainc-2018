@@ -34,7 +34,7 @@ Seems simple enough. Let's get started!
 
 ## Step One: The Setup
 
-First, download this [**Unity Pong assets file**](/files/unity-pong-assets.zip){:target="_blank"}. It contains images and other assets that we'll be using in this tutorial.
+First, download this [**Unity Pong assets file**](/assets/unity-pong-assets.zip){:target="_blank"}. It contains images and other assets that we'll be using in this tutorial.
 
 Now we can start setting up our project! Open Unity and follow these steps:
 
