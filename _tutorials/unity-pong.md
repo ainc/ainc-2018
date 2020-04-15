@@ -56,7 +56,7 @@ Once the project has been created, you should see a 2D grid appear in the Scene 
 Setting up Unity in 2D mode does several things. First off, it sets up our game camera so that everything is viewed from a 2D perspective. It also tells Unity to import images as Sprites instead of Textures. You'll see how this helps us in just a bit.
 
 
-Remember that [Unity Pong assets file](/files/unity-pong-assets.zip){:target="_blank"} that we downloaded? Now's a great time to unzip that file. Once you do, you'll see a folder called `unitypong-assets`, which will contain a set of images, fonts, and other assets that we'll be using today. Select all of these files, then <kbd>click + drag</kbd> them into the Project pane at the bottom of your Unity window. It should now look something like this:
+Remember that [Unity Pong assets file](/assets/unity-pong-assets.zip){:target="_blank"} that we downloaded? Now's a great time to unzip that file. Once you do, you'll see a folder called `unitypong-assets`, which will contain a set of images, fonts, and other assets that we'll be using today. Select all of these files, then <kbd>click + drag</kbd> them into the Project pane at the bottom of your Unity window. It should now look something like this:
 
 ![Background image selected in Project pane](/images/tutorials/unity-pong/background_project_pane.png)
 
