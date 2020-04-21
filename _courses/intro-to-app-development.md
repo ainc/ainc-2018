@@ -1,5 +1,5 @@
 ---
-title: Intro to App Development
+title: Mobile Apps With Flutter
 image: /images/uploads/intro-to-app-pic.jpeg
 layout: course
 team: aincu
