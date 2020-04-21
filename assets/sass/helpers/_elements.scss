@@ -703,7 +703,7 @@ div.dotted-svg > svg {
 
 svg.triangle-bg {
   position: absolute;
-  top: 0;
+  top: 50px; // TODO: Change to 0 when alert bar isn't present
   width: 100%;
   height: 60rem;
   z-index: -1;
