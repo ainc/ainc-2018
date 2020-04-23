@@ -67,10 +67,9 @@ You can see Apple’s reasoning behind the different keys and how to make your o
 Now onto my top 5 keyboard shortcuts:
 
 1. Switch Applications: Cmd ⌘ + Tab ⇥
-
+   * You can reverse direction of switching: Cmd ⌘ + Shift ⇧ + Tab ⇥
 ![alt_text](/images/uploads/switch-applications.gif "image_tooltip")
 
-* You can reverse direction of switching: Cmd ⌘ + Shift ⇧ + Tab ⇥
 
 2. Switch Windows (of the same application): Cmd ⌘ + ` (That’s a tilde, the key left of the #1)
 3. Switch tabs in a browser: Control ⌃ + Tab ⇥
