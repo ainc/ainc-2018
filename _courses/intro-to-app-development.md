@@ -3,6 +3,8 @@ title: Mobile Apps With Flutter
 image: /images/uploads/intro-to-app-pic.jpeg
 layout: course
 team: aincu
+permalink: /mobile-apps-with-flutter
+breadcrumb: /learn/adults/mobile-apps-with-flutter
 level:
   - Intermediate
 course-category: intro
