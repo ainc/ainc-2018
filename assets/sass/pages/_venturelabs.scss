@@ -71,7 +71,11 @@ $venturelabs-blue-color: #0090D1;
       #vl-content {
         margin-top: 3rem;
         .lgx-blog-single {
-          height: 500px;
+          img {
+            height: 225px;
+            object-position: inherit;
+          }
+          height: 425px;
           .text-area {
             p, h3 {
               color: $black-color;
