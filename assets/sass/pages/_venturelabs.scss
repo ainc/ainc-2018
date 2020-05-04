@@ -26,6 +26,9 @@ $venturelabs-blue-color: #0090D1;
         @include font-size(27);
         font-weight: 600;
         margin: 4rem 40vh;
+        @include screen-lg {
+          margin: 4rem 30vh;
+        }
         @include screen-md {
           margin: 2rem 10vh;
         }
@@ -44,7 +47,7 @@ $venturelabs-blue-color: #0090D1;
     position: relative;
     height: 90vh;
     @include screen-md {
-      height: 50vh;
+      height: 125vh;
     }
     @include screen-sm {
       height: 65vh;
@@ -60,7 +63,7 @@ $venturelabs-blue-color: #0090D1;
       top: -32vh;
       width: 100vw;
       @include screen-md {
-        height: 80vh;
+        height: 160vh;
       }
       @include screen-sm {
         height: 85vh;
@@ -71,11 +74,14 @@ $venturelabs-blue-color: #0090D1;
       #vl-content {
         margin-top: 3rem;
         .lgx-blog-single {
+          height: 425px;
+          @include screen-lg {
+            height: 400px;
+          }
           img {
             height: 225px;
             object-position: inherit;
           }
-          height: 425px;
           .text-area {
             p, h3 {
               color: $black-color;
@@ -83,6 +89,9 @@ $venturelabs-blue-color: #0090D1;
             h3 {
               margin-bottom: 2rem;
               font-weight: 600;
+              @include screen-lg {
+                @include font-size(18);
+              }
             }
           }
         }
@@ -100,6 +109,9 @@ $venturelabs-blue-color: #0090D1;
   }
 
   #testimonials {
+    .lgx-inner {
+      margin-top: 10rem;
+    }
     h3 {
       color: $venturelabs-color;
       font-weight: 600;
