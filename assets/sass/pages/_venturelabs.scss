@@ -50,10 +50,10 @@ $venturelabs-blue-color: #0090D1;
       height: 125vh;
     }
     @include screen-sm {
-      height: 65vh;
+      height: 135vh;
     }
     @include screen-xs {
-      height: 75vh;
+      height: 255vh;
     }
     #bg-container {
       background: url('/assets/img/venture-labs/green-wave-bg.png');
@@ -66,10 +66,10 @@ $venturelabs-blue-color: #0090D1;
         height: 160vh;
       }
       @include screen-sm {
-        height: 85vh;
+        height: 175vh;
       }
       @include screen-xs {
-        height: 100vh;
+        height: 300vh;
       }
       #vl-content {
         margin-top: 3rem;
@@ -77,6 +77,9 @@ $venturelabs-blue-color: #0090D1;
           height: 425px;
           @include screen-lg {
             height: 400px;
+          }
+          @include screen-xs {
+            height: 375px;
           }
           img {
             height: 225px;
