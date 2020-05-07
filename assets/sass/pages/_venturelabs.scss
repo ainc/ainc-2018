@@ -45,31 +45,31 @@ $venturelabs-blue-color: #0090D1;
 
   #get-hyped {
     position: relative;
-    height: 90vh;
+    height: 900px;
     @include screen-md {
-      height: 125vh;
+      height: 1250px;
     }
     @include screen-sm {
-      height: 135vh;
+      height: 1350px;
     }
     @include screen-xs {
-      height: 255vh;
+      height: 2550px;
     }
     #bg-container {
       background: url('/assets/img/venture-labs/green-wave-bg.png');
       background-size: cover;
-      height: 135vh;
+      height: 1350px;
       position: absolute;
       top: -32vh;
       width: 100vw;
       @include screen-md {
-        height: 160vh;
+        height: 1600px;
       }
       @include screen-sm {
-        height: 175vh;
+        height: 1750px;
       }
       @include screen-xs {
-        height: 300vh;
+        height: 3000px;
       }
       #vl-content {
         margin-top: 3rem;
