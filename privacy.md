@@ -88,7 +88,7 @@ If you have any questions about this privacy policy or about our treatment of yo
 	Attn: Webmaster
 	348 E. Main St.
 	Lexington, KY 40507
-	Phone: (502) 209-9960
+	Phone: (859) 960-4600
 	Email: info@awesomeinc.org
 
 Last updated Sept 22, 2019.
