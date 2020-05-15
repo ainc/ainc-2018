@@ -4,6 +4,7 @@ https://www.awesomeinc.org/culture-book.pdf    https://www.awesomeinc.org/assets
 
 # Awesome Inc U Redirects
 
+https://awesomeincu.com/     https://www.awesomeinc.org/learn  301
 https://awesomeincu.com/*     https://www.awesomeinc.org/:splat  301
 https://www.awesomeincu.com   https://www.awesomeinc.org/learn  301
 https://www.awesomeincu.com/tutorials/*   https://www.awesomeinc.org/tutorials/:splat   301
