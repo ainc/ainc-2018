@@ -28,6 +28,8 @@ All WFH foundational tips from above still apply here, but then there are more a
 * Time zones: If you are in a different timezone, try to overlap with office work hours at least half a day.
 
   * Remember when you have that 5:30am or 11pm meeting because you’re in a whacky timezone, that working remotely is a privilege and you should do what you can to make your coworkers back in KY not feel the burden of it.
+
+
 * “Offline” working: This is something that I have done quite a bit when I know that I will be traveling (on a train or plane) or likely out of service (camped in my van outside of Yosemite) during a work day. I always let people know about this at least the day before and do any necessary prep work to make sure that I can get my goals done that day without internet. And guess what… I am usually really productive on these days!
 
 **Tips for finding reliable wifi**
