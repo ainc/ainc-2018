@@ -37,7 +37,7 @@ Our part-time, evening and weekend course for adults, covers introductory conten
 
 
 
-Intro to App does NOT follow a traditional class setting; it's based on Agile Learning practices, which is more efficient, saving you time and money! This Course will consist of three (3) two-week Sprints*, utilizing Google Hangouts, Slack, Trello, and GitHub to coordinate Sprint goals and projects. Prior programming experience is required. Previous experience with Github and Javascript is preferred.
+Mobile Apps with Flutter does NOT follow a traditional class setting; it's based on Agile Learning practices, which is more efficient, saving you time and money! This Course will consist of three (3) two-week Sprints*, utilizing Google Hangouts, Slack, Trello, and GitHub to coordinate Sprint goals and projects. Prior programming experience is required. Previous experience with Github and Javascript is preferred.
 
 
 
