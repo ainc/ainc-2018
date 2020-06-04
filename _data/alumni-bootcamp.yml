@@ -1,4 +1,84 @@
 items:
+  -
+    name: Denis Gatotho
+    website: https://denisgat.github.io
+    github: https://github.com/denisgat
+    linkedin: https://www.linkedin.com/in/denis-gatotho-a3b421194/
+    img_path: denis-gatotho
+    position: null
+    cohort: s20
+  -
+    name: Cody Herbst
+    website: https://react-blog-33774.web.app
+    github: https://github.com/codyherbst
+    linkedin: https://www.linkedin.com/in/cody-herbst-365146162/
+    img_path: cody-herbst
+    position: null
+    cohort: s20
+  -
+    name: Colin McCulloch
+    website: https://ColinMcC76.github.io
+    github: https://github.com/ColinMcC76/
+    linkedin: https://www.linkedin.com/in/colin-mucculloch-2844a31a2/
+    img_path: colin-mcculloch
+    position: null
+    cohort: s20
+  -
+    name: Jonathan Mefford
+    website: https://jonathandmefford.github.io/
+    github: https://github.com/JonathanDMefford/
+    linkedin: https://www.linkedin.com/in/jonathan-mefford-85237b1a2/
+    img_path: jonathan-mefford
+    position: null
+    cohort: s20
+  -
+    name: Allison Miller
+    website: https://armiller-blog.web.app/
+    github: https://github.com/AllisonRMiller/
+    linkedin: https://www.linkedin.com/in/armiller-lexky/
+    img_path: allison-miller
+    position: null
+    cohort: s20
+  -
+    name: Hayden Nesbit
+    website: https://react-blog-4f714.web.app/
+    github: https://github.com/hayden-nesbit/
+    linkedin: https://www.linkedin.com/in/hayden-nesbit-b54a7485/
+    img_path: hayden-nesbit
+    position: null
+    cohort: s20
+  -
+    name: David Oliver
+    website: https://davo1984.github.io/
+    github: https://github.com/davo1984/
+    linkedin: https://www.linkedin.com/in/davidooliver1984/
+    img_path: david-oliver
+    position: null
+    cohort: s20
+  -
+    name: Tim Rogers
+    website: https://ainc-bootcamp-blog.web.app/
+    github: https://github.com/tkrogers3/
+    linkedin: https://www.linkedin.com/in/timothykrogers
+    img_path: tim-rogers
+    position: null
+    cohort: s20
+  -
+    name: Kate Sivy
+    website: https://blog-8fadb.web.app/
+    github: https://github.com/katesivy
+    linkedin: https://www.linkedin.com/in/kate-sivy-7104791a2
+    img_path: kate-sivy
+    position: null
+    cohort: s20
+  -
+    name: Kelly Wilson
+    website: https://kellylwilson.github.io/
+    github: https://github.com/kellylwilson
+    linkedin: https://www.linkedin.com/in/kelly-wilson-a873781a2/
+    img_path: kelly-wilson
+    position: null
+    cohort: s20
   - cohort: f19
     github: 'https://github.com/taylorakin'
     img_path: taylor-akin
@@ -17,6 +97,7 @@ items:
     img_path: robbie-gay
     linkedin: 'https://www.linkedin.com/in/robbie-gay-3a38aa72/'
     name: Robbie Gay
+    position: VetData
     website: 'https://robbiegay.github.io/'
   - cohort: f19
     github: 'https://github.com/Wildercat'
@@ -35,6 +116,7 @@ items:
     img_path: david-joyce
     linkedin: 'https://www.linkedin.com/in/david-joyce-ky/'
     name: David Joyce
+    position: DecoArt
     website: 'https://dmjoyce951.github.io/'
   - cohort: f19
     github: 'https://github.com/Leozas'
