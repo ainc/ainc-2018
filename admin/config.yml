@@ -49,70 +49,70 @@ collections:
       - {label: "Company", name: "company", widget: "string"}
       - {label: "LinkedIn", name: "linkedin", widget: "string", required: false}
 
-  - label: "Data"
-    name: "data"
-    editor:
-      preview: false
-    files:
-      - label: "Team Alpha"
-        name: "team-alpha"
-        file: "_data/team-alpha.yml"
-        fields:
-          - label: "Team Alpha Members"
-            label_singular: "Team Alpha Member"
-            name: "items"
-            widget: "list"
-            fields:
-            - {label: "Name", name: "name", widget: "string"}
-            - {label: "Rule", name: "rule", widget: "string"}
-            - {label: "Song", name: "song", widget: "string"}
-            - {label: "Person", name: "person", widget: "string"}
-            - {label: "Fact", name: "fact", widget: "string"}
-            - {label: "Image", name: "img_path", widget: "image", default: "images/teamalpha/placeholder-wall.jpg"}
-            - {label: "Team", name: "team", widget: "string"}
+  # - label: "Data"
+  #   name: "data"
+  #   editor:
+  #     preview: false
+  #   files:
+  #     - label: "Team Alpha"
+  #       name: "team-alpha"
+  #       file: "_data/team-alpha.yml"
+  #       fields:
+  #         - label: "Team Alpha Members"
+  #           label_singular: "Team Alpha Member"
+  #           name: "items"
+  #           widget: "list"
+  #           fields:
+  #           - {label: "Name", name: "name", widget: "string"}
+  #           - {label: "Rule", name: "rule", widget: "string"}
+  #           - {label: "Song", name: "song", widget: "string"}
+  #           - {label: "Person", name: "person", widget: "string"}
+  #           - {label: "Fact", name: "fact", widget: "string"}
+  #           - {label: "Image", name: "img_path", widget: "image", default: "images/teamalpha/placeholder-wall.jpg"}
+  #           - {label: "Team", name: "team", widget: "string"}
 
-      - label: "Awesome Inc Internal Team"
-        name: "internal-team"
-        file: "_data/ainc-team.yml"
-        fields:
-          - label: "Awesome Inc Internal Team Members"
-            label_singular: "Awesome Inc Internal Team Member"
-            name: "items"
-            widget: "list"
-            fields:
-              - {label: "Name", name: "name", widget: "string"}
-              - {label: "Image", name: "img_path", widget: "image", default: "images/teamalpha/placeholder-wall.jpg"}
+  #     - label: "Awesome Inc Internal Team"
+  #       name: "internal-team"
+  #       file: "_data/ainc-team.yml"
+  #       fields:
+  #         - label: "Awesome Inc Internal Team Members"
+  #           label_singular: "Awesome Inc Internal Team Member"
+  #           name: "items"
+  #           widget: "list"
+  #           fields:
+  #             - {label: "Name", name: "name", widget: "string"}
+  #             - {label: "Image", name: "img_path", widget: "image", default: "images/teamalpha/placeholder-wall.jpg"}
          
-      - name: "workspace"
-        label: "Workspace Popups"
-        file: "_data/workspace-modal.yml"
-        description: "Images and copy for workspace member modals"
-        fields:
-          - label: "Awesome Inc Workspace Member Popups"
-            label_singular: "Awesome Inc Workspace Popup"
-            name: "items"
-            widget: "list"
-            fields:
-              - {label: "Title", name: "title", widget: "string"}
-              - {label: "Image", name: "image", widget: "image"}
-              - {label: "Price", name: "price", widget: "string"}
-              - {label: "Body", name: "body", widget: "markdown"}
-      - label: "Bootcamp Alumni"
-        name: "bootcamp-alumni"
-        file: "_data/alumni-bootcamp.yml"
-        fields:
-          - label: "Alumni"
-            name: "items"
-            widget: "list"
-            fields:
-              - {label: "Full Name", name: "name", widget: "string"}
-              - {label: "Portfolio Website", name: "website", widget: "string", required: false}
-              - {label: "GitHub Link", name: "github", widget: "string", required: false}
-              - {label: "LinkedIn Link", name: "linkedin", widget: "string", required: false}
-              - {label: "Picture", name: "image", widget: "image", required: false}
-              - {label: "Image Path", name: "img_path", widget: "hidden", default: "placeholder-wall.jpg"} # Hidden widget: https://www.netlifycms.org/docs/widgets/hidden/
-              - {label: "Position", name: "position", widget: "string", required: false}
-              - {label: "Cohort", name: "cohort", widget: "string", hint: "s19: Spring 2019, f19: Fall 2019", required: false}
+  #     - name: "workspace"
+  #       label: "Workspace Popups"
+  #       file: "_data/workspace-modal.yml"
+  #       description: "Images and copy for workspace member modals"
+  #       fields:
+  #         - label: "Awesome Inc Workspace Member Popups"
+  #           label_singular: "Awesome Inc Workspace Popup"
+  #           name: "items"
+  #           widget: "list"
+  #           fields:
+  #             - {label: "Title", name: "title", widget: "string"}
+  #             - {label: "Image", name: "image", widget: "image"}
+  #             - {label: "Price", name: "price", widget: "string"}
+  #             - {label: "Body", name: "body", widget: "markdown"}
+  #     - label: "Bootcamp Alumni"
+  #       name: "bootcamp-alumni"
+  #       file: "_data/alumni-bootcamp.yml"
+  #       fields:
+  #         - label: "Alumni"
+  #           name: "items"
+  #           widget: "list"
+  #           fields:
+  #             - {label: "Full Name", name: "name", widget: "string"}
+  #             - {label: "Portfolio Website", name: "website", widget: "string", required: false}
+  #             - {label: "GitHub Link", name: "github", widget: "string", required: false}
+  #             - {label: "LinkedIn Link", name: "linkedin", widget: "string", required: false}
+  #             - {label: "Picture", name: "image", widget: "image", required: false}
+  #             - {label: "Image Path", name: "img_path", widget: "hidden", default: "placeholder-wall.jpg"} # Hidden widget: https://www.netlifycms.org/docs/widgets/hidden/
+  #             - {label: "Position", name: "position", widget: "string", required: false}
+  #             - {label: "Cohort", name: "cohort", widget: "string", hint: "s19: Spring 2019, f19: Fall 2019", required: false}
   
   - name: "job_openings"
     label: "Job Openings"
