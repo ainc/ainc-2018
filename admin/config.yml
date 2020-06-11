@@ -114,7 +114,7 @@ collections:
               - {label: "Position", name: "position", widget: "string", required: false}
               - {label: "Cohort", name: "cohort", widget: "string", hint: "s19: Spring 2019, f19: Fall 2019", required: false}
   
-  - name: "Job Openings"
+  - name: "job_openings"
     label: "Job Openings"
     label_singular: "Job Opening"
     valueType: "int"
