@@ -131,74 +131,73 @@ collections:
       - {label: "Priority", name: "priority", widget: "number", required: false, default: 10, hint: "Pick 1 to prioritize this field to show up at the top"}
       - {label: "Body", name: "body", widget: "markdown"}
 
-  # - name: "courses"
-  #   label: "Courses"
-  #   label_singular: "Course"
-  #   folder: "_courses"
-  #   create: true
-  #   fields:
-  #     - {label: "Title", name: "title", widget: "string"}
-  #     - {label: "Description", name: "description", widget: "string", required: false}
-  #     - {label: "Image", name: "image", widget: "image", required: false}
-  #     - {label: "Layout", name: "layout", widget: "hidden", default: "course"}
-  #     - {label: "Permalink", name: "permalink", widget: "hidden"}
-  #     - {label: "Page Id", name: "page_id", widget: "hidden" }
-  #     - {label: "Team", name: "team", widget: "hidden" }
-  #     - {label: "Breadcrumb", name: "breadcrumb", widget: "hidden"}
-  #     - label: "Level"
-  #       name: "level"
-  #       widget: "select"
-  #       required: false
-  #       multiple: true
-  #       options: ["Beginner", "Intermediate", "Advanced"]
-  #     - label: "Course Category"
-  #       name: "course-category"
-  #       widget: select
-  #       required: false
-  #       options: 
-  #         - { label: "Bootcamp", value: bootcamp }
-  #         - { label: "Intro to...", value: intro }
-  #         - { label: "Coding Club", value: coding-club }
-  #     - {label: "Min Age", name: "min-age", widget: "string", required: false}
-  #     - {label: "Max Age", name: "max_age", widget: "string", required: false}
-  #     - {label: "Course Topics", name: "course_topics", widget: "string", required: false}
-  #     - {label: "Technologies", name: "technologies", widget: "list", required: false}
-  #     - label: "Class Day"
-  #       name: "class_day"
-  #       widget: "select"
-  #       required: false
-  #       multiple: true
-  #       options: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday', 'Mon-Fri', 'Mon, Wed', 'Tue, Thur']
-  #     - label: "Season" 
-  #       name: "season"
-  #       widget: "select"
-  #       required: false
-  #       multiple: true
-  #       options: ['Fall', 'Winter', 'Spring', 'Summer']
-  #     - {label: "Application Deadline", name: "application-date", widget: "datetime", required: false }
-  #     - {label: "Prework Begins", name: "prework-date", widget: "datetime", required: false }
-  #     - {label: "Program Begins", name: "program-begin-date", widget: "datetime", required: false }
-  #     - {label: "Program Ends", name: "program-end-date", widget: "datetime", required: false }
-  #     - {label: "Time of Class", name: "time", widget: "string", required: false}
-  #     - label: "Age Group"
-  #       name: "age_group" 
-  #       widget: "select" 
-  #       options:
-  #         - { label: "Youth", value: "youth" }
-  #         - { label: "Adult", value: "adult" }
-  #     - {label: "Team", name: "team", widget: "hidden", default: "aincu" }
-  #     - {label: "Open", name: "open", widget: "boolean", hint: "Is the class registration open?"}
-  #     - {label: "Hide?", name: "hide", widget: "boolean", hint: "Do you want the class to be hidden from the Page?"}
-  #     - label: "Eventbrite ID"
-  #       name: "eventbrite_eid"
-  #       widget: "string"
-  #       hint: "Note: Only copy the number from the url, not the entire url." 
-  #       required: false
-  #     - label: "Alternate Path"
-  #       name: "rel_path"
-  #       widget: "string"
-  #       hint: "Note: Only use this if there is no Eventbrite Id and a page exists for the class. Also, only copy everything after awesomeinc.org"
-  #     - {label: "Body", name: "body", widget: "markdown"}
+  - name: "courses"
+    label: "Courses"
+    label_singular: "Course"
+    folder: "_courses"
+    create: true
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Description", name: "description", widget: "string", required: false}
+      - {label: "Image", name: "image", widget: "image", required: false}
+      - {label: "Layout", name: "layout", widget: "hidden", default: "course"}
+      - {label: "Permalink", name: "permalink", widget: "hidden"}
+      - {label: "Page Id", name: "page_id", widget: "hidden" }
+      - {label: "Breadcrumb", name: "breadcrumb", widget: "hidden"}
+      - label: "Level"
+        name: "level"
+        widget: "select"
+        required: false
+        multiple: true
+        options: ["Beginner", "Intermediate", "Advanced"]
+      - label: "Course Category"
+        name: "course-category"
+        widget: select
+        required: false
+        options: 
+          - { label: "Bootcamp", value: bootcamp }
+          - { label: "Intro to...", value: intro }
+          - { label: "Coding Club", value: coding-club }
+      - {label: "Min Age", name: "min-age", widget: "string", required: false}
+      - {label: "Max Age", name: "max_age", widget: "string", required: false}
+      - {label: "Course Topics", name: "course_topics", widget: "string", required: false}
+      - {label: "Technologies", name: "technologies", widget: "list", required: false}
+      - label: "Class Day"
+        name: "class_day"
+        widget: "select"
+        required: false
+        multiple: true
+        options: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday', 'Mon-Fri', 'Mon, Wed', 'Tue, Thur']
+      - label: "Season" 
+        name: "season"
+        widget: "select"
+        required: false
+        multiple: true
+        options: ['Fall', 'Winter', 'Spring', 'Summer']
+      - {label: "Application Deadline", name: "application-date", widget: "datetime", required: false }
+      - {label: "Prework Begins", name: "prework-date", widget: "datetime", required: false }
+      - {label: "Program Begins", name: "program-begin-date", widget: "datetime", required: false }
+      - {label: "Program Ends", name: "program-end-date", widget: "datetime", required: false }
+      - {label: "Time of Class", name: "time", widget: "string", required: false}
+      - label: "Age Group"
+        name: "age_group" 
+        widget: "select" 
+        options:
+          - { label: "Youth", value: "youth" }
+          - { label: "Adult", value: "adult" }
+      - {label: "Team", name: "team", widget: "hidden", default: "aincu" }
+      - {label: "Open", name: "open", widget: "boolean", hint: "Is the class registration open?"}
+      - {label: "Hide?", name: "hide", widget: "boolean", hint: "Do you want the class to be hidden from the Page?"}
+      - label: "Eventbrite ID"
+        name: "eventbrite_eid"
+        widget: "string"
+        hint: "Note: Only copy the number from the url, not the entire url." 
+        required: false
+      - label: "Alternate Path"
+        name: "rel_path"
+        widget: "string"
+        hint: "Note: Only use this if there is no Eventbrite Id and a page exists for the class. Also, only copy everything after awesomeinc.org"
+      - {label: "Body", name: "body", widget: "markdown"}
 
   - name: "Events"
     label: "Events"
