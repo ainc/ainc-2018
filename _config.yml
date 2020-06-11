@@ -56,6 +56,7 @@ collections:
   tutorials:
     title: Tutorials
     output: true
+    permalink: "/tutorials/:path/"
   blog:
     title: Blog
     output: true
@@ -77,8 +78,5 @@ collections:
   job_openings:
     title: Job Openings
     output: true
-  tutorials:
-    title: Tutorials
-    output: true
-    permalink: "/tutorials/:path/"
+    
 
