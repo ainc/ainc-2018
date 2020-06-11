@@ -50,9 +50,6 @@ collections:
   courses:
     title: Courses
     output: true
-  notes:
-    title: Notes
-    output: true
   tutorials:
     title: Tutorials
     output: true
