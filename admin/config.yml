@@ -131,7 +131,7 @@ collections:
       - {label: "Priority", name: "priority", widget: "number", required: false, default: 10, hint: "Pick 1 to prioritize this field to show up at the top"}
       - {label: "Body", name: "body", widget: "markdown"}
 
-  - name: "Courses"
+  - name: "courses"
     label: "Courses"
     label_singular: "Course"
     folder: "_courses"
