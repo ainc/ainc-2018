@@ -3,7 +3,6 @@ title: Coding Club Level 1
 layout: course
 permalink: "/coding-club-level-1"
 breadcrumb: "/learn/youth/coding-club-level-1"
-redirect_from: "/coding-club"
 description: Learn Code, Make Friends
 cover: "/img/coding-club.jpg"
 class_day: Tuesdays
