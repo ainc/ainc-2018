@@ -3,7 +3,7 @@ layout: post
 title: Why Senior Devs Should Consider Leading a Bootcamp
 date: 2020-07-01T20:52:28.032Z
 header_img: /images/uploads/ainc_stock_photo-10.jpg
-author_img: /images/uploads/justin.jpg
+author_img: /images/uploads/jdh.png
 author: Justin Hall
 tags:
   - coding
@@ -19,8 +19,6 @@ description: Our Lead Bootcamp Instructor has a challenge for Senior Developers!
 ---
 Let me introduce something to you. Stop me if you have heard it.
 
-
-
 > A hero ventures forth from the world of common day into a region of supernatural wonder: fabulous forces are encountered and a decisive victory is won. The hero comes back from this mysterious adventure with the power to bestow boons on his fellow man.
 
 \- Joseph Campbell’s [The Hero with a Thousand Faces](https://en.wikipedia.org/wiki/The_Hero_with_a_Thousand_Faces)
@@ -29,15 +27,9 @@ Let me introduce something to you. Stop me if you have heard it.
 
 Or this version...
 
-
-
 Act I: A young student sets out on a journey to learn in order to achieve an objective. That objective could be prosperity, security, comfort, or, something else.
 
-
-
 In order for the young student to achieve the objective they have to work through a knowledge gap that is usually riddled with challenges and pitfalls. Sometimes the challenges are insurmountable. Most certainly they are life-altering. Those challenges can sometimes make our young student stop altogether, or at least pause and doubt their reasoning based on a level of self-efficacy.
-
-
 
 Yet if our young student persists they will overcome. And, at that very moment within the nanosecond of meeting the goal and achieving the objective, a feeling of euphoria engulfs the young student. The realization of achieving the objective after many failures and near wins is the stuff of legend. It is juice that is most certainly worth the squeeze. It is transformative.
 
@@ -51,11 +43,11 @@ That is an example and summary of the Hero’s Journey as discussed in Joseph Ca
 
 
 
-It is present in most all of the narratives in pop culture. For example in the Matrix, Keaunu Reeves’ character, Neo, achieves the objective and wins the day, but he wasn’t without help. If not for Lawerence Fishburnes’ character, Morpheus, Neo would not know the way, would not be made aware of the pitfalls, and would experience certain defeat. If not for Neo’s love interest, Trinity, he would not be inspired to overcome and conquer the day, but that is an aside for now.
+It is present in most all of the narratives in pop culture. For example in the Matrix, Keanu Reeves’ character, Neo, achieves the objective and wins the day, but he wasn’t without help. If not for Laurence Fishburnes’ character, Morpheus, Neo would not know the way, would not be made aware of the pitfalls, and would experience certain defeat. If not for Neo’s love interest, Trinity, he would not be inspired to overcome and conquer the day, but that is an aside for now.
 
 
 
-The missing component, as described in the Hero’s Journey, is a mentor. Neo had Morpheus, Luke had Obi Wan, [Junuh had Bagger Vance](https://www.youtube.com/watch?v=_2l53XaK010), Kobe had Jordan, Zuckerberg had Jobs, and most certainly for anyone learning to code in Awesome Inc’s Web Developer Bootcamp they have our Instructors (cheap plug, but yeah, it is true).
+The missing component, as described in the Hero’s Journey, is a mentor. Neo had Morpheus, Luke had Obi Wan, [Junuh had Bagger Vance](https://www.youtube.com/watch?v=_2l53XaK010), Kobe had Jordan, Zuckerberg had Jobs, and most certainly for anyone learning to code in [Awesome Inc’s Web Developer Bootcamp](https://www.awesomeinc.org/bootcamp) they have our Instructors (cheap plug, but yeah, it is true).
 
 
 
@@ -87,11 +79,11 @@ CALL TO ACTION:
 
 A being descends from an unidentified flying object and gives you this blog post. Do you…\
 \
-A) Share and encourage others to enroll in the Awesome Inc Web Developer Bootcamp
+A) Share it and encourage others to enroll in the [Awesome Inc Web Developer Bootcamp](https://www.awesomeinc.org/bootcamp)
 
 
 
-B) Comment below with your mentor linked to a LinkedIn Profile with a message saying “Thank You”.
+B) Share it on LinkedIn and tag your mentor with a message saying “Thank You”.
 
 
 
