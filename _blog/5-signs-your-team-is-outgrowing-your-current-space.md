@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "5 Signs Your Team Is Outgrowing Your Current Space "
-date: 2020-07-07T17:06:53.840Z
-header_img: /images/uploads/ainc_stock_photo-10.jpg
+date: 2020-07-07T17:18:58.389Z
+header_img: /images/uploads/ainc_stock_photo-54.jpg
 author_img: /images/uploads/jordan_weiter.jpg
 author: Jordan Weiter
 tags:
