@@ -1,225 +1,368 @@
 ---
-title: 5 Across
+title: 5across New
+layout: default
 tag: 5across
-layout: recurring_event
 redirect_from: 
-  - '/5_across'
-  - '/5-across'
-  - '/5across'
-  - 'events/5_across'
-  - 'events/5-across'
+  - '/5_acrossnew'
+  - '/5-acrossnew'
+  - '/5acrossnew'
+  - 'events/5_acrossnew'
+  - 'events/5-acrossnew'
 subtitle: A Pitch Competition for Kentucky Entrepreneurs
-logo_path: '/assets/img/5-across/5-across-logo.png' 
+logo_path: '/images/5Across/5Across_Logo.png' 
+next_event_date: April 29, 2020
+next_event_location: Lyric Theater & Cultural Arts Center 300 E Third St
+next_event_title: 5 Across - April Edition
 ---
 
-<div class="lgx-inner">
+<!--
+  TODO:
+  Font at top needs to be larger
+  Buttons at top need to be rounder
+  Icons need work
+  Need video/picture for background
+  Red button needs to be lighter
+  Implement past winners section
+    - Need full info for events, picture of most recent winner
+    - Text styling
+  Slideshow section
+-->
+
+<section id="fiveacross-header">
   <div class="container">
     <div class="row">
-      <div class="col-xs-6 center-text">
-        {% assign next_event = site.events | sort: "date" | where: "tags", "5across" | limit: 1 | where_exp: "event", "event.date > site.time" %}
-        <div class="tooltip-wrapper disabled" data-title="Due to COVID-19, this event is cancelled. More information coming soon.">
-          <button class="lgx-btn btn disabled" role="button" aria-disabled="true" target="_blank" href="https://www.eventbrite.com/e/{{ next_event.first.eventbrite_id }}">
-            Register to Attend
-          </button>
-        </div>  
+      <div class="col-xs-10 col-sm-8">
+        <div class="lgx-heading-area">
+          <div class="lgx-heading">
+            <img src={{page.logo_path}} />
+            <!--<h2 class="title lgx-zoomIn-one heading-title">A Pitch Competition for<br>Kentucky Entrepreneurs</h2>-->
+            <!--<h2 class="title lgx-zoomIn-one heading-title">Kentucky Entrepreneurs</h2>-->
+            <div class="catchline">
+              <h2 class="title lgx-zoomIn-one heading-title">A Pitch Competition for Kentucky Entrepreneurs</h2>
+            </div>
+            <div class="buttons">
+              <button type="button" class="lgx-btn lgx-btn-grey" id="applyButton">Apply to Pitch</button>
+              <button type="button" class="lgx-btn lgx-btn-grey" id="registerButton">Register to Attend</button>
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="col-xs-6 center-text">
-        <a class="lgx-btn" target="_blank" href="https://docs.google.com/spreadsheet/embeddedform?formkey=dF9KeS1iZ1ZETjFKazlBN1U2emlId0E6MA">
-          Apply to Pitch
-        </a>
-      </div>
-    </div> <!-- row -->
-  </div> <!-- container -->
-</div> 
+    </div><!-- row -->
+  </div><!-- container -->
+</section>
 
 <div class="container icons">
-			<div class="row">
-				<div class="col-md-1">
-				</div>
-				<div class="col-md-2 col-xs-6">
-					<img src="/assets/img/5-across/5-pitches-red-text.png">
-				</div>
-				<div class="col-md-2 col-xs-6">
-					<img src="/assets/img/5-across/5-min-red-text.png">
-				</div>
-				<div class="col-md-2 col-xs-6">
-					<img src="/assets/img/5-across/500-red-text.png">
-				</div>
-				<div class="col-md-2 col-xs-6">
-					<img src="/assets/img/5-across/5-pm-red-text.png">
-				</div>
-				<div class="col-md-2 col-xs-12">
-					<img src="/assets/img/5-across/5-entry-red-text.png">
-				</div>
-				<div class="col-md-1">
-				</div>
-			</div>
-				<!-- /col -->
-		</div><!-- /container -->
-
-<div class="row"> 
-  <div class="lgx-heading">
-    <h2 class="heading-title text-left">Upcoming Events</h2>
+  <div class="wspace"></div>
+  <div class="row">
+    <div class="col-md-1">
+    </div>
+    <div class="col-md-2 col-xs-6">
+      <img src="/assets/img/5-across/5-pitches-red-text.png">
+    </div>
+    <div class="col-md-2 col-xs-6">
+      <img src="/assets/img/5-across/5-min-red-text.png">
+    </div>
+    <div class="col-md-2 col-xs-6">
+      <img src="/assets/img/5-across/500-red-text.png">
+    </div>
+    <div class="col-md-2 col-xs-6">
+      <img src="/assets/img/5-across/5-pm-red-text.png">
+    </div>
+    <div class="col-md-2 col-xs-12">
+      <img src="/assets/img/5-across/5-entry-red-text.png">
+    </div>
+    <div class="col-md-1">
+    </div>
+  </div> <!-- /col -->
+  <div class="buttons">
+    <button type="button" class="lgx-btn lgx-btn-grey" id="applyButton">Apply to Pitch</button>
+    <button type="button" class="lgx-btn lgx-btn-grey" id="registerButton">Register to Attend</button>
   </div>
-  {% assign events = site.events | sort: "date" | where: "tags", "5across" | where_exp: "event", "event.date > site.time" | limit: 6 %}
-  {% if events.size == 0 %}
-  <h5>No upcoming events, check back later.</h5>
-  {% else %}
-    {% for event in events %}
-      {% if event.eventbrite_id or feature_event.eventbrite_id == '' %}
-        {% assign event_url = "https://www.eventbrite.com/e/" | append: event.eventbrite_id %}
-      {% elsif event.event_url %}
-        {% assign event_url = event.event_url %}
-      {% else %}
-        {% assign event_url = "#" %}
-      {% endif %}
-      
-      <div class="col-xs-12 col-sm-6">
-        <div class="lgx-events-area">
-          <div class="lgx-single-event">
-            <div class="thumb">
-              <a target="_blank" href="{{ event_url }}">
-                <img
-                  {% if event.image %}
-                    src="{{ event.image }}" 
-                  {% else %}
-                    src="/images/icons/innovation.png" 
-                  {% endif %} 
-                alt="{{ event.title }}">
-              </a>
-            </div>
-            <div class="event-info">
-              <a target="_blank" class="date" href="{{ event_url }}">
-                {{ event.date | date: '%B %-d, %Y'}}
-              </a>
-              <h4 class="location">{{ event.location }}</h4>
-              <h3 class="title">
-                <a target="_blank" class="date" href="{{ event_url }}">
-                  {{ event.title }}
-                </a>
-              </h3>
-            </div>
-          </div>  <!-- single event -->
-        </div> <!-- events-area -->
-      </div>  <!-- col -->
-    {% endfor %}
-  {% endif %}
-  <hr>
-</div> <!-- row -->
+</div><!-- /container -->
 
-<br><br>
+<section id="past-pitches">
+  <div class="container">
+    <div class="row">
+      <div class="commitment">
+        <!--
+        <h2>OVER 10 YEARS OF PUTTING THE SPOTLIGHT</h2>
+        <h2>ON KENTUCKY ENTREPRENEURS</h2>
+        -->
+        <h2>Over 10 Years of Putting the Spotlight on Kentucky Entrepreneurs</h2> 
+      </div>
+    </div><!-- row -->
+    <div class="row">
+      <button class="lgx-btn" type="button">Watch Past Pitches</button>
+    </div>
+  </div><!-- container -->
+</section>
 
-
-<div class="row"> 
-  <div class="lgx-heading">
-    <div class="lgx-heading-area">
-      <h2 class="heading-title text-left">5 Across Videos</h2>
+<!-- If we decide to use a video: -->
+<!--
+<section id="past-pitches">
+  <div class="container">
+    <div class="row">
+      <video autoplay muted loop id="bg-video">
+        <source src="videofile.mp4" type="video/mp4">
+      </video>
     </div>
   </div>
-  <a class="lgx-btn" target="_blank" href="https://www.youtube.com/playlist?list=PL_YvoQ-KM3YHl7D29MzJClPvRqp_PL7me">
-    5 Across Playlist
-  </a>
-  <hr>
-</div> <!-- row -->
+</section>
+-->
 
-
-<div class="row">
-  <div class="lgx-heading">
-    <h2 class="heading-title text-left">Related Events</h2>
-  </div>
-  {% assign related_events = site.events | sort: "date" | limit: 6 | where_exp: "event", "event.date > site.time" %}
-
-  {% if related_events.size == 0 %}
-    <h5>No related events, check back later.</h5>
-  {% else %}
-    {% for event in related_events %}
-      {% if event.eventbrite_id or feature_event.eventbrite_id == '' %}
-        {% assign event_url = "https://www.eventbrite.com/e/" | append: event.eventbrite_id %}
-      {% elsif event.event_url %}
-        {% assign event_url = event.event_url %}
-      {% else %}
-        {% assign event_url = "#" %}
-      {% endif %}
-
-      <div class="col-xs-12 col-sm-6">
-        <div class="lgx-events-area">
-          <div class="lgx-single-event">
-            <div class="thumb">
-              <a target="_blank" href="{{ event_url }}">
-                <img
-                  {% if event.image %}
-                    src="{{ event.image }}" 
-                  {% else %}
-                    src="/images/icons/innovation.png" 
-                  {% endif %} 
-                alt="{{ event.title }}">
-              </a>
-            </div>
-            <div class="event-info">
-              <a target="_blank" class="date" href="{{ event_url }}">
-                {{ event.date | date: '%B %-d, %Y'}}
-              </a>
-              <h4 class="location">{{ event.location }}</h4>
-              <h3 class="title">
-                <a target="_blank" class="date" href="{{ event_url }}">
-                  {{ event.title }}
-                </a>
-              </h3>
-            </div>
-          </div>  <!-- single event -->
-        </div> <!-- events-area -->
-      </div>  <!-- col -->
-    {% endfor %}
-  {% endif %}
-</div> <!-- row -->
-
-<hr>
-
-
-<div class="row"> 
-  <div class="lgx-heading">
-    <h2 class="heading-title text-left">Recent Blog Posts</h2>
-  </div>
-  {% assign recent_blogs = site.blog | sort: 'date'| reverse %}
-  {% for post in recent_blogs limit: 3 %}
-
-  <div class="col-xs-6 col-sm-4">
-    <div class="lgx-blog-single">
-      <figure>
-        <img class="object-fit-cover" src="{{ post.header_img | default: '/images/logos/ainc-logo-triangle-layer-red.png' }}" alt="{{ post.author | default:'Awesome Inc' }}" title="{{ post.author | default:'Awesome Inc' }}"/>
-        <figcaption>
-          <div class="figcaption">
-            <div class="lgx-hover-link">
-              <div class="lgx-vertical">
-                <a href="{{ post.url }}"><i class="fa fa-book"></i></a>
-              </div>
-            </div>
+<section id="join-next">
+  <div class="container">
+    <img src="/images/5Across/Arrow_Red.png" id="red-arrow" />
+    <div class="row">
+      <div class="red-circle">
+        <img src="/images/5Across/Half_Circle_Red.png" />
+        <h2>JOIN US AT THE NEXT 5 ACROSS</h2>
+        <div class="next-event-info">
+          <img src={{page.logo_path}} />
+          <div class="event-details">
+            <p class="date">{{page.next_event_date}}</p>
+            <p class="location">{{page.next_event_location}}</p>
+            <p class="title">{{page.next_event_title}}</p>
           </div>
-          <div class="author">
-            <div class="author-info">
-              <img src="{{ post.author_img | default: '/images/icons/innovation.png' }}" alt="author">
-              <div class="author-info">
-                <h4 class="title"><a href="{{ post.url }}">{{ post.author | default: "Awesome Inc"}}</a></h4>
-                <h5 class="subtitle">{{ post.date | date: "%b %d, %Y" }}</h5>
-              </div>
-            </div>
-          </div>
-        </figcaption>
-      </figure>
-      <div class="text-area">
-        <h3 class="title"><a href="{{ post.url }}">{{ post.title | truncate: 70 }}</a></h3>
-        <p class="text">{% if post.description %}{{ post.description | truncate: 100, "..." }}{% else %}{{ post.content | truncate: 100, "..." }}{% endif %}</p>
-        <div class="hits-area">
-          <span class="date"></span>
-        </div>
-        <div class="text-bottom">
-          <a class="date" href="{{ post.url }}">Read More</a>
-          <a class="link" href="{{ post.url }}"><i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
         </div>
       </div>
-    </div> <!--blog-single-->
-  </div> <!-- col -->
-  {% endfor %}
-  <hr>
-</div> <!-- row -->
-  
+    </div>
+  </div>
+</section>
+
+<section id="join-next-mobile">
+  <div class="container">
+    <div class="row">
+      <h2>Join us at the next 5 Across</h2>
+      <div class="event-details">
+        <p class="date">{{page.next_event_date}}</p>
+        <p class="location">{{page.next_event_location}}</p>
+        <p class="title">{{page.next_event_title}}</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="past-winners">
+  <div class="container">
+    <div class="row">
+      <div class="recent-winner">
+        <p>More from our most recent winner</p>
+        <div class="box">
+          <div class="box-inner">
+            <!--<img src="/images/5Across/placeholder_cat.jpg" />-->
+            <div class="details">
+              <h1>CGN</h1>
+              <h2>Kentucky</h2>
+              <div class="youtube">
+                <img src="/images/5Across/youtube-logo.png" />
+                <p>in</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="revisit">
+        <p id="revisit-previous-winner">Or Revisit a Previous Winner</p>
+        <select name="years" id="years" onchange="selectChange();">
+          <option value="2019">2019</option>
+          <option value="2018">2018</option>
+          <option value="2017">2017</option>
+          <option value="2016">2016</option>
+          <option value="2015">2015</option>
+          <option value="2014">2014</option>
+          <option value="2013">2013</option>
+          <option value="2012">2012</option>
+          <option value="2011">2011</option>
+          <option value="2010">2010</option>
+        </select>
+        <div class="months" onload="loaded();">
+          <div class="februaryX month" id="februaryX">
+            <div class="box-header">
+              <p>February 2019</p>
+            </div>
+            <div class="box">
+              <div class="content">
+                <p>Kare Mobile</p>
+                <p>Founders:</p>
+                <p class="founder1">Kwane Watson</p>
+                <p class="founder2"></p>
+              </div>
+            </div>
+            <div class="box-footer">
+              <button class="lgx-btn video-url">Watch Video</button>
+            </div>
+          </div>
+          <div class="aprilX month" id="aprilX">
+            <div class="box-header">
+              <p>April 2019</p>
+            </div>
+            <div class="box">
+              <div class="content">
+                <p>EZ Chow</p>
+                <p>Founders:</p>
+                <p class="founder1">Mo Sloan</p>
+                <p class="founder2"></p>
+              </div>
+            </div>
+            <div class="box-footer">
+              <button class="lgx-btn video-url" onclick="location.href='#'">Watch Video</button>
+            </div>
+          </div>
+          <div class="juneX month" id="juneX">
+            <div class="box-header">
+              <p>June 2019</p>
+            </div>
+            <div class="box">
+              <div class="content">
+                <p>Innovative Theraputix</p>
+                <p>Founders:</p>
+                <p class="founder1">Michael Detmer</p>
+                <p class="founder2">Rebekah Gossom</p>
+              </div>
+            </div>
+            <div class="box-footer">
+              <button class="lgx-btn video-url">Watch Video</button>
+            </div>
+          </div>
+          <div class="augustX month" id="augustX">
+            <div class="box-header">
+              <p>August 2019</p>
+            </div>
+            <div class="box">
+              <div class="content">
+                <p>Life Ready Schools</p>
+                <p>Founders:</p>
+                <p class="founder1">Founder Name</p>
+                <p class="founder2">Founder Name</p>
+              </div>
+            </div>
+            <div class="box-footer">
+              <button class="lgx-btn video-url">Watch Video</button>
+            </div>
+          </div>
+          <div class="octoberX month" id="octoberX">
+            <div class="box-header">
+              <p>October 2019</p>
+            </div>
+            <div class="box">
+              <div class="content">
+                <p>Stellar Plants</p>
+                <p>Founders:</p>
+                <p class="founder1">Joseph Cox</p>
+                <p class="founder2"></p>
+              </div>
+            </div>
+            <div class="box-footer">
+              <button class="lgx-btn video-url">Watch Video</button>
+            </div>
+          </div>
+          <div class="finalsX month" id="finalsX">
+            <div class="box-header">
+              <p>Finals 2019</p>
+            </div>
+            <div class="box">
+              <div class="content">
+                <p>EZ Chow</p>
+                <p>Founders:</p>
+                <p class="founder1">Mo Sloan</p>
+                <p class="founder2"></p>
+              </div>
+            </div>
+            <div class="box-footer">
+              <button class="lgx-btn video-url">Watch Video</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="page-closing">
+      <p>And Don't Forget Rule #17</p>
+      <div class="unicorn">
+        <img src="/images/5Across/Dabbing_Unicorn.png" />
+        <div class="bring-the-fun">
+          <p>Bring</p>
+          <p>The</p>
+          <p>Fun</p>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="box-heading">
+          <p>Thank you to our sponsors</p>
+        </div>
+        <div class="box">
+          <div class="founding-sponsors">
+            <p>Founding Sponsors</p>
+            <div class="logos">
+              <div class="logo-row">
+                <div class="img-container"><img src="/images/5Across/Sponsor_Logos/Awesome_Inc.png" id="ainc_logo" /></div>
+                <div class="img-container"><img src="/images/5Across/Sponsor_Logos/UK_OTC.png" id="uk_otc_logo" /></div>
+                <div class="img-container"><img src="/images/5Across/Sponsor_Logos/City_of_Lex.png" id="lex_logo" /></div>
+                <div class="img-container"><img src="/images/5Across/Sponsor_Logos/Commerce_Lex.png" id="comm_lex_logo" /></div>
+              </div>
+            </div>
+          </div>
+          <div class="supporting-sponsors">
+            <p>Supporting Sponsors</p>
+            <div class="logos">
+              <!--First Row-->
+              <div class="logo-row">
+                <div class="img-container"><img src="/images/5Across/Sponsor_Logos/UK_College_Comm.png" id="uk_comm_logo" /></div>
+                <div class="img-container"><img src="/images/5Across/Sponsor_Logos/Ky_Innovation.png" id="ky_inn_logo" /></div>
+                <div class="img-container"><img src="/images/5Across/Sponsor_Logos/Score.png" id="score_logo" /></div>
+                <div class="img-container"><img src="/images/5Across/Sponsor_Logos/Dinsmore.png" id="dinsmore_logo" /></div>
+              </div>
+
+              <!--Second Row-->
+              <div class="logo-row">
+                <div class="img-container"><img src="/images/5Across/Sponsor_Logos/Kinetic.png" id="kinetic_logo" /></div>
+                <div class="img-container"><img src="/images/5Across/Sponsor_Logos/Spark.png" id="spark_logo" /></div>
+                <div class="img-container"><img src="/images/5Across/Sponsor_Logos/APAX.png" id="apax_logo" /></div>
+                <div class="img-container"><img src="/images/5Across/Sponsor_Logos/E-Club.png" id="eclub_logo" /></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+</section>
+
+<!-- Social Section -->
+<section id="social-media">
+  <div id="social-section">
+    <div class="lgx-inner">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-6 col-sm-6 col-md-3 col-md-offset-3">
+            <img src="/images/social-media-phone.gif" class="img-responsive pull-right" alt="Awesome Inc Social Media"/>
+          </div>
+          <div class="col-xs-6 col-sm-5 col-md-3">
+            <div class="lgx-heading">
+              <h3 class="heading-title">Let's Be Friends!</h3>
+              <h5 class="heading-subtitle"> - Find us on social media - </h5>
+            </div>
+            <ul class="list-inline text-center">
+              <li><a href="{{ site.data.routes.twitter }}"><i class="fa fa-twitter"></i></a></li>
+              <li><a href="{{ site.data.routes.facebook }}"><i class="fa fa-facebook-f"></i></a></li>
+              <li><a href="{{ site.data.routes.linkedin }}"><i class="fa fa-linkedin"></i></a></li>
+              <li><a href="{{ site.data.routes.instagram }}"><i class="fa fa-instagram"></i></a></li>
+              <li><a href="{{ site.data.routes.youtube }}"><i class="fa fa-youtube-play"></i></a></li>
+            </ul>
+          </div>
+        </div> <!-- row -->
+      </div> <!-- container -->
+    </div> <!-- lgx-inner -->
+    <div id="social-section-triangle">
+      <svg viewbox="0 0 100 100" preserveAspectRatio="none">
+        <polygon points="0,100 51,101 50,0"></polygon> 
+        <!-- middle value is 51 because of bleeding on smaller devices -->
+        <polygon points="100,100 50,100 50,0"></polygon>
+      </svg>
+    </div>
+  </div>
+</section>
+
+<script src="/assets/js/5across.js"></script>

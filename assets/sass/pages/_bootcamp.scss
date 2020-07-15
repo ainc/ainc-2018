@@ -435,6 +435,20 @@
     }
   }
 
+  #isa-calculator {
+    input:read-only {
+        background-color: white;
+    }
+    input:-moz-read-only {
+        background-color: white;
+    }
+    input {
+      border: 1px solid grey;
+      background-color: white;
+      margin: 2px;
+    }
+  }
+
   #still-unsure {
     background-image: url('../../assets/img/bootcamp/alumni-bg.jpg');
     background-repeat: no-repeat;

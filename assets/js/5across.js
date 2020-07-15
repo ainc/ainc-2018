@@ -1,39 +1,48 @@
 let obj = {};
 
 document.getElementsByTagName("body")[0].onload = () => {
-    console.log("Loaded");
-    $.get("https://raw.githubusercontent.com/ainc/5Across_2017/master/_data/video-archives.json", (data, status) => {
-        const jsonObj = JSON.parse(data);
+    $.get("/assets/js/5across_past.json", (data, status) => {
+        console.log("Data:");
+        console.log(data);
+        const jsonObj = data;
         Object.assign(obj, jsonObj);
+        selectChange();
     });
 }
 
 function selectChange() {
     const value = document.getElementById("years").value;
     const index = 2019 - Number(value);
-    console.log(obj[index]);
     const months = {
-        "february": document.getElementById("februaryX"),
-        "april": document.getElementById("aprilX"),
-        "june": document.getElementById("juneX"),
-        "august": document.getElementById("augustX"),
-        "october": document.getElementById("octoberX"),
-        "finals": document.getElementById("finalsX")
+        "February": document.getElementById("februaryX"),
+        "April": document.getElementById("aprilX"),
+        "June": document.getElementById("juneX"),
+        "August": document.getElementById("augustX"),
+        "October": document.getElementById("octoberX"),
+        "Finals": document.getElementById("finalsX")
     };
     Object.values(months).forEach((val, ind) => {
+        val.children[0].children[0].innerHTML = `${Object.keys(months)[ind]} ${value}`;
         const info = val.children[1].children[0];
-        if (obj[index].months[ind] != undefined) {
-            info.children[0].innerHTML = obj[index].months[ind].pitches[0].name;
+        if (obj.years[value][Object.keys(months)[ind]].winner != undefined) {
+            info.children[0].innerHTML = obj.years[value][Object.keys(months)[ind]].winner;
         }
         else {
             info.children[0].innerHTML = "No event this month!";
         }
-        info.children[2].innerHTML = `Founder1:${value}`;
-        info.children[3].innerHTML = `Founder2:${value}`;
+        info.children[2].innerHTML = obj.years[value][Object.keys(months)[ind]].founder || "";
+        info.children[3].innerHTML = obj.years[value][Object.keys(months)[ind]].founder2 || "";
+        const link_buttons = document.getElementsByClassName("video-url");
+        console.log(obj.years[value][Object.keys(months)[ind]]);
+        if (obj.years[value][Object.keys(months)[ind]]["url"] != "#") {
+            link_buttons[ind].onclick = () => {
+                location.href = obj.years[value][Object.keys(months)[ind]]["url"] || "#";
+            }
+        }
+        else {
+            link_buttons[ind].onclick = () => {
+                alert("Coming soon!");
+            }
+        }
     });
-    /*
-    februaryX.children[1].children[0].children[0].innerHTML = obj[index]["months"][0]["pitches"][0].name;
-    februaryX.children[1].children[0].children[2].innerHTML = Math.floor(Math.random() * 100);
-    februaryX.children[1].children[0].children[3].innerHTML = Math.floor(Math.random() * 100);
-    */
 }
