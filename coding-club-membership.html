@@ -4,27 +4,26 @@ layout: default
 permalink: "/coding-club"
 ---
 
-<section>
-    <div class="lgx-inner">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <h3>The <i>new</i> Coding Club</h3>
-                    <ul>
-                        <li>Option to meet twice a week for 1.5 hours</li>
-                        <li>Choose what time works best for you</li>
-                        <li>More 1-on-1 time with our instructional team</li>
-                    </ul>
-                </div>
-            </div>
+<section id="header">
+  <div class="lgx-inner">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-2 col-lg-offset-1"> <!-- Phone picture -->
+          <img src="assets/img/aincu/youth/header-phone.png" />
         </div>
-    </div>
+        <div class="col-lg-3">
+          <div class="lgx-heading-area"> <!-- Header -->
+            <div class="lgx-heading">
+              <h2 class="heading-title">Youth</h2>
+              <h4 class="heading-subtitle">Coding Courses<br>Ages 9 - 16</h4>
+            </div>
+          </div>
+        </div>
+      </div> <!-- row -->
+    </div> <!-- container-->
+  </div> <!-- lgx-inner -->
 </section>
 
 <section>
-    <div class="lgx-inner">
-      <div class="container">
-        {% include club-subscription-iframe.html %}
-      </div>
-    </div>
-  </section>
+  {% include club-subscription-iframe.html %}
+</section>
