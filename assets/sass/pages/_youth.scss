@@ -59,13 +59,17 @@
   }
 
   #camps {
-    background-image: url('/assets/img/aincu/youth/membership-bg.png');
     background-size: 100% 10vh;
     background-repeat: no-repeat;
     background-position: center bottom;
     ul {
       margin-bottom: 2.5rem;
     }
+    display: none;
+  }
+
+  #join {
+    // background-image: url('/assets/img/aincu/youth/membership-bg.png');
   }
 
   h5 {
