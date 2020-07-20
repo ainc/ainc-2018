@@ -52,6 +52,12 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center top;
+    @include screen-xs {
+      background-position: 25%;
+      h5, p {
+        color: white;
+      }
+    }
 
     .row {
       margin: 10vh 0;
@@ -78,6 +84,9 @@
   }
   p {
     @include font-size(13);
+    @include screen-xs {
+      font-size: 16px;
+    }
     margin: 2rem 0;
   }
 }
