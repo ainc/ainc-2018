@@ -1,13 +1,16 @@
 #youth {
 
   #header {
-    background-image: url('/assets/img/aincu/youth/header.png');
+    background-image: url('/assets/img/aincu/youth/youth-header.png');
     height: 50vh;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     @include screen-laptop-min {
       margin-bottom: 25vh;
+    }
+    @include screen-tablet-max {
+      background-position: 55%;
     }
     .lgx-heading-area {
       margin-top: 30vh;
@@ -20,6 +23,11 @@
         max-height: 550px;
       }
       margin-top: 5vh;
+    }
+    #why-code {
+      .heading-subtitle {
+        @include font-size(24);
+      }
     }
   }
 
@@ -34,6 +42,9 @@
       background-size: 100% 60vh;
       background-position: center 10%;
       background-repeat: no-repeat;
+      @include screen-tablet-max {
+        background-size: 100% 40vh;
+      }
     
     #kids-engaged {
       margin-top: 10rem;
@@ -43,6 +54,11 @@
     }
     #coding-adventure {
       margin-top: 10rem;
+    }
+    #coding-adventure-image {
+      @include screen-tablet-max {
+        margin-top: 10rem;
+      }
     }
 
   }
