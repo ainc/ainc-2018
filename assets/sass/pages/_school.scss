@@ -26,7 +26,7 @@
     }
     #why-code {
       .heading-subtitle {
-        @include font-size(24);
+        @include font-size(22);
       }
       margin-top: 5vh;
     }
@@ -71,6 +71,15 @@
     .row {
       margin: 10vh 0;
     }
+    #coding-adventure {
+      margin-top: 10rem;
+    }
+    #coding-adventure-image {
+      margin-top: 10rem;
+      @include screen-tablet-max {
+        margin-top: 10rem;
+      }
+    }
   }
 
   #camps {
@@ -79,14 +88,6 @@
     background-position: center bottom;
     ul {
       margin-bottom: 2.5rem;
-    }
-    #coding-adventure {
-      margin-top: 10rem;
-    }
-    #coding-adventure-image {
-      @include screen-tablet-max {
-        margin-top: 10rem;
-      }
     }
 
   }
@@ -102,7 +103,6 @@
         color: white;
       }
     }
-    display: none;
   }
 
   #camps {
