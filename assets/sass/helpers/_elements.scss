@@ -482,9 +482,12 @@ img {
   -webkit-text-stroke-color: $brand-grey-dark;
 }
 */
+<<<<<<< HEAD
 .text-shadow {
   color: $brand-red-bright;
 }
+=======
+>>>>>>> fcc300c6563c825d536ecc312aff50cd03ed1b7b
 
 /*
 .text-shadow-white {
@@ -494,8 +497,18 @@ img {
   -webkit-text-stroke-color: $brand-grey-dark;
 }
 */
+<<<<<<< HEAD
 .text-shadow-white {
   color: white;
+=======
+
+.text-shadow {
+  color: $brand-red-bright !important;
+}
+
+.text-shadow-white {
+  color: white !important;
+>>>>>>> fcc300c6563c825d536ecc312aff50cd03ed1b7b
 }
 
 /* ----------------------------------------------------------------
