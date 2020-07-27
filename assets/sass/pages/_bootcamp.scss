@@ -435,6 +435,18 @@
     }
   }
 
+  #isa-calculator {
+    #mygraph {
+      margin-left: auto;
+      margin-right: auto;
+      svg {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+      }
+    }
+  }
+
   #still-unsure {
     background-image: url('../../assets/img/bootcamp/alumni-bg.jpg');
     background-repeat: no-repeat;
