@@ -56,20 +56,22 @@
       background-repeat: no-repeat;
       @include screen-tablet-max {
         background-size: 100% 40vh;
+        background-position: center 28%;
       }
       @include screen-xs {
-        background-size: 150% 75vh;
+        background-size: 200% 70vh;
+        margin-top: 20vh;
+        background-position: 85% 15%;
       }
     
     #kids-engaged {
       margin-top: 10rem;
+      @include screen-md {
+        margin-top: 25rem;
+      }
       h5, p {
         color: white;
       }
-    }
-
-    .row {
-      margin: 10vh 0;
     }
     #coding-adventure {
       margin-top: 10rem;
@@ -99,6 +101,8 @@
     background-position: center top;
     @include screen-xs {
       background-position: 25%;
+      background-color: grey;
+      background-blend-mode: multiply;
       h5, p {
         color: white;
       }
