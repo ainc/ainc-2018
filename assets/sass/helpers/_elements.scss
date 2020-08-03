@@ -474,28 +474,18 @@ img {
   Text with a shadow creating a "3d" look
 -------------------------------------------------------------------*/
 
-/*
 .text-shadow {
   text-shadow: 3px 3px 0 $brand-red-bright;
   -webkit-text-fill-color: transparent;
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: $brand-grey-dark;
 }
-*/
-.text-shadow {
-  color: $brand-red-bright !important;
-}
 
-/*
 .text-shadow-white {
   text-shadow: 3px 3px 0 white;
   -webkit-text-fill-color: transparent;
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: $brand-grey-dark;
-}
-*/
-.text-shaow-white {
-  color: white !important;
 }
 
 /* ----------------------------------------------------------------
