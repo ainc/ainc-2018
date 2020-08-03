@@ -1,7 +1,7 @@
 items:
   -
     name: Denis Gatotho
-    website: https://denisgat.github.io
+    website: https://bllloggg.web.app/
     github: https://github.com/denisgat
     linkedin: https://www.linkedin.com/in/denis-gatotho-a3b421194/
     img_path: denis-gatotho
@@ -91,6 +91,7 @@ items:
     img_path: ethan-borkosky
     linkedin: 'https://www.linkedin.com/in/ethan-borkosky-764aa6186/'
     name: Ethan Borkosky
+    position: ApolloFactor
     website: 'https://ebork.dev/'
   - cohort: f19
     github: 'https://www.github.com/robbiegay'
@@ -234,7 +235,7 @@ items:
     linkedin: 'https://www.linkedin.com/in/kendra-jordan-50555910b'
     name: Kendra Jordan
     position: UK
-    website: 'https://kendrajordan.github.io/kendrajordan2.github.io/'
+    website: 'https://kendrajordan.github.io/'
   - cohort: f18
     github: 'https://github.com/Cgmccarty/'
     img_path: connor-mccarty
@@ -371,7 +372,7 @@ items:
   - cohort: f17
     github: 'https://github.com/nickveil/'
     img_path: nick-veil
-    linkedin: 'https://www.linkedin.com/in/nicholas-veil/'
+    linkedin: 'https://www.linkedin.com/in/nick-veil/'
     name: Nick Veil
     position: UKHC
     website: 'https://nickveil.github.io'
@@ -388,7 +389,7 @@ items:
     linkedin: 'https://www.linkedin.com/in/blake-atkinson-55bb5613b/'
     name: Blake Atkinson
     position: Parker and<br>Marie Design
-    website: 'https://btatkinson.github.io'
+    website: 'https://medium.com/@BlakeAtkinson'
   - cohort: s17
     github: 'https://github.com/Brayn7'
     img_path: robbie-bryan
@@ -458,7 +459,7 @@ items:
     linkedin: 'https://www.linkedin.com/in/thomas-cothran-02b24995 '
     name: Thomas Cothran
     position: Ventre Tech
-    website: 'https://thomascothran.github.io/'
+    website: 'https://ventre.tech/'
   - cohort: f16
     github: 'https://github.com/garyditsch'
     img_path: gary_ditsch

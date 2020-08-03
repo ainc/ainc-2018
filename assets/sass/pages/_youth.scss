@@ -1,76 +1,128 @@
 #youth {
 
-  #laptop-youth {
-    background-image: url('../../images/iMac.png');
-    height: 350px;
-    background-size: 60rem;
-    background-position: 75% center;
-    margin: 30px;
+  #header {
+    background-image: url('/assets/img/aincu/youth/youth-header.png');
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
+    @include screen-laptop-min {
+      margin-bottom: 25vh;
+    }
     @include screen-tablet-max {
-      background-position: 200% center;
+      background-position: 55%;
     }
-    @include screen-xs {
-      background-position: 175% center;
-      margin: 10px;
-      background-size: 30rem;
-    }
-    .lgx-inner {
-      padding-top: 0;
-    }
-    a.lgx-btn {
-      margin-right: 1rem;
-      padding: 0.2rem 1rem;
-    }
-    .lgx-heading {
-      text-align: left;
-      
-      .heading-title {
-        @include font-size(44);
-        color: $brand-color;
-        margin-bottom: 0;
+    .lgx-heading-area {
+      margin-top: 30vh;
+      .lgx-heading {
+        text-align: left;
       }
+    }
+    #phone-image {
+      img {
+        max-height: 550px;
+      }
+      margin-top: 5vh;
+    }
+    #why-code {
       .heading-subtitle {
-        margin-top: 0;
-        font-style: italic;
-        margin-bottom: 2rem;
+        @include font-size(24);
+      }
+      margin-top: 5vh;
+    }
+  }
+
+  #coding-is-fun {
+    h5 {
+      margin-top: 2.5rem;
+    }
+  }
+  #coding-adventure {
+    margin-top: 10rem;
+  }
+  #coding-for-everyone {
+    background-image: url('/assets/img/aincu/youth/everyone.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+    @include screen-xs {
+      background-position: 25%;
+    }
+  }
+  #engaged-creative {
+      background-image: url('/assets/img/aincu/youth/youth-engaged-bg.png');
+      background-size: 100% 60vh;
+      background-position: center 10%;
+      background-repeat: no-repeat;
+      @include screen-tablet-max {
+        background-size: 100% 40vh;
+      }
+      @include screen-xs {
+        background-size: 150% 75vh;
+      }
+    
+    #kids-engaged {
+      margin-top: 10rem;
+      h5, p {
         color: white;
       }
     }
+
+    .row {
+      margin: 10vh 0;
+    }
   }
 
-  #why-youth {
-    h5 {
-      @include font-size(20);
-      font-weight: 600;
-      text-transform: uppercase;
+  #camps {
+    background-size: 100% 10vh;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    ul {
+      margin-bottom: 2.5rem;
     }
-    p {
-      @include font-size(13);
+    #coding-adventure {
+      margin-top: 10rem;
+    }
+    #coding-adventure-image {
+      @include screen-tablet-max {
+        margin-top: 10rem;
+      }
     }
 
   }
 
-  #camps-youth {
-    thead tr {
-      background-color: $color-light-blue;
-      color: black;
-    }
-    img {
-      max-width: 50%;
-    }
-    svg#straight-line-horiz {
-      width: 30rem;
-      &.right-side {
-        left: 70%;
-      }
-      &.left-side {
-        right: 70%;
-      }
-      line {
-        stroke-width: 0.15rem;
+  #coding-for-everyone {
+    background-image: url('/assets/img/aincu/youth/everyone.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+    @include screen-xs {
+      background-position: 25%;
+      h5, p {
+        color: white;
       }
     }
+    display: none;
+  }
 
+  #camps {
+    background-size: 100% 10vh;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    ul {
+      margin-bottom: 2.5rem;
+    }
+    display: none;
+  }
+  h5 {
+    @include font-size(26);
+    font-weight: 700;
+  }
+  p {
+    @include font-size(13);
+    @include screen-xs {
+      font-size: 16px;
+    }
+    margin: 2rem 0;
   }
 }

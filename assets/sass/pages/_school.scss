@@ -1,0 +1,132 @@
+#school {
+
+  #header {
+    background-image: url('/assets/img/aincu/youth/youth-header.png');
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    @include screen-laptop-min {
+      margin-bottom: 25vh;
+    }
+    @include screen-tablet-max {
+      background-position: 55%;
+    }
+    .lgx-heading-area {
+      margin-top: 30vh;
+      .lgx-heading {
+        text-align: left;
+      }
+    }
+    #phone-image {
+      img {
+        max-height: 550px;
+      }
+      margin-top: 5vh;
+    }
+    #why-code {
+      .heading-subtitle {
+        @include font-size(22);
+      }
+      margin-top: 5vh;
+    }
+  }
+
+  #coding-is-fun {
+    h5 {
+      margin-top: 2.5rem;
+    }
+  }
+  #coding-adventure {
+    margin-top: 10rem;
+  }
+  #coding-for-everyone {
+    background-image: url('/assets/img/aincu/youth/everyone.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+    @include screen-xs {
+      background-position: 25%;
+    }
+  }
+  #engaged-creative {
+      background-image: url('/assets/img/aincu/youth/youth-engaged-bg.png');
+      background-size: 100% 60vh;
+      background-position: center 10%;
+      background-repeat: no-repeat;
+      @include screen-tablet-max {
+        background-size: 100% 40vh;
+        background-position: center 28%;
+      }
+      @include screen-xs {
+        background-size: 200% 70vh;
+        margin-top: 20vh;
+        background-position: 85% 15%;
+      }
+    
+    #kids-engaged {
+      margin-top: 10rem;
+      @include screen-md {
+        margin-top: 25rem;
+      }
+      h5, p {
+        color: white;
+      }
+    }
+    #coding-adventure {
+      margin-top: 10rem;
+    }
+    #coding-adventure-image {
+      margin-top: 10rem;
+      @include screen-tablet-max {
+        margin-top: 10rem;
+      }
+    }
+  }
+
+  #camps {
+    background-size: 100% 10vh;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    ul {
+      margin-bottom: 2.5rem;
+    }
+
+  }
+
+  #coding-for-everyone {
+    background-image: url('/assets/img/aincu/youth/everyone.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+    @include screen-xs {
+      background-position: 25%;
+      background-color: grey;
+      background-blend-mode: multiply;
+      h5, p {
+        color: white;
+      }
+    }
+  }
+
+  #camps {
+    background-size: 100% 10vh;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    ul {
+      margin-bottom: 2.5rem;
+    }
+    display: none;
+  }
+  h5 {
+    @include font-size(26);
+    font-weight: 700;
+  }
+  p {
+    @include font-size(13);
+    @include screen-xs {
+      font-size: 16px;
+    }
+    margin: 2rem 0;
+  }
+}
