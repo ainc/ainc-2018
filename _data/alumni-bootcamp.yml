@@ -5,7 +5,7 @@ items:
     github: https://github.com/denisgat
     linkedin: https://www.linkedin.com/in/denis-gatotho-a3b421194/
     img_path: denis-gatotho
-    position: null
+    position: Advantage<br>Resource
     cohort: s20
   -
     name: Cody Herbst
@@ -45,7 +45,7 @@ items:
     github: https://github.com/hayden-nesbit/
     linkedin: https://www.linkedin.com/in/hayden-nesbit-b54a7485/
     img_path: hayden-nesbit
-    position: null
+    position: Silver Fern<br>Group
     cohort: s20
   -
     name: David Oliver
@@ -213,7 +213,7 @@ items:
     img_path: philip-devine
     linkedin: 'https://www.linkedin.com/in/devinepk/'
     name: Philip Devine
-    position: Bastian Solutions
+    position: Bastian<br>Solutions
     website: 'https://devinepk.github.io/portfolio/'
   - cohort: f18
     github: 'https://github.com/JTHall94/'
