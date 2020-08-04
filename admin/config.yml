@@ -113,6 +113,17 @@ collections:
               - {label: "Image Path", name: "img_path", widget: "hidden", default: "placeholder-wall.jpg"} # Hidden widget: https://www.netlifycms.org/docs/widgets/hidden/
               - {label: "Position", name: "position", widget: "string", required: false}
               - {label: "Cohort", name: "cohort", widget: "string", hint: "s19: Spring 2019, f19: Fall 2019", required: false}
+      - name: "5across"
+        label: "5 Across"
+        file: "_data/5across.json"
+        create: true
+        fields:
+          - {label: "Company Name", name: "company_name", widget: "string", required: false}
+          - {label: "Company Location", name: "location", widget: "string", required: false}
+          - {label: "Pitch Link", name: "pitch_link", widget: "string", required: false}
+          - {label: "LinkedIn Link", name: "linkedin", widget: "string", required: false}
+          - {label: "Team Image", name: "team_image", widget: "image", required: false} # TODO: Add default image
+          - {label: "Founders Names", name: "founders_names", widget: "list", required: false}
   
   - name: "job_openings"
     label: "Job Openings"
