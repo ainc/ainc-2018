@@ -1,0 +1,19 @@
+#impact-report {
+    body {
+        position: relative;
+      }
+      .affix {    /* Make navbar stick */
+        top: 130px;
+        z-index: 9999 !important;
+      }
+      div.col-sm-9 div {
+        height: 250px;
+        font-size: 28px;
+    
+      @include screen-tablet-max {
+        #landing-page, #who-we-are  {
+          margin-left: 150px;
+            }
+        }
+    }
+}
