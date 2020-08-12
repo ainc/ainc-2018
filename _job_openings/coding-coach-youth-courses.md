@@ -1,6 +1,6 @@
 ---
 title: Coding Coach - Youth Courses
-email: learn@awesomeinc.og
+email: learn@awesomeinc.org
 team: Awesome Inc U
 manager: Nick
 time-commitment: part-time
