@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: page.lang | default: 'en' }}">
+
+	<head>
+		{% include head.html %}
+		{% if page.team == 'aincu' %}
+			{% include zoho_sales_iq.html %}
+		{% endif %}
+	</head>
+
+	<body class="page page-template">
+		<div class="lgx-container "></div>
+		<header>
+			{% include covid-announcement.html %}
+			{% include nav.html %}
+			
+		</header>
+
+		<main class="main" id='{% if page.page_id %}{{ page.page_id }}{% else %}{{ page.title | remove:" " | downcase }}{% endif %}' aria-label="Content">
+			{{ content }}
+		</main>
+
+		<footer> <!-- use only the bottom footer -->
+			<div id="lgx-footer" class="lgx-footer">
+				<div class="lgx-footer-middle"> <!--lgx-footer-middle-white-->
+					<div class="container">
+						<div class="lgx-footer-bottom">
+							<div class="lgx-copyright">
+								<ul class="list-inline">
+									<li><a href="{{ site.data.routes.about }}">About</a></li>
+									<li><a href="{{ site.data.routes.careers }}">Careers</a></li>
+									<li><a href="{{ site.data.routes.privacy }}">Privacy Policy</a></li>
+									<li><a href="{{ site.data.routes.terms }}">Terms of Service</a></li>
+								</ul>
+							</div>
+							<ul class="list-inline lgx-social-footer">
+								<li><a href="{{ site.data.routes.twitter }}"><i class="fa fa-twitter"></i></a></li>
+								<li><a href="{{ site.data.routes.facebook }}"><i class="fa fa-facebook-f"></i></a></li>
+								<li><a href="{{ site.data.routes.linkedin }}"><i class="fa fa-linkedin"></i></a></li>
+								<li><a href="{{ site.data.routes.instagram }}"><i class="fa fa-instagram"></i></a></li>
+								<li><a href="{{ site.data.routes.youtube }}"><i class="fa fa-youtube-play"></i></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+		{% include js-imports.html %}
+		{% include netlify-callback.html %}
+  </body>
+  
+
+</html>
