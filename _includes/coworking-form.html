@@ -1,7 +1,7 @@
 <div class="form-group">
   <form action='https://forms.zohopublic.com/virtualoffice9155/form/CoworkingMemberForm/formperma/qc2Yk3yQhgxWIMamN-IqeI1IwpyQFpWW30J9dBk8qL8/htmlRecords/submit' name='form' id='form' method='POST' accept-charset='UTF-8' enctype='multipart/form-data'>
     <input type="hidden" name="zf_referrer_name" value=""><!-- To Track referrals , place the referrer name within the " " in the above hidden input field -->
-    <input type="hidden" name="zf_redirect_url" value=""><!-- To redirect to a specific page after record submission , place the respective url within the " " in the above hidden input field -->
+    <input type="hidden" name="zf_redirect_url" value="https://awesomeinc.org/thanks"><!-- To redirect to a specific page after record submission , place the respective url within the " " in the above hidden input field -->
     <input type="hidden" name="zc_gad" value=""><!-- If GCLID is enabled in Zoho CRM Integration, click details of AdWords Ads will be pushed to Zoho CRM -->
     <div class="form-group">
       <label for="First Name">First Name</label>
@@ -21,47 +21,103 @@
     </div>
     <div class="form-group">
       <label for="Company Name">Company Name (if applicable)</label>
-      <textarea name="MultiLine" maxlength="50000" class="form-control input-lg"></textarea>
+      <input name="MultiLine" placeholder="Name of Company" maxlength="50000" class="form-control input-lg" />
     </div>
     <div class="form-group">
       <label for="Company Website">Company Website (if applicable)</label>
-      <input type="text" maxlength="2083" name="Website" placeholder="Website URL" class="form-control input-lg">
+      <input type="text" maxlength="2083" name="Website" placeholder="Website URL" class="form-control input-lg" />
     </div>
     <div class="form-group">
       <label for="Company Website">How long has your business existed?</label>
-      <input type="text" maxlength="255" name="SingleLine" placeholder="# of years" class="form-control input-lg">
+      <input type="text" maxlength="255" name="SingleLine" placeholder="# of years" class="form-control input-lg" />
     </div>
     <div class="form-group">
       <label for="Company Website">What service are you interested in at Awesome Inc?</label>
-      <select name="MultipleChoice" class="form-control">
-        <option value="Day Pass">Day Pass</option>
-        <option value="Full-time Membership">Full-time Membership</option>
-        <option value="VirtualMembership">Virtual Membership</option>
-        <option value="Private Office Space">Private Office Space</option>
-      </select>
-    </div>
+      <div class="form-check">
+        <input class="form-check-input" type="radio" id="Radio2_1" name="Radio2" value="Day Pass">
+        <label for="Radio2_1" >Day Pass</label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="radio" id="Radio2_2" name="Radio2" value="Full-time Membership">
+        <label for="Radio2_2" >Full-time Membership</label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="radio" id="Radio2_3" name="Radio2" value="Virtual Membership">
+        <label for="Radio2_3" >Virtual Membership</label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="radio" id="Radio2_4" name="Radio2" value="Private Office Space">
+        <label for="Radio2_4" >Private Office Space</label>
+      </div>
+    </div><!-- form-group -->
     <div class="form-group">
       <label for="People">How many people are in your company?</label>
-      <input type="text" maxlength="20" name="Number" class="form-control input-lg" required>
-    </div>
+      <input type="text" maxlength="18" value="" name="Number" class="form-control input-lg" required />
+    </div><!-- form-group -->
+    <div class="form-group">
+      <label for="People">How many people will be using the Awesome Space?</label>
+      <input type="text" maxlength="18" value="" name="Number1" class="form-control input-lg" required />
+    </div><!-- form-group -->
     <div class="form-group">
       <label for="How long?">How long do you plan on occupying space at Awesome Inc (there is no requirement for more than one month)?</label>
-      <select name="MultipleChoice1" class="form-control">
-        <option value="1-3 months">1-3 months</option>
-        <option value="3-6 months">3-6 months</option>
-        <option value="6-12 months">6-12 months</option>
-        <option value="1 year">1 year</option>
-      </select>
+      <div class="form-check">
+        <input type="radio" id="1-3months" name="Radio" value="1-3 months">
+        <label for="Radio_1" >1-3 months</label>
+      </div>
+      <div class="form-check">
+        <input type="radio" id="3-6months" name="Radio" value="3-6 months">
+        <label for="Radio_2" >3-6 months</label>
+      </div>
+      <div class="form-check">
+        <input type="radio" id="6-12months" name="Radio" value="6-12 months">
+        <label for="Radio_3" >6-12 months</label>
+      </div>
+      <div class="form-check">
+        <input type="radio" id="1year" name="Radio" value="1 year+">
+        <label for="Radio_4" >1 year+</label>
+      </div>
       <p>Choose which option is closest to your estimated time of occupancy.</p>
-    </div>
+    </div><!-- form-group -->
     <div class="form-group">
       <label for="Goal">Please provide a brief bio of yourself and your business goals/objectives</label>
       <textarea name="MultiLine1" maxlength="50000" class="form-control input-lg"></textarea>
-    </div>
+    </div><!-- form-group -->
     <div class="form-group">
       <label for="Goal">How did you hear about Awesome Inc?</label>
-      <textarea name="MultiLine1" maxlength="50000" class="form-control input-lg"></textarea>
-    </div>
+      <div class="form-check">
+        <input type="radio" id="Radio1_1" name="Radio1" value="Awesome&#x20;Inc&#x20;Email&#x20;Newsletter">
+        <label for="Radio1_1" >Awesome&#x20;Inc&#x20;Email&#x20;Newsletter</label>
+      </div>
+      <div class="form-check">
+        <input type="radio" id="Radio1_2" name="Radio1" value="Word&#x20;of&#x20;Mouth">
+        <label for="Radio1_2" >Word&#x20;of&#x20;Mouth</label>
+      </div>
+      <div class="form-check">
+        <input type="radio" id="Radio1_3" name="Radio1" value="Sign&#x20;or&#x20;Flier">
+        <label for="Radio1_3" >Sign&#x20;or&#x20;Flier</label>
+      </div>
+      <div class="form-check">
+        <input type="radio" id="Radio1_4" name="Radio1" value="Social&#x20;Media">
+        <label for="Radio1_4" >Social&#x20;Media</label>
+      </div>
+      <div class="form-check">
+        <input type="radio" id="Radio1_5" name="Radio1" value="Google&#x20;Search">
+        <label for="Radio1_5" >Google&#x20;Search</label>
+      </div>
+      <div class="form-check">
+        <input type="radio" id="Radio1_6" name="Radio1" value="Email&#x20;from&#x20;School">
+        <label for="Radio1_6" >Email&#x20;from&#x20;School</label>
+      </div>
+      <div class="form-check">
+        <input type="radio" id="Radio1_7" name="Radio1" value="Eventbrite">
+        <label for="Radio1_7" >Eventbrite</label>
+      </div>
+      <div class="form-check">
+        <input id="Radio1_others" type="radio" value="zfs-others-zfs" name="Radio1"><label for="Radio1_others">Other</label> 
+        <input name="Radio1_allow_others_text"  type="text" maxlength="150">
+      </div>
+      
+    </div><!-- form-group -->
     <button type="submit" class ="btn btn-danger btn-large lgx-btn" id ="hide">Send</button>
   </form>
 </div>
