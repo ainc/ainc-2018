@@ -13,4 +13,11 @@
   @include screen-tablet-max {
     margin-left: 150px;
   }
+  .navbar a {
+    color: rgb(26, 26, 26)
+  }
+    // navbar-brand inherits the main link colour (the purple) and applies the #333 hover:
+  .navbar a:hover {
+    color: rgb(253, 0, 0) // applies to all hovered links on nav
+  }
 }
