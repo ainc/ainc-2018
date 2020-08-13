@@ -1,140 +1,425 @@
-
 <!-- Check what type of button -->
 {% if include.style == 'dotted' %}
-  <div class="container">
-    <div class="row">
-      <div class="lgx-heading-area dotted-svg link-svg">
-        <div class="lgx-heading">
-          <h4 class="heading-title" style="line-height: inherit;">
-            <span>
-              <a class="lgx-btn" href="#{{ include.initiative }}" data-toggle="modal" data-target="#{{ include.initiative }}-modal">{{ include.link-text }}</a>
-            </span>
-          </h4>
-        </div>
+<div class="container">
+  <div class="row">
+    <div class="lgx-heading-area dotted-svg link-svg">
+      <div class="lgx-heading">
+        <h4 class="heading-title" style="line-height: inherit;">
+          <span>
+            <a
+              class="lgx-btn"
+              href="#{{ include.initiative }}"
+              data-toggle="modal"
+              data-target="#{{ include.initiative }}-modal"
+              >{{ include.link-text }}</a
+            >
+          </span>
+        </h4>
       </div>
-    </div><!--//.ROW-->
-  </div><!-- //.CONTAINER -->
+    </div>
+  </div>
+  <!--//.ROW-->
+</div>
+<!-- //.CONTAINER -->
 {% elsif include.style == 'img-button' %}
-<a href="#{{ include.initiative }}" data-toggle="modal" data-target="#{{ include.initiative }}-modal">
-  <img src="/images/icons/schedule-a-tour-button-{{ include.img-color | default: 'white' }}.png" id="{{ include.initiative }}-button" alt="{{ include.initiative }} button"/>
+<a
+  href="#{{ include.initiative }}"
+  data-toggle="modal"
+  data-target="#{{ include.initiative }}-modal"
+>
+  <img
+    src="/images/icons/schedule-a-tour-button-{{ include.img-color | default: 'white' }}.png"
+    id="{{ include.initiative }}-button"
+    alt="{{ include.initiative }} button"
+  />
 </a>
 {% elsif include.style == 'small' %}
-<a class="lgx-btn lgx-btn-sm" href="#{{ include.initiative }}" data-toggle="modal" data-target="#{{ include.initiative }}-modal">{{ include.link-text }}</a>
+<a
+  class="lgx-btn lgx-btn-sm"
+  href="#{{ include.initiative }}"
+  data-toggle="modal"
+  data-target="#{{ include.initiative }}-modal"
+  >{{ include.link-text }}</a
+>
 {% elsif include.style == 'no-button' %}
 <!-- Show nothing -->
 {% elsif include.style == 'subtle' %}
-<a class="lgx-btn lgx-btn-grey-light" href="#{{ include.initiative }}" data-toggle="modal" data-target="#{{ include.initiative }}-modal">{{ include.link-text }}</a>
+<a
+  class="lgx-btn lgx-btn-grey-light"
+  href="#{{ include.initiative }}"
+  data-toggle="modal"
+  data-target="#{{ include.initiative }}-modal"
+  >{{ include.link-text }}</a
+>
 {% else %}
-<a 
-  class="{% if include.button-class %}{{include.button-class}}{%else%}lgx-btn{%endif%}" 
-  href="#{{ include.initiative }}" 
-  data-toggle="modal" 
-  data-target="#{{ include.initiative }}-modal">
-    {{ include.link-text }}
+<a
+  class="{% if include.button-class %}{{include.button-class}}{%else%}lgx-btn{%endif%}"
+  href="#{{ include.initiative }}"
+  data-toggle="modal"
+  data-target="#{{ include.initiative }}-modal"
+>
+  {{ include.link-text }}
 </a>
 {% endif %}
 
-<div id="{{ include.initiative }}-modal" class="modal fade lgx-modal" tabindex="-1">
+<div
+  id="{{ include.initiative }}-modal"
+  class="modal fade lgx-modal"
+  tabindex="-1"
+>
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+        <button
+          type="button"
+          class="close"
+          data-dismiss="modal"
+          aria-hidden="true"
+        >
+          ×
+        </button>
       </div>
       <div class="modal-body">
-          {% if include.initiative == 'fellowship' %}
-          <iframe src="https://docs.google.com/spreadsheet/viewform?formkey=dGViS0pDM2VUZlFub1BuLUJkc1RjcFE6MA"></iframe>
-          <p>On a mobile device? <a href="https://docs.google.com/spreadsheet/viewform?formkey=dGViS0pDM2VUZlFub1BuLUJkc1RjcFE6MA" target="_blank">Click here for form</a></p>
-          {% elsif include.initiative == 'team-alpha' %}
-          <iframe src="https://docs.google.com/spreadsheet/viewform?formkey=dDNLRTI0MmcyYWtDSDZNNGZOVERfNUE6MQ"></iframe>
-          <p>On a mobile device? <a href="https://docs.google.com/spreadsheet/viewform?formkey=dDNLRTI0MmcyYWtDSDZNNGZOVERfNUE6MQ" target="_blank">Click here for form</a></p>
-          {% elsif include.initiative == 'member-form' %}
-          <iframe src="https://docs.google.com/spreadsheet/viewform?formkey=dGh0eWtpRkczSEZ0aXBhazV6S0JwV3c6MQ"></iframe>
-          <p>On a mobile device? <a href="https://docs.google.com/spreadsheet/viewform?formkey=dGh0eWtpRkczSEZ0aXBhazV6S0JwV3c6MQ" target="_blank">Click here for form</a></p>
-          {% elsif include.initiative == 'tour' %}
-          <div class="lgx-heading lgx-heading-white">
-              <h3 class="heading-title">Schedule a Tour Form</h3>
-          </div>
-          <div class="form-group">
-              <form method="POST" action="https://formspree.io/maggie.collofello@gmail.com">
-                  <input type="hidden" name="_cc" value="ek.andrews11@gmail.com">
-                  <input class="form-control" type="email" id="CustInfo" name="_replyto" placeholder="Your email" /><br>
-                  <input class="form-control" type="text" id="CustInfo" name="name" placeholder="Your name"><br>
-                  <textarea class="form-control" name="message" id="CustInfo" rows="5" placeholder="Your message"></textarea><br>
-                  <input type="text" name="_gotcha" style="display:none">
-                  <input type="hidden" name="_next" value="https://awesomeinc.org" />
-                  <button type="submit" class="btn btn-danger btn-large lgx-btn center-block" id="hide">Send</button>
-              </form>
-          </div>
-          {% elsif include.initiative == 'newsletter' %}
-          <!-- Begin Mailchimp Signup Form -->
-          
-          <div id="mc_embed_signup">
-              <form action="https://awesomeinc.us2.list-manage.com/subscribe/post?u=5114422b2183673d50186748d&amp;id=946c001ab3" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-                  <div id="mc_embed_signup_scroll">
-                      <h2>Subscribe</h2>
-                      <div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
-                      <div class="mc-field-group">
-                          <label for="mce-EMAIL">
-                              Email Address  <span class="asterisk">*</span>
-                          </label>
-                          <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
-                      </div>
-                      <div class="mc-field-group">
-                          <label for="mce-FNAME">First Name </label>
-                          <input type="text" value="" name="FNAME" class="" id="mce-FNAME">
-                      </div>
-                      <div class="mc-field-group">
-                          <label for="mce-LNAME">Last Name </label>
-                          <input type="text" value="" name="LNAME" class="" id="mce-LNAME">
-                      </div>
-                      <div class="mc-field-group input-group">
-                          <strong>I'm interested in... </strong>
-                          <ul>
-                              <li><input type="checkbox" value="1" name="group[49997][1]" id="mce-group[49997]-49997-0"><label for="mce-group[49997]-49997-0"> Youth Coding Courses</label></li>
-                              <li><input type="checkbox" value="2" name="group[49997][2]" id="mce-group[49997]-49997-1"><label for="mce-group[49997]-49997-1"> Adult Coding Courses</label></li>
-                              <li><input type="checkbox" value="4" name="group[49997][4]" id="mce-group[49997]-49997-2"><label for="mce-group[49997]-49997-2"> Web Developer Bootcamp</label></li>
-                              <li><input type="checkbox" value="8" name="group[49997][8]" id="mce-group[49997]-49997-3"><label for="mce-group[49997]-49997-3"> The Fellowship Program</label></li>
-                              <li><input type="checkbox" value="16" name="group[49997][16]" id="mce-group[49997]-49997-4"><label for="mce-group[49997]-49997-4"> Events at Awesome Inc</label></li>
-                              <li><input type="checkbox" value="32" name="group[49997][32]" id="mce-group[49997]-49997-5"><label for="mce-group[49997]-49997-5"> Workspace Information</label></li>
-                              <li><input type="checkbox" value="64" name="group[49997][64]" id="mce-group[49997]-49997-6"><label for="mce-group[49997]-49997-6"> Keep Me In The Know About It All</label></li>
-                          </ul>
-                      </div>
-                      <div id="mce-responses" class="clear">
-                          <div class="response" id="mce-error-response" style="display:none"></div>
-                          <div class="response" id="mce-success-response" style="display:none"></div>
-                      </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-                      <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_5114422b2183673d50186748d_946c001ab3" tabindex="-1" value=""></div>
-                      <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
-                  </div>
-              </form>
-          </div>
-          <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
-          <script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[3]='ADDRESS';ftypes[3]='address';fnames[4]='PHONE';ftypes[4]='phone';fnames[5]='MMERGE5';ftypes[5]='number';fnames[6]='MMERGE6';ftypes[6]='text';fnames[7]='MMERGE7';ftypes[7]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
-          <!--End mc_embed_signup-->
-          {% elsif include.initiative == 'bootcamp-program-guide' %}
-          <div class="form-group">
-            <!-- Change or deletion of the name attributes in the input tag will lead to empty values on record submission-->
-            <form action='https://forms.zohopublic.com/virtualoffice9155/form/EmailSubscription/formperma/DpCKAlyxEJ-dLzdhzYuvhtQ8sCUVAbu4fE3JEMuAPqI/htmlRecords/submit' name='form' id='form' class="validate" method='POST' accept-charset='UTF-8' enctype='multipart/form-data'>
-              <input type="hidden" name="zf_referrer_name" value="" /<!-- To Track referrals , place the referrer name within the " " in the above hidden input field -->
-              <input type="hidden" name="zf_redirect_url" value="https://www.awesomeinc.org/confirmation/bootcamp-download" /><!-- To redirect to a specific page after record submission , place the respective url within the " " in the above hidden input field -->
-              <input type="hidden" name="zc_gad" value="" /><!-- If GCLID is enabled in Zoho CRM Integration, click details of AdWords Ads will be pushed to Zoho CRM -->
-              <h2>Bootcamp Program Guide</h2>
-              <!--Name-->
-              <input class="form-control" placeholder="First Name" type="text" maxlength="255" name="Name_First" fieldType="7" ><br/>
-              <input class="form-control" placeholder="Last Name" type="text" maxlength="255" name="Name_Last" fieldType="7"><br/>
-              <!--Email-->
-              <input class="form-control" placeholder="Email Address" type="text" maxlength="255" name="Email" value="" fieldType="9">
-              <p>No spam. Just Oreos.</p><br/>
+        {% if include.initiative == 'fellowship' %}
+        <iframe
+          src="https://docs.google.com/spreadsheet/viewform?formkey=dGViS0pDM2VUZlFub1BuLUJkc1RjcFE6MA"
+        ></iframe>
+        <p>
+          On a mobile device?
+          <a
+            href="https://docs.google.com/spreadsheet/viewform?formkey=dGViS0pDM2VUZlFub1BuLUJkc1RjcFE6MA"
+            target="_blank"
+            >Click here for form</a
+          >
+        </p>
+        {% elsif include.initiative == 'team-alpha' %}
+        <iframe
+          src="https://docs.google.com/spreadsheet/viewform?formkey=dDNLRTI0MmcyYWtDSDZNNGZOVERfNUE6MQ"
+        ></iframe>
+        <p>
+          On a mobile device?
+          <a
+            href="https://docs.google.com/spreadsheet/viewform?formkey=dDNLRTI0MmcyYWtDSDZNNGZOVERfNUE6MQ"
+            target="_blank"
+            >Click here for form</a
+          >
+        </p>
+        {% elsif include.initiative == 'member-form' %} {% include
+        coworking-form.html %}
+        <p>
+          On a mobile device?
+          <a
+            href="https://docs.google.com/spreadsheet/viewform?formkey=dGh0eWtpRkczSEZ0aXBhazV6S0JwV3c6MQ"
+            target="_blank"
+            >Click here for form</a
+          >
+        </p>
+        {% elsif include.initiative == 'tour' %}
+        <div class="lgx-heading lgx-heading-white">
+          <h3 class="heading-title">Schedule a Tour Form</h3>
+        </div>
+        <div class="form-group">
+          <form
+            method="POST"
+            action="https://formspree.io/maggie.collofello@gmail.com"
+          >
+            <input type="hidden" name="_cc" value="ek.andrews11@gmail.com" />
+            <input
+              class="form-control"
+              type="email"
+              id="CustInfo"
+              name="_replyto"
+              placeholder="Your email"
+            /><br />
+            <input
+              class="form-control"
+              type="text"
+              id="CustInfo"
+              name="name"
+              placeholder="Your name"
+            /><br />
+            <textarea
+              class="form-control"
+              name="message"
+              id="CustInfo"
+              rows="5"
+              placeholder="Your message"
+            ></textarea
+            ><br />
+            <input type="text" name="_gotcha" style="display: none;" />
+            <input type="hidden" name="_next" value="https://awesomeinc.org" />
+            <button
+              type="submit"
+              class="btn btn-danger btn-large lgx-btn center-block"
+              id="hide"
+            >
+              Send
+            </button>
+          </form>
+        </div>
+        {% elsif include.initiative == 'newsletter' %}
+        <!-- Begin Mailchimp Signup Form -->
 
-              <input type="hidden" id="Checkbox_1" name="Checkbox" checked value="Web&#x20;Developer&#x20;Bootcamp"/>
-              <div>
-                <button type="submit" class="btn btn-danger btn-large lgx-btn">Submit</button>
+        <div id="mc_embed_signup">
+          <form
+            action="https://awesomeinc.us2.list-manage.com/subscribe/post?u=5114422b2183673d50186748d&amp;id=946c001ab3"
+            method="post"
+            id="mc-embedded-subscribe-form"
+            name="mc-embedded-subscribe-form"
+            class="validate"
+            target="_blank"
+            novalidate
+          >
+            <div id="mc_embed_signup_scroll">
+              <h2>Subscribe</h2>
+              <div class="indicates-required">
+                <span class="asterisk">*</span> indicates required
               </div>
-            </form>
-          </div>
-          {% endif %}
-      </div><!-- modal body -->
-    </div><!-- modal content -->
-  </div><!-- modal dialog -->
-</div> <!-- //.Modal-->
+              <div class="mc-field-group">
+                <label for="mce-EMAIL">
+                  Email Address <span class="asterisk">*</span>
+                </label>
+                <input
+                  type="email"
+                  value=""
+                  name="EMAIL"
+                  class="required email"
+                  id="mce-EMAIL"
+                />
+              </div>
+              <div class="mc-field-group">
+                <label for="mce-FNAME">First Name </label>
+                <input
+                  type="text"
+                  value=""
+                  name="FNAME"
+                  class=""
+                  id="mce-FNAME"
+                />
+              </div>
+              <div class="mc-field-group">
+                <label for="mce-LNAME">Last Name </label>
+                <input
+                  type="text"
+                  value=""
+                  name="LNAME"
+                  class=""
+                  id="mce-LNAME"
+                />
+              </div>
+              <div class="mc-field-group input-group">
+                <strong>I'm interested in... </strong>
+                <ul>
+                  <li>
+                    <input
+                      type="checkbox"
+                      value="1"
+                      name="group[49997][1]"
+                      id="mce-group[49997]-49997-0"
+                    /><label for="mce-group[49997]-49997-0">
+                      Youth Coding Courses</label
+                    >
+                  </li>
+                  <li>
+                    <input
+                      type="checkbox"
+                      value="2"
+                      name="group[49997][2]"
+                      id="mce-group[49997]-49997-1"
+                    /><label for="mce-group[49997]-49997-1">
+                      Adult Coding Courses</label
+                    >
+                  </li>
+                  <li>
+                    <input
+                      type="checkbox"
+                      value="4"
+                      name="group[49997][4]"
+                      id="mce-group[49997]-49997-2"
+                    /><label for="mce-group[49997]-49997-2">
+                      Web Developer Bootcamp</label
+                    >
+                  </li>
+                  <li>
+                    <input
+                      type="checkbox"
+                      value="8"
+                      name="group[49997][8]"
+                      id="mce-group[49997]-49997-3"
+                    /><label for="mce-group[49997]-49997-3">
+                      The Fellowship Program</label
+                    >
+                  </li>
+                  <li>
+                    <input
+                      type="checkbox"
+                      value="16"
+                      name="group[49997][16]"
+                      id="mce-group[49997]-49997-4"
+                    /><label for="mce-group[49997]-49997-4">
+                      Events at Awesome Inc</label
+                    >
+                  </li>
+                  <li>
+                    <input
+                      type="checkbox"
+                      value="32"
+                      name="group[49997][32]"
+                      id="mce-group[49997]-49997-5"
+                    /><label for="mce-group[49997]-49997-5">
+                      Workspace Information</label
+                    >
+                  </li>
+                  <li>
+                    <input
+                      type="checkbox"
+                      value="64"
+                      name="group[49997][64]"
+                      id="mce-group[49997]-49997-6"
+                    /><label for="mce-group[49997]-49997-6">
+                      Keep Me In The Know About It All</label
+                    >
+                  </li>
+                </ul>
+              </div>
+              <div id="mce-responses" class="clear">
+                <div
+                  class="response"
+                  id="mce-error-response"
+                  style="display: none;"
+                ></div>
+                <div
+                  class="response"
+                  id="mce-success-response"
+                  style="display: none;"
+                ></div>
+              </div>
+              <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+              <div
+                style="position: absolute; left: -5000px;"
+                aria-hidden="true"
+              >
+                <input
+                  type="text"
+                  name="b_5114422b2183673d50186748d_946c001ab3"
+                  tabindex="-1"
+                  value=""
+                />
+              </div>
+              <div class="clear">
+                <input
+                  type="submit"
+                  value="Subscribe"
+                  name="subscribe"
+                  id="mc-embedded-subscribe"
+                  class="button"
+                />
+              </div>
+            </div>
+          </form>
+        </div>
+        <script
+          type="text/javascript"
+          src="//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js"
+        ></script>
+        <script type="text/javascript">
+          (function ($) {
+            window.fnames = new Array();
+            window.ftypes = new Array();
+            fnames[0] = "EMAIL";
+            ftypes[0] = "email";
+            fnames[1] = "FNAME";
+            ftypes[1] = "text";
+            fnames[2] = "LNAME";
+            ftypes[2] = "text";
+            fnames[3] = "ADDRESS";
+            ftypes[3] = "address";
+            fnames[4] = "PHONE";
+            ftypes[4] = "phone";
+            fnames[5] = "MMERGE5";
+            ftypes[5] = "number";
+            fnames[6] = "MMERGE6";
+            ftypes[6] = "text";
+            fnames[7] = "MMERGE7";
+            ftypes[7] = "text";
+          })(jQuery);
+          var $mcj = jQuery.noConflict(true);
+        </script>
+        <!--End mc_embed_signup-->
+        {% elsif include.initiative == 'bootcamp-program-guide' %}
+        <div class="form-group">
+          <!-- Change or deletion of the name attributes in the input tag will lead to empty values on record submission-->
+          <form
+            action="https://forms.zohopublic.com/virtualoffice9155/form/EmailSubscription/formperma/DpCKAlyxEJ-dLzdhzYuvhtQ8sCUVAbu4fE3JEMuAPqI/htmlRecords/submit"
+            name="form"
+            id="form"
+            class="validate"
+            method="POST"
+            accept-charset="UTF-8"
+            enctype="multipart/form-data"
+          >
+            <input type="hidden" name="zf_referrer_name" value="" /<!-- To Track referrals , place the referrer name within the " " in the above hidden input field -->
+            <input
+              type="hidden"
+              name="zf_redirect_url"
+              value="https://www.awesomeinc.org/confirmation/bootcamp-download"
+            /><!-- To redirect to a specific page after record submission , place the respective url within the " " in the above hidden input field -->
+            <input
+              type="hidden"
+              name="zc_gad"
+              value=""
+            /><!-- If GCLID is enabled in Zoho CRM Integration, click details of AdWords Ads will be pushed to Zoho CRM -->
+            <h2>Bootcamp Program Guide</h2>
+            <!--Name-->
+            <input
+              class="form-control"
+              placeholder="First Name"
+              type="text"
+              maxlength="255"
+              name="Name_First"
+              fieldType="7"
+            /><br />
+            <input
+              class="form-control"
+              placeholder="Last Name"
+              type="text"
+              maxlength="255"
+              name="Name_Last"
+              fieldType="7"
+            /><br />
+            <!--Email-->
+            <input
+              class="form-control"
+              placeholder="Email Address"
+              type="text"
+              maxlength="255"
+              name="Email"
+              value=""
+              fieldType="9"
+            />
+            <p>No spam. Just Oreos.</p>
+            <br />
 
+            <input
+              type="hidden"
+              id="Checkbox_1"
+              name="Checkbox"
+              checked
+              value="Web&#x20;Developer&#x20;Bootcamp"
+            />
+            <div>
+              <button type="submit" class="btn btn-danger btn-large lgx-btn">
+                Submit
+              </button>
+            </div>
+          </form>
+        </div>
+        {% endif %}
+      </div>
+      <!-- modal body -->
+    </div>
+    <!-- modal content -->
+  </div>
+  <!-- modal dialog -->
+</div>
+<!-- //.Modal-->
