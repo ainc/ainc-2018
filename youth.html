@@ -127,7 +127,20 @@ team: aincu
       <div class="lgx-heading-area"> <!-- Header -->
         <div class="lgx-heading">
           <h2 class="heading-title">Coding Club Memberships</h2>
-        </div>
+          <h4 class="heading-subtitle"><a class="lgx-btn lgx-btn-plain" href="#" data-toggle="modal" data-target="#lgx-modal">Still have questions? Check out our FAQ</a></h4>
+          <div id="lgx-modal" class="modal fade lgx-modal">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                </div>
+                <div class="modal-body" id="club-modal-faq">
+                  {% include coding-club-faq.html %}
+                </div><!-- modal-body -->
+              </div>
+            </div>
+          </div> <!-- .Modal-->
+        </div> <!-- lgx heading -->
       </div> <!-- heading area -->
     </div> <!-- row -->
   </div>
