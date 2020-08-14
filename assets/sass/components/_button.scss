@@ -131,3 +131,13 @@ li > a:focus {
   align-items: center;
   justify-content: center;
 }
+
+.lgx-btn-plain {
+  font-weight: 400;
+  letter-spacing: 1px;
+  background: none;
+  color: $brand-color;
+  text-transform: none;
+  border: none;
+  @include font-size(16);
+}
