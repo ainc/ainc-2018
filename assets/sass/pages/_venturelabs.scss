@@ -1,13 +1,19 @@
 $venturelabs-color: #941443;
+$venturelabs-red-color: rgb(218, 69, 74);
 $venturelabs-blue-color: #0090D1;
 
 #venturelabs {
+  .lgx-btn {
+    background-color: $venturelabs-red-color;
+    color: white;
+    border-color: $venturelabs-red-color;
+  }
   
   #header-venturelabs {
-    background: url('/assets/img/venture-labs/venture-labs-hero-bg.png');
+    background: url('/assets/img/venture-labs/header-bg.jpg');
     background-size: cover;
-    background-position-y: 50%;
-    height: 80vh;
+    background-position-y: bottom;
+    height: 70vh;
     @media (max-height: 700px) {
       height: 90vh;
     }
@@ -22,10 +28,10 @@ $venturelabs-blue-color: #0090D1;
         }
       }
       .heading-subtitle {
-        color: $venturelabs-color;
+        color: white;
         @include font-size(27);
         font-weight: 600;
-        margin: 4rem 40vh;
+        margin: 4rem 35vh;
         @include screen-lg {
           margin: 4rem 30vh;
         }
