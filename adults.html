@@ -100,11 +100,11 @@ team: aincu
                 </thead>
                 <tbody>
                   <tr>
-                    <td><a href="{{ site.data.routes.bootcamp }}"><img alt="Web Developer Bootcamp" data-src="/images/logos/aincu-bootcamp-logo.png" class="img-responsive lazyload"></a><br>Spring 2020</td>
+                    <td><a href="{{ site.data.routes.bootcamp }}"><img alt="Web Developer Bootcamp" data-src="/images/logos/aincu-bootcamp-logo.png" class="img-responsive lazyload"></a><br>Fall 2020</td>
                     <td>Full-Time<br>4 weeks remote<br>12 weeks in-person</td>
                     <td>CS and Programming Fundamentals, Full-Stack Web Development, Tech Job Skills</td>
-                    <td>HTML, CSS, JavaScript, CLI, Git, Jekyll, SQL, PHP, Laravel, Vue, Heroku</td>
-                    <td>February 25 - May 20<br>Mon - Fri<br>8am - 5pm</td>
+                    <td>HTML, CSS, JavaScript, CLI, Git, SQL, PHP, Laravel, React, Google Cloud</td>
+                    <td>September 21 - December 11<br>Mon - Fri<br>8am - 5pm</td>
                     <td>Career switchers</td>
                     <td><a href="{{ site.data.routes.bootcamp }}" class="btn btn-default center" role="button" disabled>Applications Closed</a></td>
                   </tr>
@@ -165,6 +165,7 @@ team: aincu
                 <tbody>
                   {% assign intro_classes = site.courses | where: "course-category", "intro" %}
                   {% for class in intro_classes %}
+                  {% if class.hide != true %}
                   <tr>
                     <td>{{ class.title }} <br/> <em>{{ class.season.first }} {{ class.application-date | date: "%Y" }}</em></td>
                     <td>Part-Time (evenings)<br>9 Weeks</td>
@@ -179,6 +180,7 @@ team: aincu
                     {% endif %}
                     <td><a href="{{ url }}" class="btn btn-default center" role="button">Details & Registration</a></td>
                   </tr>
+                  {% endif %}
                   {% endfor %}
                 </tbody>
               </table>

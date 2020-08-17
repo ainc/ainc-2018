@@ -24,8 +24,8 @@ prework-date: ""
 program-begin-date: 2020-06-06T17:00:49.007Z
 program-end-date: 2020-07-18T19:00:49.033Z
 age_group: adult
-open: true
-hide: false
+open: false
+hide: true
 eventbrite_eid: "94896890153"
 rel_path: /mobile-apps-with-flutter
 ---

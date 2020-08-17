@@ -15,16 +15,16 @@ technologies:
 class_day:
   - 'Mon, Wed'
 season:
-  - Summer
+  - Fall
 application-date: 2020-06-15T21:30:04.530Z
 prework-date: ''
-program-begin-date: 2020-06-15T22:30:00.000Z
-program-end-date: 2020-08-13T00:00:04.609Z
+program-begin-date: 2020-09-14T22:30:00.000Z
+program-end-date: 2020-11-11T00:00:04.609Z
 time: '6:30 - 8:30 PM'
 age_group: adult
 open: true
 hide: false
-eventbrite_eid: '96473511871'
+eventbrite_eid: '114933818144'
 rel_path: /intro-to-web-development
 ---
 
