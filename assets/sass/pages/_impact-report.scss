@@ -4,7 +4,8 @@
   }
   .affix {    /* Make navbar stick */
     top: 130px;
-    z-index: 9999 !important;
+    z-index: 9999 !important; 
+    // front back 3D 
   }
   div.col-sm-9 div {
     height: 400px;
@@ -14,10 +15,12 @@
     margin-left: 150px;
   }
   .navbar a {
-    color: rgb(26, 26, 26)
+    color: rgb(26, 26, 26);
   }
     // navbar-brand inherits the main link colour (the purple) and applies the #333 hover:
-  .navbar a:hover {
-    color: rgb(253, 0, 0) // applies to all hovered links on nav
+  .navbar a:hover, .navbar a:focus {
+    color: rgb(253, 0, 0); // applies to all hovered links on nav
+    text-decoration: none;
+    background-color: transparent;
   }
 }
