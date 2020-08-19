@@ -28,7 +28,7 @@
       
       .heading-title {
         @include font-size(44);
-        color: $brand-color;
+        color: $white-color;
         margin-bottom: 0;
         @include screen-xs {
           @include font-size(34);
