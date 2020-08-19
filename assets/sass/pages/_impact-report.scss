@@ -14,13 +14,23 @@
   @include screen-tablet-max {
     margin-left: 150px;
   }
-  .navbar a {
+  .navbar a { // text when static
     color: rgb(26, 26, 26);
+    font-family: "Open Sans",sans-serif;
+    font-size: 14px;
+    line-height: 21px;
+    font-size: 1.4rem;
+    line-height: 2.1rem;
+    font-weight: 200;
+    text-transform: uppercase;
+    padding: 5px; // margin between the texts
   }
-    // navbar-brand inherits the main link colour (the purple) and applies the #333 hover:
-  .navbar a:hover, .navbar a:focus {
-    color: rgb(253, 0, 0); // applies to all hovered links on nav
+  .navbar a:hover {
+    color: $brand-color; // applies to all hovered links on nav
     text-decoration: none;
     background-color: transparent;
+  }
+  .navbar a:focus {
+
   }
 }

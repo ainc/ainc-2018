@@ -12,17 +12,26 @@ team: xxx
 <!-- NOTES 
 1. Check the HTML file for the HTML element
 2. Figure out what CSS class is being used in that HTML element
-3. Then in VS Code you can search the entire repo using Cmd+Shift+F for that CSS Class -->
+3. Then in VS Code you can search the entire repo using Cmd+Shift+F for that CSS Class
+*** NOTE: All CSS should be in sass folder -->
 
-<!-- TO DO LIST 
+<!-- TO DO LIST (8/19)
+  Navbar:
 (X) change navbar text background to transparent
+(X) get rid of top navbar
+( ) navbar position weird
+(X) use $brand color for hover color
+( ) use something else for focus color/shape (check salt&pepper website)
+( ) close the gap between lines in navbar (padding doesn't work, trying margin)
+(X) change font to match Awesome Inc default top navbar caps text
+
+Others:
+( ) maybe change it to Bootstrap 4 all together?? 
 ( ) check z-index
 ( ) check margins of each section, leave room for margins
 ( ) towards the end, side navbar over the footer (FIX IT) 
-( ) maybe change it to Bootstrap 4 all together??
 ( ) adding titles to each section
-( ) research text animation for "who-are-we" 
-(X) get rid of top navbar -->
+( ) research text animation for "who-are-we"  -->
 
 <head>
   <!-- Required meta tags -->
@@ -36,7 +45,7 @@ team: xxx
 <body data-spy="scroll" data-target="#navbar-menu" data-offset="0">
   <div class="container">
     <div class="row">
-      <nav class="col-sm-3 navbar navbar-right" id="navbar-menu">
+      <nav class="col-sm-3 navbar navbar-right lgx-navbar" id="navbar-menu">
         <ul class="nav nav-stacked" data-spy="affix" data-offset-top="205">
           <li><a href="#landing-page"></a></li>
           <li><a href="#who-we-are">Who We Are</a></li>
@@ -56,9 +65,11 @@ team: xxx
       </nav>
 
       <div class="col-sm-9">
-        <div id="landing-page">    
+        <div id="landing-page">
+          <div class="row">  
           <h1>(Landing Page)</h1>
           <p>Description</p>
+          </div>  
         </div>
 
         <div id="who-we-are">    
