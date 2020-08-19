@@ -21,8 +21,6 @@ items:
     name: Liz Brown
   - img_path: /images/uploads/jacquelinebenson-wall.jpg
     name: Jacqueline Benson
-  - img_path: /images/uploads/loganjones-wall.jpg
-    name: Logan Jones
   - img_path: /images/uploads/garrettfahrbach-wall.jpg
     name: Garrett Fahrbach
   - img_path: /images/uploads/peterbriggs-wall.jpg
@@ -31,8 +29,6 @@ items:
     name: Heather Seaton
   - img_path: /images/uploads/stephenruh-wall.jpg
     name: Stephen Ruh
-  - img_path: /images/uploads/katy_brown.jpg
-    name: Katy Brown
   - img_path: /images/uploads/ian_rios.jpg
     name: Ian Rios
   - img_path: /images/uploads/justin.jpg
