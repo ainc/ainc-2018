@@ -4,6 +4,7 @@
   }
   .affix {    /* Make navbar stick */
     top: 130px;
+    right: 50px;
     z-index: 9999 !important; 
     // front back 3D 
   }
@@ -21,7 +22,7 @@
     line-height: 21px;
     font-size: 1.4rem;
     line-height: 2.1rem;
-    font-weight: 200;
+    font-weight: 250;
     text-transform: uppercase;
     padding: 5px; // margin between the texts
   }
@@ -31,7 +32,9 @@
     background-color: transparent;
   }
   .navbar a:focus {
-
+    transform: scale(1.5);
+    text-decoration: none;
+    background-color: transparent;
   }
   h1, .h1 {
     font-family: "Open Sans",sans-serif;
