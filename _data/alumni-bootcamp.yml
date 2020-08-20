@@ -8,18 +8,10 @@ items:
     position: Advantage<br>Resource
     cohort: s20
   -
-    name: Cody Herbst
-    website: https://react-blog-33774.web.app
-    github: https://github.com/codyherbst
-    linkedin: https://www.linkedin.com/in/cody-herbst-365146162/
-    img_path: cody-herbst
-    position: null
-    cohort: s20
-  -
     name: Colin McCulloch
     website: https://ColinMcC76.github.io
     github: https://github.com/ColinMcC76/
-    linkedin: https://www.linkedin.com/in/colin-mucculloch-2844a31a2/
+    linkedin: https://www.linkedin.com/in/colin-mcculloch/
     img_path: colin-mcculloch
     position: null
     cohort: s20
@@ -27,7 +19,7 @@ items:
     name: Jonathan Mefford
     website: https://jonathandmefford.github.io/
     github: https://github.com/JonathanDMefford/
-    linkedin: https://www.linkedin.com/in/jonathan-mefford-85237b1a2/
+    linkedin: https://www.linkedin.com/in/jonathan-mefford/
     img_path: jonathan-mefford
     position: null
     cohort: s20
@@ -51,7 +43,7 @@ items:
     name: David Oliver
     website: https://davo1984.github.io/
     github: https://github.com/davo1984/
-    linkedin: https://www.linkedin.com/in/davidooliver1984/
+    linkedin: https://www.linkedin.com/in/davidoliver1984/
     img_path: david-oliver
     position: null
     cohort: s20
@@ -67,7 +59,7 @@ items:
     name: Kate Sivy
     website: https://blog-8fadb.web.app/
     github: https://github.com/katesivy
-    linkedin: https://www.linkedin.com/in/kate-sivy-7104791a2
+    linkedin: https://www.linkedin.com/in/kate-sivy/
     img_path: kate-sivy
     position: null
     cohort: s20
@@ -75,7 +67,7 @@ items:
     name: Kelly Wilson
     website: https://kellylwilson.github.io/
     github: https://github.com/kellylwilson
-    linkedin: https://www.linkedin.com/in/kelly-wilson-a873781a2/
+    linkedin: https://www.linkedin.com/in/kelly-l-wilson/
     img_path: kelly-wilson
     position: null
     cohort: s20
@@ -89,22 +81,23 @@ items:
   - cohort: f19
     github: 'https://github.com/eBork1'
     img_path: ethan-borkosky
-    linkedin: 'https://www.linkedin.com/in/ethan-borkosky-764aa6186/'
+    linkedin: https://www.linkedin.com/in/ethan-borkosky/
     name: Ethan Borkosky
     position: ApolloFactor
     website: 'https://ebork.dev/'
   - cohort: f19
     github: 'https://www.github.com/robbiegay'
     img_path: robbie-gay
-    linkedin: 'https://www.linkedin.com/in/robbie-gay-3a38aa72/'
+    linkedin: https://www.linkedin.com/in/robbiegay/
     name: Robbie Gay
     position: VetData
     website: 'https://robbiegay.github.io/'
   - cohort: f19
     github: 'https://github.com/Wildercat'
     img_path: abram-gornik
-    linkedin: 'https://www.linkedin.com/in/abram-gornik-a45066191/'
+    linkedin: 'https://www.linkedin.com/in/abram-gornik/'
     name: Abram Gornik
+    position: Zudy
     website: 'https://Wildercat.github.io/'
   - cohort: f19
     github: 'https://github.com/EricHampton12'
@@ -128,14 +121,14 @@ items:
   - cohort: f19
     github: 'http://www.github.com/willmcgill'
     img_path: will-mcgill
-    linkedin: 'https://www.linkedin.com/in/will-mcgill-759596125/'
+    linkedin: https://www.linkedin.com/in/will-mcgill/
     name: William McGill
     position: Big Ass Fans
     website: 'https://willmcgill.rocks/'
   - cohort: f19
     github: 'https://www.github.com/toddtrivisonno'
     img_path: todd-trivisonno
-    linkedin: 'https://www.linkedin.com/in/todd-trivisonno-80a84b155/'
+    linkedin: https://www.linkedin.com/in/todd-trivisonno/
     name: Todd Trivisonno
     position: Avail
     website: 'https://toddtrivisonno.github.io/'
@@ -246,7 +239,7 @@ items:
   - cohort: f18
     github: 'https://github.com/Kiwipup'
     img_path: christina-meredith
-    linkedin: 'https://www.linkedin.com/in/christina-meredith-31193b16a'
+    linkedin: 'https://www.linkedin.com/in/christina-cobb-31193b16a/'
     name: Christina Meredith
     position: Schedule It
     website: 'https://kiwipup.github.io/'
