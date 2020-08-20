@@ -48,6 +48,64 @@ $venturelabs-blue-color: #0090D1;
       }
     }
   }
+  #reasons {
+    ul {
+      @include font-size(18);
+    }
+    .list-image-icons {
+      list-style: none;
+      list-style-position: outside;
+      li {
+        padding: 8px 0px;
+      }
+      li:before {
+        content: '';
+        display: inline-block;
+        height: 20px;
+        width: 20px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        vertical-align: middle;
+        margin-right: 15px;
+      }
+      #red:before {
+        background-image: url('/assets/img/venture-labs/red-x.png');
+      }
+      #blue:before {
+        background-image: url('/assets/img/venture-labs/blue-x.png');
+      }
+      #green:before {
+        background-image: url('/assets/img/venture-labs/green-x.png');
+      }
+      #maroon:before {
+        background-image: url('/assets/img/venture-labs/maroon-x.png');
+      }
+    }
+  }
+
+  #features {
+    background: url('/assets/img/venture-labs/wavy-grey-bg.jpg');
+    background-size: cover;
+    background-position-y: bottom;
+    .heading-title {
+      @include font-size(22);
+      font-weight: 600;
+      letter-spacing: 2px;
+      text-transform: none;
+    }
+    .heading-subtitle {
+      @include font-size(18);
+      font-weight: 400;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+    }
+    img {
+      // width: auto;
+      max-height: 100px;
+      // max-width: ;
+      margin: auto;
+    }
+  }
 
   #get-hyped {
     position: relative;
