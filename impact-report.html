@@ -26,6 +26,7 @@ team: xxx
 (X) change font to match Awesome Inc default top navbar caps text
 
 Section:
+(X) move landing page to above navbar, not part of navbar
 (X) update font, color, size to section titles
 ( ) check margins of each section, leave room for margins
 ( ) make sure it shows ONE section a page at a once (salt&pepper website example)
@@ -47,11 +48,16 @@ Others:
 </head>
 
 <body data-spy="scroll" data-target="#navbar-menu" data-offset="15">
+  <!-- Landing page with no navbar -->
+  <div class="container-fluid" style="background-color:#ffffff;color:#fff;height:220px;">
+    <h1>(Landing Page)</h1>
+    <p>Description</p>
+  </div>
+
   <div class="container">
     <div class="row">
       <nav class="col-sm-3 navbar navbar-right lgx-navbar" id="navbar-menu">
         <ul class="nav nav-stacked" data-spy="affix" data-offset-top="205">
-          <li><a href="#landing-page"></a></li>
           <li><a href="#who-we-are">Who We Are</a></li>
           <li><a href="#what-we-do">What We Do</a></li>
           <li><a href="#apax-software">Apax Software</a></li>
@@ -69,13 +75,6 @@ Others:
       </nav>
 
       <div class="col-sm-9">
-        <div id="landing-page">
-          <div class="row">  
-          <h1>(Landing Page)</h1>
-          <p>Description</p>
-          </div>  
-        </div>
-
         <div id="who-we-are">    
           <h1>Who We Are</h1>
           <p>Description</p>
