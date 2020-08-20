@@ -2,11 +2,11 @@
   body {
     position: relative;
   }
-  // .affix {    /* Make navbar stick */
-  //   top: 50px;
-  //   right: 30px;
-  //   z-index: 9999 !important; // front back 3D 
-  // }
+  .affix {    /* Make navbar stick */
+    top: 50px;
+    right: 30px;
+    z-index: 9999 !important; // front back 3D 
+  }
   div.col-sm-9 div {
     height: 400px;
     font-size: 28px;
