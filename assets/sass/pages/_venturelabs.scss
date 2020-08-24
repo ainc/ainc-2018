@@ -1,6 +1,7 @@
 $venturelabs-color: #941443;
 $venturelabs-red-color: rgb(218, 69, 74);
 $venturelabs-blue-color: #0090D1;
+$venturelabs-light-blue-color: rgb(126, 198, 203);
 
 #venturelabs {
   .lgx-btn {
@@ -100,10 +101,164 @@ $venturelabs-blue-color: #0090D1;
       text-transform: uppercase;
     }
     img {
-      // width: auto;
       max-height: 100px;
-      // max-width: ;
+      margin: 2rem auto;
+    }
+    .heading-subtitle {
+      padding: 0 3rem;
+    }
+    .lgx-btn {
+      background-color: $venturelabs-light-blue-color;
+      border-color: $venturelabs-light-blue-color;
+    }
+    p {
+      margin: 2rem 0;
+    }
+  }
+
+  #reputation {
+    background: url('/assets/img/venture-labs/reputation-bg.jpg');
+    background-size: cover;
+    background-position-y: 60%;
+    .lgx-heading-area {
+      margin-top: 25rem;
+    }
+    .heading-title {
+      @include font-size(22);
+      text-transform: none;
+      font-weight: 600;
+    }
+    p {
+      color: white;
+    }
+    .img-wrapper {
+      background-color: white;
+      padding: 5px;
+      border-radius: 50%;
+      width: 85px;
+      height: 85px;
+      display: flex;
+      align-items: flex-start;
+      img {
+        align-self: center;
+      }
+    }
+  }
+
+  #experience {
+    .heading-subtitle {
+      @include font-size(22);
+      font-weight: 600;
+      letter-spacing: 2px;
+    }
+    .list-image-icons {
+      list-style: none;
+      list-style-position: outside;
+      li {
+        padding: 8px 0px;
+      }
+      li:before {
+        content: '';
+        display: inline-block;
+        height: 20px;
+        width: 20px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        vertical-align: middle;
+        margin-right: 15px;
+      }
+      #red:before {
+        background-image: url('/assets/img/venture-labs/red-plus.png');
+      }
+      #blue:before {
+        background-image: url('/assets/img/venture-labs/blue-plus.png');
+      }
+      #green:before {
+        background-image: url('/assets/img/venture-labs/green-plus.png');
+      }
+      #maroon:before {
+        background-image: url('/assets/img/venture-labs/maroon-plus.png');
+      }
+    }
+    .red-text {
+      color: $venturelabs-red-color;
+      margin: 4rem;
+      @include font-size(20);
+    }
+  }
+  
+  #team {
+    img {
+      width: 200px;
+      display: block;
       margin: auto;
+    }
+    .team-member {
+      margin: 4rem 2rem;
+      h4 {
+        text-transform: uppercase;
+        @include font-size(20);
+      }
+      p {
+        text-align: justify;
+      }
+    }
+    .lgx-btn-grey {
+      background-color: $brand-color2;
+      border-color: $brand-color2;
+      &:hover {
+        color: $brand-grey-dark;
+      }
+    }
+  }
+
+  #how-it-works {
+    .heading-subtitle {
+      @include font-size(24);
+      letter-spacing: 2px;
+      font-weight: 600;
+    }
+    .step {
+      margin: 2rem 0;
+      display: flex;
+      align-items: flex-start;
+      img {
+        width: 100px;
+      }
+      p {
+        align-self: center;
+        @include font-size(18);
+        letter-spacing: 1px;
+      }
+    }
+    .step-arrow {
+      img { width: 100px; }
+    }
+    .step-excerpt {
+      .red-box-excerpt {
+        height: 100%;
+        &:before {
+          content: " ";
+          bottom: 100%;
+          left: 25%;
+          border: solid transparent;
+          height: 0;
+          width: 0;
+          position: absolute;
+          pointer-events: none;
+          border-color: rgba(136, 183, 213, 0);
+          border-bottom-color: $venturelabs-red-color;
+          border-width: 30px;
+          margin-left: -30px;
+        }
+        ul {
+          background-color: $venturelabs-red-color;
+          padding: 2rem 4rem;
+          li {
+            color: white;
+          }
+        }
+      }      
     }
   }
 
