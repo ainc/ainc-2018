@@ -103,9 +103,34 @@ $venturelabs-light-blue-color: rgb(126, 198, 203);
     img {
       max-height: 100px;
       margin: 2rem auto;
+      @include screen-xs {
+        max-height: 50px;
+      }
+      #empower-employees {
+        width: 120px;
+        @include screen-xs {
+          width: 75px;
+        }
+      }
+      #cheaply-test {
+        width: 44px;
+        @include screen-xs {
+          width: 25px;
+        }
+      }
+      #separation {
+        width: 105px;
+        @include screen-xs {
+          width: 50px;
+        }
+      }
     }
     .heading-subtitle {
       padding: 0 3rem;
+      @include screen-tablet-max {
+        padding: 0 1rem;
+        @include font-size(14);
+      }
     }
     .lgx-btn {
       background-color: $venturelabs-light-blue-color;
@@ -119,9 +144,16 @@ $venturelabs-light-blue-color: rgb(126, 198, 203);
   #reputation {
     background: url('/assets/img/venture-labs/reputation-bg.jpg');
     background-size: cover;
-    background-position-y: 60%;
+    background-position-y: 35%;
+    @include screen-xs {
+      background-position-y: top;
+      background-position-x: center;
+    }
     .lgx-heading-area {
-      margin-top: 25rem;
+      margin-top: 35rem;
+      @incldue screen-xs {
+        margin-top: 30rem;
+      }
     }
     .heading-title {
       @include font-size(22);
@@ -130,6 +162,16 @@ $venturelabs-light-blue-color: rgb(126, 198, 203);
     }
     p {
       color: white;
+      margin-bottom: 4rem;
+      @include screen-xs {
+        text-align: justify;
+      }
+    }
+    .col-xs-2 {
+      @include screen-xs {
+        padding-left: 0;
+        // padding-right: 0;
+      }
     }
     .img-wrapper {
       background-color: white;
@@ -139,6 +181,10 @@ $venturelabs-light-blue-color: rgb(126, 198, 203);
       height: 85px;
       display: flex;
       align-items: flex-start;
+      @include screen-xs {
+        width: 55px;
+        height: 55px;
+      }
       img {
         align-self: center;
       }
@@ -229,6 +275,11 @@ $venturelabs-light-blue-color: rgb(126, 198, 203);
         align-self: center;
         @include font-size(18);
         letter-spacing: 1px;
+        text-align: justify;
+        @include screen-xs {
+          @include font-size(12);
+          letter-spacing: 0;
+        }
       }
     }
     .step-arrow {
@@ -250,12 +301,22 @@ $venturelabs-light-blue-color: rgb(126, 198, 203);
           border-bottom-color: $venturelabs-red-color;
           border-width: 30px;
           margin-left: -30px;
+          @include screen-xs {
+            left: 45%;
+            border-width: 20px;
+          }
         }
         ul {
           background-color: $venturelabs-red-color;
           padding: 2rem 4rem;
+          @include screen-xs {
+            padding: 1rem 3rem;
+          }
           li {
             color: white;
+            @include screen-xs {
+              @include font-size(12);
+            }
           }
         }
       }      
@@ -354,18 +415,28 @@ $venturelabs-light-blue-color: rgb(126, 198, 203);
   }
 
   #contact {
-    h3 {
-      color: $venturelabs-color;
+    background: url('/assets/img/venture-labs/light-blue-wavy-bg.png');
+    background-size: cover;
+    h2 {
+      @include font-size(22);
+      text-transform: none;
       font-weight: 600;
+      margin-top: 5rem;
       margin-bottom: 5rem;
+    }
+    h4 {
+      font-weight: 200;
     }
     input, textarea {
       background-color: $brand-grey-light;
     }
+    label, p {
+      color: white;
+    }
     button {
       float: right;
-      background-color: $venturelabs-blue-color;
-      border-color: $venturelabs-blue-color;
+      background-color: $venturelabs-red-color;
+      border-color: $venturelabs-red-color;
     }
   }
 }
