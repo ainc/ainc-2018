@@ -49,4 +49,33 @@
     float: left;
     height: 40px;
   }
+
+  .container {
+    margin-top: 100px
+  }
+
+  .counter-box {
+      display: block;
+      background: #f6f6f6;
+      text-align: center
+  }
+
+  .counter-box p {
+    font-family: "Open Sans",sans-serif;
+    font-size: 39px;
+    line-height: 58.5px;
+    font-size: 3.9rem;
+    line-height: 5.85rem;
+    font-weight: 900;
+    color: #C12029;
+    text-transform: uppercase;
+  }
+
+  .counter {
+      display: block;
+      font-size: 32px;
+      font-weight: 700;
+      color: #666;
+      line-height: 28px
+  }
 }
