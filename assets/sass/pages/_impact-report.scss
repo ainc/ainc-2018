@@ -54,28 +54,22 @@
     margin-top: 100px
   }
 
-  .counter-box {
-      display: block;
-      background: #f6f6f6;
-      text-align: center
-  }
-
   .counter-box p {
     font-family: "Open Sans",sans-serif;
     font-size: 39px;
     line-height: 58.5px;
     font-size: 1.5rem;
-    line-height: 5.85rem;
+    line-height: 1.5rem;
     font-weight: 900;
-    color: #C12029;
+    color: #000000;
     text-transform: uppercase;
+    text-align: center;
   }
 
   .counter {
-      display: block;
       font-size: 32px;
       font-weight: 700;
-      color: #666;
-      line-height: 28px
+      color: #000000;
+      text-align: center;
   }
 }
