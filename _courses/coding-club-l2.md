@@ -1,6 +1,6 @@
 ---
 title: Coding Club Level 2
-permalink: "/coding-club-level-2"
+# permalink: "/coding-club-level-2"
 breadcrumb: "/learn/youth/coding-club-level-2"
 layout: course
 description: Learn To Code Like The Pros

@@ -1,7 +1,7 @@
 ---
 title: Coding Club Level 1
 layout: course
-permalink: "/coding-club-level-1"
+# permalink: "/coding-club-level-1"
 breadcrumb: "/learn/youth/coding-club-level-1"
 description: Learn Code, Make Friends
 cover: "/img/coding-club.jpg"
