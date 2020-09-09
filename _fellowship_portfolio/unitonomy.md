@@ -1,6 +1,6 @@
 ---
 company: Unitonomy
-date: Sep 9th 20
+date: Aug 14th 20
 logo: /images/uploads/unitonomy-logo.png
 website: unitonomy.com
 ---
