@@ -419,7 +419,6 @@
 
   #cost {
     .heading-title {
-      text-align: right;
       color: $brand-red-bright;
       @include font-size(74);
       letter-spacing: 2px;
@@ -433,6 +432,13 @@
       left: -13.5rem;
       top: 8.5rem;
     }
+    .heading-subtitle {
+      @include font-size(24);
+    }
+    p {
+      text-align: justify;
+    }
+    
   }
 
   #isa-calculator {
