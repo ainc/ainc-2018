@@ -8,36 +8,6 @@ page_id: impact-report
 team: xxx
 ---
 
-<!-- run this in terminal: bundle exec jekyll serve -->
-<!-- NOTES 
-1. Check the HTML file for the HTML element
-2. Figure out what CSS class is being used in that HTML element
-3. Then in VS Code you can search the entire repo using Cmd+Shift+F for that CSS Class
-*** NOTE: All CSS should be in sass folder -->
-
-<!-- TO DO LIST
-  Navbar:
-(X) change navbar text background to transparent
-(X) get rid of top navbar
-( ) fix navbar position (search Scrollspy)
-(X) use $brand color for hover color
-(X) transform text larger when focused 
-(X) close the gap between lines in navbar (copied from inspect)
-(X) change font to match Awesome Inc default top navbar caps text
-
-Section:
-(X) move landing page to above navbar, not part of navbar
-(X) update font, color, size to section titles
-( ) check margins of each section, leave room for margins
-( ) make sure it shows ONE section a page at once (salt&pepper website example)
-( ) adding titles to each section
-
-Others:
-( ) maybe change it to Bootstrap 4 all together?? (Good for now)
-( ) check z-index
-( ) towards the end, side navbar over the footer (FIX IT) 
-( ) research text animation for "who-are-we"  -->
-
 <head>
   <!-- Required meta tags -->
   <meta charset="utf-8">
@@ -45,6 +15,7 @@ Others:
   
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link href='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css'>
 </head>
 
 <body data-spy="scroll" data-target="#navbar-menu" data-offset="15">
@@ -76,70 +47,111 @@ Others:
 
       <div class="header col-sm-9">
         <div id="who-we-are">
-          <img src="/images/logos/ainc-logo-triangle-layer-red.png" alt="ainc-logo" /> 
+          {% include logo-img.html %} 
           <h1>Who We Are</h1>
           <p>
-            APAX Software specializes in custom software development and is Awesome Inc's sister-company. We’re thrilled to report that we’ll join the Inc 5000 this year as one of America's fastest growing companies. 
-            APAX increased our team headcount by 50% and spent 25,000 hours developing valuable software for our clients. We continue to gain more than 80% of new customers through referrals, a metric we’re especially proud of. 
           </p>
         </div>
 
         <div id="what-we-do">
+          {% include logo-img.html %}
           <h1>What We Do</h1>
           <p>Description</p>
         </div>  
 
         <div id="apax-software">
+          {% include logo-img.html %}
           <h1>Apax Software</h1>
-          <p>Description</p>
-        </div>
+            <p>
+              APAX Software specializes in custom software development and is Awesome Inc's sister-company. We’re thrilled to report that we’ll join the Inc 5000 this year as one of America's fastest growing companies. APAX increased our team headcount by 50% and spent 25,000 hours developing valuable software for our clients. We continue to gain more than 80% of new customers through referrals, a metric we’re especially proud of.
+            </p>  
+              <div class="container">
+                <div class="row">
+                  <div class="five col-md-2">
+                    <div class="counter-box"><span class="counter">50</span>%
+                      <p>Team Growth</p>
+                    </div>
+                  </div>
+                  <div class="five col-md-2">
+                    <div class="counter-box"><span class="counter">25000</span>
+                      <p>development hours</p>
+                    </div>
+                  </div>
+                  <div class="five col-md-2">
+                    <div class="counter-box"><span class="counter">1.5</span>M
+                      <p>invested in local community</p>
+                    </div>
+                  </div>
+                  <div class="five col-md-2">
+                    <div class="counter-box"><span class="counter">28</span>
+                      <p>project delivered</p>
+                    </div>
+                  </div>
+                  <div class="five col-md-2">
+                    <div class="counter-box"><span class="counter">11</span>yrs
+                      <p>longest client relationship</p>
+                    </div>
+                  </div>
+                </div><!--//.ROW-->
+              </div><!-- //.CONTAINER -->
+        </div><!-- //.HEADER -->
 
         <div id="awesome-inc-u">
+          {% include logo-img.html %}
           <h1>Awesome Inc U</h1>
-          <p>Description</p>
-        </div> 
+          <p>Since we launched Awesome Inc U in 2013, we have learned a lot about software development, but we have learned more about people. We have seen people start new careers in tech, including single mothers, people who were "too old", and people whose prior experience in blue collar or service work seemed like barriers. Our students continue to surprise their naysayers, and even surprise themselves.<br>Our youth students continue to excel, too. We have enjoyed growing partnerships with local schools, which helps us make coding classes accessible to more students. Coding is an exercise in literacy for a generation that has grown up with apps all around them. If software is eating the world, shouldn't people all over the world be equipped to create it? If our youth students are any indication, Kentucky code is as good as any you will find in top tech hubs.<br>We're really excited for a future filled with better technology, built locally, by people who took the time to learn and better themselves.</p>
+        </div>
 
         <div id="fellowship">
+          {% include logo-img.html %}
           <h1>Fellowship</h1>
           <p>Description</p>
         </div>
 
         <div id="coworking">
+          {% include logo-img.html %}
           <h1>Coworking</h1>
           <p>Description</p>
         </div>
 
         <div id="kentucky-hof">
+          {% include logo-img.html %}
           <h1>Kentucky Entrepreneur Hall of Fame</h1>
           <p>Description</p>
         </div>
 
         <div id="events">
+          {% include logo-img.html %}
           <h1>Events</h1>
           <p>Description</p>
         </div>
 
         <div id="entrepreneur-education">
+          {% include logo-img.html %}
           <h1>Entrepreneur Education</h1>
           <p>Description</p>
         </div>
             
         <div id="venture-labs">
+          {% include logo-img.html %}
           <h1>Venture Labs</h1>
           <p>Description</p>
         </div>
             
         <div id="startup-lex">
+          {% include logo-img.html %}
           <h1>Startup Lex</h1>
           <p>Description</p>
         </div>
             
         <div id="team-alpha">
+          {% include logo-img.html %}
           <h1>Team Alpha</h1>
           <p>Description</p>
         </div>
             
         <div id="sponsors">
+          {% include logo-img.html %}
           <h1>Sponsors</h1>
           <p>Description</p>
         </div>
@@ -149,6 +161,13 @@ Others:
   <!-- Bootstrap JS -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <!-- from Bootstrap counter up -->
+  <script src='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js'></script>
+  <link href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.3/css/font-awesome.css'>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+  <!--custom js-->
+  <script src='/assets/js/impact-report.js'></script>
+
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->  
   <!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
