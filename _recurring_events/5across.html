@@ -13,9 +13,9 @@ redirect_from:
   - 'events/5-acrossnew'
 subtitle: A Pitch Competition for Kentucky Entrepreneurs
 logo_path: '/images/5Across/5Across_Logo.png' 
-next_event_date: April 29, 2020
-next_event_location: Lyric Theater & Cultural Arts Center 300 E Third St
-next_event_title: 5 Across - April Edition
+next_event_date: October 28, 2020
+next_event_location: Lexington Legends Whitaker Bank Ballpark
+next_event_title: 5 Across - October Edition
 ---
 
 <!--
@@ -31,6 +31,8 @@ next_event_title: 5 Across - April Edition
   Slideshow section
 -->
 
+{% assign next_event = site.events | sort: "date" | where: "tags", "5across" | limit: 1 | where_exp: "event", "event.date > site.time" %}
+
 <section id="fiveacross-header">
   <div class="container">
     <div class="row">
@@ -44,7 +46,6 @@ next_event_title: 5 Across - April Edition
               <h2 class="title lgx-zoomIn-one heading-title">A Pitch Competition for Kentucky Entrepreneurs</h2>
             </div>
             <div class="buttons">
-              {% assign next_event = site.events | sort: "date" | where: "tags", "5across" | limit: 1 | where_exp: "event", "event.date > site.time" %}
               <button type="button" class="lgx-btn lgx-btn-grey" id="applyButton" onclick="location.href='http:\/\/www.docs.google.com/spreadsheet/embeddedform?formkey=dF9KeS1iZ1ZETjFKazlBN1U2emlId0E6MA'">Apply to Pitch</button>
               <button type="button" class="lgx-btn lgx-btn-grey" id="registerButton" onclick="location.href='http:\/\/www.eventbrite.com/e/{{ next_event.first.eventbrite_id }}'">Register to Attend</button>
             </div>
@@ -121,14 +122,16 @@ next_event_title: 5 Across - April Edition
       <div class="red-circle">
         <img src="/images/5Across/Half_Circle_Red.png" />
         <h2>JOIN US AT THE NEXT 5 ACROSS</h2>
-        <div class="next-event-info">
-          <img src={{page.logo_path}} />
-          <div class="event-details">
-            <p class="date">{{page.next_event_date}}</p>
-            <p class="location">{{page.next_event_location}}</p>
-            <p class="title">{{page.next_event_title}}</p>
+        <a href="http:\/\/www.eventbrite.com/e/{{ next_event.first.eventbrite_id }}" >
+          <div class="next-event-info">
+            <img src={{page.logo_path}} />
+            <div class="event-details">
+              <p class="date">{{page.next_event_date}}</p>
+              <p class="location">{{page.next_event_location}}</p>
+              <p class="title">{{page.next_event_title}}</p>
+            </div>
           </div>
-        </div>
+        </a>
       </div>
     </div>
   </div>
