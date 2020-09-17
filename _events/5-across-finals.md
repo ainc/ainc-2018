@@ -1,7 +1,7 @@
 ---
-title: 5 Across - Lexington Entrep Day Edition
-date: 2020-07-29T21:00:00.000Z
-eventbrite_id: "111046739788"
+title: 5 Across October 2020
+date: 2020-10-28T21:00:00.000Z
+eventbrite_id: "95689502879"
 feature: true
 active: true
 location: Whitaker Bank Ballpark
