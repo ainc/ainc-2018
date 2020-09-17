@@ -5,7 +5,7 @@ eventbrite_id: "95689502879"
 feature: true
 active: true
 location: Whitaker Bank Ballpark
-image: /images/5across-legends.png
+image: /images/uploads/5across_july2020_logo.png
 tags:
   - 5across
   - entrepreneurship
