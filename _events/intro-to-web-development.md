@@ -1,5 +1,5 @@
 ---
-title: Intro to Web Development
+title: Intro to Web Development Fall 2020
 date: 2020-09-17T19:50:49.058Z
 eventbrite_id: "114933818144"
 feature: false
