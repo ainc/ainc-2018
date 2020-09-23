@@ -60,6 +60,10 @@
     background-color: $brand-grey-dark;
     border-color: $brand-grey-dark;
   }
+  &.lgx-btn-bright-red {
+    background-color: $brand-red-bright;
+    border-color: $brand-red-bright;
+  }
   &.lgx-btn-small-text {
     @include font-size(16);
     padding: 1rem 2.2rem;
@@ -123,6 +127,11 @@ li > a:focus {
       }
     }
   }
+}
+
+table .lgx-btn-sm {
+  @include font-size(12);
+  padding: 0.8rem 1.2rem;
 }
 
 .lgx-btn-center{
