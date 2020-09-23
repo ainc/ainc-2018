@@ -1,7 +1,7 @@
 ---
 title: Impact Report 2019
 layout: impact-report
-permalink: "/impact-report-2019-newnav"
+permalink: "/impact-report-nav"
 redirect_from:
   - "/xxx"
 page_id: impact-report
@@ -20,24 +20,19 @@ team: xxx
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   </head>
-  
-    
-      <div id="fullpage">
-        <div class="section active">Landing Page</div>
-        <div id="who-we-are">
-          <h1>Who We Are</h1>
-          <p>
-          </p>
-        </div>
-        <div id="what-we-do">
-          <h1>What We Do</h1>
-          <p>Description</p>
-        </div>
-        <div class="section" id="secondPage">Section 2</div>
-        <div class="section" id="thirdPage">Section 3</div>
-        <div class="section" id="fourthPage">Section 4</div>
-      </div>
+    <div id="fullpage">
+      <div class="section">Some section</div>
+      <div class="section">Some section</div>
+      <div class="section">Some section</div>
+      <div class="section">Some section</div>
+    </div>
 
+    <div class="section">
+      <div class="slide"> Slide 1 </div>
+      <div class="slide"> Slide 2 </div>
+      <div class="slide"> Slide 3 </div>
+      <div class="slide"> Slide 4 </div>
+    </div>
 
 
     
@@ -58,8 +53,7 @@ team: xxx
         //Navigation 
         navigation: true,
         menu: '#myMenu',
-        anchors: ['who-we-are', 'secondPage', 'thirdPage', 'fourthPage'],
-        navigationPosition: 'right',
+        anchors: ['firstPage', 'secondPage', 'thirdPage', 'fourthPage'],
       });
 
       // methods
