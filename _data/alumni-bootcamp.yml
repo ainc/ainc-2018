@@ -29,7 +29,7 @@ items:
     github: https://github.com/AllisonRMiller/
     linkedin: https://www.linkedin.com/in/armiller-lexky/
     img_path: allison-miller
-    position: null
+    position: Bitwerx
     cohort: s20
   -
     name: Hayden Nesbit
@@ -61,7 +61,7 @@ items:
     github: https://github.com/katesivy
     linkedin: https://www.linkedin.com/in/kate-sivy/
     img_path: kate-sivy
-    position: null
+    position: Bitwerx
     cohort: s20
   -
     name: Kelly Wilson
@@ -113,12 +113,6 @@ items:
     position: DecoArt
     website: 'https://dmjoyce951.github.io/'
   - cohort: f19
-    github: 'https://github.com/Leozas'
-    img_path: michael-loyselle
-    linkedin: 'https://www.linkedin.com/in/michael-a-loyselle-01767b9a/'
-    name: Michael Loyselle
-    website: 'https://leozas.github.io/MyGitHubBlog/'
-  - cohort: f19
     github: 'http://www.github.com/willmcgill'
     img_path: will-mcgill
     linkedin: https://www.linkedin.com/in/will-mcgill/
@@ -144,6 +138,7 @@ items:
     img_path: rachael-yoder
     linkedin: 'https://www.linkedin.com/in/rachael-yoder-6637b9192/'
     name: Rachael Yoder
+    position: 2819 Studios
     website: 'https://rachyoder.github.io/'
   - cohort: s19
     github: 'https://github.com/jaelyncoles/'
