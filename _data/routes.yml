@@ -18,6 +18,7 @@ core-values: "/#core-values"
 apax: "https://www.apaxsoftware.com/"
 parking: "/parking"
 map: "https://www.google.com/maps/place/348+E+Main+St,+Lexington,+KY+40507/@38.0419107,-84.4933001,17z/data=!4m2!3m1!1s0x884244e844532c33:0xb6919957af36b713"
+venture-labs: "/venture-labs"
 
 # Ainc links
 team-alpha: "/team-alpha"
@@ -44,6 +45,7 @@ iwd: "/intro-to-web-development"
 club-l1: "/coding-club-level-1"
 club-l2: "/coding-club-level-2"
 club-l3: "/coding-club-level-3"
+club: "/learn/youth"
 woc: "/weekofcode"
 bootcamp-app: "/bootcamp/apply"
 

@@ -45,7 +45,9 @@ page_id: venturelabs
           </ul>
         </div> <!-- col -->
         <div class="col-xs-12 col-sm-6">
-          <img src="/assets/img/venture-labs/computer-video.png" class="img-responsive" />
+          <a href="https://youtu.be/CcnTzw9-KSE" target="_blank">
+            <img src="/assets/img/venture-labs/computer-video.png" class="img-responsive" />
+          </a>
         </div> <!-- col -->
       </div> <!-- row -->
     </div> <!-- container -->
@@ -428,23 +430,30 @@ page_id: venturelabs
                 fieldType="9"
               />
               <br>
-              <!--Phone Number-->
-              <label for="PhoneNumber">Phone Number</label>
+              <!-- Company -->
+              <label for="Company">Company</label>
               <input
                 class="form-control"
-                placeholder="(123)-456-7890"
+                placeholder="Awesome Inc"
                 type="text"
-                compname="PhoneNumber"
-                maxlength="20"
-                phoneFormat="1"
-                isCountryCodeEnabled=false
-                name="PhoneNumber_countrycode"
+                maxlength="255"
+                name="SingleLine"
                 value=""
-                fieldType="11"
-                id="international_PhoneNumber_countrycode"
+                fieldType="1"
               />
-              <p>No spam. Just Oreos.</p>
-              <br />
+              <br>
+              <!-- Job Title -->
+              <label for="Job Title">Job Title</label>
+              <input
+                class="form-control"
+                placeholder="CEO"
+                type="text"
+                maxlength="255"
+                name="SingleLine1"
+                value=""
+                fieldType="1"
+              />
+              <br>
   
               <input
                 type="hidden"
