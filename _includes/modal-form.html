@@ -158,194 +158,159 @@
           </form>
         </div>
         {% elsif include.initiative == 'newsletter' %}
-        <!-- Begin Mailchimp Signup Form -->
-
-        <div id="mc_embed_signup">
-          <form
-            action="https://awesomeinc.us2.list-manage.com/subscribe/post?u=5114422b2183673d50186748d&amp;id=946c001ab3"
-            method="post"
-            id="mc-embedded-subscribe-form"
-            name="mc-embedded-subscribe-form"
-            class="validate"
-            target="_blank"
-            novalidate
-          >
-            <div id="mc_embed_signup_scroll">
-              <h2>Subscribe</h2>
-              <div class="indicates-required">
-                <span class="asterisk">*</span> indicates required
-              </div>
-              <div class="mc-field-group">
-                <label for="mce-EMAIL">
-                  Email Address <span class="asterisk">*</span>
-                </label>
-                <input
-                  type="email"
-                  value=""
-                  name="EMAIL"
-                  class="required email"
-                  id="mce-EMAIL"
-                />
-              </div>
-              <div class="mc-field-group">
-                <label for="mce-FNAME">First Name </label>
-                <input
-                  type="text"
-                  value=""
-                  name="FNAME"
-                  class=""
-                  id="mce-FNAME"
-                />
-              </div>
-              <div class="mc-field-group">
-                <label for="mce-LNAME">Last Name </label>
-                <input
-                  type="text"
-                  value=""
-                  name="LNAME"
-                  class=""
-                  id="mce-LNAME"
-                />
-              </div>
-              <div class="mc-field-group input-group">
-                <strong>I'm interested in... </strong>
-                <ul>
-                  <li>
-                    <input
-                      type="checkbox"
-                      value="1"
-                      name="group[49997][1]"
-                      id="mce-group[49997]-49997-0"
-                    /><label for="mce-group[49997]-49997-0">
-                      Youth Coding Courses</label
-                    >
-                  </li>
-                  <li>
-                    <input
-                      type="checkbox"
-                      value="2"
-                      name="group[49997][2]"
-                      id="mce-group[49997]-49997-1"
-                    /><label for="mce-group[49997]-49997-1">
-                      Adult Coding Courses</label
-                    >
-                  </li>
-                  <li>
-                    <input
-                      type="checkbox"
-                      value="4"
-                      name="group[49997][4]"
-                      id="mce-group[49997]-49997-2"
-                    /><label for="mce-group[49997]-49997-2">
-                      Web Developer Bootcamp</label
-                    >
-                  </li>
-                  <li>
-                    <input
-                      type="checkbox"
-                      value="8"
-                      name="group[49997][8]"
-                      id="mce-group[49997]-49997-3"
-                    /><label for="mce-group[49997]-49997-3">
-                      The Fellowship Program</label
-                    >
-                  </li>
-                  <li>
-                    <input
-                      type="checkbox"
-                      value="16"
-                      name="group[49997][16]"
-                      id="mce-group[49997]-49997-4"
-                    /><label for="mce-group[49997]-49997-4">
-                      Events at Awesome Inc</label
-                    >
-                  </li>
-                  <li>
-                    <input
-                      type="checkbox"
-                      value="32"
-                      name="group[49997][32]"
-                      id="mce-group[49997]-49997-5"
-                    /><label for="mce-group[49997]-49997-5">
-                      Workspace Information</label
-                    >
-                  </li>
-                  <li>
-                    <input
-                      type="checkbox"
-                      value="64"
-                      name="group[49997][64]"
-                      id="mce-group[49997]-49997-6"
-                    /><label for="mce-group[49997]-49997-6">
-                      Keep Me In The Know About It All</label
-                    >
-                  </li>
-                </ul>
-              </div>
-              <div id="mce-responses" class="clear">
-                <div
-                  class="response"
-                  id="mce-error-response"
-                  style="display: none;"
-                ></div>
-                <div
-                  class="response"
-                  id="mce-success-response"
-                  style="display: none;"
-                ></div>
-              </div>
-              <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-              <div
-                style="position: absolute; left: -5000px;"
-                aria-hidden="true"
-              >
-                <input
-                  type="text"
-                  name="b_5114422b2183673d50186748d_946c001ab3"
-                  tabindex="-1"
-                  value=""
-                />
-              </div>
-              <div class="clear">
-                <input
-                  type="submit"
-                  value="Subscribe"
-                  name="subscribe"
-                  id="mc-embedded-subscribe"
-                  class="button"
-                />
-              </div>
-            </div>
+        <!-- Change or deletion of the name attributes in the input tag will lead to empty values on record submission-->
+        <form
+          action="https://forms.zohopublic.com/virtualoffice9155/form/OnlineNewsletterSignup/formperma/63TqTON16miWuaZIxR3_tTM4HEyMqE9N_KJOPjJPEUA/htmlRecords/submit"
+          name="form"
+          id="form"
+          class="validate"
+          method="POST"
+          accept-charset="UTF-8"
+          enctype="multipart/form-data"
+        >
+          <input type="hidden" name="zf_referrer_name" value="" /><!-- To Track referrals , place the referrer name within the " " in the above hidden input field -->
+          <input
+            type="hidden"
+            name="zf_redirect_url"
+            value="https://www.awesomeinc.org/thanks"
+          /><!-- To redirect to a specific page after record submission , place the respective url within the " " in the above hidden input field -->
+          <input
+            type="hidden"
+            name="zc_gad"
+            value=""
+          /><!-- If GCLID is enabled in Zoho CRM Integration, click details of AdWords Ads will be pushed to Zoho CRM -->
+          <!--Name-->
+          <label for="First Name">First Name</label>
+          <input
+            class="form-control"
+            placeholder="John"
+            type="text"
+            maxlength="255"
+            name="Name_First"
+            fieldType="7"
+          /><br />
+          <label for="Last Name">Last Name</label>
+          <input
+            class="form-control"
+            placeholder="Hancock"
+            type="text"
+            maxlength="255"
+            name="Name_Last"
+            fieldType="7"
+          /><br />
+          <!--Email-->
+          <label for="Email Address">Email Address</label>
+          <input
+            class="form-control"
+            placeholder="john@123.com"
+            type="text"
+            maxlength="255"
+            name="Email"
+            value=""
+            fieldType="9"
+          />
+          <br>
+          <!-- Phone -->
+          <label for="Company">Phone</label>
+          <input
+            class="form-control"
+            placeholder="(123) 456-7890"
+            type="text"
+            compname="PhoneNumber"
+            maxlength="20"
+            name="PhoneNumber_countrycode"
+            phoneFormat="1"
+            isCountryCodeEnabled=false
+            value=""
+            fieldType="11"
+            id="international_PhoneNumber_countrycode"
+          />
+          <br>
+          <!-- Checkbox -->
+          <div class="form-check" style="text-align: left;">
+            <input
+                type="checkbox"
+                id="Checkbox_1"
+                class="form-check-input"
+                name="Checkbox"
+                value="startups&#x20;&amp;&#x20;entrepreneurship"
+              />
+              <label class="form-check-label" for="Checkbox_1">
+                Startups&#x20;&amp;&#x20;Entrepreneurship
+              </label>
+            <br>
+            <input
+                type="checkbox"
+                id="Checkbox_2"
+                class="form-check-input"
+                name="Checkbox"
+                value="I&#x27;m&#x20;in&#x20;the&#x20;corporate&#x20;world&#x20;and&#x20;want&#x20;to&#x20;be&#x20;more&#x20;innovative&#x21;"
+              />
+              <label class="form-check-label" for="Checkbox_2">
+                I&#x27;m&#x20;in&#x20;the&#x20;corporate&#x20;world&#x20;and&#x20;want&#x20;to&#x20;be&#x20;more&#x20;innovative&#x21;
+              </label>
+            <br>
+            <input
+                type="checkbox"
+                id="Checkbox_3"
+                class="form-check-input"
+                name="Checkbox"
+                value="coworking"
+              />
+              <label class="form-check-label" for="Checkbox_3">
+                Coworking
+              </label>
+            <br>
+            <input
+                type="checkbox"
+                id="Checkbox_4"
+                class="form-check-input"
+                name="Checkbox"
+                value="adult&#x20;coding&#x20;"
+              />
+              <label class="form-check-label" for="Checkbox_4">
+                Adult Coding
+              </label>
+            <br>
+            <input
+                type="checkbox"
+                id="Checkbox_5"
+                class="form-check-input"
+                name="Checkbox"
+                value="youth&#x20;coding&#x20;"
+              />
+              <label class="form-check-label" for="Checkbox_5">
+                Youth Coding
+              </label>
+            <br>
+            <input
+                type="checkbox"
+                id="Checkbox_6"
+                class="form-check-input"
+                name="Checkbox"
+                value="other&#x20;adult&#x20;coding&#x20;"
+              />
+              <label class="form-check-label" for="Checkbox_6">
+                Other Adult Classes
+              </label>
+            <br>
+            <input
+                type="checkbox"
+                id="Checkbox_7"
+                class="form-check-input"
+                name="Checkbox"
+                value="custom&#x20;software&#x20;needs"
+              />
+              <label class="form-check-label" for="Checkbox_7">
+                Custom software needs
+              </label>
+            <br>
+          </div>
+          <button type="submit" class="btn btn-danger btn-large lgx-btn">
+            Submit
+          </button>
           </form>
         </div>
-        <script
-          type="text/javascript"
-          src="//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js"
-        ></script>
-        <script type="text/javascript">
-          (function ($) {
-            window.fnames = new Array();
-            window.ftypes = new Array();
-            fnames[0] = "EMAIL";
-            ftypes[0] = "email";
-            fnames[1] = "FNAME";
-            ftypes[1] = "text";
-            fnames[2] = "LNAME";
-            ftypes[2] = "text";
-            fnames[3] = "ADDRESS";
-            ftypes[3] = "address";
-            fnames[4] = "PHONE";
-            ftypes[4] = "phone";
-            fnames[5] = "MMERGE5";
-            ftypes[5] = "number";
-            fnames[6] = "MMERGE6";
-            ftypes[6] = "text";
-            fnames[7] = "MMERGE7";
-            ftypes[7] = "text";
-          })(jQuery);
-          var $mcj = jQuery.noConflict(true);
-        </script>
-        <!--End mc_embed_signup-->
         {% elsif include.initiative == 'bootcamp-program-guide' %}
         <div class="form-group">
           <!-- Change or deletion of the name attributes in the input tag will lead to empty values on record submission-->
