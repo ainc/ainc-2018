@@ -167,7 +167,7 @@
               color: #0f1719;
               font-size: 44px;
               font-weight: 600;
-              letter-spacing: -2px;
+              letter-spacing: 2px;
               line-height: 55px;
               small {
                 display: inline-block;
@@ -181,7 +181,7 @@
                 display: inline;
               }
             }
-            p {
+            .billing {
               font-size: 14px;
               font-style: italic;
               font-weight: bolder;
@@ -193,8 +193,31 @@
               display: table;
               padding: 5px 10px;
               margin-bottom: 5px;
+              width: 90%;
+              text-transform: uppercase;
+            }
+            .free-months::before {
+              content: "\2714";
+              color: #c12029;
+              display: inline-block;
+              position: relative;
+              left: -10px;
             }
           }
+        }
+        .most-popular {
+          position: relative;
+          margin-top: -32px;
+          .most-popular-area {
+            color: #e19533;
+          }
+        }
+        .most-popular::before {
+          content: "";
+          display: block;
+          width: 100%;
+          height: 5px;
+          background-color: #c12029 !important;
         }
       }
     }
