@@ -1,3 +1,8 @@
+// Overriding navbar padding
+main#impact-fullpage {
+  padding-top: 0;
+}
+
 #fullpage {
   body {
     position: relative;
@@ -50,9 +55,9 @@
   //   height: 40px;
   // }
 
-  .s1 {
-    margin: 70px;
-  }
+  // .section {
+  //   margin: 70px;
+  // }
 
   .counter p {
     font-family: "Open Sans",sans-serif;
