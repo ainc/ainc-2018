@@ -130,3 +130,47 @@ p {
   .count-text { font-size: 13px; font-weight: normal;  margin-top: 10px; margin-bottom: 0; text-align: center; }
   // .fa-2x { margin: 0 auto; float: none; display: table; color: #4ad1e5; }
 }
+
+// Jquery Counter-Up from Codepen
+
+@import url(//fonts.googleapis.com/css?family=Montserrat:400,700);
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  margin-top: 200px;
+}
+
+.col-md-4 {
+  text-align: center;
+  padding-bottom: 50px;
+  border-right: 1px dashed black;
+}
+
+.col-md-4:last-child {
+  border-right: 0px solid black;
+}
+
+.counter {
+  animation-duration: 1s;
+  animation-delay: 0s;
+}
+
+i {
+  font-size: 20px !Important;
+}
+
+@media (max-width: 991px) {
+  .col-md-4 {
+    border-right: 0px dashed black;
+    border-bottom: 1px dashed black;
+    width: 50%;
+    margin: auto auto;
+  }
+  
+  .col-md-4:last-child {
+    border-bottom: 0px dashed black;
+  }
+}
