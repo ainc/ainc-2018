@@ -78,5 +78,9 @@ collections:
   job_openings:
     title: Job Openings
     output: true
+  confirmation:
+    title: Confirmation
+    output: true
+    permalink: /confirmation/:name
     
 
