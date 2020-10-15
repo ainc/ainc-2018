@@ -1,6 +1,12 @@
 ﻿<!-- Used for meta-data and importing stylesheets. NOTE: This is imported at the top, any files that can be waited to load, should be added to the /_includes/footer.html file -->
 
-<meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
+{% if page.description %}
+  {% assign meta_description = page.description %}
+{% else %}
+  {% assign meta_description = "Awesome Inc exists to create and grow high-tech startups by hosting community events, leading technology education courses, and offering a shared workspace." %}
+{% endif %}
+
+
 
 <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
 <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
@@ -11,18 +17,23 @@
 <!-- The above 3 meta tags *must* come first in the head -->
 <!-- SITE TITLE -->
 <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
-<meta name="description" content="{% if page.description %}{{ page.description | escape }}{% endif %}. {{ site.description }}" />
+<meta name="description" content="{{ meta_description | truncate: 160 | escape }}">
 <meta name="keywords" content="{{ site.keywords }}" />
 <meta name="author" content="Awesome Inc" />
 
 <!-- twitter card starts from here, if you don't need remove this section -->
-<meta name="twitter:card" content="We exist to create and grow high-tech startups. We do this by hosting community events, leading technology education courses, and offering a shared workspace." />
+
+
+
+<meta 
+  name="twitter:card" 
+  content="{{ meta_description }}" />
 <meta name="twitter:site" content="@awesome_inc" />
 <meta name="twitter:creator" content="@awesome_inc" />
 <meta name="twitter:url" content="https://twitter.com/awesome_inc" />
-<meta name="twitter:title" content="We exist to create and grow high-tech startups. We do this by hosting community events, leading technology education courses, and offering a shared workspace." />
+<meta name="twitter:title" content="{{ meta_description }}" />
 <!-- maximum 140 char -->
-<meta name="twitter:description" content="We exist to create and grow high-tech startups. We do this by hosting community events, leading technology education courses, and offering a shared workspace." />
+<meta name="twitter:description" content="{{ meta_description }}" />
 <!-- maximum 140 char -->
 <meta name="twitter:image" content="images/twitter-image.jpg" />
 <!-- when you post this page url in twitter , this image will be shown -->
