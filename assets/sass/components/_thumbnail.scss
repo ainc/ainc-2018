@@ -1,0 +1,30 @@
+/* Video thumbnail overlay 
+  src: https://codepen.io/martinkrulltott/pen/xwrXwR
+*/
+
+.video-thumbnail {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  margin: 30px;
+
+  &:before {
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    content: "\f01d";
+    font-family: FontAwesome;
+    font-size: 100px;
+    color: #fff;
+    opacity: .8;
+    text-shadow: 0px 0px 30px rgba(0, 0, 0, 0.5);
+  }
+  &#venture-labs:before {
+    top: 33%;
+  }
+  &:hover:before {
+    color: #ddd;
+  }
+}
