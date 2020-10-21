@@ -5,11 +5,9 @@ date: 2020-10-21T20:45:45.994Z
 header_img: /images/uploads/img-5-1.jpg
 author_img: /images/uploads/christian-beck.jpg
 author: Christian Beck
-description: "[Here are a few common
-  mistakes](https://betterproduct.community/resource/a-designers-thoughts-on-go\
-  -to-market-strategy-for-startups/) I see founders make when they’re new to
-  marketing and sales and taking a digital product to market (but don’t worry,
-  I’ll also explain how to avoid making them)."
+description: Here are a few common mistakes I see founders make when they’re new
+  to marketing and sales and taking a digital product to market (but don’t
+  worry, I’ll also explain how to avoid making them).
 ---
 <!--StartFragment-->
 
