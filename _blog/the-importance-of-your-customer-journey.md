@@ -3,7 +3,7 @@ layout: post
 title: The Importance of Your Customer Journey
 date: 2020-10-21T20:54:47.856Z
 header_img: /images/uploads/ainc_stock_photo-34.jpg
-author_img: /images/uploads/mike-hilton.jpg
+author_img: /images/uploads/unnamed.jpg
 author: Mike Hilton
 description: Understanding your customer journey is the cornerstone of
   increasing your market share, growing revenue, and keeping your company
