@@ -2,7 +2,7 @@
 layout: post
 title: How to Earn Brand Trust on Your Product Site
 date: 2020-10-21T20:59:04.704Z
-header_img: /images/uploads/apt_innovatemapsummer071-1.jpg
+header_img: /images/uploads/ainc_stock_photo-58.jpg
 author_img: /images/uploads/andy-kennedy.jpg
 author: Andy Kennedy
 description: Forming brand relationships with prospects online is not so
