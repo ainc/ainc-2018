@@ -42,8 +42,20 @@ for (let i in inputs) {
 }
 
 function setupGraph(numbers) {
+  /*
     if (document.getElementsByClassName("graph")[0] != undefined) {
         document.getElementsByClassName("graph")[0].remove();
+    }
+    */
+  /*
+    if (document.getElementById("mygraph") != undefined) {
+        document.getElementById("mygraph").remove();
+    }
+    */
+    //document.getElementById("mygraph").removeAllChildNodes();
+    let mygraph = document.getElementById("mygraph");
+    while (mygraph.firstChild) {
+      mygraph.removeChild(mygraph.firstChild);
     }
 
     var margin = {top: 30, right: 30, bottom: 70, left: 60},
@@ -58,34 +70,52 @@ function setupGraph(numbers) {
         .attr("transform", "translate(30, 30)")
         //.call(slider)
 
+    // 40,000 -> 120,000
     let slider = d3
         .sliderHorizontal()
-        .min(0)
-        .max(10)
+        //.min(0)
+        .min(40,000)
+        .max(120,000)
+        //.max(10)
         .step(1)
-        .width(300)
-        .displayValue(false)
+        .width(width - 55)
+        //.displayValue(false)
+        .displayValue(true)
 
+    //numbers.monthlyPayment   = numbers.grossMonthlyIncome / 12 * (numbers.isaPercentage / 100);
     let data = [
-        {Payments: 5, Price: 500}
+        {Salary: 40000, Interest: 40000 / 12 / 12* (numbers.isaPercentage / 100)},
+        {Salary: 50000, Interest: 50000 / 12 / 12* (numbers.isaPercentage / 100)},
+        {Salary: 60000, Interest: 60000 / 12 / 12* (numbers.isaPercentage / 100)},
+        {Salary: 70000, Interest: 70000 / 12 / 12* (numbers.isaPercentage / 100)},
+        {Salary: 80000, Interest: 80000 / 12 / 12* (numbers.isaPercentage / 100)},
+        {Salary: 90000, Interest: 90000 / 12 / 12* (numbers.isaPercentage / 100)},
+        {Salary: 100000, Interest: 100000 / 12 / 12* (numbers.isaPercentage / 100)},
+        {Salary: 110000, Interest: 110000 / 12 / 12* (numbers.isaPercentage / 100)},
+        {Salary: 120000, Interest: 120000 / 12 / 12* (numbers.isaPercentage / 100)},
     ]
 
     // X axis
     var x = d3.scaleBand()
         .range([ 0, width ])
-        .domain(data.map(function(d) { return d.Country; }))
+        //.domain(data.map(function(d) { return d.Country; }))
+        .domain(data.map(function(d) {return d.Salary; }))
         .padding(0.2);
 
     svg.append("g")
         .attr("transform", "translate(0," + height + ")")
-        .call(d3.axisBottom(x))
+        //.call(d3.axisBottom(x))
         .selectAll("text")
         .attr("transform", "translate(-10,0)rotate(-45)")
         .style("text-anchor", "end");
+    
+    svg.append("text")
+        .text("Gross Income in Thousands")
+        .attr("transform", `translate(80,${height + 60})`)
 
     // Add Y axis
     var y = d3.scaleLinear()
-        .domain([0, 1000])
+        .domain([0, 100])
         .range([ height, 0]);
     svg.append("g")
         .call(d3.axisLeft(y));
@@ -93,19 +123,18 @@ function setupGraph(numbers) {
     //svg.call(slider)
     svg.append("g")
         .call(slider)
-        .attr("transform", `translate(30, ${height})`);
+        .attr("transform", `translate(30, ${height + 10})`);
 
     // Bars
     svg.selectAll("mybar")
         .data(data)
         .enter()
         .append("rect")
-        //.attr("x", function(d) { return x(d.Payments); })
         //.attr("x", function(d) { return slider(); })
-        .attr("x", function(d) { return x(d.Payments);})
-        .attr("y", function(d) { return y(d.Price); })
-        //.attr("width", x.bandwidth())
-        .attr("width", 30)
-        .attr("height", function(d) { return height - y(d.Price); })
-        .attr("fill", "#69b3a2");
+        .attr("x", function(d) { return x(d.Salary); })
+        .attr("y", function(d) { return y(d.Interest); })
+        .attr("width", 15)
+        .attr("height", function(d) { return height - y(d.Interest); })
+        .attr("fill", "#69b3a2")
+        .attr("transform", "translate(10,0)")
 }
