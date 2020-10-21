@@ -2,7 +2,7 @@
 layout: post
 title: A Designer’s Thoughts on Go-To Market Strategy for Startups
 date: 2020-10-21T20:45:45.994Z
-header_img: /images/uploads/img-5-1.jpg
+header_img: /images/uploads/copy-of-ainc_stock_photo-11.jpg
 author_img: /images/uploads/christian-beck.jpg
 author: Christian Beck
 description: Here are a few common mistakes I see founders make when they’re new
