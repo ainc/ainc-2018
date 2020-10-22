@@ -164,11 +164,20 @@ team: aincu
                   </tr>
                 </thead>
                 <tbody>
+                  <tr>
+                    <td><a href="{{ site.data.routes.iwd }}">Intro To Web Development</a><br><em>Fall 2020</em></td>
+                    <td>Part-Time (evenings)<br>9 Weeks</td>
+                    <td>Programming Fundamentals, Front-End Web Development</td>
+                    <td>HTML, CSS, Javascript</td>
+                    <td>Sep 14 - Nov 11<br>Mon, Wed<br>6:30 - 8:30 PM</td>
+                    <td>Anyone new to programming, future Bootcamp students</td>
+                    <td><a href="{{ site.data.routes.iwd }}" class="btn btn-default center" role="button" disabled>Registration Closed</a></td>
+                  </tr>
                   {% assign intro_classes = site.courses | where: "course-category", "intro" %}
                   {% for class in intro_classes %}
                   {% if class.hide != true %}
                   <tr>
-                    <td>{{ class.title }} <br/> <em>{{ class.season.first }} {{ class.application-date | date: "%Y" }}</em></td>
+                    <td><a href="{{ site.data.routes.iwd }}">{{ class.title }}</a><br/> <em>{{ class.season.first }} {{ class.application-date | date: "%Y" }}</em></td>
                     <td>Part-Time (evenings)<br>9 Weeks</td>
                     <td>{{ class.course_topics }}</td>
                     <td>{{ class.technologies | join: ", " }}</td>
