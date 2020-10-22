@@ -8,9 +8,50 @@ new fullpage('#fullpage', {
 });
 
 // Jquery Counter-Up from Codepen
-$('.counter').counterUp({
-    delay: 10,
-    time: 2000
-  });
+
+document.getElementById("something").onscroll = function() {counterUp()};
+
+function counterUp() {
+  console.log("test");
+  delay: 10;
+  time: 2000;
+}
+
+// $('.counter').counterUp({
+//   delay: 10,
+//   time: 2000
+// });
+
+
+
+/*
+$(".section").scroll() {
+  $(this).child(".counter").counterUp({
+
+  })
+}
+*/
+// $("#apax").scroll() {
+
+
+//   $('#apax .counter').counterUp({
+    
+//       delay: 10,
+//       time: 2000
+//     });
+// }
+
+// $("#aincu").scroll() {
+
+
+//   $('#aincu .counter').counterUp({
+//       delay: 10,
+//       time: 2000
+//     });
+// }
+
 $('.counter').addClass('animated fadeInDownBig');
 $('h3').addClass('animated fadeIn');
+
+
+
