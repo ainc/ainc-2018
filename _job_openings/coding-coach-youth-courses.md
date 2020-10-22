@@ -2,7 +2,7 @@
 title: Coding Coach - Youth Courses
 email: learn@awesomeinc.org
 team: Awesome Inc U
-manager: Nick
+manager: Kyle
 time-commitment: part-time
 active: true
 priority: 10
