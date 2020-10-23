@@ -177,7 +177,7 @@ team: aincu
                   {% for class in intro_classes %}
                   {% if class.hide != true %}
                   <tr>
-                    <td><a href="{{ site.data.routes.iwd }}">{{ class.title }}</a><br/> <em>{{ class.season.first }} {{ class.application-date | date: "%Y" }}</em></td>
+                    <td><a href="{{ site.data.routes.iwd }}">{{ class.title }}</a><br/> <em>{{ class.season.first }} {{ class.program-begin-date | date: "%Y" }}</em></td>
                     <td>Part-Time (evenings)<br>9 Weeks</td>
                     <td>{{ class.course_topics }}</td>
                     <td>{{ class.technologies | join: ", " }}</td>
