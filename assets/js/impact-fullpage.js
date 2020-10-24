@@ -9,7 +9,7 @@ new fullpage('#fullpage', {
 
 // Jquery Counter-Up from Codepen
 
-document.getElementById("something").onscroll = function() {counterUp()};
+document.getElementById("something").addEventListener("scroll", counterUp);
 
 function counterUp() {
   console.log("test");
