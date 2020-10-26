@@ -1,9 +1,21 @@
 ﻿<!-- Used for meta-data and importing stylesheets. NOTE: This is imported at the top, any files that can be waited to load, should be added to the /_includes/footer.html file -->
 
+{% if page.title %}
+  {% assign meta_title = page.title | append: " | Awesome Inc" %}
+{% else %}
+  {% assign meta_title = "Awesome Inc" %}
+{% endif %}
+
 {% if page.description %}
   {% assign meta_description = page.description %}
 {% else %}
   {% assign meta_description = "Awesome Inc exists to create and grow high-tech startups by hosting community events, leading technology education courses, and offering a shared workspace." %}
+{% endif %}
+
+{% if page.meta_image %}
+  {% assign meta_image = page.meta_image %}
+{% else %}
+  {% assign meta_image = "/images/logos/ainc-logo-text-triangle-layer-red.png" %}
 {% endif %}
 
 
@@ -16,10 +28,16 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 <!-- The above 3 meta tags *must* come first in the head -->
 <!-- SITE TITLE -->
-<title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
+<title>{{ meta_title }}</title>
 <meta name="description" content="{{ meta_description | truncate: 160 | escape }}">
 <meta name="keywords" content="{{ site.keywords }}" />
 <meta name="author" content="Awesome Inc" />
+
+<meta property="og:title" content="{{ meta_title }}" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="{{ site.url | append: page.url }}" />
+<meta property="og:description" content="{{ meta_description }}" />
+<meta property="og:image" content="{{ site.url | append: meta_image }}" />
 
 <!-- twitter card starts from here, if you don't need remove this section -->
 
