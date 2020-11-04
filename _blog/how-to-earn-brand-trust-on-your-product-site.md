@@ -3,7 +3,7 @@ layout: post
 title: How to Earn Brand Trust on Your Product Site
 date: 2020-10-21T20:59:04.704Z
 header_img: /images/uploads/ainc_stock_photo-58.jpg
-author_img: /images/uploads/andy-kennedy.jpg
+author_img: /images/uploads/andy-kennedy-3-.jpg
 author: Andy Kennedy
 description: Forming brand relationships with prospects online is not so
   different from the way we form relationships in life. The fundamentals are
@@ -11,7 +11,7 @@ description: Forming brand relationships with prospects online is not so
 ---
 <!--StartFragment-->
 
-*This article was contributed by Christian Beck, Principal, Brand Strategy for [Innovative Map](https://innovatemap.com/). Innovative Map is a team of experts in digital product research, branding, marketing, and design.*
+*This article was contributed by Christian Beck, Principal, Brand Strategy for [Innovatemap](https://innovatemap.com/). Innovatemap is a team of experts in digital product research, branding, marketing, and design.*
 
 Forming brand relationships with prospects online is not so different from the way we form relationships in life. The fundamentals are rooted in honesty, respect, and trust.
 
