@@ -10,18 +10,27 @@ new fullpage('#fullpage', {
 // Jquery Counter-Up from Codepen
 
 // document.getElementById("something").addEventListener("scroll", counterUp);
+// window.addEventListener("scroll", function () {
+//   console.log("test");
+// });
 
 // function counterUp() {
-//   // console.log("test");
+//   console.log("test");
 //   delay: 10;
 //   time: 2000;
 // }
 
-$('.counter').counterUp({
-  delay: 10,
-  time: 2000
+
+
+$("div").scroll( function() { 
+  $('.counter').counterUp( {
+    delay: 10,
+    time: 2000
+  });
 });
 
+$('.counter').addClass('animated fadeInDownBig');
+$('h3').addClass('animated fadeIn');
 
 
 /*
@@ -49,9 +58,6 @@ $(".section").scroll() {
 //       time: 2000
 //     });
 // }
-
-$('.counter').addClass('animated fadeInDownBig');
-$('h3').addClass('animated fadeIn');
 
 
 
