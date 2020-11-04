@@ -11,6 +11,8 @@ description: Here are a few common mistakes I see founders make when they’re n
 ---
 <!--StartFragment-->
 
+*This article was contributed by Christian Beck, Executive Partner, Growth Strategy & Design for [Innovative Map](https://innovatemap.com/). Innovative Map is a team of experts in digital product research, branding, marketing, and design.*
+
 I’m in no position to write this article. I went to design school and have learned all I know about marketing sales while building an agency and observing startup clients.
 
 But what I’ve learned is that all new founders (“new” meaning those who haven’t struck gold with prior exits) are learning on the job. Your career up until the point of founding was largely centered on one domain. And unless your previous gig was in sales or marketing, there’s a decent chance that [you’re learning this the same way I did](https://firstround.com/review/leslies-compass-a-framework-for-go-to-market-strategy/). Come to think of it, maybe I am in a good position to write this article!
@@ -31,13 +33,7 @@ Pull Quote: It’s fine to be influenced by others, but your strategy should be 
 
 * Strategize with intention. Only when you create an intentional strategy, with goals and metrics, can you set yourself up to understand what is working and what’s not.
 
-
-
 - - -
-
-
-
-
 
 ## Mistake #2: Switching strategy too often
 
@@ -54,13 +50,7 @@ Key Takeaways
 * Move fast but have patience. Be lean and ready to pivot, but give your strategies time to reveal themselves.
 * Tweak strategy, don’t overhaul it. Even if you do need an overhaul, the way you get there is through incremental improvements. Once you find what’s successful you can rapidly scale the tactic.
 
-
-
 - - -
-
-
-
-
 
 ## Mistake #3: Overvaluing the launch
 
@@ -73,13 +63,7 @@ Key Takeaway
 * Always be launching (ABL). Okay, so the acronym isn’t as great as “always be closing” but founders should adopt this mentality. When you make updates or add features to your product, you back these up with the same marketing activities you would if they were individual product launches. Look up how often Framer (a UI prototyping tool) posts on Product Hunt. They treat every feature like launch and blast the design community correspondingly.
 * Launches are important... but understanding that they are recurring will help you scale and prioritize your efforts. Stretch your marketing and advertising dollars over several launches, rather than the “big tent” event.
 
-
-
 - - -
-
-
-
-
 
 ## Mistake #4: Undervaluing customer service
 
@@ -94,13 +78,7 @@ Key Takeaways
 * Treat customer service like marketing. In the early days, understand that your product’s success is not just measured on conversion into sales, but how it continues to prove its value after conversion. Your long-term brand and viral growth will be tied to how well you service customers.
 * Invest in onboarding processes and features to scale. Don’t assume all the burden yourself. Even with domain-heavy SaaS products that require internal team members to onboard, your processes should be well-defined. For self-service products, the product should have onboarding baked into the app itself with easy access to a customer support rep.
 
-
-
 - - -
-
-
-
-
 
 Go-to market strategy in [the seed stage of a startup](https://betterproduct.community/resource/10-steps-to-effectively-launch-your-digital-product/) is a lot like the early stages of starting a bonfire. It takes a lot of care in the beginning and any adjustment can cause the fire to go out completely. Adding just the right tinder can make it accelerate, but putting too big a piece can suffocate it. And, once the fire is going, you can easily keep adding pieces to keep it going. Like most of you reading this, I’m no expert on go-to market strategy but hopefully I’ve used that as an advantage and provided some helpful takeaways.
 
