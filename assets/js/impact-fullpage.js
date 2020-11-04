@@ -9,18 +9,18 @@ new fullpage('#fullpage', {
 
 // Jquery Counter-Up from Codepen
 
-document.getElementById("something").addEventListener("scroll", counterUp);
+// document.getElementById("something").addEventListener("scroll", counterUp);
 
-function counterUp() {
-  console.log("test");
-  delay: 10;
-  time: 2000;
-}
+// function counterUp() {
+//   // console.log("test");
+//   delay: 10;
+//   time: 2000;
+// }
 
-// $('.counter').counterUp({
-//   delay: 10,
-//   time: 2000
-// });
+$('.counter').counterUp({
+  delay: 10,
+  time: 2000
+});
 
 
 

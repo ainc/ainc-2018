@@ -10,21 +10,30 @@ main#impact-fullpage {
     position: relative;
   }
 
-h1, .h1 {
-  font-family: "Open Sans",sans-serif;
-  font-size: 39px;
-  // line-height: 58.5px;
-  font-size: 3.9rem;
-  // line-height: 5.85rem;
-  font-weight: 900;
-  color: #C12029;
-  text-transform: uppercase;
-}
+  .banner {
+    width: 20%;
+    top: 10px;
+    left: 0px;
+    position: absolute;
+    z-index: 0;
+  }  
 
-p {
-  padding-left: 20px;
-  padding-right: 20px;
-}
+  h1, .h1 {
+    font-family: "Open Sans",sans-serif;
+    font-size: 39px;
+    font-weight: 900;
+    color: #ffffff;
+    text-transform: uppercase;
+    top: -50px;
+    left: 30px;
+    position: relative;
+    z-index: 10;
+  }
+
+  p {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
 
   // .affix {    /* Make navbar stick */
   //   top: 50px;
