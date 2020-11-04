@@ -10,8 +10,16 @@ main#impact-fullpage {
     position: relative;
   }
 
+  .logo {
+    width: 2%;
+    top: 25px;
+    left: 10px;
+    position: absolute;
+    z-index: 5;
+  }
+
   .banner {
-    width: 20%;
+    width: 22%;
     top: 10px;
     left: 0px;
     position: absolute;
@@ -24,8 +32,8 @@ main#impact-fullpage {
     font-weight: 900;
     color: #ffffff;
     text-transform: uppercase;
-    top: -50px;
-    left: 30px;
+    top: -40px;
+    left: 60px;
     position: relative;
     z-index: 10;
   }
