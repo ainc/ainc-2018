@@ -11,6 +11,8 @@ description: Forming brand relationships with prospects online is not so
 ---
 <!--StartFragment-->
 
+*This article was contributed by Christian Beck, Principal, Brand Strategy for [Innovative Map](https://innovatemap.com/). Innovative Map is a team of experts in digital product research, branding, marketing, and design.*
+
 Forming brand relationships with prospects online is not so different from the way we form relationships in life. The fundamentals are rooted in honesty, respect, and trust.
 
 For digital-native companies, the first shot at rooting a relationship in these values is [the product site](https://betterproduct.community/resource/how-to-earn-brand-trust-on-your-product-site/). It is the all-important first impression, tasked with shaping the way customers see you before even talking to you. It’s your shot at conveying the value of everything you’ve built, expressing how you’re different, demonstrating empathy, and, perhaps most important, proving you can be trusted to solve their problem. The best product sites check these boxes, and ultimately convert anonymous visitors into personal conversations and customers.
@@ -33,13 +35,7 @@ Don’t say everything on your mind. Especially during the first conversation. I
 
 Don’t immediately ask them to hold hands. The product site equivalent of this is over-using disruptive call-to-actions and pop-ups. Your prospects are smart. They know how to navigate a website. They also know what information they need from you before feeling like they’re ready to take the relationship to the next level… and a disruptive call-to-action isn’t it. I’m not suggesting CTAs are a bad thing. The key is allowing users to take action on their own terms, not telling them when they’re ready. This is how you begin to strike a balance between branding and demand generation on your product site.
 
-
-
 - - -
-
-
-
-
 
 ## Step 2- Tell ‘em what your friends say
 
@@ -55,13 +51,7 @@ Go a little further by dedicating prominent homepage real estate to customer quo
 
 Many of the same principles apply to B2C or [B2U products](https://innovatemap.com/wisdom/the-future-of-b2b-software-is-b2u/) where time to value is fast and cost of entry is negligible, the tactics are just sliced a little differently. You’ll still want to show customer logos and quotes, but the depth of reviews won’t be so heavy-handed. Instead, inspire prospects with quick examples of how other brands use your product like [Airtable](https://airtable.com/inspiration#product-and-ux) does, surface app-store ratings like [Loom](https://www.useloom.com/), and display the number of downloads or geographic reach like [Thumbtack](https://www.thumbtack.com/).
 
-
-
 - - -
-
-
-
-
 
 ## Step 3 - Respect the role of design
 
@@ -79,18 +69,10 @@ Establish clear information hierarchy: Think about your product site one vertica
 
 Sprinkle in some delighters: Subtle, smart animations that add value to the experience show your attention to detail and project sophistication. But don’t go too far and hijack the experience. [Stripe](https://stripe.com/) nicely strikes this balance.
 
-
-
 - - -
-
-
-
-
 
 Love it or hate it, [your product site is your first impression](https://betterproduct.community/resource/splash-pages-at-startup-speed/) in a brand relationship with a prospect. If you nail it you’ll earn their trust and have the opportunity to take the relationship to the next level. But if you miss the mark you’ll never get a chance to show how great of a partner you can be.
 
 To read more product resources, check out the [Better Product Community](https://betterproduct.community/) by Innovatemap.
-
-
 
 <!--EndFragment-->
