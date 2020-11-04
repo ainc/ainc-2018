@@ -3,7 +3,7 @@ layout: post
 title: A Designer’s Thoughts on Go-To Market Strategy for Startups
 date: 2020-10-21T20:45:45.994Z
 header_img: /images/uploads/copy-of-ainc_stock_photo-11.jpg
-author_img: /images/uploads/christian-beck.jpg
+author_img: /images/uploads/christian-beck-1-.jpg
 author: Christian Beck
 description: Here are a few common mistakes I see founders make when they’re new
   to marketing and sales and taking a digital product to market (but don’t
@@ -11,7 +11,7 @@ description: Here are a few common mistakes I see founders make when they’re n
 ---
 <!--StartFragment-->
 
-*This article was contributed by Christian Beck, Executive Partner, Growth Strategy & Design for [Innovative Map](https://innovatemap.com/). Innovative Map is a team of experts in digital product research, branding, marketing, and design.*
+*This article was contributed by Christian Beck, Executive Partner, Growth Strategy & Design for [Innovatemap](https://innovatemap.com/). Innovatemap is a team of experts in digital product research, branding, marketing, and design.*
 
 I’m in no position to write this article. I went to design school and have learned all I know about marketing sales while building an agency and observing startup clients.
 
@@ -83,7 +83,5 @@ Key Takeaways
 Go-to market strategy in [the seed stage of a startup](https://betterproduct.community/resource/10-steps-to-effectively-launch-your-digital-product/) is a lot like the early stages of starting a bonfire. It takes a lot of care in the beginning and any adjustment can cause the fire to go out completely. Adding just the right tinder can make it accelerate, but putting too big a piece can suffocate it. And, once the fire is going, you can easily keep adding pieces to keep it going. Like most of you reading this, I’m no expert on go-to market strategy but hopefully I’ve used that as an advantage and provided some helpful takeaways.
 
 To read more product resources, check out the [Better Product Community](https://betterproduct.community/) by Innovatemap.
-
-
 
 <!--EndFragment-->
