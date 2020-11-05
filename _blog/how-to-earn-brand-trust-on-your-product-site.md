@@ -11,7 +11,7 @@ description: Forming brand relationships with prospects online is not so
 ---
 <!--StartFragment-->
 
-*This article was contributed by Christian Beck, Principal, Brand Strategy for [Innovatemap](https://innovatemap.com/). Innovatemap is a team of experts in digital product research, branding, marketing, and design.*
+*This article was contributed by Andy Kennedy, Principal, Brand Strategy for [Innovatemap](https://innovatemap.com/). Innovatemap is a team of experts in digital product research, branding, marketing, and design.*
 
 Forming brand relationships with prospects online is not so different from the way we form relationships in life. The fundamentals are rooted in honesty, respect, and trust.
 
