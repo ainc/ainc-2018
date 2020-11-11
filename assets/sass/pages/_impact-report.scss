@@ -38,9 +38,9 @@ main#impact-fullpage {
   .s1 {
     background: url("/assets/img/impact-report/snowboarding.png"), url("/assets/img/impact-report/red-background-banner.png");
     background-position: bottom, right top;
-    background-size: 110%, 90%;
+    background-size: 110%, 90%; // figure out the borders of the screen
     background-repeat: no-repeat;
-    opacity: 0, 0;
+    opacity: 1, 1;
   }
 
 
