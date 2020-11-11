@@ -7,8 +7,9 @@
 // $('h3').addClass('animated fadeIn');
 
 $(window).scroll(function() {
-  var hT = $('#div').offset().top,
-      hH = $('#div').outerHeight(),
+  console.log("HELLO!");
+  var hT = $('#something').offset().top,
+      hH = $('#something').outerHeight(),
       wH = $(window).height(),
       wS = $(this).scrollTop();
   if (wS > (hT+hH-wH)){
