@@ -145,15 +145,15 @@ $venturelabs-light-blue-color: rgb(126, 198, 203);
   }
 
   #reputation {
-    background: url('/assets/img/venture-labs/reputation-bg.jpg');
+    background: url('/assets/img/venture-labs/reputation-bg.png');
     background-size: cover;
-    background-position-y: 35%;
+    background-position-y: 0;
     @include screen-xs {
       background-position-y: top;
       background-position-x: center;
     }
     .lgx-heading-area {
-      margin-top: 35rem;
+      margin-top: 55rem;
       @incldue screen-xs {
         margin-top: 30rem;
       }
