@@ -22,20 +22,31 @@ main#impact-fullpage {
   p {
     padding-left: 20px;
     padding-right: 20px;
-    z-index: 15;
+    z-index: 10;
   }
+
+// WHO WE ARE
+  // .snowboard {
+  //   width: 50%;
+  //   z-index: 0;
+  // }
+
+  // .red-background-banner {
+  //   width: 50%;
+  //   z-index: 1;
+  // }
+  .s1 {
+    background: url("/assets/img/impact-report/snowboarding.png"), url("/assets/img/impact-report/red-background-banner.png");
+    background-position: bottom, right top;
+    background-size: 110%, 90%;
+    background-repeat: no-repeat;
+    opacity: 0, 0;
+  }
+
 
 // APAX SOFTWARE
   .gray-banner {
     width: 22%;
-    top: 10px;
-    left: 0px;
-    position: absolute;
-    z-index: 0;
-  } 
-
-  .white-banner {
-    width: 35%;
     top: 10px;
     left: 0px;
     position: absolute;
@@ -67,6 +78,14 @@ main#impact-fullpage {
   }
 
   // AWESOME INC U
+  .white-banner {
+    width: 35%;
+    top: 10px;
+    left: 0px;
+    position: absolute;
+    z-index: 0;
+  } 
+
   .title2 {
     font-family: "Open Sans",sans-serif;
     font-size: 39px;
@@ -184,7 +203,7 @@ main#impact-fullpage {
 //   // .fa-2x { margin: 0 auto; float: none; display: table; color: #4ad1e5; }
 // }
 
-// CodePen Home #1192 - Testimonial card
+// ----- CodePen Home #1192 - Testimonial card -------
 
 @import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css);
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,800);
@@ -267,7 +286,7 @@ figure.snip1192:hover {
     transform: scale(0.95);
 }
 
-// Jquery Counter-Up from Codepen
+// --------- Jquery Counter-Up from Codepen --------- 
 
 @import url(//fonts.googleapis.com/css?family=Montserrat:400,700);
 
