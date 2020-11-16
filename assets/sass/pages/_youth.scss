@@ -6,9 +6,6 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    @include screen-laptop-min {
-      margin-bottom: 25vh;
-    }
     @include screen-tablet-max {
       background-position: 55%;
     }
@@ -30,7 +27,7 @@
     .heading-subtitle {
       @include font-size(24);
     }
-    margin-top: -8vh;
+    // margin-top: -8vh;
     @include screen-xs {
       margin-top: 0;
     }
