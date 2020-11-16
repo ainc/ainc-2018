@@ -13,7 +13,7 @@
       background-position: 55%;
     }
     .lgx-heading-area {
-      margin-top: 30vh;
+      margin-top: 25vh;
       .lgx-heading {
         text-align: left;
       }
@@ -24,11 +24,21 @@
       }
       margin-top: 5vh;
     }
-    #why-code {
-      .heading-subtitle {
-        @include font-size(24);
-      }
-      margin-top: 5vh;
+  }
+
+  #why-code {
+    .heading-subtitle {
+      @include font-size(24);
+    }
+    margin-top: -8vh;
+    @include screen-xs {
+      margin-top: 0;
+    }
+    @include screen-sm {
+      margin-top: 0;
+    }
+    @include screen-md {
+      margin-top: 0;
     }
   }
 
