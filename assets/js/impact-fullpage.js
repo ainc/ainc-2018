@@ -7,8 +7,8 @@ new fullpage('#fullpage', {
     slidesNavigation: true,
     slidesNavPosition: 'bottom',
     
-    afterLoad: function(origin){
-        if(origin.anchor == ('section3' || 'section4')){
+    afterLoad: function(o, d, dir){
+        if(d.anchor == 'section3'){
             // alert("HELLO!!! IT WORKS!")
             $('.counter').counterUp({
                 delay: 10,
@@ -16,7 +16,6 @@ new fullpage('#fullpage', {
             });
             $('.counter').addClass('animated fadeInDownBig');
             $('h3').addClass('animated fadeIn');
-            // it works before and after section 3
         }
     }
 });
