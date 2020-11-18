@@ -7,9 +7,16 @@ new fullpage('#fullpage', {
     slidesNavigation: true,
     slidesNavPosition: 'bottom',
     
-    afterLoad: function(destination){
-        if(destination.anchor == 'section3'){
-            alert("HELLO!!! IT WORKS!")
+    afterLoad: function(origin){
+        if(origin.anchor == ('section3' || 'section4')){
+            // alert("HELLO!!! IT WORKS!")
+            $('.counter').counterUp({
+                delay: 10,
+                time: 2000
+            });
+            $('.counter').addClass('animated fadeInDownBig');
+            $('h3').addClass('animated fadeIn');
+            // it works before and after section 3
         }
     }
 });
