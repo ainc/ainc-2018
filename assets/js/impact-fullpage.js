@@ -8,8 +8,8 @@ new fullpage('#fullpage', {
     slidesNavPosition: 'bottom',
     
     afterLoad: function(o, d, dir){
-        if(d.anchor == 'section3'){
-            // alert("HELLO!!! IT WORKS!")
+        // const allSections = ('section1' || 'section2' || 'section3' || 'section4' || 'section5')
+        if(d.anchor == 'section3' || d.anchor == 'section4'){
             $('.counter').counterUp({
                 delay: 10,
                 time: 2000
