@@ -9,7 +9,7 @@ new fullpage('#fullpage', {
     
     afterLoad: function(o, d, dir){
         // const allSections = ('section1' || 'section2' || 'section3' || 'section4' || 'section5')
-        if(d.anchor == 'section3' || d.anchor == 'section4'){
+        if(d.anchor == 'section3' && d.anchor == 'section4'){
             $('.counter').counterUp({
                 delay: 10,
                 time: 2000
