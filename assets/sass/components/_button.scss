@@ -12,6 +12,12 @@
   border: 2px solid $brand-color;
   border-radius: 4px;
   position: relative;
+  &.disabled,
+  &[disabled],
+  fieldset[disabled] & {
+    cursor: $cursor-disabled;
+    @include box-shadow(none);
+  }
   &:hover {
     color: $brand-color2;
   }

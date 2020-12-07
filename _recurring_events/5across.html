@@ -40,14 +40,14 @@ next_event_title: 5 Across - February Edition
         <div class="lgx-heading-area">
           <div class="lgx-heading">
             <img src={{page.logo_path}} />
-            <!--<h2 class="title lgx-zoomIn-one heading-title">A Pitch Competition for<br>Kentucky Entrepreneurs</h2>-->
-            <!--<h2 class="title lgx-zoomIn-one heading-title">Kentucky Entrepreneurs</h2>-->
             <div class="catchline">
               <h2 class="title lgx-zoomIn-one heading-title">A Pitch Competition for Kentucky Entrepreneurs</h2>
             </div>
             <div class="buttons">
               <button type="button" class="lgx-btn lgx-btn-grey" id="applyButton" onclick="location.href='http:\/\/www.docs.google.com/spreadsheet/embeddedform?formkey=dF9KeS1iZ1ZETjFKazlBN1U2emlId0E6MA'">Apply to Pitch</button>
-              <button type="button" class="lgx-btn lgx-btn-grey" id="registerButton" onclick="location.href='http:\/\/www.eventbrite.com/e/{{ next_event.first.eventbrite_id }}'">Register to Attend</button>
+              <div class="tooltip-wrapper disabled" data-title="Registration unavailable, check back soon. Event date: Febraury 25, 2021">
+                <button type="button" class="lgx-btn lgx-btn-grey disabled" role="button" aria-disabled="true" id="registerButton" onclick="location.href='http:\/\/www.eventbrite.com/e/{{ next_event.first.eventbrite_id }}'">Register to Attend</button>
+              </div>
             </div>
           </div>
         </div>
@@ -81,7 +81,9 @@ next_event_title: 5 Across - February Edition
   </div> <!-- /col -->
   <div class="buttons">
     <button type="button" class="lgx-btn lgx-btn-grey" id="applyButton" onclick="location.href='http:\/\/www.docs.google.com/spreadsheet/embeddedform?formkey=dF9KeS1iZ1ZETjFKazlBN1U2emlId0E6MA'">Apply to Pitch</button>
-    <button type="button" class="lgx-btn lgx-btn-grey" id="registerButton" onclick="location.href='http:\/\/www.eventbrite.com/e/{{ next_event.first.eventbrite_id }}'">Register to Attend</button>
+    <div class="tooltip-wrapper disabled" data-title="Registration unavailable, check back soon. Event date: Febraury 25, 2021">
+      <button type="button" class="lgx-btn lgx-btn-grey disabled" role="button" aria-disabled="true" id="registerButton" onclick="location.href='http:\/\/www.eventbrite.com/e/{{ next_event.first.eventbrite_id }}'">Register to Attend</button>
+    </div>
   </div>
 </div><!-- /container -->
 
