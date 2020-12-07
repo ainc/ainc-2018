@@ -78,13 +78,17 @@ next_event_title: 5 Across - February Edition
     </div>
     <div class="col-md-1">
     </div>
-  </div> <!-- /col -->
-  <div class="buttons">
-    <button type="button" class="lgx-btn lgx-btn-grey" id="applyButton" onclick="location.href='http:\/\/www.docs.google.com/spreadsheet/embeddedform?formkey=dF9KeS1iZ1ZETjFKazlBN1U2emlId0E6MA'">Apply to Pitch</button>
-    <div class="tooltip-wrapper disabled" data-title="Registration unavailable, check back soon. Event date: Febraury 25, 2021">
-      <button type="button" class="lgx-btn lgx-btn-grey disabled" role="button" aria-disabled="true" id="registerButton" onclick="location.href='http:\/\/www.eventbrite.com/e/{{ next_event.first.eventbrite_id }}'">Register to Attend</button>
-    </div>
-  </div>
+  </div> <!-- /row -->
+  <div class="row">
+    <div class="col-md-6 col-md-offset-3">
+      <div class="buttons">
+        <button type="button" class="lgx-btn lgx-btn-grey" id="applyButton" onclick="location.href='http:\/\/www.docs.google.com/spreadsheet/embeddedform?formkey=dF9KeS1iZ1ZETjFKazlBN1U2emlId0E6MA'">Apply to Pitch</button>
+        <div class="tooltip-wrapper disabled" data-title="Registration unavailable, check back soon. Event date: Febraury 25, 2021">
+          <button type="button" class="lgx-btn lgx-btn-grey disabled" role="button" aria-disabled="true" id="registerButton" onclick="location.href='http:\/\/www.eventbrite.com/e/{{ next_event.first.eventbrite_id }}'">Register to Attend</button>
+        </div>
+      </div>
+    </div> <!-- col -->
+  </div> <!-- row -->
 </div><!-- /container -->
 
 <section id="past-pitches">
