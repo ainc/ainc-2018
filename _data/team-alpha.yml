@@ -88,18 +88,3 @@ items:
     rule: "Rule #4: Bring the fun"
     song: Ivory Road - King Charles
     team: Events & Marketing
-  - img_path: /images/uploads/khalid-_rashad-1-.jpg
-    name: "Khalid Rashad "
-    rule: "Rule #26: don't let stupid things keep you from doing awesome things "
-    song: "7 years - Lukas Graham "
-    person: "My mom "
-    fact: My family is from Egypt
-    team: "Events & Marketing "
-  - img_path: /images/uploads/hannah_eberts.jpg
-    name: Hannah Eberts
-    rule: "Rule #38: whatever you’re saying - stop...you’re about to embarrass
-      yourself"
-    song: Fighting for me - Riley Clemmons
-    person: My parents
-    fact: Obsessed with Perrier sparkling water
-    team: Design
