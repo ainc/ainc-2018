@@ -298,15 +298,16 @@ body {
   margin-top: 200px;
 }
 
-.col-md-3 {
+.col-md-2, .col-md-3, .col-md-4, .col-md-6 {
   text-align: center;
   padding-bottom: 50px;
-  border-right: 1px dashed black;
+  font-size: 15px;
+//   border-right: 1px dashed black;
 }
 
-.col-md-3:last-child {
-  border-right: 0px solid black;
-}
+// .col-md-3:last-child {
+//   border-right: 0px solid black;
+// }
 
 .counter {
   animation-duration: 1s;
