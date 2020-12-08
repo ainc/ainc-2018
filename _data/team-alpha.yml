@@ -3,150 +3,103 @@ items:
     img_path: /images/uploads/brianraney-wall.jpg
     name: Brian Raney
     person: Truett Cathy
-    rule: 'Rule #4: Always do something awesome over something not awesome'
+    rule: "Rule #4: Always do something awesome over something not awesome"
     song: The Thing
     team: Co-Founder
   - fact: I have a twin sister that was born exactly 2 years and 4 days before me
     img_path: /images/uploads/emilywehrle-wall.jpg
     name: Emily Wehrle
     person: C.S. Lewis
-    rule: >-
-      Rule #38: whatever you're saying - stop...you're about to embarrass
-      yourself
+    rule: "Rule #38: whatever you're saying - stop...you're about to embarrass
+      yourself"
     song: Farther Along - Josh Garrels
     team: Director of Operations
-  - fact: 'In college, I was an international race car driver'
+  - fact: In college, I was an international race car driver
     img_path: /images/uploads/nicksuch-wall.jpg
     name: Nick Such
     person: Elon Musk
-    rule: >-
-      Rule #10: 2-3 minutes late is okay, it shows that you are punctual but
+    rule: "Rule #10: 2-3 minutes late is okay, it shows that you are punctual but
       important enough to have other stuff going on. 5-6 minutes late is rude
-      and shows that you don't respect people's time
+      and shows that you don't respect people's time"
     song: Billy Joel - We Didn't Start the Fire
     team: Co-Founder
   - fact: I own and regularly drive a purple moped
     img_path: /images/uploads/peterbriggs-wall.jpg
     name: Peter Briggs
     person: Neil Armstrong
-    rule: 'Rule #26: don''t let stupid things keep you from doing awesome things'
-    song: Who We Are by Imagine Dragons
-    team: Video Team
-  - fact: >-
-      I drive a Toyota Highlander...like a lot of other 45 year old women in
+    rule: "Rule #26: don't let stupid things keep you from doing awesome things"
+    song: Who We Are - Imagine Dragons
+    team: Video
+  - fact: I drive a Toyota Highlander...like a lot of other 45 year old women in
       Lexington
     img_path: /images/uploads/keithmcmunn-wall.jpg
     name: Keith McMunn
     person: Jerry Seinfeld
-    rule: 'Rule #17: Bring the fun!'
+    rule: "Rule #17: Bring the fun!"
     song: Menswear - The 1975
     team: Fellowship Director
   - fact: I sold beef jerky and healthy snacks for a living
     img_path: /images/uploads/kyleraney-wall.jpg
     name: Kyle Raney
     person: Bob Goff
-    rule: 'Rule #76: No excuses, play like a champion'
+    rule: "Rule #76: No excuses, play like a champion"
     song: Safe and Sound - Capital Cities
-    team: Development Team
+    team: Development
   - fact: I can wiggle my ears
     img_path: /images/uploads/jacquelinebenson-wall.jpg
     name: Jacqueline Benson
     person: Martha Stewart
-    rule: 'Rule #17: bring the fun!'
-    song: Stand By Me -Ben E. King
-    team: Design Team
-  - fact: 'I''m addicted to gum, but in a healthy manner'
+    rule: "Rule #17: bring the fun!"
+    song: Stand By Me - Ben E. King
+    team: Design
+  - fact: I'm addicted to gum, but in a healthy manner
     img_path: /images/uploads/garrettfahrbach-wall.jpg
     name: Garrett Fahrbach
     person: Nigel Hendroff
-    rule: 'Rule #17: Bring the fun!'
-    song: Built to Last by Melee
+    rule: "Rule #17: Bring the fun!"
+    song: Built to Last - Melee
     team: Fellowship/HoF
-  - fact: >-
-      When I was a kid, I fell asleep while swinging on a swing set. I flew out
-      backwards and broke my arm.
+  - fact: When I was a kid, I fell asleep while swinging on a swing set. I flew out
+      backwards and broke my arm
     img_path: /images/uploads/loganjones-wall.jpg
     name: Logan Jones
     person: My dad
-    rule: '#22 go big or don''t be my friend'
+    rule: "Rule #22: go big or don't be my friend"
     song: Can't You See - Zac Brown Band & Kid Rock (Live Version)
     team: Project Coordinator
-  - fact: 'I went to 3 colleges, lived in 2 different states and graduated in 4 years'
+  - fact: I went to 3 colleges, lived in 2 different states and graduated in 4 years
     img_path: /images/uploads/maggiecollofello-wall.jpg
     name: Maggie Collofello
     person: My mom
-    rule: '#17 Bring the fun'
-    song: Don't Stop by Fleetwood Mac
+    rule: "Rule #17: Bring the fun"
+    song: Don't Stop - Fleetwood Mac
     team: Director of Workspace and Events
   - fact: I met my husband while running the Bourbon Chase
     img_path: /images/uploads/lbe-wall.jpeg
     name: Liz Brown Evans
-    person: my husband Eric or Dolly Parton
-    rule: '#34'
-    song: Time by John Lucas
+    person: My husband Eric or Dolly Parton
+    rule: "Rule #34"
+    song: Time - John Lucas
     team: Marketing
-  - fact: I’m the best in the world at catching food in my mouth.
+  - fact: I’m the best in the world at catching food in my mouth
     img_path: /images/uploads/stephenruh-wall.jpg
     name: Stephen Ruh
     person: My wife Liz
-    rule: 'Rule #4 Bring the fun'
-    song: Ivory Road by King Charles
+    rule: "Rule #4: Bring the fun"
+    song: Ivory Road - King Charles
     team: Events & Marketing
-  - fact: >-
-      Basketball will always be my first love. I could talk basketball for days,
-      and in another life I am a WNBA player.
-    img_path: /images/uploads/skyewall-min.jpg
-    name: Skye Brown
-    person: LeBron James
-    rule: '#76 no excuses, play like a champion'
-    song: 'Wake Up In The Sky -  Gucci Mane, Bruno Mars, Kodak Black'
-    team: Development
-  - fact: I used to ride horses and competed in hunter-jumper circuits
-    img_path: /images/uploads/samhartman-wall.jpg
-    name: Samuel Hartman
-    person: Guy Fieri
-    rule: '#17 Bring the fun'
-    song: Disco Inferno
-    team: Development
-  - fact: 'I like my water/all drinks with no ice '
-    img_path: /images/uploads/heatherwall-min.jpg
-    name: Heather Seaton
-    person: Today it is Ross Turner
-    rule: '#26 don''t let stupid things keep you from doing awesome things'
-    song: Making Luv To The Beat by WATCH THE DUCK
-    team: Events & Marketing
-  - fact: I love rock climbing
-    img_path: /images/uploads/willshapiro-wall-min.jpg
-    name: Will Shapiro
-    person: Barack Obama
-    rule: '#17 bring the fun'
-    song: Day and Night by Kid Cudi
-    team: Development
-  - fact: I made a game while on a train from Chicago to San Francisco
-    img_path: /images/uploads/oliviahornback-wall.jpg
-    name: Olivia Hornback
-    person: Sigourney Weaver
-    rule: '#26'
-    song: ' "You''re welcome" - Jordan Fisher'
-    team: Development
-  - fact: I have 60 second cousins
-    img_path: /images/uploads/maryrose-wall.jpg
-    name: Maryrose Ramsey
-    person: Coach Becky
-    rule: 'Rule #76: no excuses, play like a champion'
-    song: Mr Brightside
-    team: Events & Marketing
-  - fact: I was born on Friday the 13th
-    img_path: /images/uploads/erinrenfro-wall.jpg
-    name: Erin Renfroe
-    person: Jenna Marbles
-    rule: '#1: all rules are meant to be bent or broken'
-    song: The Love Club by Lorde
-    team: Design Team
-  - fact: I am left-handed
-    img_path: /images/uploads/jacobcollins-wall.jpg
-    name: Jacob Collins
-    person: Lionel Messi
-    rule: 'Rule #76: no excuses, play like a champion'
-    song: No hard feelings -The Avett Brothers
-    team: Events & Marketing
+  - img_path: /images/uploads/khalid-_rashad.jpg
+    name: "Khalid Rashad "
+    rule: "Rule #26: don't let stupid things keep you from doing awesome things "
+    song: "7 years - Lukas Graham "
+    person: "My mom "
+    fact: My family is from Egypt
+    team: "Events & Marketing "
+  - img_path: /images/uploads/hannah_eberts.jpg
+    name: Hannah Eberts
+    rule: "Rule #38: whatever you’re saying - stop...you’re about to embarrass
+      yourself"
+    song: Fighting for me - Riley Clemmons
+    person: My parents
+    fact: Obsessed with Perrier sparkling water
+    team: Design
