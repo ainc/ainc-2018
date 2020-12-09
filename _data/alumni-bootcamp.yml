@@ -1,5 +1,101 @@
 items:
   -
+    name: Kennedy Caneer
+    website: https://blog-21d62.web.app/
+    github: https://github.com/kcaneer
+    linkedin: https://linkedin.com/in/kennedy-caneer
+    img_path: kennedy-caneer
+    position: null
+    cohort: f20
+  -
+    name: Austin Carson
+    website: https://AustinC9.github.io
+    github: https://github.com/AustinC9
+    linkedin: https://www.linkedin.com/in/austin-carson/
+    img_path: austin-carson
+    position: null
+    cohort: f20
+  -
+    name: Anthony Davies
+    website: https://Jdavies00.github.io
+    github: https://github.com/Jdavies00
+    linkedin: https://www.linkedin.com/in/jdavies00/
+    img_path: anthony-davies
+    position: null
+    cohort: f20
+  -
+    name: Reese Hudson
+    website: https://dreesehudson.github.io
+    github: https://github.com/dreesehudson
+    linkedin: https://www.linkedin.com/in/dreesehudson/
+    img_path: reese-hudson
+    position: null
+    cohort: f20
+  -
+    name: Rachel Jackson
+    website: https://racheljay.github.io
+    github: https://github.com/racheljay
+    linkedin: https://www.linkedin.com/in/racheljay42/
+    img_path: rachel-jackson
+    position: null
+    cohort: f20
+  -
+    name: Ryan Kelly
+    website: https://Rmke223.github.io
+    github: https://github.com/Rmke223
+    linkedin: https://www.linkedin.com/in/ryankelly17/
+    img_path: ryan-kelly
+    position: null
+    cohort: f20
+  -
+    name: Skyler Kuretza
+    website: https://skylerkk.github.io
+    github: https://github.com/skylerkk
+    linkedin: https://www.linkedin.com/in/skyler-kuretza/
+    img_path: skyler-kuretza
+    position: null
+    cohort: f20
+  -
+    name: Rebecca Mead
+    website: https://rlmead.github.io
+    github: https://github.com/rlmead
+    linkedin: https://www.linkedin.com/in/rebecca-mead-4142621a3/
+    img_path: rebecca-mead
+    position: null
+    cohort: f20
+  -
+    name: Joseph Passafiume
+    website: https://JoePass456.github.io
+    github: https://github.com/JoePass456
+    linkedin: https://www.linkedin.com/in/joe-passafiume/
+    img_path: joseph-passafiume
+    position: null
+    cohort: f20
+  -
+    name: Duncan Scruggs
+    website: https://DuncanBScruggs.github.io
+    github: https://github.com/DuncanBScruggs
+    linkedin: https://www.linkedin.com/in/duncanbscruggs/
+    img_path: duncan-scruggs
+    position: null
+    cohort: f20
+  -
+    name: Chandler Ward
+    website: https://Cward92.github.io
+    github: https://github.com/Cward92
+    linkedin: https://www.linkedin.com/in/chandler-ward-29bb3618a/
+    img_path: chandler-ward
+    position: null
+    cohort: f20
+  -
+    name: Aaron Withers
+    website: https://alwith2.github.io
+    github: https://github.com/alwith2
+    linkedin: https://www.linkedin.com/in/aaron-withers-a4a37494/
+    img_path: aaron-withers
+    position: null
+    cohort: f20
+  -
     name: Denis Gatotho
     website: https://bllloggg.web.app/
     github: https://github.com/denisgat
