@@ -2,7 +2,7 @@ new fullpage('#fullpage', {
 	//options here
     autoScrolling: true,
     navigation: true,
-    anchors: ['section1', 'section2', 'section3', 'section4', 'section5', 'section6', 'section7', 'section8'],
+    anchors: ['section1', 'section2', 'section3', 'section4', 'section5', 'section6', 'section7', 'section8', 'section9', 'section10', 'section11', 'section12', 'section13'],
     controlArrows: false,
     slidesNavigation: true,
     slidesNavPosition: 'bottom',
@@ -43,15 +43,30 @@ new fullpage('#fullpage', {
                 break;
             case 'section8':
                 counterMethod("s8");
-                break;       
+                break;
+            case 'section8':
+                counterMethod("s9");
+                break;
+            case 'section8':
+                counterMethod("s10");
+                break;
+            case 'section8':
+                counterMethod("s11");
+                break;
+            case 'section8':
+                counterMethod("s12");
+                break;
+            case 'section8':
+                counterMethod("s13");
+                break;          
         }
         
         function counterMethod(sectionNum) {
-            $(`.${sectionNum}.counter`).counterUp({
+            $(`.${sectionNum} .counter`).counterUp({
                 delay: 10,
                 time: 2000
             });
-            $(`.${sectionNum}.counter`).addClass('animated fadeInDownBig');
+            $(`.${sectionNum} .counter`).addClass('animated fadeInDownBig');
             $('h3').addClass('animated fadeIn');
         }
     }
