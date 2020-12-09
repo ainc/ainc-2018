@@ -44,19 +44,19 @@ new fullpage('#fullpage', {
             case 'section8':
                 counterMethod("s8");
                 break;
-            case 'section8':
+            case 'section9':
                 counterMethod("s9");
                 break;
-            case 'section8':
+            case 'section10':
                 counterMethod("s10");
                 break;
-            case 'section8':
+            case 'section11':
                 counterMethod("s11");
                 break;
-            case 'section8':
+            case 'section12':
                 counterMethod("s12");
                 break;
-            case 'section8':
+            case 'section13':
                 counterMethod("s13");
                 break;          
         }
