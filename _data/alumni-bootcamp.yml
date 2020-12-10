@@ -9,7 +9,7 @@ items:
     cohort: f20
   -
     name: Austin Carson
-    website: https://AustinC9.github.io
+    website: https://github.com/AustinC9
     github: https://github.com/AustinC9
     linkedin: https://www.linkedin.com/in/austin-carson/
     img_path: austin-carson
@@ -25,7 +25,7 @@ items:
     cohort: f20
   -
     name: Reese Hudson
-    website: https://dreesehudson.github.io
+    website: https://portfolio-hudson.web.app/
     github: https://github.com/dreesehudson
     linkedin: https://www.linkedin.com/in/dreesehudson/
     img_path: reese-hudson
@@ -33,7 +33,7 @@ items:
     cohort: f20
   -
     name: Rachel Jackson
-    website: https://racheljay.github.io
+    website: https://bootcamp-blog-17d2d.web.app/
     github: https://github.com/racheljay
     linkedin: https://www.linkedin.com/in/racheljay42/
     img_path: rachel-jackson
@@ -57,9 +57,9 @@ items:
     cohort: f20
   -
     name: Rebecca Mead
-    website: https://rlmead.github.io
+    website: https://also-and.web.app/
     github: https://github.com/rlmead
-    linkedin: https://www.linkedin.com/in/rebecca-mead-4142621a3/
+    linkedin: https://www.linkedin.com/in/rlmead/
     img_path: rebecca-mead
     position: null
     cohort: f20
@@ -73,7 +73,7 @@ items:
     cohort: f20
   -
     name: Duncan Scruggs
-    website: https://DuncanBScruggs.github.io
+    website: https://blog-73667.web.app/
     github: https://github.com/DuncanBScruggs
     linkedin: https://www.linkedin.com/in/duncanbscruggs/
     img_path: duncan-scruggs
