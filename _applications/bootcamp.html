@@ -2,9 +2,7 @@
 title: Web Developer Bootcamp Application
 layout: application
 course: "/bootcamp/"
-breadcrumb: "/learn/adult/bootcamp/apply"
-next-session: Fall 2019 cohort
-application-deadline: Friday, July 12th, 2019
+breadcrumb: "/learn/adults/bootcamp/apply"
 team: aincu
 redirect_from: 
  - 'applications/bootcamp'
@@ -32,7 +30,7 @@ Zoho Forms Note :
         <br>
         <br>
         {% assign bootcamp = site.courses | where: "course-category", "bootcamp" %}
-        {% for class in bootcamp limit: 1%}
+        {% for class in bootcamp limit: 1 %}
             {% if class.season == "Summer" %}
                 {% capture season_short %}{{ class.season.first | slice: 0,1 }}{{ class.program-begin-date | date: "%Y" | slice: 2,3 }}{% endcapture %}
             {% else %}
