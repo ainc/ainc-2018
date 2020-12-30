@@ -1,7 +1,7 @@
 _site/
 .sass-cache/
 .jekyll-metadata
-Gemfile.lock
+.jekyll-cache/
 .DS_Store
 documentation/
 educationplus_v1.1.0/
