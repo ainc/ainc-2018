@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 3 Habits To Becomming A More Innovative Employee
+title: 3 Habits To Becoming A More Innovative Employee
 date: 2020-10-21T20:23:07.452Z
 header_img: /images/uploads/ainc_stock_photo-58.jpg
 author_img: /images/uploads/unnamed.jpg
