@@ -8,4 +8,6 @@
 
 - [fullPage.js](https://github.com/alvarotrigo/fullPage.js)
 - [Jquery Counter-Up](https://codepen.io/bev_a/pen/YOGQBv)
-- 
+
+### Known Issues
+- side pages overflow the page
