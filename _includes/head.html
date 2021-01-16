@@ -21,7 +21,11 @@
 
 
 <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
+{% if page.canonical %}
+<link rel="canonical" href="{{ page.canonical }}">
+{% else %}
 <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
+{% endif %}
 
 <meta http-equiv="content-type" content="text/html; charset=utf-8" />
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
