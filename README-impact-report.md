@@ -12,3 +12,4 @@
 ### Known Issues
 - side pages overflow the page
 - bootstrap cards spacing in between
+- resize counter up
