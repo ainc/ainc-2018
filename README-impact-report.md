@@ -10,6 +10,6 @@
 - [Jquery Counter-Up](https://codepen.io/bev_a/pen/YOGQBv)
 
 ### Known Issues
-- side pages overflow the page
+- right content overflow the page
 - bootstrap cards spacing in between
 - resize counter up
