@@ -2,6 +2,7 @@
 title: Intro To Web Development
 description: Your First Step in Learning To Code
 image: /images/uploads/intro-to-web-dev.png
+logo: 
 layout: course
 permalink: /intro-to-web-development
 team: aincu

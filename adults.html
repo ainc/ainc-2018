@@ -102,24 +102,24 @@ team: aincu
                 <tbody>
                   <tr>
                     {% assign bootcamp = site.courses | where: "course-category", "bootcamp-old" %}
-                    {% for class in bootcamp limit: 1 %}
-                      <td><a href="{{ site.data.routes.bootcamp }}"><img alt="Web Developer Bootcamp" data-src="/images/logos/aincu-bootcamp-logo.png" class="img-responsive lazyload"></a><br>{{ class.season.first }} {{ class.prework-date | date: "%Y" }}</td>
+                    {% for course in bootcamp limit: 1 %}
+                      <td><a href="{{ site.data.routes.bootcamp }}"><img alt="{{ course.title }}" src="{{ course.logo }}" class="img-responsive"></a><br>{{ course.season.first }} {{ course.prework-date | date: "%Y" }}</td>
                       <td>Full-Time<br>4 weeks remote<br>12 weeks in-person</td>
-                      <td>{{ class.course_topics }}</td>
-                      <td>{{ class.technologies | join: ", " }}</td>
-                      <td>{{ class.program-begin-date | date: "%b %d" }} - {{ class.program-end-date | date: "%b %d" }}<br>{{ class.class_day }}<br>{{ class.time }}</td>
+                      <td>{{ course.course_topics }}</td>
+                      <td>{{ course.technologies | join: ", " }}</td>
+                      <td>{{ course.program-begin-date | date: "%b %d" }} - {{ course.program-end-date | date: "%b %d" }}<br>{{ course.class_day }}<br>{{ course.time }}</td>
                       <td>Career switchers</td>
                       <td><a href="{{ site.data.routes.bootcamp }}" class="btn btn-default center" role="button" disabled>Applications Closed</a></td>
                     {% endfor %}
                   </tr>
                   <tr>
                     {% assign bootcamp = site.courses | where: "course-category", "bootcamp" %}
-                    {% for class in bootcamp limit: 1 %}
-                      <td><a href="{{ site.data.routes.bootcamp }}"><img alt="Web Developer Bootcamp" data-src="/images/logos/aincu-bootcamp-logo.png" class="img-responsive lazyload"></a><br>{{ class.season.first }} {{ class.prework-date | date: "%Y" }}</td>
+                    {% for course in bootcamp limit: 1 %}
+                      <td><a href="{{ site.data.routes.bootcamp }}"><img alt="{{ course.title }}" src="{{ course.logo }}" class="img-responsive"></a><br>{{ course.season.first }} {{ course.prework-date | date: "%Y" }}</td>
                       <td>Full-Time<br>4 weeks remote<br>12 weeks in-person</td>
-                      <td>{{ class.course_topics }}</td>
-                      <td>{{ class.technologies | join: ", " }}</td>
-                      <td>{{ class.program-begin-date | date: "%b %d" }} - {{ class.program-end-date | date: "%b %d" }}<br>{{ class.class_day }}<br>{{ class.time }}</td>
+                      <td>{{ course.course_topics }}</td>
+                      <td>{{ course.technologies | join: ", " }}</td>
+                      <td>{{ course.program-begin-date | date: "%b %d" }} - {{ course.program-end-date | date: "%b %d" }}<br>{{ course.class_day }}<br>{{ course.time }}</td>
                       <td>Career switchers</td>
                       <td><a href="{{ site.data.routes.bootcamp }}" class="btn btn-default center" role="button">Details &amp; Application</a></td>
                     {% endfor %}
@@ -167,22 +167,22 @@ team: aincu
                   </tr>
                 </thead>
                 <tbody>
-                  {% assign intro_classes = site.courses | where: "course-category", "intro" %}
-                  {% for class in intro_classes %}
-                  {% if class.hide != true %}
+                  {% assign intro_courses = site.courses | where: "course-category", "intro" %}
+                  {% for course in intro_courses %}
+                  {% if course.hide != true %}
                   <tr>
-                    <td><a href="{{ site.data.routes.iwd }}">{{ class.title }}</a><br/> <em>{{ class.season.first }} {{ class.program-begin-date | date: "%Y" }}</em></td>
+                    <td><a href="{{ course.url }}">{{ course.title }}</a><br/> <em>{{ course.season.first }} {{ course.program-begin-date | date: "%Y" }}</em></td>
                     <td>Part-Time (evenings)<br>9 Weeks</td>
-                    <td>{{ class.course_topics }}</td>
-                    <td>{{ class.technologies | join: ", " }}</td>
-                    <td>{{ class.program-begin-date | date: "%b %d" }} - {{ class.program-end-date | date: "%b %d" }}<br>{{ class.class_day }}<br>{{ class.time }}</td>
+                    <td>{{ course.course_topics }}</td>
+                    <td>{{ course.technologies | join: ", " }}</td>
+                    <td>{{ course.program-begin-date | date: "%b %d" }} - {{ course.program-end-date | date: "%b %d" }}<br>{{ course.class_day }}<br>{{ course.time }}</td>
                     <td>Anyone new to programming, future Bootcamp students</td>
-                    {% if class.rel_path %}
-                      {% assign url = class.rel_path %}  
+                    {% if course.rel_path %}
+                      {% assign url = course.rel_path %}  
                     {% else %}
-                      {% assign url = "https://www.eventbrite.com/e/" | append: class.eventbrite_eid %}
+                      {% assign url = "https://www.eventbrite.com/e/" | append: course.eventbrite_eid %}
                     {% endif %}
-                    <td><a href="{{ url }}" class="btn btn-default center" role="button">Details & Registration</a></td>
+                    <td><a href="{{ course.url }}" class="btn btn-default center" role="button">Details & Registration</a></td>
                   </tr>
                   {% endif %}
                   {% endfor %}
@@ -204,7 +204,7 @@ team: aincu
           <div class="lgx-heading-area">
             <div class="lgx-heading lgx-heading-red">
               <h2 class="heading-title">
-                <span>Non-coding classes to help you grow your career</span>
+                <span>Non-coding courses to help you grow your career</span>
               </h2>
               <p>Learn a new skill without putting your life on hold</p>
               <svg class="preset-svg" id="straight-line" viewBox="0 0 1 100">
@@ -229,15 +229,25 @@ team: aincu
                   </tr>
                 </thead>
                 <tbody>
+                  {% assign other_courses = site.courses | where: "course-category", "other" %}
+                  {% for course in other_courses %}
+                  {% if course.hide != true %}
+                    {% if course.rel_path %}
+                      {% assign url = course.rel_path %}  
+                    {% else %}
+                      {% assign url = "https://www.eventbrite.com/e/" | append: course.eventbrite_eid %}
+                    {% endif %}
                   <tr>
-                    <td><a href="https://www.eventbrite.com/e/126602745219">Intro To Design</a><br><em>Spring 2021</em></td>
+                    <td><a href="{{ url }}"><img alt="{{ course.title }}" src="{{ course.logo }}" class="img-responsive"></a><br/> <em>{{ course.season.first }} {{ course.program-begin-date | date: "%Y" }}</em></td>
                     <td>Part-Time (evenings)<br>8 Weeks</td>
-                    <td>Design Fundamentals</td>
-                    <td>HTML, CSS, Javascript</td>
-                    <td>Mar 16 - May 6<br>Tue, Thur<br>6:30 - 8:00 PM</td>
-                    <td>Anyone new to programming, future Bootcamp students</td>
-                    <td><a href="https://www.eventbrite.com/e/126602745219" class="btn btn-default center" role="button">Register Now</a></td>
+                    <td>{{ course.course_topics }}</td>
+                    <td>{{ course.technologies | join: ", " }}</td>
+                    <td>{{ course.program-begin-date | date: "%b %d" }} - {{ course.program-end-date | date: "%b %d" }}<br>{{ course.class_day }}<br>{{ course.time }}</td>
+                    <td>Anyone looking to take their design skills up a level</td>
+                    <td><a href="{{ url }}" class="btn btn-default center" role="button">Details & Registration</a></td>
                   </tr>
+                  {% endif %}
+                  {% endfor %}
                 </tbody>
               </table>
             </div><!--//.TABLE RESPONSIVE-->
