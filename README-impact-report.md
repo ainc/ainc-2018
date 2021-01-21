@@ -12,7 +12,7 @@
 - [Bootstrap Cards](https://getbootstrap.com/docs/4.0/components/card/)
 
 ### Known Issues
-- right content overflow the page
+- content overflow the page
 - bootstrap cards spacing in between
 - resize counter up
 - section titles/banners
