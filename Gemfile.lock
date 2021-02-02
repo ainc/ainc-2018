@@ -98,6 +98,7 @@ GEM
     tzinfo (2.0.4)
       concurrent-ruby (~> 1.0)
     unicode-display_width (1.7.0)
+    webrick (1.7.0)
 
 PLATFORMS
   ruby
@@ -110,6 +111,7 @@ DEPENDENCIES
   jekyll-redirect-from
   jekyll-sitemap
   tzinfo
+  webrick
 
 BUNDLED WITH
    1.17.2
