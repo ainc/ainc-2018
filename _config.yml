@@ -21,6 +21,8 @@ include:
   - _redirects
   - _headers
 
+timezone: America/New_York
+
 exclude:
   - package.json
   - README.md
