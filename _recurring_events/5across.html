@@ -156,13 +156,14 @@ next_event_title: 5 Across - February Edition
   <div class="container">
     <div class="row">
       <div class="recent-winner">
-        <p>More from our cool most recent winner</p>
+        <p>Congratulations to the 2020 5 Across Finals Winner</p>
         <div class="box">
           <div class="box-inner">
             <img src="/assets/img/5-across/recent-winner-level-up.jpg" style="object-fit: cover;" />
             <div class="details">
               <h1>Level Up</h1>
               <h2>Kentucky</h2>
+             <h4> <a href="https://www.podchaser.com/podcasts/awesome-inc-805263/episodes/5-across-level-up-your-learnin-82532443" target="_blank">Check them out on our podcast</a> </h4> 
               <div class="youtube">
                 <img src="/images/5Across/5Across_Logo.png" />
               </div>
@@ -172,10 +173,24 @@ next_event_title: 5 Across - February Edition
       </div>
       <div class="revisit">
         <p id="revisit-previous-winner">Or Revisit a Previous Winner</p>
-        <!-- Commenting out until it serves a purpose
-          <select name="years" id="years" onchange="selectChange();">
+        <!-- Script to change winners displayed based on value chosen for year-->
+        <script>
+          function yearCheck(years) {
+            if (years.value == "2020") {
+              document.getElementById("2020months").style.display = "flex";
+              document.getElementById("2019months").style.display = "none";
+            }
+            else if (years.value == "2019") {
+              document.getElementById("2020months").style.display = "none";
+              document.getElementById("2019months").style.display = "flex";
+            }
+          }
+        </script>
+        
+          <select name="years" id="years" onchange="yearCheck(years)">
           <option value="2020">2020</option>
           <option value="2019">2019</option>
+          <!-- Commenting out until it serves a purpose
           <option value="2018">2018</option>
           <option value="2017">2017</option>
           <option value="2016">2016</option>
@@ -185,16 +200,18 @@ next_event_title: 5 Across - February Edition
           <option value="2012">2012</option>
           <option value="2011">2011</option>
           <option value="2010">2010</option>
+          -->
         </select>
-      -->
-        <div class="months" onload="loaded();">
+      
+      <div class="months" onload="loaded();">
+        <div class="months" id = "2020months" style="display: flex;">
           <div class="februaryX month" id="februaryX">
             <div class="box-header">
               <p>February 2020</p>
             </div>
             <div class="box">
               <div class="content">
-                <p>CGN.US</p>
+                <p><a href="https://cgn.us/home/" target="_blank">CGN.US</a></p>
                 <p>Founders:</p>
                 <p class="founder1">Zach Heck</p>
               </div>
@@ -206,7 +223,7 @@ next_event_title: 5 Across - February Edition
               </div>
               <div class="box">
                 <div class="content">
-                  <p>HeXalayer</p>
+                  <p><a href="http://hexalayer.com/" target="_blank">HeXalayer</a></p>
                   <p>Founders:</p>
                   <p class="founder1">Harut Vardanyan</p>
                   <p class="founder2">Tereza Paronyan</p>
@@ -219,7 +236,7 @@ next_event_title: 5 Across - February Edition
                 </div>
                 <div class="box">
                   <div class="content">
-                    <p>Level Up, LLC</p>
+                    <p><a href="http://levelupwithus.com/" target="_blank">Level Up, LLC</a></p>
                     <p>Founders:</p>
                     <p class="founder1">Natalia Bishop</p>
                     <p class="founder2">Hannah Estes</p>
@@ -234,7 +251,7 @@ next_event_title: 5 Across - February Edition
                   </div>
                   <div class="box">
                     <div class="content">
-                      <p>Borderless</p>
+                      <p><a href="http://getborderless.com/" target="_blank">Borderless</a></p>
                       <p>Founders:</p>
                       <p class="founder1">Raffi Kayat + 8 others</p>
                     </div>
@@ -246,7 +263,7 @@ next_event_title: 5 Across - February Edition
                     </div>
                     <div class="box">
                       <div class="content">
-                        <p>Level Up, LLC</p>
+                        <p><a href="http://levelupwithus.com/" target="_blank">Level Up, LLC</a></p>
                         <p>Founders:</p>
                         <p class="founder1">Natalia Bishop</p>
                         <p class="founder2">Hannah Estes</p>
@@ -255,7 +272,9 @@ next_event_title: 5 Across - February Edition
                       </div>
                     </div>
                     </div>
-          <!-- 2019     
+                  </div>
+                 
+      <div class="months" id = "2019months" style="display: none;">     
           <div class="februaryX month" id="februaryX">
             <div class="box-header">
               <p>February 2019</p>
@@ -353,7 +372,6 @@ next_event_title: 5 Across - February Edition
             </div>
           </div>
         </div>
-        -->  
       </div> 
     </div>
   </div>
