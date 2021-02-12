@@ -29,7 +29,7 @@ items:
     github: https://github.com/dreesehudson
     linkedin: https://www.linkedin.com/in/dreesehudson/
     img_path: reese-hudson
-    position: null
+    position: CABEM<br>Technologies
     cohort: f20
   -
     name: Rachel Jackson
@@ -466,7 +466,7 @@ items:
     img_path: erin-wilcox
     linkedin: 'https://www.linkedin.com/in/erin-wilcox-b1842b22/'
     name: Erin Wilcox
-    position: CABEM
+    position: CABEM<br>Technologies
     website: 'https://brookin8.github.io'
   - cohort: s17
     github: 'https://github.com/btatkinson'
