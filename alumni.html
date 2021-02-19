@@ -1,5 +1,5 @@
 ---
-title: Alumni
+title: Bootcamp Alumni
 layout: default
 permalink: "/alumni"
 page_id: alumni
@@ -7,12 +7,15 @@ page_id: alumni
 
 <div class="container">
     <div class="blog-header">
-        <h1 class="blog-title">Alumni</h1>
-        <p class="lead blog-description">Ribbons indicate student's first programming job following <a href="/bootcamp">Bootcamp</a></p>
+        <h1 class="blog-title">{{ page.title }}</h1>
+        <p>The <a href="/bootcamp">Web Developer Bootcamp</a> is a 16-week, intensive training program to help people launch careers in software development. It includes over 500 hours of hands-on training, gaining experience while building 10+ software projects in an Agile environment, using HTML, CSS, JavaScript, PHP, Laravel, React, cloud deployment, GitHub, and more.</p>
+        <p>Bootcamp alumni have been hired by more than 45 employers. Initial job titles have included Software Engineer, Software Developer, Web Developer, Application Developer, QA Engineer, DevOps Analyst, Salesforce Consultant, and UX/UI Designer.</p>
+        <br>
+        <em>Ribbons indicate an alum's first programming job following Bootcamp</em>
     </div>
     <section class="content">
         <div class="title">
-            <h2>Bootcamp Alumni</h2>
+            <h2>Alumni List</h2>
             <ul id="filters" class="hidden-phone">
                 <li><a href="#" data-filter="*">All Cohorts</a></li>
                 <li><a href="#" data-filter=".f20">Fall '20</a></li>
@@ -62,4 +65,5 @@ page_id: alumni
             </div>
         </div>
     </section>
+    {% include bootcamp-employers.html %}
 </div><!-- /.container -->
