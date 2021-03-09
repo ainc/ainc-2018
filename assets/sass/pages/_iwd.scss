@@ -1,0 +1,70 @@
+#iwd {
+
+  #iwd-header {
+    background-image: url('/assets/img/aincu/adults/intro-to-web-hero.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom center;
+    height: 70vh;
+    position: relative;
+    @include screen-tablet-max {
+      background-position: 50% 0;
+      background-size: cover;
+      height: 55vh;
+    }
+    @include screen-xs {
+      background-size: cover;
+      background-position: 50% 0;
+      height: 90vh;
+    }
+    .lgx-heading-area {
+      margin-top: 20vh;
+      @include screen-tablet-max {
+        margin-top: 10vh;
+      }
+      @include screen-xs {
+        margin-top: 5vh;
+      }
+    }
+  }
+
+  #iwd-about {
+    h4 {
+      @include font-size(20);
+      line-height: 5rem;
+      font-weight: 600;
+    }
+  }
+
+  #iwd-upcoming-dates {
+    background-color: $brand-color2;
+  }
+
+  #iwd-why {
+    .lgx-heading {
+      text-align: right;
+    }
+    
+  }
+
+  #iwd-what {
+    background-image: url('/assets/img/aincu/adults/red-wavy-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    // height: 60vh;
+    position: relative;
+    img.absolute-child {
+      width: 50%;
+      left: 25%;
+      right: 25%;
+      top: -15rem;
+    }
+    .lgx-heading-area {
+      margin-top: 20rem;
+      p {
+        color: white;
+      }
+    }
+  }
+}
