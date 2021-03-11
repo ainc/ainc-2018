@@ -59,6 +59,12 @@
       left: 25%;
       right: 25%;
       top: -15rem;
+      @include screen-tablet-max {
+        width: 75%;
+        top: 0;
+        left: 12.5%;
+        right: 12.5%;
+      }
     }
     .lgx-heading-area {
       margin-top: 20rem;
@@ -66,5 +72,90 @@
         color: white;
       }
     }
+  }
+
+  #iwd-curriculum {
+    .lgx-heading-area, .lgx-heading {
+      text-align: left;
+    }
+    .heading-subtitle {
+      color: grey;
+      font-style: italic;
+      @include font-size(14);
+    }
+    ol {
+      color: black;
+      list-style-position: inside;
+      padding-left: 0;
+      li {
+        margin-bottom: 1rem; 
+      }
+      tiny {
+        @include font-size(10);
+        color: grey;
+      }
+    }
+  }
+
+  #iwd-outcomes {
+    background-image: url('/assets/img/aincu/adults/intro-to-web-hero-square.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    // height: 60vh;
+    position: relative;
+  }
+
+  #iwd-tuition-credit {
+    background-color: $brand-color2;
+      .bg-image-container {
+      background-image: url('/assets/img/aincu/adults/bootcamp-badge-outline.png');
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: center center;
+      height: 60vh;
+      position: relative;
+      @include screen-tablet-max {
+        height: 40vh;
+        background-size: 95% 98%;
+      }
+      @include screen-sm {
+        background-image: none;
+        height: auto;
+      }
+      @include screen-xs {
+        background-image: none;
+        height: auto;
+      }
+    }
+    .lgx-heading-area {
+      margin-top: 30rem;
+      margin-left: 10rem;
+      margin-right: 10rem;
+      @include screen-tablet-max {
+        margin-top: 18rem;
+        .heading-title {
+          @include font-size(30);
+        }
+      }
+      @include screen-sm {
+        margin-top: 0;
+        margin-left: 0;
+        margin-right: 0;
+      }
+      @include screen-xs {
+        margin-top: 0;
+        margin-left: 0;
+        margin-right: 0;
+      }
+
+      p {
+        color: white;
+      }
+    }
+  }
+
+  #iwd-register-now {
+    background-color: $brand-color;
   }
 }
