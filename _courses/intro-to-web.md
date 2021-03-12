@@ -25,7 +25,7 @@ time: '6:30 - 8:30 PM'
 age_group: adult
 open: true
 hide: false
-eventbrite_eid: '126149980989'
+eventbrite_eid: '145887945773'
 rel_path: /intro-to-web-development
 ---
 
