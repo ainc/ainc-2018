@@ -1,0 +1,13 @@
+---
+title: Super Sold on Super Soul
+date: 2014-10-16 00:00:00 Z
+layout: post
+---
+ 
+<p></p>
+<p>If you’ve walked into Awesome Inc lately, you have probably seen the Lexitron and played one of its many games. One of the games inside this locally built video arcade machine is Astronaut Kitty Boom Boom created by hometown game developer <a href="http://supersoul.co/" target="_blank">Super Soul</a>. It’s a hectic two-player game that involves launching your cat into space further than your opponent. Trust me, it’s even crazier in person. If Super Soul sounds familiar to you, it’s probably because they just won the August edition of <a href="https://www.youtube.com/watch?v=8aSkoxQx2uc&amp;list=UUvPtPw9SRvpxcEQ0JokANsw" target="_blank">5 Across</a>. I recently had the opportunity to visit Super Soul’s headquarters to meet Richie Hoagland and John Meister, the founders of Super Soul.</p>
+<p><figure data-orig-height="183" data-orig-width="275" data-orig-src="https://66.media.tumblr.com/01d9a2f44b78a35072f52c3505537d73/tumblr_inline_ne4wtljcxn1spm8pc.jpg"><img src="https://66.media.tumblr.com/01d9a2f44b78a35072f52c3505537d73/tumblr_inline_pkb7kqOceW1spm8pc_540.jpg" data-orig-height="183" data-orig-width="275" data-orig-src="https://66.media.tumblr.com/01d9a2f44b78a35072f52c3505537d73/tumblr_inline_ne4wtljcxn1spm8pc.jpg"/></figure></p>
+
+<p>I was greeted by John as I walked up the steps to their building and was led into the studio, where the magic happens. Their studio is nestled inside a former soul music radio station complete with equipment and records from the previous tenants. Computer monitors and the PlayStation dev kit were a stark contrast to the old school artwork on the walls. </p>
+<p>Inside, they were working on their newest game “Speakeasy”, a fighting game featuring prominent Prohibition Era men and women duking it out in a 1920s style environment. I tried my hand in a couple matches of the game. I was matched up against Shea, a Super Soul developer, who had already played hundreds of rounds for bug testing. Somehow, I snuck in a couple wins even as the underdog. </p>
+<p>Super Soul’s knack for creating memorable gaming experiences will help them in the future. In their 5 Across pitch last month, John said they would “build an amusement park at CentrePointe” if Super Soul turns super successful. These big ambitions are exactly what drives Super Soul into becoming another mainstay in Lexington’s burgeoning gaming industry. Look for Super Soul at December’s <a href="http://5across.org" target="_blank">5 Across Championship</a>, competing with fellow promising companies.</p>

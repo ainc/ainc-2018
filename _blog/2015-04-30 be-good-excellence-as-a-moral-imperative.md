@@ -1,0 +1,15 @@
+---
+title: Be Good - Excellence As A Moral Imperative
+date: 2015-04-30 00:00:00 Z
+tags:
+- Awesome
+- awesome inc
+- be good
+- good
+- moral
+- humility
+- excellent
+layout: post
+---
+ 
+<p>My (and Awesome Inc’s) first two core values are #1 Be Good &amp; #2 Be Excellent - in that order.  Obviously, you don’t want someone to be excellent at being a jerk, but this prioritization also sets up excellence in your chosen endeavor as a moral imperative. </p><p>“Be Good” means that you should have, in the forefront of your mind, the benefits of others (tangible &amp; intangible) as your primary aim.  When coming up with our core values at Awesome Inc, we wanted one of them to be humility, or things being “not about us”, but we settled on ‘serve others’&hellip;which became ‘Be Good’.  In the context of Awesome Inc, this means that we deeply care about <a href="http://www.awesomeincu.com/" target="_blank">giving people the tools necessary to create with technology</a>, making it easier for people to <a href="http://fellowship.awesomeinc.org/" target="_blank">grow scalable ideas</a> (read: “businesses”), <a href="http://www.5across.org/" target="_blank">building the startup community in Lexington</a>, and <a href="http://continuousjoy.org/" target="_blank">bringing joy to people through acts of service</a>.  </p><p>In my life as a physician, it means providing each patient with the most accurate diagnosis &amp; up-to-date treatment regimen as well as the maximum amount of empathy &amp; concern for their physical well-being.</p><p>So, if we clearly state that these forms of “Being Good” are our first &amp; highest core value, and we’ve chosen of our own free will the version of “serving others” we feel most called to, then to not “Be Excellent” would be committing one of your biggest self-defined sins.  In the above two examples, it would literally mean you were:</p><p>Awesome Inc:</p><p>- <b>Robbing people</b> of the tools necessary to create with technology</p><p>- <b>Making it harder for people</b> to grow with scalable ideas</p><p>- <b>Shrinking</b> the startup community in Lexington</p><p>- <b>Lessening joy that people experience</b> through poorly executed or non-existent acts of service</p><p>Physician:</p><p>- <b>Less accurate diagnosis</b>, outdated or blatantly <b>incorrect treatment</b></p><p>- <b>Less empathy &amp; concern</b> for my patients’ physical well-being</p><p>Now, you have to choose wisely, or I should say <i>genuinely</i>, because you can’t honestly care about &amp; give yourself to everything.  Every hour volunteered &amp; every dollar donated to one cause is an hour or dollar not given to another.  So if you’ve discovered or decided what you want to give yourself to, it’s okay to let other opportunities to ‘be good’ go.  In fact, you’ll need to that in order to execute on the ones that you do care about.</p><p>If you really believe (as we say we do) that “Be Good” is your first &amp; highest core value, then you shouldn’t compromise on its execution&hellip;actually, you <i>cannot</i> compromise without violating your primary aim.</p><p>That’s why excellence is a moral imperative.</p>

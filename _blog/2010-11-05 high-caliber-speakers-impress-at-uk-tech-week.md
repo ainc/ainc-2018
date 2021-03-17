@@ -1,0 +1,13 @@
+---
+title: High caliber speakers impress at UK Tech Week
+date: 2010-11-05 00:00:00 Z
+layout: post
+---
+ 
+<p><img alt="" border="0" height="120" src="http://cdn.wn.com/ph/img/b4/04/7e2b7b0abec2cce21710a0d122db-grande.jpg" width="180"/></p>
+<p>UK Technology Week 2010 was October 18-22 and it was a great event for Lexington. Local and national speakers contributed to three main events: a talk by Drew Curtis, founder and CEO of <a href="http://fark.com/" target="_blank">Fark.com</a>, the Open 2.0: Transparency and Open Access to Information lecture series, and a mobile application development course, run by Awesome Inc. and APAX Software.</p>
+<p>Organizers Kakie Urch and Konstantin Tovstiadi&rsquo;s goal was to bring together the many departments on campus related to informational technology to put on an event that would give them visibility and form connections with other departments and disciplines. The event was not just for UK faculty and students though.</p>
+<p>Attendee David McGee, a member of <a href="http://openlexington.org/" target="_blank">OpenLexington</a>, was interested in the topics covered in the Open 2.0 series, such as open government and open entrepreneurship. While the specific areas of openness were varied, each is relevant to Lexington, as openness continues to be in public discourse and more people have access to mobile devices.</p>
+<p>One of the speakers was Bambi Francisco, founder and CEO of <a href="http://vator.tv/" target="_blank">Vator.tv</a>, from San Francisco. She said, &ldquo;Tech Week brought together some insightful speakers. It was well worth the trip out.&rdquo;</p>
+<p>Some of the speakers led thought provoking discussions, like Urch and Chase Southard, and others gave advice, like successful entrepreneurs Francisco and Ezra Rozien. There were also many informative lectures to educate the audience about openness, such as Willey answering questions on open source software and Gorman explaining how the human sensor net can be used in disasters like the earthquake in Haiti. Molinaro and Zook&rsquo;s presentations had faculty from library and information science department so that UK can began to implement open libraries and open geography.</p>
+<p>Next year, Urch and Tovstiadi plan to make Tech Week bigger, while keeping the appeal of a smaller audience. The mobile app development class will be followed up by two new courses at UK in Content Management Systems and Mobile App Development. You can read more about Technology Week at UK&rsquo;s<a href="http://uknow.uky.edu/content/technology-week-highlights-information-access" target="_blank">press release</a>.</p>

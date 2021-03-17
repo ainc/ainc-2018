@@ -1,0 +1,11 @@
+---
+title: Vegy Vida Dip Scoops Up Second Place at 5 Across Finals
+date: 2015-01-08 00:00:00 Z
+layout: post
+---
+ 
+<p><a href="http://vegyvida.com/" target="_blank">Vegy Vida</a> was the runner up pitch at the <a href="http://blog.awesomeinc.org/post/105477778996/5-across-finals-recap" target="_blank">2014 5 Across Finals</a>. Produced by Healthy Nation, Vegy Vida is a dip with a bitter-blocking agent to encourage children to eat more vegetables. Here’s what inventor Josh Young had to say about his experience at 5 Across:</p>
+<p>The 5 Across competition is full of energy and the team makes a tense situation fun. From the very first introduction Garrett did a wonderful job of making us feel welcome and educating us on both the competition and resources available at Awesome Inc. Additionally, we were paired with incredible mentors like Rick Hahn and Brian Poe that not only assisted with the competition but also provided invaluable advice for our business.</p>
+<p>The Vegy Vida Team is very thankful for Awesome Inc and the experience with the 5 Across competition! Both provided support and encouragement that were very helpful for our business. We learned from the teams we competed against and feel very privileged to be a part of the strong entrepreneurial community in Kentucky.</p>
+<p>The money we won at 5 Across helped to pay for our new labels so that Vegy Vida can have a strong shelf presence when it launches in 2015! We look forward to growing our business and contributing to Awesome Inc and the Kentucky entrepreneurial community in the future.</p>
+<p><figure class="tmblr-full" data-orig-height="427" data-orig-width="640" data-orig-src="https://lh5.googleusercontent.com/cFt9OpwNN0GzzZFpg-u61X-JG5PUcHdRSi4x1fNfgTNDiO_fYMtmrsIANyNJjE54QoN08lripnwRO6rtetzIU9gozqeKylgkBtg7vZoxUEZ2pZMuRtlYZjUj0Nj7of2adQ"><img height="416px;" src="https://66.media.tumblr.com/08b6f11be519b411acc514c014baec01/tumblr_inline_pjzrrbZtvn1spm8pc_540.png" width="624px;" data-orig-height="427" data-orig-width="640" data-orig-src="https://lh5.googleusercontent.com/cFt9OpwNN0GzzZFpg-u61X-JG5PUcHdRSi4x1fNfgTNDiO_fYMtmrsIANyNJjE54QoN08lripnwRO6rtetzIU9gozqeKylgkBtg7vZoxUEZ2pZMuRtlYZjUj0Nj7of2adQ"/></figure></p>

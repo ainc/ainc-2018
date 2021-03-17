@@ -1,0 +1,23 @@
+---
+title: New Online Control My ADHD Class Through UDEMY
+date: 2013-11-27 00:00:00 Z
+tags:
+- control my adhd
+- udemy
+- class
+layout: post
+---
+ 
+<p>A couple of months ago I took a course to better manage email on a platform called Udemy.com - a way of teaching and buying individual classes - and I loved it! Email management is a terribly<em> dull</em> subject, but the flow was nice, and there were little quizzes and a variety of materials to learn from, so it was actually a great experience. Over the months since that experience, Control My ADHD has partnered with Udemy to offer a course of our own. <strong>Introducing</strong>&hellip;drumroll please&hellip;</p>
+<p><a href="https://www.udemy.com/adhd-mastery-training-turn-symptoms-into-strengths/?" target="_blank">ADHD Mastery Training: Turning ADHD Symptoms into Strengths </a></p>
+<p><a href="https://www.udemy.com/adhd-mastery-training-turn-symptoms-into-strengths/?" target="_blank"><img alt="ADHD Mastery Training" class="aligncenter  wp-image-2173" height="216" src="http://www.controlmyadhd.com/wp-content/uploads/2013/11/114694_0d40_4.jpg" width="384"/></a></p>
+<p>I&rsquo;m <strong>so</strong> pumped about this new course because the system works flawlessly, and it allows us to add a couple of awesome features, such as the ability for students to ask me questions if they get stuck or want to learn more! <strong>This course offers 19 video lessons in 8 modules</strong>, as well as a variety of step-by-step guides and resource lists, creating an ADHD support experience which we hope you will love! <strong>Some specific areas you will learn about:</strong></p>
+<ul><li>Exactly how ADHD works in your brain and in your life and why it&rsquo;s important</li>
+<li>Creating an internal map to help resist impulses and regain some control</li>
+<li>How general wellness correlates with symptoms, and ways to boost health to think better</li>
+<li>Tools and strategies for finally getting organized, prioritizing effectively, and overcoming stress</li>
+<li>Sleep and it&rsquo;s relationship to ADHD, and how to get a great night&rsquo;s sleep</li>
+<li>The <strong>one</strong> exercise that helps with <strong>all</strong> ADHD symptoms</li>
+</ul><p>The course has only been live for about a week, but already the response has been fantastic. <em>The class already has over 550 students, and 28 five-star reviews</em><em>.</em></p>
+<p><a href="https://www.udemy.com/adhd-mastery-training-turn-symptoms-into-strengths/?" target="_blank"><img alt="ADHD Udemy course reivews" class="aligncenter size-full wp-image-2174" height="188" src="http://www.controlmyadhd.com/wp-content/uploads/2013/11/Untitled.jpg" width="374"/></a></p>
+<p>Another reason I&rsquo;m so excited to partner with Udemy is they will enable us to help more people with the ADHD support we offer, which is a huge challenge to overcome. Countless people have ADHD, and the majority have no way of finding out about the <a href="https://www.udemy.com/adhd-mastery-training-turn-symptoms-into-strengths/?" target="_blank">support options</a> that are available. Here&rsquo;s to working towards a future where no one in our ADHD tribe <strong>ever</strong> feels like they have to go it alone. There is so much potential for this class to touch thousands or <em>TENS</em> <em>of thousands</em> people&rsquo;s live. If this is something you think you or a loved one could use, I encourage you to <a href="https://www.udemy.com/adhd-mastery-training-turn-symptoms-into-strengths/?" target="_blank">check it out</a>! It could make all the difference. At the very least, I would love it if you could please click the following links to help us get the word out! Spread the word, and help us touch someone&rsquo;s life with ADHD. <a href="http://www.facebook.com/sharer/sharer.php?s=100&amp;p%5Burl%5D=https://www.udemy.com/adhd-mastery-training-turn-symptoms-into-strengths/?&amp;p%5Bimages%5D%5B0%5D=http://www.controlmyadhd.com/wp-content/uploads/2013/11/114694_0d40_4.jpg&amp;p%5Btitle%5D=Learn%20How%20to%20Turn%20ADHD%20Symptoms%20into%20Strengths!&amp;p%5Bsummary%5D=A%20new%20class%20on%20Udemy,%20brought%20to%20you%20by%20Control%20My%20ADHD,%20teaches%20you%20EVERYTHING%20you%20need%20to%20know%20about%20working%20with%20your%20ADHD%20so%20that%20it%20never%20holds%20you%20back!" target="_blank">Click here to post about this</a> <a href="http://twitter.com/home?status=Just%20found%20out%20about%20this%20new%20awesome%20class%20on%20Udemy%20to%20help%20people%20with%20ADHD%20-%20check%20it%20out!%20http://bit.ly/ADHD-Strengths-Training%20" target="_blank">Click here to tweet about this</a> Thank you so much for your support!</p>

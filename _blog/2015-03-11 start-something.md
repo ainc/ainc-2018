@@ -1,0 +1,7 @@
+---
+title: Start Something...
+date: 2015-03-11 00:00:00 Z
+layout: post
+---
+ 
+<p>&hellip;NOW! My partner, Tj Barnett, and I recently competed in the UK Venture Challenge with our startup, FinanceU. Before the competition, I was talking to one of the contestants and was asked the question, “So are you a senior or an MBA student?” I laughed and with excitement answered, “I am a freshman!” Jokingly, the contestant replied, “Well, you have to start somewhere.”<b><br/></b></p><p>Though I am only a freshman, the Venture Challenge made me realize that the best time to start my company, FinanceU, is RIGHT NOW! With $1.2 trillion in outstanding student-related debt in the U.S., there are too many deserving students without sufficient scholarship opportunities. FinanceU is an innovative, community-based platform that empowers any student to build his or her own scholarship through the process of crowdfunding. </p><p>The FinanceU team placed third in the Venture Challenge, taking home a $500 prize and a chance to compete in the Idea State U regional tournament. I was honored to compete with such talented, passionate entrepreneurs who all had great ideas. </p><p>The FinanceU team is extremely excited and eager to launch our site for all students in the Fall of 2015. Visit <a href="http://www.financeu.org" target="_blank">www.financeu.org</a> to learn more and join the FinanceU community NOW!</p><p><b>Michael Lewis, FinanceU CEO</b><br/></p>

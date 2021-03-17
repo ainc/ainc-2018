@@ -36,7 +36,7 @@ redirect_from:
             </figure>
             <div class="text-area">
               <h3 class="title"><a href="{{ post.url }}">{{ post.title | truncate: 70 }}</a></h3>
-              <p class="text">{% if post.description %}{{ post.description | truncate: 100, "..." }}{% else %}{{ post.content | truncate: 100, "..." }}{% endif %}</p>
+              <p class="text">{% if post.description %}{{ post.description | truncate: 100, "..." }}{% endif %}</p>
               <div class="hits-area">
                 <span class="date"></span>
               </div>

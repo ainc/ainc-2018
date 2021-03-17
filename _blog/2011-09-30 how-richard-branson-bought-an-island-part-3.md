@@ -1,0 +1,26 @@
+---
+title: How Richard Branson bought an island - part 3
+date: 2011-09-30 00:00:00 Z
+layout: post
+---
+ 
+<p><strong>Part 3 – Confidence – Delivering Big</strong></p>
+<p>This is a continuation from <a href="http://awesomeinc.org/Blog/how-richard-branson-bought-an-island-part-2" target="_blank">part 2</a>.</p>
+<p><strong>Richard&rsquo;s story</strong></p>
+<p>Richard Branson is attempting to purchase an island and he has chosen to start his bidding at $100,000 for one with a sticker price of $5,000,000. Needless to say, the seller (Lord Cobham) didn&rsquo;t bite at the offer right away. He actually evicted him from the island.</p>
+<p>A few months go by and Richard is looking everywhere for the money necessary to make this purchase&hellip;all the while slowly upping his bid so as not to completely lose the understandably upset Lord Cobham. As luck would have it, Lord Cobham was in desperate need of short term capital. He finally made Richard an offer of $180,000 and the deal was done, or rather, begun.</p>
+<p>According to government law at the time, alien landholders were required to build a resort on newly purchased islands or the state would take back ownership. At this point Richard was now looking at millions of dollars (it ended up being $10,000,000) and multiple years (it ended up being five) of his life to actually make his dream a reality. But he did, and to this day it has provided him and his guests with all the joy and good times he hoped it would when he purchased it back when he was just 28 years old.</p>
+<p><strong>Lesson #3</strong>: &rsquo;<a href="http://awesomeinc.org/Blog/how-richard-branson-bought-an-island-part-2" target="_blank">Asking big</a>&rsquo; is easy. Delivering once they say &lsquo;yes&rsquo; is the real challenge. This takes confidence.</p>
+<p><strong>My story: Awesome Inc - 'Asking Big&rsquo; and Ending Up Homeless</strong></p>
+<p>In January of 2009, my best friend and I wanted to start a business incubator called Awesome Inc. It would be a place where people with dreams of starting a business could make them a reality, where the most creative people would be embraced to do what they love, and where brilliant technologists could solve problems and make things that would change the world. We knew much of what we were selling was just an &ldquo;image&rdquo; of start-ups, creativity, and technology, but we believed in that energy, we knew we needed a space that would reflect it.</p>
+<p>We found a spot in downtown Lexington, Kentucky, right on Main St. It was huge and much more expensive than we could afford. But, like Richard Branson, we put ourselves in the right place, made a phone call to the landlord and asked for a rate that was far less than he wanted, but still barely out of our price range. He said yes. I still remember jumping around on our dance floor (yes, there is a dance floor in our business incubator) celebrating the success of our 'big ask&rsquo;.</p>
+<p>But that was a year and a half ago. Since getting a 'yes&rsquo; from our landlord our rent has slowly climbed. I have also had to take a year off from medical school (I was a full time student when we started) and did so poorly while I was there that I am now retaking a year of classes.</p>
+<p>I&rsquo;ve slept in our garage and showered at the local gym for almost an entire year in order to keep personal and business expenses low. My best friend and I have poured our life savings and more into making this work - and according to the accounting system (which I just checked) we have about three months to live if our tenants stop paying us. We have yet to pay ourselves one dollar.</p>
+<p>This endeavour could completely fold in a matter of weeks - just like the Facebook deal could have ended up not getting us a keynote speaker for our conference series, or walking away from Samsung could have not lead to my friend getting a deal with Ford, or spending only nine million dollars in five years could have resulted in Richard losing his island, his money and his time.</p>
+<p><strong>What Do Richard&rsquo;s &amp; My Story Teach Us?</strong></p>
+<p>When you ask big, remember that you often end up with scary situations like this.</p>
+<p>This last lesson is the one we talk about the least. Actually, I&rsquo;ve never heard anyone say it (and I read a lot of business blogs and magazines). Everyone will tell you not to be afraid of getting told no, putting yourself out there, etc. but I&rsquo;ve yet to hear anyone talk of the very real fear that will inevitable arise when you 'ask big&rsquo; and the person says yes.</p>
+<p>Flying to the Caribbean islands takes commitment.</p>
+<p>Telling a &ldquo;Lord&rdquo; that you, a young 28 year old, want a 98% discount takes courage.</p>
+<p>But actually closing the deal and agreeing to dump $10,000,000 into the project when you barely have enough money to even close on the property itself takes much confidence in yourself and your dream.</p>
+<p>So if you want huge entrepreneurial success, you have to 'ask big&rsquo;. Put yourself in the right place make, ask that you believe in and be ready to face the real challenge and the real fear that will inevitably come when the person on the other end says &ldquo;yes&rdquo;.</p>

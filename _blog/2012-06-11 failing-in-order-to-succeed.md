@@ -1,0 +1,20 @@
+---
+title: Failing (in order) to Succeed
+date: 2012-06-11 00:00:00 Z
+layout: post
+---
+ 
+<p>I hate losing. I hate it. I hate losing more than I love winning.</p>
+<p>I think I know how <a href="http://en.wikiquote.org/wiki/Moneyball_(film)" target="_blank">Billy Beane</a> felt when he said that as he tried to change the game of baseball with math theory and new school &ldquo;<a href="http://en.wikipedia.org/wiki/Sabermetrics" target="_blank">sabermetrics</a>&rdquo;.</p>
+<p>If you are one of the 3 people that read my personal blog, then you know that earlier this year <a href="http://takeitupalevel.com/2012/01/09/105/" target="_blank">I wrote about my top 6 goals for 2012</a>. One of them was to win state cup. Today, my soccer team lost in the semi finals of state cup 3-2. We were the better team. We controlled game, out shot our opponent 20-6. We actually played one of the best games we&rsquo;d played all season. We had beat this team in a friendly match 3-0 last season, but anyone that follows soccer knows that the better team doesn&rsquo;t always win. In soccer, more than any other sport, a team can control and dominate a game, but still walk away with a loss.</p>
+<p>When you lose, I think it&rsquo;s natural that the first thing for you to do is to come up with reasons &ldquo;why&rdquo; it went wrong. Even as I write this post I can&rsquo;t help but to come up with a list of things we could or should have done differently. We should have man marked the kid that scored all 3 of their goals. We should played an easier schedule leading up to state cup. If we only would have finished on our opportunities. If only we wouldn&rsquo;t have lost 2 of our key players this season.</p>
+<p>I don&rsquo;t think making this list is a bad thing, I just think you need to come up with action items and lessons learned.</p>
+<p>At Awesome Inc we have a board in the break room called the failure dashboard. It&rsquo;s includes a collection of all the major failures that we (and our tenant companies) experience. The purpose of the failure dashboard is to encourage people to go big and be ok with failure. We want people to be ok with failure, because it often leads to massive successes.</p>
+<p>I love sports because they teach you life lessons. Lessons that can be translated into school, work, and running your own business. Losing is no exception. Sports teach you lessons like - to be a winner you have to experience failure and adversity along the way. You only hear about the success stories of an athlete, but the truth is they failed a lot along the way. Winners get back up after getting knocked down.</p>
+<p>Just read this quote from Michael Jordan:</p>
+<p>&ldquo;I&rsquo;ve missed more than 9000 shots in my career. I&rsquo;ve lost almost 300 games. 26 times, I&rsquo;ve been trusted to take the game winning shot and missed. I&rsquo;ve failed over and over and over again in my life. And that is why I succeed.&rdquo;</p>
+<p>After our loss today, I told the team two things:</p>
+<p>1. I&rsquo;m proud of them for working hard this season and doing everything they needed to do to prepare themselves to win a state cup.</p>
+<p>2. Not hitting your goals feels sucky&hellip;but remember that feeling and use it as motivation to work even harder in the future. Work so hard that you&rsquo;ll never have to experience this feeling again.</p>
+<p>I think that&rsquo;s what truly separates winners from losers. It&rsquo;s not decided by one match, one day on the job, one school test, or any single event. It&rsquo;s decided by what happens after you fail. Everyone ends up with something on the failure dashboard. The sign of a genuine winner though is their ability to learn from that failure and use it as motivation to win next time. A lot of the time you have to fail first in order to succeed.</p>
+<p>This sucky feeling I have right now probably isn&rsquo;t going to go away anytime soon. But that&rsquo;s ok. I&rsquo;ll be using it to prepare even better for next time. And whoever that opponent is next time&hellip;I&rsquo;ll save them a spot on the failure dashboard.</p>
