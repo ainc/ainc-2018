@@ -16,7 +16,7 @@ team: aincu
 
 {% include woc-buttons-sponsorship.html %}
 
-## 2020 Summer Camps
+## 2021 Summer Camps
 ### Ages: 9-16 | Beginner - Intermediate 
 *No experience required*
 <hr>
