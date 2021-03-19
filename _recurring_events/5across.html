@@ -13,9 +13,9 @@ redirect_from:
   - 'events/5-acrossnew'
 subtitle: A Pitch Competition for Kentucky Entrepreneurs
 logo_path: '/images/5Across/5Across_Logo.png' 
-next_event_date: May 26, 2021
-next_event_location: "Location: Lexington Legends Whitaker Bank Ballpark"
-next_event_title: 5 Across - May Edition
+next_event_date: February 24, 2021
+next_event_location: "Location: TBA"
+next_event_title: 5 Across - February Edition
 ---
 
 <!--
@@ -44,7 +44,7 @@ next_event_title: 5 Across - May Edition
               <h2 class="title lgx-zoomIn-one heading-title">A Pitch Competition for Kentucky Entrepreneurs</h2>
             </div>
             <div class="buttons">
-              <button type="button" class="lgx-btn lgx-btn-grey" id="applyButton" onclick="location.href='https:\/\/forms.zohopublic.com/virtualoffice9155/form/5AcrossApplication1/formperma/i3hM2QiFcJG1DM_nCW8jQvMplp5UUFgRbKc5Ev8kuiA'">Apply to Pitch</button>
+              <button type="button" class="lgx-btn lgx-btn-grey" id="applyButton" onclick="location.href='http:\/\/www.docs.google.com/spreadsheet/embeddedform?formkey=dF9KeS1iZ1ZETjFKazlBN1U2emlId0E6MA'">Apply to Pitch</button>
               <button type="button" class="lgx-btn lgx-btn-grey" role="button" aria-disabled="true" id="registerButton" onclick="location.href='http:\/\/www.eventbrite.com/e/{{ next_event.first.eventbrite_id }}'">Register to Attend</button>
             </div>
           </div>
@@ -80,7 +80,7 @@ next_event_title: 5 Across - May Edition
   <div class="row">
     <div class="col-md-6 col-md-offset-3">
       <div class="buttons">
-        <button type="button" class="lgx-btn lgx-btn-grey" id="applyButton" onclick="location.href='https:\/\/forms.zohopublic.com/virtualoffice9155/form/5AcrossApplication1/formperma/i3hM2QiFcJG1DM_nCW8jQvMplp5UUFgRbKc5Ev8kuiA'">Apply to Pitch</button>
+        <button type="button" class="lgx-btn lgx-btn-grey" id="applyButton" onclick="location.href='http:\/\/www.docs.google.com/spreadsheet/embeddedform?formkey=dF9KeS1iZ1ZETjFKazlBN1U2emlId0E6MA'">Apply to Pitch</button>
         <button type="button" class="lgx-btn lgx-btn-grey" role="button" aria-disabled="true" id="registerButton" onclick="location.href='http:\/\/www.eventbrite.com/e/{{ next_event.first.eventbrite_id }}'">Register to Attend</button>
       </div>
     </div> <!-- col -->
@@ -156,14 +156,13 @@ next_event_title: 5 Across - May Edition
   <div class="container">
     <div class="row">
       <div class="recent-winner">
-        <p>Congratulations to the 2020 5Across Finals Winner</p>
+        <p>More from our most recent winner</p>
         <div class="box">
           <div class="box-inner">
             <img src="/assets/img/5-across/recent-winner-level-up.jpg" style="object-fit: cover;" />
             <div class="details">
               <h1>Level Up</h1>
               <h2>Kentucky</h2>
-             <h4> <a href="https://www.podchaser.com/podcasts/awesome-inc-805263/episodes/5-across-level-up-your-learnin-82532443" target="_blank">Hear from Natalia Bishop on the Awesome Inc podcast</a> </h4> 
               <div class="youtube">
                 <img src="/images/5Across/5Across_Logo.png" />
               </div>
@@ -173,24 +172,9 @@ next_event_title: 5 Across - May Edition
       </div>
       <div class="revisit">
         <p id="revisit-previous-winner">Or Revisit a Previous Winner</p>
-        <!-- Script to change winners displayed based on value chosen for year-->
-        <script>
-          function yearCheck(years) {
-            if (years.value == "2020") {
-              document.getElementById("2020months").style.display = "flex";
-              document.getElementById("2019months").style.display = "none";
-            }
-            else if (years.value == "2019") {
-              document.getElementById("2020months").style.display = "none";
-              document.getElementById("2019months").style.display = "flex";
-            }
-          }
-        </script>
-        
-          <select name="years" id="years" onchange="yearCheck(years)">
+        <select name="years" id="years" onchange="selectChange();">
           <option value="2020">2020</option>
           <option value="2019">2019</option>
-          <!-- Commenting out until it serves a purpose
           <option value="2018">2018</option>
           <option value="2017">2017</option>
           <option value="2016">2016</option>
@@ -200,100 +184,25 @@ next_event_title: 5 Across - May Edition
           <option value="2012">2012</option>
           <option value="2011">2011</option>
           <option value="2010">2010</option>
-          -->
         </select>
-      
-      <div class="months" onload="loaded();">
-        <div class="months" id = "2020months" style="display: flex;">
-          <div class="februaryX month" id="februaryX">
+        <div class="months" onload="loaded();">
+          <div class="event1 month" id="event1">
             <div class="box-header">
-              <p>February 2020</p>
+              <p></p>
             </div>
             <div class="box">
               <div class="content">
-                <p><a href="https://cgn.us/home/" target="_blank">CGN.US</a></p>
-                <p>Founders:</p>
-                <p class="founder1">Zach Heck</p>
-              </div>
-            </div>
-            </div>
-            <div class="julyX month" id="julyX">
-              <div class="box-header">
-                <p>July 2020</p>
-              </div>
-              <div class="box">
-                <div class="content">
-                  <p><a href="https://hexalayer.com/" target="_blank">HeXalayer</a></p>
-                  <p>Founders:</p>
-                  <p class="founder1">Harut Vardanyan</p>
-                  <p class="founder2">Tereza Paronyan</p>
-                </div>
-              </div>
-              </div>
-              <div class="augustX month" id="augustX">
-                <div class="box-header">
-                  <p>August 2020</p>
-                </div>
-                <div class="box">
-                  <div class="content">
-                    <p><a href="https://levelupwithus.com/" target="_blank">Level Up, LLC</a></p>
-                    <p>Founders:</p>
-                    <p class="founder1">Natalia Bishop</p>
-                    <p class="founder2">Hannah Estes</p>
-                    <p class="founder3">Erica Sartini-Combs</p>
-                    <p class="founder4">Maria Serrano</p>
-                  </div>
-                </div>
-                </div>
-                <div class="octoberX month" id="octoberX">
-                  <div class="box-header">
-                    <p>October 2020</p>
-                  </div>
-                  <div class="box">
-                    <div class="content">
-                      <p><a href="https://getborderless.com/" target="_blank">Borderless</a></p>
-                      <p>Founders:</p>
-                      <p class="founder1">Raffi Kayat + 8 others</p>
-                    </div>
-                  </div>
-                  </div>
-                  <div class="decemberX month" id="decemberX">
-                    <div class="box-header">
-                      <p>Finals 2020</p>
-                    </div>
-                    <div class="box">
-                      <div class="content">
-                        <p><a href="https://levelupwithus.com/" target="_blank">Level Up, LLC</a></p>
-                        <p>Founders:</p>
-                        <p class="founder1">Natalia Bishop</p>
-                        <p class="founder2">Hannah Estes</p>
-                        <p class="founder3">Erica Sartini-Combs</p>
-                        <p class="founder4">Maria Serrano</p>
-                      </div>
-                    </div>
-                    </div>
-                  </div>
-                 
-      <div class="months" id = "2019months" style="display: none;">     
-          <div class="februaryX month" id="februaryX">
-            <div class="box-header">
-              <p>February 2019</p>
-            </div>
-            <div class="box">
-              <div class="content">
-                <p>Kare Mobile</p>
-                <p>Founders:</p>
+                <p></p>
+                <p></p>
                 <p class="founder1">Kwane Watson</p>
                 <p class="founder2"></p>
               </div>
             </div>
-            <!--
             <div class="box-footer">
               <button class="lgx-btn video-url">Watch Video</button>
             </div>
-          -->
           </div>
-          <div class="aprilX month" id="aprilX">
+          <div class="event2 month" id="event2">
             <div class="box-header">
               <p>April 2019</p>
             </div>
@@ -305,13 +214,11 @@ next_event_title: 5 Across - May Edition
                 <p class="founder2"></p>
               </div>
             </div>
-            <!--
             <div class="box-footer">
-              <button class="lgx-btn video-url" onclick="location.href='#'">Watch Video</button>
+              <button class="lgx-btn video-url">Watch Video</button>
             </div>
-          -->
           </div>
-          <div class="juneX month" id="juneX">
+          <div class="event3 month" id="event3">
             <div class="box-header">
               <p>June 2019</p>
             </div>
@@ -323,13 +230,11 @@ next_event_title: 5 Across - May Edition
                 <p class="founder2">Rebekah Gossom</p>
               </div>
             </div>
-            <!--
             <div class="box-footer">
               <button class="lgx-btn video-url">Watch Video</button>
             </div>
-          -->
           </div>
-          <div class="augustX month" id="augustX">
+          <div class="event4 month" id="event4">
             <div class="box-header">
               <p>August 2019</p>
             </div>
@@ -337,17 +242,15 @@ next_event_title: 5 Across - May Edition
               <div class="content">
                 <p>Life Ready Schools</p>
                 <p>Founders:</p>
-                <p class="founder1">Joshua Wilson</p>
-                <p class="founder2">Ryan McQuerry</p>
+                <p class="founder1">Founder Name</p>
+                <p class="founder2">Founder Name</p>
               </div>
             </div>
-            <!--
             <div class="box-footer">
               <button class="lgx-btn video-url">Watch Video</button>
             </div>
-          -->
           </div>
-          <div class="octoberX month" id="octoberX">
+          <div class="event5 month" id="event5">
             <div class="box-header">
               <p>October 2019</p>
             </div>
@@ -359,13 +262,11 @@ next_event_title: 5 Across - May Edition
                 <p class="founder2"></p>
               </div>
             </div>
-            <!--
             <div class="box-footer">
               <button class="lgx-btn video-url">Watch Video</button>
             </div>
           </div>
-        -->
-          <div class="finalsX month" id="finalsX">
+          <div class="event6 month" id="event6">
             <div class="box-header">
               <p>Finals 2019</p>
             </div>
@@ -377,14 +278,12 @@ next_event_title: 5 Across - May Edition
                 <p class="founder2"></p>
               </div>
             </div>
-            <!--
             <div class="box-footer">
               <button class="lgx-btn video-url">Watch Video</button>
             </div>
-          -->
           </div>
         </div>
-      </div> 
+      </div> -->
     </div>
   </div>
 </section>
