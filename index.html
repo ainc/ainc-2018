@@ -685,12 +685,18 @@ page_id: home
       </div><!-- //.CONTAINER -->
       {% include modal-form.html style='dotted' initiative='newsletter' link-text='Sign up'%}
       <div class="lgx-heading lgx-heading-white">
-        <div class="lgx-subscription">
-        <iframe
-            style="height:400px;width:800px;"
+        <style>
+          #podframe {
+            width: 75%;
+            height: 250px;
+          }
+        </style>
+
+          <iframe
             src="https://anchor.fm/awesomeinc"
-        ></iframe>
-        </div>
+            id="podframe"
+          ></iframe>
+        
         <h3 class="subtitle"style="color:white">
           Also check out our Podcast</h3>
       </div>
