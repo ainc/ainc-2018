@@ -5,7 +5,7 @@ items:
     github: https://github.com/kcaneer
     linkedin: https://linkedin.com/in/kennedy-caneer
     img_path: kennedy-caneer
-    position: null
+    position: Silver Fern<br>Group
     cohort: f20
   -
     name: Austin Carson
@@ -13,7 +13,7 @@ items:
     github: https://github.com/AustinC9
     linkedin: https://www.linkedin.com/in/austin-carson/
     img_path: austin-carson
-    position: null
+    position: Mediaura
     cohort: f20
   -
     name: Anthony Davies
@@ -45,7 +45,7 @@ items:
     github: https://github.com/Rmke223
     linkedin: https://www.linkedin.com/in/ryankelly17/
     img_path: ryan-kelly
-    position: null
+    position: BlueFrame
     cohort: f20
   -
     name: Skyler Kuretza
@@ -93,7 +93,7 @@ items:
     github: https://github.com/alwith2
     linkedin: https://www.linkedin.com/in/aaron-withers-a4a37494/
     img_path: aaron-withers
-    position: null
+    position: Delivery<br>Co-op
     cohort: f20
   -
     name: Denis Gatotho
