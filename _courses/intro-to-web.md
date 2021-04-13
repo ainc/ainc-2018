@@ -19,8 +19,8 @@ season:
   - Spring
 application-date: 2020-06-15T21:30:04.530Z
 prework-date: ''
-program-begin-date: 2021-02-15
-program-end-date: 2021-04-14
+program-begin-date: 2021-06-14
+program-end-date: 2021-08-11
 time: '6:30 - 8:30 PM'
 age_group: adult
 open: true
