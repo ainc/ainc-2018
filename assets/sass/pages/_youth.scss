@@ -2,7 +2,7 @@
 
   #header {
     background-image: url('/assets/img/aincu/youth/youth-header.png');
-    height: 50vh;
+    height: 80vh;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -10,22 +10,47 @@
       background-position: 55%;
     }
     .lgx-heading-area {
-      margin-top: 25vh;
+      margin-top:20vh;
       .lgx-heading {
         text-align: left;
       }
     }
+    .heading-title {
+      @include font-size(48);
+      margin-left:15px;
+    }
+    .heading-subtitle{
+      @include font-size(24);
+      font-style: italic;
+      font-weight: 200;
+      margin-left:15px;
+    }
+    h4{
+      @include font-size(16);
+      font-weight: 300;
+      color: white;
+    }
     #phone-image {
       img {
         max-height: 550px;
+        margin-top: 26vh;
+        margin-left: 25vh;
       }
-      margin-top: 5vh;
     }
   }
 
   #why-code {
-    .heading-subtitle {
-      @include font-size(24);
+    .lgx-heading {
+      text-align: left;
+      margin-bottom: -1rem;
+    }
+    .heading-title {
+      @include font-size(30);
+      margin-top: 15rem;
+    }
+    p {
+      @include font-size(18);
+      font-weight: 500;
     }
     // margin-top: -8vh;
     @include screen-xs {
@@ -40,8 +65,21 @@
   }
 
   #coding-is-fun {
-    h5 {
-      margin-top: 2.5rem;
+    .lgx-heading {
+      text-align: left;
+      margin-bottom: -1rem;
+      margin-top: 5rem;
+    }
+    p {
+      @include font-size(18);
+      font-weight: 500;
+      margin-bottom: 2.5rem;
+    }
+    .row{
+      margin-top:15rem;
+    }
+    .heading-title {
+      @include font-size(30);
     }
   }
   #coding-adventure {
@@ -58,14 +96,25 @@
   }
   #engaged-creative {
       background-image: url('/assets/img/aincu/youth/youth-engaged-bg.png');
-      background-size: 100% 60vh;
-      background-position: center 10%;
+      background-size: 100% 90vh;
+      background-position: center 15%;
       background-repeat: no-repeat;
       @include screen-tablet-max {
         background-size: 100% 40vh;
       }
       @include screen-xs {
         background-size: 150% 75vh;
+      }
+      .lgx-heading {
+        text-align: left;
+        margin-bottom: -1rem;
+      }
+      .heading-title {
+        @include font-size(30);
+      }
+      p {
+        @include font-size(18);
+        font-weight: 500;
       }
     
     #kids-engaged {
@@ -84,12 +133,26 @@
     background-size: 100% 10vh;
     background-repeat: no-repeat;
     background-position: center bottom;
+    .lgx-heading {
+      text-align: left;
+      margin-bottom: 5px;
+    }
+    .heading-title {
+      @include font-size(30);
+      
+    }
+    li {
+      @include font-size(18);
+      font-weight: 500;
+      margin-left: -2rem;
+    }
     ul {
       margin-bottom: 2.5rem;
     }
-    #coding-adventure {
+    #coding-creative {
       margin-top: 10rem;
     }
+
     #coding-adventure-image {
       @include screen-tablet-max {
         margin-top: 10rem;
@@ -98,18 +161,54 @@
 
   }
 
-  #coding-for-everyone {
-    background-image: url('/assets/img/aincu/youth/everyone.png');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center top;
-    @include screen-xs {
-      background-position: 25%;
-      h5, p {
-        color: white;
+  #youth-testimonials {
+    background-image: url('/assets/img/aincu/youth/Youth_Testimonials.png');
+    .testimonial {
+      margin-left: -4rem;
+      blockquote {
+        @include font-size(18);
+        text-align: center;
+        color:black;
+        padding: 5rem 8rem;
+        margin: 2rem;
+        border-left: $brand-color solid 2px;
+        border-right: $brand-color solid 2px;
+        height: 200px;
+        &:after, &:before {
+          display: none;
+        }
+        @include screen-xs {
+          padding: 2rem 4rem;
+        }
       }
+
     }
-    display: none;
+  }
+
+  #schedule {
+    background-image: url('/assets/img/aincu/youth/Youth_schedule_background.png');
+    .lgx-heading {
+      text-align: left;
+      margin-bottom: -1rem;
+    }
+    .heading-title {
+      @include font-size(30);
+      margin-top: 5rem;
+    }
+    p {
+      @include font-size(18);
+      font-weight: 500;
+    }
+    // margin-top: -8vh;
+    @include screen-xs {
+      margin-top: 0;
+    }
+    @include screen-sm {
+      margin-top: 0;
+    }
+    @include screen-md {
+      margin-top: 0;
+    }
   }
 
   #camps {
@@ -119,7 +218,7 @@
     ul {
       margin-bottom: 2.5rem;
     }
-    display: none;
+    
   }
   .heading-subtitle h5 {
     @include font-size(26);
@@ -135,6 +234,16 @@
   #club-modal-faq {
     .card-header h5 {
       color: white;
+    }
+  }
+  #join {
+    background-image: url('/assets/img/aincu/youth/Youth_Membership_BG.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    .heading-title{
+      color:white;
+      margin-bottom: -4rem;
     }
   }
 }
