@@ -115,7 +115,7 @@ In addition to programming time inside, campers will interact with our upbeat te
     window.EBWidgets.createWidget({
         // Required
         widgetType: 'checkout',
-        eventId: '96754263607',
+        eventId: '145934557189',
         iframeContainerId: 'eventbrite-widget-container',
 
         // Optional
