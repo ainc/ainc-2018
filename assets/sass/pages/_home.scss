@@ -307,3 +307,20 @@
     }
   }
 }
+
+#lgx-podcast{
+  h2{
+    @include font-size(46);
+    font-weight: 600
+  }
+  h3{
+    margin-top:5rem;
+    @include font-size(30);
+    font-weight: 600
+  }
+  h4{
+    color: #337ab7;
+    @include font-size(30);
+    font-weight: 600
+  }
+}
