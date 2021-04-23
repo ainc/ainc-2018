@@ -25,13 +25,13 @@ function selectChange() {
     Object.values(events).forEach((val, ind) => {
         val.children[0].children[0].innerHTML = `${obj.years[value][Object.keys(events)[ind]].month} ${value}`;
         const info = val.children[1].children[0];
+        info.closest(".month").style.display = "block";
         if (obj.years[value][Object.keys(events)[ind]].winner != "") {
             info.children[0].innerHTML = obj.years[value][Object.keys(events)[ind]].winner;
         }
         else {
-            info.children[0].innerHTML = "No Event";
-            info.children[1].innerHTML = "";
-            console.log(val.children[2].innerHTML);
+            info.closest(".month").style.display = "none";
+            console.log(document.getElementById(Object.keys(events)[ind]));
         }
 
         info.children[2].innerHTML = obj.years[value][Object.keys(events)[ind]].founder || "";
