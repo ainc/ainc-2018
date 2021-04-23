@@ -389,8 +389,8 @@ page_id: venturelabs
           <div class="form-group">
             <!-- Change or deletion of the name attributes in the input tag will lead to empty values on record submission-->
             <form
-              action="https://forms.zohopublic.com/virtualoffice9155/form/EmailSignatureContactForm/formperma/CFaunqNfMFTd-d2HSohJgZK-cgZ4jjssvvqFZL3lP58/htmlRecords/submit"
-              name="form"
+              onsubmit="validateForm(this);"
+              name="vl-form"
               id="form"
               class="validate"
               method="POST"
@@ -464,7 +464,7 @@ page_id: venturelabs
                 fieldType="1"
               />
               <br>
-              <div class="g-recaptcha" data-sitekey="6LdjLLIaAAAAAChfH9dbZ6y80LcBU2d4vCjpUGno"></div>
+              <label for="honeypot">Honeypot </label><input id="honeypot" name="honeypot" size="40" type="text" /><br>
               <div>
                 <button type="submit" class="lgx-btn lgx-btn-font-light lgx-btn-corners">
                   Stay Connected
