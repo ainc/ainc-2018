@@ -3,7 +3,7 @@ layout: post
 title: How to stop letting overthinking ruin your creativity.
 date: 2021-04-28T14:23:16.392Z
 header_img: /images/uploads/50983535057_aabc6ee6fb_c.jpg
-author_img: ""
+author_img: /images/uploads/stephenruh-wall.jpg
 author: By Stephen Ruh
 description: Have you ever let your overthinking stop you in your tracks? Well,
   Stephen has some great news for you! He has some great tips and tricks to help
