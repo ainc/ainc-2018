@@ -21,7 +21,7 @@ team: aincu
               <h2 class="heading-title">Youth</h2>
               <h3 class="heading-subtitle">Coding Courses<br>Ages 9 - 16</h3>
               <!-- <div class="relative-parent mobile-hide"> -->
-              <div class="relative-parent mobile-hide" id="phone-image">
+              <div class="relative-parent tablet-hide" id="phone-image">
                 <img class="absolute-child" src="/assets/img/aincu/youth/header-phone.png" />
               </div>
               <!-- </div> -->
@@ -167,7 +167,7 @@ team: aincu
             <li>Find new friends with similar interests</li>
             <li>From coding to outdoor activities and hilarious games</li>
           </ul>
-          <a href="/week-of-code" class="lgx-btn lgx-btn-sm">Find a Camp</a>
+          <a href="/weekofcode" class="lgx-btn lgx-btn-sm">Find a Camp</a>
         </div> <!-- col -->
         <div class="col-xs-12 col-sm-4">
           <!-- <div class="relative-parent"> -->
@@ -204,4 +204,32 @@ team: aincu
     </div> <!-- row -->
   </div>
   {% include club-subscription-iframe.html %}
+</section>
+
+<section id="questions">
+  <div class="lgx-inner">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+          <div class="lgx-heading lgx-heading-white">
+            <h2 class="heading-title">Still have questions?</h2>
+            <a class="lgx-btn lgx-btn-small-text" href="#" data-toggle="modal" data-target="#lgx-modal">See our FAQs</a>
+            <div id="codingclub-faq-modal" class="modal fade lgx-modal" tabindex="-1">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h2>Coding Club FAQ</h2>
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                  </div>
+                  <div class="modal-body">
+                    {% include coding-club-faq.html %}
+                  </div> <!-- modal body-->
+                </div> <!-- modal content-->
+              </div> <!-- modal dialog-->
+            </div> <!-- bootcamp faq modal-->
+          </div> <!-- lgx-heading -->
+        </div> <!-- col -->
+      </div> <!-- row -->
+    </div> <!-- container -->
+  </div> <!-- lgx-inner-->
 </section>
