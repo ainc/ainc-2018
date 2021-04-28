@@ -15,7 +15,7 @@ Look, it happens to all of us. I spent half-an-hour writing out different openin
 
 When I was younger I was in a cover band (we played other people’s music), and after a few summers of playing together, we decided it was time… we needed our own songs. (Glory seekers, much?) So we scheduled a time to sit down and “write some good music,” and then we waited for inspiration to strike. But you know what’s funny about inspiration? It doesn’t often just strike. And we never wrote anything good waiting for it! Instead, we wasted time and ate a lot of pizza. Eventually we did write songs of our own, but it came first from taking our unpolished jams and turning them into polished gems. (See what I did there?) And secondly, it happened because we were having fun together, not just trying to grind out a product.
 
-## **1.) Start With Bad Ideas, Then Improve**
+### **1.) Start With Bad Ideas, Then Improve**
 
 I wish we would’ve known sooner that the best way to make something “good” was to start with something “bad,” and make it better. While I was researching this, I read a great [TED.COM](https://ideas.ted.com/heres-why-you-need-to-have-more-bad-ideas/) article by [Seth Godin](https://ideas.ted.com/author/seth-godin/) about “bad ideas”, he states this:
 
@@ -27,7 +27,7 @@ Most precious gems don’t come out of the ground polished. (Yes I’m bringing 
 
 So before you say you don’t have any creative or good ideas, I want you to show me all your bad ones first. That’s tip #1… have more bad ideas, and allow yourself the freedom to say “this might be bad but I can make it better.” 
 
-## **2.) Just have fun with it**
+### **2.) Just have fun with it**
 
 I’m going to tell you tip #2 up front, and then explain it, because it seems pretty self evident. Some of you might even already know this, but I never had it spelled out for me until now. You will be more creative when you’re in a good mood. Simple, right? But I know just telling you isn’t enough, so I found some science to back it up... Because I care about you.
 
