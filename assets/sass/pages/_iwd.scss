@@ -1,0 +1,216 @@
+#iwd {
+
+  #iwd-header {
+    background-image: url('/assets/img/aincu/adults/intro-to-web-hero.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom center;
+    height: 70vh;
+    position: relative;
+    @include screen-tablet-max {
+      background-position: 50% 0;
+      background-size: cover;
+      height: 55vh;
+    }
+    @include screen-xs {
+      background-size: cover;
+      background-position: 50% 0;
+      height: 90vh;
+    }
+    .lgx-heading-area {
+      margin-top: 20vh;
+      @include screen-tablet-max {
+        margin-top: 10vh;
+      }
+      @include screen-xs {
+        margin-top: 5vh;
+      }
+    }
+  }
+
+  #iwd-about {
+    h4 {
+      @include font-size(20);
+      line-height: 5rem;
+      font-weight: 600;
+    }
+  }
+
+  #iwd-upcoming-dates {
+    background-color: $brand-color2;
+    .date--big {
+      padding: 1rem 0;
+    }
+    .date--big p {
+      @include font-size(22);  
+      color: white;
+      text-align: center;
+      text-transform: uppercase;
+    }
+    .border--right {
+      border-right: $brand-color 2px solid;
+      @include screen-xs {
+        border-right: none;
+        border-bottom: $brand-color 2px solid;
+      }
+    }
+  }
+
+  #iwd-why {
+    .lgx-heading {
+      text-align: right;
+      margin-bottom: 10rem;
+      @include screen-xs {
+        text-align: center;
+        margin-bottom: 0;
+      }
+      @include screen-sm {
+        margin-bottom: 0;
+      }
+      @include screen-md { 
+        margin-bottom: 0;
+      }
+    }
+    
+  }
+
+  #iwd-what {
+    background-image: url('/assets/img/aincu/adults/red-wavy-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    // height: 60vh;
+    position: relative;
+    img.absolute-child#arrow {
+      width: 10%;
+      top: -22rem;
+      left: 45%;
+      right: 45%;
+      @include screen-lg {
+        left: 40%;
+      }
+      @include screen-md {
+        display: none;
+      }
+      @include screen-sm {
+        display: none;
+      }
+    }
+    img.absolute-child#laptop-video {
+      width: 50%;
+      left: 25%;
+      right: 25%;
+      top: -15rem;
+      @include screen-tablet-max {
+        width: 75%;
+        top: -10rem;
+        left: 12.5%;
+        right: 12.5%;
+      }
+    }
+    .lgx-heading-area {
+      margin-top: 20rem;
+      p {
+        color: white;
+      }
+    }
+  }
+
+  #iwd-curriculum {
+    .lgx-heading-area, .lgx-heading {
+      text-align: left;
+    }
+    .heading-subtitle {
+      color: grey;
+      font-style: italic;
+      @include font-size(14);
+    }
+    ol {
+      color: black;
+      list-style-position: inside;
+      padding-left: 0;
+      li {
+        margin-bottom: 1rem; 
+      }
+      tiny {
+        @include font-size(10);
+        color: grey;
+      }
+    }
+  }
+
+  #iwd-outcomes {
+    background-image: url('/assets/img/aincu/adults/intro-to-web-hero-square.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    // height: 60vh;
+    position: relative;
+  }
+
+  #iwd-tuition-credit {
+    background-color: $brand-color2;
+      .bg-image-container {
+      background-image: url('/assets/img/aincu/adults/bootcamp-badge-outline.png');
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: center center;
+      height: 60vh;
+      position: relative;
+      @include screen-tablet-max {
+        height: 40vh;
+        background-size: 95% 98%;
+      }
+      @include screen-sm {
+        background-image: none;
+        height: auto;
+      }
+      @include screen-xs {
+        background-image: none;
+        height: auto;
+      }
+    }
+    .lgx-heading-area {
+      margin-top: 30rem;
+      margin-left: 10rem;
+      margin-right: 10rem;
+      @include screen-tablet-max {
+        margin-top: 18rem;
+        .heading-title {
+          @include font-size(30);
+        }
+      }
+      @include screen-sm {
+        margin-top: 0;
+        margin-left: 0;
+        margin-right: 0;
+      }
+      @include screen-xs {
+        margin-top: 0;
+        margin-left: 0;
+        margin-right: 0;
+      }
+
+      p {
+        color: white;
+      }
+    }
+  }
+
+  #iwd-register-now {
+    background-color: $brand-color;
+    background-image: url("/assets/img/aincu/adults/two-arrows.png");
+    background-size: 120%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    @include screen-md {
+      background-size: 220%;
+    }
+    @include screen-sm {
+      background-size: 400%;
+    }
+    @include screen-xs {
+      background-size: 400%;
+    }
+  }
+}

@@ -472,23 +472,6 @@
     }
   }
 
-  #questions {
-    background-image: url('../../assets/img/bootcamp/faq-bg.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    .heading-title {
-      text-transform: none;
-      margin-bottom: 3rem;
-    }
-    .lgx-inner {
-      padding: 8.2rem 0;
-    }
-    .lgx-heading {
-      margin-bottom: 0;
-    }
-  }
-
   #bootcamp-faq-modal {
     .faq .card .card-header .faq-title {
       color: $brand-color3;
@@ -503,7 +486,24 @@
 
 }
 
-// this needs to be a 'less-specified' class because it is getting overwritten
+// this needs to be a 'less-specific' class because it is getting overwritten
 .testimonial-window:before {
   top: 41%;
+}
+
+#questions {
+  background-image: url('../../assets/img/bootcamp/faq-bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  .heading-title {
+    text-transform: none;
+    margin-bottom: 3rem;
+  }
+  .lgx-inner {
+    padding: 8.2rem 0;
+  }
+  .lgx-heading {
+    margin-bottom: 0;
+  }
 }
