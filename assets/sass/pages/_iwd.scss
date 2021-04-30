@@ -38,11 +38,38 @@
 
   #iwd-upcoming-dates {
     background-color: $brand-color2;
+    .date--big {
+      padding: 1rem 0;
+    }
+    .date--big p {
+      @include font-size(22);  
+      color: white;
+      text-align: center;
+      text-transform: uppercase;
+    }
+    .border--right {
+      border-right: $brand-color 2px solid;
+      @include screen-xs {
+        border-right: none;
+        border-bottom: $brand-color 2px solid;
+      }
+    }
   }
 
   #iwd-why {
     .lgx-heading {
       text-align: right;
+      margin-bottom: 10rem;
+      @include screen-xs {
+        text-align: center;
+        margin-bottom: 0;
+      }
+      @include screen-sm {
+        margin-bottom: 0;
+      }
+      @include screen-md { 
+        margin-bottom: 0;
+      }
     }
     
   }
@@ -54,14 +81,29 @@
     background-position: top center;
     // height: 60vh;
     position: relative;
-    img.absolute-child {
+    img.absolute-child#arrow {
+      width: 10%;
+      top: -22rem;
+      left: 45%;
+      right: 45%;
+      @include screen-lg {
+        left: 40%;
+      }
+      @include screen-md {
+        display: none;
+      }
+      @include screen-sm {
+        display: none;
+      }
+    }
+    img.absolute-child#laptop-video {
       width: 50%;
       left: 25%;
       right: 25%;
       top: -15rem;
       @include screen-tablet-max {
         width: 75%;
-        top: 0;
+        top: -10rem;
         left: 12.5%;
         right: 12.5%;
       }
@@ -157,5 +199,18 @@
 
   #iwd-register-now {
     background-color: $brand-color;
+    background-image: url("/assets/img/aincu/adults/two-arrows.png");
+    background-size: 120%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    @include screen-md {
+      background-size: 220%;
+    }
+    @include screen-sm {
+      background-size: 400%;
+    }
+    @include screen-xs {
+      background-size: 400%;
+    }
   }
 }
