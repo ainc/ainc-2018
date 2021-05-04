@@ -21,7 +21,7 @@ items:
     github: https://github.com/Jdavies00
     linkedin: https://www.linkedin.com/in/jdavies00/
     img_path: anthony-davies
-    position: null
+    position: Lightwell
     cohort: f20
   -
     name: Reese Hudson
@@ -37,7 +37,7 @@ items:
     github: https://github.com/racheljay
     linkedin: https://www.linkedin.com/in/racheljay42/
     img_path: rachel-jackson
-    position: null
+    position: Art of<br>Education
     cohort: f20
   -
     name: Ryan Kelly
@@ -53,7 +53,7 @@ items:
     github: https://github.com/skylerkk
     linkedin: https://www.linkedin.com/in/skyler-kuretza/
     img_path: skyler-kuretza
-    position: null
+    position: Lightwell
     cohort: f20
   -
     name: Rebecca Mead
@@ -77,7 +77,7 @@ items:
     github: https://github.com/DuncanBScruggs
     linkedin: https://www.linkedin.com/in/duncanbscruggs/
     img_path: duncan-scruggs
-    position: null
+    position: Lightwell
     cohort: f20
   -
     name: Chandler Ward
@@ -85,7 +85,7 @@ items:
     github: https://github.com/Cward92
     linkedin: https://www.linkedin.com/in/chandler-m-ward/
     img_path: chandler-ward
-    position: null
+    position: Lightwell
     cohort: f20
   -
     name: Aaron Withers
@@ -396,7 +396,7 @@ items:
     img_path: beth-salvatore
     linkedin: 'https://www.linkedin.com/in/bethjsalvatore/'
     name: Beth Salvatore
-    position: Arvig
+    position: null
     website: 'https://beth-portfolio.herokuapp.com/'
   - cohort: s18
     github: 'https://github.com/TheErikWolfe'
