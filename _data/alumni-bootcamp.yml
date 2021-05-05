@@ -1,5 +1,101 @@
 items:
   -
+    name: Rachel Ehlers
+    website: 
+    github: https://github.com/cedar-waxwing
+    linkedin: https://www.linkedin.com/in/rachelehlers/
+    img_path: rachel-ehlers
+    position: null
+    cohort: s21
+  -
+    name: Harris Green
+    website: 
+    github: https://github.com/hmgreen44
+    linkedin: http://linkedin.com/in/harris-green-60339a164
+    img_path: harris-green
+    position: null
+    cohort: s21
+  -
+    name: Steven Littrell
+    website: 
+    github: https://github.com/sflittrell
+    linkedin: https://www.linkedin.com/in/stevenflittrell/
+    img_path: steven-littrell
+    position: null
+    cohort: s21
+  -
+    name: Jake Mannino
+    website: 
+    github: https://github.com/jake-mannino
+    linkedin: https://www.linkedin.com/in/jake-mannino-582728a6
+    img_path: jake-mannino
+    position: null
+    cohort: s21
+  -
+    name: Marquise Piton
+    website: https://marquisepiton.github.io/Journey-to-Becoming-a-Full-Stack-Developer-Blog/
+    github: https://github.com/marquisepiton
+    linkedin: https://www.linkedin.com/in/marquisepiton/
+    img_path: marquise-piton
+    position: null
+    cohort: s21
+  -
+    name: Walter Saygers
+    website: 
+    github: https://github.com/wtsaygers1
+    linkedin: https://www.linkedin.com/in/waltersaygers/
+    img_path: walter-saygers
+    position: null
+    cohort: s21
+  -
+    name: Eric Sparks
+    website: 
+    github: https://github.com/Sparkseric90
+    linkedin: https://www.linkedin.com/in/ericdsparks/
+    img_path: eric-sparks
+    position: null
+    cohort: s21
+  -
+    name: Smith Thay
+    website: 
+    github: https://github.com/smiththay
+    linkedin: https://www.linkedin.com/in/smiththay/
+    img_path: smith-thay
+    position: null
+    cohort: s21
+  -
+    name: Reece Walter
+    website: https://reecewalter.com/
+    github: https://github.com/thereeceshow
+    linkedin: https://www.linkedin.com/in/reecewalter/
+    img_path: reece-walter
+    position: null
+    cohort: s21
+  -
+    name: Russell Wheeler
+    website: 
+    github: https://github.com/r83wheeler
+    linkedin: https://www.linkedin.com/in/russellswheeler/
+    img_path: russell-wheeler
+    position: null
+    cohort: s21
+  -
+    name: Chancellor Whitaker
+    website: 
+    github: https://github.com/chamce
+    linkedin: https://www.linkedin.com/in/chancellorwhitaker/
+    img_path: chancellor-whitaker
+    position: null
+    cohort: s21
+  -
+    name: Jimmy Zheng
+    website: 
+    github: https://github.com/Jzhen123
+    linkedin: https://www.linkedin.com/in/jimmy-zheng-596b8a20a/
+    img_path: jimmy-zheng
+    position: null
+    cohort: s21
+  -
     name: Kennedy Caneer
     website: https://blog-21d62.web.app/
     github: https://github.com/kcaneer
