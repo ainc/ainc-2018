@@ -40,10 +40,10 @@ Twelve students, now developers, are presenting at Demo Day. Here’s the crew:
 
 ![Rachel Ehlers](/images/uploads/rachel-ehlers.jpg){:width='250'}
 
-EQUISPORT CLASSIFIEDS - 
+EQUIP - A local classifieds site for sports equipment
 
-* [Try EQUISPORT CLASSIFIEDS live]()
-* [EQUISPORT CLASSIFIEDS Project Kanban Board]()
+* [Try EQUIP live](https://finalproject-4d0ca.firebaseapp.com/)
+* [EQUIP Project Kanban Board](https://github.com/cedar-waxwing/finalproject-backend/projects/1)
 * [Rachel Ehlers on GitHub](https://github.com/cedar-waxwing)
 * [Rachel Ehlers on LinkedIn](https://linkedin.com/in/rachelehlers)
 * [Rachel Ehlers's blog](https://rwehlers.com/)
@@ -52,22 +52,22 @@ EQUISPORT CLASSIFIEDS -
 
 ![Harris Green](/images/uploads/harris-green.jpg){:width='250'}
 
-Group Vacation Planner - 
+Group Vacation Planner - An all in one planner designed to store both information and expenses for a shared trip
 
-* [Try Group Vacation Planner live]()
-* [Group Vacation Planner Project Kanban Board]()
+* [Try Group Vacation Planner live](https://awesome-vacation-planner.web.app/)
+* [Group Vacation Planner Project Kanban Board](https://github.com/hmgreen44/Vacation-Planner/projects/1)
 * [Harris Green on GitHub](https://github.com/hmgreen44)
-* [Harris Green on LinkedIn](https://linkedin.com/in/harris-green-60339a164)
+* [Harris Green on LinkedIn](https://linkedin.com/in/harris-green1)
 * [Harris Green's blog](https://my-blog-bcf2f.web.app/)
 
 ### Steven Littrell
 
 ![Steven Littrell](/images/uploads/steven-littrell.jpg){:width='250'}
 
-City Scavenge - 
+City Scavenge - A breakout room without the room, a scavenger hunt that takes you across the city. You’ll solve riddles and hunt for clues in order to complete challenges.
 
-* [Try City Scavenge live]()
-* [City Scavenge Project Kanban Board]()
+* [Try City Scavenge live](https://awesomecityscavenge.web.app/)
+* [City Scavenge Project Kanban Board](https://github.com/users/sflittrell/projects/2)
 * [Steven Littrell on GitHub](https://github.com/sflittrell)
 * [Steven Littrell on LinkedIn](https://linkedin.com/in/stevenflittrell)
 * [Steven Littrell's blog](https://slittrell.com/)
@@ -76,10 +76,11 @@ City Scavenge -
 
 ![Jake Mannino](/images/uploads/jake-mannino.jpg){:width='250'}
 
-Audio Tornado - 
+Loud Fog - Soundcloud with Resonance audio SDK, Wavesurfer.js
+Spatially interactive tracks users upload, follow sort and react to each other’s tracks
 
-* [Try Audio Tornado live]()
-* [Audio Tornado Project Kanban Board]()
+* [Try Loud Fog live](https://l0udf0g.web.app/)
+* [Loud Fog Project Kanban Board](https://github.com/jake-mannino/finalProject/projects/1)
 * [Jake Mannino on GitHub](https://github.com/jake-mannino)
 * [Jake Mannino on LinkedIn](https://linkedin.com/in/jake-mannino-582728a6)
 * [Jake Mannino's blog](https://blog-37ee2.web.app/)
@@ -88,10 +89,10 @@ Audio Tornado -
 
 ![Marquise Piton](/images/uploads/marquise-piton.jpg){:width='250'}
 
-The 3 Goats - 
+The 3 G.O.A.T.S - Compare stats using interactive charts and discuss who is the best basketball player of all time. 
 
-* [Try The 3 Goats live]()
-* [The 3 Goats Project Kanban Board]()
+* [Try The 3 G.O.A.T.S live](https://the3goats-372ca.web.app/)
+* [The 3 G.O.A.T.S Project Kanban Board](https://github.com/marquisepiton/The-3-G.O.A.T.S.-Backend/projects/1)
 * [Marquise Piton on GitHub](https://github.com/marquisepiton)
 * [Marquise Piton on LinkedIn](https://linkedin.com/in/marquisepiton)
 * [Marquise Piton's blog](https://marquisepiton.github.io/Journey-to-Becoming-a-Full-Stack-Developer-Blog/)
@@ -100,10 +101,10 @@ The 3 Goats -
 
 ![Walter Saygers](/images/uploads/walter-saygers.jpg){:width='250'}
 
-Local Recruit - 
+Sports Ball - A social to real network of chilling, vibing, and sporting
 
-* [Try Local Recruit live]()
-* [Local Recruit Project Kanban Board]()
+* [Try Sports Ball live](https://awesomelocalrecruit.web.app/)
+* [Sports Ball Project Kanban Board](https://github.com/Jzhen123/WePlan/projects/2)
 * [Walter Saygers on GitHub](https://github.com/wtsaygers1)
 * [Walter Saygers on LinkedIn](https://linkedin.com/in/waltersaygers)
 * [Walter Saygers's blog](https://waltsaygers.com/)
@@ -112,10 +113,10 @@ Local Recruit -
 
 ![Eric Sparks](/images/uploads/eric-sparks.jpg){:width='250'}
 
-Filament Tracker - 
+Filament Tracker - Keeping track of 3D Printing Inventory
 
-* [Try Filament Tracker live]()
-* [Filament Tracker Project Kanban Board]()
+* [Try Filament Tracker live](https://filament-tracker.web.app/)
+* [Filament Tracker Project Kanban Board](https://github.com/Sparkseric90/filamenttracker-frontend/projects/1)
 * [Eric Sparks on GitHub](https://github.com/Sparkseric90)
 * [Eric Sparks on LinkedIn](https://linkedin.com/in/ericdsparks)
 * [Eric Sparks's blog](https://ericsparks.dev/)
@@ -124,10 +125,10 @@ Filament Tracker -
 
 ![Smith Thay](/images/uploads/smith-thay.jpg){:width='250'}
 
-Sapling - 
+Sapling - Building a community that cultivates support in financial education & responsibility
 
-* [Try Sapling live]()
-* [Sapling Project Kanban Board]()
+* [Try Sapling live](https://awesome-sapling.web.app/)
+* [Sapling Project Kanban Board](https://github.com/smiththay/sapling/projects/1)
 * [Smith Thay on GitHub](https://github.com/smiththay)
 * [Smith Thay on LinkedIn](https://linkedin.com/in/smiththay)
 * [Smith Thay's blog](https://smiththaysite.web.app/)
@@ -136,10 +137,10 @@ Sapling -
 
 ![Reece Walter](/images/uploads/reece-walter.jpg){:width='250'}
 
-Silverman Bags YOLO Fund - 
+Silverman Bags YOLO Fund - Trade Stocks Based On Real Data, with Fake Money
 
-* [Try Silverman Bags YOLO Fund live]()
-* [Silverman Bags YOLO Fund Project Kanban Board]()
+* [Try Silverman Bags YOLO Fund live](https://yolofundgame.web.app)
+* [Silverman Bags YOLO Fund Project Kanban Board](https://github.com/thereeceshow/yolofund/projects/1)
 * [Reece Walter on GitHub](https://github.com/thereeceshow)
 * [Reece Walter on LinkedIn](https://linkedin.com/in/reecewalter)
 * [Reece Walter's blog](https://reecewalter.com/)
@@ -151,7 +152,7 @@ Silverman Bags YOLO Fund -
 Lucid Postcard - 
 
 * [Try Lucid Postcard live]()
-* [Lucid Postcard Project Kanban Board]()
+* [Lucid Postcard Project Kanban Board](https://github.com/r83wheeler/lucid-postcard-front-end/projects/1)
 * [Russell Wheeler on GitHub](https://github.com/r83wheeler)
 * [Russell Wheeler on LinkedIn](https://linkedin.com/in/russellswheeler)
 * [Russell Wheeler's blog](https://russellwheeler.com/)
@@ -160,10 +161,10 @@ Lucid Postcard -
 
 ![Chancellor Whitaker](/images/uploads/chancellor-whitaker.jpg){:width='250'}
 
-Checkers with Friends - 
+Chat Now - Send and receive messages with other users in real-time
 
-* [Try Checkers with Friends live]()
-* [Checkers with Friends Project Kanban Board]()
+* [Try Chat Now live](https://chamce-messenger.web.app/)
+* [Chat Now Project Kanban Board](https://github.com/users/chamce/projects/1)
 * [Chancellor Whitaker on GitHub](https://github.com/chamce)
 * [Chancellor Whitaker on LinkedIn](https://linkedin.com/in/chancellorwhitaker)
 * [Chancellor Whitaker's blog]()
@@ -172,10 +173,10 @@ Checkers with Friends -
 
 ![Jimmy Zheng](/images/uploads/jimmy-zheng.jpg){:width='250'}
 
-WE PLAN - 
+We Plan - Social Planning / Calendar App
 
-* [Try WE PLAN live]()
-* [WE PLAN Project Kanban Board]()
+* [Try WE PLAN live](https://awesome-weplan.web.app/login)
+* [WE PLAN Project Kanban Board](https://github.com/Jzhen123/WePlan/projects/2)
 * [Jimmy Zheng on GitHub](https://github.com/Jzhen123)
 * [Jimmy Zheng on LinkedIn](https://linkedin.com/in/jimmy-zheng-596b8a20a)
 * [Jimmy Zheng's blog](https://jimmyzheng.com)

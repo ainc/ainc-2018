@@ -1,7 +1,7 @@
 items:
   -
     name: Rachel Ehlers
-    website: 
+    website: https://rwehlers.com/
     github: https://github.com/cedar-waxwing
     linkedin: https://www.linkedin.com/in/rachelehlers/
     img_path: rachel-ehlers
@@ -9,7 +9,7 @@ items:
     cohort: s21
   -
     name: Harris Green
-    website: 
+    website: https://my-blog-bcf2f.web.app/
     github: https://github.com/hmgreen44
     linkedin: http://linkedin.com/in/harris-green-60339a164
     img_path: harris-green
@@ -17,7 +17,7 @@ items:
     cohort: s21
   -
     name: Steven Littrell
-    website: 
+    website: https://slittrell.com/
     github: https://github.com/sflittrell
     linkedin: https://www.linkedin.com/in/stevenflittrell/
     img_path: steven-littrell
@@ -25,7 +25,7 @@ items:
     cohort: s21
   -
     name: Jake Mannino
-    website: 
+    website: https://blog-37ee2.web.app/
     github: https://github.com/jake-mannino
     linkedin: https://www.linkedin.com/in/jake-mannino-582728a6
     img_path: jake-mannino
@@ -41,7 +41,7 @@ items:
     cohort: s21
   -
     name: Walter Saygers
-    website: 
+    website: https://waltsaygers.com/
     github: https://github.com/wtsaygers1
     linkedin: https://www.linkedin.com/in/waltersaygers/
     img_path: walter-saygers
@@ -49,7 +49,7 @@ items:
     cohort: s21
   -
     name: Eric Sparks
-    website: 
+    website: https://ericsparks.dev/
     github: https://github.com/Sparkseric90
     linkedin: https://www.linkedin.com/in/ericdsparks/
     img_path: eric-sparks
@@ -57,7 +57,7 @@ items:
     cohort: s21
   -
     name: Smith Thay
-    website: 
+    website: https://smiththaysite.web.app/
     github: https://github.com/smiththay
     linkedin: https://www.linkedin.com/in/smiththay/
     img_path: smith-thay
@@ -73,7 +73,7 @@ items:
     cohort: s21
   -
     name: Russell Wheeler
-    website: 
+    website: https://russellwheeler.com/
     github: https://github.com/r83wheeler
     linkedin: https://www.linkedin.com/in/russellswheeler/
     img_path: russell-wheeler
@@ -89,7 +89,7 @@ items:
     cohort: s21
   -
     name: Jimmy Zheng
-    website: 
+    website: https://jimmyzheng.com
     github: https://github.com/Jzhen123
     linkedin: https://www.linkedin.com/in/jimmy-zheng-596b8a20a/
     img_path: jimmy-zheng
