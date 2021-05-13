@@ -11,7 +11,7 @@ items:
     name: Harris Green
     website: https://my-blog-bcf2f.web.app/
     github: https://github.com/hmgreen44
-    linkedin: https://linkedin.com/in/harris-green1
+    linkedin: https://www.linkedin.com/in/harris-green1
     img_path: harris-green
     position: null
     cohort: s21
@@ -27,7 +27,7 @@ items:
     name: Jake Mannino
     website: https://blog-37ee2.web.app/
     github: https://github.com/jake-mannino
-    linkedin: https://www.linkedin.com/in/jake-mannino-582728a6
+    linkedin: https://www.linkedin.com/in/jake-mannino/
     img_path: jake-mannino
     position: null
     cohort: s21
@@ -49,7 +49,7 @@ items:
     cohort: s21
   -
     name: Eric Sparks
-    website: https://ericsparks.dev/
+    website: https://esparks.dev/
     github: https://github.com/Sparkseric90
     linkedin: https://www.linkedin.com/in/ericdsparks/
     img_path: eric-sparks
@@ -91,7 +91,7 @@ items:
     name: Jimmy Zheng
     website: https://jimmyzheng.com
     github: https://github.com/Jzhen123
-    linkedin: https://www.linkedin.com/in/jimmy-zheng-596b8a20a/
+    linkedin: https://www.linkedin.com/in/thejimmyzheng
     img_path: jimmy-zheng
     position: null
     cohort: s21
