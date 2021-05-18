@@ -183,12 +183,10 @@ We Plan - Social Planning / Calendar App
 * [Jimmy Zheng on LinkedIn](https://linkedin.com/in/thejimmyzheng)
 * [Jimmy Zheng's blog](https://jimmyzheng.com)
 
-<!--
 ## The Video
 
 Thanks for checking out our Spring 2021 Bootcamp graduates. Here's the full video from their Demo Day:
 
 <div class="embed-responsive embed-responsive-16by9">
-  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/DARpFsVw7VU" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/y_9rsikaidQ" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
--->
