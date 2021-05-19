@@ -952,9 +952,12 @@ svg[id*='svg_'] {
     justify-self: center;
     align-self: center;
     padding: 2rem 3.25rem 3rem 3.25rem;
-    h6 {
+    h6, a:link, a:visited {
       @include font-size(16);
       color: white;
+      a:hover {
+        color: $brand-color;
+      }
     }
     @include screen-tablet-max {
       padding: 1.25rem 2.25rem 3rem 2.25rem;

@@ -43,6 +43,7 @@ Vendor: Don't edit this directory, this is for libraries like bootstrap
 @import 'components/modal';
 @import 'components/forms';
 @import 'components/thumbnail';
+@import 'components/podcast';
 
 // Layout
 @import 'layout/footer';
@@ -75,6 +76,7 @@ Vendor: Don't edit this directory, this is for libraries like bootstrap
 @import 'pages/venturelabs';
 @import 'pages/5across';
 @import 'pages/school';
+@import 'pages/iwd';
 
 h1 {
 	color: black;

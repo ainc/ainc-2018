@@ -384,16 +384,19 @@ page_id: venturelabs
             </div>
           </div>
           
+          <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
           <div class="form-group">
             <!-- Change or deletion of the name attributes in the input tag will lead to empty values on record submission-->
             <form
-              action="https://forms.zohopublic.com/virtualoffice9155/form/EmailSignatureContactForm/formperma/CFaunqNfMFTd-d2HSohJgZK-cgZ4jjssvvqFZL3lP58/htmlRecords/submit"
-              name="form"
+              onsubmit="validateForm(this);"
+              name="vl-form"
               id="form"
               class="validate"
               method="POST"
               accept-charset="UTF-8"
               enctype="multipart/form-data"
+              data-netlify="true"
             >
               <input type="hidden" name="zf_referrer_name" value="" /><!-- To Track referrals , place the referrer name within the " " in the above hidden input field -->
               <input
@@ -461,6 +464,7 @@ page_id: venturelabs
                 fieldType="1"
               />
               <br>
+              <label for="honeypot">Honeypot </label><input id="honeypot" name="honeypot" size="40" type="text" /><br>
               <div>
                 <button type="submit" class="lgx-btn lgx-btn-font-light lgx-btn-corners">
                   Stay Connected

@@ -16,7 +16,7 @@ team: aincu
 
 {% include woc-buttons-sponsorship.html %}
 
-## 2020 Summer Camps
+## 2021 Summer Camps
 ### Ages: 9-16 | Beginner - Intermediate 
 *No experience required*
 <hr>
@@ -115,7 +115,7 @@ In addition to programming time inside, campers will interact with our upbeat te
     window.EBWidgets.createWidget({
         // Required
         widgetType: 'checkout',
-        eventId: '96754263607',
+        eventId: '145934557189',
         iframeContainerId: 'eventbrite-widget-container',
 
         // Optional

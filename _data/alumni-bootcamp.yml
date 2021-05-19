@@ -1,11 +1,107 @@
 items:
   -
+    name: Rachel Ehlers
+    website: https://rwehlers.com/
+    github: https://github.com/cedar-waxwing
+    linkedin: https://www.linkedin.com/in/rachelehlers/
+    img_path: rachel-ehlers
+    position: APAX
+    cohort: s21
+  -
+    name: Harris Green
+    website: https://my-blog-bcf2f.web.app/
+    github: https://github.com/hmgreen44
+    linkedin: https://www.linkedin.com/in/harris-green1
+    img_path: harris-green
+    position: null
+    cohort: s21
+  -
+    name: Steven Littrell
+    website: https://slittrell.com/
+    github: https://github.com/sflittrell
+    linkedin: https://www.linkedin.com/in/stevenflittrell/
+    img_path: steven-littrell
+    position: APAX
+    cohort: s21
+  -
+    name: Jake Mannino
+    website: https://blog-37ee2.web.app/
+    github: https://github.com/jake-mannino
+    linkedin: https://www.linkedin.com/in/jake-mannino/
+    img_path: jake-mannino
+    position: null
+    cohort: s21
+  -
+    name: Marquise Piton
+    website: https://marquisepiton.github.io/Journey-to-Becoming-a-Full-Stack-Developer-Blog/
+    github: https://github.com/marquisepiton
+    linkedin: https://www.linkedin.com/in/marquisepiton/
+    img_path: marquise-piton
+    position: null
+    cohort: s21
+  -
+    name: Walter Saygers
+    website: https://waltsaygers.com/
+    github: https://github.com/wtsaygers1
+    linkedin: https://www.linkedin.com/in/waltersaygers/
+    img_path: walter-saygers
+    position: null
+    cohort: s21
+  -
+    name: Eric Sparks
+    website: https://esparks.dev/
+    github: https://github.com/Sparkseric90
+    linkedin: https://www.linkedin.com/in/ericdsparks/
+    img_path: eric-sparks
+    position: null
+    cohort: s21
+  -
+    name: Smith Thay
+    website: https://smiththaysite.web.app/
+    github: https://github.com/smiththay
+    linkedin: https://www.linkedin.com/in/smiththay/
+    img_path: smith-thay
+    position: null
+    cohort: s21
+  -
+    name: Reece Walter
+    website: https://reecewalter.com/
+    github: https://github.com/thereeceshow
+    linkedin: https://www.linkedin.com/in/reecewalter/
+    img_path: reece-walter
+    position: null
+    cohort: s21
+  -
+    name: Russell Wheeler
+    website: https://russellwheeler.com/
+    github: https://github.com/r83wheeler
+    linkedin: https://www.linkedin.com/in/russellswheeler/
+    img_path: russell-wheeler
+    position: null
+    cohort: s21
+  -
+    name: Chancellor Whitaker
+    website: 
+    github: https://github.com/chamce
+    linkedin: https://www.linkedin.com/in/chancellorwhitaker/
+    img_path: chancellor-whitaker
+    position: null
+    cohort: s21
+  -
+    name: Jimmy Zheng
+    website: https://jimmyzheng.com
+    github: https://github.com/Jzhen123
+    linkedin: https://www.linkedin.com/in/thejimmyzheng
+    img_path: jimmy-zheng
+    position: null
+    cohort: s21
+  -
     name: Kennedy Caneer
     website: https://blog-21d62.web.app/
     github: https://github.com/kcaneer
     linkedin: https://linkedin.com/in/kennedy-caneer
     img_path: kennedy-caneer
-    position: null
+    position: Silver Fern<br>Group
     cohort: f20
   -
     name: Austin Carson
@@ -13,7 +109,7 @@ items:
     github: https://github.com/AustinC9
     linkedin: https://www.linkedin.com/in/austin-carson/
     img_path: austin-carson
-    position: null
+    position: Mediaura
     cohort: f20
   -
     name: Anthony Davies
@@ -21,7 +117,7 @@ items:
     github: https://github.com/Jdavies00
     linkedin: https://www.linkedin.com/in/jdavies00/
     img_path: anthony-davies
-    position: null
+    position: Lightwell
     cohort: f20
   -
     name: Reese Hudson
@@ -37,7 +133,7 @@ items:
     github: https://github.com/racheljay
     linkedin: https://www.linkedin.com/in/racheljay42/
     img_path: rachel-jackson
-    position: null
+    position: Art of<br>Education
     cohort: f20
   -
     name: Ryan Kelly
@@ -45,7 +141,7 @@ items:
     github: https://github.com/Rmke223
     linkedin: https://www.linkedin.com/in/ryankelly17/
     img_path: ryan-kelly
-    position: null
+    position: BlueFrame
     cohort: f20
   -
     name: Skyler Kuretza
@@ -53,7 +149,7 @@ items:
     github: https://github.com/skylerkk
     linkedin: https://www.linkedin.com/in/skyler-kuretza/
     img_path: skyler-kuretza
-    position: null
+    position: Lightwell
     cohort: f20
   -
     name: Rebecca Mead
@@ -77,7 +173,7 @@ items:
     github: https://github.com/DuncanBScruggs
     linkedin: https://www.linkedin.com/in/duncanbscruggs/
     img_path: duncan-scruggs
-    position: null
+    position: Lightwell
     cohort: f20
   -
     name: Chandler Ward
@@ -85,7 +181,7 @@ items:
     github: https://github.com/Cward92
     linkedin: https://www.linkedin.com/in/chandler-m-ward/
     img_path: chandler-ward
-    position: null
+    position: Lightwell
     cohort: f20
   -
     name: Aaron Withers
@@ -93,7 +189,7 @@ items:
     github: https://github.com/alwith2
     linkedin: https://www.linkedin.com/in/aaron-withers-a4a37494/
     img_path: aaron-withers
-    position: null
+    position: Delivery<br>Co-op
     cohort: f20
   -
     name: Denis Gatotho
@@ -210,7 +306,7 @@ items:
     position: DecoArt
     website: 'https://dmjoyce951.github.io/'
   - cohort: f19
-    github: 'http://www.github.com/willmcgill'
+    github: 'https://www.github.com/willmcgill'
     img_path: will-mcgill
     linkedin: https://www.linkedin.com/in/will-mcgill/
     name: William McGill
@@ -231,7 +327,7 @@ items:
     position: BlueFrame
     website: 'https://anchormansam.github.io/my-blog/'
   - cohort: f19
-    github: 'http://github.com/rachyoder'
+    github: 'https://github.com/rachyoder'
     img_path: rachael-yoder
     linkedin: 'https://www.linkedin.com/in/rachael-yoder-6637b9192/'
     name: Rachael Yoder
@@ -396,7 +492,7 @@ items:
     img_path: beth-salvatore
     linkedin: 'https://www.linkedin.com/in/bethjsalvatore/'
     name: Beth Salvatore
-    position: Arvig
+    position: null
     website: 'https://beth-portfolio.herokuapp.com/'
   - cohort: s18
     github: 'https://github.com/TheErikWolfe'
