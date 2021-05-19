@@ -48,11 +48,26 @@
     #phone-image {
       img {
         max-height: 550px;
-        margin-top: 26vh;
-        margin-left: 25vh;
+        top: 20vh;
+        left: 5vw;
         @include screen-lg{
-          margin-left: 0vh;
+          left: 0vh;
         }
+      }
+    }
+    .sub-text {
+      margin-top: 5rem;
+      padding-right: 10%;
+      h3, h4, h5, h6, p {
+        color: white;
+        font-weight: 300;
+        @include font-size(16);
+        @include screen-xs {
+          @include font-size(13);
+        }
+      }
+      @include screen-xs {
+        padding-right: 2%;
       }
     }
   }
@@ -110,7 +125,7 @@
       margin-bottom: 2.5rem;
     }
     .row{
-      margin-top:15rem;
+      margin-top: 5rem;
       @include screen-xs{
         margin-top: 0rem;
       }
@@ -139,7 +154,7 @@
   }
   #engaged-creative {
       background-image: url('/assets/img/aincu/youth/youth-engaged-bg.png');
-      background-size: 100% 90vh;
+      background-size: 100% 60vh;
       background-position: center 15%;
       background-repeat: no-repeat;
       @include screen-tablet-max {
