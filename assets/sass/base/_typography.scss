@@ -153,7 +153,9 @@ input[type="button"]:focus, input[type="button"]:active {
 }
 
 
-
+small {
+  @include font-size(11);
+}
 
 blockquote {
   padding: 10px 20px;

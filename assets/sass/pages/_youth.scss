@@ -317,6 +317,101 @@
       color:white;
       margin-bottom: -4rem;
     }
+    .lgx-inner {
+      .row {
+        .pricing-table {
+          display: flex;
+          flex-direction: row;
+          max-width: 80%;
+          margin-left: auto;
+          margin-right: auto;
+          .container {
+            height: 100%;
+            .pricing-option {
+              border: 1px solid #eee;
+              position: relative;
+              background-color: white;
+              * {
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                text-align: center;
+              }
+              h3 {
+                color: #7952b3;
+                color: var(--theme-color);
+                font-size: 18px;
+                font-weight: 600;
+                line-height: 26px;
+                padding: 20px 0 0;
+                text-transform: uppercase;
+                margin-bottom: 10px;
+                height: 75px;
+              }
+              img {
+                min-height: 100px;
+                max-height: 100px;
+              }
+              span {
+                margin-left: -12px;
+                color: #0f1719;
+                font-size: 44px;
+                font-weight: 600;
+                letter-spacing: 2px;
+                line-height: 55px;
+                small {
+                  display: inline-block;
+                  font-size: 30px !important;
+                  font-weight: 400;
+                  line-height: 30px;
+                  position: relative;
+                  top: -5px;
+                }
+                span {
+                  display: inline;
+                }
+              }
+              .billing {
+                font-size: 14px;
+                font-style: italic;
+                font-weight: bolder;
+              }
+              a {
+                color: white;
+                background-color: #c12029;
+                border-radius: .25rem;
+                display: table;
+                padding: 5px 10px;
+                margin-bottom: 5px;
+                width: 90%;
+                text-transform: uppercase;
+              }
+              .free-months::before {
+                content: "\2714";
+                color: #c12029;
+                display: inline-block;
+                position: relative;
+                left: -10px;
+              }
+            }
+          }
+          .most-popular {
+            position: relative;
+            margin-top: -32px;
+            .most-popular-area {
+              color: #e19533;
+            }
+          }
+          .most-popular::before {
+            content: "";
+            display: block;
+            width: 100%;
+            height: 5px;
+            background-color: #c12029 !important;
+          }
+        }
+      }
+    }
   }
 
   #questions {
@@ -355,9 +450,9 @@
   top: 41%;
 }
 
-  #codingclub-faq-modal {
-    .faq .card .card-header .faq-title {
-      color: $brand-color3;
-    }
+#codingclub-faq-modal {
+  .faq .card .card-header .faq-title {
+    color: $brand-color3;
   }
+}
   
