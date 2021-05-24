@@ -1,0 +1,148 @@
+#program {
+
+  .heading-title {
+    margin: 2rem;
+    @include font-size(31);
+  }
+  .heading-subtitle {
+    @include font-size(27);
+    font-weight: 600;
+  }
+
+  #program-header {
+    background-image: url('/assets/img/5-across/program/bg-hero.jps.jpg');
+    height: 70vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: grey;
+  }
+
+  .lgx-heading-area {
+    margin-top: 10rem;
+    .lgx-heading {
+      font-weight: 400;
+      .heading-subtitle {
+        font-weight: 200;
+        color: black;
+      }
+    }
+  }
+
+  #program-details {
+    background-color: $brand-grey-light;
+    .heading-title {
+      margin: 2rem;
+      @include font-size(31);
+    }
+    .lgx-btn {
+      width: 100%;
+      @include font-size(11);
+      margin-bottom: 2rem;
+      min-height: 50px;
+    }
+  }
+
+  #teams {
+    img {
+      width: 70%;
+      padding: 2rem;
+    }
+    .team p  {
+      border-bottom: 1px solid black;
+      padding-bottom: 2rem;
+      padding-left: 1rem;
+      padding-right: 1rem;
+    }
+  }
+
+  #judges {
+    color: white;
+    background-color: $brand-color2;
+    .heading-title {
+      color: white;
+    }
+    .judge {
+      img {
+        border-radius: 50%;
+      }
+      h4, h6 {
+        color: white;
+      }
+      h4 {
+        font-weight: 600;
+        margin-bottom: 2rem;
+        margin-top: 2rem;
+      }
+      h6:last-child {
+        margin-bottom: 4rem;
+      }
+    }
+
+  }
+
+  #sponsors {
+    img {
+      padding: 2rem 0;
+    }
+  }
+
+  #vote {
+
+  }
+
+  #podcasts {
+    background-color: $brand-color2;
+    .heading-subtitle, .heading-title, h4, h6, p {
+      color: white;
+    }
+    h6 {
+      margin-bottom: 4rem;
+    }
+  }
+
+  #mentor {
+    
+    background-image: url('/assets/img/5-across/program/AInc_Stock-33.jpg');
+    height: 40vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: grey;
+
+    .heading-title {
+      color: $brand-red-bright;
+      font-weight: 600;
+    }
+    .lgx-btn {
+      @include font-size(11);
+      margin-top: 10rem;
+    }
+    
+  }
+
+  .back_to_top {
+    position: fixed;
+    bottom: 80px;
+    right: 40px;
+    z-index: 9999;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    background: #f5f5f5;
+    color: #444;
+    cursor: pointer;
+    border-radius: 2px;
+    display: none;
+    border: 1px solid $brand-grey;
+  }
+  
+  .back_to_top:hover {
+    background: #e9ebec;
+  }
+  
+  .back_to_top-show {
+    display: block;
+  }
+}
