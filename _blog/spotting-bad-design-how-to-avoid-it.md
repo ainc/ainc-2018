@@ -5,7 +5,7 @@ date: 2021-04-30T19:10:56.116Z
 header_img: /images/uploads/50676691857_69e9bcab93_c.jpg
 author_img: /images/uploads/jacquelinebenson-wall.jpg
 author: Jacqueline Benson
-description: Anyone can design! But it definitely helps out to get some advice,
+description: Anyone can design! But it definitely helps to get some advice,
   especially from someone who does it for a living. Give our blog a quick read
   from our very own, Jacqueline Benson.
 ---
