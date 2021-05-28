@@ -5,8 +5,8 @@ date: 2021-05-28T16:01:59.114Z
 header_img: /images/uploads/50676614476_5a5ee5e921_c.jpg
 author_img: /images/uploads/kerek_plummer.jpg
 author: "Kerek Plummer "
-description: "Your sports background can help you in the business world! Here
-  what Kerek has to say on that. "
+description: "Your sports background can help you in the business world! Hear
+  out Kerek's tips on working on a team.  "
 ---
 
 
