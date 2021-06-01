@@ -36,13 +36,13 @@ What if you spent your summer learning to make your own apps instead of just pla
 
 [Pre-work](#prework-day) - Intro to programming concepts with Angry Birds, Codecademy, Scratch, JavaScript
 
-[Mon](#mobile-day) - Making Mobile Apps with Thunkable
+[Day 1](#mobile-day) - Making Mobile Apps with Thunkable
 
-[Tues](#web-day) - Making Websites with HTML, CSS, and JavaScript
+[Day 2](#web-day) - Making Websites with HTML, CSS, and JavaScript
 
-[Wed](#game-day) - Making Video Games with Unity 3D
+[Day 3](#game-day) - Making Video Games with Unity 3D
 
-[Thurs](#project-day) - Project day: go in-depth on a track (Web, Mobile, Game) of your choice
+[Day 4](#project-day) - Project day: go in-depth on a track (Web, Mobile, Game) of your choice
 
 ## Detailed Schedule
 
@@ -72,9 +72,9 @@ Prior to the Week of Code summer camp, it's a good idea to try some basic coding
 
 * * *
 
-<h3 id="mobile-day">Monday - Mobile Apps</h3>
+<h3 id="mobile-day">Day 1 - Mobile Apps</h3>
 
-![Thunkable screenshot](/img/notes/weekofcode-thunkable.png)
+![Thunkable screenshot](/images/uploads/thunkablelogo.png)
 
 #### 1pm
 
@@ -113,8 +113,8 @@ Prior to the Week of Code summer camp, it's a good idea to try some basic coding
 #### 2:15pm
 * [SpaceInvaders App V1](http://explore.appinventor.mit.edu/ai2/space-invaders)
 * Download Images
-    * <a href="/img/notes/weekofcode-rocket.png" download>Rocket</a>
-    * <a href="/img/notes/weekofcode-saucer.png" download>Saucer</a>
+    * <a href="/assets/img/notes/weekofcode-rocket.png" download>Rocket</a>
+    * <a href="/assets/img/notes/weekofcode-saucer.png" download>Saucer</a>
 * Part 1: Moving the Rocket
 * Part 2: Moving the Saucer
 * Part 3: Bullet Behavior
@@ -133,7 +133,7 @@ Prior to the Week of Code summer camp, it's a good idea to try some basic coding
 
 #### 4:30pm
 
-* Confirm Web (Google Chrome, Mozilla Thimble) setup for Tuesday
+* Confirm Web (Google Chrome, Mozilla Thimble) setup for Day 2
 * More Thunkable
     * SpaceInvaders App
         * Customize colors and font
@@ -147,9 +147,9 @@ Prior to the Week of Code summer camp, it's a good idea to try some basic coding
 
 * * *
 
-<h3 id="web-day">Tuesday - Websites</h3>
+<h3 id="web-day">Day 2 - Websites</h3>
 
-![Website about animals](/img/notes/weekofcode-animal-website.png)
+![Website about animals](/assets/img/notes/weekofcode-animal-website.png)
 
 #### 1pm
 
@@ -216,13 +216,11 @@ References:
 * At home: see [web manual](https://docs.google.com/document/d/1TOuXlaAo-9bJNwu7ZvBSP4KJKfguGXraTivp9xVCUyg/edit) and [sample code](https://thimble.mozilla.org/en-US/projects/507152/remix) and [sample page](https://thimbleprojects.org/raney24/507152/)
 * [Mozilla HTML Reference](https://developer.mozilla.org/en-US/docs/Web/HTML)
 
-![Nick's favorite animal is the Wandering Albatross](/img/notes/weekofcode-albatross.jpg)
-
 * * *
 
-<h3 id="game-day">Wednesday - Video Games</h3>
+<h3 id="game-day">Day 3 - Video Games</h3>
 
-![Making Pong with Unity](/img/notes/weekofcode-unity-pong.png)
+![Making Pong with Unity](/assets/img/notes/weekofcode-unity-pong.png)
 
 #### 1pm
 
@@ -255,9 +253,9 @@ References:
 
 * * *
 
-<h3 id="project-day">Thursday - Project Day</h3>
+<h3 id="project-day">Day 4 - Project Day</h3>
 
-![Week of Code projects](/img/notes/weekofcode-screenshots.png)
+![Week of Code projects](/assets/img/notes/weekofcode-screenshots.png)
 
 #### 1pm
 
