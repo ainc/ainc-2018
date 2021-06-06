@@ -99,7 +99,7 @@ Prior to the Week of Code summer camp, it's a good idea to try some basic coding
 #### 1:15pm
 
 * Mobile Apps with [Thunkable](https://thunkable.com/){:target="_blank"} Overview
-    * [Download mobile app media](/files/weekofcode/woc_thunkableX_media.zip)
+    * [Download mobile app media](/assets/files/weekofcode/woc_thunkableX_media.zip)
 * Getting Started
 * [TalkToMe](http://explore.appinventor.mit.edu/sites/all/files/hourofcode/TalkToMePart1.pdf) App
     * Part 1 "Hello World"
