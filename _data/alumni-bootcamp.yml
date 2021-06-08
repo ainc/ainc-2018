@@ -37,7 +37,7 @@ items:
     github: https://github.com/marquisepiton
     linkedin: https://www.linkedin.com/in/marquisepiton/
     img_path: marquise-piton
-    position: null
+    position: UK
     cohort: s21
   -
     name: Walter Saygers
@@ -81,11 +81,11 @@ items:
     cohort: s21
   -
     name: Chancellor Whitaker
-    website: 
+    website: https://chamce-portfolio.web.app/
     github: https://github.com/chamce
     linkedin: https://www.linkedin.com/in/chancellorwhitaker/
     img_path: chancellor-whitaker
-    position: null
+    position: EKU
     cohort: s21
   -
     name: Jimmy Zheng
