@@ -45,7 +45,7 @@ items:
     github: https://github.com/wtsaygers1
     linkedin: https://www.linkedin.com/in/waltersaygers/
     img_path: walter-saygers
-    position: null
+    position: Thoroughbred<br>Solutions
     cohort: s21
   -
     name: Eric Sparks
@@ -53,7 +53,7 @@ items:
     github: https://github.com/Sparkseric90
     linkedin: https://www.linkedin.com/in/ericdsparks/
     img_path: eric-sparks
-    position: null
+    position: Sparks<br>3D Designs
     cohort: s21
   -
     name: Smith Thay
@@ -69,7 +69,7 @@ items:
     github: https://github.com/thereeceshow
     linkedin: https://www.linkedin.com/in/reecewalter/
     img_path: reece-walter
-    position: null
+    position: Studio 34
     cohort: s21
   -
     name: Russell Wheeler
@@ -93,7 +93,7 @@ items:
     github: https://github.com/Jzhen123
     linkedin: https://www.linkedin.com/in/thejimmyzheng
     img_path: jimmy-zheng
-    position: null
+    position: Stellar<br>TechWorks
     cohort: s21
   -
     name: Kennedy Caneer
