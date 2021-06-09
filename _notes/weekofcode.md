@@ -220,36 +220,15 @@ References:
 
 <h3 id="game-day">Day 3 - Video Games</h3>
 
-![Making Pong with Unity](/assets/img/notes/weekofcode-unity-pong.png)
-
-#### 1pm
-
-* Unity Game Engine interface overview
-* Run a sample project
-
-#### 1:30pm
-
-* Start [Unity Pong tutorial](https://www.awesomeincu.com/tutorials/unity-pong/){:target="_blank"}
-
-#### 3pm
-
-* Break / Game
-
-#### 3:15pm
-
-* More [Unity Pong](https://www.awesomeincu.com/tutorials/unity-pong/)
-
-#### 4:30pm
-
-* If time:
-    * Review with [Unity's Interactive Tutorials](https://unity3d.com/learn/tutorials/s/interactive-tutorials)
+#### Download Assets
+<a href="/assets/files/weekofcode/abstract-platformer-370-assets.zip" download>Abstract Platformer Assets</a>
 
 #### 5pm
 
 * Homework:
-    * Finish [Unity Pong](https://www.awesomeincu.com/tutorials/unity-pong/)
+    * Finish Platformer
     * Pick a tutorial/project for Friday
-* Reminder to students: bring headphones &#127911; for Friday tutorials
+* Reminder to students: bring headphones &#127911; for Thursday tutorials
 
 * * *
 
