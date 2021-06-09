@@ -164,6 +164,8 @@
   div#become-a-member {
     text-align: center;
     text-transform: uppercase;
+    background-color: $brand-grey;
+    padding-bottom: 8rem;
     .member-feature-img {
       height: 150px;
       img {

@@ -56,19 +56,9 @@ page_id: workspace
 </section>
 <section>
   <div id="become-a-member">
-    <div class="lgx-inner border-svg">
+    <div class="lgx-inner">
       <div class="container">
-       <div class="row row-eq-height">
-         <svg id="left-border" class="border mobile-hide" width="300" height="600" preserveAspectRatio="xMidYMid">
-           <line x1="20" y1="20" x2="20" y2="50"/></line>
-         </svg>
-         <svg id="bottom-border" class="border mobile-hide" viewBox="0 0 1 100" preserveAspectRatio="none">
-           <line x1="0" y1="0.5" x2="100" y2="0.5"/></line>
-         </svg>
-         <svg id="right-border" class="border mobile-hide" viewBox="50 50 10 1" preserveAspectRatio="xMidYMid">
-           <line x1="1" y1="0.5" x2="100" y2="0.5"></line>
-         </svg>
-       </div>
+       <div class="row">
          <div class="lgx-heading-area border">
             <div class="lgx-heading">
               <h2 class="heading-title">
@@ -76,13 +66,16 @@ page_id: workspace
               </h2>
             </div>
           </div><!-- lgx-heading -->
+        </div>
+        <div class="row row-eq-height">
           <div class="col-sm-4">
             <div class="member-feature-img">
-              <a href="#" data-toggle="modal" data-target="#virtual-modal"><img src="images/icons/virtual.png"/></a>
+              <a href="#" data-toggle="modal" data-target="#virtual-modal"><img src="images/icons/virtual-member.png"/></a>
             </div>
             <h3>Virtual Member</h3>
-            <h6>Main Street Mailing Address</h6>
-            <h6>4 Hours Prof. Conf. Room per Month</h6>
+            <h6>Downtown Mailing Address</h6>
+            <h6>Conference Room Access</h6>
+            <h6>Member Exclusive Events</h6>
             <div class="abs-btn"><a class="lgx-btn" href="#" data-toggle="modal" data-target="#member-form-modal">$75/Month</a></div>
           </div>
           <div class="col-sm-4">
@@ -91,24 +84,26 @@ page_id: workspace
             </div>
             <h3>Open Desk Member</h3>
             <h6>24/7 Access to Our Space</h6>
-            <h6>10 Hours Prof. Conf. Room per Month</h6>
-            <div class="abs-btn" id="med-text"><a class="lgx-btn" href="#" data-toggle="modal" data-target="#member-form-modal">$199/Month</a></div>
+            <h6>Conference Room Access</h6>
+            <h6>Member Exclusive Events</h6>
+            <div class="abs-btn" id="med-text"><a class="lgx-btn" href="#" data-toggle="modal" data-target="#member-form-modal">$250/Month</a></div>
           </div>
           <div class="col-sm-4">
             <div class="member-feature-img">
-              <a href="#" data-toggle="modal" data-target="#private-modal"><img src="images/icons/day-pass.png" id="member-ticket"/></a>
+              <a href="#" data-toggle="modal" data-target="#private-modal"><img src="images/icons/private-office.png" id="member-ticket"/></a>
             </div>
             <h3>Private Office</h3>
-            <h6>Space to suit your team</h6>
-            <h6>Up To 20 Conference Room Hours Per Month</h6>
-            <div class="abs-btn long-text"><a class="lgx-btn" href="#" data-toggle="modal" data-target="#member-form-modal"><span>Starting at</span> $400/Month</a></div>
+            <h6>Private Office Space</h6>
+            <h6>Conference Room Access</h6>
+            <h6>Member Exclusive Events</h6>
+            <div class="abs-btn"><a class="lgx-btn" href="#" data-toggle="modal" data-target="#member-form-modal">$20/Day</a></div>
            </div>
           {% for modal_data in site.data.workspace-modal.items %}
             {% include workspace-modal.html member=modal_data.short_title %}
           {% endfor %}
-        </div><!--//.ROW-->
-      </div><!-- //.CONTAINER -->
-    </div><!-- //.INNER -->
+        </div><!--ROW-->
+      </div><!-- CONTAINER -->
+    </div><!-- INNER -->
     {% include modal-form.html initiative='member-form' style='no-button' %}
   </div> 
 </section>
@@ -180,8 +175,8 @@ page_id: workspace
             <!-- Amenity -->
             <div class="col-sm-6">
               <div class="inline-block amenity">
-                <img src="images/icons/innovation.png" class="img-responsive inline-block"/>
-                <p class="inline-block">Innovative Environment</p>
+                <img src="images/icons/thinking-room.png" class="img-responsive inline-block"/>
+                <p class="inline-block">Thinking Room</p>
               </div>
             </div>
             <!-- Amenity End -->
@@ -196,8 +191,32 @@ page_id: workspace
             <!-- Amenity -->
             <div class="col-sm-6">
               <div class="inline-block amenity">
-                <img src="images/icons/locker.png" class="img-responsive inline-block"/>
-                <p class="inline-block">Storage Lockers</p>
+                <img src="images/icons/podcadsting-room.png" class="img-responsive inline-block"/>
+                <p class="inline-block">Podcasting Room</p>
+              </div>
+            </div>
+            <!-- Amenity End -->
+            <!-- Amenity -->
+            <div class="col-sm-6">
+              <div class="inline-block amenity">
+                <img src="images/icons/indoor-outdoor.png" class="img-responsive inline-block"/>
+                <p class="inline-block">Indoor/Outdoor space</p>
+              </div>
+            </div>
+            <!-- Amenity End -->
+            <!-- Amenity -->
+            <div class="col-sm-6">
+              <div class="inline-block amenity">
+                <img src="images/icons/electric-scooter.png" class="img-responsive inline-block"/>
+                <p class="inline-block">Electric Scooters</p>
+              </div>
+            </div>
+            <!-- Amenity End -->
+            <!-- Amenity -->
+            <div class="col-sm-6">
+              <div class="inline-block amenity">
+                <img src="images/icons/3d-printer.png" class="img-responsive inline-block"/>
+                <p class="inline-block">3D Printer</p>
               </div>
             </div>
             <!-- Amenity End -->
