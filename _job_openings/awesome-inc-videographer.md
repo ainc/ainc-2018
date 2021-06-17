@@ -4,7 +4,7 @@ email: careers@awesomeinc.org
 team: Awesome Inc
 manager: Keith McMunn
 time-commitment: Part-time
-active: true
+active: false
 priority: 10
 ---
 We are seeking a videographer to join our Awesome Inc team.
