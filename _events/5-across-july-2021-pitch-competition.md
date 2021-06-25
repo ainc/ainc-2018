@@ -5,7 +5,7 @@ eventbrite_id: "149216676095"
 event_url: https://www.eventbrite.com/e/149216676095
 feature: true
 active: true
-image: /images/uploads/5-across-august-eventbrite-1-.png
+image: /images/uploads/5ajulychase.png
 tags:
   - 5across
 ---
