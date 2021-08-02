@@ -23,13 +23,6 @@ items:
       and shows that you don't respect people's time"
     song: Billy Joel - We Didn't Start the Fire
     team: Co-Founder
-  - fact: I own and regularly drive a purple moped
-    img_path: /images/uploads/peterbriggs-wall.jpg
-    name: Peter Briggs
-    person: Neil Armstrong
-    rule: "Rule #26: don't let stupid things keep you from doing awesome things"
-    song: Who We Are - Imagine Dragons
-    team: Video
   - fact: I drive a Toyota Highlander...like a lot of other 45 year old women in
       Lexington
     img_path: /images/uploads/keithmcmunn-wall.jpg
@@ -59,21 +52,6 @@ items:
     rule: "Rule #17: Bring the fun!"
     song: Built to Last - Melee
     team: Fellowship/HoF
-  - fact: When I was a kid, I fell asleep while swinging on a swing set. I flew out
-      backwards and broke my arm
-    img_path: /images/uploads/loganjones-wall.jpg
-    name: Logan Jones
-    person: My dad
-    rule: "Rule #22: go big or don't be my friend"
-    song: Can't You See - Zac Brown Band & Kid Rock (Live Version)
-    team: Project Coordinator
-  - fact: I went to 3 colleges, lived in 2 different states and graduated in 4 years
-    img_path: /images/uploads/maggiecollofello-wall.jpg
-    name: Maggie Collofello
-    person: My mom
-    rule: "Rule #17: Bring the fun"
-    song: Don't Stop - Fleetwood Mac
-    team: Director of Workspace and Events
   - fact: I met my husband while running the Bourbon Chase
     img_path: /images/uploads/lbe-wall.jpeg
     name: Liz Brown Evans
@@ -88,13 +66,6 @@ items:
     rule: "Rule #4: Bring the fun"
     song: Ivory Road - King Charles
     team: Events & Marketing
-  - img_path: /images/uploads/khalid_final.png
-    name: "Khalid Rashad "
-    rule: "Rule #26: don't let stupid things keep you from doing awesome things"
-    song: "7 years - Lukas Graham "
-    person: "My mom "
-    fact: "My family is from Egypt "
-    team: "Events & Marketing "
   - img_path: /images/uploads/hannah_ebertsfinal.png
     name: "Hannah Eberts "
     rule: "Rule #38: whatever you're saying - stop...you're about to embarrass
@@ -103,3 +74,25 @@ items:
     person: My parents
     fact: "Obsessed with Perrier sparkling water "
     team: "Design "
+  - img_path: /images/uploads/john-doty.jpg
+    name: John Doty
+    rule: "Rule #4 always do something awesome over something not awesome"
+    song: Sleeping on my Dreams by Jacob Collier
+    person: Elle Doty
+    fact: I've moved about 3 times in the past year.
+    team: Development
+  - img_path: /images/uploads/jack-teegarden.jpg
+    name: Jack Teegarden
+    rule: "#45 If you can't make it rain, stay out of the desert... And don't expect
+      an invitation when I'm taking a trip across the Sahara"
+    song: Levitating (feat. DaBaby) Dua Lipa
+    person: Steve Jobs
+    fact: I live on my last name
+    team: Development
+  - img_path: /images/uploads/jason-harrison.jpg
+    name: Jason Harrison
+    rule: "#4 always do something awesome over something not awesome"
+    song: fancy clown by madvillain
+    person: Barack Obama
+    fact: i am a very very good bowler! hopefully can go to the PBA someday
+    team: Development
