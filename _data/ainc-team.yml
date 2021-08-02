@@ -13,8 +13,6 @@ items:
     name: Keith McMunn
   - img_path: /images/uploads/kyleraney-wall.jpg
     name: Kyle Raney
-  - img_path: /images/uploads/maggiecollofello-wall.jpg
-    name: Maggie Collofello
   - img_path: /images/uploads/mike-hilton.jpg
     name: Mike Hilton
   - img_path: /images/uploads/lizbrown-wall.jpg
@@ -23,15 +21,11 @@ items:
     name: Jacqueline Benson
   - img_path: /images/uploads/garrettfahrbach-wall.jpg
     name: Garrett Fahrbach
-  - img_path: /images/uploads/peterbriggs-wall.jpg
-    name: Peter Briggs
   - img_path: /images/uploads/stephenruh-wall.jpg
     name: Stephen Ruh
   - img_path: /images/uploads/ian_rios.jpg
     name: Ian Rios
   - img_path: /images/uploads/justin.jpg
     name: Justin Hall
-  - img_path: /images/uploads/jordan_weiter.jpg
-    name: Jordan Weiter
   - img_path: /images/uploads/kerek_plummer.jpg
     name: Kerek Plummer
