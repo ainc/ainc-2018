@@ -1,8 +1,8 @@
 ---
 title: Team Alpha Intern
-email: emily@awesomeinc.org
+email: garrett@awesomeinc.org
 team: Awesome Inc
-manager: Emily
+manager: Garrett
 time-commitment: part-time
 active: true
 apply_url: https://www.awesomeinc.org/internships
