@@ -3,7 +3,7 @@ layout: post
 title: How To Be A Good Friend To Your Creative Friends
 date: 2021-08-11T16:00:00.000Z
 header_img: /images/uploads/cam-and-jab-6.jpg
-author_img: /images/uploads/cam_sloss-2.jpeg
+author_img: /images/uploads/cam_sloss.jpeg
 author: Camden Sloss
 description: Tips from an entrepreneur for entrepreneurs and their friends.
 ---
