@@ -55,6 +55,21 @@
         }
       }
     }
+    #abs-form {
+      width: 33%;
+      left: 66%;
+      padding-top: 10%;
+      
+      .panel {
+        box-shadow: $brand-color2 0px 0px 3px 1px;
+        background-color: $brand-color2;
+        border: solid $brand-color2 1px;
+        color: white;
+      }
+      .form-control {
+        margin-bottom: 30px;
+      }
+    }
     .sub-text {
       margin-top: 5rem;
       padding-right: 10%;
