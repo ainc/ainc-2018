@@ -244,7 +244,7 @@ team: aincu
                     <td>{{ course.technologies | join: ", " }}</td>
                     <td>{{ course.program-begin-date | date: "%b %d" }} - {{ course.program-end-date | date: "%b %d" }}<br>{{ course.class_day }}<br>{{ course.time }}</td>
                     <td>Anyone looking to take their design skills up a level</td>
-                    <td><a href="{{ url }}" class="btn btn-default center" role="button">Details & Registration</a></td>
+                    <td><a href="{{ url }}" class="btn btn-default center" role="button"disabled>Registration Closed</a></td>
                   </tr>
                   {% endif %}
                   {% endfor %}
