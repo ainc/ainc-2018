@@ -11,6 +11,7 @@
     }
     @include screen-xs{
       background-position: 50%;
+      height: 200vw;
     }
     .lgx-heading-area {
       margin-top:20vh;
@@ -103,6 +104,9 @@
     .heading-title {
       @include font-size(30);
       margin-top: 15rem;
+      @include screen-xs {
+        margin-top: 5rem;
+      }
     }
     p {
       @include font-size(18);
