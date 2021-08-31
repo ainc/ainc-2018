@@ -81,18 +81,3 @@ items:
     person: Elle Doty
     fact: I've moved about 3 times in the past year.
     team: Development
-  - img_path: /images/uploads/jack-teegarden.jpg
-    name: Jack Teegarden
-    rule: "#45 If you can't make it rain, stay out of the desert... And don't expect
-      an invitation when I'm taking a trip across the Sahara"
-    song: Levitating (feat. DaBaby) Dua Lipa
-    person: Steve Jobs
-    fact: I live on my last name
-    team: Development
-  - img_path: /images/uploads/jason-harrison.jpg
-    name: Jason Harrison
-    rule: "#4 always do something awesome over something not awesome"
-    song: fancy clown by madvillain
-    person: Barack Obama
-    fact: i am a very very good bowler! hopefully can go to the PBA someday
-    team: Development
