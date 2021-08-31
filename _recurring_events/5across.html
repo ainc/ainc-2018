@@ -13,23 +13,11 @@ redirect_from:
   - 'events/5-acrossnew'
 subtitle: A Pitch Competition for Kentucky Entrepreneurs
 logo_path: '/images/5Across/5Across_Logo.png' 
-next_event_date: August 25, 2021
+next_event_date: October 6, 2021
 next_event_location: "Location: Lyric Theatre"
-next_event_title: 5 Across - August Edition
+next_event_title: 5 Across - October Edition
 ---
 
-<!--
-  TODO:
-  Font at top needs to be larger
-  Buttons at top need to be rounder
-  Icons need work
-  Need video/picture for background
-  Red button needs to be lighter
-  Implement past winners section
-    - Need full info for events, picture of most recent winner
-    - Text styling
-  Slideshow section
--->
 
 {% assign next_event = site.events | sort: "date" | where: "tags", "5across" | limit: 1 | where_exp: "event", "event.date > site.time" %}
 
@@ -159,9 +147,9 @@ next_event_title: 5 Across - August Edition
         <p>our most recent winner</p>
         <div class="box">
           <div class="box-inner">
-            <img src="/assets/img/5-across/recent-winner-level-up.jpg" style="object-fit: cover;" />
+            <img src="/assets/img/5-across/recent-winner-after-life.jpg" style="object-fit: cover;" />
             <div class="details">
-              <h1>Mentor Vet</h1>
+              <h1>The AfterLife Company</h1>
               <h2>Kentucky</h2>
               <div class="youtube">
                 <img src="/images/5Across/5Across_Logo.png" />
