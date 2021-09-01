@@ -10,15 +10,11 @@ description: 7 qualities to aspire towards so that YOU can become the rare
 ---
 Thought by some to be one of the most important documents to come out of Silicon Valley, the **[Netflix Culture Deck](https://www.slideshare.net/reed2001/culture-1798664)** lives up to its hype. When I finally got my eyes on it, I couldn’t stop myself from consuming each slide as it candidly described the type of person who would work well in their fast-paced, innovative work culture. One simple slide with only seven bullet points stood out as the most important. It highlighted the 7 qualities of the “rare responsible person.” 
 
-
-
 In just seven bullet points, Netflix gifted the startup world with a quick and practical way to filter talent. I recommend that all startups make time in their hiring interviews to be sure an applicant possesses the 7 qualities before making an offer. 
 
 Conversely, I encourage all talent to take becoming a rare responsible person seriously as they seek to join a fast-paced team. Below are the seven qualities and the first steps you can take in becoming each one. Good luck.
 
 **The 7 qualities are:** 
-
-
 
 1. Self motivating
 2. Self aware
@@ -28,11 +24,7 @@ Conversely, I encourage all talent to take becoming a rare responsible person se
 6. Doesn’t wait to be told what to do
 7. Picks up trash lying on the floor
 
-
-
 First Steps to Exemplify
-
-
 
 1. **Self motivating**
 
@@ -41,7 +33,7 @@ You are a unique person with your own history and experiences. Spend time with t
 * Write down one answer to, **“what is a significant childhood memory that I have.”**  Then write down one answer to, **“what am I most proud of myself for accomplishing in recent years?”** Spend time linking the answers of the two questions and you may discover something that has been an important force in your whole life, even if under the surface.
 * Take tests like the StrengthsFinders, Myers Briggs, or Enneagram assessment tests. Blow your mind by taking them and studying the results through **[Cloverleaf](http://cloverleaf.me)**, an Awesome Fellowship company that helps people and teams be their best selves. 
 
-1. **Self aware**
+2. **Self aware**
 
 There are two important types of self-awareness. Internal self-awareness represents how clearly we see ourselves. External self-awareness is understanding how others view us. Spend some time thinking about undeniable strengths that you have and ask yourself what behavior tends to come out of you when you’re not completely comfortable. Write these down and ask some of your closest, most trusted friends to jot down a list about you too. Compare the list and talk about them.
 
@@ -64,7 +56,5 @@ If anybody is a bad fit for a startup or small team, it’s the person that wait
 7. **Picks up trash lying on the floor**
 
 Perhaps the most important for last, the person that picks up trash lying on the ground doesn’t do it because they have the time to or because they have the healthiest back to bend down to the floor. This person does this because they’ve continually strengthened the hardest muscle to strengthen, which is to remain humble as they’ve amassed power. They understand that small behaviors can make huge differences in their teams and in their own minds. Go pick up some trash. Literally. Bonus points if nobody sees you doing it.
-
- 
 
 Go forth and become (and hire) rare responsible people.
