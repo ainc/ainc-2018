@@ -6,7 +6,7 @@ event_url: https://www.eventbrite.com/e/168969902527
 feature: true
 active: true
 location: Lyric Theatre
-image: /images/uploads/5-across-1.jpg
+image: /images/uploads/51412588487_9822deed9d_k.jpg
 tags:
   - 5across
   - ""
