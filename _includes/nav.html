@@ -70,7 +70,9 @@
                           <li><a href="{{ site.data.routes.events }}">Events</a></li>
                         </ul>
                       </li>
-                      <!-- <li class="hidden-xs"><a href="#toggle-search" class="search-animate"><span class="glyphicon glyphicon-search"></span></a></li> -->
+                      {% if page.url == "/bootcamp" %}
+                        <a class="lgx-btn lgx-btn-small-text sticky-button absolute-child" href="/bootcamp/apply">Apply Now</a> 
+                      {% endif %}
                     </ul>
                   </div>
                   <!--/.nav-collapse -->
@@ -83,3 +85,6 @@
     </div><!-- //.CONTAINER -->
   </div><!-- //.INNER-->
 </div>
+{% if page.url == "/bootcamp" %}
+  <a class="lgx-btn lgx-btn-small-text sticky-button absolute-child mobile-only lgx-btn-sm" href="/bootcamp/apply">Apply Now</a> 
+{% endif %}

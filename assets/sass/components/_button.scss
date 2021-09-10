@@ -164,3 +164,38 @@ table .lgx-btn-sm {
 .lgx-btn-font-light {
   font-weight: 200;
 }
+
+.sticky-button {
+  &.absolute-child {
+    top: 4px;
+    left: 70px;
+    z-index: 999;
+    @include screen-xs {
+      display: none;
+    }
+    @include screen-sm {
+      display: none;
+    }
+    @include screen-md {
+      display: none;
+    }
+    &.mobile-only {
+      display: none;
+      top: 120px;
+      left: 25%;
+      @include screen-xs { 
+        display: inline-block;
+        position: fixed;
+      }
+      @include screen-md {
+        display: inline-block;
+        position: fixed;
+        left: 75%;
+      }
+      @include screen-sm {
+        display: inline-block;
+        position: fixed;
+      }
+    }
+  }
+}
