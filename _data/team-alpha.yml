@@ -81,3 +81,11 @@ items:
     person: Elle Doty
     fact: I've moved about 3 times in the past year.
     team: Development
+  - img_path: /images/uploads/headshot-1.jpg
+    name: Mallory Quisenberry
+    rule: "Rule #22: Go big or don't be my friend"
+    song: '"Ice Ice Baby" by Vanilla Ice'
+    person: My grandmother
+    fact: Before I moved to Lexington I taught dance to kids ages kindergarten -
+      middle school
+    team: Events and Marketing
