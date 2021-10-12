@@ -1,7 +1,7 @@
 ---
-company: Unitonomy
+company: OrgVitals
 date: Aug 14th 20
-logo: /images/uploads/unitonomy-logo.png
-website: https://unitonomy.com
+logo: /images/uploads/orgvitals-logo.png
+website: https://www.orgvitals.com/
 ---
-Unitonomy products help companies change their culture by augmenting internal communication. Visit Unitonomy.com for more info.
+OrgVitals provides data analysis for transformational leaders who need to strategically improve employee retention, equity, and engagement.
