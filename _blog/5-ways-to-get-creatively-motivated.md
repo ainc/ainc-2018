@@ -3,7 +3,7 @@ layout: post
 title: 5 Ways To Get Creatively Motivated
 date: 2021-09-15T14:00:17.744Z
 header_img: /images/uploads/51351854134_648b62403e_k.jpg
-author_img: /images/uploads/jacqueline-benson-2.jpg
+author_img: /images/uploads/jacquelinebenson-wall.jpg
 author: Jacqueline Benson
 description: Motivation and I have a love-hate relationship. Here are a few
   tricks I use to keep things fresh.
