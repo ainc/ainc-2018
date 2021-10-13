@@ -2,7 +2,7 @@
 layout: post
 title: You Can Run A 4-Minute Mile
 date: 2021-10-14T16:00:18.269Z
-header_img: /images/uploads/ainc_stock_photo-49.jpg
+header_img: /images/uploads/img_2574.jpg
 author_img: /images/uploads/lizbrown-wall.jpg
 author: Liz Brown Evans
 tags: []
