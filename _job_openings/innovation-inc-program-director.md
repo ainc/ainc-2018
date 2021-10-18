@@ -7,7 +7,7 @@ time-commitment: Full-time
 active: true
 priority: 1
 ---
-### Innovation Inc, LLC was launched in 2019 and has quickly established itself as a driver of corporation innovation in the state of Kentucky and beyond.  Built on the idea of using entrepreneurial principles to drive innovation in established organizations, we focus on creating long-lasting cultures built around efficiently developing new ideas in an organized way.  We’re raising the innovative tide across the region and empowering the region’s workforce to think, act, and work more nimbly.
+Innovation Inc, LLC was launched in 2019 and has quickly established itself as a driver of corporation innovation in the state of Kentucky and beyond.  Built on the idea of using entrepreneurial principles to drive innovation in established organizations, we focus on creating long-lasting cultures built around efficiently developing new ideas in an organized way.  We’re raising the innovative tide across the region and empowering the region’s workforce to think, act, and work more nimbly.
 
 We’re seeking a talented, experienced, strategic, and entrepreneurial individual to grow Innovation Inc.  This person will use the resources at their disposal to develop and executive a strategic plan for growth, identify opportunities for community partnership, develop and execute a sales pipeline, and work with teammates to design and ensure execution of client programs.
 
@@ -39,8 +39,6 @@ We’re seeking a talented, experienced, strategic, and entrepreneurial individu
 * Highly organized with ability to multitask, collaborate, problem solve, and meet deadlines
 * Strong Google Docs game (Sheets, docs, slides, etc)
 
-
-
 Salary based on experience
 
 Unlimited PTO
@@ -48,7 +46,5 @@ Unlimited PTO
 Free parking downtown Lexington
 
 Position reports to the CEO
-
-
 
 Application Deadline: November 12, 2021
