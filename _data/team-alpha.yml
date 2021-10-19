@@ -118,3 +118,10 @@ items:
     person: Ted Lasso
     fact: I'm writing a fantasy novel series
     team: Space
+  - img_path: /images/uploads/1613422080210.jpg
+    name: Taylore Latham
+    rule: "Rule #22: Go big or don't be my friend"
+    song: '"Dreams" by Fleetwood Mac'
+    person: My grandmother or Taylor Swift
+    fact: I can tell you what year each Disney animated movie was released
+    team: Development
