@@ -74,14 +74,7 @@ items:
     person: My parents
     fact: "Obsessed with Perrier sparkling water "
     team: "Design "
-  - img_path: /images/uploads/john-doty.jpg
-    name: John Doty
-    rule: "Rule #4 always do something awesome over something not awesome"
-    song: Sleeping on my Dreams by Jacob Collier
-    person: Elle Doty
-    fact: I've moved about 3 times in the past year.
-    team: Development
-  - img_path: /images/uploads/headshot-1.jpg
+  - img_path: /images/uploads/headshots_sqaure-1.jpg
     name: Mallory Quisenberry
     rule: "Rule #22: Go big or don't be my friend"
     song: '"Ice Ice Baby" by Vanilla Ice'
