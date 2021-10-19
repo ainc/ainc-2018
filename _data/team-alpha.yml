@@ -96,3 +96,11 @@ items:
     person: Ted Lasso
     fact: I'm writing a fantasy novel series
     team: Space
+  - img_path: /images/uploads/kevin_mansur-cropped.jpg
+    name: Kevin Mansur
+    rule: "Rule #17: Bring the FUN"
+    song: '"Remember When it Rained" by Josh Groban'
+    person: Mark Cuban
+    fact: I love pens. I'd like to say that I have a decent collection for someone
+      my age.
+    team: Space
