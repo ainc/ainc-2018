@@ -74,6 +74,13 @@ items:
     fact: I love pens. I'd like to say that I have a decent collection for someone
       my age.
     team: Space
+  - img_path: /images/uploads/noah-wilcox-cropped.jpg
+    name: Noah Wilcox
+    rule: "Rule #4: Always do something awesome over something not awesome"
+    song: '"Fight Alone" by Mills'
+    person: Peter McKinnon
+    fact: I made a Tik Tok video that got over a million views
+    team: "Video "
   - img_path: /images/uploads/hannah_ebertsfinal.png
     name: "Hannah Eberts "
     rule: "Rule #38: whatever you're saying - stop...you're about to embarrass
@@ -111,10 +118,3 @@ items:
     person: Ted Lasso
     fact: I'm writing a fantasy novel series
     team: Space
-  - img_path: /images/uploads/noah-wilcox-cropped.jpg
-    name: Noah Wilcox
-    rule: "Rule #4: Always do something awesome over something not awesome"
-    song: '"Fight Alone" by Mills'
-    person: Peter McKinnon
-    fact: I made a Tik Tok video that got over a million views
-    team: "Video "
