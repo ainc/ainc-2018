@@ -111,3 +111,10 @@ items:
     person: Ted Lasso
     fact: I'm writing a fantasy novel series
     team: Space
+  - img_path: /images/uploads/noah-wilcox-cropped.jpg
+    name: Noah Wilcox
+    rule: "Rule #4: Always do something awesome over something not awesome"
+    song: '"Fight Alone" by Mills'
+    person: Peter McKinnon
+    fact: I made a Tik Tok video that got over a million views
+    team: "Video "
