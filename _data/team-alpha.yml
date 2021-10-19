@@ -66,21 +66,6 @@ items:
     rule: "Rule #4: Bring the fun"
     song: '"Ivory Road" by King Charles'
     team: Events & Marketing
-  - img_path: /images/uploads/kevin_mansur-cropped.jpg
-    name: Kevin Mansur
-    rule: "Rule #17: Bring the FUN"
-    song: '"Remember When it Rained" by Josh Groban'
-    person: Mark Cuban
-    fact: I love pens. I'd like to say that I have a decent collection for someone
-      my age.
-    team: Space
-  - img_path: /images/uploads/noah-wilcox-cropped.jpg
-    name: Noah Wilcox
-    rule: "Rule #4: Always do something awesome over something not awesome"
-    song: '"Fight Alone" by Mills'
-    person: Peter McKinnon
-    fact: I made a Tik Tok video that got over a million views
-    team: "Video "
   - img_path: /images/uploads/hannah_ebertsfinal.png
     name: "Hannah Eberts "
     rule: "Rule #38: whatever you're saying - stop...you're about to embarrass
@@ -96,6 +81,21 @@ items:
     person: Garrett, duh.
     fact: I have one of the best vintage Toy Story clothing collections in the world.
     team: Events & Marketing
+  - img_path: /images/uploads/noah-wilcox-cropped.jpg
+    name: Noah Wilcox
+    rule: "Rule #4: Always do something awesome over something not awesome"
+    song: '"Fight Alone" by Mills'
+    person: Peter McKinnon
+    fact: I made a Tik Tok video that got over a million views
+    team: "Video "
+  - img_path: /images/uploads/kevin_mansur-cropped.jpg
+    name: Kevin Mansur
+    rule: "Rule #17: Bring the FUN"
+    song: '"Remember When it Rained" by Josh Groban'
+    person: Mark Cuban
+    fact: I love pens. I'd like to say that I have a decent collection for someone
+      my age.
+    team: Space
   - img_path: /images/uploads/headshots_sqaure-1.jpg
     name: Mallory Quisenberry
     rule: "Rule #22: Go big or don't be my friend"
