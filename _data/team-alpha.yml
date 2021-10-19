@@ -66,6 +66,14 @@ items:
     rule: "Rule #4: Bring the fun"
     song: '"Ivory Road" by King Charles'
     team: Events & Marketing
+  - img_path: /images/uploads/kevin_mansur-cropped.jpg
+    name: Kevin Mansur
+    rule: "Rule #17: Bring the FUN"
+    song: '"Remember When it Rained" by Josh Groban'
+    person: Mark Cuban
+    fact: I love pens. I'd like to say that I have a decent collection for someone
+      my age.
+    team: Space
   - img_path: /images/uploads/hannah_ebertsfinal.png
     name: "Hannah Eberts "
     rule: "Rule #38: whatever you're saying - stop...you're about to embarrass
@@ -96,11 +104,10 @@ items:
     person: Ted Lasso
     fact: I'm writing a fantasy novel series
     team: Space
-  - img_path: /images/uploads/kevin_mansur-cropped.jpg
-    name: Kevin Mansur
-    rule: "Rule #17: Bring the FUN"
-    song: '"Remember When it Rained" by Josh Groban'
-    person: Mark Cuban
-    fact: I love pens. I'd like to say that I have a decent collection for someone
-      my age.
-    team: Space
+  - img_path: /images/uploads/cam_sloss-cropped.jpg
+    name: Cam Sloss
+    rule: "Rule #26: Don't let stupid things keep you from doing awesome things"
+    song: '"Let the Ground Rest" by Chris Renzema'
+    person: Garrett, duh.
+    fact: I have one of the best vintage Toy Story clothing collections in the world.
+    team: Events & Marketing
