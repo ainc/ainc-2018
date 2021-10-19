@@ -4,15 +4,15 @@ items:
     name: Brian Raney
     person: Truett Cathy
     rule: "Rule #4: Always do something awesome over something not awesome"
-    song: The Thing
-    team: Co-Founder
+    song: '*The Thing* aka "Fix You" by Coldplay'
+    team: Co-Founder, CEO
   - fact: I have a twin sister that was born exactly 2 years and 4 days before me
     img_path: /images/uploads/emilywehrle-wall.jpg
     name: Emily Wehrle
     person: C.S. Lewis
     rule: "Rule #38: whatever you're saying - stop...you're about to embarrass
       yourself"
-    song: Farther Along - Josh Garrels
+    song: '"Farther Along" by Josh Garrels'
     team: Director of Operations
   - fact: In college, I was an international race car driver
     img_path: /images/uploads/nicksuch-wall.jpg
@@ -21,56 +21,56 @@ items:
     rule: "Rule #10: 2-3 minutes late is okay, it shows that you are punctual but
       important enough to have other stuff going on. 5-6 minutes late is rude
       and shows that you don't respect people's time"
-    song: Billy Joel - We Didn't Start the Fire
-    team: Co-Founder
+    song: "\"We Didn't Start the Fire\" by Billy Joel"
+    team: Co-Founder, Awesome Inc U Director
   - fact: I drive a Toyota Highlander...like a lot of other 45 year old women in
       Lexington
     img_path: /images/uploads/keithmcmunn-wall.jpg
     name: Keith McMunn
     person: Jerry Seinfeld
     rule: "Rule #17: Bring the fun!"
-    song: Menswear - The 1975
+    song: '"Menswear" by The 1975'
     team: Fellowship Director
   - fact: I sold beef jerky and healthy snacks for a living
     img_path: /images/uploads/kyleraney-wall.jpg
     name: Kyle Raney
     person: Bob Goff
     rule: "Rule #76: No excuses, play like a champion"
-    song: Safe and Sound - Capital Cities
+    song: '"Safe and Sound" by Capital Cities'
     team: Development
   - fact: I can wiggle my ears
     img_path: /images/uploads/jacquelinebenson-wall.jpg
     name: Jacqueline Benson
     person: Martha Stewart
     rule: "Rule #17: bring the fun!"
-    song: Stand By Me - Ben E. King
+    song: '"Stand By Me" by Ben E. King'
     team: Design
   - fact: I'm addicted to gum, but in a healthy manner
     img_path: /images/uploads/garrettfahrbach-wall.jpg
     name: Garrett Fahrbach
     person: Nigel Hendroff
     rule: "Rule #17: Bring the fun!"
-    song: Built to Last - Melee
-    team: Fellowship/HoF
+    song: '"Built to Last" by Melee'
+    team: Fellowship & KEHOF
   - fact: I met my husband while running the Bourbon Chase
     img_path: /images/uploads/lbe-wall.jpeg
     name: Liz Brown Evans
     person: My husband Eric or Dolly Parton
     rule: "Rule #34"
-    song: Time - John Lucas
-    team: Marketing
+    song: '"Time" by John Lucas'
+    team: Events & Marketing
   - fact: I’m the best in the world at catching food in my mouth
     img_path: /images/uploads/stephenruh-wall.jpg
     name: Stephen Ruh
     person: My wife Liz
     rule: "Rule #4: Bring the fun"
-    song: Ivory Road - King Charles
+    song: '"Ivory Road" by King Charles'
     team: Events & Marketing
   - img_path: /images/uploads/hannah_ebertsfinal.png
     name: "Hannah Eberts "
     rule: "Rule #38: whatever you're saying - stop...you're about to embarrass
       yourself "
-    song: Fighting for me - Riley Clemmons
+    song: '"Fighting For Me" by Riley Clemmons'
     person: My parents
     fact: "Obsessed with Perrier sparkling water "
     team: "Design "
@@ -82,3 +82,10 @@ items:
     fact: Before I moved to Lexington I taught dance to kids ages kindergarten -
       middle school
     team: Events and Marketing
+  - img_path: /images/uploads/headshots_sqaure-2.jpg
+    name: Kellen Casey
+    rule: "Rule #76: No excuses, play like a champion"
+    song: n/a
+    person: n/a
+    fact: n/a
+    team: Development
