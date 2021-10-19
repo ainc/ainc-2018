@@ -82,6 +82,13 @@ items:
     person: My parents
     fact: "Obsessed with Perrier sparkling water "
     team: "Design "
+  - img_path: /images/uploads/cam_sloss-cropped.jpg
+    name: Cam Sloss
+    rule: "Rule #26: Don't let stupid things keep you from doing awesome things"
+    song: '"Let the Ground Rest" by Chris Renzema'
+    person: Garrett, duh.
+    fact: I have one of the best vintage Toy Story clothing collections in the world.
+    team: Events & Marketing
   - img_path: /images/uploads/headshots_sqaure-1.jpg
     name: Mallory Quisenberry
     rule: "Rule #22: Go big or don't be my friend"
@@ -104,10 +111,3 @@ items:
     person: Ted Lasso
     fact: I'm writing a fantasy novel series
     team: Space
-  - img_path: /images/uploads/cam_sloss-cropped.jpg
-    name: Cam Sloss
-    rule: "Rule #26: Don't let stupid things keep you from doing awesome things"
-    song: '"Let the Ground Rest" by Chris Renzema'
-    person: Garrett, duh.
-    fact: I have one of the best vintage Toy Story clothing collections in the world.
-    team: Events & Marketing
