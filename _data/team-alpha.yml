@@ -89,3 +89,10 @@ items:
     person: Jackie Robinson
     fact: I can do a minute long handstand
     team: Development
+  - img_path: /images/uploads/headshots_sqaure-3.jpg
+    name: Conner Jones
+    rule: "Rule #26: Don't let stupid things keep you from doing awesome things"
+    song: '"Broken Boy" by Cage the Elephant'
+    person: Ted Lasso
+    fact: I'm writing a fantasy novel series
+    team: Space
