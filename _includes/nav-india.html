@@ -1,0 +1,48 @@
+<!-- Main navigational bar for pages -->
+
+<div id="lgx-header" class="lgx-header"> <!--lgx-header-container lgx-header-container-white lgx-header-container-brand lgx-header-singlemenu-->
+  
+  <div class="lgx-header-bottom lgx-header-bottom-fixed-black lgx-header-bottom-scrol-black"> <!--lgx-header-bottom-black lgx-header-bottom-brand--><!--lgx-header-bottom-fixed lgx-header-bottom-fixed-black lgx-header-bottom-fixed-brand lgx-header-bottom-fixed-transparent--><!--lgx-header-bottom-scrol-black lgx-header-bottom-scrol-brand-->
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-xs-12">
+          <nav class="navbar navbar-default lgx-navbar navbar-static-top">
+            <div class="container">
+              <nav class="navbar navbar-default lgx-navbar lgx-navbar-search">
+                <div class="lgxcontainer">
+                  <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse"
+                        data-target=".navbar-collapse">
+                      <span class="sr-only">Toggle navigation</span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                    </button>
+                    <!-- <a href="#toggle-search" class="hidden-lg hidden-md hidden-sm lgx-search-mobile search-animate"><span class="glyphicon glyphicon-search"></span></a> -->
+                    <div class="lgx-logo">
+                      <a href="/" class="lgx-scroll">
+                        <img src="/images/logos/ainc-logo-horizontal-white-text.png" alt="Awesome Inc Logo" class="img-responsive inline-block"/>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav lgx-nav">
+                      
+                      <li>
+                        <a href="{{ site.data.routes.about }}" aria-haspopup="true" aria-expanded="false">About</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <!--/.nav-collapse -->
+                </div>
+              </nav>
+            </div><!-- /.container -->
+          </nav>
+        </div><!-- COL-XS-12 -->
+      </div><!--//.ROW-->
+    </div><!-- //.CONTAINER -->
+  </div><!-- //.INNER-->
+</div>
+{% if page.url == "/bootcamp" %}
+  <a class="lgx-btn lgx-btn-small-text sticky-button absolute-child mobile-only lgx-btn-sm" href="/bootcamp/apply">Apply Now</a> 
+{% endif %}

@@ -132,3 +132,14 @@
 .panel * {
 	position: relative;
 }
+
+.panel-brand {
+	.panel-heading {
+		background-color: $brand-color;
+		text-transform: uppercase;
+		h4 {
+			color: white;
+		}
+	}
+	
+}
