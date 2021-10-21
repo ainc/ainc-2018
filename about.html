@@ -158,24 +158,31 @@ redirect_from:
         </div>
         <div class="row seven-cols">
           <div class="col-xs-12 col-sm-10 col-sm-offset-1">
-            {% for member in site.data.ainc-team.items %}
-            <div class="col-xs-6 col-md-1 lgx-single-item team-member">
-              <figure>
-                <img 
-                {% if member.img_path %}
-                  src="{{ member.img_path }}"
-                {% else %}
-                  src="/images/teamalpha/{{ member.name | remove: ' ' | downcase | default: 'placeholder' }}-wall.jpg" 
-                {% endif %}
-                  alt="Awesome Inc team member, {{ member.name }}" 
-                />
-                <figcaption>
-                  <div class="name-hover">
-                    <h6 class="lgx-vertical">{{ member.name | truncatewords: 1, "" }}</h6>
-                  </div>
-                </figcaption>
-              </figure>
-            </div>
+          {% for member in site.data.ainc-team.items %}
+            {% assign mod = forloop.index | modulo: 7 %}
+            {% if mod == 0 %}
+            <div class="row">
+            {% endif %}
+              <div class="col-xs-6 col-md-1 lgx-single-item team-member">
+                <figure>
+                  <img 
+                  {% if member.img_path %}
+                    src="{{ member.img_path }}"
+                  {% else %}
+                    src="/images/teamalpha/{{ member.name | remove: ' ' | downcase | default: 'placeholder' }}-wall.jpg" 
+                  {% endif %}
+                    alt="Awesome Inc team member, {{ member.name }}" 
+                  />
+                  <figcaption>
+                    <div class="name-hover">
+                      <h6 class="lgx-vertical">{{ member.name | truncatewords: 1, "" }}</h6>
+                    </div>
+                  </figcaption>
+                </figure>
+              </div> <!-- col -->
+              {% if mod == 0 %}
+            </div> <!-- row -->
+            {% endif %}
             {% endfor %}
           </div>
         </div> <!-- row -->
