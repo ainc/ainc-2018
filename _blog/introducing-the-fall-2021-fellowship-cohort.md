@@ -34,7 +34,7 @@ Does the rockstar attorney in your life use Legal Gantt? If not, refer them to [
 
 - - -
 
-[Pav*r](https://getpavr.com/) - The path to productivity. Pav*r provides a way to create and produce insights & analytics from your calendar data.
+[Pavr](https://getpavr.com/) - The path to productivity. Pavr provides a way to create and produce insights & analytics from your calendar data.
 
 * Founders - [Jessica Bledsoe](https://www.linkedin.com/in/jessbledsoe) and [Adam Bledsoe](https://www.linkedin.com/in/adam-bledsoe-87773168)
 
