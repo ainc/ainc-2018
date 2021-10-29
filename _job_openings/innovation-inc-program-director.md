@@ -5,6 +5,7 @@ team: Innovation Inc
 manager: Brian
 time-commitment: Full-time
 active: true
+apply_url: https://docs.google.com/forms/d/e/1FAIpQLScT3wjsKOl8vqQ5q2YEByrIKohWi6c58z5c3mdNk-Oxc4Cabw/viewform?usp=sf_link
 priority: 1
 ---
 Innovation Inc, LLC was launched in 2019 and has quickly established itself as a driver of corporation innovation in the state of Kentucky and beyond.  Built on the idea of using entrepreneurial principles to drive innovation in established organizations, we focus on creating long-lasting cultures built around efficiently developing new ideas in an organized way.  We’re raising the innovative tide across the region and empowering the region’s workforce to think, act, and work more nimbly.
