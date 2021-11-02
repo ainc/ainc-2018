@@ -1,7 +1,7 @@
 ---
 title: Career Coach
 email: learn@awesomeinc.org
-team: Awesome Inc
+team: Awesome Inc U
 manager: Nick
 time-commitment: part-time
 active: false
