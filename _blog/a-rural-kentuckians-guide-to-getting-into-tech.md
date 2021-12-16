@@ -12,8 +12,7 @@ tags:
   - guide
   - blog
   - story
-description: "From cattle farm to college: The story of one girl's journey with
-  technology and how you can become tech savvy, too."
+description: "From cattle farm to college: The story of one girl's journey with technology."
 ---
 Four years ago, if you told me I’d be doing marketing at a tech and entrepreneurship hub in the heart of Lexington, I wouldn’t have believed you. My name is Mallory and I’m an intern at Awesome Inc.
 
