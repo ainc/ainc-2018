@@ -37,7 +37,7 @@ items:
     github: https://github.com/GrantHarris1
     linkedin: https://www.linkedin.com/in/1grantharris1/
     img_path: grant-harris
-    position: null
+    position: BlueFrame
     cohort: f21
   -
     name: Robin Kelsick
@@ -69,7 +69,7 @@ items:
     github: https://github.com/achaseshelton
     linkedin: https://www.linkedin.com/in/chase-shelton/
     img_path: chase-shelton
-    position: null
+    position: Lightwell
     cohort: f21
   -
     name: Justin Smith
@@ -85,7 +85,7 @@ items:
     github: https://github.com/TylerVanNostrand
     linkedin: https://www.linkedin.com/in/tyler-van-nostrand/
     img_path: tyler-vannostrand
-    position: null
+    position: TwinSpires
     cohort: f21
   -
     name: Troy Wagoner
@@ -93,7 +93,7 @@ items:
     github: https://github.com/Troyallen98
     linkedin: https://www.linkedin.com/in/troy-wagoner/
     img_path: troy-wagoner
-    position: null
+    position: Lightwell
     cohort: f21
   -
     name: Tony Watson
