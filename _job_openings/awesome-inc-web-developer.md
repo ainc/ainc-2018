@@ -1,6 +1,6 @@
 ---
 title: Awesome Inc Web Developer
-email: careers@awesomeinc.org
+email: learn@awesomeinc.org
 team: Awesome Inc
 manager: Kyle
 time-commitment: Part-time
