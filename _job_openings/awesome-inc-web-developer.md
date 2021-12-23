@@ -1,5 +1,5 @@
 ---
-title: Awesome Inc Web Developer
+title: Awesome Inc Web Developer (Jr / Mid)
 email: learn@awesomeinc.org
 team: Awesome Inc
 manager: Kyle
