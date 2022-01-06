@@ -25,15 +25,15 @@ Our Demo Days have looked different over the past couple of years, but this even
 Thirteen students, now developers, presented at Demo Day. Here’s the crew:
 
 ### Jia-Yi Chen
+
 ![Jia-Yi Chen](/images/uploads/jia-yi-chen.jpg){:width='250'}
 
 noteboard - A simple note-making and sharing app.
 
-* [Watch Jia-Yi Chen explain how noteboard works]()
+* [Watch Jia-Yi Chen introduce noteboard](https://www.youtube.com/watch?v=E0zSQVjhSa0&t=561s)
 * [Try noteboard live](https://noteboard-fp.web.app/)
 * [Jia-Yi Chen on GitHub](https://https://github.com/jiayichen0)
 * [Jia-Yi Chen on LinkedIn](https://https://www.linkedin.com/in/jiayijchen/)
-
 
 ### Michael Chinn
 
@@ -41,11 +41,10 @@ noteboard - A simple note-making and sharing app.
 
 Character Creator - An interface for creating game characters.
 
-* [Watch Michael Chinn explain how Character Creator works]()
+* [Watch Michael Chinn introduce Character Creator](https://www.youtube.com/watch?v=E0zSQVjhSa0&t=740s)
 * [Try Character Creator live](https://character-creator-89e67.web.app/)
 * [Michael Chinn on GitHub](https://https://github.com/michaelschinn)
 * [Michael Chinn on LinkedIn](https://)
-
 
 ### Keith Downing
 
@@ -53,11 +52,10 @@ Character Creator - An interface for creating game characters.
 
 PGA Golf Pool - Easy to use PGA Golf Pool to play with friends/family
 
-* [Watch Keith Downing explain how PGA Golf Pool works]()
+* [Watch Keith Downing introduce PGA Golf Pool](https://www.youtube.com/watch?v=E0zSQVjhSa0&t=1048s)
 * [Try PGA Golf Pool live](https://golfpgapool.web.app/)
 * [Keith Downing on GitHub](https://https://github.com/kadowning1)
 * [Keith Downing on LinkedIn](https://https://www.linkedin.com/in/kadowning1/)
-
 
 ### Ticia Dunn
 
@@ -65,35 +63,32 @@ PGA Golf Pool - Easy to use PGA Golf Pool to play with friends/family
 
 QuizGo - Play randomly generated trivia games and make your own trivia game
 
-* [Watch Ticia Dunn explain how QuizGo works]()
+* [Watch Ticia Dunn introduce QuizGo](https://www.youtube.com/watch?v=E0zSQVjhSa0&t=1167s)
 * [Try QuizGo live](https://quizgo-quiz-app.web.app/)
 * [Ticia Dunn on GitHub](https://https://github.com/TiciaD)
 * [Ticia Dunn on LinkedIn](https://https://www.linkedin.com/in/ticia-dunn/)
-
 
 ### Grant Harris
 
 ![Grant Harris](/images/uploads/grant-harris.jpg){:width='250'}
 
-Road To University - This is a an in-house app for field employees to order materials.
+The Shop. - This is a an in-house app for field employees to order materials.
 
-* [Watch Grant Harris explain how Road To University works]()
-* [Try Road To University live](https://road-to-university.web.app/)
+* [Watch Grant Harris introduce The Shop.](https://www.youtube.com/watch?v=E0zSQVjhSa0&t=1332s)
+* [Try The Shop. live](https://road-to-university.web.app/)
 * [Grant Harris on GitHub](https://https://github.com/GrantHarris1)
 * [Grant Harris on LinkedIn](https://https://www.linkedin.com/in/1grantharris1/)
-
 
 ### Robin Kelsick
 
 ![Robin Kelsick](/images/uploads/robin-kelsick.jpg){:width='250'}
 
-The Shop. - Find the college that best suits you.
+Road To University - Find the college that best suits you.
 
-* [Watch Robin Kelsick explain how The Shop. works]()
-* [Try The Shop. live](https://the-shop-app-f2eea.web.app)
+* [Watch Robin Kelsick introduce Road To University](https://www.youtube.com/watch?v=E0zSQVjhSa0&t=1455s)
+* [Try Road To University live](https://the-shop-app-f2eea.web.app)
 * [Robin Kelsick on GitHub](https://https://github.com/robinkelsickii)
 * [Robin Kelsick on LinkedIn](https://https://www.linkedin.com/in/robin-kelsick-ii/)
-
 
 ### Kole Kendrick
 
@@ -101,11 +96,10 @@ The Shop. - Find the college that best suits you.
 
 MyLiberry - A collection of best seller books and where you can buy them
 
-* [Watch Kole Kendrick explain how MyLiberry works]()
+* [Watch Kole Kendrick introduce MyLiberry](https://www.youtube.com/watch?v=E0zSQVjhSa0&t=1628s)
 * [Try MyLiberry live](https://library-9b5f5.web.app/)
 * [Kole Kendrick on GitHub](https://https://github.com/ViktorKKendrick)
 * [Kole Kendrick on LinkedIn](https://https://www.linkedin.com/in/kole-kendrick-4b0071225/)
-
 
 ### Andrew Mills
 
@@ -113,11 +107,10 @@ MyLiberry - A collection of best seller books and where you can buy them
 
 The Original SEC Draft League - A fantasy sports site for SEC college basketball.
 
-* [Watch Andrew Mills explain how The Original SEC Draft League works]()
+* [Watch Andrew Mills introduce The Original SEC Draft League](https://www.youtube.com/watch?v=E0zSQVjhSa0&t=1761s)
 * [Try The Original SEC Draft League live](https://secdraftleague.web.app/)
 * [Andrew Mills on GitHub](https://https://github.com/amills25)
 * [Andrew Mills on LinkedIn](https://https://www.linkedin.com/in/amills25/)
-
 
 ### Chase Shelton
 
@@ -125,11 +118,10 @@ The Original SEC Draft League - A fantasy sports site for SEC college basketball
 
 LetsEat - A restaurant search tool.
 
-* [Watch Chase Shelton explain how LetsEat works]()
+* [Watch Chase Shelton introduce LetsEat](https://www.youtube.com/watch?v=E0zSQVjhSa0&t=432s)
 * [Try LetsEat live](https://final-project-53f22.web.app/)
 * [Chase Shelton on GitHub](https://https://github.com/achaseshelton)
 * [Chase Shelton on LinkedIn](https://https://www.linkedin.com/in/chase-shelton/)
-
 
 ### Justin Smith
 
@@ -137,11 +129,10 @@ LetsEat - A restaurant search tool.
 
 Trade Tracker - Search and view stock charts and save them to a watchlist.
 
-* [Watch Justin Smith explain how Trade Tracker works]()
+* [Watch Justin Smith introduce Trade Tracker](https://www.youtube.com/watch?v=E0zSQVjhSa0&t=1936s)
 * [Try Trade Tracker live](https://trading-project-5b164.web.app/)
 * [Justin Smith on GitHub](https://https://github.com/justinsmith95)
 * [Justin Smith on LinkedIn](https://https://www.linkedin.com/in/justin-smith-b50798225/)
-
 
 ### Tyler Van Nostrand
 
@@ -149,11 +140,10 @@ Trade Tracker - Search and view stock charts and save them to a watchlist.
 
 Gary's List - An Ecommerce store for Dungeons and Dragons enthusiasts
 
-* [Watch Tyler Van Nostrand explain how Gary's List works]()
+* [Watch Tyler Van Nostrand introduce Gary's List](https://www.youtube.com/watch?v=E0zSQVjhSa0&t=2046s)
 * [Try Gary's List live](https://garys-list.web.app)
 * [Tyler Van Nostrand on GitHub](https://https://github.com/TylerVanNostrand)
 * [Tyler Van Nostrand on LinkedIn](https://https://www.linkedin.com/in/tyler-van-nostrand/)
-
 
 ### Troy Wagoner
 
@@ -161,11 +151,10 @@ Gary's List - An Ecommerce store for Dungeons and Dragons enthusiasts
 
 Martial Arts Origins - Preservation of martial arts techniques
 
-* [Watch Troy Wagoner explain how Martial Arts Origins works]()
+* [Watch Troy Wagoner introduce Martial Arts Origins](https://www.youtube.com/watch?v=E0zSQVjhSa0&t=2175s)
 * [Try Martial Arts Origins live](https://martialartsorigins.web.app/)
 * [Troy Wagoner on GitHub](https://https://github.com/Troyallen98)
 * [Troy Wagoner on LinkedIn](https://https://www.linkedin.com/in/troy-wagoner/)
-
 
 ### Tony Watson
 
@@ -173,7 +162,7 @@ Martial Arts Origins - Preservation of martial arts techniques
 
 breaddit - Social website and forum where content is created and voted on by site members.
 
-* [Watch Tony Watson explain how breaddit works]()
+* [Watch Tony Watson introduce breaddit](https://www.youtube.com/watch?v=E0zSQVjhSa0&t=901s)
 * [Try breaddit live](https://breaddit-98084.web.app/)
 * [Tony Watson on GitHub](https://https://github.com/tonybwatson)
 * [Tony Watson on LinkedIn](https://https://www.linkedin.com/in/tonybwatson/)
@@ -183,5 +172,5 @@ breaddit - Social website and forum where content is created and voted on by sit
 Thanks for checking out our Fall 2021 Bootcamp graduates. Here's the full video from their Demo Day:
 
 <div class="embed-responsive embed-responsive-16by9">
-  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/y_9rsikaidQ" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/E0zSQVjhSa0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
