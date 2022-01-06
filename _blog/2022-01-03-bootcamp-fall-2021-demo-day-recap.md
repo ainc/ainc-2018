@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Meet Our 13 Alumni From Bootcamp Fall 2021'
+title: Meet Our 13 Alumni From Bootcamp Fall 2021
 date: 2022-01-03T12:00:00.000Z
 header_img: /images/aincu/bootcamp-demo-day-f21.jpg
 author_img: /images/uploads/stephenruh-wall.jpg
@@ -9,12 +9,11 @@ tags:
   - bootcamp
 description: Check out the grads from the latest Web Developer Bootcamp program (our 11th)!
 ---
-
 ![Bootcamp Demo Day Fall 2021](/images/aincu/bootcamp-demo-day-f21.jpg "Bootcamp Demo Day at Awesome Inc - December 2021")
 
 By Stephen Ruh
 
-It's been less than a month since from the finish of our latest Web Developer Bootcamp (our 11th!), and we are excited for you to see how far these allstars have come. Demo day was Dec 15th and most of our graduates already have job offers from local and national tech employers.
+It's been less than a month since the finish of our latest Web Developer Bootcamp (our 11th!), and we are excited for you to see how far these all-stars have come. Demo day was Dec 15th and most of our graduates already have job offers from local and national tech employers.
 
 We’re always impressed by the backgrounds of our learners before bootcamp, and this group doesn't disappoint. They've been teachers, students, salesmen, and chemists. They've helped run small businesses, or even have plans to start their own. And now they know how to turn ideas into plans, plans into code, and code into software solutions for real-world problems.
 
