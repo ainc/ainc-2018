@@ -32,15 +32,15 @@ I’ve been running the Awesome Inc podcast since January 2019. It’s been an e
 
 Here are a handful of takeaways from the last two (going on three) years:
 
-1. **Know your WHY.**
+**1. Know your WHY.**
 
 * Yes, I said it... I guarantee as a podcast host, editor, or consumer, you will enjoy and receive more value from a show that knows its mission.
 
-2. **Bring out the best in people.**
+**2. Bring out the best in people.**
 
 * The world tends to be negative. People often hear more negative than positive. Be intentional with your encouragement.
 
-3. **Create a framework for your process.**
+**3. Create a framework for your process.**
 
 * At Awesome Inc, we call these playbooks.
 * Document all steps:
@@ -56,13 +56,11 @@ Here are a handful of takeaways from the last two (going on three) years:
   9. promote the episode
   10. follow-up with guest(s)
 
-4. **Be human! A podcast is a conversation; don’t be robotic.**
+**4. Be human! A podcast is a conversation; don’t be robotic.**
 
 * The first handful of episodes I was a robot. I’d ask a question, listen to a great response, and follow-up with the next question. I wasn’t connecting. 
 * Don’t worry about small details like having the perfect email to connect with someone - it doesn’t exist.
 
-
-
-5. **If it takes less than two minutes, automate it.**
+**5. If it takes less than two minutes, automate it.**
 
 * I automate a lot of email templates, copy and paste outlines, and create steps that add value even when they're reused.
