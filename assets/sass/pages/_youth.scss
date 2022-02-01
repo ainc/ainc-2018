@@ -15,13 +15,13 @@
     }
     .lgx-heading-area {
       margin-top:20vh;
-      @include screen-xs{
+      @include screen-xs {
         margin-top: 18vh;
       }
-      @include screen-md{
+      @include screen-md {
         margin-top: 30vh;
       }
-      @include screen-lg{
+      @include screen-lg {
         margin-top: 45vh;
       }
       .lgx-heading {
@@ -60,6 +60,17 @@
       width: 33%;
       left: 66%;
       padding-top: 10%;
+      @include screen-xs {
+        width: 80%;
+        left: 10%;
+        padding-top: 43vh;
+      }
+      @media (max-width: 385px) {
+        padding-top: 55vh;
+      }
+      @include screen-md {
+        padding-top: 0;
+      }
       
       .panel {
         box-shadow: $brand-color2 0px 0px 3px 1px;
@@ -88,7 +99,13 @@
     }
   }
 
-  #why-code {
+  #why-code-india {
+    @include screen-xs {
+      margin-top: 43vh;
+    }
+  }
+  
+  #why-code { 
     .lgx-heading {
       text-align: left;
       margin-bottom: -1rem;
