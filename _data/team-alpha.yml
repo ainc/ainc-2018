@@ -53,13 +53,6 @@ items:
     rule: "Rule #17: Bring the fun!"
     song: '"Built to Last" by Melee'
     team: Fellowship & KEHOF
-  - fact: I met my husband while running the Bourbon Chase
-    img_path: /images/uploads/lbe-wall.jpeg
-    name: Liz Brown Evans
-    person: My husband Eric or Dolly Parton
-    rule: "Rule #34"
-    song: '"Time" by John Lucas'
-    team: Events & Marketing
   - fact: I’m the best in the world at catching food in my mouth
     img_path: /images/uploads/stephenruh-wall.jpg
     name: Stephen Ruh
@@ -97,14 +90,6 @@ items:
     fact: I love pens. I'd like to say that I have a decent collection for someone
       my age.
     team: Space
-  - img_path: /images/uploads/headshots_sqaure-1.jpg
-    name: Mallory Quisenberry
-    rule: "Rule #22: Go big or don't be my friend"
-    song: '"Ice Ice Baby" by Vanilla Ice'
-    person: My grandmother
-    fact: Before I moved to Lexington I taught dance to kids ages kindergarten -
-      middle school
-    team: Events and Marketing
   - img_path: /images/uploads/headshots_sqaure-2.jpg
     name: Kellen Casey
     rule: "Rule #76: No excuses, play like a champion"
@@ -119,10 +104,3 @@ items:
     person: Ted Lasso
     fact: I'm writing a fantasy novel series
     team: Space
-  - img_path: /images/uploads/taylore-2-1.jpg
-    name: Taylore Latham
-    rule: "Rule #22: Go big or don't be my friend"
-    song: '"Dreams" by Fleetwood Mac'
-    person: My grandmother or Taylor Swift
-    fact: I can tell you what year each Disney animated movie was released
-    team: Development
