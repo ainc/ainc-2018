@@ -553,6 +553,34 @@ $color1: #ed3243;
           }
         }
       }
+      .presenting-sponsors {
+        padding-top: 80px;
+        width: 100%;
+        p {
+          font-size: 2.7rem;
+          padding-bottom: 50px;
+        }
+        .logos {
+          padding-bottom: 50px;
+          .logo-row {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            align-items: center;
+            padding-left: 10%;
+            padding-right: 10%;
+            .img-container {
+              flex-grow: 1;
+              width: 100%;
+              padding: 5rem;
+              img {
+                max-width: 100%;
+                height: auto;
+              }
+            }
+          }
+        }
+      }
       .supporting-sponsors {
         padding-top: 80px;
         width: 100%;
