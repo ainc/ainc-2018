@@ -14,9 +14,9 @@ age_group: not_youth
 team: aincu
 ---
 
-{% include woc-buttons-sponsorship.html %}
+{% include woc-buttons.html %}
 
-## 2021 Summer Camps
+## 2022 Summer Camps
 ### Ages: 9-16 | Beginner - Intermediate 
 *No experience required*
 <hr>
