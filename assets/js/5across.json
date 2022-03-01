@@ -447,6 +447,38 @@
         "winner": "Inphlu",
         "founder": "Josh"
       }
+    },
+    "2022": {
+      "Event1": {
+        "month": "February",
+        "winner": "Party Horses",
+        "founder": "Chris"
+      },
+      "Event2": {
+        "month": "April",
+        "winner": "",
+        "founder": ""
+      },
+      "Event3": {
+        "month": "June",
+        "winner": "",
+        "founder": ""
+      },
+      "Event4": {
+        "month": "August",
+        "winner": "",
+        "founder": ""
+      },
+      "Event5": {
+        "month": "October",
+        "winner": "",
+        "founder": ""
+      },
+      "Event6": {
+        "month": "December (Finals)",
+        "winner": "",
+        "founder": ""
+      }
     }
   }
 }
