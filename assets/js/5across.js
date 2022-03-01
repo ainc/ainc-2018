@@ -40,7 +40,7 @@ function selectChange() {
         console.log(obj.years[value][Object.keys(events)[ind]]);
         if (obj.years[value][Object.keys(events)[ind]]["url"] != "#") {
             link_buttons[ind].onclick = () => {
-                location.href = obj.years[value][Object.keys(events)[ind]]["url"] || "#";
+                location.href = obj.years[value][Object.keys(events)[ind]]["url"] || "https://www.youtube.com/playlist?list=PL_YvoQ-KM3YHl7D29MzJClPvRqp_PL7me";
             }
         }
         else {
