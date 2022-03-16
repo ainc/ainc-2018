@@ -4,7 +4,7 @@ title: My Infinite Failure Loop
 date: 2022-02-28T20:51:21.910Z
 header_img: /images/uploads/51887626528_bf174c090f_k.jpg
 author_img: /images/uploads/cam_sloss.jpeg
-author: Camden Sloss
+author: Camden Sloss, Marketing Manager
 tags:
   - failure
   - routine
