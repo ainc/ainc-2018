@@ -4,7 +4,7 @@ title: 5 Tips to Have Better Conversations
 date: 2022-03-09T17:15:01.741Z
 header_img: /images/uploads/5agoofballs.jpeg
 author_img: /images/uploads/stephenruh-wall.jpg
-author: Stephen Ruh
+author: Stephen Ruh, Director of Marketing for Awesome Inc U
 tags:
   - conversation
   - tips
