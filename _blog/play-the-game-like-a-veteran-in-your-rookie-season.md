@@ -14,7 +14,7 @@ tags:
   - focus
   - strengths
   - abilities
-description: Control the controllables like you're Tiger Woods at the '96 Masters.
+description: Control the controllables like you're Tiger Woods at the '97 Masters.
 ---
 It was 1996 when a young, 20-year-old golfer made his professional debut in Milwaukee, WI. In his first interview, he was asked what a successful weekend would look like by interviewer Curtis Strange. 
 
