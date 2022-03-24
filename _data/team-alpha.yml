@@ -96,7 +96,7 @@ items:
     song: '"Ball and Chain" by Social Distortion'
     person: JD Lovell
     fact: Top 400 in "Tetris Effect"
-    team: Development
+    team: Web Development
   - img_path: /images/uploads/conner_jones.jpg
     name: Conner Jones
     rule: "Rule #26: Don't let stupid things keep you from doing awesome things"
@@ -134,3 +134,12 @@ items:
     person: My older sister Kaelin
     fact: "I enjoy making ceramic art, specifically pottery. "
     team: Events & Marketing
+  - img_path: /images/uploads/dalton_abner.jpg
+    name: Dalton Abner
+    rule: "#10  2-3 minutes late is okay, it shows that you are punctual but
+      important enough to have other stuff going on.  5-6 minutes late is rude
+      and shows that you don't respect people's time."
+    song: '"Enemy" by Imagine Dragons'
+    person: Roberty Downey, Jr.
+    fact: I can bend my fingers really weird
+    team: Web Development
