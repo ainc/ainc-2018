@@ -97,7 +97,7 @@ items:
     person: JD Lovell
     fact: Top 400 in "Tetris Effect"
     team: Development
-  - img_path: /images/uploads/headshots_sqaure-3.jpg
+  - img_path: /images/uploads/conner_jones.jpg
     name: Conner Jones
     rule: "Rule #26: Don't let stupid things keep you from doing awesome things"
     song: '"Broken Boy" by Cage the Elephant'
@@ -109,12 +109,12 @@ items:
     rule: "#26 Don't let stupid things keep you from doing awesome things"
     song: '"Good Morning" by Kanye West'
     person: Jeff Probst
-    fact: I go to Chick-Fil-A at least 3 times a week
+    fact: I was on the state winning academic team in elementary school
     team: Events & Marketing
   - img_path: /images/uploads/carly_guggenheim.jpg
-    name: Carly
-    rule: Guggenheim
-    fact: "#17 Bring the FUN!"
+    name: Carly Guggenheim
+    rule: "#17 Bring the FUN!"
+    fact: I go to Chick-Fil-A at least 3 times a week
     person: My mom
     song: '"Best Day of My Life" by Jesse McCartney'
     team: Events & Marketing
