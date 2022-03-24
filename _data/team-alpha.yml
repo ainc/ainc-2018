@@ -143,3 +143,10 @@ items:
     person: Roberty Downey, Jr.
     fact: I can bend my fingers really weird
     team: Web Development
+  - img_path: /images/uploads/zain.jpg
+    name: Zain McCoy
+    rule: "#17 Bring the FUN"
+    song: '"ACB" by the Jackson 5'
+    person: Joe Dirt
+    fact: I play the saxophone better than Kenny G
+    team: Web Development
