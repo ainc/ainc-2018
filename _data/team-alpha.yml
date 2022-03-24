@@ -118,3 +118,12 @@ items:
     person: My mom
     song: '"Best Day of My Life" by Jesse McCartney'
     team: Events & Marketing
+  - img_path: /images/uploads/lindsey_grass.jpg
+    name: Lindsey Grass
+    rule: "#34 A person's Shit:Substance ratio or their \"ss\" for short refers to
+      the amount of bullshit someone is made up of relative to their ability to
+      actually back up their claims and/or confidence."
+    song: '"Motion Sickness" by Phoebe Bridgers'
+    person: Harry Styles
+    fact: I was on the bowling team in high school
+    team: Events & Marketing
