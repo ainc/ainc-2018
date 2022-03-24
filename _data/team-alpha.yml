@@ -127,3 +127,10 @@ items:
     person: Harry Styles
     fact: I was on the bowling team in high school
     team: Events & Marketing
+  - img_path: /images/uploads/kara_smith.jpg
+    name: Kara Smith
+    rule: "#26 Don't let stupid things keep you from doing awesome things"
+    song: '"Fade Away" by Rebelution  '
+    person: My older sister Kaelin
+    fact: "I enjoy making ceramic art, specifically pottery. "
+    team: Events & Marketing
