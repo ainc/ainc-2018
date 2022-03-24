@@ -104,3 +104,10 @@ items:
     person: Ted Lasso
     fact: I'm writing a fantasy novel series
     team: Space
+  - img_path: /images/uploads/callie_justice.jpg
+    name: Callie Justice
+    rule: "#26 Don't let stupid things keep you from doing awesome things"
+    song: '"Best Day of My Life" by Jesse McCartney'
+    person: Mom
+    fact: I go to Chick-Fil-A at least 3 times a week
+    team: Events & Marketing
