@@ -3,22 +3,21 @@ items:
     img_path: /images/uploads/brianraney-wall.jpg
     name: Brian Raney
     person: Truett Cathy
-    rule: "Rule #4: Always do something awesome over something not awesome"
+    rule: "#4: Always do something awesome over something not awesome"
     song: '*The Thing* aka "Fix You" by Coldplay'
     team: Co-Founder, CEO
   - fact: I know sign language and can carry on a (silent) conversation.
     img_path: /images/uploads/emilywehrle-wall.jpg
     name: Emily Wehrle
     person: C.S. Lewis
-    rule: "Rule #38: whatever you're saying - stop...you're about to embarrass
-      yourself"
+    rule: "#38: whatever you're saying - stop...you're about to embarrass yourself"
     song: '"Farther Along" by Josh Garrels'
     team: Director of Operations
   - fact: In college, I was an international race car driver
     img_path: /images/uploads/nicksuch-wall.jpg
     name: Nick Such
     person: Elon Musk
-    rule: "Rule #10: 2-3 minutes late is okay, it shows that you are punctual but
+    rule: "#10: 2-3 minutes late is okay, it shows that you are punctual but
       important enough to have other stuff going on. 5-6 minutes late is rude
       and shows that you don't respect people's time"
     song: "\"We Didn't Start the Fire\" by Billy Joel"
@@ -28,63 +27,61 @@ items:
     img_path: /images/uploads/keithmcmunn-wall.jpg
     name: Keith McMunn
     person: Jerry Seinfeld
-    rule: "Rule #17: Bring the fun!"
-    song: '"Menswear" by The 1975'
+    rule: "#17: Bring the fun!"
+    song: '"Fast Car" by Tracy Chapman'
     team: Fellowship Director
   - fact: I sold beef jerky and healthy snacks for a living
     img_path: /images/uploads/kyleraney-wall.jpg
     name: Kyle Raney
     person: Bob Goff
-    rule: "Rule #76: No excuses, play like a champion"
+    rule: "#76: No excuses, play like a champion"
     song: '"Safe and Sound" by Capital Cities'
     team: Awesome Inc U, Development
   - fact: I can wiggle my ears
     img_path: /images/uploads/jacquelinebenson-wall.jpg
     name: Jacqueline Benson
     person: Martha Stewart
-    rule: "Rule #17: bring the fun!"
+    rule: "#17: Bring the Fun!"
     song: '"Stand By Me" by Ben E. King'
     team: Design
-  - fact: "I'm addicted to Spearmint gum, CBS's Survivor, and enjoy running around
-      on American Ninja Warrior courses "
+  - fact: I'm a recovering addict of Spearmint gum and CBS's Survivor
     img_path: /images/uploads/g-headshot-1-1-2.jpg
     name: Garrett Fahrbach
     person: 3-way tie between Jeff Probst, Matt Crocker, and Nigel Hendroff
-    rule: "Rule #17: Bring the fun!"
+    rule: "#17: Bring the Fun!"
     song: '"Built to Last" by Melee'
     team: Fellowship, KEHOF, & Team Alpha
   - fact: I’m the best in the world at catching food in my mouth
     img_path: /images/uploads/stephenruh-wall.jpg
     name: Stephen Ruh
     person: My wife Liz
-    rule: "#17 Bring the Fun!"
+    rule: "#17: Bring the Fun!"
     song: '"Ivory Road" by King Charles'
     team: Events & Marketing
   - img_path: /images/uploads/hannah_ebertsfinal.png
     name: "Hannah Eberts "
-    rule: "Rule #38: whatever you're saying - stop...you're about to embarrass
-      yourself "
+    rule: "#38: whatever you're saying - stop...you're about to embarrass yourself "
     song: '"Fighting For Me" by Riley Clemmons'
     person: My parents
     fact: "Obsessed with Perrier sparkling water "
     team: "Design "
   - img_path: /images/uploads/cam_sloss-cropped.jpg
     name: Cam Sloss
-    rule: "Rule #26: Don't let stupid things keep you from doing awesome things"
+    rule: "#26: Don't let stupid things keep you from doing awesome things"
     song: '"Let the Ground Rest" by Chris Renzema'
     person: Garrett, duh.
     fact: I have one of the best vintage Toy Story clothing collections in the world.
     team: Events & Marketing
   - img_path: /images/uploads/noah-wilcox-cropped.jpg
     name: Noah Wilcox
-    rule: "Rule #4: Always do something awesome over something not awesome"
+    rule: "#4: Always do something awesome over something not awesome"
     song: '"Fight Alone" by Mills'
     person: Peter McKinnon
     fact: I made a Tik Tok video that got over a million views
     team: "Video "
   - img_path: /images/uploads/kevin_mansur-cropped.jpg
     name: Kevin Mansur
-    rule: "Rule #17: Bring the FUN"
+    rule: "#17: Bring the FUN"
     song: '"Remember When it Rained" by Josh Groban'
     person: Mark Cuban
     fact: I love pens. I'd like to say that I have a decent collection for someone
@@ -92,35 +89,35 @@ items:
     team: Space
   - img_path: /images/uploads/headshots_sqaure-2.jpg
     name: Kellen Casey
-    rule: "Rule #76: No excuses, play like a champion"
+    rule: "#76: No excuses, play like a champion"
     song: '"Ball and Chain" by Social Distortion'
     person: JD Lovell
     fact: Top 400 in "Tetris Effect"
     team: Web Development
   - img_path: /images/uploads/conner_jones.jpg
     name: Conner Jones
-    rule: "Rule #26: Don't let stupid things keep you from doing awesome things"
+    rule: "#26: Don't let stupid things keep you from doing awesome things"
     song: '"Broken Boy" by Cage the Elephant'
     person: Ted Lasso
     fact: I'm writing a fantasy novel series
     team: Space
   - img_path: /images/uploads/callie_justice.jpg
     name: Callie Justice
-    rule: "#26 Don't let stupid things keep you from doing awesome things"
+    rule: "#26: Don't let stupid things keep you from doing awesome things"
     song: '"Good Morning" by Kanye West'
     person: Jeff Probst
     fact: I was on the state winning academic team in elementary school
     team: Events & Marketing
   - img_path: /images/uploads/carly_guggenheim.jpg
     name: Carly Guggenheim
-    rule: "#17 Bring the FUN!"
+    rule: "#17: Bring the FUN!"
     fact: I go to Chick-Fil-A at least 3 times a week
     person: My mom
     song: '"Best Day of My Life" by Jesse McCartney'
     team: Events & Marketing
   - img_path: /images/uploads/lindsey_grass.jpg
     name: Lindsey Grass
-    rule: "#34 A person's Shit:Substance ratio or their \"ss\" for short refers to
+    rule: "#34: A person's Shit:Substance ratio or their \"ss\" for short refers to
       the amount of bullshit someone is made up of relative to their ability to
       actually back up their claims and/or confidence."
     song: '"Motion Sickness" by Phoebe Bridgers'
@@ -129,14 +126,14 @@ items:
     team: Events & Marketing
   - img_path: /images/uploads/kara_smith.jpg
     name: Kara Smith
-    rule: "#26 Don't let stupid things keep you from doing awesome things"
+    rule: "#26: Don't let stupid things keep you from doing awesome things"
     song: '"Fade Away" by Rebelution  '
     person: My older sister Kaelin
     fact: "I enjoy making ceramic art, specifically pottery. "
     team: Events & Marketing
   - img_path: /images/uploads/dalton_abner.jpg
     name: Dalton Abner
-    rule: "#10  2-3 minutes late is okay, it shows that you are punctual but
+    rule: "#10: 2-3 minutes late is okay, it shows that you are punctual but
       important enough to have other stuff going on.  5-6 minutes late is rude
       and shows that you don't respect people's time."
     song: '"Enemy" by Imagine Dragons'
@@ -145,7 +142,7 @@ items:
     team: Web Development
   - img_path: /images/uploads/zain.jpg
     name: Zain McCoy
-    rule: "#17 Bring the FUN"
+    rule: "#17: Bring the FUN"
     song: '"ACB" by the Jackson 5'
     person: Joe Dirt
     fact: I play the saxophone better than Kenny G
