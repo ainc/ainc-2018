@@ -1,6 +1,6 @@
 ---
 title: Team Alpha Intern
-email: garrett@awesomeinc.org
+email: teamalpha@awesomeinc.org
 team: Awesome Inc
 manager: Garrett
 time-commitment: part-time
