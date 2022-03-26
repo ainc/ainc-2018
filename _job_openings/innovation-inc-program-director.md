@@ -47,5 +47,3 @@ Unlimited PTO
 Free parking downtown Lexington
 
 Position reports to the CEO
-
-Application Deadline: November 12, 2021
