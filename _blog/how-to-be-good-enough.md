@@ -18,6 +18,10 @@ tags:
   - fail
 description: Learning has changed... but it's still the same.
 ---
+
+![It took me about 20 hours to learn to ride a snowboard](/images/uploads/nick-snowboarding.jpg "I just learned to snowboard")
+<small>photo by Brian Raney at Silver Creek Ski Resort</small>
+
 I didn’t do a great job of paying attention in my History classes in high school. But if I remember the gist, it’s that we humans keep doing the same things over and over, just with new names and fancier logos. It’s appearing that this is more and more true, even with technology. For what are audiobooks if not a modern version of the ancient oral tradition? Books were just an intermediate step while we waited for the world to come up with iPhones and white earbuds and mobile data plans.
 
 I think that the process of *learning* (the user-centric name for “education”) is going through a similar type of ebb. I recently learned three new skills:
@@ -38,7 +42,7 @@ If you think about it, this is how we acquired most of our core skills. I didn�
 
 If you’re particularly interested in the skills that I learned, here are resources for each:
 
-* **Snowboarding**: start with heel slide, then toe slide, then turn ([SnowboardProCamp](http://www.youtube.com/playlist?list=PL1593C2068A3D4D7F)). Protips: Don’t lean back too much, you need your front foot to turn. When you decide to turn, commit and go all-in (“halfway” turning = falling). Oh, and you’re going to fall (a lot), so wear some well-padded pants.
+* **Snowboarding**: start with heel slide, then toe slide, then turn ([SnowboardProCamp](https://www.snowboardprocamp.com/videos)). Protips: Don’t lean back too much, you need your front foot to turn. When you decide to turn, commit and go all-in (“halfway” turning = falling). Oh, and you’re going to fall (a lot), so wear some well-padded pants.
 * **Swimming**: [The Most Graceful Freestyle Swimming by Shinji Takeuchi](http://www.youtube.com/watch?v=rJpFVvho0o4), [Tim Ferris blog post on Total Immersion](http://www.fourhourworkweek.com/blog/2008/08/13/total-immersion-how-i-learned-to-swim-effortlessly-in-10-days-and-you-can-too/). Protips: Try to swim as slowly as you possibly can. You probably won’t get the technique down the first time (or the 5th time), but try to get better at one piece of the technique during each workout. Start by focusing on body roll from side to side; never swim flat on your stomach.
 * **Juggling**: [Learn How To Juggle In 5 Minutes](http://www.youtube.com/watch?v=H8QfqkSPxmo). Protips: Juggling is all about throwing, and you probably suck at throwing right now. You need to practice throwing one or two balls longer than you’d think. Then, stand facing a wall, about an arms-length away, as a guide to keep from throwing balls too far away from yourself.
 
