@@ -1,7 +1,7 @@
 ---
 layout: post
 title: How To Be An Informed Buyer Of Custom Software
-date: 2022-04-20T19:38:37.363Z
+date: 2022-04-21T16:00:37.363Z
 header_img: /images/uploads/51689402715_fcd6519b8f_c.jpg
 author_img: /images/uploads/justin.jpg
 author: Justin Hall
