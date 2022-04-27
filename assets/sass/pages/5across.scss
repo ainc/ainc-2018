@@ -573,6 +573,12 @@ $color1: #ed3243;
               flex-grow: 1;
               width: 100%;
               padding: 5rem;
+              @include screen-xs {
+                padding: 1rem;
+              }
+              @include screen-sm {
+                padding: 1rem;
+              }
               img {
                 max-width: 100%;
                 height: auto;
