@@ -1,5 +1,69 @@
 items:
   -
+    name: Chad Cooper
+    website: 
+    github: https://github.com/chadcooper06
+    linkedin: https://www.linkedin.com/in/chad-cooper-dev/
+    img_path: chad-cooper
+    position: null
+    cohort: s22
+  -
+    name: Anthony DeVarti
+    website: 
+    github: https://github.com/anthony-devarti
+    linkedin: https://www.linkedin.com/in/anthony-devarti-026060181/
+    img_path: anthony-devarti
+    position: null
+    cohort: s22
+  -
+    name: Jordan Duff
+    website: 
+    github: https://github.com/carljduff
+    linkedin: https://www.linkedin.com/in/carljduff/
+    img_path: jordan-duff
+    position: null
+    cohort: s22
+  -
+    name: Corey Hampton
+    website: 
+    github: https://github.com/coreyham
+    linkedin: https://www.linkedin.com/in/corey-hampton-dev/
+    img_path: corey-hampton
+    position: null
+    cohort: s22
+  -
+    name: Zachary Kestner
+    website: 
+    github: https://github.com/thekestner
+    linkedin: https://www.linkedin.com/in/zachary-kestner-17b864155/
+    img_path: zachary-kestner
+    position: null
+    cohort: s22
+  -
+    name: Nick McMillen
+    website: 
+    github: https://github.com/nmcmillen
+    linkedin: https://www.linkedin.com/in/nickmcmillen/
+    img_path: nick-mcmillen
+    position: null
+    cohort: s22
+  -
+    name: Chad Powell
+    website: 
+    github: https://github.com/Chad-Powellv1
+    linkedin: https://www.linkedin.com/in/chad-powell-dev/
+    img_path: chad-powell
+    position: null
+    cohort: s22
+  -
+    name: Blair Preston
+    website: 
+    github: https://github.com/blair-preston
+    linkedin: https://www.linkedin.com/in/blair-preston-73957620b/
+    img_path: blair-preston
+    position: null
+    cohort: s22
+  -
     name: Jia-Yi Chen
     website: https://jiayijchen-app.web.app/
     github: https://github.com/jiayichen0
