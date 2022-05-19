@@ -25,8 +25,6 @@ The current fashion industry is filled with changing trends; some new, and some 
 
 With those lessons in mind, I wanted to show people that there are other ways to shop than buying things first hand/fast fashion. I started this business not only for something to do but also because I found something I am deeply passionate about. 
 
-
-
 *So, what the heck is fast fashion?*
 
 Remember earlier when I mentioned how fast trends change in the fashion industry? Fast fashion is inexpensive clothing that is mass-produced by large companies. Maybe you’re wondering why fast fashion is so bad… What can be better than inexpensive trendy clothes?!
@@ -35,29 +33,17 @@ Remember earlier when I mentioned how fast trends change in the fashion industry
 
 * It takes **700** gallons of water to produce *ONE* cotton shirt and **2,000** gallons of water to produce *ONE* pair of jeans.
 * Synthetic materials are the *PRIMARY* culprits to plastic microfibers that have entered our ocean.
-
-
-
 * **57%** of all discarded clothing ends up in a landfill which then moves to an area to be incinerated. This is dangerous not only to the environment but also to the public health of any community living nearby.
-
-
-
 * **85%** of garment workers get paid 2-6 cents per piece, working 60-70 hour weeks in extremely unsafe conditions.
-
-
 
 The good news? There's a huge community of creatives, entrepreneurs, and environmentalists who are dedicated to finding different ways to sell sustainable clothing. 
 
 Here's how **YOU** can help support sustainable fashion companies… even if you don’t buy from them!
 
-
-
 1. Continue to educate yourself
 
 * Where are you buying your products from, who is producing those products, and how are they being produced? These are important questions to ask as you’re making purchase decisions.
 * Do a deep dive and see for yourself why we shouldn’t support fast fashion brands.
-
-
 
 2. Find, follow, and support the sustainable fashion community in your city
 
@@ -74,14 +60,10 @@ Here's how **YOU** can help support sustainable fashion companies… even if you
 
 @[lapastelcollective](https://www.instagram.com/lapastelcollective/)
 
-
-
 3. Talk about it!
 
 * Don’t be afraid to share with others what you find and where you find it… nobody likes a gatekeeper.
 * When you buy from a local business, post a story about it! It’s quick and easy for you and they’ll love and appreciate the free advertising.
 * WEAR IT! YOU are the best billboard a company can have.
-
-
 
 Fashion is about more than just the new and trendy. There is a whole new-to-you world that’s begging to be uncovered.
