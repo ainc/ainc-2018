@@ -50,15 +50,15 @@ Here's how **YOU** can help support sustainable fashion companies… even if you
 * Lexington has a large secondhand fashion community
 * Here are **5** of my personal favorites:
 
-\    @[reese.cycled](https://www.instagram.com/reese.cycled/)
+@[reese.cycled](https://www.instagram.com/reese.cycled/)
 
-\    @[mal.thrifts](https://www.instagram.com/mal.thrifts/)
+@[mal.thrifts](https://www.instagram.com/mal.thrifts/)
 
-\    @[vintagebutterfly.thrift](https://www.instagram.com/vintagebutterfly.thrift/)
+@[vintagebutterfly.thrift](https://www.instagram.com/vintagebutterfly.thrift/)
 
-\    @[jellyblopper](https://www.instagram.com/jellyblopper/)
+@[jellyblopper](https://www.instagram.com/jellyblopper/)
 
-\    @[lapastelcollective](https://www.instagram.com/lapastelcollective/)
+@[lapastelcollective](https://www.instagram.com/lapastelcollective/)
 
 3. Talk about it!
 
