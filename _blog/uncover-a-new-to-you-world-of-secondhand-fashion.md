@@ -40,15 +40,15 @@ The good news? There's a huge community of creatives, entrepreneurs, and environ
 
 Here's how **YOU** can help support sustainable fashion companies… even if you don’t buy from them!
 
-1. Continue to educate yourself
+**1. Continue to educate yourself.**
 
 * Where are you buying your products from, who is producing those products, and how are they being produced? These are important questions to ask as you’re making purchase decisions.
 * Do a deep dive and see for yourself why we shouldn’t support fast fashion brands.
 
-2. Find, follow, and support the sustainable fashion community in your city
+**2. Find, follow, and support the sustainable fashion community in your city.**
 
 * Lexington has a large secondhand fashion community
-* Here are **5** of my personal favorites:
+* Here are 5 of my personal favorites:
 
 @[reese.cycled](https://www.instagram.com/reese.cycled/)
 
@@ -60,7 +60,7 @@ Here's how **YOU** can help support sustainable fashion companies… even if you
 
 @[lapastelcollective](https://www.instagram.com/lapastelcollective/)
 
-3. Talk about it!
+**3. Talk about it!**
 
 * Don’t be afraid to share with others what you find and where you find it… nobody likes a gatekeeper.
 * When you buy from a local business, post a story about it! It’s quick and easy for you and they’ll love and appreciate the free advertising.
