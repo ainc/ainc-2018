@@ -44,7 +44,7 @@ What if you spent your summer learning to make your own apps instead of just pla
 
 #### Computer Setup
 
-Each student will need to provide his/her own laptop for the course. Either Microsoft Windows-based PC's, Apple MacOS computers will work or Chromebooks will **not** work for this course. We recommend a laptop made within the past 3-4 years. Computers should be free from viruses/malware. We have a limited number of [rental laptops available for $25/day](https://squareup.com/market/awesome-inc/laptop-rental).
+Each student will need to provide his/her own laptop for the course. Each device needs to have a Chrome Browser (Windows, MacOS, Linux, ChromeOS work). Chromebooks work, iPads/Tablets **will not** work. We recommend a laptop made within the past 3-4 years. Computers should be free from viruses/malware. We have a limited number of [rental laptops available for $25/day](https://squareup.com/market/awesome-inc/laptop-rental).
 
 To be ready for Day 1 of camp, students should complete the following laptop setup steps:
 
