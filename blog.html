@@ -1,11 +1,35 @@
 ---
 title: Blog
-layout: sub
+layout: default
 permalink: "/blog"
 redirect_from:
 - "/posts"
 - "/blogs"
 ---
+
+{% include notify-me.html %}
+
+<div class="container">
+  <div class="row mt-5" style="margin-top: 5rem;">
+    <div class="col-xs-4">
+      <div class="lgx-heading-area">
+        <div class="lgx-heading">
+          <h2 class="heading-title">Blog</h2>
+        </div>
+      </div>
+    </div> <!-- col -->
+    <div class="col-xs-4 col-xs-offset-4">
+      <div class="lgx-heading-area">
+        <div class="lgx-heading">
+          <p class="center">
+            <a href="#modal-notify-me" data-toggle="modal" data-target="#modal-notify-me"><i class="fa fa-3x fa-bell"></i></a>
+          </p>
+        </div>
+      </div>
+    </div> <!-- col -->
+  </div> <!-- row -->
+</div>
+
 
 <div class="lgx-inner lgx-inner-small">
   <div class="container">
