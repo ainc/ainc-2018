@@ -88,13 +88,6 @@ items:
     fact: I love pens. I'd like to say that I have a decent collection for someone
       my age.
     team: Space
-  - img_path: /images/uploads/headshots_sqaure-2.jpg
-    name: Kellen Casey
-    rule: "#76: No excuses, play like a champion"
-    song: '"Ball and Chain" by Social Distortion'
-    person: JD Lovell
-    fact: Top 400 in "Tetris Effect"
-    team: Web Development
   - img_path: /images/uploads/conner_jones.jpg
     name: Conner Jones
     rule: "#26: Don't let stupid things keep you from doing awesome things"
@@ -102,20 +95,6 @@ items:
     person: Joe Rogan
     fact: I'm writing a fantasy novel series
     team: Space
-  - img_path: /images/uploads/callie_justice.jpg
-    name: Callie Justice
-    rule: "#26: Don't let stupid things keep you from doing awesome things"
-    song: '"Good Morning" by Kanye West'
-    person: Jeff Probst
-    fact: I was on the state winning academic team in elementary school
-    team: Events & Marketing
-  - img_path: /images/uploads/carly_guggenheim.jpg
-    name: Carly Guggenheim
-    rule: "#17: Bring the FUN!"
-    fact: I go to Chick-Fil-A at least 3 times a week
-    person: My mom
-    song: '"Best Day of My Life" by Jesse McCartney'
-    team: Events & Marketing
   - img_path: /images/uploads/lindsey_grass.jpg
     name: Lindsey Grass
     rule: "#34: A person's Shit:Substance ratio or their \"ss\" for short refers to
@@ -132,15 +111,6 @@ items:
     person: My older sister Kaelin
     fact: "I enjoy making ceramic art, specifically pottery. "
     team: Events & Marketing
-  - img_path: /images/uploads/dalton_abner.jpg
-    name: Dalton Abner
-    rule: "#10: 2-3 minutes late is okay, it shows that you are punctual but
-      important enough to have other stuff going on.  5-6 minutes late is rude
-      and shows that you don't respect people's time."
-    song: '"Enemy" by Imagine Dragons'
-    person: Roberty Downey, Jr.
-    fact: I can bend my fingers really weird
-    team: Web Development
   - img_path: /images/uploads/zain.jpg
     name: Zain McCoy
     rule: "#17: Bring the FUN"
