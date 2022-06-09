@@ -148,3 +148,11 @@ items:
     person: Joe Dirt, what a guy.
     fact: I play the saxophone better than Kenny G
     team: Web Development
+  - img_path: /images/uploads/summer_interns-1.jpg
+    name: Briann Cox
+    rule: "#26: Don't let stupid things keep you from doing awesome things"
+    song: '"Goodie Bag" by Still Woozy'
+    person: Susan Care
+    fact: I always somehow manage to hurt myself when I do anything, even if I'm
+      doing something that I shouldn't hurt myself  at
+    team: Design Team
