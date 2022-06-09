@@ -128,9 +128,18 @@ items:
     team: Design Team
   - img_path: /images/uploads/summer_interns-3-2.jpg
     name: Miguel Jimenez
-    rule: "#76 no excuses, play like a champion"
+    rule: "#76: no excuses, play like a champion"
     song: '"Nightgowns" by Tom Misch and Loyle Carner'
     fact: I do what I can to live a minimalist lifestyle with the exception of
       clothes...I give myself room to play there.
     person: Atticus Finch (morally) Casey Neistat (as a person)
     team: Video Team
+  - img_path: /images/uploads/summer_interns-2-2.jpg
+    rule: "#10: 2-3 minutes late is okay, it shows that you are punctual but
+      important enough to have other stuff going on. 5-6 minutes late is rude
+      and shows that you don't respect people's time."
+    song: '"Right now probably Yacht Club" by Juice Wrld'
+    person: My Dad
+    name: Will Garman
+    fact: I got invited to compete at the Junior Olympics when I was like 12
+    team: Development team
