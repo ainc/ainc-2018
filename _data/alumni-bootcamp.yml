@@ -33,7 +33,7 @@ items:
     cohort: s22
   -
     name: Zachary Kestner
-    website: 
+    website: https://thekestner.github.io/
     github: https://github.com/thekestner
     linkedin: https://www.linkedin.com/in/zachary-kestner-17b864155/
     img_path: zachary-kestner
@@ -41,7 +41,7 @@ items:
     cohort: s22
   -
     name: Nick McMillen
-    website: 
+    website: https://nmcmillen.github.io/personal-react-site/
     github: https://github.com/nmcmillen
     linkedin: https://www.linkedin.com/in/nickmcmillen/
     img_path: nick-mcmillen
@@ -49,7 +49,7 @@ items:
     cohort: s22
   -
     name: Chad Powell
-    website: 
+    website: https://chad-powellv1.github.io/Chad_Powell/
     github: https://github.com/Chad-Powellv1
     linkedin: https://www.linkedin.com/in/chad-powell-dev/
     img_path: chad-powell
@@ -57,7 +57,7 @@ items:
     cohort: s22
   -
     name: Blair Preston
-    website: 
+    website: https://blair-preston.github.io/portfolio-blog/
     github: https://github.com/blair-preston
     linkedin: https://www.linkedin.com/in/blair-preston-73957620b/
     img_path: blair-preston
