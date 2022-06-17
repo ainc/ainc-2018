@@ -145,20 +145,18 @@ Prior to the Week of Code summer camp, it's a good idea to try some basic coding
     * Mobile, Web, Games, Hardware
 * Pick a project:
     * Mobile
-        * [Thunkable - Basic Android tutorials](https://www.youtube.com/watch?v=QGzeUR__tmY&list=PLB89L9PPGIrxmB3GZXaxjK3Pq2Crqp14A)
-        * [Thunkable - Intermediate Android tutorials](https://www.youtube.com/watch?v=0fjLYXE0YQE&list=PLB89L9PPGIrwiLxoTsmIgPBQvy5ShtM2W)
-        * [Thunkable - Advanced Android tutorials](https://www.youtube.com/watch?v=T-p_Emx0_D8&list=PLB89L9PPGIrzWu9qFoD6iXDOX1IB1ZtaI)
+        * [Thunkable - Build an Informational App](https://www.youtube.com/playlist?list=PLB89L9PPGIrw2fanoiB-5bq1mkHCNtQuz)
+        * [Thunkable - Sample Apps](https://www.youtube.com/playlist?list=PLB89L9PPGIrxPnj--bDngq3L0TEVX38bn)
     * Web
         * My Summer Vacation website
-        * [Build with HTML Bricks](https://thimbleprojects.org/mozillalearning/279519/)
-        * [p5.js animation projects](http://p5js.org/examples/), remix from [p5.js sample](https://thimbleprojects.org/mozillalearning/213461/)
+        * [p5.js animation projects](http://p5js.org/examples/)
     * Game
         * [Finish Platformer Game](https://www.construct.net/en/tutorials/platformer-game-2329)
         * [Creating Snake in Construct](https://www.construct.net/en/tutorials/construct-tutorial-creating-2500)
         * [Detecting touch controls in Construct](https://www.construct.net/en/tutorials/touch-controls-detecting-13)
 
     * Other
-        * [Sonic Pi](https://sonic-pi.net/), make music like [Aerodynamic](https://aimxhaisse.com/aerodynamic-en.html) with code
+        * [Sonic Pi](https://sonic-pi.net/)
         * [Coderbyte algorithm challenges](https://www.coderbyte.com/challenges/)
 
 Note: most projects here will take longer than 4 hours to complete. That's OK! Our goal during project day is to help you get started on something significant that you can continue working on after the Week of Code.
