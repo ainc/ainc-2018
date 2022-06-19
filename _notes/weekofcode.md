@@ -14,10 +14,10 @@ What if you spent your summer learning to make your own apps instead of just pla
 ### What you will do this week
 
 * Learn basic Computer Science concepts
-* Write code in C#, HTML, CSS, and JavaScript
-* Build iOS and Android mobile apps with Thunkable
+* Write code in HTML, CSS, and JavaScript
+* Build iOS/Android mobile apps with Thunkable
 * Design and Publish your own Website
-* Create your own Video Game with Unity 3D
+* Create your own Video Game with Construct 3
 * Receive 1-on-1 support from our instructional team
 * Share a project presentation with peers and parents
 
@@ -171,6 +171,6 @@ Note: most projects here will take longer than 4 hours to complete. That's OK! O
 
 * Recap
 * Next steps for learning
-    1. Online resources: [Code.org](https://www.code.org), [freeCodeCamp](https://www.freecodecamp.org/), [Replit](replit.com)
+    1. Online resources: [Code.org](https://www.code.org), [freeCodeCamp](https://www.freecodecamp.org/), [Replit](http://www.replit.com)
     2. Awesome Inc Fall/Spring weekly classes:
         * Register for [Coding Club](https://www.awesomeinc.org/youth/)
