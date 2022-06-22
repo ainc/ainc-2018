@@ -3,6 +3,7 @@ title: Week of Code
 layout: notes
 course_link: "/weekofcode/"
 permalink: "/woc"
+redirect_from: "/notes/weekofcode/"
 ---
 
 <br>
@@ -59,7 +60,7 @@ Prior to the Week of Code summer camp, it's a good idea to try some basic coding
 * Watch [video](https://www.youtube.com/watch?v=FC5FbmsH4fw)
 * Do the [Angry Birds and Plants vs Zombies](https://learn.code.org/hoc/1) challenge
 * [Make your own Flappy Bird game](https://learn.code.org/flappy/1)
-* [Light Bot](https://lightbot.com/hocflash.html)
+* [Light Bot](https://lightbot.com/hour-of-code.html) (iOS / Android app)
 * [MIT Scratch](https://scratch.mit.edu/)
 
 * * *
@@ -88,10 +89,13 @@ Prior to the Week of Code summer camp, it's a good idea to try some basic coding
 
 ![Thunkable screenshot](/images/uploads/thunkablelogo.png)
 
+#### Plan
+
+* Make Mobile Apps with [Thunkable](https://thunkable.com/){:target="_blank"}
+
 #### Assets
 
-* Mobile Apps with [Thunkable](https://thunkable.com/){:target="_blank"} Overview
-    * [Download mobile app media](/assets/files/weekofcode/woc_thunkableX_media.zip)
+* Download [ mobile app media](/assets/files/weekofcode/woc_thunkableX_media.zip)
 
 #### Go Beyond
 
@@ -106,25 +110,34 @@ Prior to the Week of Code summer camp, it's a good idea to try some basic coding
 
 ![Website about animals](/assets/img/notes/weekofcode-animal-website.png)
 
-#### Assets
+#### Plan
 
-* Design a wireframe for our site
+* Design our site by creating a wireframe
     * Heading, Navigation, Images, Text Content
     * Two pages: home page, fun facts
-* Use [Glitch](https://glitch.com) to make our first web page
+* Make our first web page using [Glitch](https://glitch.com){:target="_blank"}
+    * [Remix the project template](https://glitch.com/edit/#!/remix/my-favorite-animal){:target="_blank"}
 
 #### Go Beyond
 
-* At home: see [web manual](https://docs.google.com/document/d/1TOuXlaAo-9bJNwu7ZvBSP4KJKfguGXraTivp9xVCUyg/edit) and [sample code](https://thimble.mozilla.org/en-US/projects/507152/remix) and [sample page](https://thimbleprojects.org/raney24/507152/)
+* At home: see [web manual](https://docs.google.com/document/d/1TOuXlaAo-9bJNwu7ZvBSP4KJKfguGXraTivp9xVCUyg/edit) and [sample page](https://kyles-favorite-animal.glitch.me/)
 * [Mozilla HTML Reference](https://developer.mozilla.org/en-US/docs/Web/HTML)
 
 * * *
 
 <h3 id="game-day">Day 3 - Video Games</h3>
 
+![Construct 3 screenshot](/images/uploads/constructlogo.png)
+
+#### Plan
+
+* Make Video Games with [Construct 3](https://editor.construct.net/){:target="_blank"}
+
 #### Assets
 
-<a href="/assets/files/weekofcode/abstract-platformer-370-assets.zip" download>Abstract Platformer Assets</a>
+<ul>
+<li>Download <a href="/assets/files/weekofcode/abstract-platformer-370-assets.zip" download>Abstract Platformer Assets</a></li>
+</ul>
 
 #### Go Beyond
 
@@ -148,16 +161,17 @@ Prior to the Week of Code summer camp, it's a good idea to try some basic coding
         * [Thunkable - Build an Informational App](https://www.youtube.com/playlist?list=PLB89L9PPGIrw2fanoiB-5bq1mkHCNtQuz)
         * [Thunkable - Sample Apps](https://www.youtube.com/playlist?list=PLB89L9PPGIrxPnj--bDngq3L0TEVX38bn)
     * Web
-        * My Summer Vacation website
-        * [p5.js animation projects](http://p5js.org/examples/)
+        * Make responsive websites with [Bootstrap](https://www.w3schools.com/bootstrap5/bootstrap_get_started.php)
+        * Remix [beginner web projects on Glitch](https://glitch.com/@glitch/learn-to-code)
+        * Create [Drawings and Animation](https://thecodingtrain.com/tracks/code-programming-with-p5-js) with [p5.js](http://p5js.org/examples/) (JavaScript)
     * Game
         * [Finish Platformer Game](https://www.construct.net/en/tutorials/platformer-game-2329)
         * [Creating Snake in Construct](https://www.construct.net/en/tutorials/construct-tutorial-creating-2500)
         * [Detecting touch controls in Construct](https://www.construct.net/en/tutorials/touch-controls-detecting-13)
 
     * Other
-        * [Sonic Pi](https://sonic-pi.net/)
-        * [Coderbyte algorithm challenges](https://www.coderbyte.com/challenges/)
+        * Make music with code - [Sonic Pi](https://sonic-pi.net/)
+        * Solve algorithm challenges on [Coderbyte](https://www.coderbyte.com/challenges/)
 
 Note: most projects here will take longer than 4 hours to complete. That's OK! Our goal during project day is to help you get started on something significant that you can continue working on after the Week of Code.
 
