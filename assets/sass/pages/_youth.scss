@@ -467,6 +467,10 @@
         }
       }
     }
+    small {
+      color: white;
+      @include font-size(12);
+    }
   }
 
   #questions {
