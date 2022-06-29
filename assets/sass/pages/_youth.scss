@@ -1,5 +1,8 @@
 #youth {
-
+  small {
+    color: black;
+    @include font-size(12);
+  }
   #header {
     background-image: url('/assets/img/aincu/youth/youth-header.png');
     height: 80vh;
@@ -351,6 +354,10 @@
     }
   }
   #join {
+    small {
+      color: white;
+      @include font-size(12);
+    }
     background-image: url('/assets/img/aincu/youth/Youth_Membership_BG.png');
     background-size: cover;
     background-position: center;
@@ -467,10 +474,7 @@
         }
       }
     }
-    small {
-      color: white;
-      @include font-size(12);
-    }
+    
   }
 
   #questions {
