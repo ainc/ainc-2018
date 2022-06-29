@@ -143,3 +143,19 @@ items:
     name: Will Garman
     fact: I got invited to compete at the Junior Olympics when I was like 12
     team: Development team
+  - img_path: /images/uploads/brooklyn-jung-1.jpg
+    name: Brooklyn Jung
+    rule: "#10:  2-3 minutes late is okay, it shows that you are punctual but
+      important enough to have other stuff going on.  5-6 minutes late is rude
+      and shows that you don't respect people's time."
+    song: "\"Today, it's Better People to Leave on Read\" by Emei"
+    person: My Mom :)
+    fact: I've only broken one bone in my life, and it happened before I was born
+    team: Development
+  - img_path: /images/uploads/intern-2-2.jpg
+    name: Ethan Gamble
+    rule: "#26:  Don't let stupid things keep you from doing awesome things"
+    song: '"Fun" by Some Night'
+    person: Tony Stark (He's fictional, but c'mon).
+    fact: I am a solid disc golf player.
+    team: Development
