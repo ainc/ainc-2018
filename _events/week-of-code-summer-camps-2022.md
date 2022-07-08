@@ -1,6 +1,6 @@
 ---
 title: Week of Code Summer Camps 2022
-date: 2022-06-06T17:00:00.000Z
+date: 2022-07-11T17:00:00.000Z
 eventbrite_id: "247375706397"
 event_url: https://www.eventbrite.com/e/247375706397?utm_source=website&utm_medium=website&utm_campaign=woc-website-2022
 feature: true
