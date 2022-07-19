@@ -1,17 +1,19 @@
 
 #youth {
-  #header {
-    background-image: url('/assets/img/aincu/youth/india/youth-header-india.png');;
-  }
-  #questions.questions-india {
-    background-image: url('../../assets/img/aincu/youth/india/questions.jpg');
-    background-position: center 35%;
-    &:before {
-      filter: brightness(30%);
+  #india {
+    #header {
+      background-image: url('/assets/img/aincu/youth/india/youth-header-india.png');;
     }
-    .heading-title {
-      margin-top: 5rem;
-      margin-bottom: 10rem;
+    #questions.questions-india {
+      background-image: url('../../assets/img/aincu/youth/india/questions.jpg');
+      background-position: center 35%;
+      &:before {
+        filter: brightness(30%);
+      }
+      .heading-title {
+        margin-top: 5rem;
+        margin-bottom: 10rem;
+      }
     }
   }
 }
