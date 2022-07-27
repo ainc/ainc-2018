@@ -1,0 +1,120 @@
+---
+title: Salesforce Career Accelerator Application
+layout: application
+course: "/salesforce/"
+breadcrumb: "/learn/adults/salesforce/apply"
+team: aincu
+redirect_from: 
+ - 'applications/salesforce'
+---
+
+{% comment %}
+Zoho Forms Note :
+   - You can modify the font style and form style to suit your website.
+   - Code lines with comments “Do not remove this code”  are required for the form to work properly, make sure that you do not remove these lines of code.
+   - The Mandatory check script can modified as to suit your business needs.
+   - It is important that you test the modified form before going live.
+{% endcomment %}
+
+<div id="crmWebToEntityForm">
+    <form action='https://forms.zohopublic.com/virtualoffice9155/form/SalesforceApplication/formperma/pYBBUCTZuWjq_3qXINbjKIdK4nR0oJvACJ2xsqiWzzQ/htmlRecords/submit' name='form' id='form' method='POST' accept-charset='UTF-8' enctype='multipart/form-data'>
+
+	 <!-- Do not remove this code. -->
+    <input type="hidden" name="zf_referrer_name" value=""><!-- To Track referrals , place the referrer name within the " " in the above hidden input field -->
+    <input type="hidden" name="zf_redirect_url" value=""><!-- To redirect to a specific page after record submission , place the respective url within the " " in the above hidden input field -->
+    <input type="hidden" name="zc_gad" value=""><!-- If GCLID is enabled in Zoho CRM Integration, click details of AdWords Ads will be pushed to Zoho CRM -->
+
+      <!-- Do not remove this code. -->
+    <legend>
+        Fill out this form to start your application process
+        <br>
+        <br>
+        {% assign salesforce = site.courses | where: "course-category", "salesforce" %}
+        {% for class in salesforce limit: 1 %}
+            {% if class.season == "Summer" %}
+                {% capture season_short %}{{ class.season.first | slice: 0,1 }}{{ class.program-begin-date | date: "%Y" | slice: 2,3 }}{% endcapture %}
+            {% else %}
+                {% capture season_short %}{{ class.season.first | slice: 0 }}{{ class.program-begin-date | date: "%Y" | slice: 2,3 }}{% endcapture %}
+            {% endif %}
+            <small>Application Deadline for cohort {{ class.season.first }} '{{ class.program-begin-date | date: "%Y" | slice: 2,3 }} ({{ season_short }}): <b>{{ class.application-date | date: "%A, %B %d" }}</b></small>
+        {% endfor %}
+    </legend>
+    
+    <div class="form-group">
+    	<label for="First Name">First Name</label>
+        <input type="text" fieldType=7 maxlength="255" name="Name_First" placeholder="First Name" class="form-control input-lg" required>
+    </div>
+    <div class="form-group">
+    	<label for="Last Name">Last Name</label>
+        <input type="text" fieldType=7 maxlength="255" name="Name_Last" placeholder="Last Name" class="form-control input-lg" required>
+    </div>
+    <div class="form-group">
+        <label for="Email">Email</label>
+        <input type="email" fieldType=9 maxlength="100" name="Email" placeholder="Email Address" class="form-control input-lg" required>
+    </div>
+    <div class="form-group">
+    	<label for="Phone">Phone</label>
+        <input type="text" compname="PhoneNumber" name="PhoneNumber_countrycode" phoneFormat="1" isCountryCodeEnabled=false maxlength="20" value="" fieldType=11 id="international_PhoneNumber_countrycode" class="form-control input-lg"/>
+    </div>
+    <div class="form-group">
+    	<label for="Lead Source">How did you find out about the Bootcamp?</label>
+		<select class="form-control input-lg" name="Radio" required>
+            <option value="-Select-">-Select-</option>
+			<option value="Advertisement">Advertisement</option>
+			<option value="News&#x20;Article">News Article</option>
+			<option value="Signage&#x20;&#x2f;&#x20;Building">Signage &#x2f; Building</option>
+			<option value="Google&#x20;Search">Google Search</option>
+            <option value="Referral&#x20;&#x2f;&#x20;Word&#x20;of&#x20;Mouth">Referral &#x2f; Word of Mouth</option>
+            <option value="Event">Event</option>
+            <option value="Facebook">Facebook</option>
+            <option value="Other">Other</option>
+		</select>
+    </div>
+    <div class="form-group">
+    	<label for="LEADCF26">If referred, who told you about the Bootcamp&#x3f;</label>
+        <input type="text" maxlength="255" name="SingleLine1" value="" fieldType=1 placeholder="Referred by..." class="form-control input-lg">
+    </div>
+	<div style="display:none;">
+		Course
+		<select name="LEADCF4">
+		<option selected value="Bootcamp">Bootcamp</option>
+		</select>
+	</div>
+    <input type="submit" value="Submit" class="btn btn-default" >
+	</form>
+</div>
+
+
+<section id="cost">
+    <div class="lgx-inner">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="lgx-heading lgx-heading-red">
+              <h2 class="heading-title">The Cost</h2>
+            </div>
+            <div class="col-xs-12 col-sm-5">
+              <div class="lgx-heading">
+                <h4 class="heading-title-small">Income Share Agreement</h4>
+              </div>      
+              <div class="aside-content">
+                <p>
+                  Fund your future with an Income Share Agreement. We’re partnered with industry-leading ISA provider <a href="https://www.meratas.com/" target="_blank">Meratas</a> to allow students to enroll in our full-time program with no up front tuition costs. ISA recipients only pay when they’ve landed a job making $40,000/year or more. Want to know more? <a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/ainc/visit-awesome-inc'});return false;">Schedule a call today</a>! 
+                </p>
+              </div>
+            </div>
+            <div class="col-xs-12 col-sm-5 col-sm-offset-1">
+              <div class="lgx-heading">
+                <h4 class="heading-title-small">Up-Front Payment</h4>
+              </div>      
+              <div class="aside-content">
+                <p>
+                  Students who choose to pay tuition up front are offered a discounted tuition rate of $13,500.
+                </p>
+              </div>
+            </div>
+          </div><!-- col -->
+        </div> <!-- row -->
+      </div> <!-- container -->
+    </div> <!-- lgx-inner-->
+  </section>
