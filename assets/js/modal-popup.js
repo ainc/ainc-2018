@@ -5,6 +5,6 @@ function displayPopup() {
 $(document).ready(function() {
   setTimeout(function() {
     displayPopup();
-  }, 2000);
+  }, 12000);
 });
 
