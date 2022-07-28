@@ -159,3 +159,17 @@ items:
     person: Tony Stark (He's fictional, but c'mon).
     fact: I am a solid disc golf player.
     team: Development
+  - img_path: /images/uploads/larry_square-1.jpg
+    name: Larry Reed
+    rule: "#26: Don't let stupid things keep you from doing awesome things"
+    song: Spaceship by "Don Toliver"
+    person: My Dad
+    fact: I was born with 12 fingers
+    team: Video Team, Events/Marketing Team
+  - img_path: /images/uploads/alex_square-1.jpg
+    name: Alex Webb
+    rule: "#76: No excuses, play like a champion"
+    song: One by "Metallica"
+    person: Peter Jackson (Director)
+    fact: I am a twin
+    team: Video Team
