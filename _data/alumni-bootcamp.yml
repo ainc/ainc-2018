@@ -1,430 +1,376 @@
 items:
-  -
-    name: Chad Cooper
-    website: 
+  - name: Chad Cooper
+    website: null
     github: https://github.com/chadcooper06
     linkedin: https://www.linkedin.com/in/chad-cooper-dev/
     img_path: chad-cooper
     position: null
     cohort: s22
-  -
-    name: Anthony DeVarti
-    website: 
+  - name: Anthony DeVarti
+    website: null
     github: https://github.com/anthony-devarti
     linkedin: https://www.linkedin.com/in/anthony-devarti-026060181/
     img_path: anthony-devarti
     position: CABEM<br>Technologies
     cohort: s22
-  -
-    name: Jordan Duff
-    website: 
+  - name: Jordan Duff
+    website: https://carljduff.github.io/portfolio/
     github: https://github.com/carljduff
     linkedin: https://www.linkedin.com/in/carljduff/
     img_path: jordan-duff
     position: APAX
     cohort: s22
-  -
-    name: Corey Hampton
-    website: 
+  - name: Corey Hampton
+    website: null
     github: https://github.com/coreyham
     linkedin: https://www.linkedin.com/in/corey-hampton-dev/
     img_path: corey-hampton
     position: null
     cohort: s22
-  -
-    name: Zachary Kestner
+  - name: Zachary Kestner
     website: https://thekestner.github.io/
     github: https://github.com/thekestner
     linkedin: https://www.linkedin.com/in/zachary-kestner-17b864155/
     img_path: zachary-kestner
     position: null
     cohort: s22
-  -
-    name: Nick McMillen
+  - name: Nick McMillen
     website: https://nmcmillen.github.io/personal-react-site/
     github: https://github.com/nmcmillen
     linkedin: https://www.linkedin.com/in/nickmcmillen/
     img_path: nick-mcmillen
     position: null
     cohort: s22
-  -
-    name: Chad Powell
+  - name: Chad Powell
     website: https://chad-powellv1.github.io/Chad_Powell/
     github: https://github.com/Chad-Powellv1
     linkedin: https://www.linkedin.com/in/chad-powell-dev/
     img_path: chad-powell
     position: null
     cohort: s22
-  -
-    name: Blair Preston
+  - name: Blair Preston
     website: https://blair-preston.github.io/portfolio-blog/
     github: https://github.com/blair-preston
-    linkedin: https://www.linkedin.com/in/blair-preston-73957620b/
+    linkedin: https://www.linkedin.com/in/blair-preston-170771237/
     img_path: blair-preston
-    position: null
+    position: Covetrus
     cohort: s22
-  -
-    name: Jia-Yi Chen
+  - name: Jia-Yi Chen
     website: https://jiayijchen-app.web.app/
     github: https://github.com/jiayichen0
     linkedin: https://www.linkedin.com/in/jiayijchen/
     img_path: jia-yi-chen
     position: Wild Health
     cohort: f21
-  -
-    name: Michael Chinn
+  - name: Michael Chinn
     website: https://michaelschinn.github.io/
     github: https://github.com/michaelschinn
-    linkedin: 
+    linkedin: null
     img_path: michael-chinn
     position: null
     cohort: f21
-  -
-    name: Keith Downing
+  - name: Keith Downing
     website: https://projectpage-889b5.web.app/
     github: https://github.com/kadowning1
     linkedin: https://www.linkedin.com/in/kadowning1/
     img_path: keith-downing
     position: APAX
     cohort: f21
-  -
-    name: Ticia Dunn
+  - name: Ticia Dunn
     website: https://ticiad-portfolio.web.app/
     github: https://github.com/TiciaD
     linkedin: https://www.linkedin.com/in/ticia-dunn/
     img_path: ticia-dunn
     position: APAX
     cohort: f21
-  -
-    name: Grant Harris
+  - name: Grant Harris
     website: https://grant-harris.web.app/
     github: https://github.com/GrantHarris1
     linkedin: https://www.linkedin.com/in/1grantharris1/
     img_path: grant-harris
     position: BlueFrame
     cohort: f21
-  -
-    name: Robin Kelsick
+  - name: Robin Kelsick
     website: https://robin-kelsickii-github.web.app/
     github: https://github.com/robinkelsickii
     linkedin: https://www.linkedin.com/in/robin-kelsick-ii/
     img_path: robin-kelsick
     position: Bitwerx
     cohort: f21
-  -
-    name: Kole Kendrick
+  - name: Kole Kendrick
     website: https://portfolio-2a6a3.web.app/
     github: https://github.com/ViktorKKendrick
     linkedin: https://www.linkedin.com/in/kole-kendrick-4b0071225/
     img_path: kole-kendrick
     position: null
     cohort: f21
-  -
-    name: Andrew Mills
+  - name: Andrew Mills
     website: https://andrew-mills-portfolio.web.app/
     github: https://github.com/amills25
     linkedin: https://www.linkedin.com/in/amills25/
     img_path: andrew-mills
     position: APAX
     cohort: f21
-  -
-    name: Chase Shelton
+  - name: Chase Shelton
     website: https://react-portfolio-73cc4.web.app/
     github: https://github.com/achaseshelton
     linkedin: https://www.linkedin.com/in/chase-shelton/
     img_path: chase-shelton
     position: Lightwell
     cohort: f21
-  -
-    name: Justin Smith
+  - name: Justin Smith
     website: https://justinsmith95.github.io/
     github: https://github.com/justinsmith95
     linkedin: https://www.linkedin.com/in/justin-smith-b50798225/
     img_path: justin-smith
     position: Lightwell
     cohort: f21
-  -
-    name: Tyler Van Nostrand
+  - name: Tyler Van Nostrand
     website: https://portfolio-tv.web.app/
     github: https://github.com/TylerVanNostrand
     linkedin: https://www.linkedin.com/in/tyler-van-nostrand/
     img_path: tyler-vannostrand
     position: TwinSpires
     cohort: f21
-  -
-    name: Troy Wagoner
+  - name: Troy Wagoner
     website: https://portfolio-e6a8d.web.app/
     github: https://github.com/Troyallen98
     linkedin: https://www.linkedin.com/in/troy-wagoner/
     img_path: troy-wagoner
     position: Lightwell
     cohort: f21
-  -
-    name: Tony Watson
+  - name: Tony Watson
     website: https://tonybwatsonportfolio.web.app/
     github: https://github.com/tonybwatson
     linkedin: https://www.linkedin.com/in/tonybwatson/
     img_path: tony-watson
     position: Lightwell
     cohort: f21
-  -
-    name: Rachel Ehlers
+  - name: Rachel Ehlers
     website: https://rwehlers.com/
     github: https://github.com/cedar-waxwing
     linkedin: https://www.linkedin.com/in/rachelehlers/
     img_path: rachel-ehlers
     position: APAX
     cohort: s21
-  -
-    name: Harris Green
+  - name: Harris Green
     website: https://my-blog-bcf2f.web.app/
     github: https://github.com/hmgreen44
     linkedin: https://www.linkedin.com/in/harris-green1
     img_path: harris-green
     position: Wicked<br>Reports
     cohort: s21
-  -
-    name: Steven Littrell
+  - name: Steven Littrell
     website: https://slittrell.com/
     github: https://github.com/sflittrell
     linkedin: https://www.linkedin.com/in/stevenflittrell/
     img_path: steven-littrell
     position: APAX
     cohort: s21
-  -
-    name: Jake Mannino
+  - name: Jake Mannino
     website: https://blog-37ee2.web.app/
     github: https://github.com/jake-mannino
     linkedin: https://www.linkedin.com/in/jake-mannino/
     img_path: jake-mannino
     position: null
     cohort: s21
-  -
-    name: Marquise Piton
+  - name: Marquise Piton
     website: https://marquisepiton.github.io/Journey-to-Becoming-a-Full-Stack-Developer-Blog/
     github: https://github.com/marquisepiton
     linkedin: https://www.linkedin.com/in/marquisepiton/
     img_path: marquise-piton
     position: UK
     cohort: s21
-  -
-    name: Walter Saygers
+  - name: Walter Saygers
     website: https://waltsaygers.com/
     github: https://github.com/wtsaygers1
     linkedin: https://www.linkedin.com/in/waltersaygers/
     img_path: walter-saygers
     position: Thoroughbred<br>Solutions
     cohort: s21
-  -
-    name: Eric Sparks
+  - name: Eric Sparks
     website: https://esparks.dev/
     github: https://github.com/Sparkseric90
     linkedin: https://www.linkedin.com/in/ericdsparks/
     img_path: eric-sparks
     position: Sparks<br>3D Designs
     cohort: s21
-  -
-    name: Smith Thay
+  - name: Smith Thay
     website: https://smiththaysite.web.app/
     github: https://github.com/smiththay
     linkedin: https://www.linkedin.com/in/smiththay/
     img_path: smith-thay
     position: EKU
     cohort: s21
-  -
-    name: Reece Walter
+  - name: Reece Walter
     website: https://reecewalter.com/
     github: https://github.com/thereeceshow
     linkedin: https://www.linkedin.com/in/reecewalter/
     img_path: reece-walter
     position: Studio 34
     cohort: s21
-  -
-    name: Russell Wheeler
+  - name: Russell Wheeler
     website: https://russellwheeler.com/
     github: https://github.com/r83wheeler
     linkedin: https://www.linkedin.com/in/russellswheeler/
     img_path: russell-wheeler
     position: VividCharts
     cohort: s21
-  -
-    name: Chancellor Whitaker
+  - name: Chancellor Whitaker
     website: https://chamce-portfolio.web.app/
     github: https://github.com/chamce
     linkedin: https://www.linkedin.com/in/chancellorwhitaker/
     img_path: chancellor-whitaker
     position: EKU
     cohort: s21
-  -
-    name: Jimmy Zheng
+  - name: Jimmy Zheng
     website: https://jimmyzheng.com
     github: https://github.com/Jzhen123
     linkedin: https://www.linkedin.com/in/thejimmyzheng
     img_path: jimmy-zheng
     position: Stellar<br>TechWorks
     cohort: s21
-  -
-    name: Kennedy Caneer
+  - name: Kennedy Caneer
     website: https://blog-21d62.web.app/
     github: https://github.com/kcaneer
     linkedin: https://linkedin.com/in/kennedy-caneer
     img_path: kennedy-caneer
     position: Silver Fern<br>Group
     cohort: f20
-  -
-    name: Austin Carson
+  - name: Austin Carson
     website: https://github.com/AustinC9
     github: https://github.com/AustinC9
     linkedin: https://www.linkedin.com/in/austin-carson/
     img_path: austin-carson
     position: Mediaura
     cohort: f20
-  -
-    name: Anthony Davies
+  - name: Anthony Davies
     website: https://Jdavies00.github.io
     github: https://github.com/Jdavies00
     linkedin: https://www.linkedin.com/in/jdavies00/
     img_path: anthony-davies
     position: Lightwell
     cohort: f20
-  -
-    name: Reese Hudson
+  - name: Reese Hudson
     website: https://portfolio-hudson.web.app/
     github: https://github.com/dreesehudson
     linkedin: https://www.linkedin.com/in/dreesehudson/
     img_path: reese-hudson
     position: CABEM<br>Technologies
     cohort: f20
-  -
-    name: Rachel Jackson
+  - name: Rachel Jackson
     website: https://racheljay.dev/
     github: https://github.com/racheljay
     linkedin: https://www.linkedin.com/in/racheljay42/
     img_path: rachel-jackson
     position: Art of<br>Education
     cohort: f20
-  -
-    name: Ryan Kelly
+  - name: Ryan Kelly
     website: https://Rmke223.github.io
     github: https://github.com/Rmke223
     linkedin: https://www.linkedin.com/in/ryankelly17/
     img_path: ryan-kelly
     position: BlueFrame
     cohort: f20
-  -
-    name: Skyler Kuretza
+  - name: Skyler Kuretza
     website: https://skylerkuretzaportfolio.web.app/
     github: https://github.com/skylerkk
     linkedin: https://www.linkedin.com/in/skyler-kuretza/
     img_path: skyler-kuretza
     position: Lightwell
     cohort: f20
-  -
-    name: Rebecca Mead
+  - name: Rebecca Mead
     website: https://also-and.web.app/
     github: https://github.com/rlmead
     linkedin: https://www.linkedin.com/in/rlmead/
     img_path: rebecca-mead
     position: Art of<br>Education
     cohort: f20
-  -
-    name: Joseph Passafiume
+  - name: Joseph Passafiume
     website: https://react-blog-b418d.web.app/
     github: https://github.com/JoePass456
     linkedin: https://www.linkedin.com/in/joe-passafiume/
     img_path: joseph-passafiume
     position: null
     cohort: f20
-  -
-    name: Duncan Scruggs
+  - name: Duncan Scruggs
     website: https://blog-73667.web.app/
     github: https://github.com/DuncanBScruggs
     linkedin: https://www.linkedin.com/in/duncanbscruggs/
     img_path: duncan-scruggs
     position: Lightwell
     cohort: f20
-  -
-    name: Chandler Ward
+  - name: Chandler Ward
     website: https://bootcamp-blog-d928f.web.app/
     github: https://github.com/Cward92
     linkedin: https://www.linkedin.com/in/chandler-m-ward/
     img_path: chandler-ward
     position: Lightwell
     cohort: f20
-  -
-    name: Aaron Withers
+  - name: Aaron Withers
     website: https://alwith2.github.io
     github: https://github.com/alwith2
     linkedin: https://www.linkedin.com/in/aaron-withers-a4a37494/
     img_path: aaron-withers
     position: Delivery<br>Co-op
     cohort: f20
-  -
-    name: Denis Gatotho
+  - name: Denis Gatotho
     website: https://bllloggg.web.app/
     github: https://github.com/denisgat
     linkedin: https://www.linkedin.com/in/denis-gatotho-a3b421194/
     img_path: denis-gatotho
     position: Advantage<br>Resource
     cohort: s20
-  -
-    name: Colin McCulloch
+  - name: Colin McCulloch
     website: https://ColinMcC76.github.io
     github: https://github.com/ColinMcC76/
     linkedin: https://www.linkedin.com/in/colin-mcculloch/
     img_path: colin-mcculloch
     position: null
     cohort: s20
-  -
-    name: Jonathan Mefford
+  - name: Jonathan Mefford
     website: https://jonathandmefford.github.io/
     github: https://github.com/JonathanDMefford/
     linkedin: https://www.linkedin.com/in/jonathan-mefford/
     img_path: jonathan-mefford
     position: null
     cohort: s20
-  -
-    name: Allison Miller
+  - name: Allison Miller
     website: https://armiller-blog.web.app/
     github: https://github.com/AllisonRMiller/
     linkedin: https://www.linkedin.com/in/armiller-lexky/
     img_path: allison-miller
     position: Bitwerx
     cohort: s20
-  -
-    name: Hayden Nesbit
+  - name: Hayden Nesbit
     website: https://react-blog-4f714.web.app/
     github: https://github.com/hayden-nesbit/
     linkedin: https://www.linkedin.com/in/hayden-nesbit-b54a7485/
     img_path: hayden-nesbit
     position: Silver Fern<br>Group
     cohort: s20
-  -
-    name: David Oliver
+  - name: David Oliver
     website: https://davo1984.github.io/
     github: https://github.com/davo1984/
     linkedin: https://www.linkedin.com/in/davidoliver1984/
     img_path: david-oliver
     position: null
     cohort: s20
-  -
-    name: Tim Rogers
+  - name: Tim Rogers
     website: https://ainc-bootcamp-blog.web.app/
     github: https://github.com/tkrogers3/
     linkedin: https://www.linkedin.com/in/timothykrogers
     img_path: tim-rogers
     position: null
     cohort: s20
-  -
-    name: Kate Sivy
+  - name: Kate Sivy
     website: https://blog-8fadb.web.app/
     github: https://github.com/katesivy
     linkedin: https://www.linkedin.com/in/kate-sivy/
     img_path: kate-sivy
     position: Bitwerx
     cohort: s20
-  -
-    name: Kelly Wilson
+  - name: Kelly Wilson
     website: https://kellylwilson.github.io/
     github: https://github.com/kellylwilson
     linkedin: https://www.linkedin.com/in/kelly-l-wilson/
@@ -432,429 +378,429 @@ items:
     position: FIT<br>Solutions
     cohort: s20
   - cohort: f19
-    github: 'https://github.com/taylorakin'
+    github: https://github.com/taylorakin
     img_path: taylor-akin
-    linkedin: 'https://www.linkedin.com/in/taylor-akin-178a5790/'
+    linkedin: https://www.linkedin.com/in/taylor-akin-178a5790/
     name: Taylor Akin
     position: APAX
-    website: 'https://taylorakin.github.io'
+    website: https://taylorakin.github.io
   - cohort: f19
-    github: 'https://github.com/eBork1'
+    github: https://github.com/eBork1
     img_path: ethan-borkosky
     linkedin: https://www.linkedin.com/in/ethan-borkosky/
     name: Ethan Borkosky
     position: ApolloFactor
-    website: 'https://ebork.dev/'
+    website: https://ebork.dev/
   - cohort: f19
-    github: 'https://www.github.com/robbiegay'
+    github: https://www.github.com/robbiegay
     img_path: robbie-gay
     linkedin: https://www.linkedin.com/in/robbiegay/
     name: Robbie Gay
     position: VetData
-    website: 'https://robbiegay.github.io/'
+    website: https://robbiegay.github.io/
   - cohort: f19
-    github: 'https://github.com/Wildercat'
+    github: https://github.com/Wildercat
     img_path: abram-gornik
-    linkedin: 'https://www.linkedin.com/in/abram-gornik/'
+    linkedin: https://www.linkedin.com/in/abram-gornik/
     name: Abram Gornik
     position: Zudy
-    website: 'https://Wildercat.github.io/'
+    website: https://Wildercat.github.io/
   - cohort: f19
-    github: 'https://github.com/EricHampton12'
+    github: https://github.com/EricHampton12
     img_path: eric-hampton
-    linkedin: 'https://www.linkedin.com/in/james-hampton-102107191/'
+    linkedin: https://www.linkedin.com/in/james-hampton-102107191/
     name: Eric Hampton
-    website: 'https://erichampton12.github.io/Blog/'
+    website: https://erichampton12.github.io/Blog/
     position: Quotum <br> Technologies
   - cohort: f19
-    github: 'https://www.github.com/dmjoyce951'
+    github: https://www.github.com/dmjoyce951
     img_path: david-joyce
-    linkedin: 'https://www.linkedin.com/in/david-joyce-ky/'
+    linkedin: https://www.linkedin.com/in/david-joyce-ky/
     name: David Joyce
     position: DecoArt
-    website: 'https://dmjoyce951.github.io/'
+    website: https://dmjoyce951.github.io/
   - cohort: f19
-    github: 'https://www.github.com/willmcgill'
+    github: https://www.github.com/willmcgill
     img_path: will-mcgill
     linkedin: https://www.linkedin.com/in/will-mcgill/
     name: William McGill
     position: Big Ass Fans
-    website: 'https://willmcgill.rocks/'
+    website: https://willmcgill.rocks/
   - cohort: f19
-    github: 'https://www.github.com/toddtrivisonno'
+    github: https://www.github.com/toddtrivisonno
     img_path: todd-trivisonno
     linkedin: https://www.linkedin.com/in/todd-trivisonno/
     name: Todd Trivisonno
     position: Avail
-    website: 'https://toddtrivisonno.github.io/'
+    website: https://toddtrivisonno.github.io/
   - cohort: f19
-    github: 'https://www.github.com/anchormansam'
+    github: https://www.github.com/anchormansam
     img_path: sam-wheeling
-    linkedin: 'https://www.linkedin.com/in/samuel-wheeling-01121513a/'
+    linkedin: https://www.linkedin.com/in/samuel-wheeling-01121513a/
     name: Sam Wheeling
     position: BlueFrame
-    website: 'https://anchormansam.github.io/my-blog/'
+    website: https://anchormansam.github.io/my-blog/
   - cohort: f19
-    github: 'https://github.com/rachyoder'
+    github: https://github.com/rachyoder
     img_path: rachael-yoder
-    linkedin: 'https://www.linkedin.com/in/rachael-yoder-6637b9192/'
+    linkedin: https://www.linkedin.com/in/rachael-yoder-6637b9192/
     name: Rachael Yoder
     position: 2819 Studios
-    website: 'https://rachyoder.github.io/'
+    website: https://rachyoder.github.io/
   - cohort: s19
-    github: 'https://github.com/jaelyncoles/'
+    github: https://github.com/jaelyncoles/
     img_path: jaelyn-coles
-    linkedin: 'https://www.linkedin.com/in/jaelyncoles/'
+    linkedin: https://www.linkedin.com/in/jaelyncoles/
     name: Jaelyn Coles
     position: KET
-    website: 'https://jaelyncoles.github.io'
+    website: https://jaelyncoles.github.io
   - cohort: s19
-    github: 'https://github.com/EllerMel/'
+    github: https://github.com/EllerMel/
     img_path: melissa-eller
-    linkedin: 'https://www.linkedin.com/in/melissaeller248/'
+    linkedin: https://www.linkedin.com/in/melissaeller248/
     name: Melissa Eller
     position: APAX
-    website: 'https://ellermel.github.io'
+    website: https://ellermel.github.io
   - cohort: s19
-    github: 'https://github.com/AdamFister/'
+    github: https://github.com/AdamFister/
     img_path: adam-fister
-    linkedin: 'https://www.linkedin.com/in/adam-fister-050728129/'
+    linkedin: https://www.linkedin.com/in/adam-fister-050728129/
     name: Adam Fister
     position: OmniLife
-    website: 'https://AdamFister.github.io'
+    website: https://AdamFister.github.io
   - cohort: s19
-    github: 'https://github.com/SamMoher/'
+    github: https://github.com/SamMoher/
     img_path: samuel-moher
-    linkedin: 'https://www.linkedin.com/in/sammoher/'
+    linkedin: https://www.linkedin.com/in/sammoher/
     name: Samuel Moher
     position: BlueFrame
-    website: 'https://sammoher.github.io/'
+    website: https://sammoher.github.io/
   - cohort: s19
-    github: 'https://github.com/ColbyTaylor12'
+    github: https://github.com/ColbyTaylor12
     img_path: colby-taylor
-    linkedin: 'https://www.linkedin.com/in/colby-taylor-82551b17a/'
+    linkedin: https://www.linkedin.com/in/colby-taylor-82551b17a/
     name: Colby Taylor
     position: BlueFrame
-    website: 'https://colbytaylor12.github.io'
+    website: https://colbytaylor12.github.io
   - cohort: s19
-    github: 'https://github.com/KseniyaVerenich/'
+    github: https://github.com/KseniyaVerenich/
     img_path: kseniya-verenich
-    linkedin: 'https://www.linkedin.com/in/kseniya-v-30475a17a/'
+    linkedin: https://www.linkedin.com/in/kseniya-v-30475a17a/
     name: Kseniya Verenich
     position: OmniLife
-    website: 'https://kseniyaverenich.github.io/'
+    website: https://kseniyaverenich.github.io/
   - cohort: s19
-    github: 'https://github.com/JarodYli/'
+    github: https://github.com/JarodYli/
     img_path: jarod-wylie
-    linkedin: 'https://www.linkedin.com/in/jarod-wylie-6546a217a/'
+    linkedin: https://www.linkedin.com/in/jarod-wylie-6546a217a/
     name: Jarod Wylie
     position: KYTC
-    website: 'https://jarod-wylie-portfolio.herokuapp.com/'
+    website: https://jarod-wylie-portfolio.herokuapp.com/
   - cohort: f18
-    github: 'https://github.com/maymeclayton'
+    github: https://github.com/maymeclayton
     img_path: mayme-clayton
-    linkedin: 'https://www.linkedin.com/in/mayme-clayton-12287316a/'
+    linkedin: https://www.linkedin.com/in/mayme-clayton-12287316a/
     name: Mayme Clayton
     position: Bluegrass Integrated Communications
-    website: 'https://maymeclayton.github.io'
+    website: https://maymeclayton.github.io
   - cohort: f18
-    github: 'https://github.com/devinepk'
+    github: https://github.com/devinepk
     img_path: philip-devine
-    linkedin: 'https://www.linkedin.com/in/devinepk/'
+    linkedin: https://www.linkedin.com/in/devinepk/
     name: Philip Devine
     position: Bastian<br>Solutions
-    website: 'https://devinepk.github.io/portfolio/'
+    website: https://devinepk.github.io/portfolio/
   - cohort: f18
-    github: 'https://github.com/JTHall94/'
+    github: https://github.com/JTHall94/
     img_path: jacob-hall
-    linkedin: 'https://www.linkedin.com/in/jacob-hall-714855101/'
+    linkedin: https://www.linkedin.com/in/jacob-hall-714855101/
     name: Jacob Hall
     position: APAX
-    website: 'https://jthall94.github.io/'
+    website: https://jthall94.github.io/
   - cohort: f18
-    github: 'https://github.com/Imayeti'
+    github: https://github.com/Imayeti
     img_path: micah-jones
-    linkedin: 'https://www.linkedin.com/in/micah-jones-b8343b16b/'
+    linkedin: https://www.linkedin.com/in/micah-jones-b8343b16b/
     name: Micah Jones
     position: Studio 34
-    website: 'https://imayeti.github.io'
+    website: https://imayeti.github.io
   - cohort: f18
-    github: 'https://github.com/kendrajordan/'
+    github: https://github.com/kendrajordan/
     img_path: kendra-jordan
-    linkedin: 'https://www.linkedin.com/in/kendra-jordan-50555910b'
+    linkedin: https://www.linkedin.com/in/kendra-jordan-50555910b
     name: Kendra Jordan
     position: UK
-    website: 'https://kendrajordan.github.io/'
+    website: https://kendrajordan.github.io/
   - cohort: f18
-    github: 'https://github.com/Cgmccarty/'
+    github: https://github.com/Cgmccarty/
     img_path: connor-mccarty
-    linkedin: 'https://www.linkedin.com/in/connor-mccarty-27b151168/'
+    linkedin: https://www.linkedin.com/in/connor-mccarty-27b151168/
     name: Connor McCarty
     position: BlueFrame
-    website: 'https://cgmccarty.github.io/'
+    website: https://cgmccarty.github.io/
   - cohort: f18
-    github: 'https://github.com/Kiwipup'
+    github: https://github.com/Kiwipup
     img_path: christina-meredith
-    linkedin: 'https://www.linkedin.com/in/christina-cobb-31193b16a/'
+    linkedin: https://www.linkedin.com/in/christina-cobb-31193b16a/
     name: Christina Meredith
     position: Schedule It
-    website: 'https://kiwipup.github.io/'
+    website: https://kiwipup.github.io/
   - cohort: f18
-    github: 'https://github.com/bmizepatterson'
+    github: https://github.com/bmizepatterson
     img_path: ben-patterson
-    linkedin: 'https://www.linkedin.com/in/bmizepatterson/'
+    linkedin: https://www.linkedin.com/in/bmizepatterson/
     name: Ben Patterson
     position: Avnet
-    website: 'https://bmizepatterson.github.io/'
+    website: https://bmizepatterson.github.io/
   - cohort: f18
-    github: 'https://github.com/ddshelt/'
+    github: https://github.com/ddshelt/
     img_path: derrick-shelton
-    linkedin: 'https://www.linkedin.com/in/derrick-shelton-18887116a/'
+    linkedin: https://www.linkedin.com/in/derrick-shelton-18887116a/
     name: Derrick Shelton
     position: Schedule It
-    website: 'https://ddshelt.github.io'
+    website: https://ddshelt.github.io
   - cohort: f18
-    github: 'https://github.com/hstone102'
+    github: https://github.com/hstone102
     img_path: holly-stone
-    linkedin: 'https://www.linkedin.com/in/holly-stone-1b854989/'
+    linkedin: https://www.linkedin.com/in/holly-stone-1b854989/
     name: Holly Stone
     position: Protack
-    website: 'https://hstone102.github.io'
+    website: https://hstone102.github.io
   - cohort: s18
-    github: 'https://github.com/RyanBorja/'
+    github: https://github.com/RyanBorja/
     img_path: ryan-borja
-    linkedin: 'https://www.linkedin.com/in/ryan-t-borja/'
+    linkedin: https://www.linkedin.com/in/ryan-t-borja/
     name: Ryan Borja
     position: iReportSource
-    website: 'https://ryanborja.github.io'
+    website: https://ryanborja.github.io
   - cohort: s18
-    github: 'https://github.com/rcbrowder/'
+    github: https://github.com/rcbrowder/
     img_path: chris-browder
-    linkedin: 'https://www.linkedin.com/in/rcbrowder/'
+    linkedin: https://www.linkedin.com/in/rcbrowder/
     name: Chris Browder
     position: Nymbl Systems
-    website: 'https://rcbrowder.github.io'
+    website: https://rcbrowder.github.io
   - cohort: s18
-    github: 'https://github.com/dimitri16h/'
+    github: https://github.com/dimitri16h/
     img_path: dimitri-hassan
-    linkedin: 'https://www.linkedin.com/in/dimitri-hassan-44548a162/'
+    linkedin: https://www.linkedin.com/in/dimitri-hassan-44548a162/
     name: Dimitri Hassan
     position: Cycom
-    website: 'https://dimitri16h.github.io'
+    website: https://dimitri16h.github.io
   - cohort: s18
-    github: 'https://github.com/KarKunze/'
+    github: https://github.com/KarKunze/
     img_path: karla-kunze
-    linkedin: 'https://www.linkedin.com/in/karla-kunze-02935939/'
+    linkedin: https://www.linkedin.com/in/karla-kunze-02935939/
     name: Karla Kunze
     position: ProspectTrax
-    website: 'https://KarKunze.github.io'
+    website: https://KarKunze.github.io
   - cohort: s18
-    github: 'https://github.com/kevin-moore-729'
+    github: https://github.com/kevin-moore-729
     img_path: kevin-moore
-    linkedin: 'https://www.linkedin.com/in/kevin-moore-5710a2143/'
+    linkedin: https://www.linkedin.com/in/kevin-moore-5710a2143/
     name: Kevin Moore
     position: Able Engine
-    website: 'https://kevin-moore-729.github.io'
+    website: https://kevin-moore-729.github.io
   - cohort: s18
-    github: 'https://github.com/demoncowgirl'
+    github: https://github.com/demoncowgirl
     img_path: beth-salvatore
-    linkedin: 'https://www.linkedin.com/in/bethjsalvatore/'
+    linkedin: https://www.linkedin.com/in/bethjsalvatore/
     name: Beth Salvatore
     position: null
-    website: 'https://beth-portfolio.herokuapp.com/'
+    website: https://beth-portfolio.herokuapp.com/
   - cohort: s18
-    github: 'https://github.com/TheErikWolfe'
+    github: https://github.com/TheErikWolfe
     img_path: erik-wolfe
-    linkedin: 'https://www.linkedin.com/in/erik-wolfe-56a801162/'
+    linkedin: https://www.linkedin.com/in/erik-wolfe-56a801162/
     name: Erik C. Wolfe
     position: VetData
-    website: 'https://TheErikWolfe.github.io'
+    website: https://TheErikWolfe.github.io
   - cohort: f17
-    github: 'https://github.com/chenggavin/'
+    github: https://github.com/chenggavin/
     img_path: gavin-cheng
-    linkedin: 'https://www.linkedin.com/in/gavin-cheng-519004109/'
+    linkedin: https://www.linkedin.com/in/gavin-cheng-519004109/
     name: Gavin Cheng
     position: Nymbl Systems
-    website: 'https://chenggavin.github.io'
+    website: https://chenggavin.github.io
   - cohort: f17
-    github: 'https://github.com/caseydemo/'
+    github: https://github.com/caseydemo/
     img_path: casey-demattina
-    linkedin: 'https://www.linkedin.com/in/casey-demattina-29aa98103/'
+    linkedin: https://www.linkedin.com/in/casey-demattina-29aa98103/
     name: Casey DeMattina
     position: Bud's Gun Shop
-    website: 'https://caseydemo.github.io'
+    website: https://caseydemo.github.io
   - cohort: f17
-    github: 'https://github.com/joncgrubb'
+    github: https://github.com/joncgrubb
     img_path: jonathan-grubb
-    linkedin: 'https://www.linkedin.com/in/joncgrubb/'
+    linkedin: https://www.linkedin.com/in/joncgrubb/
     name: Jonathan Grubb
     position: Schedule It
-    website: 'https://www.joncgrubb.com/'
+    website: https://www.joncgrubb.com/
   - cohort: f17
-    github: 'https://github.com/harrisonhadaway/'
+    github: https://github.com/harrisonhadaway/
     img_path: harrison-hadaway
-    linkedin: 'https://www.linkedin.com/in/harrisonhadaway/'
+    linkedin: https://www.linkedin.com/in/harrisonhadaway/
     name: Harrison Hadaway
     position: Mayfield IT<br> Consulting
-    website: 'https://harrisonhadaway.github.io'
+    website: https://harrisonhadaway.github.io
   - cohort: f17
-    github: 'https://github.com/clarkmurray/'
+    github: https://github.com/clarkmurray/
     img_path: clark-murray
-    linkedin: 'https://www.linkedin.com/in/clark-murray-1a5286123/'
+    linkedin: https://www.linkedin.com/in/clark-murray-1a5286123/
     name: Clark Murray
     position: Nymbl Systems
-    website: 'https://clarkmurray.github.io'
+    website: https://clarkmurray.github.io
   - cohort: f17
-    github: 'https://github.com/trenshaw88/'
+    github: https://github.com/trenshaw88/
     img_path: tanner-renshaw
-    linkedin: 'https://www.linkedin.com/in/tanner-renshaw-400954148/'
+    linkedin: https://www.linkedin.com/in/tanner-renshaw-400954148/
     name: Tanner Renshaw
     position: Mobitel<br> Network Gateway
-    website: 'https://trenshaw88.github.io'
+    website: https://trenshaw88.github.io
   - cohort: f17
-    github: 'https://github.com/melanieps1'
+    github: https://github.com/melanieps1
     img_path: melanie-stoeckle
-    linkedin: 'https://www.linkedin.com/in/melaniestoeckle/'
+    linkedin: https://www.linkedin.com/in/melaniestoeckle/
     name: Melanie Stoeckle
     position: APAX
-    website: 'https://melanieps1.github.io'
+    website: https://melanieps1.github.io
   - cohort: f17
-    github: 'https://github.com/nickveil/'
+    github: https://github.com/nickveil/
     img_path: nick-veil
-    linkedin: 'https://www.linkedin.com/in/nick-veil/'
+    linkedin: https://www.linkedin.com/in/nick-veil/
     name: Nick Veil
     position: UKHC
-    website: 'https://nickveil.github.io'
+    website: https://nickveil.github.io
   - cohort: f17
-    github: 'https://github.com/brookin8'
+    github: https://github.com/brookin8
     img_path: erin-wilcox
-    linkedin: 'https://www.linkedin.com/in/erin-wilcox-b1842b22/'
+    linkedin: https://www.linkedin.com/in/erin-wilcox-b1842b22/
     name: Erin Wilcox
     position: CABEM<br>Technologies
-    website: 'https://brookin8.github.io'
+    website: https://brookin8.github.io
   - cohort: s17
-    github: 'https://github.com/btatkinson'
+    github: https://github.com/btatkinson
     img_path: blake-atkinson
-    linkedin: 'https://www.linkedin.com/in/blake-atkinson-55bb5613b/'
+    linkedin: https://www.linkedin.com/in/blake-atkinson-55bb5613b/
     name: Blake Atkinson
     position: Parker and<br>Marie Design
-    website: 'https://medium.com/@BlakeAtkinson'
+    website: https://medium.com/@BlakeAtkinson
   - cohort: s17
-    github: 'https://github.com/Brayn7'
+    github: https://github.com/Brayn7
     img_path: robbie-bryan
-    linkedin: 'https://www.linkedin.com/in/robbie-bryan-5b81b732/'
+    linkedin: https://www.linkedin.com/in/robbie-bryan-5b81b732/
     name: Robbie Bryan
     position: Able Engine
-    website: 'https://brayn7.github.io/'
+    website: https://brayn7.github.io/
   - cohort: s17
-    github: 'https://github.com/ChaChaSlide'
+    github: https://github.com/ChaChaSlide
     img_path: chased-miller
-    linkedin: 'https://www.linkedin.com/in/cha-sed-miller-296b5413b/'
+    linkedin: https://www.linkedin.com/in/cha-sed-miller-296b5413b/
     name: Cha'Sed Miller
     position: infosys
-    website: 'https://ChaChaSlide.github.io'
+    website: https://ChaChaSlide.github.io
   - cohort: s17
-    github: 'https://github.com/seancmont'
+    github: https://github.com/seancmont
     img_path: sean-montgomery
-    linkedin: 'https://www.linkedin.com/in/sean-montgomery-aa600a88/'
+    linkedin: https://www.linkedin.com/in/sean-montgomery-aa600a88/
     name: Sean Montgomery
     position: Health Tech<br>Solutions
-    website: 'https://seancmont.github.io'
+    website: https://seancmont.github.io
   - cohort: s17
-    github: 'https://github.com/doubldragon'
+    github: https://github.com/doubldragon
     img_path: brandon-spencer
-    linkedin: 'https://www.linkedin.com/in/brandonrspencer/'
+    linkedin: https://www.linkedin.com/in/brandonrspencer/
     name: Brandon Spencer
     position: Fusioncorp
-    website: 'https://doubldragon.github.io/'
+    website: https://doubldragon.github.io/
   - cohort: s17
-    github: 'https://github.com/JMStewart00'
+    github: https://github.com/JMStewart00
     img_path: josh-stewart
-    linkedin: 'https://www.linkedin.com/in/josh-stewart-55557532/'
+    linkedin: https://www.linkedin.com/in/josh-stewart-55557532/
     name: Josh Stewart
     position: APAX
-    website: 'https://jmstewart00.github.io'
+    website: https://jmstewart00.github.io
   - cohort: s17
-    github: 'https://github.com/stockdalemark1978'
+    github: https://github.com/stockdalemark1978
     img_path: mark-stockdale
-    linkedin: 'https://www.linkedin.com/in/mark-stockdale-79b04410/'
+    linkedin: https://www.linkedin.com/in/mark-stockdale-79b04410/
     name: Mark Stockdale
     position: Prospect Trax
-    website: 'http://markstockdale.com/'
+    website: http://markstockdale.com/
   - cohort: s17
-    github: 'https://github.com/david-vanderhaar'
+    github: https://github.com/david-vanderhaar
     img_path: david-vanderhaar
-    linkedin: 'https://www.linkedin.com/in/david-vanderhaar-096b7013b/'
+    linkedin: https://www.linkedin.com/in/david-vanderhaar-096b7013b/
     name: David Vanderhaar
     position: APAX
-    website: 'https://david-vanderhaar.github.io/'
+    website: https://david-vanderhaar.github.io/
   - cohort: s17
-    github: 'https://github.com/benwright3103'
+    github: https://github.com/benwright3103
     img_path: benjamin-wright
-    linkedin: 'https://www.linkedin.com/in/benjamin-wright-355033138/'
+    linkedin: https://www.linkedin.com/in/benjamin-wright-355033138/
     name: Benjamin Wright
     position: Parker and <br>Marie Design
-    website: 'http://benjaminwright.co/'
+    website: http://benjaminwright.co/
   - cohort: f16
-    github: 'https://github.com/TravisBaumann/'
+    github: https://github.com/TravisBaumann/
     img_path: travis_baumann
-    linkedin: 'https://www.linkedin.com/in/travis-baumann-a85684104'
+    linkedin: https://www.linkedin.com/in/travis-baumann-a85684104
     name: Travis Baumann
     position: CirrusMio
-    website: 'https://travisbaumann.github.io/'
+    website: https://travisbaumann.github.io/
   - cohort: f16
-    github: 'https://github.com/thomascothran'
+    github: https://github.com/thomascothran
     img_path: thomas_cothran
-    linkedin: 'https://www.linkedin.com/in/thomas-cothran-02b24995 '
+    linkedin: "https://www.linkedin.com/in/thomas-cothran-02b24995 "
     name: Thomas Cothran
     position: Ventre Tech
-    website: 'https://ventre.tech/'
+    website: https://ventre.tech/
   - cohort: f16
-    github: 'https://github.com/garyditsch'
+    github: https://github.com/garyditsch
     img_path: gary_ditsch
-    linkedin: 'https://www.linkedin.com/in/garyditsch'
+    linkedin: https://www.linkedin.com/in/garyditsch
     name: Gary Ditsch
     position: Ventre Tech
-    website: 'https://garyditsch.github.io/'
+    website: https://garyditsch.github.io/
   - cohort: f16
-    github: 'https://github.com/bFraley'
+    github: https://github.com/bFraley
     img_path: brett_fraley
-    linkedin: 'https://www.linkedin.com/in/brett-fraley-446134125'
+    linkedin: https://www.linkedin.com/in/brett-fraley-446134125
     name: Brett Fraley
     position: Fusioncorp
-    website: 'https://bfraley.github.io/'
+    website: https://bfraley.github.io/
   - cohort: f16
-    github: 'https://github.com/AndersFriis'
+    github: https://github.com/AndersFriis
     img_path: anders_friis
-    linkedin: 'https://www.linkedin.com/in/anders-friis-1b815134'
+    linkedin: https://www.linkedin.com/in/anders-friis-1b815134
     name: Anders Friis
     position: Inet-Pub
-    website: 'https://andersfriis.github.io/'
+    website: https://andersfriis.github.io/
   - cohort: f16
-    github: 'https://github.com/billbunkum'
+    github: https://github.com/billbunkum
     img_path: william_hurst
-    linkedin: 'https://www.linkedin.com/in/bill-bunkum-38064937/'
+    linkedin: https://www.linkedin.com/in/bill-bunkum-38064937/
     name: William Hurst
     position: MedMyne
-    website: 'https://billbunkum.github.io/'
+    website: https://billbunkum.github.io/
   - cohort: f16
-    github: 'https://github.com/LavanyaMano/'
+    github: https://github.com/LavanyaMano/
     img_path: lavanya_manoharan
-    linkedin: 'https://www.linkedin.com/in/lavanya-manoharan-269a7b17'
+    linkedin: https://www.linkedin.com/in/lavanya-manoharan-269a7b17
     name: Lavanya Manoharan
     position: HTRI
-    website: 'https://lavanyamano.github.io/'
+    website: https://lavanyamano.github.io/
   - cohort: f16
-    github: 'https://github.com/JasonMize/'
+    github: https://github.com/JasonMize/
     img_path: jason_mize
-    linkedin: 'https://www.linkedin.com/in/jasonemize'
+    linkedin: https://www.linkedin.com/in/jasonemize
     name: Jason Mize
     position: APAX
-    website: 'http://www.jasonmize.com/'
+    website: http://www.jasonmize.com/
   - cohort: f16
-    github: 'https://github.com/KellyInnovation/'
+    github: https://github.com/KellyInnovation/
     img_path: kelly_wright
-    linkedin: 'https://www.linkedin.com/in/kelly-wright-80727560'
+    linkedin: https://www.linkedin.com/in/kelly-wright-80727560
     name: Kelly Wright
     position: APAX
-    website: 'http://www.kellyinnovation.com/'
+    website: http://www.kellyinnovation.com/
