@@ -2,7 +2,7 @@
 title: Team Alpha Intern
 email: teamalpha@awesomeinc.org
 team: Awesome Inc
-manager: Garrett
+manager: Garrett Fahrbach
 time-commitment: part-time
 active: true
 apply_url: https://www.awesomeinc.org/internships
