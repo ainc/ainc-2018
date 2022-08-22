@@ -73,13 +73,6 @@ items:
     person: Garrett, duh.
     fact: I have one of the best vintage Toy Story clothing collections in the world.
     team: Events & Marketing
-  - img_path: /images/uploads/noah-wilcox-cropped.jpg
-    name: Noah Wilcox
-    rule: "#4: Always do something awesome over something not awesome"
-    song: '"Fight Alone" by Mills'
-    person: Peter McKinnon
-    fact: I made a Tik Tok video that got over a million views
-    team: "Video "
   - img_path: /images/uploads/kevin_mansur-cropped.jpg
     name: Kevin Mansur
     rule: "#17: Bring the FUN"
@@ -98,10 +91,10 @@ items:
   - img_path: /images/uploads/summer_interns-3-2.jpg
     name: Miguel Jimenez
     rule: "#76: no excuses, play like a champion"
-    song: '"Nightgowns" by Tom Misch and Loyle Carner'
-    fact: I do what I can to live a minimalist lifestyle with the exception of
-      clothes...I give myself room to play there.
-    person: Atticus Finch (morally) Casey Neistat (as a person)
+    song: “Angel” by Loyle Carner and Tom Misch
+    fact: I do what I can to live a minimalist lifestyle, except for clothes…give
+      myself room to play there
+    person: " Tom Misch"
     team: Videographer
   - img_path: /images/uploads/lindsey_grass.jpg
     name: Lindsey Grass
