@@ -4,7 +4,7 @@ items:
     github: https://github.com/chadcooper06
     linkedin: https://www.linkedin.com/in/chad-cooper-dev/
     img_path: chad-cooper
-    position: null
+    position: ProspectTrax
     cohort: s22
   - name: Anthony DeVarti
     website: null
@@ -32,7 +32,7 @@ items:
     github: https://github.com/thekestner
     linkedin: https://www.linkedin.com/in/zachary-kestner-17b864155/
     img_path: zachary-kestner
-    position: null
+    position: Xometry
     cohort: s22
   - name: Nick McMillen
     website: https://nmcmillen.github.io/personal-react-site/
