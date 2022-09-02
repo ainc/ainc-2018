@@ -96,22 +96,6 @@ items:
       myself room to play there
     person: " Tom Misch"
     team: Videographer
-  - img_path: /images/uploads/lindsey_grass.jpg
-    name: Lindsey Grass
-    rule: "#34: A person's Shit:Substance ratio or their \"ss\" for short refers to
-      the amount of bullshit someone is made up of relative to their ability to
-      actually back up their claims and/or confidence."
-    song: '"Motion Sickness" by Phoebe Bridgers'
-    person: Harry Styles
-    fact: I was on the bowling team in high school
-    team: Events & Marketing
-  - img_path: /images/uploads/kara_smith.jpg
-    name: Kara Smith
-    rule: "#26: Don't let stupid things keep you from doing awesome things"
-    song: '"Fade Away" by Rebelution  '
-    person: My older sister Kaelin
-    fact: "I enjoy making ceramic art, specifically pottery. "
-    team: Events & Marketing
   - img_path: /images/uploads/summer_interns-2-2.jpg
     rule: "#10: 2-3 minutes late is okay, it shows that you are punctual but
       important enough to have other stuff going on. 5-6 minutes late is rude
@@ -121,20 +105,6 @@ items:
     name: Will Garman
     fact: I got invited to compete at the Junior Olympics when I was like 12
     team: Development team
-  - img_path: /images/uploads/intern-2-2.jpg
-    name: Ethan Gamble
-    rule: "#26:  Don't let stupid things keep you from doing awesome things"
-    song: '"Fun" by Some Night'
-    person: Tony Stark (He's fictional, but c'mon).
-    fact: I am a solid disc golf player.
-    team: Development
-  - img_path: /images/uploads/larry_square-1.jpg
-    name: Larry Reed
-    rule: "#26: Don't let stupid things keep you from doing awesome things"
-    song: Spaceship by "Don Toliver"
-    person: My Dad
-    fact: I was born with 12 fingers
-    team: Video Team, Events/Marketing Team
   - img_path: /images/uploads/alex_square-1.jpg
     name: Alex Webb
     rule: "#76: No excuses, play like a champion"
@@ -142,3 +112,13 @@ items:
     person: Peter Jackson (Director)
     fact: I am a twin
     team: Video Team
+  - img_path: /images/uploads/autumn-3.jpg
+    name: Autumn Hines
+    team: Events & Marketing
+    rule: "#10 : 2-3 minutes late is okay, it shows that you are punctual but
+      important enough to have other stuff going on.  5-6 minutes late is rude
+      and shows that you don't respect people's time."
+    song: '"The lakes" by Taylor Swift'
+    person: Whitney Simmons
+    fact: I had ear surgery twice as a kid and still get ear infections pretty
+      frequently. So if I can't hear you...that's why.
