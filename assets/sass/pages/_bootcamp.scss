@@ -57,11 +57,44 @@
     form .lgx-btn {
       float: none; // TODO: Fix this... If float: left, then button will float outside of modal
     }
+    .fixed-side-nav {
+      position: fixed;
+      top: 150px;
+      right: 0px;
+      height: auto;
+      float: right;
+      background-color: whitesmoke;
+      border-radius: 5px 0px 0px 5px;
+      z-index: 999;
+      padding-left: 10px;
+      padding-right: 15px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      .fixed-side-nav__item {
+        color: black;
+        text-align: left;
+        height:fit-content;
+        @include font-size(12);
+      }
+      .apply-now {
+        font-weight: bold;
+      }
+    }
+    .button-blurb {
+     color:black;
+     font-style: italic;
+     margin-top:20px;
+     text-align: left;
+    }
+    .get-started-button-container {
+      margin-top:25px;
+    }
+
   }
 
   #answer-honestly {
     .absolute-child {
-      top: -20vh;
+      text-align: center;
     }
     h3 {
       color: $brand-color;
