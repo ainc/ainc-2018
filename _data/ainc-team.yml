@@ -21,8 +21,6 @@ items:
     name: Stephen Ruh
   - img_path: /images/uploads/justin.jpg
     name: Justin Hall
-  - img_path: /images/uploads/noah-wilcox-cropped.jpg
-    name: Noah Wilcox
   - img_path: /images/uploads/kevin_mansur-cropped.jpg
     name: Kevin Mansur
   - img_path: /images/uploads/hannah-eberts-square-1.jpg
@@ -35,6 +33,8 @@ items:
     name: Mackenzie Hanes
   - img_path: /images/uploads/reece_walter-3.jpg
     name: Reece Walter
+  - img_path: /images/uploads/josh-stewart.jpg
+    name: Josh Stewart
   - img_path: /images/uploads/reece_walter-6.jpg
     name: Jonathan Morford
   - img_path: /images/uploads/miguel_jiminez-15_square.jpg
