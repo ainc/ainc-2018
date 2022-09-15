@@ -36,3 +36,28 @@
 .align-text-right {
   text-align: right;
 }
+
+.border-right-white {
+  border-right: 2px solid $brand-color3;
+}
+
+.border-right-red {
+  border-right: 2px solid $brand-color;
+}
+
+
+.container--thin {
+  width: 1100px;
+  @include screen-md {
+    width: 900px;
+  }
+}
+
+.p-5 {
+  padding: 5rem;
+}
+
+.py-5 {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}

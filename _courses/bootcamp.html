@@ -61,10 +61,12 @@ team: aincu
                   <li role="presentation"><a href="/bootcamp/apply" class="fixed-side-nav__item text-uppercase apply-now">Apply Now</a></li>
                 </ul>
               </nav>
-              <h2 class="heading-title">A 16 week, Full-Time, Job-Guaranteed Program designed for individuals looking to make a career change.</h2>
+              <h2 class="heading-title" style="max-width: 60%;">A 16 week, Full-Time, Job-Guaranteed Program designed for individuals looking to make a career change.</h2>
                 <p class="button-blurb">Start your application in less than 30 seconds</p>
-                <div class="get-started-button-container">
-                  {% include modal-form.html button-class='lgx-btn lgx-btn-small-text' initiative='bootcamp-program-guide' link-text='Get Started' %}
+                <div class="">
+                  <p id="get-started">
+                    <a class="lgx-btn get-started-btn" href="/bootcamp/apply">Get Started</a>
+                  </p>
                 </div>
               </div>
             </div>
@@ -78,22 +80,33 @@ team: aincu
 <!-- New Section: Two buttons, black background -->
 <section id="two-buttons">
   <div id="two-buttons-div">
-    <div class="container">
-
+    <div class="container container--thin">
+      <div class="row">
+        <div class="col-sm-6 col-xs-12">
+          <div class="border-right-white">
+          <h3 class="text-center">Have a few questions?</h3>
+          <div class="text-center" style="margin-top: 30px;">
+            {% include modal-form.html button-class='lgx-btn lgx-btn-smaller-text' initiative='bootcamp-program-guide' link-text='Download Program Guide' %}
+          </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-xs-12">
+          <h3 class="text-center">Pay nothing until you land a job!</h3>
+          <div class="text-center" style="margin-top: 30px;">
+            <a class="lgx-btn lgx-btn-smaller-text" href="#cost">See how here</a>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </section>
 
 <section id="answer-honestly">
   <div id="answer-div">
-    <div class="container">
-      <div class="row">
-        <div class="col-xs-3 col-md-4">
-            <div>
-              <h3>Answer Honestly...</h3>
-              <p><i>(your answer is safe with us, we promise.)</i></p>
-            </div>
-        </div><!--COL-->
+    <div class="container container--thin">
+      <div class="row py-5">
+              <h3 class="text-center">Answer honestly...</h3>
+              <p class="text-center"><i>(your answer is safe with us, we promise.)</i></p>
       </div><!--ROW-->
       <div class="row">
         <div class="col-sm-5ths">
@@ -202,48 +215,46 @@ team: aincu
 
 <section id="why-awesome-inc-header">
   <svg viewbox="0 0 100 100" id="awesomeinc-clip" preserveAspectRatio="none">
-    <polygon points="100,0 0,100 100,100"></polygon> 
+    <polygon points="0,0 0,0 0,0"></polygon> 
   </svg>
 </section>
 
 <section id="why-awesome-inc">
   <div class="lgx-inner">
-    <div class="container">
+    <div class="container container-thin">
       <div class="row">
-        <div class="col-xs-12 col-md-8 col-md-offset-4">
-          <div class="relative-parent">
-            <div class="absolute-child">
-              <div class="lgx-heading">
+        <div class="col-sm-6 col-xs-12">
+          <div class="border-right-red">
+            <div class="relative-parent">
+              <div class="lgx-heading lgx-heading-black">
                 <h2 class="heading-title">
                   Why Awesome Inc?
                 </h2>
               </div>
-            </div> <!-- absolute-child -->
-            <div id="why-sub-text">
-              <p>Awesome Inc exists to grow the tech and startup community in central KY. We do that by offering a startup accelerator, a coworking space, a sister software company called APAX, and running Awesome Inc U - our coding school.</p>
-              <p>We do a lot, and we do it all to create an ecosystem where people like you can thrive.</p>
-              <!-- Calendly link widget begin -->
-              <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
-              <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript"></script>
-              <p class="center-text-mobile"><a class="lgx-btn" href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/ainc/awesome-inc-call'});return false;">Schedule a Visit</a></p>
-              <!-- Calendly link widget end -->
-            </div>
-          </div> <!-- relative-parent -->
+              <div>
+                <p>
+                  At Awesome Inc, everything we do starts with our Core Values. 
+                  We care about people and making a difference in our community. 
+                  That's why we want to help everyone we can to learn the life changing skill of coding. 
+                  And while doing that, we've seen that the best way to learn a new skill is to get the right help on your journey.
+                  It's so easy to waste time trying to learn something by yourself, constantly running into problems, and getting frustrated along the way,
+                  but we're here to help! With coaching from Senior Developers and a curriculum built for you, we're ready to meet you where you're at,
+                  even if you're at step 0.
+                </p>
+              </div>
+              <div id="why-sub-text" class="text-center">
+                <!-- Calendly link widget begin -->
+                <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+                <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript"></script>
+                <p class="center-text-mobile"><a class="lgx-btn lgx-btn-small-text" href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/ainc/awesome-inc-call'});return false;">Schedule Call</a></p>
+                <!-- Calendly link widget end -->
+              </div>
+            </div> <!-- relative-parent -->
+          </div>
         </div>
-      </div> <!-- row -->
-      <div id="instructor-row" class="row row-eq-height flex-img-center relative-parent">
-        <img id="arrow-img" class="mobile-tablet-hide absolute-child" src="/assets/img/bootcamp/down-arrow.png" alt="Arrow pointing to Awesome Inc bootcamp instructor"/>
-        <div class="col-md-4">
-          <img src="/assets/img/bootcamp/justin.jpg" alt="Bootcamp Instructor, Justin Hall"/>
-        </div>
-        <div class="col-md-8">
-          <div id="meet-instructor-block">
-            <p class="mobile-hide fancy-text">meet justin</p>
-            <p>This is Justin, an artist turned developer who runs our training program. He's been on this journey himself. He found Awesome Inc and is now helping us create opportunies for others.</p>
-            <p class="center-text-mobile"><a class="lgx-btn lgx-btn-small-text" href="/bootcamp/apply">Apply Now</a></p>
-            <div class="button__info-blurb">
-              <p>Pay nothing until you land a job! <a href="#cost">See how here</a></p>
-            </div>
+        <div class="col-sm-6 col-xs-12">
+          <div>
+
           </div>
         </div>
       </div> <!-- row -->
@@ -256,7 +267,7 @@ team: aincu
     <div class="container">
       <div class="row">
         <img src="/assets/img/bootcamp/job-guaranteed.png" class="center-block" alt="Graduates will land a job, guaranteed" />
-        <p class="center-text">We only succeed when you succeed. We guarantee that students who complete the 16-week Bootcamp program and uphold the job search requirements will receive a job offer within six months of your graduation date, or we'll refund your tuition. See our Student Agreement for details.</p>
+        <p class="text-center">We only succeed when you succeed. We guarantee that students who complete the 16-week Bootcamp program and uphold the job search requirements will receive a job offer within six months of your graduation date, or we'll refund your tuition. See our Student Agreement for details.</p>
       </div> <!-- row -->
     </div> <!-- container -->
   </div> <!-- lgx-inner-->

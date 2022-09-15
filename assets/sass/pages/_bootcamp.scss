@@ -4,7 +4,7 @@
   #bootcamp-header {
     background-image: url('../../assets/img/bootcamp/hero-bg.jpg');
     background-repeat: no-repeat;
-    background-size: 85%;
+    background-size: cover;
     background-position: right -10vh;
     height: 90vh;
     position: relative;
@@ -86,21 +86,58 @@
      margin-top:20px;
      text-align: left;
     }
-    .get-started-button-container {
-      margin-top:25px;
+    .get-started-btn {
+      margin-top:20px;
+      margin-left: 0px;
+    }
+
+    .two-buttons-section {
+      background-color: black;
+    }
+
+  }
+
+  #two-buttons {
+    background-color: $brand-color2;
+    margin-top: 0px;
+    padding-bottom: 50px;
+    padding-top: 30px;
+
+    .two-buttons-section {
+      background-color: $brand-color3;
+    }
+
+    .two-button-left-block {
+      margin-top: 0px;
+      color: white;
+    }
+
+    .two-button-right-block {
+      color: white;
+    }
+
+    h3 {
+      margin-right: 0 auto;
+      color: white;
     }
 
   }
 
   #answer-honestly {
     .absolute-child {
-      text-align: center;
+      margin: 0 auto;
     }
     h3 {
       color: $brand-color;
       margin-bottom: 0;
       line-height: 2.4rem;
     }
+    p {
+      color: $brand-color;
+    }
+
+
+
     #answer-yes {
       margin-top: 3rem;
       margin-bottom: 10rem;
@@ -275,6 +312,8 @@
     background-position: center center;
     p {
       margin-top: 3rem;
+      margin-left: 5rem;
+      margin-right: 5rem;
       color: white;
     }
     @include screen-xs {
