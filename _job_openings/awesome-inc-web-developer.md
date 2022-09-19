@@ -4,7 +4,7 @@ email: learn@awesomeinc.org
 team: Awesome Inc
 manager: Kyle
 time-commitment: Part-time
-active: true
+active: false
 priority: 3
 ---
 **Responsibilities**
