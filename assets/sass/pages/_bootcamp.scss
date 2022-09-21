@@ -110,6 +110,7 @@
     .two-button-left-block {
       margin-top: 0px;
       color: white;
+
     }
 
     .two-button-right-block {
@@ -121,6 +122,13 @@
       color: white;
     }
 
+    #QuestionCircle {
+      padding: 0px;
+    }
+
+    #MoneyCircle {
+      padding: 0px;
+    }
   }
 
   #answer-honestly {
@@ -135,8 +143,6 @@
     p {
       color: $brand-color;
     }
-
-
 
     #answer-yes {
       margin-top: 3rem;
@@ -255,7 +261,7 @@
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: top center;
-    height: 40vh;
+    height: 25vh;
     position: relative;
     #awesomeinc-clip {
         height: 10vw;
@@ -281,9 +287,13 @@
         top: -25vh;
       }
     }
+    #why-heading-title {
+      text-align: left;
+    }
+
     #why-sub-text {
-      margin-top: 3rem;
-      text-align: right;
+      margin-top: 2.5rem;
+      text-align: left;
       @include screen-xs {
         margin-top: 3rem;
         text-align: left;
@@ -302,6 +312,29 @@
       p {
         margin-bottom: 3rem;
       }
+    }
+    .profile-image {
+      border-radius: 50%;
+      max-width: 30%;
+      height: 30%;
+    }
+    #meet-member-text {
+      &:before {
+        content: "";
+        height: 50px;
+        width: 94%;
+        background-color: $brand-color2;
+        position: absolute;
+        top: 130px;
+        z-index: -1;
+        border-radius: 5px 5px 0px 0px;
+      }
+      p {
+        color: white;
+      }
+      padding-left: 0px;
+      background-color: $brand-color2;
+      border-radius: 0px 0px 5px 5px;
     }
   }
 

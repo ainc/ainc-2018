@@ -77,13 +77,13 @@ team: aincu
   </div><!-- INNER -->
 </section>
 
-<!-- New Section: Two buttons, black background -->
 <section id="two-buttons">
   <div id="two-buttons-div">
     <div class="container container--thin">
       <div class="row">
         <div class="col-sm-6 col-xs-12">
           <div class="border-right-white">
+          <svg src="/assets/img/bootcamp/QuestionCircle.svg" viewbox="0 0 0 0" id="QuestionCircle" class="center-block"></svg>
           <h3 class="text-center">Have a few questions?</h3>
           <div class="text-center" style="margin-top: 30px;">
             {% include modal-form.html button-class='lgx-btn lgx-btn-smaller-text' initiative='bootcamp-program-guide' link-text='Download Program Guide' %}
@@ -91,6 +91,7 @@ team: aincu
           </div>
         </div>
         <div class="col-sm-6 col-xs-12">
+          <svg src="/assets/img/bootcamp/MoneyCircle.svg" viewbox="0 0 0 0" id="MoneyCircle" class="center-block"></svg>
           <h3 class="text-center">Pay nothing until you land a job!</h3>
           <div class="text-center" style="margin-top: 30px;">
             <a class="lgx-btn lgx-btn-smaller-text" href="#cost">See how here</a>
@@ -220,19 +221,19 @@ team: aincu
 </section>
 
 <section id="why-awesome-inc">
-  <div class="lgx-inner">
+  <div style="padding-top: 85px;" class="lgx-inner" >
     <div class="container container-thin">
       <div class="row">
         <div class="col-sm-6 col-xs-12">
-          <div class="border-right-red">
-            <div class="relative-parent">
-              <div class="lgx-heading lgx-heading-black">
-                <h2 class="heading-title">
-                  Why Awesome Inc?
-                </h2>
-              </div>
-              <div>
-                <p>
+          <div class="lgx-heading lgx-heading-black">
+            <h2 style="float: left; padding-bottom: 25px;" class="heading-title">
+              Why Awesome Inc?
+            </h2>
+          </div>
+          <div class="">
+            <div style="padding-bottom: 35px;">
+              <div class="border-right-red" style="max-width: 95%;">
+                <p class="left border-right-red">
                   At Awesome Inc, everything we do starts with our Core Values. 
                   We care about people and making a difference in our community. 
                   That's why we want to help everyone we can to learn the life changing skill of coding. 
@@ -242,21 +243,26 @@ team: aincu
                   even if you're at step 0.
                 </p>
               </div>
-              <div id="why-sub-text" class="text-center">
-                <!-- Calendly link widget begin -->
-                <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
-                <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript"></script>
-                <p class="center-text-mobile"><a class="lgx-btn lgx-btn-small-text" href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/ainc/awesome-inc-call'});return false;">Schedule Call</a></p>
-                <!-- Calendly link widget end -->
-              </div>
             </div> <!-- relative-parent -->
           </div>
-        </div>
-        <div class="col-sm-6 col-xs-12">
-          <div>
-
+          <div id="why-sub-text">
+            <!-- Calendly link widget begin -->
+            <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+            <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript"></script>
+            <p class="center-text-mobile"><a style="margin-top: 25px;" class="lgx-btn lgx-btn-small-text" href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/ainc/awesome-inc-call'});return false;">Schedule Call</a></p>
+            <!-- Calendly link widget end -->
           </div>
-        </div>
+        </div> <!-- col -->
+        <div class="col-sm-6 col-xs-12" style="width: 43%">
+          <img src="/images/uploads/stephenruh-wall.jpg" class="img-responsive img-circle center-block" alt="Stephen Ruh" style="max-width: 150px;">
+          <div id="meet-member-text">
+            <p class="fancy-text text-center">meet stephen</p>
+            <p class="text-center">Sometimes it's just easier to talk to a person, right? That's where Stephen comes in!</p>
+            </br>
+            <p class="text-center">He's happy to answer any and all questions you've got about Awesome Inc, 
+              our programs, coding in general, or even just the best place to grab coffee and donuts nearby.</p>
+          </div>
+        </div> <!-- col -->
       </div> <!-- row -->
     </div> <!-- container -->
   </div> <!-- lgx-inner-->
@@ -264,8 +270,8 @@ team: aincu
 
 <section id="job">
   <div class="lgx-inner">
-    <div class="container">
-      <div class="row">
+    <div class="container container--thin">
+      <div class="row">0.74
         <img src="/assets/img/bootcamp/job-guaranteed.png" class="center-block" alt="Graduates will land a job, guaranteed" />
         <p class="text-center">We only succeed when you succeed. We guarantee that students who complete the 16-week Bootcamp program and uphold the job search requirements will receive a job offer within six months of your graduation date, or we'll refund your tuition. See our Student Agreement for details.</p>
       </div> <!-- row -->
@@ -308,7 +314,7 @@ team: aincu
 
 <section id="languages">
   <div class="lgx-inner">
-    <div class="container">
+    <div class="container container--thin">
       <h5>With over 500 hours of hands-on training, you'll gain experience while building 10+ projects using</h5>
       <div class="row row-eq-height flex-img-center">
         <div class="col-sm-5ths col-md-5ths">
