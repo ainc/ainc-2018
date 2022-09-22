@@ -106,25 +106,29 @@
     .two-buttons-section {
       background-color: $brand-color3;
     }
-
     .two-button-left-block {
       margin-top: 0px;
       color: white;
 
     }
-
     .two-button-right-block {
       color: white;
     }
-
     h3 {
       margin-right: 0 auto;
       color: white;
     }
-
     img {
       max-width: 15%;
     }
+    #right {
+      @include screen-tablet-max {
+        padding-left: 0px;
+        padding-right: 50px;
+      }
+    }
+
+
   }
 
   #answer-honestly {
@@ -138,6 +142,9 @@
     }
     p {
       color: $brand-color;
+    }
+    h6 {
+      font-size: 1.5rem;
     }
 
     #answer-yes {
