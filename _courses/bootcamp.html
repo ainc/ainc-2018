@@ -83,7 +83,7 @@ team: aincu
       <div class="row">
         <div class="col-sm-6 col-xs-12">
           <div class="border-right-white">
-          <svg src="/assets/img/bootcamp/QuestionCircle.svg" viewbox="0 0 0 0" id="QuestionCircle" class="center-block"></svg>
+          <img src="/assets/img/bootcamp/QuestionCircle.svg" alt="Question Circle" class="center-block" />
           <h3 class="text-center">Have a few questions?</h3>
           <div class="text-center" style="margin-top: 30px;">
             {% include modal-form.html button-class='lgx-btn lgx-btn-smaller-text' initiative='bootcamp-program-guide' link-text='Download Program Guide' %}
@@ -91,7 +91,7 @@ team: aincu
           </div>
         </div>
         <div class="col-sm-6 col-xs-12">
-          <svg src="/assets/img/bootcamp/MoneyCircle.svg" viewbox="0 0 0 0" id="MoneyCircle" class="center-block"></svg>
+          <img src="/assets/img/bootcamp/MoneyCircle.svg" alt="Money Circle" class="center-block" />
           <h3 class="text-center">Pay nothing until you land a job!</h3>
           <div class="text-center" style="margin-top: 30px;">
             <a class="lgx-btn lgx-btn-smaller-text" href="#cost">See how here</a>
@@ -206,7 +206,7 @@ team: aincu
 
 <section id="motivational-quote">
   <div class="lgx-inner">
-    <div class="container">
+    <div class="container container--thin">
       <div class="row">
         <p>"You don't have to feel trapped. Earn your freedom, work when & where you want. Earn a living in just 40 hours a week."</p>
       </div> <!-- row -->
@@ -257,9 +257,9 @@ team: aincu
           <img src="/images/uploads/stephenruh-wall.jpg" class="img-responsive img-circle center-block" alt="Stephen Ruh" style="max-width: 150px;">
           <div id="meet-member-text">
             <p class="fancy-text text-center">meet stephen</p>
-            <p class="text-center">Sometimes it's just easier to talk to a person, right? That's where Stephen comes in!</p>
+            <p style="padding-top: 10px;" class="meet-subtext text-center">Sometimes it's just easier to talk to a person, right? That's where Stephen comes in!</p>
             </br>
-            <p class="text-center">He's happy to answer any and all questions you've got about Awesome Inc, 
+            <p style="padding-bottom: 20px;" class="meet-subtext text-center">He's happy to answer any and all questions you've got about Awesome Inc, 
               our programs, coding in general, or even just the best place to grab coffee and donuts nearby.</p>
           </div>
         </div> <!-- col -->
@@ -345,8 +345,14 @@ team: aincu
 
 <section id="apply">
   <div class="lgx-inner">
-    <div class="container">
+    <div class="container container--thin">
       <div class="row">
+        <div class="lgx-heading lgx-heading-black">
+          <h2 class="heading-title">
+            Applying for Bootcamp
+          </h2>
+          <p class="text-center">There is a four-step, competitive application process for the Bootcamp program:</p>
+        </div>
         <div class="col-sm-3 relative-parent">
           <img src="/assets/img/bootcamp/online-application.png" class="center-block-mobile" alt="Online Application" />
           <img src="/assets/img/bootcamp/arrow-steps.png" class="absolute-child" alt="Arrow to the right"/>
@@ -399,30 +405,36 @@ team: aincu
 
 <section id="cost">
   <div class="lgx-inner">
-    <div class="container">
+    <div class="container container--thin">
       <div class="row">
         <div class="col-md-12">
           <div class="lgx-heading">
             <h2 class="heading-title">The Cost</h2>
           </div>
-          <div class="col-xs-12 col-sm-5">
-            <div class="lgx-heading">
-              <h4 class="heading-subtitle">Income Share Agreement</h4>
-            </div>      
-            <div class="aside-content">
-              <p>
-                Fund your future with an Income Share Agreement. We’re partnered with industry-leading ISA provider <a href="https://www.meratas.com/" target="_blank">Meratas</a> to allow students to enroll in our full-time program with no up front tuition costs. ISA recipients only pay when they’ve landed a job making $40,000/year or more. Want to know more? <a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/ainc/awesome-inc-call'});return false;">Schedule a call today</a>! 
-              </p>
+          <div id="cost-columns">
+            <div class="col-md-6 col-xs-12 col-sm-5">
+              <div class="border-right-red" style="padding-right: 40px;">
+                <img src="/assets/img/bootcamp/cost.png" alt="Cost Image" class="center-block" />
+                <div class="lgx-heading">
+                  <h3 class="text-center">Income Share Agreement</h3>
+                </div>      
+                <div class="aside-content">
+                  <p>
+                    Fund your future with an Income Share Agreement. We’re partnered with industry-leading ISA provider <a href="https://www.meratas.com/" target="_blank">Meratas</a> to allow students to enroll in our full-time program with no up front tuition costs. ISA recipients only pay when they’ve landed a job making $40,000/year or more. Want to know more? <a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/ainc/awesome-inc-call'});return false;">Schedule a call today</a>! 
+                  </p>
+                </div>
+              </div>
             </div>
-          </div>
-          <div class="col-xs-12 col-sm-5 col-sm-offset-1">
-            <div class="lgx-heading">
-              <h4 class="heading-subtitle">Up-Front Payment</h4>
-            </div>      
-            <div class="aside-content">
-              <p>
-                Students who choose to pay tuition up front are offered a discounted tuition rate of $13,500.
-              </p>
+            <div class="col-md-6 col-xs-12 col-sm-5">
+              <img src="/assets/img/bootcamp/Money_in_Hand.svg" alt="QuestionCircle" class="center-block" />
+              <div class="lgx-heading">
+                <h3 class="text-center">Up-Front Payment</h3>
+              </div>      
+              <div class="aside-content">
+                <p>
+                  Students who choose to pay tuition up front are offered a discounted tuition rate of $13,500.
+                </p>
+              </div>
             </div>
           </div>
         </div><!-- col -->
@@ -433,7 +445,7 @@ team: aincu
 
 <section id="still-unsure">
   <div class="lgx-inner">
-    <div class="container">
+    <div class="container container--thin">
       <div class="row">
         <div class="vcenter">
           <div class="lgx-heading">

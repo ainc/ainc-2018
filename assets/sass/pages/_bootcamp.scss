@@ -100,8 +100,8 @@
   #two-buttons {
     background-color: $brand-color2;
     margin-top: 0px;
-    padding-bottom: 50px;
-    padding-top: 30px;
+    padding-bottom: 70px;
+    padding-top: 70px;
 
     .two-buttons-section {
       background-color: $brand-color3;
@@ -122,12 +122,8 @@
       color: white;
     }
 
-    #QuestionCircle {
-      padding: 0px;
-    }
-
-    #MoneyCircle {
-      padding: 0px;
+    img {
+      max-width: 15%;
     }
   }
 
@@ -315,8 +311,9 @@
     }
     .profile-image {
       border-radius: 50%;
-      max-width: 30%;
-      height: 30%;
+      max-width: 35%;
+      height: 40%;
+      position: absolute;
     }
     #meet-member-text {
       &:before {
@@ -325,12 +322,25 @@
         width: 94%;
         background-color: $brand-color2;
         position: absolute;
-        top: 130px;
+        top: 100px;
         z-index: -1;
         border-radius: 5px 5px 0px 0px;
       }
       p {
         color: white;
+        font-size: 400%;
+        padding-bottom: 10px;
+      }
+      p.meet-subtext{
+        margin-left: 15px;
+        margin-right: 15px;
+        font-size: 80%;
+        line-height: 110%;
+      }
+      br {
+        display: block; 
+        content: ""; 
+        margin-top: 0; 
       }
       padding-left: 0px;
       background-color: $brand-color2;
@@ -436,6 +446,10 @@
         margin-bottom: 5rem;
       }
     }
+    .lgx-heading {
+      margin-bottom: 1.5rem;
+    }
+
     img.absolute-child {
       right: -5%;
       top: 33%;
@@ -454,20 +468,24 @@
       margin-top: 3rem;
       text-align: justify;
     }
+    p.text-center {
+      text-align: center;
+    }
     .button-row {
       margin-top: 3rem;
       .lgx-btn {
-        margin-left: 10%;
+        margin-left: 5%;
       }
       
     }
   }
 
   #timeline {
-    background-image: url('../../assets/img/bootcamp/angled-bg.png');
+    background-color: rgb(241, 239, 239);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-position: center center;
+    
     .aside {
       display: block;
       position: relative;
@@ -522,6 +540,8 @@
   }
 
   #cost {
+    padding-bottom: 50px;
+
     .heading-title {
       color: $brand-red-bright;
       @include font-size(74);
@@ -542,7 +562,12 @@
     p {
       text-align: justify;
     }
-    
+    #cost-columns {
+      padding-left: 0px;
+    }
+    img {
+      max-width: 20%;
+    }
   }
 
   #isa-calculator {
@@ -567,6 +592,7 @@
     .heading-title {
       text-transform: none;
       margin-bottom: 3rem;
+      max-width: 100%;
     }
     .lgx-heading {
       margin-bottom: 0;
@@ -605,7 +631,7 @@
     margin-bottom: 3rem;
   }
   .lgx-inner {
-    padding: 8.2rem 0;
+    padding: 11rem 0;
   }
   .lgx-heading {
     margin-bottom: 0;
