@@ -50,6 +50,9 @@
   @include screen-md {
     width: 850px;
   }
+  @include screen-tablet-max {
+    width: 800px;
+  }
 }
 
 .p-5 {

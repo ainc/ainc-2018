@@ -79,6 +79,9 @@
       .apply-now {
         font-weight: bold;
       }
+      @include screen-tablet-max {
+        visibility: hidden;
+      }
     }
     .button-blurb {
      color:black;
@@ -109,7 +112,6 @@
     .two-button-left-block {
       margin-top: 0px;
       color: white;
-
     }
     .two-button-right-block {
       color: white;
@@ -121,14 +123,25 @@
     img {
       max-width: 15%;
     }
+    #left {
+      @include screen-xs {
+        max-width: 50%;
+      }
+    }
     #right {
       @include screen-tablet-max {
         padding-left: 0px;
         padding-right: 50px;
       }
+      @include screen-xs {
+        padding-top: 25px;
+        padding-left: 55px;
+        max-width: 50%;
+        img {
+          max-width: 20%;
+        }
+      }
     }
-
-
   }
 
   #answer-honestly {
@@ -146,6 +159,17 @@
     h6 {
       font-size: 1.5rem;
     }
+    #shields {
+      @include screen-tablet-max {
+        max-width: 110%;
+      }
+      @include screen-xs {
+        .shield-panel {
+          margin-left: 5px;
+        }
+      }
+    }
+
 
     #answer-yes {
       margin-top: 3rem;
@@ -256,6 +280,13 @@
       @include font-size(22);
       font-weight: 600;
       text-align: center;
+      @include screen-tablet-max {
+        max-width: 95%;
+      }
+      @include screen-xs {
+        font-size: medium;
+        max-width: 48%;
+      }
     }
   }
 
@@ -292,8 +323,31 @@
     }
     #why-heading-title {
       text-align: left;
+      margin-bottom: -25px;
+      padding-bottom: 0px;
+      @include screen-tablet-max {
+        padding-bottom: 10px;
+      }
     }
+    #inner {
+      padding-top: 85px;
+      @include screen-tablet-max {
+        padding-top: 30px;
+      }
+    }
+    #right {
+      width: 43%;
+      margin-top: -2px;
+      @include screen-tablet-max {
+        padding-top: 50px;
+        margin-top: 105px;
+      }
+      @include screen-xs {
+        margin-top: 10px;
+        padding-top: 0px;
+      }
 
+    }
     #why-sub-text {
       margin-top: 2.5rem;
       text-align: left;
@@ -332,6 +386,21 @@
         top: 100px;
         z-index: -1;
         border-radius: 5px 5px 0px 0px;
+        @include screen-tablet-max {
+          padding-top: 100px;
+          top: 100px;
+          height: 110px;
+          width: 90.75%;
+        }
+        @include screen-xs {
+
+        }
+      }
+      @include screen-tablet-max {
+        padding-top: 0px;
+      }
+      @include screen-xs {
+        padding-right: 50px;
       }
       p {
         color: white;
@@ -482,6 +551,10 @@
       margin-top: 3rem;
       .lgx-btn {
         margin-left: 5%;
+        @include screen-tablet-max {
+          margin-left: 2%;
+          margin-right: 2%;
+        }
       }
       
     }
@@ -493,6 +566,11 @@
     background-size: 100% 100%;
     background-position: center center;
     
+    .lgx-inner {
+        @include screen-tablet-max {
+          padding-bottom: 0px;
+        }
+    }
     .aside {
       display: block;
       position: relative;
@@ -571,9 +649,32 @@
     }
     #cost-columns {
       padding-left: 0px;
+
+      @include screen-tablet-max {
+        
+      }
     }
     img {
       max-width: 20%;
+    }
+    img.left {
+      @include screen-tablet-max {
+        max-width: 30%;
+      }
+    }
+    #left {
+      padding-right: 40px;
+
+      @include screen-tablet-max {
+        margin-left: 0px;
+        margin-right: -80px;
+      }
+    }
+    #right {
+      @include screen-tablet-max {
+        margin-left: 82px;
+        margin-top: 37px;
+      }
     }
   }
 
@@ -600,6 +701,10 @@
       text-transform: none;
       margin-bottom: 3rem;
       max-width: 100%;
+      @include screen-tablet-max {
+        max-width: 95%;
+        padding-left: 10px;
+      }
     }
     .lgx-heading {
       margin-bottom: 0;
