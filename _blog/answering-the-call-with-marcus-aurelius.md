@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Answering the Call With Marcus Aurelius
+title: Answering the Call Like Marcus Aurelius
 date: 2022-09-23T19:25:04.954Z
 header_img: /images/uploads/52281923430_40fc8577b9_c.jpg
 author_img: /images/uploads/conner_jones.jpg
