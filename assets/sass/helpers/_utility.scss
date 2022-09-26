@@ -62,6 +62,9 @@
 .py-5 {
   padding-top: 5rem;
   padding-bottom: 5rem;
+  @include screen-xs {
+    margin-left: -400px;
+  }
 }
 
 p.left {

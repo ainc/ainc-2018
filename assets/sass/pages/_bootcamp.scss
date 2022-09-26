@@ -27,6 +27,11 @@
         margin-top: 5vh;
       }
     }
+    .lgx-inner {
+      @include screen-xs {
+        padding-top: 8.29rem;
+      }
+    }
     #bootcamp-clip {
       height: 22.1vw;
       width: 100%;
@@ -165,7 +170,7 @@
       }
       @include screen-xs {
         .shield-panel {
-          margin-left: 5px;
+          margin-left: -400px;
         }
       }
     }
@@ -178,11 +183,29 @@
         margin-bottom: 20px;
         text-align: center;
         color: $brand-color2;
+        @include screen-xs {
+          max-width: 387px;
+        }
       }
       p.fancy-text {
         color: $brand-color;
         font-family: The-Bohemian-Regular;
         @include font-size(42);
+        @include screen-xs {
+          margin-left: -400px;
+        }
+      }
+      b {
+        @include screen-xs {
+          margin-left: 0px;
+          margin-right: 0px;
+          max-width: 75%;
+        }
+      }
+      p.button {
+        @include screen-xs {
+          margin-left: 0px;
+        }
       }
     }
   }
@@ -297,6 +320,9 @@
     background-position: top center;
     height: 25vh;
     position: relative;
+    @include screen-xs {
+      height: 100px;
+    }
     #awesomeinc-clip {
         height: 10vw;
         bottom: 0;
@@ -343,8 +369,10 @@
         margin-top: 105px;
       }
       @include screen-xs {
-        margin-top: 10px;
+        margin-top: 15px;
+        margin-left: 152px;
         padding-top: 0px;
+        padding-left: 0px;
       }
 
     }
@@ -364,6 +392,9 @@
       height: 29vh;
       top: -30vh;
       left: 16.5%;
+      @include screen-xs {
+        visibility: hidden;
+      }
     }
     #instructor-row {
       p {
@@ -375,6 +406,11 @@
       max-width: 35%;
       height: 40%;
       position: absolute;
+    }
+    img.img-responsive {
+      @include screen-xs {
+        margin-left: -31px;
+      }
     }
     #meet-member-text {
       &:before {
@@ -392,15 +428,17 @@
           height: 110px;
           width: 90.75%;
         }
-        @include screen-xs {
-
+        @include screen-xs { 
+          padding: 111.3px;
+          max-width: 110%;
         }
       }
       @include screen-tablet-max {
         padding-top: 0px;
       }
       @include screen-xs {
-        padding-right: 50px;
+        padding-right: 0px;
+        margin-left: -70px;
       }
       p {
         color: white;
@@ -437,7 +475,11 @@
     }
     @include screen-xs {
       img {
-        width: 50%;
+        width: 37%;
+        margin-left: 50px;
+      }
+      p.text-center {
+        max-width: 300px;
       }
     }
   }
@@ -475,14 +517,18 @@
         margin-bottom: 3.5rem;
         .heading-title {
           @include font-size(29);
+          @include screen-xs {
+            max-width: 360px;
+          }
         }
       }
     }
 
     img {
       @include screen-xs {
-        max-width: 80%;
-        margin: 5px auto;
+        max-width: 41%;
+        margin-left: 14px;
+        margin-bottom: 25px;
       }
     }
     
@@ -501,16 +547,22 @@
       margin-bottom: 3rem;
       @include font-size(18);
       text-align: center;
+      @include screen-xs {
+        max-width: 366px;
+      }
     }
     p {
       margin-top: 3rem;
+      @include screen-xs {
+        max-width: 362px;
+      }
     }
     img {
       max-width: 80%;
       margin-left: 10%;
       @include screen-xs {
-        max-width: 50%;
-        margin-left: 25%;
+        max-width: 46%;
+        margin-left: 0%;
         margin-bottom: 3rem;
       }
     }
@@ -522,8 +574,16 @@
         margin-bottom: 5rem;
       }
     }
+    h2 {
+      @include screen-xs {
+        max-width: 400px;
+      }
+    }
     .lgx-heading {
       margin-bottom: 1.5rem;
+    }
+    img.center-block-mobile {
+      margin-left: 65px;
     }
 
     img.absolute-child {
@@ -543,9 +603,22 @@
     p {
       margin-top: 3rem;
       text-align: justify;
+      @include screen-xs {
+        max-width: 353px;
+      }
     }
     p.text-center {
       text-align: center;
+      @include screen-xs {
+        max-width: 350px;
+        margin-left: 20px;
+      }
+    }
+    .inline-block {
+      @include screen-xs {
+        max-width: 395px;
+
+      }
     }
     .button-row {
       margin-top: 3rem;
@@ -554,6 +627,9 @@
         @include screen-tablet-max {
           margin-left: 2%;
           margin-right: 2%;
+        }
+        @include screen-xs {
+          margin-top: 20px;
         }
       }
       
@@ -632,6 +708,9 @@
       @include font-size(74);
       letter-spacing: 2px;
       text-transform: none;
+      @include screen-xs {
+        margin-left: -400px;
+      }
     }
     table {
       margin-bottom: 10rem;
@@ -646,6 +725,14 @@
     }
     p {
       text-align: justify;
+      @include screen-xs {
+        max-width: 335px;
+      }
+    }
+    p.right {
+      @include screen-xs {
+        margin-left: -77px;
+      }
     }
     #cost-columns {
       padding-left: 0px;
@@ -654,12 +741,30 @@
         
       }
     }
+    h3.left {
+      @include screen-xs {
+        margin-left: -428px;
+      }
+    }
+    h3.right {
+      @include screen-xs {
+        margin-left: -567px;
+      }
+    }
     img {
       max-width: 20%;
     }
     img.left {
       @include screen-tablet-max {
         max-width: 30%;
+      }
+      @include screen-xs {
+        margin-left: 55px;
+      }
+    }
+    img.right {
+      @include screen-xs {
+        margin-left: 15px;
       }
     }
     #left {
@@ -705,12 +810,20 @@
         max-width: 95%;
         padding-left: 10px;
       }
+      @include screen-xs {
+        max-width: 49%;
+      }
     }
     .lgx-heading {
       margin-bottom: 0;
     }
     .lgx-inner {
       padding: 8.2rem 0;
+    }
+    a {
+      @include screen-xs {
+        margin-left: -402px;
+      }
     }
   }
 
