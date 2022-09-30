@@ -80,6 +80,9 @@
         text-align: left;
         height:fit-content;
         @include font-size(12);
+        :active {
+          color: $brand-color;
+        }
       }
       .apply-now {
         font-weight: bold;

@@ -32,7 +32,7 @@ $(document).on('click', 'a[href^="#"],a[href^="/workspace#become-a-member"]', fu
   } else {
     event.preventDefault();
     scrollDistance = $($.attr(this, 'href')).offset().top - navbarHeight;
-    scrollSpeedCoefficient = 0.5;
+    scrollSpeedCoefficient = 0.25;
   }
 
   console.log("scroll D: " + scrollDistance);
