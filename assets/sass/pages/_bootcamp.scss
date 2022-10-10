@@ -137,8 +137,11 @@
       }
     }
     #right {
-      @include screen-tablet-max {
+      @include screen-md {
         padding-left: 0px;
+      }
+      @include screen-tablet-max {
+        padding-left: 20px;
         padding-right: 50px;
       }
       @include screen-xs {

@@ -32,7 +32,7 @@ $(document).on('click', 'a[href^="#"],a[href^="/workspace#become-a-member"]', fu
   } else {
     event.preventDefault();
     scrollDistance = $($.attr(this, 'href')).offset().top - navbarHeight;
-    scrollSpeedCoefficient = 0.25;
+    scrollSpeedCoefficient = 0.35;
   }
 
   console.log("scroll D: " + scrollDistance);
@@ -223,4 +223,33 @@ Function for tooltip notes
 $(document).ready(function() {
   $('.tooltip-wrapper').tooltip({position: "bottom"});
 })
+
+/***********************
+ Function to disable auto scroll if user is scrolling
+ For side nav bar on bootcamp page
+**************************/
+//detect user scrolling or browser scrolling start  
+// var userScroll = false;     
+
+// function mouseEvent(e) { 
+// userScroll = true; 
+// } 
+
+// if(window.addEventListener) {
+//     document.addEventListener('DOMMouseScroll', mouseEvent,false); 
+// }
+
+// // detect browser/user scroll
+// $(document).scroll( function(){  
+//     console.log('Scroll initiated by ' + (userScroll == true ? "user" : "browser"));
+// });
+//     //detect user scrolling or browser scrolling end
+
+// //this is for scroll disableing
+// window.onmousewheel = document.onmousewheel = function(e) {
+//    e = e || window.event;
+//    if (e.preventDefault)
+//    e.preventDefault();
+//    e.returnValue = false;
+//  };
 
