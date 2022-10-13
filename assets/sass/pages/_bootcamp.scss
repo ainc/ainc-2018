@@ -589,6 +589,9 @@
       margin-bottom: 1.5rem;
     }
     img.center-block-mobile {
+      @include screen-md {
+        margin-left: -3px;
+      }
       margin-left: 65px;
     }
 
@@ -606,6 +609,7 @@
         top: 110%;
       }
     }
+    
     p {
       margin-top: 3rem;
       text-align: justify;
