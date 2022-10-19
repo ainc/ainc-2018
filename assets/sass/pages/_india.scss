@@ -3,7 +3,7 @@
   #india {
     #header {
       background-image: url('/assets/img/aincu/youth/india/youth-header-india.png');;
-      height: 85vh;
+      height: 100vh;
       .heading-title {
           margin-top: -180px;
           margin-left: 3px;
@@ -11,12 +11,19 @@
           padding-right: 0px;
       }
       .col-xs-8.col-sm-7 {
-        margin-top: -30px;
+        margin-top: -76px;
         padding-left: 0px;
         padding-right: 0px;
       }
       h3.heading-subtitle {
         margin-left: -3px;
+      }
+      p.text-left {
+        margin: top 20px;
+        padding-bottom: 25px;
+      }
+      #phone-image {
+        margin-top: 70px;
       }
     }
     #questions.questions-india {
