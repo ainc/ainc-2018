@@ -3,6 +3,10 @@
   #india {
     #header {
       background-image: url('/assets/img/aincu/youth/india/youth-header-india.png');;
+      height: 90vh;
+      .heading-title {
+          margin-top: -180px;
+      }
     }
     #questions.questions-india {
       background-image: url('../../assets/img/aincu/youth/india/questions.jpg');
