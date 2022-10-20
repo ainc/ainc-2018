@@ -48,15 +48,26 @@ team: aincu
         <div class="col-xs-12 col-sm-8">
           <div class="lgx-heading-area">
             <div class="lgx-heading">
-              <h2 class="heading-title">A 16 week, Full-Time, Job-Guaranteed Program designed for individuals looking to make a career change.</h2>
-              
-              
-                <div>
-                  {% include modal-form.html button-class='lgx-btn lgx-btn-small-text' initiative='bootcamp-program-guide' link-text='Download Program Guide' %}
+              <nav class="fixed-side-nav">
+                <ul class="nav nav-pills nav-stacked">
+                  <li role="presentation"><a href="#alumni-testimonials" class="fixed-side-nav__item text-uppercase">Hear From Our Alumni</a></li>
+                  <li role="presentation"><a href="#why-awesome-inc-header" class="fixed-side-nav__item text-uppercase">Why Awesome Inc?</a></li>
+                  <li role="presentation"><a href="#job" class="fixed-side-nav__item text-uppercase">Job Guarantee</a></li>
+                  <li role="presentation"><a href="#companies" class="fixed-side-nav__item text-uppercase">Hiring Partners</a></li>
+                  <li role="presentation"><a href="#languages" class="fixed-side-nav__item text-uppercase">Our Tech Stack</a></li>
+                  <li role="presentation"><a href="#timeline" class="fixed-side-nav__item text-uppercase">Application Timeline</a></li>
+                  <li role="presentation"><a href="#cost" class="fixed-side-nav__item text-uppercase">The Cost</a></li>
+                  <li role="presentation"><a href="#still-unsure" class="fixed-side-nav__item text-uppercase">FAQs</a></li>
+                  <li role="presentation"><a href="/bootcamp/apply" class="fixed-side-nav__item text-uppercase apply-now">Apply Now</a></li>
+                </ul>
+              </nav>
+              <h2 class="heading-title" style="max-width: 60%;">A 16 week, Full-Time, Job-Guaranteed Program designed for individuals looking to make a career change.</h2>
+                <p class="button-blurb">Start your application in less than 30 seconds</p>
+                <div class="">
+                  <p id="get-started">
+                    <a class="lgx-btn get-started-btn" href="/bootcamp/apply">Get Started</a>
+                  </p>
                 </div>
-              </div>
-              <div class="button__info-blurb">
-                <p>Pay nothing until you land a job! <a href="#cost">See how here</a></p>
               </div>
             </div>
           </div>
@@ -64,26 +75,41 @@ team: aincu
       </div><!-- ROW-->
     </div><!-- CONTAINER -->
   </div><!-- INNER -->
-  <svg id="bootcamp-clip" viewbox="0 0 100 100" preserveAspectRatio="none">
-    <polygon points="0,0 100,100 0,100"></polygon> 
-  </svg>
 </section>
 
+<section id="two-buttons">
+  <div id="two-buttons-div">
+    <div class="container container--thin">
+      <div class="row">
+        <div class="col-sm-6 col-xs-12">
+          <div id="left" class="border-right-white">
+          <img src="/assets/img/bootcamp/QuestionCircle.svg" alt="Question Circle" class="center-block" />
+          <h3 class="text-center">Have a few questions?</h3>
+          <div class="text-center" style="margin-top: 30px;">
+            {% include modal-form.html button-class='lgx-btn lgx-btn-smaller-text' initiative='bootcamp-program-guide' link-text='Download Program Guide' %}
+          </div>
+          </div>
+        </div>
+        <div id="right" class="col-sm-6 col-xs-12">
+          <img src="/assets/img/bootcamp/MoneyCircle.svg" alt="Money Circle" class="center-block" />
+          <h3 class="text-center">Pay nothing until you land a job!</h3>
+          <div class="text-center" style="margin-top: 30px;">
+            <a class="lgx-btn lgx-btn-smaller-text" href="#cost">See how here</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
 <section id="answer-honestly">
   <div id="answer-div">
-    <div class="container">
-      <div class="row">
-        <div class="col-xs-3 col-md-4">
-          <div class="relative-parent">
-            <div class="absolute-child">
-              <h3>Answer Honestly...</h3>
-              <p><i>(your answer is safe with us, we promise.)</i></p>
-            </div>
-          </div>
-        </div><!--COL-->
+    <div class="container container--thin">
+      <div class="row py-5">
+              <h3 class="text-center">Answer honestly...</h3>
+              <p class="text-center"><i>(your answer is safe with us, we promise.)</i></p>
       </div><!--ROW-->
-      <div class="row">
+      <div id="shields" class="row">
         <div class="col-sm-5ths">
           <div class="shield-panel">
             <div class="shield-text">
@@ -123,9 +149,9 @@ team: aincu
       <div class="row">
         <div id="answer-yes">
           <p class="fancy-text">Yes!</p>
-          <p><b>If you answered yes to any of these, our Web Developer Bootcamp could be your next move.</b></p>
+          <p class="bold"><b>If you answered yes to any of these, our Web Developer Bootcamp could be your next move.</b></p>
           <p>The Web Developer Bootcamp is a 16-week, intensive training program for aspiring software developers.</p>
-          <p>{% include modal-form.html button-class='lgx-btn lgx-btn-small-text' initiative='bootcamp-program-guide' link-text='Download Program Guide' %}</p>
+          <p class="button">{% include modal-form.html button-class='lgx-btn lgx-btn-small-text' initiative='bootcamp-program-guide' link-text='Download Program Guide' %}</p>
         </div>
       </div><!-- row -->
     </div><!-- CONTAINER -->
@@ -180,7 +206,7 @@ team: aincu
 
 <section id="motivational-quote">
   <div class="lgx-inner">
-    <div class="container">
+    <div class="container container--thin">
       <div class="row">
         <p>"You don't have to feel trapped. Earn your freedom, work when & where you want. Earn a living in just 40 hours a week."</p>
       </div> <!-- row -->
@@ -190,50 +216,53 @@ team: aincu
 
 <section id="why-awesome-inc-header">
   <svg viewbox="0 0 100 100" id="awesomeinc-clip" preserveAspectRatio="none">
-    <polygon points="100,0 0,100 100,100"></polygon> 
+    <polygon points="0,0 0,0 0,0"></polygon> 
   </svg>
 </section>
 
 <section id="why-awesome-inc">
-  <div class="lgx-inner">
-    <div class="container">
+  <div id="inner" class="lgx-inner" >
+    <div class="container container-thin">
       <div class="row">
-        <div class="col-xs-12 col-md-8 col-md-offset-4">
-          <div class="relative-parent">
-            <div class="absolute-child">
-              <div class="lgx-heading">
-                <h2 class="heading-title">
-                  Why Awesome Inc?
-                </h2>
-              </div>
-            </div> <!-- absolute-child -->
-            <div id="why-sub-text">
-              <p>Awesome Inc exists to grow the tech and startup community in central KY. We do that by offering a startup accelerator, a coworking space, a sister software company called APAX, and running Awesome Inc U - our coding school.</p>
-              <p>We do a lot, and we do it all to create an ecosystem where people like you can thrive.</p>
-              <!-- Calendly link widget begin -->
-              <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
-              <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript"></script>
-              <p class="center-text-mobile"><a class="lgx-btn" href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/ainc/awesome-inc-call'});return false;">Schedule a Visit</a></p>
-              <!-- Calendly link widget end -->
-            </div>
-          </div> <!-- relative-parent -->
-        </div>
-      </div> <!-- row -->
-      <div id="instructor-row" class="row row-eq-height flex-img-center relative-parent">
-        <img id="arrow-img" class="mobile-tablet-hide absolute-child" src="/assets/img/bootcamp/down-arrow.png" alt="Arrow pointing to Awesome Inc bootcamp instructor"/>
-        <div class="col-md-4">
-          <img src="/assets/img/bootcamp/justin.jpg" alt="Bootcamp Instructor, Justin Hall"/>
-        </div>
-        <div class="col-md-8">
-          <div id="meet-instructor-block">
-            <p class="mobile-hide fancy-text">meet justin</p>
-            <p>This is Justin, an artist turned developer who runs our training program. He's been on this journey himself. He found Awesome Inc and is now helping us create opportunies for others.</p>
-            <p class="center-text-mobile"><a class="lgx-btn lgx-btn-small-text" href="/bootcamp/apply">Apply Now</a></p>
-            <div class="button__info-blurb">
-              <p>Pay nothing until you land a job! <a href="#cost">See how here</a></p>
-            </div>
+        <div class="col-sm-6 col-xs-12">
+          <div class="lgx-heading lgx-heading-black">
+            <h2 id="why-heading-title" class="heading-title">
+              Why Awesome Inc?
+            </h2>
           </div>
-        </div>
+          <div class="">
+            <div style="padding-bottom: 35px;">
+              <div class="border-right-red" style="max-width: 95%;">
+                <p class="left border-right-red">
+                  At Awesome Inc, everything we do starts with our Core Values. 
+                  We care about people and making a difference in our community. 
+                  That's why we want to help everyone we can to learn the life changing skill of coding. 
+                  And while doing that, we've seen that the best way to learn a new skill is to get the right help on your journey.
+                  It's so easy to waste time trying to learn something by yourself, constantly running into problems, and getting frustrated along the way,
+                  but we're here to help! With coaching from Senior Developers and a curriculum built for you, we're ready to meet you where you're at,
+                  even if you're at step 0.
+                </p>
+              </div>
+            </div> <!-- relative-parent -->
+          </div>
+          <div id="why-sub-text">
+            <!-- Calendly link widget begin -->
+            <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+            <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript"></script>
+            <p class="center-text-mobile"><a style="margin-top: 25px;" class="lgx-btn lgx-btn-small-text" href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/ainc/awesome-inc-call'});return false;">Schedule Call</a></p>
+            <!-- Calendly link widget end -->
+          </div>
+        </div> <!-- col -->
+        <div id="right" class="col-sm-6 col-xs-6">
+          <img src="/images/uploads/stephenruh-wall.jpg" class="img-responsive img-circle center-block" alt="Stephen Ruh" style="max-width: 150px;">
+          <div id="meet-member-text">
+            <p class="fancy-text text-center">meet stephen</p>
+            <p style="padding-top: 10px;" class="meet-subtext text-center">Sometimes it's just easier to talk to a person, right? That's where Stephen comes in!</p>
+            </br>
+            <p style="padding-bottom: 20px;" class="meet-subtext text-center">He's happy to answer any and all questions you've got about Awesome Inc, 
+              our programs, coding in general, or even just the best place to grab coffee and donuts nearby.</p>
+          </div>
+        </div> <!-- col -->
       </div> <!-- row -->
     </div> <!-- container -->
   </div> <!-- lgx-inner-->
@@ -241,10 +270,10 @@ team: aincu
 
 <section id="job">
   <div class="lgx-inner">
-    <div class="container">
-      <div class="row">
+    <div class="container container--thin">
+      <div class="row">0.74
         <img src="/assets/img/bootcamp/job-guaranteed.png" class="center-block" alt="Graduates will land a job, guaranteed" />
-        <p class="center-text">We only succeed when you succeed. We guarantee that students who complete the 16-week Bootcamp program and uphold the job search requirements will receive a job offer within six months of your graduation date, or we'll refund your tuition. See our Student Agreement for details.</p>
+        <p class="text-center">We only succeed when you succeed. We guarantee that students who complete the 16-week Bootcamp program and uphold the job search requirements will receive a job offer within six months of your graduation date, or we'll refund your tuition. See our Student Agreement for details.</p>
       </div> <!-- row -->
     </div> <!-- container -->
   </div> <!-- lgx-inner-->
@@ -285,7 +314,7 @@ team: aincu
 
 <section id="languages">
   <div class="lgx-inner">
-    <div class="container">
+    <div class="container container--thin">
       <h5>With over 500 hours of hands-on training, you'll gain experience while building 10+ projects using</h5>
       <div class="row row-eq-height flex-img-center">
         <div class="col-sm-5ths col-md-5ths">
@@ -316,22 +345,30 @@ team: aincu
 
 <section id="apply">
   <div class="lgx-inner">
-    <div class="container">
+    <div class="container container--thin">
       <div class="row">
-        <div class="col-sm-3 relative-parent">
-          <img src="/assets/img/bootcamp/online-application.png" class="center-block-mobile" alt="Online Application" />
-          <img src="/assets/img/bootcamp/arrow-steps.png" class="absolute-child" alt="Arrow to the right"/>
+        <div class="lgx-heading lgx-heading-black">
+          <h2 class="heading-title">
+            Applying for Bootcamp
+          </h2>
+          <p class="text-center">There is a four-step, competitive application process for the Bootcamp program:</p>
         </div>
-        <div class="col-sm-3 relative-parent">
-          <img src="/assets/img/bootcamp/basic-challenge.png" class="center-block-mobile" alt="Basic challenge" />
-          <img src="/assets/img/bootcamp/arrow-steps.png" class="absolute-child" alt="Arrow to the right"/>
-        </div>
-        <div class="col-sm-3 relative-parent">
-          <img src="/assets/img/bootcamp/in-person-interview.png" class="center-block-mobile" alt="In-person interview" />
-          <img src="/assets/img/bootcamp/arrow-steps.png" class="absolute-child" alt="Arrow to the right"/>
-        </div>
-        <div class="col-sm-3 relative-parent">
-          <img src="/assets/img/bootcamp/fio-challenge.png" class="center-block-mobile" alt="FIO Challenge" />
+        <div class="align-self-center">
+          <div class="col-sm-3 relative-parent">
+            <img src="/assets/img/bootcamp/online-application.png" class="center-block-mobile" alt="Online Application" />
+            <img src="/assets/img/bootcamp/arrow-steps.png" class="absolute-child" alt="Arrow to the right"/>
+          </div>
+          <div class="col-sm-3 relative-parent">
+            <img src="/assets/img/bootcamp/basic-challenge.png" class="center-block-mobile" alt="Basic challenge" />
+            <img src="/assets/img/bootcamp/arrow-steps.png" class="absolute-child" alt="Arrow to the right"/>
+          </div>
+          <div class="col-sm-3 relative-parent">
+            <img src="/assets/img/bootcamp/in-person-interview.png" class="center-block-mobile" alt="In-person interview" />
+            <img src="/assets/img/bootcamp/arrow-steps.png" class="absolute-child" alt="Arrow to the right"/>
+          </div>
+          <div class="col-sm-3 relative-parent">
+            <img src="/assets/img/bootcamp/fio-challenge.png" class="center-block-mobile" alt="FIO Challenge" />
+          </div>
         </div>
       </div> <!-- row -->
       <div class="row">
@@ -370,30 +407,36 @@ team: aincu
 
 <section id="cost">
   <div class="lgx-inner">
-    <div class="container">
+    <div class="container container--thin">
       <div class="row">
         <div class="col-md-12">
           <div class="lgx-heading">
             <h2 class="heading-title">The Cost</h2>
           </div>
-          <div class="col-xs-12 col-sm-5">
-            <div class="lgx-heading">
-              <h4 class="heading-subtitle">Income Share Agreement</h4>
-            </div>      
-            <div class="aside-content">
-              <p>
-                Fund your future with an Income Share Agreement. We’re partnered with industry-leading ISA provider <a href="https://www.meratas.com/" target="_blank">Meratas</a> to allow students to enroll in our full-time program with no up front tuition costs. ISA recipients only pay when they’ve landed a job making $40,000/year or more. Want to know more? <a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/ainc/awesome-inc-call'});return false;">Schedule a call today</a>! 
-              </p>
+          <div id="cost-columns">
+            <div class="col-md-6 col-xs-12 col-sm-5">
+              <div id="left" class="border-right-red">
+                <img src="/assets/img/bootcamp/cost.png" alt="Cost Image" class="left center-block" />
+                <div class="lgx-heading">
+                  <h3 class="left text-center">Income Share Agreement</h3>
+                </div>      
+                <div class="aside-content">
+                  <p>
+                    Fund your future with an Income Share Agreement. We’re partnered with industry-leading ISA provider <a href="https://www.meratas.com/" target="_blank">Meratas</a> to allow students to enroll in our full-time program with no up front tuition costs. ISA recipients only pay when they’ve landed a job making $40,000/year or more. Want to know more? <a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/ainc/awesome-inc-call'});return false;">Schedule a call today</a>! 
+                  </p>
+                </div>
+              </div>
             </div>
-          </div>
-          <div class="col-xs-12 col-sm-5 col-sm-offset-1">
-            <div class="lgx-heading">
-              <h4 class="heading-subtitle">Up-Front Payment</h4>
-            </div>      
-            <div class="aside-content">
-              <p>
-                Students who choose to pay tuition up front are offered a discounted tuition rate of $13,500.
-              </p>
+            <div id="right" class="col-md-6 col-xs-12 col-sm-5">
+              <img src="/assets/img/bootcamp/Money_in_Hand.svg" alt="QuestionCircle" class="right center-block" />
+              <div class="lgx-heading">
+                <h3 class="right text-center">Up-Front Payment</h3>
+              </div>      
+              <div class="aside-content">
+                <p class="right">
+                  Students who choose to pay tuition up front are offered a discounted tuition rate of $13,500.
+                </p>
+              </div>
             </div>
           </div>
         </div><!-- col -->
@@ -404,7 +447,7 @@ team: aincu
 
 <section id="still-unsure">
   <div class="lgx-inner">
-    <div class="container">
+    <div class="container container--thin">
       <div class="row">
         <div class="vcenter">
           <div class="lgx-heading">

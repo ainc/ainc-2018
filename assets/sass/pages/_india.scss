@@ -3,6 +3,31 @@
   #india {
     #header {
       background-image: url('/assets/img/aincu/youth/india/youth-header-india.png');;
+      height: 100vh;
+      .heading-title {
+          margin-top: -180px;
+          margin-left: 3px;
+          padding-left: 0px;
+          padding-right: 0px;
+      }
+      .col-xs-8.col-sm-7 {
+        margin-top: -76px;
+        padding-left: 0px;
+        padding-right: 0px;
+      }
+      h3.heading-subtitle {
+        margin-left: -3px;
+      }
+      h4 {
+        margin-top:-10px;
+      }
+      p.text-left {
+        padding-top: 15px;
+        padding-bottom: 25px;
+      }
+      #phone-image {
+        margin-top: 70px;
+      }
     }
     #questions.questions-india {
       background-image: url('../../assets/img/aincu/youth/india/questions.jpg');

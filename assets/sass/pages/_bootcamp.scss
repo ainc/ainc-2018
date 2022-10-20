@@ -4,7 +4,7 @@
   #bootcamp-header {
     background-image: url('../../assets/img/bootcamp/hero-bg.jpg');
     background-repeat: no-repeat;
-    background-size: 85%;
+    background-size: cover;
     background-position: right -10vh;
     height: 90vh;
     position: relative;
@@ -25,6 +25,11 @@
       }
       @include screen-xs {
         margin-top: 5vh;
+      }
+    }
+    .lgx-inner {
+      @include screen-xs {
+        padding-top: 8.29rem;
       }
     }
     #bootcamp-clip {
@@ -57,17 +62,126 @@
     form .lgx-btn {
       float: none; // TODO: Fix this... If float: left, then button will float outside of modal
     }
+    .fixed-side-nav {
+      position: fixed;
+      top: 150px;
+      right: 0px;
+      height: auto;
+      float: right;
+      background-color: whitesmoke;
+      border-radius: 5px 0px 0px 5px;
+      z-index: 999;
+      padding-left: 10px;
+      padding-right: 15px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      .fixed-side-nav__item {
+        color: black;
+        text-align: left;
+        height:fit-content;
+        @include font-size(12);
+        :active {
+          color: $brand-color;
+        }
+      }
+      .apply-now {
+        font-weight: bold;
+      }
+      @include screen-tablet-max {
+        visibility: hidden;
+      }
+    }
+    .button-blurb {
+     color:black;
+     font-style: italic;
+     margin-top:20px;
+     text-align: left;
+    }
+    .get-started-btn {
+      margin-top:20px;
+      margin-left: 0px;
+    }
+
+    .two-buttons-section {
+      background-color: black;
+    }
+
+  }
+
+  #two-buttons {
+    background-color: $brand-color2;
+    margin-top: 0px;
+    padding-bottom: 70px;
+    padding-top: 70px;
+
+    .two-buttons-section {
+      background-color: $brand-color3;
+    }
+    .two-button-left-block {
+      margin-top: 0px;
+      color: white;
+    }
+    .two-button-right-block {
+      color: white;
+    }
+    h3 {
+      margin-right: 0 auto;
+      color: white;
+    }
+    img {
+      max-width: 15%;
+    }
+    #left {
+      @include screen-xs {
+        max-width: 50%;
+      }
+    }
+    #right {
+      @include screen-md {
+        padding-left: 0px;
+      }
+      @include screen-tablet-max {
+        padding-left: 20px;
+        padding-right: 50px;
+      }
+      @include screen-xs {
+        padding-top: 25px;
+        padding-left: 55px;
+        max-width: 50%;
+        img {
+          max-width: 20%;
+        }
+      }
+    }
   }
 
   #answer-honestly {
     .absolute-child {
-      top: -20vh;
+      margin: 0 auto;
     }
     h3 {
       color: $brand-color;
       margin-bottom: 0;
       line-height: 2.4rem;
     }
+    p {
+      color: $brand-color;
+    }
+    h6 {
+      font-size: 1.5rem;
+    }
+    #shields {
+      @include screen-tablet-max {
+        max-width: 110%;
+      }
+      @include screen-xs {
+        .shield-panel {
+          margin-left: -400px;
+        }
+      }
+    }
+
+
     #answer-yes {
       margin-top: 3rem;
       margin-bottom: 10rem;
@@ -75,11 +189,29 @@
         margin-bottom: 20px;
         text-align: center;
         color: $brand-color2;
+        @include screen-xs {
+          max-width: 387px;
+        }
       }
       p.fancy-text {
         color: $brand-color;
         font-family: The-Bohemian-Regular;
         @include font-size(42);
+        @include screen-xs {
+          margin-left: -400px;
+        }
+      }
+      b {
+        @include screen-xs {
+          margin-left: 0px;
+          margin-right: 0px;
+          max-width: 75%;
+        }
+      }
+      p.button {
+        @include screen-xs {
+          margin-left: 0px;
+        }
       }
     }
   }
@@ -177,6 +309,13 @@
       @include font-size(22);
       font-weight: 600;
       text-align: center;
+      @include screen-tablet-max {
+        max-width: 95%;
+      }
+      @include screen-xs {
+        font-size: medium;
+        max-width: 48%;
+      }
     }
   }
 
@@ -185,8 +324,11 @@
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: top center;
-    height: 40vh;
+    height: 25vh;
     position: relative;
+    @include screen-xs {
+      height: 100px;
+    }
     #awesomeinc-clip {
         height: 10vw;
         bottom: 0;
@@ -211,9 +353,38 @@
         top: -25vh;
       }
     }
+    #why-heading-title {
+      text-align: left;
+      margin-bottom: -25px;
+      padding-bottom: 0px;
+      @include screen-tablet-max {
+        padding-bottom: 10px;
+      }
+    }
+    #inner {
+      padding-top: 85px;
+      @include screen-tablet-max {
+        padding-top: 30px;
+      }
+    }
+    #right {
+      width: 43%;
+      margin-top: -2px;
+      @include screen-tablet-max {
+        padding-top: 50px;
+        margin-top: 105px;
+      }
+      @include screen-xs {
+        margin-top: 15px;
+        margin-left: 152px;
+        padding-top: 0px;
+        padding-left: 0px;
+      }
+
+    }
     #why-sub-text {
-      margin-top: 3rem;
-      text-align: right;
+      margin-top: 2.5rem;
+      text-align: left;
       @include screen-xs {
         margin-top: 3rem;
         text-align: left;
@@ -227,11 +398,73 @@
       height: 29vh;
       top: -30vh;
       left: 16.5%;
+      @include screen-xs {
+        visibility: hidden;
+      }
     }
     #instructor-row {
       p {
         margin-bottom: 3rem;
       }
+    }
+    .profile-image {
+      border-radius: 50%;
+      max-width: 35%;
+      height: 40%;
+      position: absolute;
+    }
+    img.img-responsive {
+      @include screen-xs {
+        margin-left: -31px;
+      }
+    }
+    #meet-member-text {
+      &:before {
+        content: "";
+        height: 50px;
+        width: 94%;
+        background-color: $brand-color2;
+        position: absolute;
+        top: 100px;
+        z-index: -1;
+        border-radius: 5px 5px 0px 0px;
+        @include screen-tablet-max {
+          padding-top: 100px;
+          top: 100px;
+          height: 110px;
+          width: 90.75%;
+        }
+        @include screen-xs { 
+          padding: 111.3px;
+          max-width: 110%;
+        }
+      }
+      @include screen-tablet-max {
+        padding-top: 0px;
+      }
+      @include screen-xs {
+        padding-right: 0px;
+        margin-left: -70px;
+      }
+      p {
+        color: white;
+        font-size: 400%;
+        padding-bottom: 10px;
+      }
+      p.meet-subtext{
+        margin-left: 15px;
+        margin-right: 15px;
+        font-size: 80%;
+        line-height: 110%;
+      }
+      br {
+        display: block; 
+        content: ""; 
+        margin-top: 0; 
+      }
+      padding-left: 0px;
+      background-color: $brand-color2;
+      border-radius: 0px 0px 5px 5px;
     }
   }
 
@@ -242,11 +475,17 @@
     background-position: center center;
     p {
       margin-top: 3rem;
+      margin-left: 5rem;
+      margin-right: 5rem;
       color: white;
     }
     @include screen-xs {
       img {
-        width: 50%;
+        width: 37%;
+        margin-left: 50px;
+      }
+      p.text-center {
+        max-width: 300px;
       }
     }
   }
@@ -284,14 +523,18 @@
         margin-bottom: 3.5rem;
         .heading-title {
           @include font-size(29);
+          @include screen-xs {
+            max-width: 360px;
+          }
         }
       }
     }
 
     img {
       @include screen-xs {
-        max-width: 80%;
-        margin: 5px auto;
+        max-width: 41%;
+        margin-left: 14px;
+        margin-bottom: 25px;
       }
     }
     
@@ -310,16 +553,22 @@
       margin-bottom: 3rem;
       @include font-size(18);
       text-align: center;
+      @include screen-xs {
+        max-width: 366px;
+      }
     }
     p {
       margin-top: 3rem;
+      @include screen-xs {
+        max-width: 362px;
+      }
     }
     img {
       max-width: 80%;
       margin-left: 10%;
       @include screen-xs {
-        max-width: 50%;
-        margin-left: 25%;
+        max-width: 46%;
+        margin-left: 0%;
         margin-bottom: 3rem;
       }
     }
@@ -331,6 +580,21 @@
         margin-bottom: 5rem;
       }
     }
+    h2 {
+      @include screen-xs {
+        max-width: 400px;
+      }
+    }
+    .lgx-heading {
+      margin-bottom: 1.5rem;
+    }
+    img.center-block-mobile {
+      @include screen-md {
+        margin-left: -3px;
+      }
+      margin-left: 65px;
+    }
+
     img.absolute-child {
       right: -5%;
       top: 33%;
@@ -345,24 +609,54 @@
         top: 110%;
       }
     }
+    
     p {
       margin-top: 3rem;
       text-align: justify;
+      @include screen-xs {
+        max-width: 353px;
+      }
+    }
+    p.text-center {
+      text-align: center;
+      @include screen-xs {
+        max-width: 350px;
+        margin-left: 20px;
+      }
+    }
+    .inline-block {
+      @include screen-xs {
+        max-width: 395px;
+
+      }
     }
     .button-row {
       margin-top: 3rem;
       .lgx-btn {
-        margin-left: 10%;
+        margin-left: 5%;
+        @include screen-tablet-max {
+          margin-left: 2%;
+          margin-right: 2%;
+        }
+        @include screen-xs {
+          margin-top: 20px;
+        }
       }
       
     }
   }
 
   #timeline {
-    background-image: url('../../assets/img/bootcamp/angled-bg.png');
+    background-color: rgb(241, 239, 239);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-position: center center;
+    
+    .lgx-inner {
+        @include screen-tablet-max {
+          padding-bottom: 0px;
+        }
+    }
     .aside {
       display: block;
       position: relative;
@@ -417,11 +711,16 @@
   }
 
   #cost {
+    padding-bottom: 50px;
+
     .heading-title {
       color: $brand-red-bright;
       @include font-size(74);
       letter-spacing: 2px;
       text-transform: none;
+      @include screen-xs {
+        margin-left: -400px;
+      }
     }
     table {
       margin-bottom: 10rem;
@@ -436,8 +735,62 @@
     }
     p {
       text-align: justify;
+      @include screen-xs {
+        max-width: 335px;
+      }
     }
-    
+    p.right {
+      @include screen-xs {
+        margin-left: -77px;
+      }
+    }
+    #cost-columns {
+      padding-left: 0px;
+
+      @include screen-tablet-max {
+        
+      }
+    }
+    h3.left {
+      @include screen-xs {
+        margin-left: -428px;
+      }
+    }
+    h3.right {
+      @include screen-xs {
+        margin-left: -567px;
+      }
+    }
+    img {
+      max-width: 20%;
+    }
+    img.left {
+      @include screen-tablet-max {
+        max-width: 30%;
+      }
+      @include screen-xs {
+        margin-left: 55px;
+      }
+    }
+    img.right {
+      @include screen-xs {
+        margin-left: 15px;
+      }
+    }
+    #left {
+      padding-right: 40px;
+
+      @include screen-tablet-max {
+        margin-left: 0px;
+        margin-right: -80px;
+      }
+    }
+    #right {
+      @include screen-tablet-max {
+        margin-left: 82px;
+        margin-top: 37px;
+      }
+    }
   }
 
   #isa-calculator {
@@ -462,12 +815,25 @@
     .heading-title {
       text-transform: none;
       margin-bottom: 3rem;
+      max-width: 100%;
+      @include screen-tablet-max {
+        max-width: 95%;
+        padding-left: 10px;
+      }
+      @include screen-xs {
+        max-width: 49%;
+      }
     }
     .lgx-heading {
       margin-bottom: 0;
     }
     .lgx-inner {
       padding: 8.2rem 0;
+    }
+    a {
+      @include screen-xs {
+        margin-left: -402px;
+      }
     }
   }
 
@@ -500,7 +866,7 @@
     margin-bottom: 3rem;
   }
   .lgx-inner {
-    padding: 8.2rem 0;
+    padding: 11rem 0;
   }
   .lgx-heading {
     margin-bottom: 0;
