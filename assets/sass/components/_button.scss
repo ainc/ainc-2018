@@ -74,6 +74,10 @@
     @include font-size(16);
     padding: 1rem 2.2rem;
   }
+  &.lgx-btn-smaller-text {
+    @include font-size(12);
+    padding: 1rem 2.2rem;
+  }
 }
 
 a:focus {
@@ -201,5 +205,5 @@ table .lgx-btn-sm {
 }
 
 .button__info-blurb {
-  
+  margin: 0px;
 }

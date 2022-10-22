@@ -36,3 +36,41 @@
 .align-text-right {
   text-align: right;
 }
+
+.border-right-white {
+  border-right: 2px solid $brand-color3;
+}
+
+.border-right-red {
+  border-right: 2px solid $brand-color;
+}
+
+.container--thin {
+  width: 1050px;
+  @include screen-md {
+    width: 850px;
+  }
+  @include screen-tablet-max {
+    width: 800px;
+  }
+}
+
+.p-5 {
+  padding: 5rem;
+}
+
+.py-5 {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  @include screen-xs {
+    margin-left: -400px;
+  }
+}
+
+p.left {
+  text-align: justify;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-right: 34px;
+  float: left;
+}
