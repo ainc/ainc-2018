@@ -2,7 +2,7 @@
 title: 5 Across FINALS December 2022 Startup Pitch Competition
 date: 2022-12-07T22:00:37.769Z
 eventbrite_id: "410761939017"
-event_url: https://www.eventbrite.com/e/410761939017
+event_url: ""
 feature: true
 active: true
 location: The Kentucky Theatre
