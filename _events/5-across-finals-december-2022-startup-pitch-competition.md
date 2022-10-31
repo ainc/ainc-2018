@@ -9,7 +9,7 @@ location: The Kentucky Theatre
 image: /images/uploads/49178923082_8e328d6b1b_k.jpg
 tags:
   - startup
-  - 5Across
+  - 5across
   - pitch
   - competition
   - pitchcompetition
