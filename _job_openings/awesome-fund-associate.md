@@ -13,7 +13,7 @@ Awesome Inc is launching The Awesome Fund to invest in Kentucky’s most promisi
 
 Let’s fund something awesome!
 
-### Core Responsibilites
+**CORE RESPONSIBILITIES:**
 
 * Finidng and screening investment deals
 * Involvement in all aspects of due diligence on new investments (business analysis, industry thesis, competitive landscape, business/pricing model, and financial modeling/deal structuring)
@@ -24,7 +24,7 @@ Let’s fund something awesome!
 * Support the efforts of the fundraising team and sourcing partnerships
 * Accounting and other fund administrative work.
 
-### Requirements
+**REQUIREMENTS:**
 
 * Embody Awesome Inc’s four Core Values: Be Good, Be Excellent, Be a Friend, Be You
 * Strong networking skills with an ability to develop and maintain effective business relationships
@@ -36,7 +36,7 @@ Let’s fund something awesome!
 * Excellent Google Docs/Sheets/Slides skills
 * Experience with Quickbooks, Zoho CRM, and Form-building software
 
-### Benefits
+**BENEFITS:**
 
 * Full Time and Salaried Position
 * Unlimited PTO & Paid Holidays (7 annual)

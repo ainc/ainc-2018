@@ -12,7 +12,7 @@ Innovation Inc, LLC was launched in 2019 and has quickly established itself as a
 
 We’re seeking a talented, experienced, strategic, and entrepreneurial individual to grow Innovation Inc.  This person will use the resources at their disposal to develop and executive a strategic plan for growth, identify opportunities for community partnership, develop and execute a sales pipeline, and work with teammates to design and ensure execution of client programs.
 
-### Responsibilities for Program Director
+**RESPONSIBILITIES FOR PROGRAM DIRECTOR:**
 
 * Develop a long-term strategic plan for Innovation Incubated, ensuring Innovation Inc continues a growth trajectory
 * Develop collaborative relationships with partner organizations throughout the community, region, and state
@@ -25,7 +25,7 @@ We’re seeking a talented, experienced, strategic, and entrepreneurial individu
 * Establish and track progress toward sales goals.
 * Actively participate in Awesome Inc Directors activities, providing input on relevant issues facing the parent organization
 
-### Qualifications for Sales Representative
+**QUALIFICATIONS FOR SALES REPRESENTATIVE:**
 
 * 3-5 years of sales experience, ideally selling into the executive level of corporate companies
 * Experience developing a long-term vision and communicating it to others
