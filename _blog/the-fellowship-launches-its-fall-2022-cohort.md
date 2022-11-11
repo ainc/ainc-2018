@@ -31,13 +31,19 @@ Let’s meet them:
 
 * [MiniGrip](http://myminigrip.com) (Lexington) - MiniGrip™, a consumer products company, has a patent-pending dual surface design with a high friction gripping surface to help open all types of twist-tops and lids while providing a comfortable surface to support dry or sweaty hands. MiniGrip celebrated success earlier this year by winning the [5 Across Entrepreneur Pitch Competition](https://www.awesomeinc.org/events/5across), a cash prize, an investment offer, and a shot at competing in the [December 2022 Finals event](https://www.eventbrite.com/e/410761939017) for a chance to win $5,000 cash and a $50,000 SAFE note thanks to Keyhorse Capital.
 
+
+
 ![Kory Payne, Founder of UJoin, tells the crowd about his company.](/images/uploads/52468699865_01359d6414_c.jpg "Kory Payne, Founder of UJoin, at Fellowship Demo Day in October")
 
 * [UJoin](http://ujoin.co) (Paducah) - Ujoin believes the land of policy-making is a place for all of us. Their online grassroots advocacy app will help you get policy wins for change that you care about. Kory Payne, the Founder of Ujoin, makes Fellowship Program history by being the first founder to join from Paducah, KY. As more people (at younger ages) become engaged in policy making, keep an eye on this Western Kentucky company as it provides the easiest way to do so.
 
+
+
 ![Founder of PrepSharp tells the crowd about her company.](/images/uploads/52468700535_59f5ac84d4_c.jpg "Founder of PrepSharp at Fellowship Demo Day")
 
 * [PrepSharp](http://prepsharp.com) (Louisville) - PrepSharp offers easy access to free bubble sheets for the ACT, and intuitively-designed answer keys & scales (raw score conversion charts) for the ACT. With years of personal tutoring experience, the founders of PrepSharp are building a need that they have experienced firsthand. PrepSharp provides tutors with a robust software solution and full instructional autonomy.
+
+
 
 ![Chris Wiedmar, Founder of Party Horses, holds giant check after winning 5 Across April.](/images/uploads/51909625286_a422de2e98_c.jpg "Party Horses wins 5 Across April")
 
