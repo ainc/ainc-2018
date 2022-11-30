@@ -29,6 +29,13 @@
 
   #core-values {
     margin-bottom: 4rem;
+
+    a {
+      @include screen-xs {
+        margin-top: 20px;
+        margin-left: 20px;
+      }
+    }
   }
 
   .header-border {
