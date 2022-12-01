@@ -24,7 +24,7 @@ If you don’t know who Darren Hardy is, you’re missing out. He’s a successf
 My three takeaways:
 
 1. Your #1 Job is to Sell\
-Frankly, it gets old hearing people complain about sales. Most often, it comes from someone’s poor experience of dealing with an amateur or someone who is still learning a skill set in communicating what service or offering they provide to a potential customer.
+   Frankly, it gets old hearing people complain about sales. Most often, it comes from someone’s poor experience of dealing with an amateur or someone who is still learning a skill set in communicating what service or offering they provide to a potential customer.
 
 Hardy reiterates few sales-focused points throughout the book: 
 
@@ -38,7 +38,7 @@ Darren reminded me to own it. Nobody else can own it for me. 
 
 ![Group of Startup Founders and Entrepreneurs Celebrate a Win](/images/uploads/52281465058_5ec7f2204a_c-1-.jpg "Gaga ball at Startup Summer Retreat!")
 
-2. Conquer Fear
+2﻿. Conquer Fear
 
 Darren shares lots of examples of how people are frozen by fear. I laughed to myself as I read them, thinking of how I’ve been frozen in the past before making phone calls to financial supporters I don’t have a strong relationship with or reaching out to the VIPs in our network that are hard to get ahold of. His words reminded me that fears are often not lions or burning buildings - they’re usually a phone call or face-to-face conversation with a direct question or ask.
 
@@ -53,7 +53,7 @@ He points out a handful of brain hacks to get over your fear (and the battle wit
 
 ![Students gather at a technology leadership event to learn app development](/images/uploads/52085625090_f17de13dd6_c.jpg "Garrett teaches students to code at the STLP conference")
 
-3. Know Your Vitals
+3﻿. Know Your Vitals
 
 This was the most important takeaway from the book for me.
 
