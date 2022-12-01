@@ -1,4 +1,158 @@
 items:
+  - name: Zachary Andrews
+    website: null
+    github: https://github.com/andrews-zack
+    linkedin: https://www.linkedin.com/in/zachary-andrews-/
+    img_path: zack-andrews
+    position: null
+    cohort: f22
+  - name: Dakota Baker
+    website: null
+    github: https://github.com/DakotaWBaker
+    linkedin: https://www.linkedin.com/in/dakotawbaker/
+    img_path: dakota-baker
+    position: null
+    cohort: f22
+  - name: Naod Chichaibelu
+    website: null
+    github: https://github.com/naodmekonnen
+    linkedin: null
+    img_path: naod-mekonnen
+    position: null
+    cohort: f22
+  - name: Tyler Consalvi
+    website: null
+    github: https://github.com/tkcthulhu
+    linkedin: https://www.linkedin.com/in/tylerconsalvi/
+    img_path: tyler-consalvi
+    position: null
+    cohort: f22
+  - name: Joshua Dale
+    website: null
+    github: https://github.com/Joshtdale
+    linkedin: null
+    img_path: josh-dale
+    position: null
+    cohort: f22
+  - name: Zachary Estus
+    website: null
+    github: https://github.com/Zestus01
+    linkedin: http://www.linkedin.com/in/zach-estus
+    img_path: zack-estus
+    position: null
+    cohort: f22
+  - name: Alex Galvan
+    website: null
+    github: https://github.com/alexGalvan0
+    linkedin: https://www.linkedin.com/in/alex-galvan-903384126/
+    img_path: alex-galvan
+    position: null
+    cohort: f22
+  - name: Ryan Gann
+    website: null
+    github: https://github.com/RDG97
+    linkedin: https://www.linkedin.com/in/ryan-gann-01ba53255/
+    img_path: ryan-gann
+    position: null
+    cohort: f22
+  # - name: Jeff Goens
+  #   website: null
+  #   github: https://github.com/jeffgoens
+  #   linkedin: null
+  #   img_path: jeff-goens
+  #   position: null
+  #   cohort: f22
+  - name: Lindsay Haddix
+    website: null
+    github: https://github.com/Lynz951
+    linkedin: https://www.linkedin.com/in/lindsay-haddix
+    img_path: lindsay-haddix
+    position: null
+    cohort: f22
+  - name: Logan Hall
+    website: null
+    github: https://github.com/LhallLhall
+    linkedin: https://www.linkedin.com/in/lpdh/
+    img_path: logan-hall
+    position: null
+    cohort: f22
+  - name: Alyssa Holbert
+    website: null
+    github: https://github.com/ah1096
+    linkedin: https://www.linkedin.com/in/alyssa-r-holbert/
+    img_path: alyssa-holbert
+    position: null
+    cohort: f22
+  - name: Jude Martinez
+    website: null
+    github: https://github.com/SpaceBunEth
+    linkedin: null
+    img_path: jude-martinez
+    position: null
+    cohort: f22
+  - name: Dylan McCarty
+    website: null
+    github: https://github.com/DylanMcCarty
+    linkedin: https://www.linkedin.com/in/dylan-mccarty-dfm/
+    img_path: dylan-mccarty
+    position: null
+    cohort: f22
+  - name: Steve McConaha
+    website: null
+    github: https://github.com/smcconaha
+    linkedin: https://www.linkedin.com/in/steven-mcconaha/
+    img_path: steven-mcconaha
+    position: null
+    cohort: f22
+  - name: Michael McGraw
+    website: null
+    github: https://github.com/McTimidation
+    linkedin: http://www.linkedin.com/in/michaelmcgraw09
+    img_path: michael-mcgraw
+    position: null
+    cohort: f22
+  - name: Morgan Montague
+    website: null
+    github: https://github.com/morganmontague
+    linkedin: https://www.linkedin.com/in/c-morgan-montague/
+    img_path: morgan-montague
+    position: null
+    cohort: f22
+  - name: Roger Mullins
+    website: null
+    github: https://github.com/rdmullins
+    linkedin: https://www.linkedin.com/in/rdmullins/
+    img_path: roger-mullins
+    position: null
+    cohort: f22
+  - name: Shawn Staton
+    website: null
+    github: https://github.com/rdmullins
+    linkedin: https://www.linkedin.com/in/rdmullins/
+    img_path: shawn-staton
+    position: null
+    cohort: f22
+  - name: Elijah Wenndt
+    website: null
+    github: https://github.com/elijahwenndt
+    linkedin: https://www.linkedin.com/in/elijah-wenndt/
+    img_path: elijah-wenndt
+    position: null
+    cohort: f22
+  - name: Mason Williams
+    website: null
+    github: https://github.com/BellowingButcher
+    linkedin: https://www.linkedin.com/in/mason-williams-20a347255/
+    img_path: mason-williams
+    position: null
+    cohort: f22
+  - name: Daniel Winn
+    website: null
+    github: https://github.com/DanTheHydrated
+    linkedin: null
+    img_path: daniel-winn
+    position: null
+    cohort: f22
   - name: Chad Cooper
     website: null
     github: https://github.com/chadcooper06
