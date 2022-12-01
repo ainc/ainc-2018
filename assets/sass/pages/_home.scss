@@ -234,6 +234,12 @@
   .lgx-inner {
     padding-bottom: 9rem;
   }
+  svg.shape {
+    @include screen-xs {
+      margin-bottom: -1px;
+      padding-top: 5px;
+    }
+  }
 }
 
 #lgx-workspace {
@@ -241,6 +247,11 @@
   background-size: 100%;
   background-position: 50%;
   background-color: $brand-grey;
+  svg.shape {
+    @include screen-xs {
+      margin-bottom: 0.5px;
+    }
+  }
   .lgx-inner {
     background-image: url('../../images/workspace-border.png');
     background-position: center 80%;
