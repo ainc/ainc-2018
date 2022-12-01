@@ -265,6 +265,9 @@
       @include screen-xs {
         padding-bottom: 125px;
       }
+      .pinned-button {
+        margin-right: 15px;
+      }
     }
   }
   h4 {
