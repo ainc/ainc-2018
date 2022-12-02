@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Be the Socially Responsible Business
+title: Be The Socially Responsible Business
 date: 2022-12-02T15:33:45.560Z
 header_img: /images/uploads/52327774663_222541826b_c.jpg
 author_img: /images/uploads/autumn-hines.jpg
