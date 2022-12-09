@@ -30,7 +30,7 @@ items:
   - name: Joshua Dale
     website: null
     github: https://github.com/Joshtdale
-    linkedin: null
+    linkedin: https://www.linkedin.com/in/joshtdale/
     img_path: josh-dale
     position: null
     cohort: f22
@@ -55,13 +55,6 @@ items:
     img_path: ryan-gann
     position: null
     cohort: f22
-  # - name: Jeff Goens
-  #   website: null
-  #   github: https://github.com/jeffgoens
-  #   linkedin: null
-  #   img_path: jeff-goens
-  #   position: null
-  #   cohort: f22
   - name: Lindsay Haddix
     website: null
     github: https://github.com/Lynz951
@@ -86,7 +79,7 @@ items:
   - name: Jude Martinez
     website: null
     github: https://github.com/SpaceBunEth
-    linkedin: null
+    linkedin: https://www.linkedin.com/in/jude-martinez-909780129/
     img_path: jude-martinez
     position: null
     cohort: f22
@@ -128,7 +121,7 @@ items:
   - name: Shawn Staton
     website: null
     github: https://github.com/rdmullins
-    linkedin: https://www.linkedin.com/in/rdmullins/
+    linkedin: https://www.linkedin.com/in/shawn-staton-827ab9171/
     img_path: shawn-staton
     position: null
     cohort: f22
@@ -149,7 +142,7 @@ items:
   - name: Daniel Winn
     website: null
     github: https://github.com/DanTheHydrated
-    linkedin: null
+    linkedin: https://www.linkedin.com/in/robert-daniel-winn/
     img_path: daniel-winn
     position: null
     cohort: f22
