@@ -1,5 +1,19 @@
 $color1: #ed3243;
 
 #links {
-    background-color: $color1;
+    #header {
+        img.linksLogo {
+            display: block;
+            margin: auto;
+            max-width: 80%;
+        }
+    }
+    #link-list {
+        .listContainer {
+            a {
+                max-width: 300px;
+            }
+        }
+    }
 }
+
