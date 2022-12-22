@@ -1,19 +1,20 @@
 ---
 title: 
 layout: sub
+page_id: links
 permalink: "/links"
 redirect_from:
 - "/link/"
 - "/linktree/"
 ---
 
-<div id="links">
-    <section id="header">
+<div id="link-page">
+    <section id="header"> 
         <div class="lgx-inner">
             <div class="container">
                 <div class="row">
-                    <div class="lgx-heading-area">
-                        <img src="images/logos/Square_Gray.svg" class="linksLogo" />
+                    <div class="lgx-heading-area col-xs-offset-3 col-xs-6 col-sm-offset-4 col-sm-4" style="margin-top: -50px;">
+                        <img src="images/logos/Square_Gray.svg" class="center-block img-responsive linksLogo" />
                     </div>
                 </div>
             </div>
@@ -37,5 +38,18 @@ redirect_from:
                 </div>
             </div>
         </div>
+    </section>
+    <section id="socials">
+            <div class="row">
+                <div class="center-block">
+                    <ul class="list-inline col-xs-offset-3 col-sm-offset-5">
+                        <li><a href="{{ site.data.routes.twitter }}"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="{{ site.data.routes.facebook }}"><i class="fa fa-facebook-f"></i></a></li>
+                        <li><a href="{{ site.data.routes.linkedin }}"><i class="fa fa-linkedin"></i></a></li>
+                        <li><a href="{{ site.data.routes.instagram }}"><i class="fa fa-instagram"></i></a></li>
+                        <li><a href="{{ site.data.routes.youtube }}"><i class="fa fa-youtube-play"></i></a></li>
+                    </ul>
+                </div>
+            </div>
     </section>
 </div>
