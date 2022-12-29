@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: page.lang | default: 'en' }}">
+
+	<head>
+		{% include head.html %}
+		{% if page.team == 'aincu' %}
+			{% include zoho_sales_iq.html %}
+		{% endif %}
+		{% include zoho-marketing-hub.html %}
+		{% include zoho-cookie.html %}
+		{% include facebook-pixel-code.html %}
+	</head>
+
+	<body class="page page-template">
+		<script>
+			fbq("track", "ViewContent");
+		</script>
+		<div id="fb-root"></div>
+		<!-- fb comment plugin -->
+		<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v14.0&appId=405237331509908&autoLogAppEvents=1" nonce="CPsa0mSK"></script>
+		<!-- <div class="lgx-container "></div> -->
+		<!-- <header>
+			{% include promo-banner.html %}
+			{% include nav.html %}
+		</header> -->
+
+		<main class="main" id='{% if page.page_id %}{{ page.page_id }}{% else %}{{ page.title | remove:" " | downcase }}{% endif %}' aria-label="Content">
+			
+			{{ content }}
+		</main>
+
+		<footer style="z-index: 998;">
+			{% include footer.html %}
+		</footer>
+		{% include js-imports.html %}
+		{% include netlify-callback.html %}
+  </body>
+  
+
+</html>
