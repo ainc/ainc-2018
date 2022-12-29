@@ -2,25 +2,23 @@ $color1: #ed3243;
 $color2: #444444;
 
 #links {
-    #link-page {
-        #header {
-            img.linksLogo {
-                max-width: 80%;
-                z-index: 999;
+    #header {
+        img.linksLogo {
+            max-width: 80%;
+            z-index: 999;
+        }
+    }
+    #link-list {
+        .listContainer {
+            a.lgx-btn {
+                max-width: 300px;
             }
         }
-        #link-list {
-            .listContainer {
-                a.lgx-btn {
-                    max-width: 300px;
-                }
-            }
-        }
-        #socials {
-            ul.socialList {
-                li.fa {
-                    width: 25px;
-                }
+    }
+    #socials {
+        ul.socialList {
+            li.fa {
+                width: 25px;
             }
         }
     }
