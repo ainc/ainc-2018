@@ -73,6 +73,14 @@ $color1: #ed3243;
       margin: auto;
     }
   }
+  .header-text {
+    text-align: center;
+    margin-bottom: 30px;
+
+    h3 {
+      color: black;
+    }
+  }
   @media (max-width: 900px) {
     .buttons {
       flex-wrap: wrap;
