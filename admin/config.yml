@@ -226,7 +226,7 @@ collections:
       - {label: "Image", name: "image", widget: "image", required: false}
       - {label: "Tags", name: "tags", widget: "list", required: false }
 
-  - name: "Links"
+  - name: "links"
     label: "Links"
     label_singluar: "Link"
     folder: "_links"
