@@ -125,12 +125,12 @@ collections:
           - {label: "Team Image", name: "team_image", widget: "image", required: false} # TODO: Add default image
           - {label: "Founders Names", name: "founders_names", widget: "list", required: false}
       - name: "links"
-        label: "Linktree"
+        label: "Links"
         label_singluar: "Link"
         file: "_data/links.yml"
         create: true
         fields:
-          - label: "Linktree"
+          - label: "Link"
             name: "items"
             widget: "list"
             fields:
