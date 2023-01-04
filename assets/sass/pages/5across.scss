@@ -118,6 +118,7 @@ $color1: #ed3243;
         h2 {
           margin-left: auto;
           margin-right: auto;
+          margin-bottom: 40px;
           font-weight: 700;
           color: white;
           max-width: 90%;
@@ -130,8 +131,15 @@ $color1: #ed3243;
           h2 {
             font-size: 25px;
             line-height: 35px;
+            margin-bottom: 25px;
           }
         }
+      }
+      .button-container {
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 30px;
       }
       button {
         display: block;
