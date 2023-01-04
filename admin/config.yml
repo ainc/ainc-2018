@@ -226,4 +226,11 @@ collections:
       - {label: "Image", name: "image", widget: "image", required: false}
       - {label: "Tags", name: "tags", widget: "list", required: false }
 
-
+  - name: "Links"
+    label: "Links"
+    label_singluar: "Link"
+    folder: "_links"
+    create: true
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Link", name: "link", widget: "string"}
