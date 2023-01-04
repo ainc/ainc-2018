@@ -19,19 +19,12 @@
 		<!-- fb comment plugin -->
 		<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v14.0&appId=405237331509908&autoLogAppEvents=1" nonce="CPsa0mSK"></script>
 		<!-- <div class="lgx-container "></div> -->
-		<!-- <header>
-			{% include promo-banner.html %}
-			{% include nav.html %}
-		</header> -->
 
 		<main class="main" id='{% if page.page_id %}{{ page.page_id }}{% else %}{{ page.title | remove:" " | downcase }}{% endif %}' aria-label="Content">
 			
 			{{ content }}
 		</main>
 
-		<footer>
-			{% include footer.html %}
-		</footer>
 		{% include js-imports.html %}
 		{% include netlify-callback.html %}
   </body>

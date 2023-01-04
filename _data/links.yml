@@ -1,3 +1,4 @@
 items:
-  - title: five-across-registration
+  - name: five-across-registration
+    label: Register for 5 Across Startup Pitch Competition 
     link: "https://www.eventbrite.com/e/5-across-february-2023-entrepreneur-pitch-competition-awesome-inc-tickets-482732083657" 

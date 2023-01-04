@@ -3,8 +3,18 @@ $color2: #444444;
 
 #links {
     #header {
-        img.linksLogo {
-            max-width: 80%;
+        margin-top: -78px;
+
+        .lgx-inner {
+            background-color: #444444;
+            margin-bottom: -20px;
+        }
+        svg {
+            position: absolute;
+            top: 25vh;
+            z-index: 0;
+        }
+        img {
             z-index: 999;
         }
     }
