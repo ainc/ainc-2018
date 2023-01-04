@@ -18,5 +18,22 @@ $color2: #444444;
             z-index: 999;
         }
     }
+    #socials {
+        margin-bottom: 15px;
+        margin-top: 15px;
+        .center-block {
+            margin: auto;
+            text-align: center;
+        }
+        ul {
+            display: inline-table;
+        }
+        i {
+            color: black; 
+            font-size: 3rem; 
+            margin-left: 7px; 
+            margin-right: 7px;
+        }
+    }
 }
 
