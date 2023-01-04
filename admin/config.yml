@@ -124,7 +124,19 @@ collections:
           - {label: "LinkedIn Link", name: "linkedin", widget: "string", required: false}
           - {label: "Team Image", name: "team_image", widget: "image", required: false} # TODO: Add default image
           - {label: "Founders Names", name: "founders_names", widget: "list", required: false}
-  
+      - name: "links"
+        label: "Links"
+        label_singluar: "Link"
+        file: "_data/links.yml"
+        create: true
+        fields:
+          - label: "Linktree"
+            name: "items"
+            widget: "list"
+            fields:
+              - {label: "Title", name: "title", widget: "string"}
+              - {label: "Link", name: "link", widget: "string"}
+
   - name: "job_openings"
     label: "Job Openings"
     label_singular: "Job Opening"
@@ -225,12 +237,3 @@ collections:
       - {label: "Location", name: "location", widget: "string", required: false}
       - {label: "Image", name: "image", widget: "image", required: false}
       - {label: "Tags", name: "tags", widget: "list", required: false }
-
-  - name: "links"
-    label: "Links"
-    label_singluar: "Link"
-    folder: "_links"
-    create: true
-    fields:
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Link", name: "link", widget: "string"}
