@@ -11,8 +11,14 @@ $color2: #444444;
         }
         svg {
             position: absolute;
-            top: 25vh;
+            top: 18%;
             z-index: 0;
+            @include screen-xs {
+                top: 8%;
+            }
+            @include screen-tablet-max {
+                top: 10%;
+            }
         }
         img {
             z-index: 999;
