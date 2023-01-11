@@ -71,7 +71,9 @@ page_id: workspace
             <h6>Downtown Mailing Address</h6>
             <h6>Conference Room Access</h6>
             <h6>Member Exclusive Events</h6>
-            <div class="abs-btn"><a class="lgx-btn" href="#" data-toggle="modal" data-target="#member-form-modal">$75/Month</a></div>
+            <div class="modal-form-container">
+              {% include modal-form.html initiative='tour' link-text='$75/Month' style='small' %}
+            </div>
           </div>
           <div class="col-sm-4">
             <div class="member-feature-img">
@@ -81,7 +83,9 @@ page_id: workspace
             <h6>24/7 Access to Our Space</h6>
             <h6>Conference Room Access</h6>
             <h6>Member Exclusive Events</h6>
-            <div class="abs-btn" id="med-text"><a class="lgx-btn" href="#" data-toggle="modal" data-target="#member-form-modal">$199/Month</a></div>
+            <div class="modal-form-container">
+              {% include modal-form.html initiative='tour' link-text='$199/Month' style='small' %}
+            </div>
           </div>
           <div class="col-sm-4">
             <div class="member-feature-img">
@@ -91,7 +95,9 @@ page_id: workspace
             <h6>Private Office Space</h6>
             <h6>Conference Room Access</h6>
             <h6>Member Exclusive Events</h6>
-            <div class="abs-btn"><a class="lgx-btn" href="#" data-toggle="modal" data-target="#member-form-modal"><span class="small">Reach out for pricing</span></a></div>
+            <div class="modal-form-container">
+              {% include modal-form.html initiative='tour' link-text='Reach Out For Pricing' style='small' %}
+            </div>
            </div>
           {% for modal_data in site.data.workspace-modal.items %}
             {% include workspace-modal.html member=modal_data.short_title %}
