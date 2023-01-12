@@ -7,7 +7,7 @@ items:
     position: null
     cohort: f22
   - name: Dakota Baker
-    website: null
+    website: https://dakotawbaker.github.io/react-portfolio/#projectscroll
     github: https://github.com/DakotaWBaker
     linkedin: https://www.linkedin.com/in/dakotawbaker/
     img_path: dakota-baker
@@ -21,14 +21,14 @@ items:
     position: null
     cohort: f22
   - name: Tyler Consalvi
-    website: null
+    website: https://tkcthulhu.github.io/The-Chronicling-of-the-Code/
     github: https://github.com/tkcthulhu
     linkedin: https://www.linkedin.com/in/tylerconsalvi/
     img_path: tyler-consalvi
     position: null
     cohort: f22
   - name: Joshua Dale
-    website: null
+    website: https://joshtdale.github.io/
     github: https://github.com/Joshtdale
     linkedin: https://www.linkedin.com/in/joshtdale/
     img_path: josh-dale
