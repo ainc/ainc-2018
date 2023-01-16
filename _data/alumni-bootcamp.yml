@@ -91,7 +91,7 @@ items:
     position: null
     cohort: f22
   - name: Steve McConaha
-    website: null
+    website: https://smcconaha.github.io/
     github: https://github.com/smcconaha
     linkedin: https://www.linkedin.com/in/steven-mcconaha/
     img_path: steven-mcconaha
