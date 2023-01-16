@@ -2,47 +2,46 @@
 title: Awesome Inc Videographer
 email: careers@awesomeinc.org
 team: Awesome Inc
-manager: Keith McMunn
+manager: Emily Wehrle
 time-commitment: Part-time
-active: false
+active: true
 priority: 10
 ---
-We are seeking a videographer to join our Awesome Inc team.
 
-At Awesome Inc, our purpose is to help others pursue their definition of “awesome” in the areas of technology & entrepreneurship. Ideal candidates will be passionate about entrepreneurship, eager to learn, and most importantly, excited to help build a community that helps others reach their goals. 
+**COMPANY DESCRIPTION**
 
-The videographer will work closely with the rest of the management team to create content that inspires current and future generations of entrepreneurs.
+Awesome Inc exists to help people pursue their definition of awesome. We do this by building a community around entrepreneurship and technology.
 
-**Desired qualifications**:
+**CORE RESPONSIBILITIES**
 
-* Experience in fast-paced environments with a focus on creative content and storytelling
-* An attitude of personal and professional growth
-* Strong interest in startups and entrepreneurship
-* Comfortable with a minimal amount of direction but high expectations
-* Experience in recording, editing, storyboarding, and event planning
-* Ability to effectively roadmap a project timeline and deliver
-* Strong Google Docs game
-* Strong written and oral communication
-* Fits the Awesome Inc Culture ([learn more here](https://www.awesomeinc.org/culture-book-3.1.pdf))
+* Proactively seek Awesome Inc stories to tell through video
+* Collaborate with our marketing team to produce and schedule new content
+* Manage video team and video interns
+* Collaborate with Program Directors to produce and publish video projects and ensure that requirements are met and projects are completed by deadlines.
+* Oversee all video projects and work with other team members to ensure that requirements are met and projects are completed by deadlines.
+* Understand and strategically plan around Awesome Inc calendar of events
+* Collaborate with current Awesome Fellowship companies to make sure their video needs are met
+* Assist with recruitment of video team members for team alpha internship program
+* Create and maintain organization system for video files and assets
+* Assist with photography projects as needed
 
-**Responsibilities include**: 
+Note: Your job description is not your only job.  You’re expected to be a team player.  Whether it’s setting up for an event, providing an estimate, helping with a marketing activity, giving a tour, assisting a visitor, or anything else that is going to benefit the company, be ready to be a team player.  Familiarize yourself with the right information and don’t use ignorance as an excuse not to help. At some point all of us will do work that doesn’t fall under our job description.
 
-* Storyboarding content
-* Marketing and recruiting
-* Networking and relationship building
-* Effectively running meetings
-* Giving feedback to peers or subordinates
-* Using Google Docs and Sheets
-* Other administrative tasks associated with running an organization
-* Working with early stage startups to refine their messaging and prioritize video needs
-* Collaborate with designers to create motion graphics 
+**SKILLS**
 
-**Technical Skills (preferred)**:
+* Embody Awesome Inc’s four Core Values: Be Good, Be Excellent, Be a Friend, Be You
+* Willing to take the initiative and exude motivation and leadership
+* Great communication skills, especially in distilling complex subject matter into simple, memorable explanations
+* Remote communication skills, including email, Zoom for live video, Loom for asynchronous video, and Slack for chat-based communication
+* Excellent Google Docs/Sheets/Slides skills
 
-* Experience with Adobe Suite (Illustrator, Premiere, After Effects)
-* Motion graphic experience (lower thirds, logo reveals, etc)
-* Experience with Sony’s mirrorless cameras
-* Experience with video equipment (sliders, gimbals, tripods, pulling focus, etc)
-* Proficiency with audio recording (Zoom H4N and XLR mics)
+**BENEFITS**
 
-**Competitive pay and perks.**
+* Monthly Catered Team Lunches
+* Access to Summer & Winter Retreat
+* Startup Community Event Access
+
+**POSITION DETAILS**
+
+* Part time - average 14 hours / week (possibility for more some weeks, just talk to supervisor about this)
+* Hybrid location (Downtown Lexington office + remote, in person a minimum of 1 day per week)
