@@ -43,5 +43,4 @@ Note: Your job description is not your only job.  You’re expected to be a team
 
 **POSITION DETAILS**
 
-* Part time - average 14 hours / week (possibility for more some weeks, just talk to supervisor about this)
-* Hybrid location (Downtown Lexington office + remote, in person a minimum of 1 day per week)
+* Part time and Hourly Position
