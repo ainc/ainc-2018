@@ -14,7 +14,7 @@ items:
     position: null
     cohort: f22
   - name: Naod Chichaibelu
-    website: null
+    website: https://portfolio-b6c8d.web.app/
     github: https://github.com/naodmekonnen
     linkedin: null
     img_path: naod-mekonnen
@@ -35,35 +35,35 @@ items:
     position: null
     cohort: f22
   - name: Zachary Estus
-    website: null
+    website: https://zestus01.github.io/
     github: https://github.com/Zestus01
     linkedin: http://www.linkedin.com/in/zach-estus
     img_path: zack-estus
     position: null
     cohort: f22
   - name: Alex Galvan
-    website: null
+    website: https://alexgalvan0.github.io/
     github: https://github.com/alexGalvan0
     linkedin: https://www.linkedin.com/in/alex-galvan-903384126/
     img_path: alex-galvan
     position: null
     cohort: f22
   - name: Ryan Gann
-    website: null
+    website: https://rdg97.github.io/
     github: https://github.com/RDG97
     linkedin: https://www.linkedin.com/in/ryan-gann-01ba53255/
     img_path: ryan-gann
     position: null
     cohort: f22
   - name: Lindsay Haddix
-    website: null
+    website: https://lynz951.github.io/portfolio/
     github: https://github.com/Lynz951
     linkedin: https://www.linkedin.com/in/lindsay-haddix
     img_path: lindsay-haddix
     position: null
     cohort: f22
   - name: Logan Hall
-    website: null
+    website: http://loganpauldaniel.com/
     github: https://github.com/LhallLhall
     linkedin: https://www.linkedin.com/in/lpdh/
     img_path: logan-hall
@@ -77,7 +77,7 @@ items:
     position: null
     cohort: f22
   - name: Jude Martinez
-    website: null
+    website: https://spacebuneth.github.io/
     github: https://github.com/SpaceBunEth
     linkedin: https://www.linkedin.com/in/jude-martinez-909780129/
     img_path: jude-martinez
@@ -98,21 +98,21 @@ items:
     position: null
     cohort: f22
   - name: Michael McGraw
-    website: null
+    website: https://mctimidation.github.io/
     github: https://github.com/McTimidation
     linkedin: http://www.linkedin.com/in/michaelmcgraw09
     img_path: michael-mcgraw
     position: null
     cohort: f22
   - name: Morgan Montague
-    website: null
+    website: https://morganmontague.github.io/c.m.montague.github.io/
     github: https://github.com/morganmontague
     linkedin: https://www.linkedin.com/in/c-morgan-montague/
     img_path: morgan-montague
     position: null
     cohort: f22
   - name: Roger Mullins
-    website: null
+    website: https://rdmullins.github.io/rm-portfolio-frontend/
     github: https://github.com/rdmullins
     linkedin: https://www.linkedin.com/in/rdmullins/
     img_path: roger-mullins
@@ -133,7 +133,7 @@ items:
     position: null
     cohort: f22
   - name: Mason Williams
-    website: null
+    website: https://bellowingbutcher.netlify.app/
     github: https://github.com/BellowingButcher
     linkedin: https://www.linkedin.com/in/mason-williams-20a347255/
     img_path: mason-williams
