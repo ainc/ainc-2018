@@ -4,7 +4,7 @@ email: careers@awesomeinc.org
 team: Innovation Inc
 manager: Brian
 time-commitment: Full-time
-active: true
+active: false
 apply_url: https://docs.google.com/forms/d/e/1FAIpQLScT3wjsKOl8vqQ5q2YEByrIKohWi6c58z5c3mdNk-Oxc4Cabw/viewform?usp=sf_link
 priority: 1
 ---
