@@ -14,9 +14,9 @@ items:
     position: null
     cohort: f22
   - name: Naod Chichaibelu
-    website: https://portfolio-b6c8d.web.app/
+    website: https://naodmekonnen.com/
     github: https://github.com/naodmekonnen
-    linkedin: null
+    linkedin: https://www.linkedin.com/in/naod-chichaibelu/
     img_path: naod-mekonnen
     position: null
     cohort: f22
@@ -46,7 +46,7 @@ items:
     github: https://github.com/alexGalvan0
     linkedin: https://www.linkedin.com/in/alex-galvan-903384126/
     img_path: alex-galvan
-    position: Safe Brain
+    position: ""
     cohort: f22
   - name: Ryan Gann
     website: https://rdg97.github.io/
@@ -70,7 +70,7 @@ items:
     position: CentrAlert
     cohort: f22
   - name: Alyssa Holbert
-    website: null
+    website: https://ah1096.github.io/developer-portfolio/#
     github: https://github.com/ah1096
     linkedin: https://www.linkedin.com/in/alyssa-r-holbert/
     img_path: alyssa-holbert
@@ -84,7 +84,7 @@ items:
     position: null
     cohort: f22
   - name: Dylan McCarty
-    website: null
+    website: https://ah1096.github.io/developer-portfolio/#
     github: https://github.com/DylanMcCarty
     linkedin: https://www.linkedin.com/in/dylan-mccarty-dfm/
     img_path: dylan-mccarty
@@ -119,8 +119,8 @@ items:
     position: Covetrus
     cohort: f22
   - name: Shawn Staton
-    website: null
-    github: https://github.com/rdmullins
+    website: https://anansi86.github.io/portfolio/
+    github: https://github.com/Anansi86
     linkedin: https://www.linkedin.com/in/shawn-staton-827ab9171/
     img_path: shawn-staton
     position: null
@@ -140,7 +140,7 @@ items:
     position: null
     cohort: f22
   - name: Daniel Winn
-    website: null
+    website: https://robert-danielwinn.web.app/
     github: https://github.com/DanTheHydrated
     linkedin: https://www.linkedin.com/in/robert-daniel-winn/
     img_path: daniel-winn
