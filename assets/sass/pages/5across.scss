@@ -1,4 +1,4 @@
-$header-image: "/images/5Across/Hero_BG.jpg";
+$header-image: "/images/5Across/5_Across_Hero.png";
 $past-pitches-image: "/images/hero-image-1.jpg";
 $color1: #c12029;
 
@@ -11,6 +11,7 @@ $color1: #c12029;
     background-image: url($header-image);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     max-width: 100%;
     height: auto;
 
@@ -36,6 +37,7 @@ $color1: #c12029;
     img {
         margin-left: 0px;
         margin-top: 200px;
+        width: 600px;
     }
     .buttons {
       width: 100%;
