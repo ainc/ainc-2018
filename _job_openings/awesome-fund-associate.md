@@ -4,8 +4,8 @@ email: careers@awesomeinc.org
 team: Awesome Inc
 manager: Brian Raney
 time-commitment: Full-time
+active: false
 apply_url: https://careers.awesomeinc.org/jobs/Careers/649925000000998031/Associate---Awesome-Fund?source=CareerSite
-active: true
 priority: 10
 ---
 
