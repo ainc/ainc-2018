@@ -4,7 +4,7 @@ email: careers@awesomeinc.org
 team: Awesome Inc
 manager: Brian
 time-commitment: part-time
-active: true
+active: false
 priority: 10
 ---
 
