@@ -1,12 +1,12 @@
 ---
-title: 5 Across February Startup Pitch Competition
-date: 2023-02-22T22:00:37.769Z
-eventbrite_id: "482732083657"
+title: 5 Across April Startup Pitch Competition
+date: 2023-04-26T21:00:37.769Z
+eventbrite_id: "551701011577"
 event_url: ""
 feature: true
 active: true
-location: The Mane on Main
-image: /images/uploads/52553323378_f057b724a2_c.jpg
+location: The Kentucky Theatre
+image: /images/uploads/52706774611_e726c8df00_c.jpg
 tags:
   - startup
   - 5across
