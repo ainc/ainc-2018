@@ -476,6 +476,38 @@
       },
       "Event6": {
         "month": "December (Finals)",
+        "winner": "Xena",
+        "founder": "Akhil"
+      }
+    },
+    "2023": {
+      "Event1": {
+        "month": "February",
+        "winner": "Feedcoyote Inc",
+        "founder": "Stevens"
+      },
+      "Event2": {
+        "month": "April",
+        "winner": "",
+        "founder": ""
+      },
+      "Event3": {
+        "month": "June",
+        "winner": "",
+        "founder": ""
+      },
+      "Event4": {
+        "month": "August",
+        "winner": "",
+        "founder": ""
+      },
+      "Event5": {
+        "month": "October",
+        "winner": "",
+        "founder": ""
+      },
+      "Event6": {
+        "month": "December (Finals)",
         "winner": "",
         "founder": ""
       }
