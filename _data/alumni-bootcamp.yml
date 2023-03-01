@@ -3,7 +3,7 @@ items:
     website: null
     github: https://github.com/andrews-zack
     linkedin: https://www.linkedin.com/in/zachary-andrews-/
-    img_path: zack-andrews
+    img_path: zachary-andrews
     position: null
     cohort: f22
   - name: "Dakota Baker "
@@ -17,7 +17,7 @@ items:
     website: https://naodmekonnen.com/
     github: https://github.com/naodmekonnen
     linkedin: https://www.linkedin.com/in/naod-chichaibelu/
-    img_path: naod-mekonnen
+    img_path: naod-chichaibelu
     position: null
     cohort: f22
   - name: Tyler Consalvi
@@ -31,14 +31,14 @@ items:
     website: https://joshtdale.github.io/
     github: https://github.com/Joshtdale
     linkedin: https://www.linkedin.com/in/joshtdale/
-    img_path: josh-dale
+    img_path: joshua-dale
     position: null
     cohort: f22
   - name: Zachary Estus
     website: https://zestus01.github.io/
     github: https://github.com/Zestus01
     linkedin: http://www.linkedin.com/in/zach-estus
-    img_path: zack-estus
+    img_path: zachary-estus
     position: null
     cohort: f22
   - name: Alex Galvan
