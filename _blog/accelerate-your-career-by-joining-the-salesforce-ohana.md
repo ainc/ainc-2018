@@ -42,4 +42,4 @@ The Salesforce Career Accelerator will be remote and asynchronous as we follow a
 
 We are currently able to offer a scholarship to Lexington area residents, but we are welcoming learners from anywhere to join us in the Accelerator. Awesome Inc will be providing opportunities for learners in the Accelerator to connect with local Salesforce professionals and employers.
 
-I know that the feeling of community at my favorite restaurant is something I will keep coming back to experience week after week. Do you want to help create that experience for others by utilizing data systems that turn customers into friends and family? Join the Ohana, and get started on your Salesforce journey with us! [The next cohort](www.awesomeinc.org/salesforce) begins on March 15th!
+I know that the feeling of community at my favorite restaurant is something I will keep coming back to experience week after week. Do you want to help create that experience for others by utilizing data systems that turn customers into friends and family? Join the Ohana, and get started on your Salesforce journey with us! [The next cohort](https://www.awesomeinc.org/salesforce) begins on March 15th!
