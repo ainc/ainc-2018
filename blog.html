@@ -35,7 +35,7 @@ redirect_from:
   <div class="container">
     <div class="row">
       {% for post in site.blog reversed %}
-        <div class="col-xs-6 col-sm-4">
+        <div class="col-xs-12 col-sm-4">
           <div class="lgx-blog-single">
             <figure>
               <img class="object-fit-cover" src="{{ post.header_img | default: '/images/logos/ainc-logo-triangle-layer-red.png' }}" alt="{{ post.author | default:'Awesome Inc' }}" title="{{ post.author | default:'Awesome Inc' }}"/>
