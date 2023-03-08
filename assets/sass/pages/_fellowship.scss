@@ -88,6 +88,7 @@
           left: -3rem;
         }
         @include screen-xs {
+          text-align: center;
           position: relative;
           left: 0;
           top: 0;
@@ -212,6 +213,20 @@
 
   #fellowship-sponsors {
     background-color: $brand-color2;
+    .sponsor {
+      // padding: 2rem;
+      @include screen-xs {
+        // display: flex;
+        // justify-content: center;
+        // align-items: center;
+        padding: 1.7rem;
+      }
+    }
+    .special {
+      @include screen-xs {
+        margin-bottom: -46px;
+      }
+    }
     p {
       color: $brand-grey-dark;
       @include font-size(22);
