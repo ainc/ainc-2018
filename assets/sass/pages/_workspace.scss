@@ -164,6 +164,9 @@
     text-transform: uppercase;
     background-color: $brand-grey;
     padding-bottom: 8rem;
+    @include screen-xs {
+      padding-bottom: 0;
+    }
     .member-feature-img {
       height: 150px;
       img {
@@ -319,22 +322,49 @@
         }
       }
     }
-    .modal-form-container {
-      margin-top: 15%;
+    .member-info-container {
+      @include screen-xs {
+        margin-bottom: 15%;
+      }
+
+      .modal-form-container {
+        margin-top: 15%;
+        @include screen-xs {
+          margin-top: 0;
+          display: none;
+        }
+      }
+      .mobile {
+        display: none;
+        @include screen-xs {
+          display: block;
+        }
+      }
     }
   }
 
   div#member-amenities {
     text-transform: uppercase;
+    
     .amenity {
-      img {
+      .image-container {
         border: $brand-color2 solid 2px;
-        border-radius: 50%;
-        margin: 2rem 0.5rem 0rem 2rem;
-        width: 70px;
-        height: 70px;
-        padding: 10px;
+          border-radius: 50%;
+          margin: 2rem 0.5rem 0rem 2rem;
+          width: 70px;
+          height: 70px;
+          padding: 10px;
       }
+      .amenity-text {
+        margin-top: 8%;
+        position: absolute;
+        @include screen-xs {
+          margin-top: 11%;
+        }
+      }
+      // img {
+        
+      // }
       p {
         &:after {
           content: "";
