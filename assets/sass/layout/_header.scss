@@ -122,7 +122,7 @@ header {
 
 
   /*DROPDOWN MENU HOVER EFFECT*/
-  .navbar-nav li:hover > ul{
+  .navbar-nav li:hover > ul.dropdown-menu{
     @include screen-laptop-min {
       display:block;
     }
@@ -142,6 +142,7 @@ header {
 
   /*MULTI LEVEL DROPDOWN*/
   .dropdown-submenu {
+    display: none;
     position: relative;
   }
 
@@ -200,6 +201,22 @@ header {
       animation-timing-function: linear;
       //margin-top: .8rem;
       li {
+        @include screen-tablet-max {
+          .mobile-toggle {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+          }
+        
+
+          border-bottom: 0.5px solid $white-color;
+          li {
+            border-bottom: 0;
+          }
+          ul.collapse {
+            padding-bottom: 10px !important;
+          }
+        }
         a {
           font-family: $lgx-subheading-font;
           @include font-size(14);
@@ -219,6 +236,18 @@ header {
           .caret {
             @include screen-tablet-max {
               display: none;
+            }
+          }
+          ~.plus {
+            color: white;
+            width: 40px;
+            height: 33px;
+            margin: 0 15px;
+            display: none;
+            @include screen-tablet-max{
+              display: flex;
+              justify-content: center;
+              align-items: center;
             }
           }
         }
