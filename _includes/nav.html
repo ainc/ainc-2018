@@ -28,16 +28,30 @@
                   <div class="collapse navbar-collapse">
                     <ul class="nav navbar-nav lgx-nav">
                       <li>
-                        <a href="{{ site.data.routes.learn }}" role="button" aria-haspopup="true" aria-expanded="false">Learn To Code <span class="caret"></span></a>
+                        <div class="mobile-toggle ">
+                          <a href="{{ site.data.routes.learn }}" role="button" aria-haspopup="true" aria-expanded="false">Learn To Code <span class="caret"></span></a>
+                          <button class="plus navbar-toggle" data-toggle="collapse" data-target=".dropdown-submenu1">+</button>
+                        </div>
                         <ul class="dropdown-menu">
                           <li><a href="{{ site.data.routes.youth }}">Youth Courses</a></li>
                           <li><a href="{{ site.data.routes.woc }}">Kids Camps</a></li>
                           <li><a href="{{ site.data.routes.adults }}">Adult Courses</a></li>
                           <li><a href="{{ site.data.routes.bootcamp }}">Bootcamp</a></li>
                         </ul>
+                        <!-- <div class="collapse navbar-collapse"> -->
+                          <ul class="dropdown-submenu1 collapse">
+                            <li><a href="{{ site.data.routes.youth }}">Youth Courses</a></li>
+                            <li><a href="{{ site.data.routes.woc }}">Kids Camps</a></li>
+                            <li><a href="{{ site.data.routes.adults }}">Adult Courses</a></li>
+                            <li><a href="{{ site.data.routes.bootcamp }}">Bootcamp</a></li>
+                          </ul>
+                        <!-- </div> -->
+                        </li>
                       <li>
-                      <li>
-                        <a href="{{ site.data.routes.fellowship }}" role="button" aria-haspopup="true" aria-expanded="false">Startups <span class="caret"></span></a>
+                        <div class="mobile-toggle ">
+                          <a href="{{ site.data.routes.fellowship }}" role="button" aria-haspopup="true" aria-expanded="false">Startups <span class="caret"></span></a>
+                          <button class="plus navbar-toggle" data-toggle="collapse" data-target=".dropdown-submenu2">+</button>
+                        </div>
                         <ul class="dropdown-menu">
                           <li><a href="{{ site.data.routes.workspace }}">Workspace</a></li>
                           <li><a href="{{ site.data.routes.idea-form }}">I have an idea</a></li>
@@ -46,21 +60,58 @@
                           <li><a href="{{ site.data.routes.venture-labs }}">Innovation Incubated</a></li>
                           <li><a href="{{ site.data.routes.yearbook }}" target="_blank">Community Yearbook</a></li>
                         </ul>
+                        <ul class="dropdown-submenu2 collapse">
+                          <li><a href="{{ site.data.routes.workspace }}">Workspace</a></li>
+                          <li><a href="{{ site.data.routes.idea-form }}">I have an idea</a></li>
+                          <li><a href="{{ site.data.routes.fellowship }}">Startup Accelerator</a></li>
+                          <li><a href="{{ site.data.routes.five-across }}">5 Across</a></li>
+                          <li><a href="{{ site.data.routes.venture-labs }}">Innovation Incubated</a></li>
+                          <li><a href="{{ site.data.routes.yearbook }}" target="_blank">Community Yearbook</a></li>
+                        </ul>
                       </li>
-                      <li><a href="{{ site.data.routes.workspace }}" role="button" aria-haspopup="true" aria-expanded="false">Workspace <span class="caret"></span></a>
+                      <li>
+                        <div class="mobile-toggle ">
+                          <a href="{{ site.data.routes.workspace }}" role="button" aria-haspopup="true" aria-expanded="false">Workspace <span class="caret"></span></a>
+                          <button class="plus navbar-toggle" data-toggle="collapse" data-target=".dropdown-submenu3">+</button>
+                        </div>
                         <ul class="dropdown-menu">
                           <li><a href="https://calendly.com/awesometour/30min?">Schedule a Tour</a></li>
                           <li><a href="{{ site.data.routes.rent-options }}">Office Space</a></li>
                           <li><a href="{{ site.data.routes.events }}">Events</a></li>
                         </ul>
+                        <ul class="dropdown-submenu3 collapse">
+                          <li><a href="https://calendly.com/awesometour/30min?">Schedule a Tour</a></li>
+                          <li><a href="{{ site.data.routes.rent-options }}">Office Space</a></li>
+                          <li><a href="{{ site.data.routes.events }}">Events</a></li>
+                        </ul>
                       </li>
-                      <li><a href="{{ site.data.routes.apax }}" role="button" aria-haspopup="true" aria-expanded="false">Web & App Development<span class="caret"></span></a>
+                      <li>
+                        <div class="mobile-toggle ">
+                          <a href="{{ site.data.routes.apax }}" role="button" aria-haspopup="true" aria-expanded="false">Web & App Development<span class="caret"></span></a>
+                          <button class="plus navbar-toggle" data-toggle="collapse" data-target=".dropdown-submenu4">+</button>
+                        </div>
                         <ul class="dropdown-menu">
                           <li><a href="https://www.apaxsoftware.com/">APAX Software </a></li>
                         </ul>
+                        <ul class="dropdown-submenu4 collapse">
+                          <li><a href="https://www.apaxsoftware.com/">APAX Software </a></li>
+                        </ul>
                       </li>
-                      <li><a href="{{ site.data.routes.about }}" class="dropdown-toggle" aria-haspopup="true" aria-expanded="false">Be Awesome <span class="caret"></span></a>
+                      <li>
+                        <div class="mobile-toggle ">
+                          <a href="{{ site.data.routes.about }}" class="dropdown-toggle" aria-haspopup="true" aria-expanded="false">Be Awesome <span class="caret"></span></a>
+                          <button class="plus navbar-toggle" data-toggle="collapse" data-target=".dropdown-submenu5">+</button>
+                        </div>
                         <ul class="dropdown-menu">
+                          <li><a href="{{ site.data.routes.about }}">About</a></li>
+                          <li><a href="{{ site.data.routes.core-values }}">Core Values</a></li>
+                          <li><a href="{{ site.data.routes.blog }}">Blog</a></li>
+                          <li><a href="{{ site.data.routes.press }}">Press</a></li>
+                          <li><a href="{{ site.data.routes.careers }}">Careers</a></li>
+                          <li><a href="{{ site.data.routes.internships }}">Internships</a></li>
+                          <li><a href="{{ site.data.routes.events }}">Events</a></li>
+                        </ul>
+                        <ul class="dropdown-submenu5 collapse">
                           <li><a href="{{ site.data.routes.about }}">About</a></li>
                           <li><a href="{{ site.data.routes.core-values }}">Core Values</a></li>
                           <li><a href="{{ site.data.routes.blog }}">Blog</a></li>
