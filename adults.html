@@ -240,13 +240,20 @@ team: aincu
                       {% assign url = "https://www.eventbrite.com/e/" | append: course.eventbrite_eid %}
                     {% endif %}
                   <tr>
-                    <td><a href="{{ url }}"><img alt="{{ course.title }}" src="{{ course.logo }}" class="img-responsive"></a><br/> <em>{{ course.season.first }} {{ course.program-begin-date | date: "%Y" }}</em></td>
+                    <!-- <td><a href="{{ url }}"><img alt="{{ course.title }}" src="{{ course.logo }}" class="img-responsive"></a><br/> <em>{{ course.season.first }} {{ course.program-begin-date | date: "%Y" }}</em></td>
                     <td>Part-Time (evenings)<br>8 Weeks</td>
                     <td>{{ course.course_topics }}</td>
                     <td>{{ course.technologies | join: ", " }}</td>
                     <td>{{ course.program-begin-date | date: "%b %d" }} - {{ course.program-end-date | date: "%b %d" }}<br>{{ course.class_day }}<br>{{ course.time }}</td>
                     <td>Anyone looking to take their design skills up a level</td>
-                    <td><a href="{{ url }}" class="btn btn-default center" role="button"disabled>Registration Closed</a></td>
+                    <td><a href="{{ url }}" class="btn btn-default center" role="button"disabled>Registration Closed</a></td> -->
+                    <td><a href="https://www.awesomeinc.org/salesforce" class="flex justify-content-center"><img src="/assets/img/aincu/adults/salesforce-logo.png" class="img-responsive" width="150px" style="margin-bottom: 2em;"/></a><em>Salesforce Career <br/>Accelerator</em></td>
+                    <td class="text-nowrap">Part-Time<br/>Online<br/>Flexible</td>
+                    <td>Organization Fundamentals, Permissions and Security, Report Generation, Test Prep</td>
+                    <td>Salesforce, Trailhead, Talent Stacker, LinkedIn</td>
+                    <td>Rolling Admission for Cohort<br/>Start Dates Mid-Month</td>
+                    <td>Career Changers looking to engage in tech and level up business strategy</td>
+                    <td><a href="https://www.awesomeinc.org/salesforce" class="btn btn-default center" role="button">Learn More</a></td>
                   </tr>
                   {% endif %}
                   {% endfor %}
