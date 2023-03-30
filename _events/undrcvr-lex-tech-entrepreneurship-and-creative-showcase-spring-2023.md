@@ -1,6 +1,6 @@
 ---
 title: UNDRCVR Lex - Tech, Entrepreneurship, and Creative Showcase Spring 2023
-date: 2023-03-30T14:02:49.991Z
+date: 2023-04-12T21:30:49.991Z
 eventbrite_id: "586026088807"
 feature: true
 active: true
