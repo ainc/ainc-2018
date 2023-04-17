@@ -106,7 +106,7 @@ team: aincu
                     {% assign bootcamp = site.courses | where: "course-category", "bootcamp-old" %}
                     {% for course in bootcamp limit: 1 %}
                       <td><a href="{{ site.data.routes.bootcamp }}"><img alt="{{ course.title }}" src="{{ course.logo }}" class="img-responsive"></a><br>{{ course.season.first }} {{ course.prework-date | date: "%Y" }}</td>
-                      <td>Full-Time<br>4 weeks remote<br>12 weeks in-person</td>
+                      <td>{{ course.course_format }}</td>
                       <td>{{ course.course_topics }}</td>
                       <td>{{ course.technologies | join: ", " }}</td>
                       <td>{{ course.program-begin-date | date: "%b %d" }} - {{ course.program-end-date | date: "%b %d" }}<br>{{ course.class_day }}<br>{{ course.time }}</td>
@@ -118,7 +118,7 @@ team: aincu
                     {% assign bootcamp = site.courses | where: "course-category", "bootcamp" %}
                     {% for course in bootcamp limit: 1 %}
                       <td><a href="{{ site.data.routes.bootcamp }}"><img alt="{{ course.title }}" src="{{ course.logo }}" class="img-responsive"></a><br>{{ course.season.first }} {{ course.prework-date | date: "%Y" }}</td>
-                      <td>Full-Time<br>4 weeks remote<br>12 weeks in-person</td>
+                      <td>{{ course.course_format }}</td>
                       <td>{{ course.course_topics }}</td>
                       <td>{{ course.technologies | join: ", " }}</td>
                       <td>{{ course.program-begin-date | date: "%b %d" }} - {{ course.program-end-date | date: "%b %d" }}<br>{{ course.class_day }}<br>{{ course.time }}</td>
