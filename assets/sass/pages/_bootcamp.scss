@@ -2,7 +2,7 @@
 #bootcamp {
 
   #bootcamp-header {
-    background-image: url('../../assets/img/bootcamp/hero-bg.jpg');
+    background-image: url('../../assets/img/bootcamp/hero-image-2-min.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: right -10vh;
@@ -15,7 +15,7 @@
     }
     @include screen-xs {
       background-size: cover;
-      background-position: 50% 0;
+      background-position: 20% 0;
       height: 90vh;
     }
     .lgx-heading-area {
@@ -48,10 +48,15 @@
       }  
     }
     h2 {
+      max-width: 60%;
       text-transform: none;
       @include font-size(22);
       text-align: left;
       line-height: 3.4rem;
+
+      @include screen-tablet-max {
+        max-width: 100%;
+      }
     }
     .lgx-btn {
       float: left;

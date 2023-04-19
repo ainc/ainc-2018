@@ -35,7 +35,7 @@ At Week of Code, you learn by doing - it's hands-on, at your pace, and balanced 
 
 In addition to programming time inside, campers will interact with our upbeat team for unplugged activities and games. More than just coding - Week of Code boosts creativity, logical thinking skills, and brain power. The camp is kept small to ensure everyone gets focused attention.
 
-<img src="/images/aincu/week-of-code-relay.jpg" style="max-width:100%;" alt="Week of Code Relay">
+<img src="/images/aincu/woc_game.jpg" style="max-width:100%;" alt="Week of Code Relay">
 
 ### In this course, your student will:
 

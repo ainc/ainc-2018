@@ -1,11 +1,14 @@
 #workspace {
   #header-workspace {
-    background: url('../../images/ainc-workspace-header-3.png');
+    background: url('../../images/ainc-workspace-header-4.jpg') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
-    background-position-y: 110%;
-    background-position-x: center;
+    // background-position-y: 110%;
+    // background-position-x: center;
     height: 90vh;
-    background-repeat: no-repeat;
+    // background-repeat: no-repeat;
     .lgx-heading-area {
       margin-top: 20vh;
     }
