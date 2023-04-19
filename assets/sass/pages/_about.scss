@@ -2,7 +2,8 @@
   #about-header {
     background-image: url('../../images/banners/about-page-bg4.jpg');
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
+    background-position: 50% 0%;
 
     .lgx-heading {
       text-align: left;
