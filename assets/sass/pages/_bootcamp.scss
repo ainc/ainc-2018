@@ -151,7 +151,7 @@
       }
       @include screen-xs {
         padding-top: 25px;
-        padding-left: 55px;
+        padding-left: 40px;
         max-width: 50%;
         img {
           max-width: 20%;
@@ -594,10 +594,14 @@
       margin-bottom: 1.5rem;
     }
     img.center-block-mobile {
+      @include screen-xs {
+        max-width: 100%;
+        margin-left: 65px;
+      }
+      
       @include screen-md {
         margin-left: -3px;
       }
-      margin-left: 65px;
     }
 
     img.absolute-child {
