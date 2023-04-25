@@ -64,6 +64,7 @@ $color1: #c12029;
 }
 
 .icons {
+  
   .buttons {
     display: flex;
     flex-flow: row nowrap;
@@ -89,7 +90,9 @@ $color1: #c12029;
   }
   @media (max-width: 900px) {
     .buttons {
+      display: none; //hide the buttons on mobile
       flex-wrap: wrap;
+      margin-bottom: 10%;
       #applyButton {
         margin-left: auto;
         margin-right: auto;
@@ -98,6 +101,12 @@ $color1: #c12029;
         margin-left: auto;
         margin-right: auto;
       }
+    }
+    .icon {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding-bottom: 2%;
     }
   }
 }
@@ -251,9 +260,9 @@ $color1: #c12029;
         padding: 5px;
         border-radius: 5px;
         max-width: 75%;
-        margin: 7% auto;k
+        margin: 7% auto;
         .date {
-          color: #a04c4a;
+          color: #de3640;
           font-size: 14px;
           font-weight: 600;
         }
@@ -262,6 +271,7 @@ $color1: #c12029;
           font-size: 13px;
         }
         .title {
+          color: #de3640;
           font-size: 14px;
           font-weight: 600;
         }
@@ -308,6 +318,9 @@ $color1: #c12029;
             left: 20px;
             display: flex;
             flex-direction: row;
+            @media (max-width: 800px) {
+              flex-direction: column;
+            }
             img {
               order: 1;
               max-width: 300px;
@@ -417,6 +430,7 @@ $color1: #c12029;
           }
         }
         @media (max-width: 800px) {
+          margin-top: 300px;
           .months {
             grid-template-columns: 1fr;
             .month {
@@ -476,6 +490,10 @@ $color1: #c12029;
       position: relative;
       left: 10%;
       z-index: 20;
+
+      @media (max-width: 800px) {
+        left: 5%;
+      }
     }
     .bring-the-fun {
       position: absolute;
