@@ -4,7 +4,7 @@
     background-image: url('../../../assets/img/oreo-trail.png');
     background-repeat: no-repeat;
     background-size: 40%;
-    background-position: right center;
+    background-position: 100% 100%;
     position: relative;
     .lgx-heading {
       text-align: left;
@@ -191,7 +191,7 @@
         @include transform(rotate(270deg));
         @include transform-origin(0 0);
         @include screen-xs {
-          top: 80%;
+          // top: 80%;
           left: 20px;
           letter-spacing: 4px;
         }
@@ -227,5 +227,8 @@
 
   #meet-team {
       margin-top: 50px;
+      @media (max-width: 800px) {
+        margin-top: 0px;
+      }
   }
 }
