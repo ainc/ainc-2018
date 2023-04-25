@@ -32,8 +32,8 @@ next_event_title: 5 Across - April Edition
               <h2 class="title lgx-zoomIn-one heading-title">A Pitch Competition for Kentucky Entrepreneurs</h2>
             </div>
             <div class="buttons">
-              <button type="button" class="lgx-btn lgx-btn-grey" id="applyButton" onclick="location.href='https:\/\/forms.zohopublic.com/virtualoffice9155/form/5AcrossApplication1/formperma/i3hM2QiFcJG1DM_nCW8jQvMplp5UUFgRbKc5Ev8kuiA'">Apply to Pitch</button>
-              <button type="button" class="lgx-btn lgx-btn-grey" role="button" aria-disabled="true" id="registerButton" onclick="location.href='http:\/\/www.eventbrite.com/e/{{ next_event.first.eventbrite_id }}'">Register to Attend</button>
+              <button type="button" class="lgx-btn" id="applyButton" onclick="window.open('https:\/\/forms.zohopublic.com/virtualoffice9155/form/5AcrossApplication1/formperma/i3hM2QiFcJG1DM_nCW8jQvMplp5UUFgRbKc5Ev8kuiA', '_blank')">Apply to Pitch</button>
+              <button type="button" class="lgx-btn" role="button" aria-disabled="true" id="registerButton" onclick="window.open('http:\/\/www.eventbrite.com/e/{{ next_event.first.eventbrite_id }}', '_blank')">Register to Attend</button>
             </div>
           </div>
         </div>
@@ -72,8 +72,8 @@ next_event_title: 5 Across - April Edition
   <div class="row">
     <div class="col-md-6 col-md-offset-3">
       <div class="buttons">
-        <button type="button" class="lgx-btn" id="applyButton" onclick="location.href='https:\/\/forms.zohopublic.com/virtualoffice9155/form/5AcrossApplication1/formperma/i3hM2QiFcJG1DM_nCW8jQvMplp5UUFgRbKc5Ev8kuiA'">Apply to Pitch</button>
-        <button type="button" class="lgx-btn" role="button" aria-disabled="true" id="registerButton" onclick="location.href='http:\/\/www.eventbrite.com/e/{{ next_event.first.eventbrite_id }}'">Register to Attend</button>
+        <button type="button" class="lgx-btn lgx-btn-grey" id="applyButton" onclick="window.open('https:\/\/forms.zohopublic.com/virtualoffice9155/form/5AcrossApplication1/formperma/i3hM2QiFcJG1DM_nCW8jQvMplp5UUFgRbKc5Ev8kuiA', '_blank')">Apply to Pitch</button>
+        <button type="button" class="lgx-btn" role="button" aria-disabled="true" id="registerButton" onclick="window.open('http:\/\/www.eventbrite.com/e/{{ next_event.first.eventbrite_id }}', '_blank')">Register to Attend</button>
       </div>
     </div> <!-- col -->
   </div> <!-- row -->
@@ -137,14 +137,14 @@ next_event_title: 5 Across - April Edition
 <section id="join-next-mobile">
   <div class="container">
     <div class="row">
-      <a href="https://www.eventbrite.com/e/551701011577" target="_blank">
       <h2>Join us at the next 5 Across</h2>
       <div class="event-details">
-        <p class="date">{{page.next_event_date}}</p>
-        <p class="location">{{page.next_event_location}}</p>
-        <p class="title">{{page.next_event_title}}</p>
+        <a href="https://www.eventbrite.com/e/551701011577" target="_blank">
+          <p class="date">{{page.next_event_date}}</p>
+          <p class="location">{{page.next_event_location}}</p>
+          <p class="title">{{page.next_event_title}}</p>
+        </a>
       </div>
-    </a>
     </div>
   </div>
 </section>
