@@ -1,11 +1,11 @@
 ---
-title: 5 Across April Startup Pitch Competition
+title: 5 Across June Startup Pitch Competition
 date: 2023-04-26T21:00:37.769Z
-eventbrite_id: "551701011577"
+eventbrite_id: "625237390867"
 event_url: ""
 feature: true
 active: true
-location: The Kentucky Theatre
+location: The Mane on Main
 image: /images/uploads/52706774611_e726c8df00_c.jpg
 tags:
   - startup
