@@ -15,7 +15,7 @@ By Nick Such
 
 Last week, a new cohort completed our latest Web Developer Bootcamp (our 14th!), and we are excited for you to see how far these allstars have come.
 
-We're always impressed by the backgrounds of our learners before bootcamp, and this group doesn't disappoint. They've worked in logistics, graphic design, real estate, retail, and automotive. And now they know how to turn ideas into plans, plans into code, and code into software soluions for real-world problems.
+We're always impressed by the backgrounds of our learners before bootcamp, and this group doesn't disappoint. They've worked in warehouse, designed logos, helped familes find houses, and fixed cars. And now they know how to turn ideas into plans, plans into code, and code into software soluions for real-world problems.
 
 This group is also accomplished a first among our grads: they completed the entire program remotely. This takes a particular type of dedication, while fostering remote communication skills that we've seen become essential for our recent grads. Now, even working for a local company often means collaborating remotely with colleagues and customers.
 
