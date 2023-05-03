@@ -33,8 +33,8 @@ Elden Ring Character Planner - Character Builder
 * [Watch Brian Burdine introduce Elden Ring Character Planner](&t=778s)
 {% endcomment %}
 * [Try Elden Ring Character Planner live](https://er-character-planner-frontend.web.app/)
-* [Brian Burdine on GitHub](https://https://github.com/brian-burdine)
-* [Brian Burdine on LinkedIn](https://https://www.linkedin.com/in/brian-burdine-6a672a23b/)
+* [Brian Burdine on GitHub](https://github.com/brian-burdine)
+* [Brian Burdine on LinkedIn](https://www.linkedin.com/in/brian-burdine-6a672a23b/)
 
 ### John-Michael Crawford
 
@@ -46,8 +46,8 @@ PocketPro - Golf App - Score Tracker
 * [Watch John-Michael Crawford introduce PocketPro](&t=875s)
 {% endcomment %}
 * [Try PocketPro live](https://pocket-pro-api.web.app/)
-* [John-Michael Crawford on GitHub](https://https://github.com/JMC818386)
-* [John-Michael Crawford on LinkedIn](https://https://www.linkedin.com/in/john-michaelcrawford/)
+* [John-Michael Crawford on GitHub](https://github.com/JMC818386)
+* [John-Michael Crawford on LinkedIn](https://www.linkedin.com/in/john-michaelcrawford/)
 
 ### Josiah Charley
 
@@ -59,8 +59,8 @@ MovieMania - IMDB Clone
 * [Watch Josiah Charley introduce MovieMania](&t=943s)
 {% endcomment %}
 * [Try MovieMania live](https://moviemaniacs-6726e.web.app/home)
-* [Josiah Charley on GitHub](https://https://github.com/joich7)
-* [Josiah Charley on LinkedIn](https://https://www.linkedin.com/in/josiah-charley-024a88208/)
+* [Josiah Charley on GitHub](https://github.com/joich7)
+* [Josiah Charley on LinkedIn](https://www.linkedin.com/in/josiah-charley-024a88208/)
 
 ### Katy Simpson
 
@@ -72,8 +72,8 @@ WildSteppe - AllTrails - Kentucky Based
 * [Watch Katy Simpson introduce WildSteppe](&t=1032s)
 {% endcomment %}
 * [Try WildSteppe live](https://wildsteppe-95857.web.app/)
-* [Katy Simpson on GitHub](https://https://github.com/mkrs90)
-* [Katy Simpson on LinkedIn](https://https://www.linkedin.com/in/katy-simpson-844aa674/)
+* [Katy Simpson on GitHub](https://github.com/mkrs90)
+* [Katy Simpson on LinkedIn](https://www.linkedin.com/in/katy-simpson-844aa674/)
 
 ### Kelle Neal
 
@@ -85,8 +85,8 @@ AlarmSquad - Task Manager (Todoist, TickTock)
 * [Watch Kelle Neal introduce AlarmSquad](&t=1159s)
 {% endcomment %}
 * [Try AlarmSquad live](https://alarmsquad-1bf9e.web.app/)
-* [Kelle Neal on GitHub](https://https://github.com/Kelle-Neal)
-* [Kelle Neal on LinkedIn](https://https://www.linkedin.com/in/kelleneal/)
+* [Kelle Neal on GitHub](https://github.com/Kelle-Neal)
+* [Kelle Neal on LinkedIn](https://www.linkedin.com/in/kelleneal/)
 
 ### Mariola Hullings
 
@@ -98,8 +98,8 @@ Flex - Workout App
 * [Watch Mariola Hullings introduce Flex](&t=1250s)
 {% endcomment %}
 * [Try Flex live](https://flex-app.vercel.app/)
-* [Mariola Hullings on GitHub](https://https://github.com/MariolaH)
-* [Mariola Hullings on LinkedIn](https://https://www.linkedin.com/in/mariola-hullings-9579b6238/)
+* [Mariola Hullings on GitHub](https://github.com/MariolaH)
+* [Mariola Hullings on LinkedIn](https://www.linkedin.com/in/mariola-hullings-9579b6238/)
 
 ### Preston Soper
 
@@ -111,8 +111,8 @@ Bookapedia - eBook site, with a "book shelf"
 * [Watch Preston Soper introduce Bookapedia](&t=1326s)
 {% endcomment %}
 * [Try Bookapedia live](https://bookapedia-frontend.web.app/)
-* [Preston Soper on GitHub](https://https://github.com/psoper1)
-* [Preston Soper on LinkedIn](https://https://www.linkedin.com/in/preston-soper-782586100/)
+* [Preston Soper on GitHub](https://github.com/psoper1)
+* [Preston Soper on LinkedIn](https://www.linkedin.com/in/preston-soper-782586100/)
 
 ### Tryon Baldwin
 
@@ -124,8 +124,8 @@ Second Life - Freebie Alerts
 * [Watch Tryon Baldwin introduce Second Life](&t=1437s)
 {% endcomment %}
 * [Try Second Life live]()
-* [Tryon Baldwin on GitHub](https://https://github.com/OMEGATRYON)
-* [Tryon Baldwin on LinkedIn](https://https://www.linkedin.com/in/tryonbaldwin/)
+* [Tryon Baldwin on GitHub](https://github.com/OMEGATRYON)
+* [Tryon Baldwin on LinkedIn](https://www.linkedin.com/in/tryonbaldwin/)
 
 ### William Burbridge
 
@@ -137,8 +137,8 @@ Comic Craze - Comic Book / IMDB clone
 * [Watch William Burbridge introduce Comic Craze](&t=1554s)
 {% endcomment %}
 * [Try Comic Craze live](https://ainc-comic-craze.web.app/)
-* [William Burbridge on GitHub](https://https://github.com/WillBridge0789)
-* [William Burbridge on LinkedIn](https://https://www.linkedin.com/in/willjburbridge/)
+* [William Burbridge on GitHub](https://github.com/WillBridge0789)
+* [William Burbridge on LinkedIn](https://www.linkedin.com/in/willjburbridge/)
 
 ### Zachary Thomas
 
@@ -150,5 +150,5 @@ Marketopia - Marketplace Clone
 * [Watch Zachary Thomas introduce Marketopia](&t=1647s) 
 {% endcomment %}
 * [Try Marketopia live](https://marketopia-frontend.vercel.app/)
-* [Zachary Thomas on GitHub](https://https://github.com/ZacRayTho)
-* [Zachary Thomas on LinkedIn](https://https://www.linkedin.com/in/zacraytho/)
+* [Zachary Thomas on GitHub](https://github.com/ZacRayTho)
+* [Zachary Thomas on LinkedIn](https://www.linkedin.com/in/zacraytho/)
