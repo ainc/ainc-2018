@@ -1,10 +1,80 @@
 items:
+  - name: Tryon Baldwin
+    website: https://omegatryon.github.io/
+    github: https://github.com/OMEGATRYON
+    linkedin: https://www.linkedin.com/in/tryonbaldwin/
+    img_path: tryon-baldwin
+    position: null
+    cohort: w23
+  - name: William Burbridge
+    website: https://willbridge0789.github.io/
+    github: https://github.com/WillBridge0789
+    linkedin: https://www.linkedin.com/in/willjburbridge/
+    img_path: william-burbridge
+    position: null
+    cohort: w23
+  - name: Brian Burdine
+    website: https://brian-burdine.github.io/
+    github: https://github.com/brian-burdine
+    linkedin: https://www.linkedin.com/in/brian-burdine-6a672a23b/
+    img_path: brian-burdine
+    position: null
+    cohort: w23
+  - name: Josiah Charley
+    website: https://joich7.github.io/
+    github: https://github.com/joich7
+    linkedin: https://www.linkedin.com/in/josiah-charley-024a88208/
+    img_path: josiah-charley
+    position: null
+    cohort: w23
+  - name: John-Michael Crawford
+    website: https://jmc818386.github.io/
+    github: https://github.com/JMC818386
+    linkedin: https://www.linkedin.com/in/john-michaelcrawford/
+    img_path: john-michael-crawford
+    position: null
+    cohort: w23
+  - name: Mariola Hullings
+    website: https://mariolah.github.io/
+    github: https://github.com/MariolaH
+    linkedin: https://www.linkedin.com/in/mariola-hullings-9579b6238/
+    img_path: mariola-hullings
+    position: null
+    cohort: w23
+  - name: Kelle Neal
+    website: https://kelle-neal.github.io/
+    github: https://github.com/Kelle-Neal
+    linkedin: https://www.linkedin.com/in/kelleneal/
+    img_path: kelle-neal
+    position: null
+    cohort: w23
+  - name: Katy Simpson
+    website: https://mkrs90.github.io/
+    github: https://github.com/mkrs90
+    linkedin: https://www.linkedin.com/in/katy-simpson-844aa674/
+    img_path: katy-simpson
+    position: null
+    cohort: w23  
+  - name: Preston Soper
+    website: https://psoper1.github.io/
+    github: https://github.com/psoper1
+    linkedin: https://www.linkedin.com/in/preston-soper-782586100/
+    img_path: preston-soper
+    position: null
+    cohort: w23
+  - name: Zachary Thomas
+    website: https://zac-ray-tho-github-io.vercel.app/
+    github: https://github.com/ZacRayTho
+    linkedin: https://www.linkedin.com/in/zacraytho/
+    img_path: zachary-thomas
+    position: null
+    cohort: w23
   - name: Zachary Andrews
     website: null
     github: https://github.com/andrews-zack
     linkedin: https://www.linkedin.com/in/zachary-andrews-/
     img_path: zachary-andrews
-    position: null
+    position: Bolt<br>Marketing
     cohort: f22
   - name: "Dakota Baker "
     website: https://dakotawbaker.github.io/react-portfolio/#projectscroll
@@ -88,7 +158,7 @@ items:
     github: https://github.com/DylanMcCarty
     linkedin: https://www.linkedin.com/in/dylan-mccarty-dfm/
     img_path: dylan-mccarty
-    position: null
+    position: Gray
     cohort: f22
   - name: Steve McConaha
     website: https://smcconaha.github.io/
