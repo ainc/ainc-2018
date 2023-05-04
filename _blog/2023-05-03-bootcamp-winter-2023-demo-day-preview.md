@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 10 Students Launch From Bootcamp Winter 2023
+title: Nine Students Launch From Bootcamp Winter 2023
 date: 2023-05-02T12:00:00.000Z
 header_img: /images/aincu/bootcamp-demo-day-fall-2022.jpg
 author_img: /images/uploads/nick2.jpg
@@ -15,13 +15,13 @@ By Nick Such
 
 Last week, a new cohort completed our latest Web Developer Bootcamp (our 14th!), and we are excited for you to see how far these allstars have come.
 
-We're always impressed by the backgrounds of our learners before bootcamp, and this group doesn't disappoint. They've worked in warehouse, designed logos, helped familes find houses, and fixed cars. And now they know how to turn ideas into plans, plans into code, and code into software soluions for real-world problems.
+We're always impressed by the backgrounds of our learners before bootcamp, and this group doesn't disappoint. They've worked in warehouses, designed logos, helped familes find houses, and fixed cars. And now they know how to turn ideas into plans, plans into code, and code into software soluions for real-world problems.
 
-This group is also accomplished a first among our grads: they completed the entire program remotely. This takes a particular type of dedication, while fostering remote communication skills that we've seen become essential for our recent grads. Now, even working for a local company often means collaborating remotely with colleagues and customers.
+This group has also accomplished a first among our grads: they completed the entire program remotely. This takes a particular type of dedication, while fostering remote communication skills that we've seen become essential for our recent grads. Now, even working for a local company often means collaborating remotely with colleagues and customers.
 
 ## The Demo List
 
-Ten students, now developers, are presenting at Demo Day. Here’s the crew:
+Nine students, now developers, are presenting at Demo Day. Here’s the crew:
 
 ### Brian Burdine
 
@@ -114,6 +114,7 @@ Bookapedia - eBook site, with a "book shelf"
 * [Preston Soper on GitHub](https://github.com/psoper1)
 * [Preston Soper on LinkedIn](https://www.linkedin.com/in/preston-soper-782586100/)
 
+{% comment %}
 ### Tryon Baldwin
 
 ![Tryon Baldwin](/images/uploads/tryon-baldwin.jpg){:width='250'}
@@ -126,6 +127,7 @@ Second Life - Freebie Alerts
 * [Try Second Life live]()
 * [Tryon Baldwin on GitHub](https://github.com/OMEGATRYON)
 * [Tryon Baldwin on LinkedIn](https://www.linkedin.com/in/tryonbaldwin/)
+{% endcomment %}
 
 ### William Burbridge
 
