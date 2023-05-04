@@ -1,11 +1,11 @@
 items:
-  - name: Tryon Baldwin
-    website: https://omegatryon.github.io/
-    github: https://github.com/OMEGATRYON
-    linkedin: https://www.linkedin.com/in/tryonbaldwin/
-    img_path: tryon-baldwin
-    position: null
-    cohort: w23
+  # - name: Tryon Baldwin
+  #   website: https://omegatryon.github.io/
+  #   github: https://github.com/OMEGATRYON
+  #   linkedin: https://www.linkedin.com/in/tryonbaldwin/
+  #   img_path: tryon-baldwin
+  #   position: null
+  #   cohort: w23
   - name: William Burbridge
     website: https://willbridge0789.github.io/
     github: https://github.com/WillBridge0789
