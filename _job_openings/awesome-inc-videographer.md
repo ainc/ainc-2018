@@ -4,7 +4,7 @@ email: careers@awesomeinc.org
 team: Awesome Inc
 manager: Emily Wehrle
 time-commitment: Part-time
-active: true
+active: false
 priority: 10
 ---
 
