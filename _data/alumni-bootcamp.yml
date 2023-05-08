@@ -1,11 +1,4 @@
 items:
-  # - name: Tryon Baldwin
-  #   website: https://omegatryon.github.io/
-  #   github: https://github.com/OMEGATRYON
-  #   linkedin: https://www.linkedin.com/in/tryonbaldwin/
-  #   img_path: tryon-baldwin
-  #   position: null
-  #   cohort: w23
   - name: William Burbridge
     website: https://willbridge0789.github.io/
     github: https://github.com/WillBridge0789
@@ -49,12 +42,12 @@ items:
     position: null
     cohort: w23
   - name: Katy Simpson
-    website: https://mkrs90.github.io/
+    website: https://katy-simpson.web.app/
     github: https://github.com/mkrs90
     linkedin: https://www.linkedin.com/in/katy-simpson-844aa674/
     img_path: katy-simpson
     position: null
-    cohort: w23  
+    cohort: w23
   - name: Preston Soper
     website: https://psoper1.github.io/
     github: https://github.com/psoper1
