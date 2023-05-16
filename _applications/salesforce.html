@@ -36,7 +36,7 @@ Zoho Forms Note :
             {% else %}
                 {% capture season_short %}{{ class.season.first | slice: 0 }}{{ class.program-begin-date | date: "%Y" | slice: 2,3 }}{% endcapture %}
             {% endif %}
-            <small>Application Deadline for cohort {{ class.season.first }} '{{ class.program-begin-date | date: "%Y" | slice: 2,3 }} ({{ season_short }}): <b>{{ class.application-date | date: "%A, %B %d" }}</b></small>
+            <!-- <small>Application Deadline for cohort {{ class.season.first }} '{{ class.program-begin-date | date: "%Y" | slice: 2,3 }} ({{ season_short }}): <b>{{ class.application-date | date: "%A, %B %d" }}</b></small> -->
         {% endfor %}
     </legend>
     
