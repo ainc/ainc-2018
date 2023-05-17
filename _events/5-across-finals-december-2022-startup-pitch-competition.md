@@ -1,6 +1,6 @@
 ---
 title: 5 Across June Startup Pitch Competition
-date: 2023-04-26T21:00:37.769Z
+date: 2023-06-21T21:00:37.769Z
 eventbrite_id: "625237390867"
 event_url: ""
 feature: true
