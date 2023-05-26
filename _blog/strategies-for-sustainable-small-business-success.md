@@ -3,7 +3,7 @@ layout: post
 title: Strategies For Sustainable Small Business Success
 date: 2023-03-30T13:30:00.883Z
 header_img: /images/uploads/52468253451_90eb5b1ec5_c.jpg
-author_img: /images/uploads/awesome-inc-logo-1_2.png
+author_img: /images/uploads/awesome-inc-triangle-1.png
 author: Vanessa Holwell
 tags:
   - small
