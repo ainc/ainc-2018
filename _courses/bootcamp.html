@@ -41,7 +41,6 @@ page_id: bootcamp
 team: aincu
 ---
 
-
 <section id="bootcamp-header">
   <div class="lgx-inner">
     <div class="container">
@@ -51,6 +50,7 @@ team: aincu
             <div class="lgx-heading" style="display: flex; flex-direction: column; align-content: flex-end; flex-wrap: wrap;">
               <nav class="fixed-side-nav">
                 <ul class="nav nav-pills nav-stacked">
+                  <li role="presentation"><a href="#bootcamp-upcoming-dates" class="fixed-side-nav__item text-uppercase">Program Dates</a></li>
                   <li role="presentation"><a href="#alumni-testimonials" class="fixed-side-nav__item text-uppercase">Hear From Our Alumni</a></li>
                   <li role="presentation"><a href="#why-awesome-inc-header" class="fixed-side-nav__item text-uppercase">Why Awesome Inc?</a></li>
                   <li role="presentation"><a href="#job" class="fixed-side-nav__item text-uppercase">Job Guarantee</a></li>
@@ -78,12 +78,56 @@ team: aincu
   </div><!-- INNER -->
 </section>
 
+<section id="bootcamp-upcoming-dates">
+  <div class="lgx-inner">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+          <div class="lgx-heading-area">
+            <div class="lgx-heading">
+                <h2 class="heading-title">Upcoming Program Dates</h2>
+            </div>
+          </div>
+        </div><!-- COL -->
+      </div><!-- ROW-->
+      <div class="row">
+        <div class="col-xs-12 col-sm-offset-2 col-sm-4 border--right">
+          <div class="center-block date--big ">
+            {% assign bootcamp = site.courses | where: "course-category", "bootcamp-old" %}
+            {% for course in bootcamp limit: 1 %}
+              <p><strong>{{ course.program-begin-date | date: "%b %d, %Y" }}</strong><br/>TO<br/> <strong>{{ course.program-end-date | date: "%B %d, %Y" }}</strong></p>
+              <!-- <td><a href="{{ site.data.routes.bootcamp }}" class="btn btn-default center" role="button">Details &amp; Application</a></td> -->
+              <!-- <a class="lgx-button" disabled>Applications Closed</a> -->
+            {% endfor %}
+          </div>
+          <div class="program-button-container">
+            <a class="lgx-btn lgx-btn-small-text lgx-btn-grey" disabled>Applications Closed</a>
+          </div>
+
+        </div>
+        <div class="col-xs-12 col-sm-4">
+          <div class="center-block date--big open">
+            {% assign bootcamp = site.courses | where: "course-category", "bootcamp" %}
+            {% for course in bootcamp limit: 1 %}
+              <p><strong>{{ course.program-begin-date | date: "%b %d, %Y" }}</strong><br/>TO<br/> <strong>{{ course.program-end-date | date: "%B %d, %Y" }}</strong></p>
+              <!-- <td><a href="{{ site.data.routes.bootcamp }}" class="btn btn-default center" role="button">Details &amp; Application</a></td> -->
+            {% endfor %}
+          </div>
+          <div class="program-button-container">
+            <a class="lgx-btn" href="/bootcamp/apply" target="_blank">Apply Now</a>
+          </div>
+        </div>
+      </div>
+    </div><!-- CONTAINER -->
+  </div><!-- INNER -->
+</section>
+
 <section id="two-buttons">
   <div id="two-buttons-div">
     <div class="container container--thin">
       <div class="row">
-        <div class="col-sm-6 col-xs-12" style="padding-left: 0px;">
-          <div id="left" class="border-right-white">
+        <div class="col-sm-6 col-xs-12 border-right-white" style="padding-left: 0px;">
+          <div id="left" class="">
           <img src="/assets/img/bootcamp/QuestionCircle.svg" alt="Question Circle" class="center-block" />
           <h3 class="text-center">Have a few questions?</h3>
           <div class="text-center" style="margin-top: 30px;">
@@ -102,6 +146,8 @@ team: aincu
     </div>
   </div>
 </section>
+
+
 
 <section id="answer-honestly">
   <div id="answer-div">
@@ -206,7 +252,7 @@ team: aincu
 </section>
 
 <section id="motivational-quote">
-  <div class="lgx-inner">
+  <div class="lgx-inner" style="padding-bottom: 0px;">
     <div class="container container--thin">
       <div class="row">
         <p>"You don't have to feel trapped. Earn your freedom, work when & where you want. Earn a living in just 40 hours a week."</p>
@@ -214,6 +260,105 @@ team: aincu
     </div> <!-- container -->
   </div> <!-- lgx-inner-->
 </section>
+
+
+<section id="carousel">
+  <!-- <div class="lgx-slider lgx-slider-content"> -->
+    <!-- <div class="lgx-banner-style"> -->
+      <div class="lgx-inner" style="padding: 0px;">
+        <div id="lgx-main-slider" class="owl-carousel">
+          <!-- SLIDER 1 -->
+          <div class="lgx-item-common">
+            <div class="col-sm-12g">
+              <div class="slider-text-single">
+                <figure>
+                  <picture>
+                    <div class="row">
+                      <div class="col-sm-6 col-sm-offset-3" style="display: flex; align-items: center; padding: 5%;">
+                        <img src="../images/aincu/bootcamp-testimonials/alyssa-holber-linkedin.png" alt="Start something awesome with awesome inc" style="object-fit: contain; box-shadow: 0px 1px 20px 0px #0000003b;"/>
+                      </div>
+                    </div>
+                  </picture>
+                </figure>
+              </div> <!-- //.SLIDER TEXT SINGLE -->
+            </div>
+          </div><!--//.LGX ITEM COMMON // End slider 1-->
+
+          <!-- SLIDER 2 -->
+          <div class="lgx-item-common">
+            <div class="col-sm-12g">
+              <div class="slider-text-single">
+                <figure>
+                  <picture>
+                    <div class="row">
+                      <div class="col-sm-6 col-sm-offset-3" style="display: flex; align-items: center; padding: 5%;">
+                        <img src="../images/aincu/bootcamp-testimonials//roger-mullins-linkedin.png" alt="Start something awesome with awesome inc" style="object-fit: contain; box-shadow: 0px 1px 20px 0px #0000003b;"/>
+                      </div>
+                    </div>
+                  </picture>
+                </figure>
+              </div> <!-- //.SLIDER TEXT SINGLE -->
+            </div>
+          </div><!--//.LGX ITEM COMMON // End slider 2-->
+
+          <!-- SLIDER 3 -->
+          <div class="lgx-item-common">
+            <div class="col-sm-12g">
+              <div class="slider-text-single">
+                <figure>
+                  <picture>
+                    <div class="row">
+                      <div class="col-sm-6 col-sm-offset-3" style="display: flex; align-items: center; padding: 5%;">
+                        <img src="../images/aincu/bootcamp-testimonials/josh-dale-linkedin.png" alt="Start something awesome with awesome inc" style="object-fit: contain; box-shadow: 0px 1px 20px 0px #0000003b;"/>
+                      </div>
+                    </div>
+                  </picture>
+                </figure>
+              </div> <!-- //.SLIDER TEXT SINGLE -->
+            </div>
+          </div><!--//.LGX ITEM COMMON // End slider 1-->
+
+          <!-- SLIDER 4 -->
+          <div class="lgx-item-common">
+            <div class="col-sm-12g">
+              <div class="slider-text-single">
+                <figure>
+                  <picture>
+                    <div class="row">
+                      <div class="col-sm-6 col-sm-offset-3" style="display: flex; align-items: center; padding: 5%;">
+                        <img src="../images/aincu/bootcamp-testimonials/mason-williams.png" alt="Start something awesome with awesome inc" style="object-fit: contain; box-shadow: 0px 1px 20px 0px #0000003b;"/>
+                      </div>
+                    </div>
+                  </picture>
+                </figure>
+              </div> <!-- //.SLIDER TEXT SINGLE -->
+            </div>
+          </div><!--//.LGX ITEM COMMON // End slider 1-->
+
+          <!-- SLIDER 5 -->
+          <div class="lgx-item-common">
+            <div class="col-sm-12g">
+              <div class="slider-text-single">
+                <figure>
+                  <picture>
+                    <div class="row">
+                      <div class="col-sm-6 col-sm-offset-3" style="display: flex; align-items: center; padding: 5%;">
+                        <img src="../images/aincu/bootcamp-testimonials/reic-sparks.png" alt="Start something awesome with awesome inc" style="object-fit: contain; box-shadow: 0px 1px 20px 0px #0000003b;"/>
+                      </div>
+                    </div>
+                  </picture>
+                </figure>
+              </div> <!-- //.SLIDER TEXT SINGLE -->
+            </div>
+          </div><!--//.LGX ITEM COMMON // End slider 1-->
+
+        </div><!-- //.OWL CAROUSEL -->
+      </div><!-- //.INNER -->
+    <!-- </d  iv>//.LGX-BANNER-STYLE -->
+  <!-- </div>//.LGX-SLIDER-CONTENT -->
+  <!-- <a href="#what-we-do" class="view-more"><span></span></a> -->
+</section>
+<!--BANNER END-->
 
 <section id="why-awesome-inc-header">
   <svg viewbox="0 0 100 100" id="awesomeinc-clip" preserveAspectRatio="none">
@@ -325,10 +470,19 @@ team: aincu
           <img src="/assets/img/bootcamp/languages/css.png" alt="CSS Programming Language" class="img-responsive" />
         </div>
         <div class="col-sm-5ths col-md-5ths">
-          <img src="/assets/img/bootcamp/languages/git.png" alt="Git Source Control" class="img-responsive" />
+          <img src="/assets/img/bootcamp/languages/javascript.png" alt="javascript Programming language" class="img-responsive" />
         </div>
         <div class="col-sm-5ths col-md-5ths">
-          <img src="/assets/img/bootcamp/languages/javascript.png" alt="javascript Programming language" class="img-responsive" />
+          <img src="/assets/img/bootcamp/languages/python.png" alt="Python Programming language" class="img-responsive" />
+        </div>
+        <div class="col-sm-5ths col-md-5ths">
+          <img src="/assets/img/bootcamp/languages/react.png" alt="React Framework" class="img-responsive" />
+        </div>
+        <div class="col-sm-5ths col-md-5ths">
+          <img src="/assets/img/bootcamp/languages/django.png" alt="Django Framework" class="img-responsive" />
+        </div>
+        <div class="col-sm-5ths col-md-5ths">
+          <img src="/assets/img/bootcamp/languages/git.png" alt="Git Source Control" class="img-responsive" />
         </div>
         <div class="col-sm-5ths col-md-5ths">
           <img src="/assets/img/bootcamp/languages/agile.png" alt="Agile Development" class="img-responsive" />
@@ -336,7 +490,7 @@ team: aincu
       </div> <!-- row -->
       <div class="row">
         <div class="col-xs-12">
-          <p>With over 500 hours of hands-on training, you'll gain experience while building 10+ projects using HTML, CSS, JavaScript, web frameworks, GitHub, Agile, and more.</p>
+          <p>In our full-stack program, you’ll receive over 500 hours of hands-on training. Plus you'll gain experience while building 10+ projects using a comprehensive range of coding languages and frameworks, including HTML, CSS, JavaScript, React, Python, Django, GitHub, Agile, and more.</p>
           <p>Once admitted, students gain access to our self-paced Prework content. As Bootcamp begins, students start remotely with a 4-week, part-time Onboarding phase with daily "standup" video calls. After that, we kick into high gear for 12 weeks of full-time, in-person training. We've designed the Bootcamp to feel less like school, and more like your first 3 months on the job. By the conclusion of the combined 16-week program, our alumni are ready to interview with regional and national employers for the opportunity to earn a full-time position at a competitive junior developer's salary.</p>
         </div>
       </div>

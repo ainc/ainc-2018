@@ -160,6 +160,46 @@
     }
   }
 
+  #bootcamp-upcoming-dates {
+    .lgx-heading {
+      margin-bottom: 20px;
+    }
+
+    .date--big {
+      padding: 1rem 0;
+    }
+
+    .date--big p {
+      @include font-size(22);  
+      color: $brand-color2;
+      text-align: center;
+      text-transform: uppercase;
+    }
+
+    .open p {
+      @include font-size(22);  
+      color: $brand-color;
+      text-align: center;
+      text-transform: uppercase;
+    }
+
+    .program-button-container {
+      display: flex;
+      justify-content: center;
+      width: 100%;
+    }
+
+    .border--right {
+      border-right: $brand-color 2px solid;
+      @include screen-xs {
+        border-right: none;
+        margin-bottom: 30px;
+        // border-bottom: $brand-color 2px solid;
+        
+      }
+    }
+  }
+
   #answer-honestly {
     .absolute-child {
       margin: 0 auto;
