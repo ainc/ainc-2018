@@ -28,7 +28,7 @@ items:
     position: null
     cohort: w23
   - name: Mariola Hullings
-    website: https://mariolah.github.io/
+    website: https://mariola-portfolio.vercel.app/
     github: https://github.com/MariolaH
     linkedin: https://www.linkedin.com/in/mariola-hullings-9579b6238/
     img_path: mariola-hullings
@@ -102,7 +102,7 @@ items:
     github: https://github.com/Zestus01
     linkedin: http://www.linkedin.com/in/zach-estus
     img_path: zachary-estus
-    position: null
+    position: Jockey Club
     cohort: f22
   - name: Alex Galvan
     website: https://alexgalvan0.github.io/
@@ -137,7 +137,7 @@ items:
     github: https://github.com/ah1096
     linkedin: https://www.linkedin.com/in/alyssa-r-holbert/
     img_path: alyssa-holbert
-    position: null
+    position: Brooksource
     cohort: f22
   - name: Jude Martinez
     website: https://spacebuneth.github.io/
@@ -151,7 +151,7 @@ items:
     github: https://github.com/DylanMcCarty
     linkedin: https://www.linkedin.com/in/dylan-mccarty-dfm/
     img_path: dylan-mccarty
-    position: Gray
+    position: Gray Solutions
     cohort: f22
   - name: Steve McConaha
     website: https://smcconaha.github.io/
@@ -200,14 +200,14 @@ items:
     github: https://github.com/BellowingButcher
     linkedin: https://www.linkedin.com/in/mason-williams-20a347255/
     img_path: mason-williams
-    position: null
+    position: Gray Solutions
     cohort: f22
   - name: Daniel Winn
     website: https://robert-danielwinn.web.app/
     github: https://github.com/DanTheHydrated
     linkedin: https://www.linkedin.com/in/robert-daniel-winn/
     img_path: daniel-winn
-    position: null
+    position: UK Healthcare
     cohort: f22
   - name: Chad Cooper
     website: null
