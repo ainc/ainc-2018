@@ -19,7 +19,7 @@
       height: 90vh;
     }
     .lgx-heading-area {
-      margin-top: 20vh;
+      margin-top: 13vh;
       @include screen-tablet-max {
         margin-top: 10vh;
       }
@@ -27,9 +27,32 @@
         margin-top: 5vh;
       }
     }
-    .lgx-inner {
+
+    .cta-title {
+      font-size: 54px;
+      margin-bottom: 30px;
       @include screen-xs {
-        padding-top: 8.29rem;
+        font-size: 35px;
+        margin-bottom: 0px;
+      }
+
+      .red {
+        color: $brand-red-bright;
+      }
+    }
+
+    .cta-subtitle {
+      font-size: 2.4rem;
+      font-weight: 300;
+      @include screen-xs {
+        font-size: 12px;
+      }
+    }
+
+    .lgx-inner {
+      padding: 0;
+      @include screen-xs {
+        // padding-top: 8.29rem;
       }
     }
     #bootcamp-clip {
@@ -99,12 +122,12 @@
     .button-blurb {
      color:black;
      font-style: italic;
-     margin-top:20px;
+    //  margin-top:20px;
      text-align: left;
     }
     .get-started-btn {
       margin-top:20px;
-      margin-left: 0px;
+      margin-right: 0px;
     }
 
     .two-buttons-section {
