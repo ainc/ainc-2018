@@ -1,11 +1,11 @@
 ---
 title: Bootcampers & Brews
-date: 2023-04-04T22:30:04.569Z
-eventbrite_id: "594955105737"
-feature: false
-active: false
+date: 2023-06-07T22:00:04.569Z
+eventbrite_id: "640836508247"
+feature: true
+active: true
 location: Mirror Twin Brewing
-image: /images/uploads/bootcampers-brews-eventbrite-header.png
+image: /images/uploads/bootcampers-brews-eventbrite-header-1-.png
 tags:
   - bootcamp
   - developers
