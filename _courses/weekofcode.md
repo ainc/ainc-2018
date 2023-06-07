@@ -83,7 +83,7 @@ In addition to programming time inside, campers will interact with our upbeat te
         </div>
         <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
           <div class="panel-body">
-            <p>Yes, each student will need to provide his/her own laptop for the course. Either Microsoft Windows-based PC's, or Apple Mac OS X computers will work, but iPads and Chromebooks will not work for this course. We recommend a laptop made within the past 3-4 years. Computers should be free from viruses/malware. We have a limited number of <a href="https://squareup.com/market/awesome-inc/laptop-rental" target="_blank">rental laptops available for $25/day.</a></p>
+            <p>Yes, each student will need to provide his/her own laptop for the course. Either Microsoft Windows-based PC's, Apple macOS computers, and Chromebooks will work, but iPads will not work for this course. We recommend a laptop made within the past 3-4 years. Computers should be free from viruses/malware. We have a limited number of <a href="https://squareup.com/market/awesome-inc/laptop-rental" target="_blank">rental laptops available for $25/day.</a></p>
           </div>
         </div>
       </div>
