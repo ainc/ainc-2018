@@ -108,7 +108,7 @@ Prior to the Week of Code summer camp, it's a good idea to try some basic coding
 
 <h3 id="web-day">Day 2 - Websites</h3>
 
-![Website about animals](/assets/img/notes/weekofcode-animal-website.png)
+![dictionary-detective](https://github.com/ainc/ainc-2018/assets/4423998/8c3c2fb5-69e5-404b-a71e-d6d6e6079dcd)
 
 #### Plan
 
@@ -116,7 +116,7 @@ Prior to the Week of Code summer camp, it's a good idea to try some basic coding
     * Heading, Navigation, Images, Text Content
     * Two pages: home page, fun facts
 * Make our first web page using [Glitch](https://glitch.com){:target="_blank"}
-    * [Remix the project template](https://glitch.com/edit/#!/remix/my-favorite-animal){:target="_blank"}
+    * [Remix the project template](https://glitch.com/edit/#!/remix/woc-dictonary-detective?path=README.md%3A1%3A0){:target="_blank"}
 
 #### Go Beyond
 
