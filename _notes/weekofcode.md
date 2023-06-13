@@ -108,7 +108,7 @@ Prior to the Week of Code summer camp, it's a good idea to try some basic coding
 
 <h3 id="web-day">Day 2 - Websites</h3>
 
-![dictionary-detective](https://github.com/ainc/ainc-2018/assets/4423998/8c3c2fb5-69e5-404b-a71e-d6d6e6079dcd)
+<img src="https://github.com/ainc/ainc-2018/assets/4423998/8c3c2fb5-69e5-404b-a71e-d6d6e6079dcd" width='450px' alt='Dictionary Detective'/>
 
 #### Plan
 
