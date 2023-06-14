@@ -3,7 +3,7 @@ layout: post
 title: How to Start Up And Stand Out
 date: 2023-06-14T18:49:02.580Z
 header_img: /images/uploads/kennedi-s-blog-cover-photo.jpg
-author_img: /images/uploads/kennedi-faith2.jpg
+author_img: /images/uploads/kennedi-faith.jpg
 author: Kennedi Brookins, Marketing Intern
 description: A small business owner shares how she turned her passions to profits.
 ---
