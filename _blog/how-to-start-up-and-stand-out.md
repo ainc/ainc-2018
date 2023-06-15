@@ -3,12 +3,10 @@ layout: post
 title: How to Start Up And Stand Out
 date: 2023-06-14T18:49:02.580Z
 header_img: /images/uploads/kennedi-s-blog-cover-photo.jpg
-author_img: /images/uploads/kennedi-faith.jpg
+author_img: /images/uploads/kennedi-faith2.jpg
 author: Kennedi Brookins, Marketing Intern
 description: A small business owner shares how she turned her passions to profits.
 ---
-**Introduce how to know who you are and understand who you are as a brand.**
-
 Most people don’t realize it, but no matter where you work, you are a brand. 
 
 A brand is a product, service, or concept that can be distinguished from other products, services, or concepts so it can be easily marketed. If you’re looking to stand out with your business, in the office or amongst co-workers, you have to first understand who you are. What makes you unique?  Whether it’s your skills, mindset, or attitude, everyone is unique in their own way. However, only few tap into their uniqueness and leverage it to their advantage. 
