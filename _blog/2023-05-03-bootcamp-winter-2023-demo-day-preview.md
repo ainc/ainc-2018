@@ -29,9 +29,7 @@ Nine students, now developers, are presenting at Demo Day. Here’s the crew:
 
 Elden Ring Character Planner - Character Builder
 
-{% comment %}
-* [Watch Brian Burdine introduce Elden Ring Character Planner](&t=778s)
-{% endcomment %}
+* [Watch Brian Burdine introduce Elden Ring Character Planner](https://www.youtube.com/watch?v=dCreQQG6ov4&t=1245s)
 * [Try Elden Ring Character Planner live](https://er-character-planner-frontend.web.app/)
 * [Brian Burdine on GitHub](https://github.com/brian-burdine)
 * [Brian Burdine on LinkedIn](https://www.linkedin.com/in/brian-burdine-6a672a23b/)
@@ -42,9 +40,7 @@ Elden Ring Character Planner - Character Builder
 
 PocketPro - Golf App - Score Tracker
 
-{% comment %}
-* [Watch John-Michael Crawford introduce PocketPro](&t=875s)
-{% endcomment %}
+* [Watch John-Michael Crawford introduce PocketPro](https://www.youtube.com/watch?v=dCreQQG6ov4&t=1577s)
 * [Try PocketPro live](https://pocket-pro-api.web.app/)
 * [John-Michael Crawford on GitHub](https://github.com/JMC818386)
 * [John-Michael Crawford on LinkedIn](https://www.linkedin.com/in/john-michaelcrawford/)
@@ -55,9 +51,7 @@ PocketPro - Golf App - Score Tracker
 
 MovieMania - IMDB Clone
 
-{% comment %}
-* [Watch Josiah Charley introduce MovieMania](&t=943s)
-{% endcomment %}
+* [Watch Josiah Charley introduce MovieMania](https://www.youtube.com/watch?v=dCreQQG6ov4&t=940s)
 * [Try MovieMania live](https://moviemaniacs-6726e.web.app/home)
 * [Josiah Charley on GitHub](https://github.com/joich7)
 * [Josiah Charley on LinkedIn](https://www.linkedin.com/in/josiah-charley-024a88208/)
@@ -68,9 +62,7 @@ MovieMania - IMDB Clone
 
 WildSteppe - AllTrails - Kentucky Based
 
-{% comment %}
-* [Watch Katy Simpson introduce WildSteppe](&t=1032s)
-{% endcomment %}
+* [Watch Katy Simpson introduce WildSteppe](https://www.youtube.com/watch?v=dCreQQG6ov4&t=1397s)
 * [Try WildSteppe live](https://wildsteppe-95857.web.app/)
 * [Katy Simpson on GitHub](https://github.com/mkrs90)
 * [Katy Simpson on LinkedIn](https://www.linkedin.com/in/katy-simpson-844aa674/)
@@ -81,9 +73,7 @@ WildSteppe - AllTrails - Kentucky Based
 
 AlarmSquad - Task Manager (Todoist, TickTock)
 
-{% comment %}
-* [Watch Kelle Neal introduce AlarmSquad](&t=1159s)
-{% endcomment %}
+* [Watch Kelle Neal introduce AlarmSquad](https://www.youtube.com/watch?v=dCreQQG6ov4&t=1073s)
 * [Try AlarmSquad live](https://alarmsquad-1bf9e.web.app/)
 * [Kelle Neal on GitHub](https://github.com/Kelle-Neal)
 * [Kelle Neal on LinkedIn](https://www.linkedin.com/in/kelleneal/)
@@ -94,9 +84,7 @@ AlarmSquad - Task Manager (Todoist, TickTock)
 
 Flex - Workout App
 
-{% comment %}
-* [Watch Mariola Hullings introduce Flex](&t=1250s)
-{% endcomment %}
+* [Watch Mariola Hullings introduce Flex](https://www.youtube.com/watch?v=dCreQQG6ov4&t=608s)
 * [Try Flex live](https://flex-app.vercel.app/)
 * [Mariola Hullings on GitHub](https://github.com/MariolaH)
 * [Mariola Hullings on LinkedIn](https://www.linkedin.com/in/mariola-hullings-9579b6238/)
@@ -107,9 +95,7 @@ Flex - Workout App
 
 Bookapedia - eBook site, with a "book shelf"
 
-{% comment %}
-* [Watch Preston Soper introduce Bookapedia](&t=1326s)
-{% endcomment %}
+* [Watch Preston Soper introduce Bookapedia](https://www.youtube.com/watch?v=dCreQQG6ov4&t=838s)
 * [Try Bookapedia live](https://bookapedia-frontend.web.app/)
 * [Preston Soper on GitHub](https://github.com/psoper1)
 * [Preston Soper on LinkedIn](https://www.linkedin.com/in/preston-soper-782586100/)
@@ -135,9 +121,7 @@ Second Life - Freebie Alerts
 
 Comic Craze - Comic Book / IMDB clone
 
-{% comment %}
-* [Watch William Burbridge introduce Comic Craze](&t=1554s)
-{% endcomment %}
+* [Watch William Burbridge introduce Comic Craze](https://www.youtube.com/watch?v=dCreQQG6ov4&t=720s)
 * [Try Comic Craze live](https://ainc-comic-craze.web.app/)
 * [William Burbridge on GitHub](https://github.com/WillBridge0789)
 * [William Burbridge on LinkedIn](https://www.linkedin.com/in/willjburbridge/)
@@ -148,9 +132,15 @@ Comic Craze - Comic Book / IMDB clone
 
 Marketopia - Marketplace Clone
 
-{% comment %}
-* [Watch Zachary Thomas introduce Marketopia](&t=1647s) 
-{% endcomment %}
+* [Watch Zachary Thomas introduce Marketopia](https://www.youtube.com/watch?v=dCreQQG6ov4&t=1472s) 
 * [Try Marketopia live](https://marketopia-frontend.vercel.app/)
 * [Zachary Thomas on GitHub](https://github.com/ZacRayTho)
 * [Zachary Thomas on LinkedIn](https://www.linkedin.com/in/zacraytho/)
+
+## The Video
+
+Thanks for checking out our Winter 2023 Bootcamp graduates. Here are [photos on Flickr](https://www.flickr.com/photos/awesomeinc/albums/72177720308134931), and the full video from their Demo Day:
+
+<div class="embed-responsive embed-responsive-16by9">
+  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/dCreQQG6ov4" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
