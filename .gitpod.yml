@@ -1,5 +1,7 @@
+image: gitpod/workspace-ruby-2
+
 tasks:
-  - init:
+  - before:
       bundle install
     command:
       bundle exec jekyll serve
