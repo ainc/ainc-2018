@@ -34,7 +34,7 @@ redirect_from:
       {% if job.active == true %}
       {% assign job_id = job.title | downcase | split: " " %}
         <li>
-          <a href="#{{ job_id | join: '-' }}">{{ job.title }}</a>
+          <a href="#{{ job_id | join: '' | remove: '(' | remove: ')' | remove: '/' }}">{{ job.title }}</a>
         </li>
       {% endif %}
       {% endfor %}
@@ -44,7 +44,7 @@ redirect_from:
     {% for job in jobs %}
     {% if job.active == true %}
     {% assign job_id = job.title | downcase | split: " " %}
-    <div class="job-posting" id="{{ job_id | join: '-' }}">
+    <div class="job-posting" id="{{ job_id | join: '' | remove: '(' | remove: ')' | remove: '/' }}">
     <h3>{{ job.title }}</h3>
     <p>{{ job.content }}</p>
     <p>

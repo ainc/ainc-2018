@@ -6,6 +6,7 @@ gem 'jekyll-sitemap'
 
 gem 'jekyll-assets'
 gem 'jekyll-redirect-from'
-gem 'tzinfo'
-gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
+gem "tzinfo", ">= 1", "< 3"
+gem "tzinfo-data"
 gem 'webrick'
