@@ -88,14 +88,6 @@ items:
     person: Joe Rogan
     fact: I'm writing a fantasy novel series
     team: Space
-  - img_path: /images/uploads/summer_interns-3-2.jpg
-    name: Miguel Jimenez
-    rule: "#76: no excuses, play like a champion"
-    song: “Angel” by Loyle Carner and Tom Misch
-    fact: I do what I can to live a minimalist lifestyle, except for clothes…give
-      myself room to play there
-    person: " Tom Misch"
-    team: Videographer
   - img_path: /images/uploads/summer_interns-2-2.jpg
     rule: "#10: 2-3 minutes late is okay, it shows that you are punctual but
       important enough to have other stuff going on. 5-6 minutes late is rude
@@ -112,13 +104,3 @@ items:
     person: Peter Jackson (Director)
     fact: I am a twin
     team: Video Team
-  - img_path: /images/uploads/autumn-3.jpg
-    name: Autumn Hines
-    team: Events & Marketing
-    rule: "#10 : 2-3 minutes late is okay, it shows that you are punctual but
-      important enough to have other stuff going on.  5-6 minutes late is rude
-      and shows that you don't respect people's time."
-    song: '"The lakes" by Taylor Swift'
-    person: Whitney Simmons
-    fact: I had ear surgery twice as a kid and still get ear infections pretty
-      frequently. So if I can't hear you...that's why.

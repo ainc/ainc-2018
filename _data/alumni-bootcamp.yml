@@ -1,6 +1,6 @@
 items:
   - name: William Burbridge
-    website: https://willbridge0789.github.io/
+    website: https://wburbridge.vercel.app/
     github: https://github.com/WillBridge0789
     linkedin: https://www.linkedin.com/in/willjburbridge/
     img_path: william-burbridge
@@ -81,7 +81,7 @@ items:
     github: https://github.com/naodmekonnen
     linkedin: https://www.linkedin.com/in/naod-chichaibelu/
     img_path: naod-chichaibelu
-    position: null
+    position: Brooksource
     cohort: f22
   - name: Tyler Consalvi
     website: https://tkcthulhu.github.io/The-Chronicling-of-the-Code/
