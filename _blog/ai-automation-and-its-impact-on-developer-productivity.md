@@ -36,6 +36,8 @@ Some examples of AI-powered automation tools and technologies include: 
 
 **Test automation frameworks:** AI can automate unit testing, performance testing, and regression testing, ensuring code quality and reducing the burden on developers.
 
+![Two men focused on content on a computer screen. ](/images/uploads/52084845646_96918e5400_c.jpg)
+
 ### How Does AI Automation Enhance Efficiency and Accuracy? 
 
 The reason why AI automation tools are rising to fame nowadays is because they can significantly improve coding efficiency by automating repetitive and mundane tasks. 
@@ -64,7 +66,7 @@ Another great thing about AI automation is that it can [facilitate collaboration
 
 Plus, these algorithms can also assist in code documentation and the generation of technical documentation, making it easier for you to share your work and promote collective learning. 
 
-![](https://lh6.googleusercontent.com/XiSkce7QgK31AlyHB6S--bKRKMHzBmGlU3eKPxpxeL2tjlJjRNlm9pos6cPymvwSyPwIWc5U1ayG1o6mVenniJL3R83XCTg5ETiKtLsXKKGC-cZ1iIJi5aU1pNiG99WrbzOY4t2dQOwQWerC-N7ydxk)
+![Several developers having a discussion around a desktop computer. ](https://lh6.googleusercontent.com/XiSkce7QgK31AlyHB6S--bKRKMHzBmGlU3eKPxpxeL2tjlJjRNlm9pos6cPymvwSyPwIWc5U1ayG1o6mVenniJL3R83XCTg5ETiKtLsXKKGC-cZ1iIJi5aU1pNiG99WrbzOY4t2dQOwQWerC-N7ydxk)
 
 ## Embracing the Future by Empowering Developers 
 
@@ -88,8 +90,6 @@ Empowered developers are poised to leverage AI automation as a catalyst for inno
 
 **\
 If you’re an aspiring developer who wants to learn how to code effectively and efficiently, check out [Awesome Inc’s courses](https://www.awesomeinc.org/learn) today!**
-
-
 
 **A﻿bout the Author:**
 
