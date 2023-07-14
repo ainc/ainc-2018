@@ -1,13 +1,13 @@
 items:
   - fact: I started a water gun selling business when I was in middle school.
-    img_path: /images/uploads/brianraney-wall.jpg
+    img_path: /images/uploads/brian-raney.jpg
     name: Brian Raney
     person: Truett Cathy
     rule: "#4: Always do something awesome over something not awesome"
     song: '*The Thing* aka "Fix You" by Coldplay'
     team: Co-Founder, CEO
   - fact: I know sign language and can carry on a (silent) conversation.
-    img_path: /images/uploads/emilywehrle-wall.jpg
+    img_path: /images/uploads/team-17.jpg
     name: Emily Wehrle
     person: C.S. Lewis
     rule: "#38: whatever you're saying - stop...you're about to embarrass yourself"
@@ -88,15 +88,20 @@ items:
     person: Joe Rogan
     fact: I'm writing a fantasy novel series
     team: Space
-  - img_path: /images/uploads/summer_interns-2-2.jpg
-    rule: "#10: 2-3 minutes late is okay, it shows that you are punctual but
-      important enough to have other stuff going on. 5-6 minutes late is rude
-      and shows that you don't respect people's time."
-    song: '"Right now probably Yacht Club" by Juice Wrld'
-    person: My Dad
-    name: Will Garman
-    fact: I got invited to compete at the Junior Olympics when I was like 12
-    team: Development team
+  - img_path: /images/uploads/team-13.jpg
+    name: Nick Garnett
+    rule: "#22: Go big or don't be my friend"
+    song: something Coldplay or Jon Bellion
+    person: My Mom :)
+    fact: I'm super double jointed in my elbows
+    team: Project Manager
+  - img_path: /images/uploads/team-19.jpg
+    name: Liam Chesser
+    rule: "#4: Always do something awesome over something not awesome"
+    song: Daniel Prayed by Ricky Scaggs and Patty Loveless
+    person: Bill Chesser
+    fact: I play the banjo
+    team: Video
   - img_path: /images/uploads/alex_square-1.jpg
     name: Alex Webb
     rule: "#76: No excuses, play like a champion"
@@ -104,3 +109,74 @@ items:
     person: Peter Jackson (Director)
     fact: I am a twin
     team: Video Team
+  - img_path: /images/uploads/megan_sizemore-46.jpg
+    name: Megan Sizemore
+    rule: "#26: Don't let stupid things keep you from doing awesome things"
+    song: The Legend of Ashitaka by Princess Mononoke
+    person: Jane Fonda
+    fact: I make amazing cheesecake! (humbly)
+    team: Development
+  - img_path: /images/uploads/team-23.jpg
+    name: Dylan Mordhorst
+    rule: "#29: No post-gaming in the fourth quarter, or within 100 yds of relevant
+      parties"
+    song: Greatest Love Story by LANCO
+    person: Ashton Kutcher
+    fact: I thoroughly enjoy farming
+    team: "Video "
+  - img_path: /images/uploads/team-27.jpg
+    name: David Caudill
+    rule: "#26: Don't let stupid things keep you from doing awesome things"
+    song: "There's so many, how do you choose? "
+    person: I haven't met them all yet!
+    fact: I'm old for a college student
+    team: Design
+  - img_path: /images/uploads/team-24.jpg
+    name: Jackson Phillips
+    rule: "#26: Don't let stupid things keep you from doing awesome things"
+    song: Drops of Jupiter by Train
+    person: My dad is always the go to answer
+    fact: I have had 7 concussions through my life.
+    team: Events & Marketing
+  - img_path: /images/uploads/team-20.jpg
+    name: Lauren Ford
+    rule: "#10:  2-3 minutes late is okay, it shows that you are punctual but
+      important enough to have other stuff going on.  5-6 minutes late is rude
+      and shows that you don't respect people's time."
+    song: Vienna by Billy Joel
+    person: Tina Fey
+    fact: "I am left-handed. "
+    team: Events & Marketing
+  - img_path: /images/uploads/team-43.jpg
+    rule: "#38: Whatever you're saying - stop...you're about to embarass yourself"
+    name: Linh Nguyen
+    song: At the moment it's Peaches by Jack Black
+    person: My sister, who fun fact has the same name as me except we have different
+      middle names
+    fact: A random fact about me is that I can't ride a bike.
+    team: Design
+  - img_path: /images/uploads/team-21.jpg
+    name: Evelyn Lnink
+    rule: "#38: Whatever you're saying - stop...you're about to embarass yourself"
+    song: Flowers in Your Hair by The Lumineers
+    person: Michelle Obama
+    fact: When I was very young, I ruined two cars. One by smearing outdoor deck
+      paint on it (it was a white car) and one by using the sharp side of a
+      hammer and carving my name into one of the doors.
+    team: Design
+  - img_path: /images/uploads/team-22.jpg
+    name: Tran Le
+    rule: "#36: Shoot for an S:S of 20:80 ratio or better in those you do close
+      business with.  Tolerate nothing less than a 1:99 or better in yourself or
+      intimate business partners/best friends."
+    song: Clap Your Hands by Whilk & Misky
+    person: Gal Gadot
+    fact: I love board games
+    team: Development
+  - img_path: /images/uploads/team-25.jpg
+    rule: "#26: Don't let stupid things keep you from doing awesome things"
+    name: Lindsey Brinkley
+    song: Fireflies by Owl City
+    person: Steve Carell
+    fact: I have only been to Waffle House one time
+    team: Events & Marketing
