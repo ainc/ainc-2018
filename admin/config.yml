@@ -113,6 +113,19 @@ collections:
               - {label: "Image Path", name: "img_path", widget: "hidden", default: "placeholder-wall.jpg"} # Hidden widget: https://www.netlifycms.org/docs/widgets/hidden/
               - {label: "Position", name: "position", widget: "string", required: false}
               - {label: "Cohort", name: "cohort", widget: "string", hint: "s19: Spring 2019, f19: Fall 2019", required: false}
+      - label: "Bootcamp Alumni Testimonials"
+        name: "bootcamp-alumni-testimonials"
+        file: "_data/alumni-bootcamp-testimonials.yml"
+        fields:
+          - label: "Alumni Testimonials"
+            name: "items"
+            widget: "list"
+            fields:
+              - {label: "Full Name", name: "name", widget: "string"}
+              - {label: "Company", name: "company", widget: "string"}
+              - {label: "Testimonial", name: "testimonial", widget: "string"}
+              - {label: "Title", name: "title", widget: "string"}
+              - {label: "Image", name: "image", widget: "image"}
       - name: "5across"
         label: "5 Across"
         file: "_data/5across.json"
