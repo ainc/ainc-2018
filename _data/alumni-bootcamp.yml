@@ -1,4 +1,67 @@
 items:
+  - name: Clayton Critchfield
+    website: 
+    github: https://github.com/DeveloperDadd
+    linkedin: https://www.linkedin.com/in/clayton-critchfield/
+    img_path: clayton-critchfield
+    position: null
+    cohort: s23
+  - name: Eric Emery
+    website: 
+    github: https://github.com/EricDEmery
+    linkedin: https://www.linkedin.com/in/eric-emery-bb1544279/
+    img_path: eric-emery
+    position: null
+    cohort: s23
+  - name: Ryan Howard
+    website: 
+    github: https://github.com/ryan-howard-hc
+    linkedin: https://www.linkedin.com/in/ryan-matthew-howard/
+    img_path: ryan-howard
+    position: null
+    cohort: s23
+  - name: Brad Kerr
+    website: 
+    github: https://github.com/Bradpk
+    linkedin: https://www.linkedin.com/in/brad-kerr/
+    img_path: brad-kerr
+    position: null
+    cohort: s23
+  - name: Andrew Ross
+    website: 
+    github: https://github.com/andycamguy
+    linkedin: https://www.linkedin.com/in/andrew-ross-3b3299161/
+    img_path: andrew-ross
+    position: null
+    cohort: s23
+  - name: Parker Senter
+    website: 
+    github: https://github.com/Psenter
+    linkedin: https://www.linkedin.com/in/parker-g-senter-dev/
+    img_path: parker-senter
+    position: null
+    cohort: s23
+  - name: Tyler Stamm
+    website: 
+    github: https://github.com/JTSTAM02
+    linkedin: https://www.linkedin.com/in/john-tyler-stamm
+    img_path: tyler-stamm
+    position: null
+    cohort: s23
+  - name: Matthew Toffey
+    website: 
+    github: https://github.com/Mjtoffey
+    linkedin: https://www.linkedin.com/in/matthewtoffey/
+    img_path: matthew-toffey
+    position: null
+    cohort: s23
+  - name: Shawn Vera
+    website: 
+    github: https://github.com/shawnvera
+    linkedin: https://www.linkedin.com/in/shawn-vera/
+    img_path: shawn-vera
+    position: null
+    cohort: s23
   - name: William Burbridge
     website: https://wburbridge.vercel.app/
     github: https://github.com/WillBridge0789
@@ -69,7 +132,7 @@ items:
     img_path: zachary-andrews
     position: Bolt<br>Marketing
     cohort: f22
-  - name: "Dakota Baker "
+  - name: Dakota Baker
     website: https://dakotawbaker.github.io/react-portfolio/#projectscroll
     github: https://github.com/DakotaWBaker
     linkedin: https://www.linkedin.com/in/dakotawbaker/
