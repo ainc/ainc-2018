@@ -3,8 +3,8 @@ title: Bootcamp Demo Day
 date: 2023-08-29T16:00:37.747Z
 eventbrite_id: "667632265077"
 event_url: ""
-feature: true
-active: true
+feature: false
+active: false
 location: Awesome Inc
 image: /images/uploads/51748453757_1dcc56dd2a_w.jpg
 tags:
