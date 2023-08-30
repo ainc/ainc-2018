@@ -1,67 +1,76 @@
 items:
   - name: Clayton Critchfield
-    website: 
+    website: https://developerdadd.github.io/myPortfolio/
     github: https://github.com/DeveloperDadd
     linkedin: https://www.linkedin.com/in/clayton-critchfield/
     img_path: clayton-critchfield
     position: null
     cohort: s23
+    image: /images/uploads/clayton-critchfield_prof.jpg
   - name: Eric Emery
-    website: 
+    website: https://ericdemery.github.io/
     github: https://github.com/EricDEmery
     linkedin: https://www.linkedin.com/in/eric-emery-bb1544279/
     img_path: eric-emery
     position: null
     cohort: s23
+    image: /images/uploads/eric-emery_prof.jpg
   - name: Ryan Howard
-    website: 
+    website: null
     github: https://github.com/ryan-howard-hc
     linkedin: https://www.linkedin.com/in/ryan-matthew-howard/
     img_path: ryan-howard
     position: null
     cohort: s23
+    image: /images/uploads/ryan-howard_prof.jpg
   - name: Brad Kerr
-    website: 
+    website: https://bradpk.github.io/
     github: https://github.com/Bradpk
     linkedin: https://www.linkedin.com/in/brad-kerr/
     img_path: brad-kerr
     position: null
     cohort: s23
+    image: /images/uploads/brad-kerr_prof.jpg
   - name: Andrew Ross
-    website: 
+    website: null
     github: https://github.com/andycamguy
     linkedin: https://www.linkedin.com/in/andrew-ross-3b3299161/
     img_path: andrew-ross
     position: null
     cohort: s23
+    image: /images/uploads/andrew-ross_prof.jpg
   - name: Parker Senter
-    website: 
+    website: null
     github: https://github.com/Psenter
     linkedin: https://www.linkedin.com/in/parker-g-senter-dev/
     img_path: parker-senter
     position: null
     cohort: s23
+    image: /images/uploads/parker-senter_prof.jpg
   - name: Tyler Stamm
-    website: 
+    website: https://jtstam02.github.io/
     github: https://github.com/JTSTAM02
     linkedin: https://www.linkedin.com/in/john-tyler-stamm
     img_path: tyler-stamm
     position: null
     cohort: s23
+    image: /images/uploads/tyler-stamm_prof.jpg
   - name: Matthew Toffey
-    website: 
+    website: null
     github: https://github.com/Mjtoffey
     linkedin: https://www.linkedin.com/in/matthewtoffey/
     img_path: matthew-toffey
     position: null
     cohort: s23
+    image: /images/uploads/matthew-toffey_prof.jpg
   - name: Shawn Vera
-    website: 
+    website: null
     github: https://github.com/shawnvera
     linkedin: https://www.linkedin.com/in/shawn-vera/
     img_path: shawn-vera
     position: null
     cohort: s23
+    image: /images/uploads/shawn-vera_prof.jpg
   - name: William Burbridge
     website: https://wburbridge.vercel.app/
     github: https://github.com/WillBridge0789
