@@ -1,11 +1,11 @@
 ---
-title: 5 Across August Startup Pitch Competition
-date: 2023-08-30T21:00:37.769Z
-eventbrite_id: "657704551017"
+title: 5 Across October 2023 Startup Pitch Competition
+date: 2023-10-25T21:00:37.769Z
+eventbrite_id: "705466097087"
 event_url: ""
 feature: true
 active: true
-location: The Mane on Main
+location: Worsham Theater at The University of Kentucky
 image: /images/uploads/52706774611_e726c8df00_c.jpg
 tags:
   - startup
