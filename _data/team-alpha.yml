@@ -109,35 +109,6 @@ items:
     person: Peter Jackson (Director)
     fact: I am a twin
     team: Video
-  - img_path: /images/uploads/megan_sizemore-46.jpg
-    name: Megan Sizemore
-    rule: "#26: Don't let stupid things keep you from doing awesome things"
-    song: The Legend of Ashitaka by Princess Mononoke
-    person: Jane Fonda
-    fact: I make amazing cheesecake! (humbly)
-    team: Development
-  - img_path: /images/uploads/team-23.jpg
-    name: Dylan Mordhorst
-    rule: "#29: No post-gaming in the fourth quarter, or within 100 yds of relevant
-      parties"
-    song: Greatest Love Story by LANCO
-    person: Ashton Kutcher
-    fact: I thoroughly enjoy farming
-    team: "Video "
-  - img_path: /images/uploads/team-27.jpg
-    name: David Caudill
-    rule: "#26: Don't let stupid things keep you from doing awesome things"
-    song: "There's so many, how do you choose? "
-    person: I haven't met them all yet!
-    fact: I'm old for a college student
-    team: Design
-  - img_path: /images/uploads/team-24.jpg
-    name: Jackson Phillips
-    rule: "#26: Don't let stupid things keep you from doing awesome things"
-    song: Drops of Jupiter by Train
-    person: My dad is always the go to answer
-    fact: I have had 7 concussions through my life.
-    team: Events & Marketing
   - img_path: /images/uploads/team-20.jpg
     name: Lauren Ford
     rule: "#10:  2-3 minutes late is okay, it shows that you are punctual but
@@ -147,14 +118,6 @@ items:
     person: Tina Fey
     fact: "I am left-handed. "
     team: Events & Marketing
-  - img_path: /images/uploads/team-43.jpg
-    rule: "#38: Whatever you're saying - stop...you're about to embarass yourself"
-    name: Linh Nguyen
-    song: At the moment it's Peaches by Jack Black
-    person: My sister, who fun fact has the same name as me except we have different
-      middle names
-    fact: A random fact about me is that I can't ride a bike.
-    team: Design
   - img_path: /images/uploads/team-21.jpg
     name: Evelyn Lnink
     rule: "#38: Whatever you're saying - stop...you're about to embarass yourself"
@@ -173,10 +136,3 @@ items:
     person: Gal Gadot
     fact: I love board games
     team: Development
-  - img_path: /images/uploads/team-25.jpg
-    rule: "#26: Don't let stupid things keep you from doing awesome things"
-    name: Lindsey Brinkley
-    song: Fireflies by Owl City
-    person: Steve Carell
-    fact: I have only been to Waffle House one time
-    team: Events & Marketing
