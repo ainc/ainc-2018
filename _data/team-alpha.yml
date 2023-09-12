@@ -136,3 +136,10 @@ items:
     person: Gal Gadot
     fact: I love board games
     team: Development
+  - img_path: /images/uploads/ethan_gamble-3.jpg
+    name: Ethan Gamble
+    rule: "#26: don't let stupid things keep you from doing awesome things"
+    song: Some Nights by fun.
+    person: Tony Stark (He's fictional, but c'mon)
+    fact: I am a solid disc golf player
+    team: Development
