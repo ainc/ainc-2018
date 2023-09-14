@@ -16,7 +16,7 @@ items:
     cohort: s23
     image: /images/uploads/eric-emery_prof.jpg
   - name: Ryan Howard
-    website: null
+    website: https://ryan-howard-hc.github.io/Portfolio/
     github: https://github.com/ryan-howard-hc
     linkedin: https://www.linkedin.com/in/ryan-matthew-howard/
     img_path: ryan-howard
