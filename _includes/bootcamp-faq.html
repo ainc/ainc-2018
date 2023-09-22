@@ -78,7 +78,7 @@
           {% else %}
             {% capture season_short %}{{ class.season.first | slice: 0 }}{{ class.program-begin-date | date: "%Y" | slice: 2,3 }}{% endcapture %}
           {% endif %}
-          <p>Our next Bootcamp cohort ({{ class.season.first }} {{ class.program-begin-date | date: "%Y" }}, i.e. {{ season_short }}) begins Onboarding on {{ class.prework-date | date: "%A, %B %d" }}, then moves to intensive classes from {{ class.program-begin-date | date: "%A, %B %d" }} - {{ class.program-end-date | date: "%A, %B %d" }}. The application deadline for the {{ season_short }} cohort is {{ class.application-date | date: "%A, %B %d" }}.</p>
+          <p>Our next Bootcamp cohort ({{ class.season.first }} {{ class.program-begin-date | date: "%Y" }}, i.e. {{ season_short }}) begins Onboarding on {{ class.prework-date | date: "%A, %B %e" }}, then moves to intensive classes from {{ class.program-begin-date | date: "%A, %B %e" }} - {{ class.program-end-date | date: "%A, %B %d" }}. The application deadline for the {{ season_short }} cohort is {{ class.application-date | date: "%A, %B %d" }}.</p>
         {% endfor %}
       </div>
     </div>
