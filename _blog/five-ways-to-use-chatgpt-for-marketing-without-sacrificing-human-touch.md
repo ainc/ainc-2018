@@ -6,7 +6,7 @@ header_img: /images/uploads/53026586717_53c487fcd4_w.jpg
 author_img: /images/uploads/lindsey-brinkley.jpg
 author: Lindsey Brinkley, Marketing and Events Intern
 description: "A closer look into how to use AI to boost your marketing while
-  keeping it authentic and personal. "
+  keeping it genuine. it authentic and personal. "
 ---
 <!--StartFragment-->
 
