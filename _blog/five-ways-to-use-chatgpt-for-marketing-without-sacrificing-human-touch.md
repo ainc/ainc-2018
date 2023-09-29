@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Five Ways to Use ChatGPT for Marketing Without Sacrificing Human Touch
-date: 2023-09-20T01:27:43.965Z
+date: 2023-08-09T01:27:43.965Z
 header_img: /images/uploads/53026586717_53c487fcd4_w.jpg
 author_img: /images/uploads/lindsey-brinkley.jpg
 author: Lindsey Brinkley, Marketing and Events Intern
