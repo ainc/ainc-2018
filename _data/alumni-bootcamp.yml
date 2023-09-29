@@ -40,7 +40,7 @@ items:
     cohort: s23
     image: /images/uploads/andrew-ross_prof.jpg
   - name: Parker Senter
-    website: null
+    website: https://portfolio-psenters-projects.vercel.app
     github: https://github.com/Psenter
     linkedin: https://www.linkedin.com/in/parker-g-senter-dev/
     img_path: parker-senter
