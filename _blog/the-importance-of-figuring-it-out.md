@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The Importance of Figuring It Out
-date: 2023-09-27T14:34:40.100Z
+date: 2023-08-22T14:34:40.100Z
 header_img: /images/uploads/52996083388_0bbd07e941_c.jpg
 author_img: /images/uploads/jackson-phillips.jpg
 author: Jackson Phillips, Marketing and Events Intern
