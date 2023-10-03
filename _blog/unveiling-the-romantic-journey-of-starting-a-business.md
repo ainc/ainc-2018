@@ -26,7 +26,7 @@ If you think entrepreneurship and the classic romantic comedy *When Harry Met Sa
 
 In entrepreneurship, appearances can be deceiving. Your idea may seem ordinary at first glance, but it could hold the potential to disrupt entire industries or change people's lives. Embrace the fact that the most innovative concepts often hide behind unassuming facades. Believe in your vision and trust that your business idea can be a game-changer.
 
-“When I buy a new book, I read the last page first. That way, in case I die before I finish, I know how it ends.” - Harry
+***“When I buy a new book, I read the last page first. That way, in case I die before I finish, I know how it ends.”*** - Harry
 
 Starting a business is an unpredictable journey, and the outcome will not be clear from the beginning. However, just like Harry's peculiar reading habit, conducting thorough research before launching your venture is vital. Understanding the market, identifying potential obstacles, and foreseeing challenges can help you make informed decisions and increase the likelihood of a successful outcome.
 
