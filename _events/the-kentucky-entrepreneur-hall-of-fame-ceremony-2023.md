@@ -1,6 +1,6 @@
 ---
 title: The Kentucky Entrepreneur Hall of Fame Ceremony 2023
-date: 2023-10-03T19:23:38.134Z
+date: 2023-11-02T20:30:38.134Z
 event_url: https://www.entrepreneurhof.com/induction-dinner
 feature: true
 active: true
