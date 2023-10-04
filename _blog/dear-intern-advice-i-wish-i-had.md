@@ -3,8 +3,8 @@ layout: post
 title: "Dear Intern: Advice I Wish I Had"
 date: 2023-09-19T02:52:13.729Z
 header_img: /images/uploads/52995965030_b64b56f079_c.jpg
-author_img: /images/uploads/lauren-ford.jpg
-author: Lauren Ford. Marketing and Events Intern
+author_img: /images/uploads/intern-1.jpg
+author: Lauren Ford, Marketing and Events Intern
 description: "Being an intern can be one of the most enriching experiences, but
   it's not always smooth sailing. "
 ---
