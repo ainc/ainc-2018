@@ -3,7 +3,7 @@ layout: post
 title: 4 Things to Consider When Posting For Different Platforms
 date: 2023-09-05T02:44:18.229Z
 header_img: /images/uploads/53132614873_659b256a35_c.jpg
-author_img: /images/uploads/jacqueline-benson-2.jpg
+author_img: /images/uploads/jacqueline-benson.jpg
 author: Jacqueline Benson, Creative Director
 description: "Must-have tips for those who create content for multiple channels. "
 ---
