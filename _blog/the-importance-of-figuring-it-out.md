@@ -3,7 +3,7 @@ layout: post
 title: The Importance of Figuring It Out
 date: 2023-08-22T14:34:40.100Z
 header_img: /images/uploads/52996083388_0bbd07e941_c.jpg
-author_img: /images/uploads/jackson-phillips.jpg
+author_img: /images/uploads/intern-5.jpg
 author: Jackson Phillips, Marketing and Events Intern
 description: "Surely you've heard someone tell you to \"just figure it out\".
   But why exactly is it important to know how to do that? "
