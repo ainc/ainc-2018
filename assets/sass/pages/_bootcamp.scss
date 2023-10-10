@@ -45,7 +45,8 @@
       font-size: 2.4rem;
       font-weight: 300;
       @include screen-xs {
-        font-size: 12px;
+        font-size: 16px;
+        font-weight: 300;
       }
     }
 
@@ -600,8 +601,8 @@
 
     img {
       @include screen-xs {
-        max-width: 41%;
-        margin-left: 14px;
+        max-width: 35%;
+        margin-left: 35px;
         margin-bottom: 25px;
       }
     }
@@ -635,8 +636,8 @@
       max-width: 80%;
       margin-left: 10%;
       @include screen-xs {
-        max-width: 46%;
-        margin-left: 0%;
+        max-width: 20%;
+        margin-left: 15%;
         margin-bottom: 3rem;
       }
     }
@@ -658,8 +659,8 @@
     }
     img.center-block-mobile {
       @include screen-xs {
-        max-width: 100%;
-        margin-left: 65px;
+        max-width: 70%;
+        margin-left: 9%;
       }
       
       @include screen-md {

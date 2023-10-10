@@ -16,7 +16,7 @@ team: aincu
 
 {% include woc-buttons.html %}
 
-## 2023 Summer Camps
+## Summer Camps
 ### Ages: 9-16 | Beginner - Intermediate 
 *No experience required*
 <hr>
