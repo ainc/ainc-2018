@@ -28,6 +28,9 @@
                   <div class="collapse navbar-collapse">
                     <ul class="nav navbar-nav lgx-nav">
                       <li>
+                        {% if page.url == "/bootcamp" %}
+                          <a class="lgx-btn lgx-btn-small-text sticky-button absolute-child desktop-hide" id="mobile-nav-btn" href="/bootcamp/apply">Apply Now</a> 
+                        {% endif %}
                         <div class="mobile-toggle ">
                           <a href="{{ site.data.routes.learn }}" role="button" aria-haspopup="true" aria-expanded="false">Learn To Code <span class="caret"></span></a>
                           <button class="plus navbar-toggle" data-toggle="collapse" data-target=".dropdown-submenu1">+</button>
@@ -124,7 +127,7 @@
                         </ul>
                       </li>
                       {% if page.url == "/bootcamp" %}
-                        <a class="lgx-btn lgx-btn-small-text sticky-button absolute-child" href="/bootcamp/apply">Apply Now</a> 
+                        <a class="lgx-btn lgx-btn-small-text sticky-button absolute-child mobile-hide tablet-hide" href="/bootcamp/apply">Apply Now</a> 
                       {% endif %}
                     </ul>
                   </div>
@@ -138,6 +141,3 @@
     </div><!-- //.CONTAINER -->
   </div><!-- //.INNER-->
 </div>
-{% if page.url == "/bootcamp" %}
-  <a class="lgx-btn lgx-btn-small-text sticky-button absolute-child mobile-only lgx-btn-sm" href="/bootcamp/apply">Apply Now</a> 
-{% endif %}

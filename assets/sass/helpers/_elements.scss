@@ -61,13 +61,13 @@
 .tablet-hide {
   display: inherit;
   @include screen-sm {
-    display: none;
+    display: none !important
   }
   @include screen-md {
-    display: none;
+    display: none !important
   }
   @include screen-tablet-max {
-    display: none;
+    display: none !important
   }
 }
 .mobile-only {
@@ -77,10 +77,19 @@
   }
 }
 
-.mobile-hide {
+.mobile-hide, .lgx-btn .mobile-hide {
   display: inherit;
   @include screen-xs {
     display: none;
+  }
+}
+
+.desktop-hide {
+  @include screen-lg {
+    display: none !important;
+  }
+  @include screen-max {
+    display: none !important;
   }
 }
 

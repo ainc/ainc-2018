@@ -175,31 +175,14 @@ table .lgx-btn-sm {
     left: 70px;
     z-index: 999;
     @include screen-xs {
-      display: none;
+      left: 20px
     }
     @include screen-sm {
-      display: none;
-    }
-    @include screen-md {
-      display: none;
+      left: 20px;
     }
     &.mobile-only {
-      display: none;
       top: 120px;
       left: 25%;
-      // @include screen-xs { 
-      //   display: inline-block;
-      //   position: fixed;
-      // }
-      // @include screen-md {
-      //   display: inline-block;
-      //   position: fixed;
-      //   left: 75%;
-      // }
-      // @include screen-sm {
-      //   display: inline-block;
-      //   position: fixed;
-      // }
     }
   }
 }
