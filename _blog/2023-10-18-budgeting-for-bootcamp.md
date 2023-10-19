@@ -15,30 +15,6 @@ description: Advice on budgeting for prospective students in a coding or develop
 
 By Nick Such
 
-<!-----
-
-Yay, no errors, warnings, or alerts!
-
-Conversion time: 0.795 seconds.
-
-
-Using this Markdown file:
-
-1. Paste this output into your source file.
-2. See the notes and action items below regarding this conversion run.
-3. Check the rendered output (headings, lists, code blocks, tables) for proper
-   formatting and use a linkchecker before you publish this page.
-
-Conversion notes:
-
-* Docs to Markdown version 1.0β34
-* Wed Oct 18 2023 10:56:52 GMT-0700 (PDT)
-* Source doc: How to Budget for a Coding Bootcamp - Awesome Inc
-* Tables are currently converted to HTML tables.
------>
-
-
-
 # How to Budget for a Coding Bootcamp
 
 Embarking on a coding bootcamp can be an exciting and transformative journey, but it's essential to be financially prepared for the experience. Whether you're considering enrolling in [Awesome Inc’s Web Developer Bootcamp](/bootcamp) or a similar program, creating a well-thought-out budget is crucial to ensure you can focus on your studies without constantly worrying about money. In this article, we'll provide you with a basic guide on how to budget for a 3-month coding bootcamp, including monthly expense breakdowns and money-saving tips.
