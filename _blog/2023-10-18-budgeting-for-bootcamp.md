@@ -2,14 +2,16 @@
 layout: post
 title: How To Budget for a Coding Bootcamp
 date: 2023-10-18T12:00:00.000Z
-header_img: /images/aincu/bootcamp-demo-day-fall-2022.jpg
+header_img: /images/aincu/budgeting-for-bootcamp.jpg
 author_img: /images/uploads/nick2.jpg
 author: Nick Such
 tags:
   - bootcamp
 description: Advice on budgeting for prospective students in a coding or developer bootcamp.
 ---
-![Bootcamp Demo Day Fall 2022]({{page.header_img}} "Bootcamp Demo Day at Awesome Inc - December 2022")
+![Person holding phone with calculator app and papers]({{page.header_img}} "Crunching budget numbers")
+<!-- Photo by <a href="https://unsplash.com/@kellysikkema?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Kelly Sikkema</a> on <a href="https://unsplash.com/photos/3-Tc_5LROrM?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+   -->
 
 By Nick Such
 
