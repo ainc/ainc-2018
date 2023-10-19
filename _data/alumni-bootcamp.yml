@@ -64,7 +64,7 @@ items:
     cohort: s23
     image: /images/uploads/matthew-toffey_prof.jpg
   - name: Shawn Vera
-    website: null
+    website: https://shawnvera.github.io/
     github: https://github.com/shawnvera
     linkedin: https://www.linkedin.com/in/shawn-vera/
     img_path: shawn-vera
@@ -90,7 +90,7 @@ items:
     github: https://github.com/joich7
     linkedin: https://www.linkedin.com/in/josiah-charley-024a88208/
     img_path: josiah-charley
-    position: null
+    position: FCPS
     cohort: w23
   - name: John-Michael Crawford
     website: https://jmc818386.github.io/
