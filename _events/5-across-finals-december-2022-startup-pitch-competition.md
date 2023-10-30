@@ -6,7 +6,7 @@ event_url: ""
 feature: true
 active: true
 location: TBD
-image: /images/uploads/52706774611_e726c8df00_c.jpg
+image: /images/uploads/51909625286_a422de2e98_c.jpg
 tags:
   - startup
   - 5across
