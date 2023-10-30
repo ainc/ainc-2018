@@ -1,7 +1,7 @@
 ---
-title: 5 Across October 2023 Startup Pitch Competition
-date: 2023-10-25T21:00:37.769Z
-eventbrite_id: "705466097087"
+title: 5 Across October 2024 Startup Pitch Competition
+date: 2024-10-30T21:00:37.769Z
+eventbrite_id: "748738546147"
 event_url: ""
 feature: true
 active: true
