@@ -5,7 +5,7 @@ eventbrite_id: "748738546147"
 event_url: ""
 feature: true
 active: true
-location: Worsham Theater at The University of Kentucky
+location: TBD
 image: /images/uploads/52706774611_e726c8df00_c.jpg
 tags:
   - startup
