@@ -1,6 +1,6 @@
 ---
 title: Bootcamp Demo Day - Fall 2023
-date: 2023-12-13T17:00:37.747Z
+date: 2023-12-12T17:00:37.747Z
 eventbrite_id: ""
 event_url: ""
 feature: true
