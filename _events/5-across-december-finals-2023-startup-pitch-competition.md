@@ -8,6 +8,7 @@ active: true
 location: The Kentucky Theatre
 image: /images/uploads/49178923012_9d1e01dc07_o.jpg
 tags:
+  - 5across
   - competition
   - startups
   - entrepreneur
