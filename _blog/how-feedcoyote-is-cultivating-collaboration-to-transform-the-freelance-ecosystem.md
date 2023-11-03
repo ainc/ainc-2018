@@ -1,7 +1,6 @@
 ---
 layout: post
-title: How Feedcoyote is Cultivating Collaboration to Transform the Freelance
-  Ecosystem
+title: Cultivating Collaboration to Transform the Freelance Ecosystem
 date: 2023-11-03T21:10:27.279Z
 header_img: /images/uploads/52706774611_56d58bf454_k.jpg
 author_img: /images/uploads/stevensfeedcoyote.jpeg
@@ -12,7 +11,7 @@ tags:
   - collaboration
   - industry
   - ""
-description: Go from lone wolf to being part of a pack.
+description: How Feedcoyote is helping people go from lone wolf to pack leader.
 ---
 The freelance economy is booming. In fact, more than 70 million Americans performed
 freelance work in 2022 alone. This represents 36% of the US workforce, contributing to
