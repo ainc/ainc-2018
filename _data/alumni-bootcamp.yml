@@ -1,4 +1,67 @@
 items:
+  - name: William Burroughs
+    website: 
+    github: https://github.com/WillCBurroughs
+    linkedin: https://www.linkedin.com/in/william-b-6aab03143/
+    img_path: william-burroughs
+    position: null
+    cohort: f23
+  - name: Vanessa Dickey
+    website: 
+    github: https://github.com/vanessadickey
+    linkedin: https://www.linkedin.com/in/vanessadickey
+    img_path: vanessa-dickey
+    position: null
+    cohort: f23
+  - name: Jenna Martin
+    website: 
+    github: https://github.com/jenna-theresa01
+    linkedin: https://www.linkedin.com/in/jenna-t-martin
+    img_path: jenna-martin
+    position: null
+    cohort: f23
+  - name: Tanner McDaniel
+    website: 
+    github: https://github.com/Tanner90909
+    linkedin: https://www.linkedin.com/in/tanner-mcdaniel-8b9b96171
+    img_path: tanner-mcdaniel
+    position: null
+    cohort: f23
+  - name: Jett Pennington
+    website: 
+    github: https://github.com/jlpboss
+    linkedin: https://www.linkedin.com/in/jettpennington/
+    img_path: jett-pennington
+    position: null
+    cohort: f23
+  - name: Tres Phillips
+    website: 
+    github: https://github.com/tresphill
+    linkedin: https://www.linkedin.com/in/tr%C3%A9s-phillips-243072296/
+    img_path: tres-phillips
+    position: null
+    cohort: f23
+  - name: Andie Rowell
+    website: 
+    github: https://github.com/AndieRowell
+    linkedin: https://www.linkedin.com/in/andie-rowell/
+    img_path: andie-rowell
+    position: null
+    cohort: f23
+  - name: James Spencer
+    website: 
+    github: https://github.com/RifleCityCoding
+    linkedin: https://www.linkedin.com/in/james-spencer-44709660
+    img_path: james-spencer
+    position: null
+    cohort: f23
+  - name: Dylan Wyrick
+    website: 
+    github: https://github.com/DylanWDev
+    linkedin: https://www.linkedin.com/in/dylan-wyrick/
+    img_path: dylan-wyrick
+    position: null
+    cohort: f23
   - name: Clayton Critchfield
     website: https://developerdadd.github.io/myPortfolio/
     github: https://github.com/DeveloperDadd
