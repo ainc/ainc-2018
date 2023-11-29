@@ -2,7 +2,7 @@
 title: Bootcamp Demo Day - Fall 2023
 date: 2023-12-12T17:00:37.747Z
 eventbrite_id: ""
-event_url: ""
+event_url: https://www.eventbrite.com/e/awesome-inc-demo-day-web-developer-bootcamp-fall-2023-registration-748731023647
 feature: true
 active: true
 location: Awesome Inc
