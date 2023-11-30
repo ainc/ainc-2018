@@ -6,25 +6,35 @@ page_id: confirmation
 ---
 
 <div class="container">
-	<div class="col-md-10 col-md-offset-1">
-	    <h2>Bootcamp Application Received</h2>
-        <p id="response">
-            Thanks for your interest in Awesome Inc's Web Developer Bootcamp. 
-        <br>
-        </p>
-        <div>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/o12a29ivKTY?si=6TIWojVv8_lf3e-y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-        </div>
-        <h4 id="message">
-            One of the next steps in your learn-to-code journey is to schedule an interview with our team. You can schedule one below or look for an email from us.
-        </h4>
-        <!-- Calendly inline widget begin -->
-        <div class="calendly-inline-widget" data-url="https://calendly.com/ainc/bootcamp-interview?hide_gdpr_banner=1" style="min-width:320px;height:1100px;"></div>
-        <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
-        <!-- Calendly inline widget end -->
-        <p><br /></p>
-        <p><br /></p>
-        <a href="/bootcamp" id="back-link">< < Back to Bootcamp</a>
-        <p><br /></p>
-	</div>
+	<div class="col-md-12">
+        <div class="row">
+            <h2>Bootcamp Application Received</h2>
+            <div class="col-md-6">
+                <p id="response">
+                    Thanks for your interest in Awesome Inc's Web Developer Bootcamp. 
+                <br>
+                </p>
+                <div>
+                    <iframe width="80%" height="315" src="https://www.youtube.com/embed/o12a29ivKTY?si=6TIWojVv8_lf3e-y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+            </div> <!-- Col -->
+            <div class="col-md-6">
+                <h4 id="message">
+                    The next step in your learn-to-code journey is to schedule an interview with our team. You can schedule one below or look for an email from us.
+                </h4>
+                
+                <!-- Calendly link widget begin -->
+                <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+                <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+                <p class="text-center">
+                    <a style="margin-top: 3rem;" class="lgx-btn" href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/ainc/bootcamp-interview'});return false;">Schedule Now</a>
+                </p>
+                <!-- Calendly link widget end -->
+            </div> <!-- Col -->
+        </div> <!-- Row -->
+        
+	</div> <!-- Col -->
+    <div style="margin-bottom: 5rem;">
+        <a style="margin-bottom: 5rem" href="/bootcamp" id="back-link">< < Back to Bootcamp</a>
+    </div>
 </div>
