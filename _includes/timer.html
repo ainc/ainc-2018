@@ -1,0 +1,93 @@
+<style>
+ :root {
+  /* Colors in CSS and we can use them in JS for the conic-gradient. */
+  --ring-bg-color: #ddd;
+  --ring-color: #c12029;
+}
+</style>
+
+<script>
+
+const backgroundImageTpl = `conic-gradient(
+  var(--ring-bg-color) 0deg,
+  var(--ring-bg-color) {angle}deg,
+  var(--ring-color) {angle}deg,
+  var(--ring-color) 360deg
+)`;
+
+function pad2Digits(text) {
+  let out = '00' + text;
+  return out.substring(out.length - 2);
+}
+
+// When the document is ready, attach the event handlers.
+document.addEventListener("DOMContentLoaded", function () {
+  // Get all the timers on the page.
+  const timerDivs = document.querySelectorAll('.timer');
+
+  timerDivs.forEach((timerDiv) => {
+    // Extract the seconds left from the data-seconds-left attribute.
+    let secondsLeft = parseInt(timerDiv.getAttribute('data-seconds-left'));
+    const maxSeconds = parseInt(timerDiv.getAttribute('data-max-seconds'));
+    const redirectionUrl = timerDiv.getAttribute('data-redirection-url') || '';
+    
+    // Create the inner spans: minutes, separator, seconds.
+    const spanClasses = ['minutes', 'separator', 'seconds'];
+    spanClasses.forEach((className) => {
+      let span = document.createElement('span');
+      span.classList.add(className);
+      if (className === 'separator') {
+        span.textContent = ':';
+      }
+      timerDiv.appendChild(span);
+    });
+    
+    /**
+     * Refresh UI. It recalls itself every second and then
+     * removes the timer from the DOM when it arrives at 0.
+     */
+    function refreshTimer() {
+      let minutesSpan = timerDiv.querySelector('.minutes'),
+          separatorSpan = timerDiv.querySelector('.separator'),
+          secondsSpan = timerDiv.querySelector('.seconds'),
+          angle = 0; /* Will be calculated later. */
+      
+      // Update the minutes and seconds.
+      minutesSpan.textContent = pad2Digits(Math.floor(secondsLeft / 60));
+      secondsSpan.textContent = pad2Digits(secondsLeft % 60);
+      // Update the angle of the graphical countdown.
+      angle = 360 - Math.floor(360 * secondsLeft / maxSeconds);
+      timerDiv.style.backgroundImage = backgroundImageTpl.replace(/\{angle\}/g, angle);
+        
+      if (secondsLeft > 0) {
+        secondsLeft--;
+        separatorSpan.classList.toggle('blink');
+        setTimeout(refreshTimer, 1000);
+      }
+      else {
+        timerDiv.classList.add('hidden');
+        setTimeout(
+          () => {
+            timerDiv.remove();
+            if (redirectionUrl) {
+              document.location = redirectionUrl;
+            }
+          },
+          1000
+        );
+      }
+    }
+    
+    refreshTimer();
+  });
+});
+
+
+</script>
+
+
+<div class="timer"
+     data-seconds-left="290"
+     data-max-seconds="300"
+     data-redirection-url="https://www.google.ch"
+     title="10 minutes timer set to 04:15"></div>
