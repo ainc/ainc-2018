@@ -74,3 +74,54 @@ p.left {
   padding-right: 34px;
   float: left;
 }
+
+
+.timer {
+  box-sizing: border-box;
+  font-weight: bold;
+  font-size: 1.3em;
+  position: relative; /* for the ::before disc inside */
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  vertical-align: center;
+  text-align: center;
+  margin: .5em;
+  width: 3.8em;
+  height: 3.8em;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  /* background-image will be set in JavaScript. */
+  transition: opacity 1s ease;
+  opacity: 1;
+}
+
+.timer:first-of-type {
+  margin-left: 0;
+}
+
+.timer.hidden {
+  opacity: 0;
+}
+
+.timer::before {
+  content: "";
+  display: block;
+  position: absolute;
+  background: white;
+  top: .3em;
+  left: .3em;
+  width: 3.2em;
+  height: 3.2em;
+  border-radius: 50%;
+  z-index: 0;
+}
+
+.timer span {
+  z-index: 1; /* On top of the ::before element. */
+}
+
+.timer .separator.blink {
+  opacity: 50%;
+}
